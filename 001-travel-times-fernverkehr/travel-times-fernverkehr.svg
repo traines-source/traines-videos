@@ -1,7 +1,9 @@
 <?xml-stylesheet type="text/css" href="travel-times-fernverkehr.css" ?>
 <svg viewBox="15300 9700 1920 1080" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" data-beck-style="false">
-<g id="">
-    <image href="map_1920.png" x="15093" y="9598" width="2343" height="1317"/>
+<g id="zoomable">
+    <image href="res/map_1920.png" x="15093" y="9598" width="2343" height="1317"/>
+    <path id="border" style="stroke:#808080;"/>
+    <script xlink:href="borders-epsg3857.js" />
     <g id="elements">
         <!-- e2h: >=9, e1h: >=18, e12h: >=36 -->
 
@@ -512,7 +514,7 @@
         <text data-station="EOB">Oberhausen</text>
         <text data-station="KD">Düsseldorf</text>
         <text data-station="KK">Köln</text>
-        <text data-station="KKDZ">Deutz</text>
+        <text data-station="KKDZ">Köln Messe/Deutz</text>
         <text data-station="KA">Aachen</text>
         <text data-station="KB">Bonn</text>
         <text data-station="KKO">Koblenz</text>
@@ -559,6 +561,7 @@
         <text data-station="MLI">Lindau</text>
         
         
+        <image href="res/19861025a_Staaken.jpg" preserveAspectRatio="xMidYMid slice" class="cover" data-from="1988 2 slowzoom" data-to="1988 5 slowzoom" data-zoom="70 70" />
 
     </g>
     <g id="stations">
