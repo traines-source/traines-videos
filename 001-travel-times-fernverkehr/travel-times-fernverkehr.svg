@@ -22,6 +22,19 @@
         <path data-line="BL_AH" class="e1h 34" data-stops="+0 BL +0 AH" data-length="105" data-from="2019 0 noanim" data-to="2020 0 noanim" />
         <path data-line="BL_AH" class="e12h 36" data-stops="+0 BL +0 AH" data-length="105" data-from="2020 0 noanim" />
 
+        <path data-line="AF_AH" class="some 7" data-stops="+0 AF +0 AH" data-length="140" data-from="1987 0 noanim" data-to="1995 0 noanim" />
+        <path data-line="AF_AH" class="e2h 10" data-stops="+0 AF +0 AH" data-length="130" data-from="1995 0 noanim" data-to="1996 0 noanim" />
+        <path data-line="AF_AH" class="e2h 10" data-stops="+0 AF +0 AH" data-length="110" data-from="1996 0 noanim" data-to="2003 0 noanim" />
+        <path data-line="AF_AH" class="some 3" data-stops="+0 AF +0 AH" data-length="120" data-from="2003 0 noanim" data-to="2017 0 noanim" />
+        <path data-line="AF_AH" class="e2h 10" data-stops="+0 AF +0 AH" data-length="110" data-from="2017 0 noanim" />
+
+        <path data-line="AL_WR" class="some 2" data-stops="+0 AL +0 WR" data-length="165" data-from="1987 0 noanim" data-to="1990 0 noanim"  />
+        <path data-line="AL_WR" class="some 5" data-stops="+0 AL +0 WR" data-length="120" data-from="1990 0 noanim" data-to="1992 0 noanim"  />
+        <path data-line="AL_WR" class="some 7" data-stops="+0 AL +0 WR" data-length="105" data-from="1992 0 noanim" data-to="1994 0 noanim"  />
+        <path data-line="AL_WR" class="e2h 10" data-stops="+0 AL +0 WR" data-length="105" data-from="1994 0 noanim" data-to="1996 0 noanim"  />
+        <path data-line="AL_WR" class="e2h 10" data-stops="+0 AL +0 WR" data-length="120" data-from="1996 0 noanim" data-to="1997 0 noanim"  />
+
+
         <path data-line="AH_HH" class="e12h 50" data-stops="+0 AH +0 HH" data-length="75" data-from="1987 0 noanim" data-to="1991 0 noanim" />
         <path data-line="AH_HH" class="e12h 50" data-stops="+0 AH +0 HH" data-length="70" data-from="1991 0 noanim" data-to="1998 0 noanim" />
         <path data-line="AH_HH" class="e12h 70" data-stops="+0 AH +0 HH" data-length="75" data-from="1998 0 noanim" />
@@ -89,9 +102,9 @@
 
         <path data-line="HB_HH" class="e1h 21" data-stops="+0 HB +0 HH" data-length="60" data-from="1987 0 noanim" />
 
-        <path data-line="HH_BL" class="some 3" data-stops="+0 HH +0 BL" data-length="240" data-from="1991 0 noanim" data-to="1995 0 noanim" />
-        <path data-line="HH_BL" class="some 3" data-stops="+0 HH +0 BL" data-length="210" data-from="1995 0 noanim" data-to="1996 0 noanim" />
-        <path data-line="HH_BL" class="some 1" data-stops="+0 HH +0 BL" data-length="150" data-from="1996 0 noanim" data-to="1997 0" />
+        <path data-line="HH_BL" class="some 3" data-stops="+0 HH +0 BL" data-length="240" data-from="1991 0 noanim" data-to="1994 0 noanim" />
+        <!--<path data-line="HH_BL" class="some 3" data-stops="+0 HH +0 BL" data-length="210" data-from="1995 0 noanim" data-to="1996 0 noanim" />-->
+        <path data-line="HH_BL" class="some 1" data-stops="+0 HH +0 BL" data-length="150" data-from="1994 0 noanim" data-to="1997 0" />
         <path data-line="HH_BL" class="e1h 31" data-stops="+0 HH +0 BL" data-length="110" data-from="1998 0" data-to="1999 0 noanim" />
         <path data-line="HH_BL" class="e1h 35" data-stops="+0 HH +0 BL" data-length="95" data-from="1999 0 noanim" data-to="2006 0 noanim" />
         <path data-line="HH_BL" class="e12h 60" data-stops="+0 HH +0 BL" data-length="95" data-from="2006 0 noanim" data-to="2030 0 noanim" />
@@ -105,6 +118,7 @@
         <path data-line="BL_HBS" class="e1h 25" data-stops="+0 BL +0 HBS" data-length="80" data-from="1998 0 noanim" />
 
         <!-- hochwasser 2013 -->
+        <path data-line="BL_LM" class="e2h 10" data-stops="+0 BL +0 LM" data-length="150" data-from="1987 0 noanim" data-to="1990 0 noanim" />        
         <path data-line="BL_LM" class="e2h 11" data-stops="+0 BL +0 LM" data-length="100" data-from="1990 0 noanim" data-to="1992 0 noanim" />        
         <path data-line="BL_LM" class="e1h 26" data-stops="+0 BL +0 LM" data-length="100" data-from="1992 0 noanim" data-to="1993 0 noanim" />        
         <path data-line="BL_LM" class="e1h 25" data-stops="+0 BL +0 LM" data-length="80" data-from="1993 0 noanim" data-to="1996 0 noanim" />
@@ -158,6 +172,13 @@
 
         <path data-line="FG_FKW" class="e1h 20" data-stops="+0 FG +0 FKW" data-length="80" data-from="1987 0 noanim" data-to="1988 0 noanim" />
         <path data-line="FG_FKW" class="e2h 14" data-stops="+0 FG +0 FKW" data-length="80" data-from="1988 0 noanim" />
+
+        <path data-line="EDG_KA" class="some 2" data-stops="+0 EDG +0 KA" data-length="90" data-from="1987 0 noanim" data-to="1990 0 noanim" />
+        <path data-line="EDG_KA" class="some 1" data-stops="+0 EDG +0 KA" data-length="70" data-from="1990 0 noanim" data-to="1999 0 noanim" />
+        <path data-line="EDG_KA" class="some 7" data-stops="+0 EDG +0 KA" data-length="100" data-from="1999 0 noanim" data-to="2000 0 noanim" />
+        <path data-line="EDG_KA" class="some 1" data-stops="+0 EDG +0 KA" data-length="90" data-from="2010 0 noanim" data-to="2030 0 noanim" />
+        <path data-line="EDG_KA" class="e2h 9" data-stops="+0 EDG +0 KA" data-length="80" data-from="2030 0 noanim" />
+
 
         <path data-line="FMZ_RM" class="e1h 32" data-stops="+0 FMZ +0 RM" data-length="40" data-from="1987 0 noanim" data-to="1988 0 noanim" />
         <path data-line="FMZ_RM" class="e12h 40" data-stops="+0 FMZ +0 RM" data-length="40" data-from="1988 0 noanim" data-to="1993 0 noanim" />
@@ -484,6 +505,7 @@
         <text data-station="WR">Rostock</text>
         <text data-station="WSR">Stralsund</text>
         <text data-station="WS">Schwerin</text>
+        <text data-station="AF">Flensburg</text>
         <text data-station="AK">Kiel</text>
         <text data-station="AH">Hamburg</text>
         <text data-station="AL">Lübeck</text>
@@ -569,79 +591,80 @@
         <rect id="WR" x="16395" y="9852" data-comment="Rostock" data-dir="nw" />
         <rect id="WSR" x="16476" y="9819" data-comment="Stralsund" data-dir="nw" />
         <rect id="WS" x="16333" y="9916" data-comment="Schwerin" data-dir="nw" />
+        <rect id="AF" x="16166" y="9750" data-comment="Flensburg" data-dir="nw" />
         <rect id="AK" x="16225" y="9818" data-comment="Kiel" data-dir="nw" />
-        <rect id="AH" x="16214" y="9928" data-comment="Hamburg" data-dir="n" data-label-dir="ne" />
+        <rect id="AH" x="16214" y="9928" data-comment="Hamburg" data-dir="n" />
         <rect id="AL" x="16271" y="9883" data-comment="Lübeck" data-dir="nw" />
-        <rect id="AWLA" x="16074" y="9732" data-comment="Westerland" data-dir="n" data-label-dir="ne" />
+        <rect id="AWLA" x="16074" y="9732" data-comment="Westerland" data-dir="n" />
         <rect id="BGS" x="16502" y="10071" data-comment="Gesundbrunnen" data-dir="n" />
         <rect id="BHF" x="16506" y="10076" data-comment="Berlin Ost" data-dir="n" />
-        <rect id="BL" x="16501" y="10074" data-comment="Berlin Hbf" data-dir="n" data-label-dir="e" />
-        <rect id="BCS" x="16582" y="10182" data-comment="Cottbus" data-dir="n" data-label-dir="e" />
-        <rect id="BFP" x="16601" y="10100" data-comment="Frankfurt (O)" data-dir="n" data-label-dir="e" />
+        <rect id="BL" x="16501" y="10074" data-comment="Berlin Hbf" data-dir="n" />
+        <rect id="BCS" x="16582" y="10182" data-comment="Cottbus" data-dir="n" />
+        <rect id="BFP" x="16601" y="10100" data-comment="Frankfurt (O)" data-dir="n" />
         <rect id="HE" x="15974" y="9955" data-comment="Emden" data-dir="n" />
         <rect id="HOLD" x="16062" y="9987" data-comment="Oldenburg" data-dir="n" />
         <rect id="HWOB" x="16281" y="10088" data-comment="Wolfsburg" data-dir="n" />
         <rect id="HBH" x="16094" y="9931" data-comment="Bremerhaven" data-dir="n" />
         <rect id="HB" x="16112" y="9995" data-comment="Bremen" data-dir="nw" />
         <rect id="HO" x="16048" y="10109" data-comment="Osnabrück" data-dir="nw" />
-        <rect id="HH" x="16191" y="10095" data-comment="Hannover" data-dir="n" data-label-dir="nw" />
+        <rect id="HH" x="16191" y="10095" data-comment="Hannover" data-dir="n" />
         <rect id="HBS" x="16260" y="10112" data-comment="Braunschweig" data-dir="ne" />
         <rect id="HG" x="16207" y="10211" data-comment="Göttingen" data-dir="n" />
         <rect id="EBIL" x="16088" y="10143" data-comment="Bielefeld" data-dir="ne" />
-        <rect id="EPD" x="16106" y="10187" data-comment="Paderborn" data-dir="w" data-label-dir="s" />
+        <rect id="EPD" x="16106" y="10187" data-comment="Paderborn" data-dir="w" />
         <rect id="EMST" x="16011" y="10153" data-comment="Münster Westf" data-dir="ne" />
         <rect id="EHM" x="16026" y="10192" data-comment="Hamm" data-dir="ne" />
         <rect id="EHG" x="15997" y="10235" data-comment="Hagen" data-dir="ne" />
         <rect id="EG" x="15966" y="10215" data-comment="Gelsenkirchen" data-dir="n" />
         <rect id="EDO" x="15997" y="10214" data-comment="Dortmund" data-dir="n" />
-        <rect id="EE" x="15959" y="10223" data-comment="Essen" data-dir="n" data-label-dir="s" />
+        <rect id="EE" x="15959" y="10223" data-comment="Essen" data-dir="n" />
         <rect id="EDG" x="15938" y="10226" data-comment="Duisburg" data-dir="ne" />
         <rect id="EOB" x="15945" y="10220" data-comment="Oberhausen" data-dir="nw" />
         <rect id="KD" x="15940" y="10254" data-comment="Düsseldorf" data-dir="n" />
-        <rect id="KK" x="15954" y="10292" data-comment="Köln" data-dir="n" data-label-dir="nw" />
-        <rect id="KKDZ" x="15955" y="10292" data-comment="Deutz" data-dir="n" data-label-dir="e" />
+        <rect id="KK" x="15954" y="10292" data-comment="Köln" data-dir="n" />
+        <rect id="KKDZ" x="15955" y="10292" data-comment="Deutz" data-dir="n" />
         <rect id="KA" x="15880" y="10316" data-comment="Aachen" data-dir="nw" />
-        <rect id="KB" x="15966" y="10321" data-comment="Bonn" data-dir="nw" data-label-dir="sw" />
-        <rect id="KKO" x="16008" y="10372" data-comment="Koblenz" data-dir="nw" data-label-dir="sw" />
+        <rect id="KB" x="15966" y="10321" data-comment="Bonn" data-dir="nw" />
+        <rect id="KKO" x="16008" y="10372" data-comment="Koblenz" data-dir="nw" />
         <rect id="LHA" x="16383" y="10219" data-comment="Halle" data-dir="ne" />
-        <rect id="LM" x="16352" y="10129" data-comment="Magdeburg" data-dir="n" data-label-dir="n" />
-        <rect id="LL" x="16417" y="10238" data-comment="Leipzig" data-dir="ne" data-label-dir="se" />
-        <rect id="UE" x="16302" y="10288" data-comment="Erfurt" data-dir="n" data-label-dir="nw" />
+        <rect id="LM" x="16352" y="10129" data-comment="Magdeburg" data-dir="n" />
+        <rect id="LL" x="16417" y="10238" data-comment="Leipzig" data-dir="ne" />
+        <rect id="UE" x="16302" y="10288" data-comment="Erfurt" data-dir="n" />
         <rect id="UJP" x="16349" y="10295" data-comment="Jena" data-dir="n" />
         <rect id="UWM" x="16327" y="10286" data-comment="Weimar" data-dir="n" />
         <rect id="UWM2" x="16327" y="10286" data-comment="Weimar" data-dir="n" />
-        <rect id="DH" x="16532" y="10279" data-comment="Dresden" data-dir="nw" data-label-dir="se" />
-        <rect id="DC" x="16463" y="10306" data-comment="Chemnitz" data-dir="ne" data-label-dir="se" />
-        <rect id="DG" x="16638" y="10264" data-comment="Görlitz" data-dir="ne" data-label-dir="se" />
+        <rect id="DH" x="16532" y="10279" data-comment="Dresden" data-dir="nw" />
+        <rect id="DC" x="16463" y="10306" data-comment="Chemnitz" data-dir="ne" />
+        <rect id="DG" x="16638" y="10264" data-comment="Görlitz" data-dir="ne" />
         <rect id="FKW" x="16166" y="10242" data-comment="Kassel" data-dir="n" />
         <rect id="FFU" x="16186" y="10345" data-comment="Fulda" data-dir="nw" />
         <rect id="FG" x="16099" y="10341" data-comment="Gießen" data-dir="ne" />
-        <rect id="FF" x="16099" y="10404" data-comment="Frankfurt" data-dir="n" data-label-dir="nw" />
+        <rect id="FF" x="16099" y="10404" data-comment="Frankfurt" data-dir="n" />
         <rect id="FFLF" x="16092" y="10412" data-comment="FFM Flughafen" data-dir="ne" />
-        <rect id="FMZ" x="16065" y="10418" data-comment="Mainz" data-dir="n" data-label-dir="s" />
-        <rect id="FW" x="16063" y="10409" data-comment="Wiesbaden" data-dir="n" data-label-dir="w" />
+        <rect id="FMZ" x="16065" y="10418" data-comment="Mainz" data-dir="n" />
+        <rect id="FW" x="16063" y="10409" data-comment="Wiesbaden" data-dir="n" />
         <rect id="FD" x="16096" y="10435" data-comment="Darmstadt" data-dir="n" />
         <rect id="SKL" x="16023" y="10493" data-comment="Kaiserslautern" data-dir="n" />
-        <rect id="STR" x="15928" y="10451" data-comment="Trier" data-dir="n" data-label-dir="w" />
-        <rect id="SSH" x="15956" y="10519" data-comment="Saarbrücken" data-dir="nw" data-label-dir="sw" />
-        <rect id="RM" x="16083" y="10487" data-comment="Mannheim" data-dir="n" data-label-dir="e" />
+        <rect id="STR" x="15928" y="10451" data-comment="Trier" data-dir="n" />
+        <rect id="SSH" x="15956" y="10519" data-comment="Saarbrücken" data-dir="nw" />
+        <rect id="RM" x="16083" y="10487" data-comment="Mannheim" data-dir="n" />
         <rect id="RH" x="16100" y="10497" data-comment="Heidelberg" data-dir="nw" />
-        <rect id="RK" x="16077" y="10551" data-comment="Karlsruhe" data-dir="ne" data-label-dir="nw" />
+        <rect id="RK" x="16077" y="10551" data-comment="Karlsruhe" data-dir="ne" />
         <rect id="RO" x="16038" y="10618" data-comment="Offenburg" data-dir="n" />
         <rect id="RF" x="16029" y="10679" data-comment="Freiburg" data-dir="ne" />
         <rect id="RSI" x="16115" y="10709" data-comment="Singen" data-dir="n" />
-        <rect id="RB" x="16009" y="10734" data-comment="Basel" data-dir="n" data-label-dir="e" />
+        <rect id="RB" x="16009" y="10734" data-comment="Basel" data-dir="n" />
         <rect id="NWH" x="16208" y="10445" data-comment="Würzburg"  data-dir="ne" />
-        <rect id="NN" x="16306" y="10492" data-comment="Nürnberg" data-dir="n" data-label-dir="ne" />
-        <rect id="NHO" x="16377" y="10377" data-comment="Hof" data-dir="n" data-label-dir="ne" />
+        <rect id="NN" x="16306" y="10492" data-comment="Nürnberg" data-dir="n" />
+        <rect id="NHO" x="16377" y="10377" data-comment="Hof" data-dir="n" />
         <rect id="NRH" x="16393" y="10548" data-comment="Regensburg" data-dir="w" />
         <rect id="NPA" x="16508" y="10605" data-comment="Passau" data-dir="w" />
-        <rect id="TS" x="16143" y="10578" data-comment="Stuttgart" data-dir="nw" data-label-dir="e" />
+        <rect id="TS" x="16143" y="10578" data-comment="Stuttgart" data-dir="nw" />
         <rect id="TU" x="16212" y="10628" data-comment="Ulm" data-dir="n" />
-        <rect id="MIH" x="16336" y="10583" data-comment="Ingolstadt" data-dir="nw" data-label-dir="ne" />
+        <rect id="MIH" x="16336" y="10583" data-comment="Ingolstadt" data-dir="nw" />
         <rect id="MA" x="16289" y="10632" data-comment="Augsburg" data-dir="n" />
         <rect id="MP" x="16338" y="10660" data-comment="Pasing" data-dir="nw" />
-        <rect id="MH" x="16346" y="10661" data-comment="München" data-dir="n" data-label-dir="ne" />
+        <rect id="MH" x="16346" y="10661" data-comment="München" data-dir="n" />
         <rect id="MGP" x="16307" y="10743" data-comment="Garmisch" data-dir="ne" />
         <rect id="MLI" x="16185" y="10734" data-comment="Lindau" data-dir="ne" />
 
