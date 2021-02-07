@@ -7,7 +7,7 @@
     stroke-width: 2;
 }
 
-#stations rect.helper {
+.helper {
     stroke: none;
     fill: none;
 }

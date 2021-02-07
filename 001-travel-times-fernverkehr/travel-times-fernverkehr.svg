@@ -32,7 +32,7 @@
         <path data-line="AL_WR" class="some 5" data-stops="+0 AL +0 WR" data-length="120" data-from="1990 0 noanim" data-to="1992 0 noanim"  />
         <path data-line="AL_WR" class="some 7" data-stops="+0 AL +0 WR" data-length="105" data-from="1992 0 noanim" data-to="1994 0 noanim"  />
         <path data-line="AL_WR" class="e2h 10" data-stops="+0 AL +0 WR" data-length="105" data-from="1994 0 noanim" data-to="1996 0 noanim"  />
-        <path data-line="AL_WR" class="e2h 10" data-stops="+0 AL +0 WR" data-length="120" data-from="1996 0 noanim" data-to="1997 0 noanim"  />
+        <path data-line="AL_WR" class="e2h 10" data-stops="+0 AL +0 WR" data-length="120" data-from="1996 0 noanim" data-to="1997 0"  />
 
 
         <path data-line="AH_HH" class="e12h 50" data-stops="+0 AH +0 HH" data-length="75" data-from="1987 0 noanim" data-to="1991 0 noanim" />
@@ -133,6 +133,10 @@
         <path data-line="HBS_LM" class="e12h 40" data-stops="+0 HBS +0 LM" data-length="45" data-from="1996 0 noanim" data-to="1998 0 noanim" />
         <path data-line="HBS_LM" class="e1h 25" data-stops="+0 HBS +0 LM" data-length="45" data-from="1998 0 noanim" data-to="2003 0 noanim" />
         <path data-line="HBS_LM" class="e1h 20" data-stops="+0 HBS +0 LM" data-length="45" data-from="2003 0 noanim" />
+
+        <!--<path data-line="HH_LM" class="helper" data-stops="+0 HH +0 LM" data-length="120" data-from="1990 0 noanim" data-to="1993 0 noanim" />        
+        <path data-line="HH_LM" class="helper" data-stops="+0 HH +0 LM" data-length="80" data-from="1993 0 noanim" />-->
+
 
         <path data-line="LM_WS" class="e2h 15" data-stops="+0 LM +0 WS" data-length="160" data-from="1987 0 noanim" data-to="1992 0 noanim" />        
         <path data-line="LM_WS" class="e2h 15" data-stops="+0 LM +0 WS" data-length="130" data-from="1992 0 noanim" data-to="1999 0 noanim" />        
@@ -287,7 +291,7 @@
         <path data-line="NN_NWH" class="e12h 38" data-stops="+0 NN +0 NWH" data-length="50" data-from="2003 0 noanim" data-to="2030 0 noanim" />
         <path data-line="NN_NWH" class="e12h 79" data-stops="+0 NN +0 NWH" data-length="30" data-from="2030 0 noanim" />
 
-        <path data-line="NN_UJP" class="some 7" data-stops="+0 NN +0 UJP" data-length="190" data-from="1990 0 noanim" data-to="1992 0 noanim" />
+        <path data-line="NN_UJP" class="some 7" data-stops="+0 NN +0 UJP" data-length="190" data-from="1990 0" data-to="1992 0 noanim" />
         <path data-line="NN_UJP" class="e2h 10" data-stops="+0 NN +0 UJP" data-length="170" data-from="1992 0 noanim" data-to="1995 0 noanim" />
         <path data-line="NN_UJP" class="e2h 10" data-stops="+0 NN +0 UJP" data-length="150" data-from="1995 0 noanim" data-to="2000 0 noanim" />
         <path data-line="NN_UJP" class="e2h 10" data-stops="+0 NN +0 UJP" data-length="130" data-from="2000 0 noanim" data-to="2007 0 noanim" />
@@ -297,7 +301,7 @@
         <path data-line="NN_UJP" class="some 2" data-stops="+0 NN +0 UJP" data-length="160" data-from="2018 0 noanim"/>
 
         <!-- secret connections via NWH -->
-        <path data-line="NN_UE" class="e1h 24" data-stops="+0 NN +0 UE" data-length="70" data-from="2018 0 noanim" data-to="2030 0 noanim" />
+        <path data-line="NN_UE" class="e1h 24" data-stops="+0 NN +0 UE" data-length="70" data-from="2018 0" data-to="2030 0 noanim" />
         <path data-line="NN_UE" class="e12h 45" data-stops="+0 NN +0 UE" data-length="60" data-from="2030 0 noanim" />
 
         <path data-line="LL_UJP" class="some 1" data-stops="+0 LL +0 UJP" data-length="90" data-from="1987 0 noanim" data-to="1990 0 noanim" />
@@ -583,7 +587,7 @@
         <text data-station="MLI">Lindau</text>
         
         
-        <image href="res/19861025a_Staaken.jpg" preserveAspectRatio="xMidYMid slice" class="cover" data-from="1988 2 slowzoom" data-to="1988 5 slowzoom" data-zoom="70 70" />
+        <image href="res/19861025a_Staaken.jpg" preserveAspectRatio="xMidYMid slice" class="cover" data-from="1988 2 nozoom" data-to="1988 55 nozoom" data-zoom="70 70" />
 
     </g>
     <g id="stations">
