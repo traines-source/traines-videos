@@ -1,3 +1,4 @@
-map_1920.png            https://maps-for-free.com. CC0 https://creativecommons.org/publicdomain/zero/1.0/ - © OpenStreetMap Contributors https://www.openstreetmap.org/copyright
-19861025a_Staaken.jpg   https://commons.wikimedia.org/wiki/File:19861025a_Staaken.jpg Roehrensee. CC-BY-SA https://creativecommons.org/licenses/by-sa/3.0/
-Neubaustrecke_Hannover-Würzburg_Construction_Work_Bronzell_1987-04-22.jpg https://commons.wikimedia.org/wiki/File:Neubaustrecke_Hannover-W%C3%BCrzburg_Construction_Work_Bronzell_1987-04-22.jpg Kilian Salzer. Public Domain.
+map_1920.png           https://maps-for-free.com Karte von Europa. CC0 https://creativecommons.org/publicdomain/zero/1.0/ - © OpenStreetMap Contributors https://www.openstreetmap.org/copyright
+19861025a_Staaken.jpg https://commons.wikimedia.org/wiki/File:19861025a_Staaken.jpg Grenzanlagen Berlin Staaken mit Transitzug aus Hamburg. Roehrensee. CC-BY-SA 3.0. https://creativecommons.org/licenses/by-sa/3.0/
+Neubaustrecke_Hannover-Würzburg_Construction_Work_Bronzell_1987-04-22.jpg https://commons.wikimedia.org/wiki/File:Neubaustrecke_Hannover-W%C3%BCrzburg_Construction_Work_Bronzell_1987-04-22.jpg Neubaustrecke Hannover-Würzburg. Kilian Salzer. Public Domain.
+Transitbahnhof_Marienborn_3_(G._Mach).jpg https://commons.wikimedia.org/wiki/Grenz%C3%BCbergang_Helmstedt-Marienborn?uselang=de#/media/File:Transitbahnhof_Marienborn_3_(G._Mach).jpg Interzonenbahnverkehr zwischen Helmstedt und Marienborn. Günter Mach. CC BY-SA 2.5. https://creativecommons.org/licenses/by-sa/2.5
