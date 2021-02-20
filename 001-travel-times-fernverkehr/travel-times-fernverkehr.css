@@ -10,14 +10,17 @@
 .helper {
     stroke: none;
     fill: none;
+    visibility: hidden;
+    opacity: 0;
 }
 
-path {
+#elements path {
     stroke: black;
     stroke-width: 3;
     fill: none;
     stroke-linecap: round;
     stroke-linejoin: round;
+    opacity: 0.5;
 }
 
 #elements text, text.caption {
@@ -35,23 +38,23 @@ svg {
 }
 
 
-.e12h {
+#elements .e12h {
     stroke-width: 8;
 }
 
-.e1h {
+#elements .e1h {
     stroke-width: 6;
 }
 
-.e2h {
+#elements .e2h {
     stroke-width: 4;
 }
 
-.e4h {
+#elements .e4h {
     stroke-width: 2;
 }
 
-.some {
+#elements .some {
     stroke-width: 2;
 }
 
@@ -100,6 +103,14 @@ image.cover {
 .caption {
     text-anchor: end;
     dominant-baseline: hanging;
+}
+
+#border {
+    stroke:#808080;
+    stroke-width: 3;
+    fill: none;
+    stroke-linecap: round;
+    stroke-linejoin: round;
 }
 /*
 #epoch-label, #epoch-label-bg, text, foreignObject {
