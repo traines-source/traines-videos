@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap');
 
-#stations rect {
+#elements rect {
     stroke: black;
     fill: white;
     rx: 5;

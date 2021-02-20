@@ -127,7 +127,7 @@
 
         <path data-line="HB_HH" class="e1h 21" data-stops="+0 HB +0 HH" data-length="60" data-from="1987 1 noanim-nozoom" />
 
-        <path data-line="HH_BL" class="some 3" data-stops="+0 HH +0 BL" data-length="240" data-from="1991 12" data-to="1994 1 noanim-nozoom" />
+        <path data-line="HH_BL" class="some 3" data-stops="+0 HH +0 BL" data-length="240" data-from="1991 12 nozoom" data-to="1994 1 noanim-nozoom" />
         <!--<path data-line="HH_BL" class="some 3" data-stops="+0 HH +0 BL" data-length="210" data-from="1995 1 noanim-nozoom" data-to="1996 1 noanim" />-->
         <path data-line="HH_BL" class="some 1" data-stops="+0 HH +0 BL" data-length="150" data-from="1994 1 noanim-nozoom" data-to="1997 1" />
         <path data-line="HH_BL" class="e1h 31" data-stops="+0 HH +0 BL" data-length="110" data-from="1998 1" data-to="1999 1 noanim-nozoom" />
@@ -174,7 +174,7 @@
         <path data-line="LM_WS" class="some 7" data-stops="+0 LM +0 WS" data-length="140" data-from="1999 1 noanim-nozoom" data-to="2003 1 noanim-nozoom" />        
         <path data-line="LM_WS" class="some 1" data-stops="+0 LM +0 WS" data-length="120" data-from="2003 1 noanim-nozoom" />
 
-        <path data-line="FKW_HBS" class="some 8" data-stops="+0 FKW +0 HBS" data-length="80" data-from="1991 12" data-to="1993 1 noanim-nozoom" />
+        <path data-line="FKW_HBS" class="some 8" data-stops="+0 FKW +0 HBS" data-length="80" data-from="1991 12 nozoom" data-to="1993 1 noanim-nozoom" />
         <path data-line="FKW_HBS" class="e2h 14" data-stops="+0 FKW +0 HBS" data-length="75" data-from="1993 1 noanim-nozoom" data-to="2011 1 noanim-nozoom" />
         <path data-line="FKW_HBS" class="e1h 19" data-stops="+0 FKW +0 HBS" data-length="75" data-from="2011 1 noanim-nozoom" />
 
@@ -504,15 +504,15 @@
         <path data-line="dummy" class="helper" data-stops="+0 h1 +0 h2" data-from="1989 12 noanim-keepzoom" />
         <path data-line="dummy" class="helper" data-stops="+0 h1 +0 h2" data-from="1990 12 noanim-keepzoom" />
         <path data-line="dummy" class="helper" data-stops="+0 h1 +0 h2" data-from="1991 24 noanim-keepzoom" />
-        <path data-line="dummy" class="helper" data-stops="+0 h1 +0 h2" data-from="1992 12 noanim-keepzoom" />
+        <path data-line="dummy" class="helper" data-stops="+0 h1 +0 h2" data-from="1992 17 noanim-keepzoom" />
         <path data-line="dummy" class="helper" data-stops="+0 h1 +0 h2" data-from="1993 12 noanim-keepzoom" />
         <path data-line="dummy" class="helper" data-stops="+0 h1 +0 h2" data-from="1994 12 noanim-keepzoom" />
         <path data-line="dummy" class="helper" data-stops="+0 h1 +0 h2" data-from="1995 12 noanim-keepzoom" />
         <path data-line="dummy" class="helper" data-stops="+0 h1 +0 h2" data-from="1996 5 noanim-keepzoom" />
         <path data-line="dummy" class="helper" data-stops="+0 h1 +0 h2" data-from="1997 5 noanim-keepzoom" />
-        <path data-line="dummy" class="helper" data-stops="+0 h1 +0 h2" data-from="1998 12 noanim-keepzoom" />
+        <path data-line="dummy" class="helper" data-stops="+0 h1 +0 h2" data-from="1998 20 noanim-keepzoom" />
         <path data-line="dummy" class="helper" data-stops="+0 h1 +0 h2" data-from="1999 5 noanim-keepzoom" />
-        <path data-line="dummy" class="helper" data-stops="+0 h1 +0 h2" data-from="2000 20 noanim-keepzoom" />
+        <path data-line="dummy" class="helper" data-stops="+0 h1 +0 h2" data-from="2000 25 noanim-keepzoom" />
         <path data-line="dummy" class="helper" data-stops="+0 h1 +0 h2" data-from="2001 12 noanim-keepzoom" />
         <path data-line="dummy" class="helper" data-stops="+0 h1 +0 h2" data-from="2003 12 noanim-keepzoom" />
         <path data-line="dummy" class="helper" data-stops="+0 h1 +0 h2" data-from="2004 5 noanim-keepzoom" />
@@ -537,93 +537,6 @@
 <!-- renovierung sfs -->
 <!-- Lindau, Singen-RK, Siegen-Gießen, Magdeburg-Schwerin, Cottbus, regenburg-münchen, -->
 
-          
-        <text data-station="WR">Rostock</text>
-        <text data-station="WSR">Stralsund</text>
-        <text data-station="WS">Schwerin</text>
-        <text data-station="WNT">Neustrelitz</text>
-        <text data-station="WP">Pasewalk</text>
-        <text data-station="AF">Flensburg</text>
-        <text data-station="AK">Kiel</text>
-        <text data-station="AH">Hamburg</text>
-        <text data-station="AL">Lübeck</text>
-        <text data-station="AWLA">Westerland</text>
-        <text data-station="BGS">Gesundbrunnen</text>
-        <text data-station="BHF">Berlin Ost</text>
-        <text data-station="BL">Berlin</text>
-        <text data-station="BCS">Cottbus</text>
-        <text data-station="BFP">Frankfurt (O)</text>
-        <text data-station="HE">Emden</text>
-        <text data-station="HOLD">Oldenburg</text>
-        <text data-station="HWOB">Wolfsburg</text>
-        <text data-station="HBH">Bremerhaven</text>
-        <text data-station="HB">Bremen</text>
-        <text data-station="HO">Osnabrück</text>
-        <text data-station="HH">Hannover</text>
-        <text data-station="HBS">Braunschweig</text>
-        <text data-station="HG">Göttingen</text>
-        <text data-station="EBIL">Bielefeld</text>
-        <text data-station="EPD">Paderborn</text>
-        <text data-station="EMST">Münster</text>
-        <text data-station="EHM">Hamm</text>
-        <text data-station="EHG">Hagen</text>
-        <text data-station="EG">Gelsenkirchen</text>
-        <text data-station="EDO">Dortmund</text>
-        <text data-station="EE">Essen</text>
-        <text data-station="EDG">Duisburg</text>
-        <text data-station="EOB">Oberhausen</text>
-        <text data-station="KD">Düsseldorf</text>
-        <text data-station="KK">Köln</text>
-        <text data-station="KKDZ">Köln Messe/Deutz</text>
-        <text data-station="KA">Aachen</text>
-        <text data-station="KB">Bonn</text>
-        <text data-station="KKO">Koblenz</text>
-        <text data-station="LHA">Halle</text>
-        <text data-station="LM">Magdeburg</text>
-        <text data-station="LL">Leipzig</text>
-        <text data-station="UE">Erfurt</text>
-        <text data-station="UJP">Jena</text>
-        <text data-station="UWM">Weimar</text>
-        <text data-station="UWM2">Weimar</text>
-        <text data-station="DH">Dresden</text>
-        <text data-station="DC">Chemnitz</text>
-        <text data-station="DG">Görlitz</text>
-        <text data-station="FKW">Kassel</text>
-        <text data-station="FFU">Fulda</text>
-        <text data-station="FG">Gießen</text>
-        <text data-station="FF">Frankfurt</text>
-        <text data-station="FFLF">FFM Flughafen</text>
-        <text data-station="FMZ">Mainz</text>
-        <text data-station="FW">Wiesbaden</text>
-        <text data-station="FD">Darmstadt</text>
-        <text data-station="SKL">Kaiserslautern</text>
-        <text data-station="STR">Trier</text>
-        <text data-station="SSH">Saarbrücken</text>
-        <text data-station="RM">Mannheim</text>
-        <text data-station="RH">Heidelberg</text>
-        <text data-station="RK">Karlsruhe</text>
-        <text data-station="RO">Offenburg</text>
-        <text data-station="RF">Freiburg</text>
-        <text data-station="RSI">Singen</text>
-        <text data-station="RB">Basel</text>
-        <text data-station="NWH">Würzburg</text>
-        <text data-station="NN">Nürnberg</text>
-        <text data-station="NHO">Hof</text>
-        <text data-station="NRH">Regensburg</text>
-        <text data-station="NPA">Passau</text>
-        <text data-station="TS">Stuttgart</text>
-        <text data-station="TU">Ulm</text>
-        <text data-station="MIH">Ingolstadt</text>
-        <text data-station="MA">Augsburg</text>
-        <text data-station="MP">Pasing</text>
-        <text data-station="MH">München</text>
-        <text data-station="MGP">Garmisch-Partenkirchen</text>
-        <text data-station="MLI">Lindau</text>
-        
-        
-
-    </g>
-    <g id="stations">
         
         <rect data-station="WR" x="16395" y="9852" data-comment="Rostock" data-dir="nw" />
         <rect data-station="WSR" x="16476" y="9819" data-comment="Stralsund" data-dir="nw" />
@@ -709,17 +622,99 @@
 
         <rect data-station="h1" x="860" y="880" class="helper" data-dir="ne" />
         <rect data-station="h2" x="860" y="880" class="helper" data-dir="ne" />
+
+        <text data-station="WR">Rostock</text>
+        <text data-station="WSR">Stralsund</text>
+        <text data-station="WS">Schwerin</text>
+        <text data-station="WNT">Neustrelitz</text>
+        <text data-station="WP">Pasewalk</text>
+        <text data-station="AF">Flensburg</text>
+        <text data-station="AK">Kiel</text>
+        <text data-station="AH">Hamburg</text>
+        <text data-station="AL">Lübeck</text>
+        <text data-station="AWLA">Westerland</text>
+        <text data-station="BGS">Gesundbrunnen</text>
+        <text data-station="BHF">Berlin Ost</text>
+        <text data-station="BL">Berlin</text>
+        <text data-station="BCS">Cottbus</text>
+        <text data-station="BFP">Frankfurt (O)</text>
+        <text data-station="HE">Emden</text>
+        <text data-station="HOLD">Oldenburg</text>
+        <text data-station="HWOB">Wolfsburg</text>
+        <text data-station="HBH">Bremerhaven</text>
+        <text data-station="HB">Bremen</text>
+        <text data-station="HO">Osnabrück</text>
+        <text data-station="HH">Hannover</text>
+        <text data-station="HBS">Braunschweig</text>
+        <text data-station="HG">Göttingen</text>
+        <text data-station="EBIL">Bielefeld</text>
+        <text data-station="EPD">Paderborn</text>
+        <text data-station="EMST">Münster</text>
+        <text data-station="EHM">Hamm</text>
+        <text data-station="EHG">Hagen</text>
+        <text data-station="EG">Gelsenkirchen</text>
+        <text data-station="EDO">Dortmund</text>
+        <text data-station="EE">Essen</text>
+        <text data-station="EDG">Duisburg</text>
+        <text data-station="EOB">Oberhausen</text>
+        <text data-station="KD">Düsseldorf</text>
+        <text data-station="KK">Köln</text>
+        <text data-station="KKDZ">Köln Messe/Deutz</text>
+        <text data-station="KA">Aachen</text>
+        <text data-station="KB">Bonn</text>
+        <text data-station="KKO">Koblenz</text>
+        <text data-station="LHA">Halle</text>
+        <text data-station="LM">Magdeburg</text>
+        <text data-station="LL">Leipzig</text>
+        <text data-station="UE">Erfurt</text>
+        <text data-station="UJP">Jena</text>
+        <text data-station="UWM">Weimar</text>
+        <text data-station="UWM2">Weimar</text>
+        <text data-station="DH">Dresden</text>
+        <text data-station="DC">Chemnitz</text>
+        <text data-station="DG">Görlitz</text>
+        <text data-station="FKW">Kassel</text>
+        <text data-station="FFU">Fulda</text>
+        <text data-station="FG">Gießen</text>
+        <text data-station="FF">Frankfurt</text>
+        <text data-station="FFLF">FFM Flughafen</text>
+        <text data-station="FMZ">Mainz</text>
+        <text data-station="FW">Wiesbaden</text>
+        <text data-station="FD">Darmstadt</text>
+        <text data-station="SKL">Kaiserslautern</text>
+        <text data-station="STR">Trier</text>
+        <text data-station="SSH">Saarbrücken</text>
+        <text data-station="RM">Mannheim</text>
+        <text data-station="RH">Heidelberg</text>
+        <text data-station="RK">Karlsruhe</text>
+        <text data-station="RO">Offenburg</text>
+        <text data-station="RF">Freiburg</text>
+        <text data-station="RSI">Singen</text>
+        <text data-station="RB">Basel</text>
+        <text data-station="NWH">Würzburg</text>
+        <text data-station="NN">Nürnberg</text>
+        <text data-station="NHO">Hof</text>
+        <text data-station="NRH">Regensburg</text>
+        <text data-station="NPA">Passau</text>
+        <text data-station="TS">Stuttgart</text>
+        <text data-station="TU">Ulm</text>
+        <text data-station="MIH">Ingolstadt</text>
+        <text data-station="MA">Augsburg</text>
+        <text data-station="MP">Pasing</text>
+        <text data-station="MH">München</text>
+        <text data-station="MGP">Garmisch-Partenkirchen</text>
+        <text data-station="MLI">Lindau</text>
     </g>
 </g>
 
 <image id="staaken" href="res/19861025a_Staaken.jpg" preserveAspectRatio="xMidYMid slice" class="cover" data-from="1989 10 nozoom" data-to="1989 20 nozoom" data-zoom="60 30" />
-<image id="marienborn" href="res/Transitbahnhof_Marienborn_3_(G._Mach).jpg" preserveAspectRatio="xMidYMid slice" class="cover" data-from="1989 30 nozoom" data-to="1989 40 nozoom" data-zoom="25 50" />
-<image id="nbshh" href="res/Neubaustrecke_Hannover-Würzburg_Construction_Work_Bronzell_1987-04-22.jpg" preserveAspectRatio="xMidYMid slice" class="cover" data-from="1991 1 nozoom" data-to="1991 10 nozoom" data-zoom="40 30" />
-<image id="bebra" href="res/Bundesarchiv_Bild_183-1990-0409-314,_Bez._Erfurt,_Signal_hinter_Grenzzaun.jpg" preserveAspectRatio="xMidYMin slice" class="cover" data-from="1995 10 nozoom" data-to="1995 20 nozoom" data-zoom="50 20" />
+<image id="marienborn" href="res/Transitbahnhof_Marienborn_3_(G._Mach).jpg" preserveAspectRatio="xMidYMid slice" class="cover" data-from="1989 30 nozoom" data-to="1989 40 nozoom" data-zoom="25 40" />
+<image id="nbshh" href="res/Neubaustrecke_Hannover-Würzburg_Construction_Work_Bronzell_1987-04-22.jpg" preserveAspectRatio="xMidYMid slice" class="cover" data-from="1991 1 nozoom" data-to="1991 10 nozoom" data-zoom="45 30" />
+<image id="fkw" href="res/KS_Bhf_WHoehe_ICE.JPG" preserveAspectRatio="xMidYMid slice" class="cover" data-from="1991 23 nozoom" data-to="1991 30 nozoom" data-zoom="55 50" />
 <text x="17200" y="10740" data-inset="staaken" data-from="1989 10 nozoom" data-to="1989 20 nozoom" class="caption" >Grenzanlagen Berlin Staaken mit Transitzug aus Hamburg. Roehrensee. CC-BY-SA 3.0.</text>
 <text x="17200" y="10740" data-inset="marienborn" data-from="1989 30 nozoom" data-to="1989 40 nozoom" class="caption" >Interzonenbahnverkehr zwischen Helmstedt und Marienborn. Günter Mach. CC BY-SA 2.5.</text>
 <text x="17200" y="10740" data-inset="nbshh" data-from="1991 1 nozoom" data-to="1991 10 nozoom" class="caption" >Neubaustrecke Hannover-Würzburg. Kilian Salzer. Public Domain.</text>
-<text x="17200" y="10740" data-inset="bebra" data-from="1995 10 nozoom" data-to="1995 20 nozoom" class="caption" >Bez. Erfurt, Signal hinter Grenzzaun. Bundesarchiv, Bild 183-1990-0409-314 / Ludwig, Jürgen. CC-BY-SA 3.0.</text>
+<text x="17200" y="10740" data-inset="fkw" data-from="1991 23 nozoom" data-to="1991 30 nozoom" class="caption" >Bahnhof Kassel-Wilhelmshöhe, ICE am Gleis 2. KarleHorn at de.wikipedia. CC-BY-SA 3.0.</text>
 <rect id="epoch-label-bg" x="16990" y="9750" width="180" height="90" />
 <text id="epoch-label" x="17080" y="9800"></text>
 <script xlink:href="../../dist/network-animator.js" />
