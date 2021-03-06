@@ -47,10 +47,9 @@ function makeD(geometry) {
 }
 
 function render(geojson, setD) {
-    console.log(geojson);
     for (let i=0; i<geojson.features.length; i++) {
         const feature = geojson.features[i];
-        if (feature.geometry.type == "Point" || feature.properties["route"] != undefined ) {
+        if (feature.geometry.type == "Point" || feature.properties["route"] != undefined) {
             continue;
         }
         const clazz = 'route-' + feature.properties['route'] + ' railway-' + feature.properties['railway'] + ' tunnel-' + feature.properties['tunnel'] + ' relations-' + (feature.properties['@relations'] != undefined ? 'child' : '');
@@ -73,7 +72,7 @@ function getOrCreatePath(id) {
     if (element == undefined) {
         element = document.createElementNS(SVGNS, 'path');
         element.id = id;
-        document.getElementById('elements')?.appendChild(element);
+        document.getElementById('geo_intro')?.appendChild(element);
     }
     return element;
 }
@@ -93,6 +92,18 @@ out geom;
 [out:json][timeout:25];
 relation(id:12308943,7692475)({{bbox}});
 way(r);
+out geom;
+*/
+/*
+[out:json][timeout:25];
+(
+  way["railway"="rail"]({{bbox}});
+  way["railway"="construction"]["construction"="rail"]({{bbox}});
+  way["railway"="proposed"]["proposed"="rail"]({{bbox}});
+  relation["route"="railway"]({{bbox}});
+  relation["route"="tracks"]({{bbox}});
+ 
+);
 out geom;
 */
 fetch("railways.geojson")

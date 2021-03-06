@@ -25,6 +25,10 @@ path {
     stroke-linejoin: round;
 }
 
+#elements path {
+    stroke: black;
+}
+
 path.ice {
     stroke: #cbd0cc;
     stroke-width: 10;
@@ -103,25 +107,22 @@ svg {
     stroke-dasharray: 1 4;
 }
 
-.rail {
-    stroke: red;
+#geo_intro path {
+    stroke: black;
+    stroke-width: 10;
 }
-
-.tracks, .railway {
+#geo_intro path.railway-construction {
     stroke: green;
 }
 
-.construction {
-    stroke: orange;
+#geo_intro path.tunnel-yes {
+    stroke: #aaaaaa;
 }
 
-.relations-child {
-    stroke: blue;
+#geo_intro path.tunnel-yes.railway-construction {
+    stroke: #aaffaa;
 }
 
-.tunnel-yes {
-    opacity: 0.5;
-}
 
 #epoch-label-bg {
     fill:white;

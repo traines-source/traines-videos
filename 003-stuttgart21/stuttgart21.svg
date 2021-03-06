@@ -1,9 +1,9 @@
 <?xml-stylesheet type="text/css" href="stuttgart21.css" ?>
 <svg viewBox="64287 42000 960 540" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <g id="zoomafble">
-    <image href="res/map_99992.png" x="63066" y="42668" width="2341" height="1318"/>
+    <image href="res/high/map_5000.png" x="2670245" y="1751182" width="48830" height="27472"/>
     <g id="elements">
-
+        <g id="geo_intro"></g>
     </g>
     </g>
     <script xlink:href="railways-epsg3857.js" />
