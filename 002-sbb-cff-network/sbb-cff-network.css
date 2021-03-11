@@ -98,23 +98,23 @@ svg {
     stroke: none;
 }
 
-path.train.ICE {
-    stroke: #cbd0cc;
+path.train.IC {
+    stroke: #a72920;
     stroke-width: 6;
     marker-end: url(#ice-end);
     marker-start: url(#ice-start);
     marker-mid: url(#panto);
 }
 
-path.train.IC {
-    stroke: #9da3a6;
+path.train.IR {
+    stroke: #383e42;
     stroke-width: 6;
     marker-end: url(#ic-end);
     marker-start: url(#ic-start);
     marker-mid: url(#panto);
 }
 
-path.train.IR {
+path.train.Regio {
     stroke: #bb1e10;
     stroke-width: 6;
     marker-end: url(#regio-end);
@@ -137,16 +137,16 @@ path.train.IR {
     fill: inherit;
 }
 .bumper, .black-windscreen {
-    fill:#2e3032;
+    fill:#5b686d;
 }
 .trafficred {
-    fill:#bb1e10;
+    fill:#a72920;
 }
 .windowgrey, .windscreen {
-    fill:#9da3a6;
+    fill:#383e42;
 }
 .lightgrey, .icebody {
-    fill:#cbd0cc;
+    fill:#a72920;
 }
 .bluegrey, .cap {
     fill: #5b686d;

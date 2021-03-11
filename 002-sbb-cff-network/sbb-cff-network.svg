@@ -89,11 +89,11 @@
             <use href="#regiounit"/>
         </g>
     </marker>
-    <marker id="panto" viewBox="0 0 426,200" refX="70" refY="100" markerHeight="1" orient="auto">
+    <marker id="panto" viewBox="0 0 200,200" refX="130" refY="100" markerHeight="1" orient="auto-start-reverse">
         <path
-            d="M 0,100 L 0,90 L 110,70 M 0,100 L 0,110 L 110,130 M 87,30 L 90,35 L 90,165 L 87,170 M 117,30 120,35 L 120,165 L 117,170" class="panto" />
+            d="M 200,100 L 200,90 L 90,70 M 200,100 L 200,110 L 90,130 M 113,30 L 110,35 L 110,165 L 113,170 M 83,30 80,35 L 80,165 L 83,170" class="panto" />
         <path 
-            d="M 70,100 L 0,100" class="panto" style="stroke-width:20px" />
+            d="M 130,100 L 200,100" class="panto" style="stroke-width:20px" />
     </marker>
 </defs>
 <g id="zoomafble">
