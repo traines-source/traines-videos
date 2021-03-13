@@ -127,24 +127,6 @@
             <path data-line="ns" data-stops="+0 TSn1 +0 TSnh1   +0 TS2a +0 TS2b +0 TS2c +0 TSsh1    +0 TSs1" />
             <path data-line="ns" data-stops="+0 TSn1            +0 TS1a +0 TS1b +0 TS1c             +0 TSs1" />
 
-
-            <path data-line="sn" data-stops="TP TE TSU +0 TSs4" />
-            <path data-line="sn" data-stops="+0 TSn4 TSBCh1 TSBCh2 TSBC" />
-
-            <path data-line="ns" data-stops="TSBC TSBCh2 TSBCh1 +0 TSn1" />
-            <path data-line="ns" data-stops="+0 TSs1 TSU TE TP" />
-
-            <rect class="underthrow" width="30" height="10" x="-170" y="0" transform="rotate(45 -155 5)" />
-            <rect class="underthrow" width="30" height="10" x="140" y="0" transform="rotate(-45 155 5)" />
-
-            <path data-line="sn" data-stops="TU TSFL +0 TSs3" />
-            <path data-line="sn" data-stops="+0 TSn3 +0 TSFE TV RM" />
-            <path data-line="sn" data-stops="+0 TSn3 +0 TSFE TL" />
-
-            <path data-line="ns" data-stops="RM TV +1 TSFE +0 TSn2" />
-            <path data-line="ns" data-stops="TL +1 TSFE +0 TSn2" />
-            <path data-line="ns" data-stops="+0 TSs2 TSFL TU" />
-
             
             
             <rect data-station="TS8a" x="-40" y="-30" />
@@ -211,6 +193,27 @@
             <rect data-station="TV" x="-4000" y="-400" data-dir="e" />
 
 
+            <path data-line="sn" data-stops="TP TE TSU +0 TSs4" />
+            <path data-line="sn" data-stops="+0 TSn4 TSBCh1 TSBCh2 TSBC" />
+
+            <path data-line="ns" data-stops="TSBC TSBCh2 TSBCh1 +0 TSn1" />
+            <path data-line="ns" data-stops="+0 TSs1 TSU TE TP" />
+
+
+            <path data-train="ns" class="Regio E2BW" data-length="2" data-stops="TSBC +7+10 TS3c +29+36 TSFL" data-from="1983 1"/>
+
+
+            <rect class="underthrow" width="30" height="10" x="-170" y="0" transform="rotate(45 -155 5)" />
+            <rect class="underthrow" width="30" height="10" x="140" y="0" transform="rotate(-45 155 5)" />
+
+            <path data-line="sn" data-stops="TU TSFL +0 TSs3" />
+            <path data-line="sn" data-stops="+0 TSn3 +0 TSFE TV RM" />
+            <path data-line="sn" data-stops="+0 TSn3 +0 TSFE TL" />
+
+            <path data-line="ns" data-stops="RM TV +1 TSFE +0 TSn2" />
+            <path data-line="ns" data-stops="TL +1 TSFE +0 TSn2" />
+            <path data-line="ns" data-stops="+0 TSs2 TSFL TU" />
+
             <path data-train="sn" class="ICE FV31" data-length="4" data-stops="TSU +10+19 TS6a +25+37 TV" data-from="1983 1"/>
 
             <path data-train="sn" class="ICE FV6.1" data-length="4" data-stops="TSU -15-4 TS6a +1+37 RM" data-from="1983 1"/>
@@ -276,6 +279,10 @@
 
             <path data-train="sn" class="Regio BWEx9" data-length="2" data-stops="TSU +18+25 TS5a +28+41 TV" data-from="1983 1"/>
             <path data-train="sn" class="Regio BWEx9" data-length="2" data-stops="TSU +78+85 TS5a +88+101 TV" data-from="1983 1"/>
+
+
+
+
 
         </g>
     </g>
