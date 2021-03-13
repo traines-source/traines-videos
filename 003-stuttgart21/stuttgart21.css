@@ -20,16 +20,17 @@ rect.station.helper {
 }
 
 path {
+    stroke: black;
     fill: none;
     stroke-linecap: round;
     stroke-linejoin: round;
 }
 
-#elements path {
-    stroke: black;
+.unit path {
+    stroke: none;
 }
 
-path.ice {
+path.train.ICE {
     stroke: #cbd0cc;
     stroke-width: 10;
     marker-end: url(#ice-end);
@@ -37,7 +38,7 @@ path.ice {
     marker-mid: url(#panto);
 }
 
-path.ic {
+path.train.IC {
     stroke: #9da3a6;
     stroke-width: 10;
     marker-end: url(#ic-end);
@@ -45,7 +46,7 @@ path.ic {
     marker-mid: url(#panto);
 }
 
-path.regio {
+path.train.Regio {
     stroke: #bb1e10;
     stroke-width: 10;
     marker-end: url(#regio-end);
@@ -58,10 +59,10 @@ path.regio {
     stroke-width: 10;
 }
 
-.train-end {
+.train-start {
     fill:#f7b500;
 }
-.train-start {
+.train-end {
     fill: #ff2d21;
 }
 .lamp {
