@@ -7,14 +7,14 @@
     stroke-width: 2;
 }*/
 
-#elements rect {
+rect.station {
     stroke: black;
     fill: white;
     rx: 3;
     stroke-width: 1;
 }
 
-#elements rect.helper {
+rect.station.helper {
     stroke: none;
     fill: none;
 }
@@ -167,6 +167,10 @@ svg {
     color: white;
 }
 
+.underthrow {
+    stroke: none;
+    fill: grey;
+}
 
 /*
 #epoch-label, #epoch-label-bg, text, foreignObject {

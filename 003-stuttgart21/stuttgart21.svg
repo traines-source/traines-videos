@@ -1,11 +1,216 @@
 <?xml-stylesheet type="text/css" href="stuttgart21.css" ?>
 <svg viewBox="64287 42000 960 540" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <g id="zoomafble">
+<defs>
+    <g id="regiounit" class="unit">
+        <path
+            class="bumper"
+            d="M 100,13 H 102 V 12 H 105 V 17 H 102 V 16 H 99 L 100,13 M 100,37 H 102 V 38 H 105 V 33 H 102 V 34 H 99 L 100,37" />
+        <path
+            class="trafficred"
+            d="M 65,0 C 65,0 72,1 74,1  76,1 89,4 89,5  89,6 100,5 100,12  100,19 99,13 99,25  99,37 100,31 100,38  100,45 89,44 89,45  89,46 76,49 74,49  72,49 65,50 65,50 Z" />
+        <path
+            class="windowgrey"
+            d="M 65,15 C 65,11 72,6 75,6  80,6 98,8 98,14  98,19 98,25 98,25  98,25 98,31 98,36  98,42 80,44 75,44  72,44 65,39 65,35 Z" />
+        <path
+            class="black-windscreen"
+            d="M 98,25 C 98,25 98,22 98,18  98,14 88,10 88,10  87,10 80,12 80,13  80,14 81,25 81,25  81,25 80,36 80,37  80,38 87,40 88,40  88,40 98,36 98,32  98,28 98,25 98,25" />
+        <path
+            class="lamp"
+            d="M 82,25 83,23 86,22 85,25 86,28 83,27 82,25" />
+    </g>
+    <g id="icunit" class="unit">
+        <path
+            class="bumper"
+            d="M 100,13 H 102 V 12 H 105 V 17 H 102 V 16 H 99 L 100,13 M 100,37 H 102 V 38 H 105 V 33 H 102 V 34 H 99 L 100,37" />
+        <path
+            class="lightgrey"
+            d="M 63,0 C 63,0 72,1 74,1  76,1 89,4 89,5  89,6 100,5 100,12  100,19 99,13 99,25  99,37 100,31 100,38  100,45 89,44 89,45  89,46 76,49 74,49  72,49 63,50 63,50 Z"
+            />
+        <path
+            class="windowgrey"
+            d="M 63,0 L 63,0 C 65,0 98,8 98,14  98,19 98,25 98,25  98,25 98,31 98,36  98,42 65,50 63,50 L 63,50" />
+        <path
+            class="black-windscreen"
+            d="M 98,25 C 98,25 98,22 98,18  98,14 88,10 88,10  87,10 80,12 80,13  80,14 81,25 81,25  81,25 80,36 80,37  80,38 87,40 88,40  88,40 98,36 98,32  98,28 98,25 98,25" />
+        <path
+            class="lamp"
+            d="M 82,25 83,23 86,22 85,25 86,28 83,27 82,25" />
+    </g>
+    <g id="iceunit" class="unit">
+        <path
+            class="icebody"
+            d="M 150,0 C 250,0 426,35 426,100 426,165 250,200 150,200 Z" />
+        <path
+            class="lamp"
+            d="M 410,86 387,76 384,60 407,72 Z" />
+        <path
+            class="lamp"
+            d="M 410,114 387,124 384,140 407,128 Z" />
+        <path
+            class="windscreen"
+            d="M 290,37 C 301,37 360,55 360,100 360,145 301,163 290,163 291,163 296,120 296,100 296,80 291,37 290,37 Z" />
+        <path
+            class="cap"
+            d="M 290,163 C 291,163 296,120 296,100 296,80 291,37 290,37 290,36 256,31 246,31 206,31 214,65 214,100 214,135 206,169 246,169 256,169 290,164 290,163 Z" />
+    </g>
+    <marker id="ice-start" viewBox="150 0 426,200" refX="150" refY="100" markerHeight="1" orient="auto-start-reverse">
+        <!--<path d="M 0,426 C 0,78 55,0 100,0 C 145,0 200,78 200,426 Z" fill="white" />
+        <path d="M 86,16 L 76,39 L 60,42 L 72,19 Z" fill="grey" />
+        <path d="M 114,16 L 124,39 L 140,42 L 128,19 Z" fill="grey" />
+        <path d="M 37,136 C 37,125 55,66 100,66 C 145,66 163,125 163,136 C 163,135 120,130 100,130 C 80,130 37,135 37,136 Z" fill="lightgrey" />
+        <path d="M 163,136 C 163,135 120,130 100,130 C 80,130 37,135 37,136 C 36,136 31,170 31,180 C 31,220 65,212 100,212 C 135,212 169,220 169,180 C 169,170 164,136 163,136 Z" fill="grey" />
+        -->
+        <g class="train-start">
+            <use href="#iceunit" />
+        </g>
+    </marker>
+    <marker id="ice-end" viewBox="150 0 426,200" refX="150" refY="100" markerHeight="1" orient="auto-start-reverse">
+        <g class="train-end">
+            <use href="#iceunit" />
+        </g>    
+    </marker>
+    <marker id="ic-start" viewBox="63 0 105,50" refX="63" refY="25" markerHeight="1" orient="auto-start-reverse">
+        <g class="train-start">
+            <use href="#icunit" />
+        </g>
+    </marker>
+    <marker id="ic-end" viewBox="63 0 105,50" refX="63" refY="25" markerHeight="1" orient="auto-start-reverse">
+        <g class="train-end">
+            <use href="#icunit"/>
+        </g>
+    </marker>
+    <marker id="regio-start" viewBox="65 0 40,50" refX="65" refY="25" markerHeight="1" orient="auto-start-reverse">
+        <g class="train-start">
+            <use href="#regiounit" />
+        </g>
+    </marker>
+    <marker id="regio-end" viewBox="65 0 40,50" refX="65" refY="25" markerHeight="1" orient="auto-start-reverse">
+        <g class="train-end">
+            <use href="#regiounit"/>
+        </g>
+    </marker>
+    <marker id="panto" viewBox="0 0 200,200" refX="130" refY="100" markerHeight="1" orient="auto-start-reverse">
+        <path
+            d="M 200,100 L 200,90 L 90,70 M 200,100 L 200,110 L 90,130 M 113,30 L 110,35 L 110,165 L 113,170 M 83,30 80,35 L 80,165 L 83,170" class="panto" />
+        <path 
+            d="M 130,100 L 200,100" class="panto" style="stroke-width:20px" />
+    </marker>
+</defs>
+<g id="zoomafble">
     <image href="res/high/map_5000.png" x="2670245" y="1751182" width="48830" height="27472"/>
     <g id="elements">
         <g id="geo_intro"></g>
+
+        <g id="gleisplan" transform="translate(2690600, 1763000) scale(1) rotate(0)">
+            <path data-line="sn" data-stops="+0 TSn4            +0 TS8a +0 TS8b +0 TS8c             +0 TSs4" />
+            <path data-line="sn" data-stops="+0 TSn4 +0 TSnh2   +0 TS7a +0 TS7b +0 TS7c +0 TSsh2    +0 TSs4" />
+            <path data-line="sn" data-stops="+0 TSn4            +0 TS6a +0 TS6b +0 TS6c             +0 TSs4" />
+            <path data-line="sn" data-stops="+0 TSn4            +0 TS5a +0 TS5b +0 TS5c             +0 TSs4" />
+
+            
+
+            <path data-line="sn" data-stops="+0 TSn3 +0 TSnh2   +0 TS8a +0 TS8b +0 TS8c +0 TSsh2    +0 TSs3" />
+            <path data-line="sn" data-stops="+0 TSn3 +0 TSnh2   +0 TS7a +0 TS7b +0 TS7c +0 TSsh2    +0 TSs3" />
+            <path data-line="sn" data-stops="+0 TSn3            +0 TS6a +0 TS6b +0 TS6c             +0 TSs3" />
+            <path data-line="sn" data-stops="+0 TSn3            +0 TS5a +0 TS5b +0 TS5c             +0 TSs3" />
+
+
+            <path data-line="ns" data-stops="+0 TSn2            +0 TS4a +0 TS4b +0 TS4c             +0 TSs2" />
+            <path data-line="ns" data-stops="+0 TSn2            +0 TS3a +0 TS3b +0 TS3c             +0 TSs2" />
+            <path data-line="ns" data-stops="+0 TSn2 +0 TSnh1   +0 TS2a +0 TS2b +0 TS2c +0 TSsh1    +0 TSs2" />
+            <path data-line="ns" data-stops="+0 TSn2 +0 TSnh1   +0 TS1a +0 TS1b +0 TS1c +0 TSsh1    +0 TSs2" />
+
+           
+
+            <path data-line="ns" data-stops="+0 TSn1            +0 TS4a +0 TS4b +0 TS4c             +0 TSs1" />
+            <path data-line="ns" data-stops="+0 TSn1            +0 TS3a +0 TS3b +0 TS3c             +0 TSs1" />
+            <path data-line="ns" data-stops="+0 TSn1 +0 TSnh1   +0 TS2a +0 TS2b +0 TS2c +0 TSsh1    +0 TSs1" />
+            <path data-line="ns" data-stops="+0 TSn1            +0 TS1a +0 TS1b +0 TS1c             +0 TSs1" />
+
+
+            <path data-line="sn" data-stops="TE TSU +0 TSs4" />
+            <path data-line="sn" data-stops="+0 TSn4 TSBCh1 TSBCh2 TSBC" />
+
+            <path data-line="ns" data-stops="TSBC TSBCh2 TSBCh1 +0 TSn1" />
+            <path data-line="ns" data-stops="+0 TSs1 TSU TE" />
+
+            <rect class="underthrow" width="30" height="10" x="-170" y="0" transform="rotate(45 -155 5)" />
+            <rect class="underthrow" width="30" height="10" x="140" y="0" transform="rotate(-45 155 5)" />
+
+            <path data-line="sn" data-stops="TU TSFL +0 TSs3" />
+            <path data-line="sn" data-stops="+0 TSn3 TSFE RM" />
+
+            <path data-line="ns" data-stops="RM TSFE +0 TSn2" />
+            <path data-line="ns" data-stops="+0 TSs2 TSFL TU" />
+
+            
+            
+            <rect data-station="TS8a" x="-40" y="-30" />
+            <rect data-station="TS8b" x="+00" y="-30" />
+            <rect data-station="TS8c" x="+40" y="-30" />
+
+            <rect data-station="TS7a" x="-40" y="-20" />
+            <rect data-station="TS7b" x="+00" y="-20" />
+            <rect data-station="TS7c" x="+40" y="-20" />
+
+            <rect data-station="TS6a" x="-40" y="-10" />
+            <rect data-station="TS6b" x="+00" y="-10" />
+            <rect data-station="TS6c" x="+40" y="-10" />
+
+            <rect data-station="TS5a" x="-40" y="0" />
+            <rect data-station="TS5b" x="+00" y="0" />
+            <rect data-station="TS5c" x="+40" y="0" />
+
+            <rect data-station="TS4a" x="-40" y="10" />
+            <rect data-station="TS4b" x="+00" y="10" />
+            <rect data-station="TS4c" x="+40" y="10" />
+
+            <rect data-station="TS3a" x="-40" y="20" />
+            <rect data-station="TS3b" x="+00" y="20" />
+            <rect data-station="TS3c" x="+40" y="20" />
+
+            <rect data-station="TS2a" x="-40" y="30" />
+            <rect data-station="TS2b" x="+00" y="30" />
+            <rect data-station="TS2c" x="+40" y="30" />
+
+            <rect data-station="TS1a" x="-40" y="40" />
+            <rect data-station="TS1b" x="+00" y="40" />
+            <rect data-station="TS1c" x="+40" y="40" />
+
+            <rect data-station="TSn4" x="-80" y="-10" />
+            <rect data-station="TSn3" x="-80" y="+00" />
+            <rect data-station="TSn2" x="-80" y="+10" />
+            <rect data-station="TSn1" x="-80" y="+20" />
+
+            <rect data-station="TSs4" x="+80" y="-10" />
+            <rect data-station="TSs3" x="+80" y="+00" />
+            <rect data-station="TSs2" x="+80" y="+10" />
+            <rect data-station="TSs1" x="+80" y="+20" />
+
+            <rect data-station="TSnh2" class="hidden helper" x="-60" y="-15" data-dir="nw" />
+            <rect data-station="TSsh2" class="hidden helper" x="60" y="-15" data-dir="ne" />
+
+            <rect data-station="TSnh1" class="hidden helper" x="-60" y="25" data-dir="ne" />
+            <rect data-station="TSsh1" class="hidden helper" x="60" y="25" data-dir="nw" />
+
+            <rect data-station="TSBCh1" x="-200" y="-50" data-dir="ne" />
+            <rect data-station="TSBCh2" x="-250" y="-250" data-dir="e" />
+
+
+            <rect data-station="TSBC" x="100" y="-650" data-dir="se" />
+            <rect data-station="TSFE" x="-600" y="-350" data-dir="ne" />
+            <rect data-station="TSU" x="750" y="-600" data-dir="nw" />
+            <rect data-station="TSFL" x="1500" y="1250" data-dir="ne" />
+            <rect data-station="TU" x="15500" y="2400" data-dir="sw" />
+            <rect data-station="RM" x="-700" y="-20000" data-dir="n" />
+            <rect data-station="TE" x="2100" y="-650" data-dir="n" />
+
+            <path data-train="ns" class="regio train" data-stops="TSFE +6+10 TS1c +14+21 TSFL" data-from="1983 1"/>
+            <!--<path data-train="ns" class="ice train" data-length="4" data-stops="TSU -10+02 TS7a +07+11 TSBC" data-from="1983 1"/>-->
+
+        </g>
     </g>
-    </g>
+</g>
     <script xlink:href="railways-epsg3857.js" />
     <script xlink:href="../../dist/network-animator.js" />
 </svg>
