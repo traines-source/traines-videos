@@ -187,8 +187,9 @@
         <path data-line="IC956" class="IC e1h" data-stops="Arth-Goldau Bellinzona Lugano Chiasso MilanoCentrale" data-from="2002 1" />
         <path data-line="IC957" class="IC some" data-stops="Arth-Goldau Bellinzona Lugano Chiasso MilanoCentrale" data-from="2002 1" />
 
-        <path data-line="IC958" class="IC e1h" data-stops="Romanshorn Weinfelden Winterthur ZürichHb Bern Thun Kandersteg Brig" data-from="2002 1" />
-
+        <path data-line="IC958" class="IC e1h" data-stops="Romanshorn Weinfelden Winterthur ZürichHb Bern Thun" data-from="2002 1" />
+        <path data-line="IC958" class="IC e1h" data-stops="Thun Kandersteg Brig" data-from="2002 1" data-to="2008 1" />
+        <path data-line="IC958" class="IC e1h" data-stops="Thun Brig" data-from="2008 1" />
 
         <path data-line="IR913" class="IR some" data-stops="BaselSBB Rheinfelden Bülach Winterthur" data-from="1982 1" data-to="2002 1" />
 
@@ -203,8 +204,8 @@
         <path data-line="IR915" class="IR e1h" data-stops="BaselSBB Rheinfelden Baden ZürichHb PfäffikonSZ Ziegelbrücke Sargans Landquart Chur" data-from="2002 1 noanim" />
 
         <path data-line="RJ916" class="IC e2h" data-stops="BaselSBB ZürichHb" data-from="1982 1" data-to="2002 1 reverse" />
-        <path data-line="RJ916" class="IC e2h" data-stops="ZürichHb Sargans BuchsSG WienStephansplatz" data-from="1982 1" data-to="2002 1" />
-        <path data-line="RJ916" class="IC some" data-stops="ZürichHb Sargans BuchsSG WienStephansplatz" data-from="2002 1" />
+        <path data-line="RJ916" class="IC e2h" data-stops="ZürichHb Sargans BuchsSG WienStephansplatz" data-from="1982 1" data-to="2002 1 noanim" />
+        <path data-line="RJ916" class="IC some" data-stops="ZürichHb Sargans BuchsSG WienStephansplatz" data-from="2002 1 noanim" />
         <path data-line="RJ916" class="IC some" data-stops="Sargans Chur" data-from="2002 1"/>
 
         <path data-line="PB917" class="IR e1h" data-stops="Landquart DavosPlatz" data-from="1982 1" />
@@ -278,11 +279,15 @@
 
         <path data-line="IC1000" class="IC e1h" data-stops="BaselSBB Liestal Olten Bern Thun Spiez" data-from="2005 1" />
         <path data-line="IC1000" class="IC e2h" data-stops="Spiez InterlakenOst" data-from="2005 1" />
-        <path data-line="IC1000" class="IC e2h" data-stops="Spiez Kandersteg Brig" data-from="2005 1" />
+        <path data-line="IC1000" class="IC e2h" data-stops="Spiez Brig" data-from="2005 1" />
 
         <path data-line="IR1002" class="IR some" data-stops="Solothurn Burgdorf Konolfingen Thun" data-from="2002 1" data-to="2005 1 noanim" />
         <path data-line="IR1002" class="IR e1h" data-stops="Solothurn Burgdorf Konolfingen Thun" data-from="2005 1 noanim" />
 
+        <path data-train="IC1100" class="IC some" data-stops="ZürichHb BaselSBB" data-from="2008 1"/>
+
+        <path data-train="IR1101" class="IC some" data-stops="Bern Thun Spiez" data-from="2008 1"/>
+        <path data-train="IR1101" class="IC e1h" data-stops="Spiez Kandersteg Brig" data-from="2008 1"/>
 
 
         <path data-line="dummy" class="helper" data-stops="WienStephansplatz MilanoCentrale" data-from="1983 1200 noanim-nozoom" />
