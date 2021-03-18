@@ -591,6 +591,12 @@
         <path data-line="EDO_EMST" class="e1h 26" data-stops="+0 EDO +0 EMST" data-from="1987 1 noanim-nozoom" data-to="1987 40 noanim-nozoom" />
         <path data-line="EDO_EMST" class="e1h 26" data-stops="+0 EDO +0 EMST" data-length="30" data-from="1987 40 noanim-nozoom" />
 
+        <path data-line="EDO_HH" class="e1h 26" data-stops="+0 EDO +0 HH" data-from="1987 1 noanim-nozoom" data-to="1987 40 noanim-nozoom" />
+        <path data-line="EDO_HH" class="e1h 29" data-stops="+0 EDO +0 HH" data-length="90" data-from="1987 40 noanim-nozoom" data-to="2003 1 noanim-nozoom" />
+        <path data-line="EDO_HH" class="e1h 29" data-stops="+0 EDO +0 HH" data-length="100" data-from="2003 1 noanim-nozoom" data-to="2009 1 noanim-nozoom" />
+        <path data-line="EDO_HH" class="e12h 44" data-stops="+0 EDO +0 HH" data-length="100" data-from="2009 1 noanim-nozoom" data-to="2030 1 noanim-nozoom" />
+        <path data-line="EDO_HH" class="e12h 40" data-stops="+0 EDO +0 HH" data-length="75" data-from="2030 1 noanim-nozoom" />
+
         <path data-line="EMST_HE" class="some 5" data-stops="+0 EMST +0 HE" data-from="1987 1 noanim-nozoom" data-to="1987 40 noanim-nozoom" />
         <path data-line="EMST_HE" class="some 5" data-stops="+0 EMST +0 HE" data-length="110" data-from="1987 40 noanim-nozoom" data-to="2006 1 noanim-nozoom" />
         <path data-line="EMST_HE" class="e2h 10" data-stops="+0 EMST +0 HE" data-length="110" data-from="2006 1 noanim-nozoom" data-to="2030 1 noanim-nozoom" />
