@@ -115,10 +115,10 @@
 
          <path data-line="IC1002" class="IC e1h" data-stops="Genève Lausanne Palézieux Fribourg/Freiburg Bern Sursee Luzern" data-from="2005 1 noanim" />
 
-        <path data-line="IR910" class="IR some" data-stops="MulhouseVille BaselSBB" data-from="1982 1" data-to="2002 1 noanim" />
+        <path data-line="IR910" class="IR some" data-stops="- MulhouseVille BaselSBB" data-from="1983 0 noanim" data-to="1983 150 noanim" />
         <path data-line="IC910" class="IC some" data-stops="MulhouseVille BaselSBB" data-from="2002 1 noanim" />
 
-        <path data-line="IR911" class="IR some" data-stops="Freiburg(Breisgau)Hbf BaselSBB" data-from="1982 1" data-to="2002 1 noanim" />
+        <path data-line="IR911" class="IR some" data-stops="- Freiburg(Breisgau)Hbf BaselSBB" data-from="1983 0 noanim" data-to="1983 150 noanim" />
         <path data-line="ICE911" class="IC e2h" data-stops="Freiburg(Breisgau)Hbf BaselSBB" data-from="2002 1 noanim" />
 
         <path data-line="ICE912" class="IC e1h" data-stops="Freiburg(Breisgau)Hbf BaselSBB" data-from="1982 1" />
@@ -158,138 +158,138 @@
 
         <path data-line="IC1100" class="IC some" data-stops="ZürichHb BaselSBB" data-from="2008 1"/>
 
+
+
+        <path data-line="IR901" class="IR e2h" data-stops="- Schaffhausen Konstanz Romanshorn Rorschach" data-from="1983 0 noanim" data-to="1983 150 noanim" />
+
+        <!--<path data-line="IR902" class="IR some" data-stops="- BaselSBB Rheinfelden Schaffhausen Singen(Hohentwiel)" data-from="1983 0 noanim" data-to="1983 150 noanim" />-->
+
+        <path data-line="IR903" class="IR some" data-stops="- Konstanz Singen(Hohentwiel)" data-from="1983 0 noanim" data-to="1983 150 noanim" />
+
+        <path data-line="IR904" class="IR e1h" data-stops="- Romanshorn Weinfelden Winterthur ZürichHb" data-from="1983 0 noanim" data-to="1983 150 noanim" />
+        
+        <path data-line="IR904" class="IR e1h" data-stops="- ZürichHb Lenzburg Aarau Olten Solothurn Biel/Bienne" data-from="1983 0 noanim" data-to="1983 150 noanim" />
+        <path data-line="IR904" class="IR e1h" data-stops="- Biel/Bienne Neuchâtel Yverdon-les-Bains Lausanne" data-from="1983 0 noanim" data-to="1983 150 noanim" />
+        <path data-line="IR904" class="IR e1h" data-stops="- Lausanne Morges Nyon Genève" data-from="1983 0 noanim" data-to="1983 150 noanim" />
+
+        <path data-line="IR904" class="IR e1h" data-stops="- Lausanne Montreux Sion" data-from="1983 0 noanim" data-to="1983 150 noanim" />
+        <path data-line="IR904" class="IR e1h" data-stops="- Sion Visp Brig" data-from="1983 0 noanim" data-to="1983 150 noanim" />
         
 
-        <path data-line="IR901" class="IR e2h" data-stops="Schaffhausen Konstanz Romanshorn Rorschach" data-from="1982 1" data-to="2002 1"/>
+        <path data-line="IR930" class="IR e2h" data-stops="- Lausanne Palézieux Fribourg/Freiburg Bern Burgdorf Langenthal Olten" data-from="1983 0 noanim" data-to="1983 150 noanim" />
+        
+        
 
-        <!--<path data-line="IR902" class="IR some" data-stops="BaselSBB Rheinfelden Schaffhausen Singen(Hohentwiel)" data-from="1982 1" />-->
-
-        <path data-line="IR903" class="IR some" data-stops="Konstanz Singen(Hohentwiel)" data-from="1982 1" />
-
-        <path data-line="IR904" class="IR e1h" data-stops="Romanshorn Weinfelden Winterthur ZürichHb" data-from="1982 1" data-to="2002 1 reverse" />
-        <path data-line="IR904" class="IR e1h" data-stops="ZürichHb Winterthur WilSG St.Gallen" data-from="2002 1" />
-        <path data-line="IR904" class="IR e1h" data-stops="ZürichHb Lenzburg Aarau Olten Solothurn Biel/Bienne" data-from="1982 1" />
-        <path data-line="IR904" class="IR e1h" data-stops="Biel/Bienne Neuchâtel Yverdon-les-Bains Lausanne" data-from="1982 1" />
-        <path data-line="IR904" class="IR e1h" data-stops="Lausanne Morges Nyon Genève" data-from="1982 1" />
-
-        <path data-line="IR904" class="IR e1h" data-stops="Lausanne Montreux Sion" data-from="1982 1"/>
-        <path data-line="IR904" class="IR e1h" data-stops="Sion Visp Brig" data-from="1982 1" data-to="2002 1 noanim" />
-        <path data-line="IR904" class="IR e2h" data-stops="Sion Visp Brig" data-from="2002 1 noanim" data-to="2005 1" />
-
-        <path data-line="IR930" class="IR e2h" data-stops="Lausanne Palézieux Fribourg/Freiburg Bern Burgdorf Langenthal Olten" data-from="1982 1" data-to="2002 1 noanim" />
-        <path data-line="IR930" class="IR e1h" data-stops="Lausanne Palézieux Fribourg/Freiburg Bern Burgdorf Langenthal Olten" data-from="2002 1 noanim" data-to="2005 1" />
-        <path data-line="IR930" class="IR e1h" data-stops="Lausanne Morges Nyon Genève" data-from="2002 1" />
-
-        <path data-line="IR960" class="IR e1h" data-stops="BaselSBB Delémont Biel/Bienne" data-from="1982 1" />
-        <path data-line="IR960" class="IR e1h" data-stops="Biel/Bienne Neuchâtel Yverdon-les-Bains Morges Nyon Genève" data-from="2002 1" />
+        <path data-line="IR960" class="IR e1h" data-stops="- BaselSBB Delémont Biel/Bienne" data-from="1983 0 noanim" data-to="1983 150 noanim" />
+        
         <!-- Glovelier -->
 
-        <path data-line="IR905" class="IR e2h" data-stops="St.Gallen Rorschach St.Margrethen BuchsSG Sargans Landquart Chur" data-from="1982 1" data-to="2002 1 noanim" />
-        <path data-line="IR905" class="IR e1h" data-stops="St.Gallen Rorschach St.Margrethen BuchsSG Sargans Landquart Chur" data-from="2002 1 noanim" />
+        <path data-line="IR905" class="IR e2h" data-stops="- St.Gallen Rorschach St.Margrethen BuchsSG Sargans Landquart Chur" data-from="1983 0 noanim" data-to="1983 150 noanim" />
+        
 
-        <path data-line="IR906" class="IR e2h" data-stops="St.Gallen Herisau PfäffikonSZ Arth-Goldau Luzern" data-from="1982 1" data-to="2002 1 noanim" />
-        <path data-line="IR906" class="IR e1h" data-stops="St.Gallen Herisau PfäffikonSZ Arth-Goldau Luzern" data-from="2002 1 noanim" />
-        <path data-line="IR906" class="IR e1h" data-stops="St.Gallen Romanshorn" data-from="2002 1" />
+        <path data-line="IR906" class="IR e2h" data-stops="- St.Gallen Herisau PfäffikonSZ Arth-Goldau Luzern" data-from="1983 0 noanim" data-to="1983 150 noanim" />
+        
+        
 
-        <path data-line="IR909" class="IR e2h" data-stops="Schaffhausen Bülach ZürichHb" data-from="1982 1" data-to="2002 1" />
-        <path data-line="IR909" class="IR e2h" data-stops="ZürichHb Zug Arth-Goldau" data-from="1982 1" />
-        <path data-line="IR909" class="IR e2h" data-stops="Arth-Goldau Airolo Bellinzona Lugano Chiasso" data-from="1982 1" data-to="2002 1 noanim" />
-        <path data-line="IR909" class="IR e1h" data-stops="Arth-Goldau Airolo Bellinzona" data-from="2002 1 noanim" />
-        <path data-line="IR909" class="IR e1h" data-stops="Bellinzona Lugano Chiasso" data-from="2002 1 noanim" data-to="2005 1" />
-        <path data-line="IR909" class="IR e1h" data-stops="Bellinzona Locarno" data-from="2005 1" />
+        <path data-line="IR909" class="IR e2h" data-stops="- Schaffhausen Bülach ZürichHb" data-from="1983 0 noanim" data-to="1983 150 noanim" />
+        <path data-line="IR909" class="IR e2h" data-stops="- ZürichHb Zug Arth-Goldau" data-from="1983 0 noanim" data-to="1983 150 noanim" />
+        <path data-line="IR909" class="IR e2h" data-stops="- Arth-Goldau Airolo Bellinzona Lugano Chiasso" data-from="1983 0 noanim" data-to="1983 150 noanim" />
+        
+        
+        
 
-        <path data-line="IR909" class="IR e2h" data-stops="BaselSBB Liestal Olten Sursee Luzern" data-from="1982 1" data-to="2002 1 noanim" />
-        <path data-line="IR909" class="IR e2h" data-stops="Luzern Arth-Goldau" data-from="1982 1" />
-        <path data-line="IR909" class="IR e1h" data-stops="BaselSBB Liestal Olten Sursee Luzern" data-from="2002 1 noanim" data-to="2005 1 noanim" />
-        <path data-line="IR909" class="IR e2h" data-stops="BaselSBB Liestal Olten Sursee Luzern" data-from="2005 1 noanim" />
+        <path data-line="IR909" class="IR e2h" data-stops="- BaselSBB Liestal Olten Sursee Luzern" data-from="1983 0 noanim" data-to="1983 150 noanim" />
+        <path data-line="IR909" class="IR e2h" data-stops="- Luzern Arth-Goldau" data-from="1983 0 noanim" data-to="1983 150 noanim" />
+        
+        
 
-        <path data-line="IR1003" class="IR e1h" data-stops="BaselSBB Liestal Olten Sursee" data-from="2005 1" />
+        
 
-        <path data-line="IR1004" class="IR e1h" data-stops="ZürichHb Olten Langenthal Burgdorf Bern" data-from="2005 1" />
+        
 
 
-        <path data-line="IR1001" class="IR e1h" data-stops="Luzern Sursee Olten" data-from="2005 1 noanim" />
+        
 
-        <path data-line="IR913" class="IR some" data-stops="BaselSBB Rheinfelden Bülach Winterthur" data-from="1982 1" data-to="2002 1" />
+        <path data-line="IR913" class="IR some" data-stops="- BaselSBB Rheinfelden Bülach Winterthur" data-from="1983 0 noanim" data-to="1983 150 noanim" />
 
-        <path data-line="IR914" class="IR e2h" data-stops="BaselSBB Rheinfelden Baden ZürichHb" data-from="1982 1" data-to="2002 1 noanim" />
-        <path data-line="IR914" class="IR e1h" data-stops="BaselSBB Rheinfelden Baden ZürichHb" data-from="2002 1 noanim" />
+        <path data-line="IR914" class="IR e2h" data-stops="- BaselSBB Rheinfelden Baden ZürichHb" data-from="1983 0 noanim" data-to="1983 150 noanim" />
+        
 
-        <!--<path data-line="IR950" class="IR e1h" data-stops="Baden Aarau" data-from="2002 1" />-->
+        <!---->
         <!-- Brugg AG -->
         <!--path data-line="IR951" class="IR e1h" data-stops="Baden Aarau" data-from="2002 1" />-->
 
-        <path data-line="IR915" class="IR e2h" data-stops="BaselSBB Rheinfelden Baden ZürichHb PfäffikonSZ Ziegelbrücke Sargans Landquart Chur" data-from="1982 1" data-to="2002 1 noanim" />
-        <path data-line="IR915" class="IR e1h" data-stops="BaselSBB Rheinfelden Baden ZürichHb PfäffikonSZ Ziegelbrücke Sargans Landquart Chur" data-from="2002 1 noanim" />
+        <path data-line="IR915" class="IR e2h" data-stops="- BaselSBB Rheinfelden Baden ZürichHb PfäffikonSZ Ziegelbrücke Sargans Landquart Chur" data-from="1983 0 noanim" data-to="1983 150 noanim" />
+        
 
-        <path data-line="PB917" class="IR e1h" data-stops="Landquart DavosPlatz" data-from="1982 1" />
+        <path data-line="PB917" class="IR e1h" data-stops="- Landquart DavosPlatz" data-from="1983 0 noanim" data-to="1983 150 noanim" />
 
-        <path data-line="IR918" class="IR e2h" data-stops="BaselSBB Liestal Olten Langenthal Burgdorf Bern Thun Kandersteg Brig" data-from="1982 1" data-to="2002 1" />
-        <path data-line="IR918" class="IR e1h" data-stops="BaselSBB Liestal Aarau Lenzburg ZürichHb" data-from="2002 1" />
+        <path data-line="IR918" class="IR e2h" data-stops="- BaselSBB Liestal Olten Langenthal Burgdorf Bern Thun Kandersteg Brig" data-from="1983 0 noanim" data-to="1983 150 noanim" />
+        
         <!-- Scuol-Tarasp 2002, Disentis 2005 -->
 
-        <path data-line="IR919" class="IR e1h" data-stops="Chur St.Moritz" data-from="1982 1" />
+        <path data-line="IR919" class="IR e1h" data-stops="- Chur St.Moritz" data-from="1983 0 noanim" data-to="1983 150 noanim" />
 
-        <!--<path data-line="IR920" class="IR e2h" data-stops="Ziegelbrücke PfäffikonSZ" data-from="1982 1" data-to="2002 1" />
-        <path data-line="IR920" class="IR e2h" data-stops="PfäffikonSZ ZürichHb" data-from="1982 1" data-to="2002 1 noanim" />
-        <path data-line="IR920" class="IR e1h" data-stops="PfäffikonSZ ZürichHb" data-from="2002 1 noanim" />-->
+        <!--<path data-line="IR920" class="IR e2h" data-stops="- Ziegelbrücke PfäffikonSZ" data-from="1983 0 noanim" data-to="1983 150 noanim" />
+        <path data-line="IR920" class="IR e2h" data-stops="- PfäffikonSZ ZürichHb" data-from="1983 0 noanim" data-to="1983 150 noanim" />
+        -->
 
-        <!--<path data-line="IR921" class="IR some" data-stops="Winterthur ZürichHb" data-from="1982 1" />-->
+        <!--<path data-line="IR921" class="IR some" data-stops="- Winterthur ZürichHb" data-from="1983 0 noanim" data-to="1983 150 noanim" />-->
 
-        <path data-line="IR922" class="IR e1h" data-stops="ZürichHb Zug Luzern" data-from="1982 1" />
-        <path data-line="IR922a" class="IR e1h" data-stops="ZürichHb Zug Luzern" data-from="2002 1" />
+        <path data-line="IR922" class="IR e1h" data-stops="- ZürichHb Zug Luzern" data-from="1983 0 noanim" data-to="1983 150 noanim" />
+        
 
-        <path data-line="IR923" class="IR e1h" data-stops="ZürichHb Baden Aarau Olten" data-from="1982 1" />
-        <path data-line="IR923" class="IR e2h" data-stops="Olten Langenthal Burgdorf Bern" data-from="1982 1" data-to="2002 1 noanim" />
-        <path data-line="IR923" class="IR e1h" data-stops="Bern Thun Spiez InterlakenOst" data-from="1982 1" data-to="2002 1" />
-        <path data-line="IR923" class="IR e1h" data-stops="Olten Bern" data-from="2005 1" />
+        <path data-line="IR923" class="IR e1h" data-stops="- ZürichHb Baden Aarau Olten" data-from="1983 0 noanim" data-to="1983 150 noanim" />
+        <path data-line="IR923" class="IR e2h" data-stops="- Olten Langenthal Burgdorf Bern" data-from="1983 0 noanim" data-to="1983 150 noanim" />
+        <path data-line="IR923" class="IR e1h" data-stops="- Bern Thun Spiez InterlakenOst" data-from="1983 0 noanim" data-to="1983 150 noanim" />
+        
 
 
-        <path data-line="IR970" class="IR e1h" data-stops="Olten Langenthal Burgdorf Bern" data-from="2002 1" />
+        
         <!-- Solothurn Burgdorf Thun 2002 -->
 
-        <path data-line="IR924a" class="IR e1h" data-stops="Solothurn Bern" data-from="1982 1" data-to="2002 1 noanim" />
-        <path data-line="IR924a" class="IR e12h" data-stops="Solothurn Bern" data-from="2002 1 noanim" />
-        <path data-line="IR959" class="IR e1h" data-stops="ZürichHb Olten Solothurn Biel/Bienne" data-from="2002 1" />
-        <path data-line="IR959" class="IR some" data-stops="ZürichHb  Winterthur Weinfelden Konstanz" data-from="2002 1" data-to="2005 1 noanim" />
-        <path data-line="IR959" class="IR e1h" data-stops="ZürichHb Winterthur Weinfelden Konstanz" data-from="2005 1 noanim" />
+        <path data-line="IR924a" class="IR e1h" data-stops="- Solothurn Bern" data-from="1983 0 noanim" data-to="1983 150 noanim" />
+        
+        
+        
+        
 
         <!-- le Noirmont 2002 -->
-        <path data-line="IR924" class="IR e2h" data-stops="LeLocle LaChaux-de-Fonds Biel/Bienne" data-from="1982 1" data-to="2002 1 noanim" />
-        <path data-line="IR924" class="IR e1h" data-stops="LeLocle LaChaux-de-Fonds Biel/Bienne" data-from="2002 1 noanim" />
-        <path data-line="IR924" class="IR e1h" data-stops="Biel/Bienne Bern" data-from="1982 1" data-to="2002 1 noanim" />
-        <path data-line="IR924" class="IR e12h" data-stops="Biel/Bienne Bern" data-from="2002 1 noanim" />
+        <path data-line="IR924" class="IR e2h" data-stops="- LeLocle LaChaux-de-Fonds Biel/Bienne" data-from="1983 0 noanim" data-to="1983 150 noanim" />
+        
+        <path data-line="IR924" class="IR e1h" data-stops="- Biel/Bienne Bern" data-from="1983 0 noanim" data-to="1983 150 noanim" />
+        
 
-        <path data-line="IR925" class="IR e2h" data-stops="LeLocle LaChaux-de-Fonds Neuchâtel Kerzers Bern" data-from="1982 1" data-to="2002 1 noanim" />
-        <path data-line="IR925" class="IR e1h" data-stops="LeLocle LaChaux-de-Fonds Neuchâtel Kerzers Bern" data-from="2002 1 noanim" />
+        <path data-line="IR925" class="IR e2h" data-stops="- LeLocle LaChaux-de-Fonds Neuchâtel Kerzers Bern" data-from="1983 0 noanim" data-to="1983 150 noanim" />
+        
 
-        <path data-line="IR926" class="IR e2h" data-stops="MilanoCentrale Brig" data-from="1982 1" />
-        <path data-line="IR926" class="IR e1h" data-stops="Brig Visp Sion Montreux Lausanne Morges Nyon Genève" data-from="1982 1" />
+        <path data-line="IR926" class="IR e2h" data-stops="- MilanoCentrale Brig" data-from="1983 0 noanim" data-to="1983 150 noanim" />
+        <path data-line="IR926" class="IR e1h" data-stops="- Brig Visp Sion Montreux Lausanne Morges Nyon Genève" data-from="1983 0 noanim" data-to="1983 150 noanim" />
         <!-- Locarno-->
-        <!--<path data-line="IR927" class="IR e2h" data-stops="Brig Visp Zermatt" data-from="1982 1" />-->
+        <!--<path data-line="IR927" class="IR e2h" data-stops="- Brig Visp Zermatt" data-from="1983 0 noanim" data-to="1983 150 noanim" />-->
 
-        <path data-line="IR929" class="IR e2h" data-stops="Montreux Spiez" data-from="1982 1" />
+        <path data-line="IR929" class="IR e2h" data-stops="- Montreux Spiez" data-from="1983 0 noanim" data-to="1983 150 noanim" />
 
-        <path data-line="IR930a" class="IR e2h" data-stops="Lausanne Palézieux Payerne" data-from="1982 1" data-to="2002 1" />
+        <path data-line="IR930a" class="IR e2h" data-stops="- Lausanne Palézieux Payerne" data-from="1983 0 noanim" data-to="1983 150 noanim" />
 
-        <!--<path data-line="IR931" class="IR some" data-stops="Lausanne Cossonay-Penthalaz Frasne" data-from="1982 1" />
-        <path data-line="IR932" class="IR some" data-stops="Frasne Neuchâtel Kerzers Bern" data-from="1982 1" />-->
+        <!--<path data-line="IR931" class="IR some" data-stops="- Lausanne Cossonay-Penthalaz Frasne" data-from="1983 0 noanim" data-to="1983 150 noanim" />
+        <path data-line="IR932" class="IR some" data-stops="- Frasne Neuchâtel Kerzers Bern" data-from="1983 0 noanim" data-to="1983 150 noanim" />-->
 
-        <!--<path data-line="IR933" class="IR e2h" data-stops="Bern Kerzers" data-from="1982 1" />-->
+        <!--<path data-line="IR933" class="IR e2h" data-stops="- Bern Kerzers" data-from="1983 0 noanim" data-to="1983 150 noanim" />-->
 
-        <path data-line="IR934" class="IR e2h" data-stops="Bern Konolfingen Luzern" data-from="1982 1" data-to="2005 1" />
-        <path data-line="IR934" class="IR e1h" data-stops="Bern Konolfingen Luzern" data-from="2005 1" />
+        <path data-line="IR934" class="IR e2h" data-stops="- Bern Konolfingen Luzern" data-from="1983 0 noanim" data-to="1983 150 noanim" />
+        
 
-        <!--<path data-line="IR935" class="IR e2h" data-stops="Bern Belp" data-from="1982 1" />-->
+        <!--<path data-line="IR935" class="IR e2h" data-stops="- Bern Belp" data-from="1983 0 noanim" data-to="1983 150 noanim" />-->
 
-        <path data-line="IR936" class="IR e2h" data-stops="Luzern InterlakenOst" data-from="1982 1" data-to="2002 1 noanim" />
-        <path data-line="IR936" class="IR e1h" data-stops="Luzern InterlakenOst" data-from="2002 1 noanim" />
+        <path data-line="IR936" class="IR e2h" data-stops="- Luzern InterlakenOst" data-from="1983 0 noanim" data-to="1983 150 noanim" />
+        
 
-        <path data-line="IR1002" class="IR some" data-stops="Solothurn Burgdorf Konolfingen Thun" data-from="2002 1" data-to="2005 1 noanim" />
-        <path data-line="IR1002" class="IR e1h" data-stops="Solothurn Burgdorf Konolfingen Thun" data-from="2005 1 noanim" />
+        
+        
 
-        <path data-line="IR1101" class="IR some" data-stops="Bern Thun Spiez" data-from="2008 1"/>
-        <path data-line="IR1101" class="IR e1h" data-stops="Spiez Kandersteg Brig" data-from="2008 1"/>
+        
+        
 
         <path data-line="dummy" class="helper" data-stops="WienStephansplatz MilanoCentrale" data-from="1983 1200 noanim-nozoom" />
         <path data-line="dummy" class="helper" data-stops="WienStephansplatz MilanoCentrale" data-from="2003 1 noanim-nozoom" />
