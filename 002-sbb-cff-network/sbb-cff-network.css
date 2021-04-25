@@ -58,7 +58,7 @@ svg {
     stroke-width: 5px;
 }
 
-#epoch-label {
+#custom-epoch-label {
     font-size: 70px;
     font-weight: bold;
     text-anchor: middle;
