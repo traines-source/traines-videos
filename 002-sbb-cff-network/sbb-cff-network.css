@@ -85,14 +85,75 @@ svg {
     text-align: center;
 }
 
-.IC1, .IC {
-    stroke:#ee1d23;
-    background-color: #ee1d23;
+.IC {
+    stroke:#60869e;
+    background-color: #60869e;
     color: white;
 }
+
+.IC1 {
+    stroke:#e33a2b;
+    background-color: #e33a2b;
+    color: white;
+}
+
+.IC2 {
+    stroke:#8781bd;
+    background-color: #8781bd;
+    color: white;
+}
+
+.IC3 {
+    stroke:#00984a;
+    background-color: #00984a;
+    color: white;
+}
+
+.IC4 {
+    stroke:#c9a428;
+    background-color: #c9a428;
+    color: white;
+}
+
+.IC5 {
+    stroke:#f7931d;
+    background-color: #f7931d;
+    color: white;
+}
+
+.IC6 {
+    stroke:#8bc63e;
+    background-color: #8bc63e;
+    color: white;
+}
+
+.IC8 {
+    stroke:#009bde;
+    background-color: #009bde;
+    color: white;
+}
+
+.IC21 {
+    stroke:#fec70c;
+    background-color: #fec70c;
+    color: white;
+}
+
+.IC51 {
+    stroke:#b00d15;
+    background-color: #b00d15;
+    color: white;
+}
+
+.IC61 {
+    stroke:#ef59a1;
+    background-color: #ef59a1;
+    color: white;
+}
+
 .IR {
-    stroke:#0095d9;
-    background-color: #0095d9;
+    stroke:#a6a9aa;
+    background-color: #a6a9aa;
     color: white;
 }
 
