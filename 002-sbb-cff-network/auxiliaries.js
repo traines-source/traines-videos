@@ -41,18 +41,18 @@ fetch("res/borders.json")
 
 let intvl;
 document.addEventListener('epoch', function(e) {
-  if (e.detail == '1983') {
+  if (e.detail == '1983' || e.detail == '2022') {
     if (intvl == undefined) {
       let i = -1;
-      intvl = setInterval(function () {
+      intvl = window.setInterval(function () {
         i++;      
         document.getElementById('custom-epoch-label').textContent = (12+Math.floor(i/60))+':'+((i%60)+'').padStart(2, '0');
       }, 1000);
     }
   } else {
     if (intvl != undefined) {
-      console.log(intvl);
       clearInterval(intvl);
+      intvl = undefined;
     }
     document.getElementById('custom-epoch-label').textContent = e.detail;
   } 

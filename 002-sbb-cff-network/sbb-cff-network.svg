@@ -143,7 +143,7 @@
         
         <path data-line="ICE913" class="IC e2h" data-stops="BaselSBB Olten Bern Brig" data-from="1982 1" data-to="2002 1" />
 
-        <path data-line="IC61" class="IC e1h" data-stops="BaselSBB Olten Bern Thun Spiez InterlakenOst" data-from="2002 1" />
+        <path data-line="IC61" class="IC e1h" data-stops="BaselSBB Liestal Olten Bern Thun Spiez InterlakenOst" data-from="2002 1" />
 
         <path data-line="IC3" class="IC e1h" data-stops="BaselSBB ZürichHb" data-from="2002 1" />
         <path data-line="IC3" class="IC e1h" data-stops="ZürichHb Landquart Chur" data-from="2005 1" data-to="2008 1" />
@@ -171,16 +171,16 @@
 
         <path data-line="IC1" class="IC e1h" data-stops="Genève Lausanne Fribourg/Freiburg Bern ZürichHb Winterthur WilSG St.Gallen" data-from="1982 1" />
 
-        <path data-line="IC6" class="IC e1h" data-stops="BaselSBB Liestal Olten Bern Thun Spiez" data-from="2005 1" />
+        <path data-line="IC6" class="IC e1h" data-stops="BaselSBB Olten Bern Thun Spiez" data-from="2005 1" />
         <path data-line="IC6" class="IC e2h" data-stops="Spiez InterlakenOst" data-from="2005 1" />
         <path data-line="IC6" class="IC e2h" data-stops="Spiez Brig" data-from="2005 1" />
 
         <path data-line="IC1100" class="IC some" data-stops="ZürichHb BaselSBB" data-from="2008 1" data-to="2017 1" />
 
         <!-- WilSG switch with IC1! -->
-        <path data-line="IC5" class="IC e1h" data-stops="Lausanne Yverdon-les-Bains Neuchâtel Biel/Bienne Solothurn Olten ZürichHb" data-from="2017 1" />
-        <path data-line="IC5" class="IC e1h" data-stops="ZürichHb Winterthur St.Gallen" data-from="2017 1" data-to="2021 1" />
-        <path data-line="IC5" class="IC e2h" data-stops="ZürichHb Winterthur St.Gallen" data-from="2021 1" />
+        <path data-line="IC5a" class="IC e1h" data-stops="Lausanne Yverdon-les-Bains Neuchâtel Biel/Bienne Solothurn Olten ZürichHb" data-from="2017 1" />
+        <path data-line="IC5a" class="IC e1h" data-stops="ZürichHb Winterthur St.Gallen" data-from="2017 1" data-to="2021 1" />
+        <path data-line="IC5a" class="IC e2h" data-stops="ZürichHb Winterthur St.Gallen" data-from="2021 1" />
 
         <path data-line="IC51" class="IC e1h" data-stops="Biel/Bienne Delémont BaselSBB" data-from="2017 1" />
 
@@ -340,7 +340,7 @@
         <path data-line="IR2014" class="IR e1h" data-stops="- Locarno Lugano Chiasso" data-from="2022 0 noanim" data-to="2022 150 noanim" />
 
         <path data-line="IR2015" class="IR e1h" data-stops="- Locarno Bellinzona Airolo Arth-Goldau" data-from="2022 0 noanim" data-to="2022 150 noanim" />
-        <path data-line="IR2015" class="IR e2h" data-stops="- Arth-Goldau Luzern Sursee Olten Liestal BaselSBB" data-from="2022 0 noanim" data-to="2022 150 noanim" />
+        <path data-line="IR2015" class="IR e2h" data-stops="- Arth-Goldau Luzern Olten BaselSBB" data-from="2022 0 noanim" data-to="2022 150 noanim" />
         <path data-line="IR2015" class="IR e2h" data-stops="- Arth-Goldau Zug ZürichHb" data-from="2022 0 noanim" data-to="2022 150 noanim" />
 
         <path data-line="IR2016" class="IR e1h" data-stops="- Luzern Arth-Goldau PfäffikonSZ Herisau St.Gallen" data-from="2022 0 noanim" data-to="2022 150 noanim" />
@@ -366,7 +366,7 @@
         <path data-line="IR2035" class="IR e1h" data-stops="- Bern Burgdorf Langenthal Olten" data-from="2022 0 noanim" data-to="2022 150 noanim" />
         <path data-line="IR2036" class="IR e1h" data-stops="- Bern Burgdorf Langenthal Olten ZürichHb" data-from="2022 0 noanim" data-to="2022 150 noanim" />
         <path data-line="IR2037" class="IR e1h" data-stops="- Bern Burgdorf Langenthal Olten Aarau Baden ZürichHb" data-from="2022 0 noanim" data-to="2022 150 noanim" />
-        <path data-line="IR2038" class="IR e1h" data-stops="- Olten Aarau Baden ZürichHb" data-from="2022 0 noanim" data-to="2022 150 noanim" />
+        <path data-line="IR2038" class="IR e1h" data-stops="- Olten Aarau Baden" data-from="2022 0 noanim" data-to="2022 150 noanim" />
         <path data-line="IR2039" class="IR e1h" data-stops="- BaselSBB Liestal Aarau ZürichHb" data-from="2022 0 noanim" data-to="2022 150 noanim" />
         <path data-line="IR2040" class="IR e1h" data-stops="- BaselSBB Rheinfelden Baden ZürichHb" data-from="2022 0 noanim" data-to="2022 150 noanim" />
         <path data-line="IR2040a" class="IR e1h" data-stops="- BaselSBB Rheinfelden Baden ZürichHb" data-from="2022 0 noanim" data-to="2022 150 noanim" />
@@ -496,6 +496,69 @@
 
         <path data-train="ICE912" class="IC train" data-stops="Luzern -16+22 Olten +24+53 BaselSBB" data-from="1983 0" data-to="1983 120" />
         <path data-train="ICE912" class="IC train" data-stops="BaselSBB +1+30 Olten +32+70 Luzern" data-from="1983 0" data-to="1983 120" />
+
+<!--
+
+        <path data-train="IR2033" class="IR train" data-stops="Luzern +30+47 Sursee +48+70 Olten +72+92 Liestal +94+105 BaselSBB" data-from="2022 0" data-to="2022 120" />
+        <path data-train="IR2033" class="IR train" data-stops="Luzern -30-13 Sursee -12+10 Olten +12+32 Liestal +34+45 BaselSBB" data-from="2022 0" data-to="2022 120" />
+        <path data-train="IR2033" class="IR train" data-stops="BaselSBB +16+26 Liestal +27+48 Olten +49+70 Sursee +71+90 Luzern" data-from="2022 0" data-to="2022 120" />
+        <path data-train="IR2033" class="IR train" data-stops="BaselSBB +76+86 Liestal +87+108 Olten +109+130 Sursee +131+150 Luzern" data-from="2022 0" data-to="2022 120" />
+
+        <path data-train="IR2015" class="IR train" data-stops="Luzern +54+88 Olten +90+116 BaselSBB" data-from="2022 0" data-to="2022 120" />
+        <path data-train="IC2" class="IC train" data-stops="Luzern -6+28 Olten +30+56 BaselSBB" data-from="2022 0" data-to="2022 120" />
+        <path data-train="IR2015" class="IR train" data-stops="BaselSBB +3+28 Olten +30+65 Luzern" data-from="2022 0" data-to="2022 120" />
+        <path data-train="IC2" class="IC train" data-stops="BaselSBB +63+88 Olten +90+125 Luzern" data-from="2022 0" data-to="2022 120" />
+
+        <path data-train="IC6" class="IC train" data-stops="Bern +36+63 Olten +65+92 BaselSBB" data-from="2022 0" data-to="2022 120" />
+        <path data-train="IC6" class="IC train" data-stops="Bern -24+3 Olten +5+32 BaselSBB" data-from="2022 0" data-to="2022 120" />
+        <path data-train="IC6" class="IC train" data-stops="Bern +96+123 Olten +125+152 BaselSBB" data-from="2022 0" data-to="2022 120" />
+        <path data-train="IC6" class="IC train" data-stops="BaselSBB +28+55 Olten +58+86 Bern" data-from="2022 0" data-to="2022 120" />
+        <path data-train="IC6" class="IC train" data-stops="BaselSBB +88+115 Olten +118+146 Bern" data-from="2022 0" data-to="2022 120" />
+        <path data-train="IC6" class="IC train" data-stops="BaselSBB -32-5 Olten -2+26 Bern" data-from="2022 0" data-to="2022 120" />
+
+        <path data-train="IC61" class="IC train" data-stops="Bern +4+30 Olten +33+49 Liestal +50+61 BaselSBB" data-from="2022 0" data-to="2022 120" />
+        <path data-train="IC61" class="IC train" data-stops="Bern +64+90 Olten +93+109 Liestal +110+121 BaselSBB" data-from="2022 0" data-to="2022 120" />
+        <path data-train="IC61" class="IC train" data-stops="BaselSBB -2+7 Liestal +8+25 Olten +29+56 Bern" data-from="2022 0" data-to="2022 120" />
+        <path data-train="IC61" class="IC train" data-stops="BaselSBB +58+67 Liestal +68+85 Olten +89+116 Bern" data-from="2022 0" data-to="2022 120" />
+
+        <path data-train="IR2038" class="IR train" data-stops="Olten +35+44 Aarau +45+71 Baden" data-from="2022 33" data-to="2022 73" />
+        <path data-train="IR2038" class="IR train" data-stops="Olten +95+104 Aarau +105+131 Baden" data-from="2022 93" data-to="2022 133" />
+        <path data-train="IR2038" class="IR train" data-stops="Baden +47+73 Aarau +73+84 Olten" data-from="2022 45" data-to="2022 86" />
+        <path data-train="IR2038" class="IR train" data-stops="Baden -13+13 Aarau +13+24 Olten" data-from="2022 0" data-to="2022 26" />
+
+        <path data-train="IC5a" class="IC train" data-stops="ZürichHb +30+60 Olten +62+84 Solothurn +86+103 Biel/Bienne" data-from="2022 0" data-to="2022 150" />
+        <path data-train="IC5a" class="IC train" data-stops="ZürichHb -30+0 Olten +2+24 Solothurn +26+43 Biel/Bienne" data-from="2022 0" data-to="2022 150" />
+        <path data-train="IC5a" class="IC train" data-stops="ZürichHb +90+120 Olten +122+144 Solothurn +146+163 Biel/Bienne" data-from="2022 0" data-to="2022 150" />
+        <path data-train="IC5a" class="IC train" data-stops="Biel/Bienne +17+33 Solothurn +34+57 Olten +59+90 ZürichHb" data-from="2022 0" data-to="2022 150" />
+        <path data-train="IC5a" class="IC train" data-stops="Biel/Bienne -43-27 Solothurn -26-3 Olten -1+30 ZürichHb" data-from="2022 0" data-to="2022 150" />
+        <path data-train="IC5a" class="IC train" data-stops="Biel/Bienne +77+93 Solothurn +94+117 Olten +119+150 ZürichHb" data-from="2022 0" data-to="2022 150" />
+
+        <path data-train="IC5" class="IC train" data-stops="ZürichHb +4+28 Aarau +30+38 Olten +40+56 Solothurn +58+73 Biel/Bienne" data-from="2022 0" data-to="2022 150" />
+        <path data-train="IC5" class="IC train" data-stops="ZürichHb +64+88 Aarau +90+98 Olten +100+116 Solothurn +118+133 Biel/Bienne" data-from="2022 0" data-to="2022 150" />
+        <path data-train="IC5" class="IC train" data-stops="Biel/Bienne +46+59 Solothurn +61+78 Olten +80+89 Aarau +91+116 ZürichHb" data-from="2022 0" data-to="2022 150" />
+        <path data-train="IC5" class="IC train" data-stops="Biel/Bienne -14-1 Solothurn +1+18 Olten +20+29 Aarau +31+56 ZürichHb" data-from="2022 0" data-to="2022 150" />
+
+        <path data-train="IR2037" class="IR train" data-stops="ZürichHb +6+21 Baden +22+45 Aarau +46+55 Olten +56+84 Bern" data-from="2022 0" data-to="2022 150" />
+        <path data-train="IR2037" class="IR train" data-stops="ZürichHb +66+81 Baden +82+105 Aarau +106+115 Olten +116+144 Bern" data-from="2022 0" data-to="2022 150" />
+        <path data-train="IR2037" class="IR train" data-stops="ZürichHb -54-39 Baden -38-15 Aarau -14-5 Olten -4+24 Bern" data-from="2022 0" data-to="2022 150" />
+        <path data-train="IR2037" class="IR train" data-stops="Bern +33+60 Olten +62+71 Aarau +74+97 Baden +98+114 ZürichHb" data-from="2022 0" data-to="2022 150" />
+        <path data-train="IR2037" class="IR train" data-stops="Bern -27+0 Olten +2+11 Aarau +14+37 Baden +38+54 ZürichHb" data-from="2022 0" data-to="2022 150" />
+        <path data-train="IR2037" class="IR train" data-stops="Bern +93+120 Olten +122+131 Aarau +134+157 Baden +158+174 ZürichHb" data-from="2022 0" data-to="2022 150" />
+        
+        <path data-train="IR2036" class="IR train" data-stops="ZürichHb -7+28 Olten +36+47 Langenthal +48+65 Burgdorf" data-from="2022 0" data-to="2022 150" />
+        <path data-train="IR2036" class="IR train" data-stops="ZürichHb +53+88 Olten +96+107 Langenthal +108+125 Burgdorf" data-from="2022 0" data-to="2022 150" />
+        <path data-train="IR2036" class="IR train" data-stops="Burgdorf +53+70 Langenthal +72+84 Olten +90+126 ZürichHb" data-from="2022 0" data-to="2022 150" />
+        <path data-train="IR2036" class="IR train" data-stops="Burgdorf -7+10 Langenthal +12+24 Olten +30+66 ZürichHb" data-from="2022 0" data-to="2022 150" />
+
+        <path data-train="IR2034" class="IR train" data-stops="Olten +6+30 Sursee +31+55 Luzern" data-from="2022 4" data-to="2022 150" />
+        <path data-train="IR2034" class="IR train" data-stops="Olten +66+90 Sursee +91+115 Luzern" data-from="2022 64" data-to="2022 150" />
+        <path data-train="IR2034" class="IR train" data-stops="Luzern +5+26 Sursee +27+52 Olten" data-from="2022 0" data-to="2022 54" />
+        <path data-train="IR2034" class="IR train" data-stops="Luzern +65+86 Sursee +87+112 Olten" data-from="2022 0" data-to="2022 114" />
+-->
+        <path data-train="IR2035" class="IR train" data-stops="Olten +6+17 Langenthal +18+37 Burgdorf" data-from="2022 0" data-to="2022 150" />
+        <path data-train="IR2035" class="IR train" data-stops="Olten +66+77 Langenthal +78+97 Burgdorf" data-from="2022 64" data-to="2022 150" />
+        <path data-train="IR2035" class="IR train" data-stops="Burgdorf +21+40 Langenthal +41+54 Olten" data-from="2022 0" data-to="2022 56" />
+        <path data-train="IR2035" class="IR train" data-stops="Burgdorf +81+100 Langenthal +101+114 Olten" data-from="2022 0" data-to="2022 116" />
 
 
         <text data-station="Schaffhausen">Schaffhausen</text>
