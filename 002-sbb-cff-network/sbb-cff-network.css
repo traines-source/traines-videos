@@ -14,7 +14,7 @@
     stroke-width: 1;
 }
 
-#elements rect.helper {
+#elements rect.helper, #elements path.helper {
     stroke: none;
     fill: none;
 }
