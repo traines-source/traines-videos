@@ -27,7 +27,7 @@ path {
     stroke-linejoin: round;
 }
 
-#elements text {
+#elements text, text.caption {
     visibility: hidden;
     fill: white;
     text-shadow: 1px 1px 2px black;
@@ -215,6 +215,20 @@ path.train.Regio {
     fill: #5b686d;
 }
 
+
+image.cover {
+    x: 63287px;
+    y: 42773px;
+    width: 1920px;
+    height: 1080px;
+    visibility: hidden;
+
+}
+
+.caption {
+    text-anchor: end;
+    dominant-baseline: hanging;
+}
 
 /*
 #epoch-label, #epoch-label-bg, text, foreignObject {
