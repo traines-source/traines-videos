@@ -56,6 +56,7 @@ svg {
     fill:white;
     stroke: black;
     stroke-width: 5px;
+    visibility: hidden;
 }
 
 #custom-epoch-label {
@@ -63,6 +64,7 @@ svg {
     font-weight: bold;
     text-anchor: middle;
     dominant-baseline: middle;
+    visibility: hidden;
 }
 
 .for-line {
