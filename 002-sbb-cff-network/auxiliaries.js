@@ -41,7 +41,7 @@ fetch("res/borders.json")
 
 let intvl;
 document.addEventListener('epoch', function(e) {
-  if (e.detail == '1983' || e.detail == '2022') {
+  if (e.detail == '1984' || e.detail == '2022') {
     if (intvl == undefined) {
       let i = -1;
       intvl = window.setInterval(function () {
@@ -54,6 +54,9 @@ document.addEventListener('epoch', function(e) {
       clearInterval(intvl);
       intvl = undefined;
     }
-    document.getElementById('custom-epoch-label').textContent = e.detail;
+    let year = e.detail;
+    if (e.detail == '1983') year = '1982';
+    if (e.detail == '2023') year = '2021';
+    document.getElementById('custom-epoch-label').textContent = year;
   } 
 });
