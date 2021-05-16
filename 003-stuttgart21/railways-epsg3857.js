@@ -52,18 +52,28 @@ function render(geojson, setD) {
         if (feature.geometry.type == "Point" || feature.properties["route"] != undefined) {
             continue;
         }
-        const clazz = 'route-' + feature.properties['route'] + ' railway-' + feature.properties['railway'] + ' tunnel-' + feature.properties['tunnel'] + ' relations-' + (feature.properties['@relations'] != undefined ? 'child' : '');
-        const path = getOrCreatePath(feature.id);
-        if (!path.className.baseVal.includes(clazz)) {
-            path.className.baseVal += ' ' + clazz;
-        }
-        if (setD) {
-            path.setAttribute('d', makeD(feature.geometry));
-        }
+        drawFeature(feature, setD);
     }
     if (setD) {
         setViewBox();
         console.log('tl_x', x(tl[0]), 'tl_y', y(tl[1]), 'br_x', x(br[0]), 'br_y', y(br[1]), 'c_x', x((tl[0]+br[0])/2), 'c_y', y((tl[1]+br[1])/2));
+    }
+    const event = new Event('startTransportNetworkAnimator');
+    document.dispatchEvent(event);
+}
+
+function drawFeature(feature, setD) {
+    const clazz = 'route-' + feature.properties['route'] + ' railway-' + feature.properties['railway'] + ' tunnel-' + feature.properties['tunnel'] + ' relations-' + (feature.properties['@relations'] != undefined ? 'child' : '');
+    const path = getOrCreatePath(feature.id);
+    if (!path.className.baseVal.includes(clazz)) {
+        path.className.baseVal += ' ' + clazz;
+    }
+    if (feature.properties['railway'] == 'construction') {
+        path.dataset.line = 'geo';
+        path.dataset.from = '1 1';
+    }
+    if (setD) {
+        path.setAttribute('d', makeD(feature.geometry));
     }
 }
 

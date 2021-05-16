@@ -1,5 +1,5 @@
 <?xml-stylesheet type="text/css" href="stuttgart21.css" ?>
-<svg viewBox="64287 42000 960 540" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg viewBox="64287 42000 960 540" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" data-auto-start="false">
 <defs>
     <g id="regiounit" class="unit">
         <path
@@ -287,6 +287,6 @@
         </g>
     </g>
 </g>
-    <script xlink:href="railways-epsg3857.js" />
     <script xlink:href="../../dist/network-animator.js" />
+    <script xlink:href="railways-epsg3857.js" />
 </svg>
