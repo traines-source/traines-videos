@@ -87,6 +87,12 @@ svg {
     text-align: center;
 }
 
+path.tunnel {
+    stroke: #808080;
+    stroke-width: 20;
+    visibility: hidden;
+}
+
 .IC {
     stroke:#60869e;
     background-color: #60869e;
