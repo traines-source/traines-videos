@@ -9,7 +9,7 @@
 
 #elements rect {
     stroke: black;
-    fill: transparent;
+    fill: white;
     rx: 3;
     stroke-width: 1;
 }
@@ -27,7 +27,17 @@ path {
     stroke-linejoin: round;
 }
 
-#elements text, text.caption {
+path.border {
+    stroke: #808080;
+}
+
+#elements text {
+    visibility: hidden;
+    fill: black;
+    text-shadow: 1px 1px 2px white;
+}
+
+text.caption {
     visibility: hidden;
     fill: white;
     text-shadow: 1px 1px 2px black;
