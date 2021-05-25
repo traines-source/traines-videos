@@ -97,7 +97,7 @@
     </marker>
 </defs>
 <g id="zoomable">
-    <!--<image href="res/high/map_9999.png" x="63066" y="42668" width="2341" height="1318" style="opacity:0.3"/>-->
+    <image href="res/high/map_9999_bw.png" x="63066" y="42668" width="2341" height="1318" style="opacity:0.3"/>
     <path id="border" data-line="border" data-from="1981 1 nozoom" data-speed="300" style="visibility:hidden;" />
     <script xlink:href="auxiliaries.js" />
     <g id="elements">
@@ -121,7 +121,7 @@
 
         <path data-line="ICE913" class="IC e2h" data-stops="BaselSBB hh_OB Olten Bern Brig" data-from="1982 38 nozoom" data-to="2002 10 nozoom" />
 
-        <path data-line="ICE912" class="IC e2h" data-stops="BaselSBB hh_OB Olten hh_OS Luzern h_Arth-Goldau_Luzern Arth-Goldau" data-from="1982 38 nozoom" data-to="2002 2 nozoom" />
+        <path data-line="ICE912" class="IC e2h" data-stops="BaselSBB hh_OB Olten hh_OS Luzern h_AGL_W h_AGL_E Arth-Goldau" data-from="1982 38 nozoom" data-to="2002 2 nozoom" />
         <path data-line="ICE912" class="IC some" data-stops="Arth-Goldau Bellinzona Lugano Chiasso MilanoCentrale" data-from="1982 38 nozoom" data-to="2002 2 nozoom" />
         <path data-line="ICE912" class="IC e2h" data-stops="BaselSBB hh_BZ ZürichHb Ziegelbrücke Sargans Landquart Chur" data-from="1982 75 nozoom" data-to="2002 30 nozoom" />
 
@@ -129,7 +129,7 @@
         <path data-line="IC21" class="IC e2h" data-stops="Lugano Bellinzona" data-from="2002 3 nozoom" />
         <path data-line="IC21" class="IC e2h" data-stops="Bellinzona Arth-Goldau" data-from="2002 3 nozoom" data-to="2017 1 nozoom" />
         <path data-line="IC21" class="IC e2h" data-stops="Bellinzona GottS GottN Arth-Goldau" data-from="2017 1 nozoom" />
-        <path data-line="IC21" class="IC e2h" data-stops="Arth-Goldau h_Arth-Goldau_Luzern Luzern hh_OS Olten hh_OB BaselSBB" data-from="2002 3 nozoom" />
+        <path data-line="IC21" class="IC e2h" data-stops="Arth-Goldau h_AGL_E h_AGL_W Luzern hh_OS Olten hh_OB BaselSBB" data-from="2002 3 nozoom" />
         <path data-line="IC2" class="IC e2h" data-stops="MilanoCentrale Chiasso Lugano" data-from="2002 4 nozoom" data-to="2021 1 noanim-nozoom" />
         <path data-line="IC2" class="IC some" data-stops="MilanoCentrale Chiasso Lugano" data-from="2021 1 noanim-nozoom" />
         <path data-line="IC2" class="IC e2h" data-stops="Lugano Bellinzona" data-from="2002 4 nozoom" />
@@ -156,7 +156,7 @@
         <path data-line="IC907" class="IC some" data-stops="MünchenHbf St.Margrethen" data-from="1982 75 nozoom" data-to="2021 1 noanim-nozoom"/>
         <path data-line="IC907" class="IC some" data-stops="St.Margrethen Rorschach St.Gallen" data-from="1982 75 nozoom" data-to="2002 1 nozoom"/>
         <path data-line="IC907" class="IC some" data-stops="St.Margrethen St.Gallen" data-from="2002 1 nozoom" data-to="2021 1 noanim-nozoom" />
-        <path data-line="IC907" class="IC some" data-stops="St.Gallen WilSG Winterthur" data-from="1982 75 nozoom" data-to="2008 10 nozoom" />
+        <path data-line="IC907" class="IC some" data-stops="St.Gallen WilSG h_St.Gallen_Winterthur Winterthur" data-from="1982 75 nozoom" data-to="2008 10 nozoom" />
         <path data-line="IC907" class="IC some" data-stops="St.Gallen Winterthur" data-from="2008 10 nozoom" data-to="2017 1 nozoom" />
         <path data-line="IC907" class="IC some" data-stops="Winterthur ZürichHb" data-from="1982 75 nozoom" data-to="2017 1 nozoom" />
         <path data-line="IC907" class="IC e2h" data-stops="MünchenHbf St.Margrethen St.Gallen" data-from="2021 1 noanim-nozoom" />
@@ -187,7 +187,7 @@
         <path data-line="TGV2" class="IC some" data-stops="Lausanne Frasne Paris" data-from="2005 1 nozoom" />
         <path data-line="TGV3" class="IC some" data-stops="Bern Frasne Paris" data-from="2005 1 nozoom" data-to="2017 1 nozoom" />
 
-        <path data-line="IC5" class="IC e1h" data-stops="Genève hh_GL Lausanne Romont Fribourg/Freiburg Bern Sursee Luzern" data-from="2005 70 nozoom" data-to="2017 30 nozoom" />
+        <path data-line="IC5" class="IC e1h" data-stops="Genève hh_GL - Lausanne + Romont Fribourg/Freiburg Bern Sursee Luzern" data-from="2005 70 nozoom" data-to="2017 30 nozoom" />
         <path data-line="IC5" class="IC e1h" data-stops="Genève hh_GL Yverdon-les-Bains Neuchâtel Biel/Bienne Solothurn Olten Aarau +1 ZürichHb" data-from="2017 30 nozoom" />
         <path data-line="IC5" class="IC e2h" data-stops="ZürichHb +1 Winterthur +1 h_St.Gallen_Winterthur St.Gallen" data-from="2021 1 nozoom" />
 
@@ -214,9 +214,9 @@
 
         <path data-line="IR903" class="IR some" data-stops="- Konstanz Singen(Hohentwiel)" data-from="1983 0 noanim-nozoom" data-to="1984 120 noanim-nozoom" />
 
-        <path data-line="IR904" class="IR e1h" data-stops="- Romanshorn Weinfelden Winterthur ZürichHb" data-from="1983 0 noanim-nozoom" data-to="1984 120 noanim-nozoom" />
+        <path data-line="IR904a" class="IR e1h" data-stops="- Romanshorn Weinfelden Winterthur ZürichHb" data-from="1983 0 noanim-nozoom" data-to="1984 120 noanim-nozoom" />
         
-        <path data-line="IR904" class="IR e1h" data-stops="- ZürichHb hh_BZ Aarau Olten Solothurn Biel/Bienne" data-from="1983 0 noanim-nozoom" data-to="1984 120 noanim-nozoom" />
+        <path data-line="IR904" class="IR e1h" data-stops="- ZürichHb Aarau Olten Solothurn Biel/Bienne" data-from="1983 0 noanim-nozoom" data-to="1984 120 noanim-nozoom" />
         <path data-line="IR904" class="IR e1h" data-stops="- Biel/Bienne Neuchâtel Yverdon-les-Bains Lausanne" data-from="1983 0 noanim-nozoom" data-to="1984 120 noanim-nozoom" />
         <path data-line="IR904" class="IR e1h" data-stops="- Lausanne Nyon Genève" data-from="1983 0 noanim-nozoom" data-to="1984 120 noanim-nozoom" />
 
@@ -237,19 +237,19 @@
         <path data-line="IR905" class="IR e2h" data-stops="- St.Gallen Rorschach St.Margrethen BuchsSG Sargans Landquart Chur" data-from="1983 0 noanim-nozoom" data-to="1984 120 noanim-nozoom" />
         
 
-        <path data-line="IR906" class="IR e2h" data-stops="- St.Gallen PfäffikonSZ Arth-Goldau h_Arth-Goldau_Luzern Luzern" data-from="1983 0 noanim-nozoom" data-to="1984 120 noanim-nozoom" />
+        <path data-line="IR906" class="IR e2h" data-stops="- St.Gallen PfäffikonSZ Arth-Goldau Luzern" data-from="1983 0 noanim-nozoom" data-to="1984 120 noanim-nozoom" />
         
         
 
-        <path data-line="IR909" class="IR e2h" data-stops="- Schaffhausen Bülach ZürichHb" data-from="1983 0 noanim-nozoom" data-to="1984 120 noanim-nozoom" />
+        <path data-line="IR909" class="IR e2h" data-stops="+ Schaffhausen Bülach - ZürichHb" data-from="1983 0 noanim-nozoom" data-to="1984 120 noanim-nozoom" />
         <path data-line="IR909" class="IR e2h" data-stops="- ZürichHb Zug Arth-Goldau" data-from="1983 0 noanim-nozoom" data-to="1984 120 noanim-nozoom" />
         <path data-line="IR909" class="IR e2h" data-stops="- Arth-Goldau Göschenen Bellinzona Lugano Chiasso" data-from="1983 0 noanim-nozoom" data-to="1984 120 noanim-nozoom" />
         
         
         
 
-        <path data-line="IR909" class="IR e2h" data-stops="- BaselSBB Liestal hh_OB Olten hh_OS Sursee + Luzern" data-from="1983 0 noanim-nozoom" data-to="1984 120 noanim-nozoom" />
-        <path data-line="IR909" class="IR e2h" data-stops="- Luzern h_Arth-Goldau_Luzern Arth-Goldau" data-from="1983 0 noanim-nozoom" data-to="1984 120 noanim-nozoom" />
+        <path data-line="IR909" class="IR e2h" data-stops="+ BaselSBB Liestal - hh_OB Olten hh_OS Sursee + Luzern" data-from="1983 0 noanim-nozoom" data-to="1984 120 noanim-nozoom" />
+        <path data-line="IR909" class="IR e2h" data-stops="Luzern h_AGL_W h_AGL_E  -1 Arth-Goldau" data-from="1983 0 noanim-nozoom" data-to="1984 120 noanim-nozoom" />
         
         
 
@@ -267,8 +267,8 @@
 
         <path data-line="PB917" class="IR e1h" data-stops="- Landquart DavosPlatz" data-from="1983 0 noanim-nozoom" data-to="1984 120 noanim-nozoom" />
 
-        <path data-line="IR918" class="IR e2h" data-stops="- BaselSBB Liestal hh_OB Olten Langenthal Burgdorf Bern Thun Kandersteg Brig" data-from="1983 0 noanim-nozoom" data-to="1984 120 noanim-nozoom" />
-        
+        <path data-line="IR918" class="IR e2h" data-stops="+ BaselSBB Liestal h_Liestal_hh_OB - hh_OB Olten Langenthal Burgdorf +2 Bern - Thun Kandersteg Brig" data-from="1983 0 noanim-nozoom" data-to="1984 120 noanim-nozoom" />
+
         <!-- Scuol-Tarasp 2002, Disentis 2005 -->
 
         <path data-line="IR919" class="IR e1h" data-stops="- Chur St.Moritz" data-from="1983 0 noanim-nozoom" data-to="1984 120 noanim-nozoom" />
@@ -283,15 +283,14 @@
 
         <path data-line="IR922" class="IR e1h" data-stops="- ZürichHb Zug h_Luzern_Zug Luzern" data-from="1983 0 noanim-nozoom" data-to="1984 120 noanim-nozoom" />
         
-
-        <path data-line="IR923" class="IR e1h" data-stops="- ZürichHb Baden Aarau Olten" data-from="1983 0 noanim-nozoom" data-to="1984 120 noanim-nozoom" />
-        <path data-line="IR923" class="IR e2h" data-stops="- Olten Langenthal Burgdorf Bern" data-from="1983 0 noanim-nozoom" data-to="1984 120 noanim-nozoom" />
-        <path data-line="IR923" class="IR e1h" data-stops="- Bern Thun InterlakenOst" data-from="1983 0 noanim-nozoom" data-to="1984 120 noanim-nozoom" />
+        <path data-line="IR923" class="IR e1h" data-stops="- InterlakenOst Thun +1 Bern" data-from="1983 0 noanim-nozoom" data-to="1984 120 noanim-nozoom" />
+        <path data-line="IR923" class="IR e2h" data-stops="Bern - Burgdorf Langenthal Olten" data-from="1983 0 noanim-nozoom" data-to="1984 120 noanim-nozoom" />
+        <path data-line="IR923" class="IR e1h" data-stops="- Olten Aarau Baden ZürichHb" data-from="1983 0 noanim-nozoom" data-to="1984 120 noanim-nozoom" />
         
         
         <!-- Solothurn Burgdorf Thun 2002 -->
 
-        <path data-line="IR924a" class="IR e1h" data-stops="- Solothurn Bern" data-from="1983 0 noanim-nozoom" data-to="1984 120 noanim-nozoom" />
+        <path data-line="IR924a" class="IR e1h" data-stops="- Solothurn -2 Bern" data-from="1983 0 noanim-nozoom" data-to="1984 120 noanim-nozoom" />
         
 
 
@@ -301,7 +300,7 @@
         <path data-line="IR924" class="IR e1h" data-stops="- Biel/Bienne Bern" data-from="1983 0 noanim-nozoom" data-to="1984 120 noanim-nozoom" />
         
 
-        <path data-line="IR925" class="IR e2h" data-stops="- LeLocle LaChaux-de-Fonds Neuchâtel Kerzers Bern" data-from="1983 0 noanim-nozoom" data-to="1984 120 noanim-nozoom" />
+        <path data-line="IR925" class="IR e2h" data-stops="- LeLocle LaChaux-de-Fonds Neuchâtel Bern" data-from="1983 0 noanim-nozoom" data-to="1984 120 noanim-nozoom" />
         
 
         <path data-line="IR926" class="IR e2h" data-stops="- MilanoCentrale Brig" data-from="1983 0 noanim-nozoom" data-to="1984 120 noanim-nozoom" />
@@ -314,11 +313,11 @@
         <!--<path data-line="IR930a" class="IR e2h" data-stops="- Lausanne Palézieux Payerne" data-from="1983 0 noanim-nozoom" data-to="1984 120 noanim-nozoom" />-->
 
         <path data-line="IR931" class="IR some" data-stops="- Lausanne Cossonay-Penthalaz Frasne Paris" data-from="1983 0 noanim-nozoom" data-to="1984 120 noanim-nozoom" />
-        <path data-line="IR932" class="IR some" data-stops="- Paris Frasne Neuchâtel Kerzers Bern" data-from="1983 0 noanim-nozoom" data-to="1984 120 noanim-nozoom" />
+        <path data-line="IR932" class="IR some" data-stops="- Paris Frasne Neuchâtel -1 Bern" data-from="1983 0 noanim-nozoom" data-to="1984 120 noanim-nozoom" />
 
         <!--<path data-line="IR933" class="IR e2h" data-stops="- Bern Kerzers" data-from="1983 0 noanim-nozoom" data-to="1984 120 noanim-nozoom" />-->
 
-        <path data-line="IR934" class="IR e2h" data-stops="- Bern Konolfingen Luzern" data-from="1983 0 noanim-nozoom" data-to="1984 120 noanim-nozoom" />
+        <path data-line="IR934" class="IR e2h" data-stops="- Bern Luzern" data-from="1983 0 noanim-nozoom" data-to="1984 120 noanim-nozoom" />
         
 
         <!--<path data-line="IR935" class="IR e2h" data-stops="- Bern Belp" data-from="1983 0 noanim-nozoom" data-to="1984 120 noanim-nozoom" />-->
@@ -326,6 +325,8 @@
         <path data-line="IR936" class="IR e2h" data-stops="- Luzern InterlakenOst" data-from="1983 0 noanim-nozoom" data-to="1984 120 noanim-nozoom" />
 
         <path data-line="IR936" class="IR some" data-stops="- Genève Lyon" data-from="1983 0 noanim-nozoom" data-to="1984 120 noanim-nozoom" />
+
+
 
 
         <path data-line="dummy" class="helper" data-stops="WienStephansplatz MilanoCentrale" data-from="2022 120 noanim-keepzoom" />
@@ -338,7 +339,7 @@
         <path data-line="IR2003" class="IR e1h" data-stops="- Solothurn Bern" data-from="2022 0 noanim-nozoom" data-to="2022 120 noanim-nozoom" />
         <path data-line="IR2003a" class="IR e1h" data-stops="- Solothurn Bern" data-from="2022 0 noanim-nozoom" data-to="2022 120 noanim-nozoom" />
         <path data-line="IR2004" class="IR e1h" data-stops="- LeLocle LaChaux-de-Fonds Neuchâtel" data-from="2022 0 noanim-nozoom" data-to="2022 120 noanim-nozoom" />
-        <path data-line="IR2005" class="IR e1h" data-stops="- LaChaux-de-Fonds Neuchâtel Kerzers Bern" data-from="2022 0 noanim-nozoom" data-to="2022 120 noanim-nozoom" />
+        <path data-line="IR2005" class="IR e1h" data-stops="- LaChaux-de-Fonds Neuchâtel Bern" data-from="2022 0 noanim-nozoom" data-to="2022 120 noanim-nozoom" />
         <path data-line="IR2006" class="IR some" data-stops="- Neuchâtel Frasne" data-from="2022 0 noanim-nozoom" data-to="2022 120 noanim-nozoom" />
         <path data-line="IR2007" class="IR some" data-stops="- Genève Lyon" data-from="2022 0 noanim-nozoom" data-to="2022 120 noanim-nozoom" />
 
@@ -355,10 +356,10 @@
         <path data-line="IR2014" class="IR e1h" data-stops="- Locarno Lugano Chiasso" data-from="2022 0 noanim-nozoom" data-to="2022 120 noanim-nozoom" />
 
         <path data-line="IR2015" class="IR e1h" data-stops="- Locarno Bellinzona Göschenen Arth-Goldau" data-from="2022 0 noanim-nozoom" data-to="2022 120 noanim-nozoom" />
-        <path data-line="IR2015" class="IR e2h" data-stops="Arth-Goldau h_Arth-Goldau_Luzern - Luzern hh_OS Olten hh_OB BaselSBB" data-from="2022 0 noanim-nozoom" data-to="2022 120 noanim-nozoom" />
+        <path data-line="IR2015" class="IR e2h" data-stops="Arth-Goldau h_AGL_E h_AGL_W  - Luzern hh_OS Olten hh_OB BaselSBB" data-from="2022 0 noanim-nozoom" data-to="2022 120 noanim-nozoom" />
         <path data-line="IR2015" class="IR e2h" data-stops="- Arth-Goldau Zug -2 ZürichHb" data-from="2022 0 noanim-nozoom" data-to="2022 120 noanim-nozoom" />
 
-        <path data-line="IR2016" class="IR e1h" data-stops="- Luzern h_Arth-Goldau_Luzern Arth-Goldau PfäffikonSZ + St.Gallen" data-from="2022 0 noanim-nozoom" data-to="2022 120 noanim-nozoom" />
+        <path data-line="IR2016" class="IR e1h" data-stops="+ St.Gallen - PfäffikonSZ Arth-Goldau Luzern" data-from="2022 0 noanim-nozoom" data-to="2022 120 noanim-nozoom" />
         <path data-line="IR2017" class="IR e1h" data-stops="- St.Gallen Romanshorn Konstanz" data-from="2022 0 noanim-nozoom" data-to="2022 120 noanim-nozoom" />
         <path data-line="IR2018" class="IR e1h" data-stops="- St.Moritz Chur" data-from="2022 0 noanim-nozoom" data-to="2022 120 noanim-nozoom" />
         <path data-line="IR2019" class="IR e1h" data-stops="- DavosPlatz KlostersPlatz Landquart" data-from="2022 0 noanim-nozoom" data-to="2022 120 noanim-nozoom" />
@@ -372,8 +373,8 @@
         <path data-line="IR2026" class="IR e1h" data-stops="- Konstanz Singen(Hohentwiel) Stuttgart" data-from="2022 0 noanim-nozoom" data-to="2022 120 noanim-nozoom" />
         <path data-line="IR2027" class="IR e1h" data-stops="- Schaffhausen Winterthur" data-from="2022 0 noanim-nozoom" data-to="2022 120 noanim-nozoom" />
         <path data-line="IR2028" class="IR e1h" data-stops="- Singen(Hohentwiel) Schaffhausen BaselSBB" data-from="2022 0 noanim-nozoom" data-to="2022 120 noanim-nozoom" />
-        <path data-line="IR2029" class="IR e1h" data-stops="- Schaffhausen ZürichHb" data-from="2022 0 noanim-nozoom" data-to="2022 120 noanim-nozoom" />
-        <path data-line="IR2030" class="IR e1h" data-stops="- Luzern Konolfingen Bern" data-from="2022 0 noanim-nozoom" data-to="2022 120 noanim-nozoom" />
+        <path data-line="IR2029" class="IR e1h" data-stops="+ Schaffhausen Bülach - ZürichHb" data-from="2022 0 noanim-nozoom" data-to="2022 120 noanim-nozoom" />
+        <path data-line="IR2030" class="IR e1h" data-stops="- Luzern Bern" data-from="2022 0 noanim-nozoom" data-to="2022 120 noanim-nozoom" />
         <path data-line="IR2031" class="IR e1h" data-stops="- Luzern InterlakenOst" data-from="2022 0 noanim-nozoom" data-to="2022 120 noanim-nozoom" />
         <path data-line="IR2032" class="IR e2h" data-stops="- InterlakenOst Zweisimmen Montreux" data-from="2022 0 noanim-nozoom" data-to="2022 120 noanim-nozoom" />
         <path data-line="IR2033" class="IR e1h" data-stops="Luzern + Sursee hh_OS Olten hh_OB - Liestal BaselSBB" data-from="2022 0 noanim-nozoom" data-to="2022 120 noanim-nozoom" />
@@ -388,8 +389,8 @@
         <path data-line="IR2041" class="IR e1h" data-stops="- BaselSBB MulhouseVille Strasbourg" data-from="2022 0 noanim-nozoom" data-to="2022 120 noanim-nozoom" />
 
 
-        <path data-line="loetschberg" class="tunnel" data-from="2008 5" data-to="2021 1 noanim-nozoom" data-stops="+0 LoetschN +0 LoetschS" />
-        <path data-line="gotthard" class="tunnel" data-from="2017 2" data-to="2021 1 noanim-nozoom" data-stops="+1 GottN +1 GottS" />
+        <path data-line="loetschberg" class="tunnel" data-from="2008 5 nozoom" data-to="2021 1 noanim-nozoom" data-stops="+0 LoetschN +0 LoetschS" />
+        <path data-line="gotthard" class="tunnel" data-from="2017 2 nozoom" data-to="2021 1 noanim-nozoom" data-stops="+1 GottN +1 GottS" />
 
         <rect data-station="LoetschN" x="64051" y="43430" data-comment="LoetschN" data-dir="n" class="helper" />
         <rect data-station="LoetschS" x="64113" y="43564" data-comment="LoetschS" data-dir="nw" class="helper" />
@@ -405,100 +406,99 @@
         <path data-line="dummy" class="helper" data-stops="WienStephansplatz MilanoCentrale" data-from="2005 100 noanim-nozoom" />
         <path data-line="dummy" class="helper" data-stops="WienStephansplatz MilanoCentrale" data-from="2008 35 noanim-nozoom" />
         <path data-line="dummy" class="helper" data-stops="WienStephansplatz MilanoCentrale" data-from="2017 60 noanim-nozoom" />
-        <path data-line="dummy" class="helper" data-stops="WienStephansplatz MilanoCentrale" data-from="2021 20 noanim-nozoom" />
+        <path data-line="dummy" class="helper" data-stops="WienStephansplatz MilanoCentrale" data-from="2021 25 noanim-nozoom" />
 
-        <text data-line="IC1" data-from="2021 10 nozoom" data-to="2023 120 nozoom">1</text>
-        <text data-line="IC2" data-from="2021 10 nozoom" data-to="2023 120 nozoom">2</text>
-        <text data-line="IC3" data-from="2021 10 nozoom" data-to="2023 120 nozoom">3</text>
-        <text data-line="IC4" data-from="2021 10 nozoom" data-to="2023 120 nozoom">4</text>
-        <text data-line="IC5" data-from="2021 10 nozoom" data-to="2023 120 nozoom">5</text>
-        <text data-line="IC5a" class="IC5" data-from="2021 10 nozoom" data-to="2023 120 nozoom">5</text>
-        <text data-line="IC6" data-from="2021 10 nozoom" data-to="2023 120 nozoom">6</text>
-        <text data-line="IC8" data-from="2021 10 nozoom" data-to="2023 120 nozoom">8</text>
-        <text data-line="IC21" data-from="2021 10 nozoom" data-to="2023 120 nozoom">21</text>
-        <text data-line="IC51" data-from="2021 10 nozoom" data-to="2023 120 nozoom">51</text>
-        <text data-line="IC61" data-from="2021 10 nozoom" data-to="2023 120 nozoom">61</text>
+        <text data-line="IC1" data-from="2021 15 nozoom" data-to="2023 120 nozoom">1</text>
+        <text data-line="IC2" data-from="2021 15 nozoom" data-to="2023 120 nozoom">2</text>
+        <text data-line="IC3" data-from="2021 15 nozoom" data-to="2023 120 nozoom">3</text>
+        <text data-line="IC4" data-from="2021 15 nozoom" data-to="2023 120 nozoom">4</text>
+        <text data-line="IC5" data-from="2021 15 nozoom" data-to="2023 120 nozoom">5</text>
+        <text data-line="IC5a" class="IC5" data-from="2021 15 nozoom" data-to="2023 120 nozoom">5</text>
+        <text data-line="IC6" data-from="2021 15 nozoom" data-to="2023 120 nozoom">6</text>
+        <text data-line="IC8" data-from="2021 15 nozoom" data-to="2023 120 nozoom">8</text>
+        <text data-line="IC21" data-from="2021 15 nozoom" data-to="2023 120 nozoom">21</text>
+        <text data-line="IC51" data-from="2021 15 nozoom" data-to="2023 120 nozoom">51</text>
+        <text data-line="IC61" data-from="2021 15 nozoom" data-to="2023 120 nozoom">61</text>
 
 
         <!-- Geneve-->
 
 
-        <rect data-station="Schaffhausen" x="64387" y="42868" data-comment="Schaffhausen" data-dir="ne" />
+        <rect data-station="Schaffhausen" x="64387" y="42868" data-comment="Schaffhausen" data-dir="ne" data-label-dir="nw" />
         <rect data-station="Konstanz" x="64573" y="42888" data-comment="Konstanz" data-dir="n" />
-        <rect data-station="Romanshorn" x="64641" y="42936" data-comment="Romanshorn" data-dir="ne" />
-        <rect data-station="St.Margrethen" x="64730" y="42992" data-comment="St.Margrethen" data-dir="nw" />
+        <rect data-station="Romanshorn" x="64641" y="42936" data-comment="Romanshorn" data-dir="ne" data-label-dir="ne" />
+        <rect data-station="St.Margrethen" x="64730" y="42992" data-comment="St.Margrethen" data-dir="nw" data-label-dir="e" />
         <rect data-station="Weinfelden" x="64548" y="42935" data-comment="Weinfelden" data-dir="n" />
-        <rect data-station="St.Gallen" x="64638" y="43007" data-comment="St.Gallen" data-dir="n" />
+        <rect data-station="St.Gallen" x="64638" y="43007" data-comment="St.Gallen" data-dir="n" data-label-dir="s" />
         <rect data-station="Rorschach" x="64684" y="42980" data-comment="Rorschach" data-dir="n" />
-        <rect data-station="Winterthur" x="64418" y="42969" data-comment="Winterthur" data-dir="nw" />
-        <rect data-station="ZürichHb" x="64355" y="43030" data-comment="ZürichHb" data-dir="n" />
-        <rect data-station="Sargans" x="64664" y="43197" data-comment="Sargans" data-dir="n" />
-        <rect data-station="Landquart" x="64701" y="43236" data-comment="Landquart" data-dir="n" />
-        <rect data-station="Chur" x="64693" y="43294" data-comment="Chur" data-dir="ne" />
-        <rect data-station="Zug" x="64349" y="43133" data-comment="Zug" data-dir="n" />
+        <rect data-station="Winterthur" x="64418" y="42969" data-comment="Winterthur" data-dir="nw" data-label-dir="se" />
+        <rect data-station="ZürichHb" x="64355" y="43030" data-comment="ZürichHb" data-dir="n" data-label-dir="sw" />
+        <rect data-station="Sargans" x="64664" y="43197" data-comment="Sargans" data-dir="n" data-label-dir="nw" />
+        <rect data-station="Landquart" x="64701" y="43236" data-comment="Landquart" data-dir="n" data-label-dir="ne" />
+        <rect data-station="Chur" x="64693" y="43294" data-comment="Chur" data-dir="ne" data-label-dir="w" />
+        <rect data-station="Zug" x="64349" y="43133" data-comment="Zug" data-dir="n" data-label-dir="e" />
         <rect data-station="Thalwil" x="64363" y="43072" data-comment="Thalwil" data-dir="n" />
-        <rect data-station="Ziegelbrücke" x="64532" y="43152" data-comment="Ziegelbrücke" data-dir="n" />
+        <rect data-station="Ziegelbrücke" x="64532" y="43152" data-comment="Ziegelbrücke" data-dir="n" data-label-dir="sw" />
         <rect data-station="WilSG" x="64526" y="42988" data-comment="WilSG" data-dir="n" />
-        <rect data-station="Arth-Goldau" x="64358" y="43196" data-comment="Arth-Goldau" data-dir="nw" />
+        <rect data-station="Arth-Goldau" x="64358" y="43196" data-comment="Arth-Goldau" data-dir="nw" data-label-dir="e" />
         <rect data-station="Rotkreuz" x="64318" y="43149" data-comment="Rotkreuz" data-dir="n" />
         <rect data-station="Luzern" x="64277" y="43195" data-comment="Luzern" data-dir="nw" />
         <rect data-station="Altdorf" x="64386" y="43282" data-comment="Altdorf" data-dir="n" />
-        <rect data-station="Göschenen" x="64372" y="43387" data-comment="Göschenen" data-dir="n" />
-        <rect data-station="Bellinzona" x="64522" y="43620" data-comment="Bellinzona" data-dir="n" />
+        <rect data-station="Göschenen" x="64372" y="43387" data-comment="Göschenen" data-dir="n" data-label-dir="w" />
+        <rect data-station="Bellinzona" x="64522" y="43620" data-comment="Bellinzona" data-dir="n" data-label-dir="e" />
         <rect data-station="Locarno" x="64444" y="43631" data-comment="Locarno" data-dir="n" />
-        <rect data-station="Lugano" x="64494" y="43713" data-comment="Lugano" data-dir="n" />
-        <rect data-station="Baden" x="64276" y="42981" data-comment="Baden" data-dir="ne" />
+        <rect data-station="Lugano" x="64494" y="43713" data-comment="Lugano" data-dir="n" data-label-dir="e" />
+        <rect data-station="Baden" x="64276" y="42981" data-comment="Baden" data-dir="ne" data-label-dir="ne" />
         <rect data-station="Aarau" x="64188" y="43024" data-comment="Aarau" data-dir="n" />
         <rect data-station="Lenzburg" x="64229" y="43024" data-comment="Lenzburg" data-dir="n" />
         <rect data-station="Rheinfelden" x="64100" y="42943" data-comment="Rheinfelden" data-dir="n" />
-        <rect data-station="BaselSBB" x="64031" y="42945" data-comment="BaselSBB" data-dir="n" />
-        <rect data-station="Liestal" x="64079" y="42977" data-comment="Liestal" data-dir="ne" />
-        <rect data-station="Olten" x="64139" y="43043" data-comment="Olten" data-dir="ne" />
-        <rect data-station="Solothurn" x="64015" y="43118" data-comment="Solothurn" data-dir="ne" />
-        <rect data-station="Langenthal" x="64097" y="43111" data-comment="Langenthal" data-dir="n" />
-        <rect data-station="Bern" x="63979" y="43246" data-comment="Bern" data-dir="n" />
-        <rect data-station="Biel/Bienne" x="63912" y="43154" data-comment="Biel/Bienne" data-dir="n" />
-        <rect data-station="Delémont" x="63949" y="43038" data-comment="Delémont" data-dir="ne" />
-        <rect data-station="Neuchâtel" x="63807" y="43222" data-comment="Neuchâtel" data-dir="ne" />
+        <rect data-station="BaselSBB" x="64031" y="42945" data-comment="BaselSBB" data-dir="n" data-label-dir="w" />
+        <rect data-station="Liestal" x="64079" y="42977" data-comment="Liestal" data-dir="ne" data-label-dir="sw"  />
+        <rect data-station="Olten" x="64139" y="43043" data-comment="Olten" data-dir="ne" data-label-dir="se" />
+        <rect data-station="Solothurn" x="64015" y="43118" data-comment="Solothurn" data-dir="ne" data-label-dir="nw"  />
+        <rect data-station="Langenthal" x="64097" y="43111" data-comment="Langenthal" data-dir="n" data-label-dir="s" />
+        <rect data-station="Bern" x="63979" y="43246" data-comment="Bern" data-dir="n" data-label-dir="nw"  />
+        <rect data-station="Biel/Bienne" x="63912" y="43154" data-comment="Biel/Bienne" data-dir="n" data-label-dir="nw"  />
+        <rect data-station="Delémont" x="63949" y="43038" data-comment="Delémont" data-dir="ne" data-label-dir="e" />
+        <rect data-station="Neuchâtel" x="63807" y="43222" data-comment="Neuchâtel" data-dir="ne" data-label-dir="w" />
         <rect data-station="Cossonay-Penthalaz" x="63667" y="43417" data-comment="Cossonay-Penthalaz" data-dir="n" />
         <rect data-station="PfäffikonSZ" x="64436" y="43118" data-comment="PfäffikonSZ" data-dir="n" />
         <rect data-station="Herisau" x="64606" y="43024" data-comment="Herisau" data-dir="n" />
-        <rect data-station="Bülach" x="64354" y="42957" data-comment="Bülach" data-dir="n" />
-        <rect data-station="Thun" x="64044" y="43343" data-comment="Thun" data-dir="nw" />
+        <rect data-station="Bülach" x="64354" y="42957" data-comment="Bülach" data-dir="ne" data-label-dir="nw"  />
+        <rect data-station="Thun" x="64044" y="43343" data-comment="Thun" data-dir="nw" data-label-dir="ne"  />
         <rect data-station="Spiez" x="64061" y="43377" data-comment="Spiez" data-dir="n" />
-        <rect data-station="Kandersteg" x="64058" y="43471" data-comment="Kandersteg" data-dir="n" />
-        <rect data-station="InterlakenOst" x="64126" y="43375" data-comment="InterlakenOst" data-dir="n" />
+        <rect data-station="Kandersteg" x="64058" y="43471" data-comment="Kandersteg" data-dir="n" data-label-dir="sw" />
+        <rect data-station="InterlakenOst" x="64126" y="43375" data-comment="InterlakenOst" data-dir="n" data-label-dir="e" />
         <rect data-station="Visp" x="64130" y="43571" data-comment="Visp" data-dir="n" />
         <rect data-station="Brig" x="64167" y="43559" data-comment="Brig" data-dir="nw" />
         <rect data-station="Sion" x="63952" y="43604" data-comment="Sion" data-dir="n" />
         <rect data-station="Montreux" x="63799" y="43501" data-comment="Montreux" data-dir="n" />
-        <rect data-station="Lausanne" x="63703" y="43461" data-comment="Lausanne" data-dir="n" />
-        <rect data-station="Romont" x="63799" y="43373" data-comment="Romont" data-dir="n" />
-        <rect data-station="Yverdon-les-Bains" x="63707" y="43329" data-comment="Yverdon-les-Bains" data-dir="ne" />
+        <rect data-station="Lausanne" x="63703" y="43461" data-comment="Lausanne" data-dir="n" data-label-dir="s" />
+        <rect data-station="Yverdon-les-Bains" x="63707" y="43329" data-comment="Yverdon-les-Bains" data-dir="ne" data-label-dir="nw" />
         <rect data-station="LaChaux-de-Fonds" x="63770" y="43171" data-comment="LaChaux-de-Fonds" data-dir="n" />
         <rect data-station="Morges" x="63657" y="43464" data-comment="Morges" data-dir="n" />
-        <rect data-station="Nyon" x="63569" y="43526" data-comment="Nyon" data-dir="ne" />
-        <rect data-station="Genève" x="63537" y="43613" data-comment="Genève" data-dir="n" />
-        <rect data-station="Chiasso" x="64523" y="43798" data-comment="Chiasso" data-dir="n" />
-        <rect data-station="BuchsSG" x="64675" y="43136" data-comment="BuchsSG" data-dir="ne" />
-        <rect data-station="DavosPlatz" x="64792" y="43324" data-comment="DavosPlatz" data-dir="n" />
-        <rect data-station="St.Moritz" x="64801" y="43470" data-comment="St.Moritz" data-dir="n" />
-        <rect data-station="LeLocle" x="63743" y="43191" data-comment="LeLocle" data-dir="n" />
-        <rect data-station="Zermatt" x="64085" y="43704" data-comment="Zermatt" data-dir="n" />
+        <rect data-station="Nyon" x="63569" y="43526" data-comment="Nyon" data-dir="ne" data-label-dir="nw"  />
+        <rect data-station="Genève" x="63537" y="43613" data-comment="Genève" data-dir="n" data-label-dir="sw" />
+        <rect data-station="Chiasso" x="64523" y="43798" data-comment="Chiasso" data-dir="n" data-label-dir="e"  />
+        <rect data-station="BuchsSG" x="64675" y="43136" data-comment="BuchsSG" data-dir="ne" data-label-dir="nw"  />
+        <rect data-station="DavosPlatz" x="64792" y="43324" data-comment="DavosPlatz" data-dir="n" data-label-dir="s"  />
+        <rect data-station="St.Moritz" x="64801" y="43470" data-comment="St.Moritz" data-dir="n" data-label-dir="s"  />
+        <rect data-station="LeLocle" x="63743" y="43191" data-comment="LeLocle" data-dir="n" data-label-dir="w"  />
+        <rect data-station="Zermatt" x="64085" y="43704" data-comment="Zermatt" data-dir="n" data-label-dir="s"  />
         <rect data-station="Payerne" x="63809" y="43310" data-comment="Payerne" data-dir="n" />
         <rect data-station="Palézieux" x="63774" y="43448" data-comment="Palézieux" data-dir="n" />
         <rect data-station="Kerzers" x="63895" y="43233" data-comment="Kerzers" data-dir="n" />
         <rect data-station="Belp" x="64000" y="43276" data-comment="Belp" data-dir="n" />
-        <rect data-station="Burgdorf" x="64042" y="43190" data-comment="Burgdorf" data-dir="ne" />
+        <rect data-station="Burgdorf" x="64042" y="43190" data-comment="Burgdorf" data-dir="ne" data-label-dir="e"  />
         <rect data-station="Konolfingen" x="64041" y="43280" data-comment="Konolfingen" data-dir="n" />
-        <rect data-station="Sursee" x="64204" y="43135" data-comment="Sursee" data-dir="ne" />
-        <rect data-station="Annemasse" x="63569" y="43618" data-comment="Annemasse" data-dir="n" />
-        <rect data-station="KlostersPlatz" x="64813" y="43285" data-comment="KlostersPlatz" data-dir="ne" />
+        <rect data-station="Sursee" x="64204" y="43135" data-comment="Sursee" data-dir="ne" data-label-dir="ne"  />
+        <rect data-station="Annemasse" x="63569" y="43618" data-comment="Annemasse" data-dir="n" data-label-dir="e" />
+        <rect data-station="KlostersPlatz" x="64813" y="43285" data-comment="KlostersPlatz" data-dir="ne" data-label-dir="ne"  />
         <rect data-station="Scuol-Tarasp" x="64951" y="43323" data-comment="Scuol-Tarasp" data-dir="n" />
-        <rect data-station="Disentis/Mustér" x="64463" y="43367" data-comment="Disentis/Mustér" data-dir="nw" />
-        <rect data-station="Fribourg/Freiburg" x="63881" y="43318" data-comment="Fribourg/Freiburg" data-dir="n" />
+        <rect data-station="Disentis/Mustér" x="64463" y="43367" data-comment="Disentis/Mustér" data-dir="nw" data-label-dir="e" />
+        <rect data-station="Fribourg/Freiburg" x="63881" y="43318" data-comment="Fribourg/Freiburg" data-dir="n" data-label-dir="se"  />
         <rect data-station="Zweisimmen" x="63957" y="43443" data-comment="Zweisimmen" data-dir="n" />
-        <rect data-station="Romont" x="63799" y="43373" data-comment="Romont" data-dir="ne" />
+        <rect data-station="Romont" x="63799" y="43373" data-comment="Romont" data-dir="ne" data-label-dir="nw" />
 
 
 
@@ -523,8 +523,9 @@
         <rect data-station="hh_OB" x="64130" y="42990" data-dir="nw" class="helper" />
         <rect data-station="hh_BZ" x="64270" y="43030" data-dir="ne" class="helper" />
         <rect data-station="h_Bern_ZürichHb" x="64167" y="43160" data-dir="ne" class="helper" />
-        <rect data-station="h_Arth-Goldau_Luzern" data-dir="ne" x="64317.5" y="43190" class="helper" />
-        <rect data-station="h_St.Gallen_Winterthur" data-dir="ne" x="64528" y="43000" class="helper" />
+        <rect data-station="h_AGL_W" data-dir="ne" x="64310" y="43210" class="helper" />
+        <rect data-station="h_AGL_E" data-dir="ne" x="64330" y="43190" class="helper" />
+        <rect data-station="h_St.Gallen_Winterthur" data-dir="ne" x="64478" y="42950" class="helper" />
         <rect data-station="h_Luzern_Zug" data-dir="n" x="64317" y="43164" class="helper" />
         <rect data-station="h_Winterthur_ZürichHb" data-dir="n" x="64355" y="43030" class="helper" />
 
@@ -670,7 +671,6 @@
         <text data-station="Sion">Sion</text>
         <text data-station="Montreux">Montreux</text>
         <text data-station="Lausanne">Lausanne</text>
-        <text data-station="Romont">Romont</text>
         <text data-station="Yverdon-les-Bains">Yverdon-les-Bains</text>
         <text data-station="LaChaux-de-Fonds">La Chaux-de-Fonds</text>
         <text data-station="Morges">Morges</text>
@@ -714,6 +714,7 @@
 <image id="lgv" href="res/Zwei_IC2000_bei_Recherswil.jpg" preserveAspectRatio="xMidYMid slice" class="cover" data-from="2005 55 nozoom" data-to="2005 65 nozoom" data-zoom="55 55" />
 <text x="65187" y="43813" data-inset="lgv" data-from="2005 55 nozoom" data-to="2005 65 nozoom" class="caption">Kreuzende IC2000 auf der Neubaustrecke Mattstetten-Rothrist / Deux IC2000 sur la LGV Mattstetten-Rothrist. Albinfo. CC-BY-SA 4.0.</text>
 
+<text x="65187" y="43813" data-inset="mff" data-from="1981 0 nozoom" data-to="1981 10 nozoom" class="caption">Relief: maps-for-free.com. CC0. / © OpenStreetMap Contributors</text>
 
 
 
