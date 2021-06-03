@@ -34,8 +34,23 @@ function borders(geo) {
     document.getElementById('border').setAttribute('d', path);
 }
 
+function fetchLocal(url) {
+  return new Promise(function(resolve, reject) {
+    var xhr = new XMLHttpRequest
+    xhr.onload = function() {
+      resolve(new Response(xhr.responseText, {status: 200}))
+    }
+    xhr.onerror = function() {
+      reject(new TypeError('Local request failed'))
+    }
+    xhr.open('GET', url)
+    xhr.send(null)
+  })
+}
+
+
 // Source: https://github.com/ZHB/switzerland-geojson/tree/master/country
-fetch("res/borders.json")
+fetchLocal("res/borders.json")
   .then(response => response.json())
   .then(borders);
 
