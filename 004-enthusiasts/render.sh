@@ -1,0 +1,1 @@
+docker run --rm -it -v $(pwd):/app -v $(pwd)/res/high/RobotoCondensed-Bold.ttf:/usr/share/fonts/truetype/RobotoCondensed-Bold.ttf tburrows13/moviepy bash -c 'fc-cache -f && python /app/enthusiasts.py'
