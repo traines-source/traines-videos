@@ -39,12 +39,12 @@ scenes = [
     ),
     TScene(
         TClip("car_combustion.mp4", 8, "Honda Civic Type R FK8 x Fi Exhaust - Sound C[...]. FiExhaust. CC-BY 3.0."),
-        TClip("steam_loco.mp4", 335, "Cuba Steam in Paradise 1999 part 5. blackthorne57. CC-BY 3.0."),
+        TClip("steam_loco.mp4", 335, "Cuba Steam in Paradise 1999 part 5. blackthorne57. CC-BY 3.0.", 1, VIDEO_H-TEXT_BAR_H+10),
         "Because some think combustion engines are still the best,\nwhile others do not."
     ),
     TScene(
         TClip("audi2.mp4", 95, "2020 Audi A3 Review | Buy Now or Wait for 202[...]. Gold Pony. CC-BY 3.0."),
-        TClip("loco_models.mp4", 362, "[GL][T-232] EMD vs GE: Who Makes The Better Locomotive? | Trains 21. Trains21. CC-BY 3.0."),
+        TClip("loco_models.mp4", 362, "[GL][T-232] EMD vs GE: Who Makes The Better L[...]. Trains21. CC-BY 3.0."),
         "Because some want more horsepower,\nwhile others need it."
     ),
     TScene(
@@ -54,7 +54,7 @@ scenes = [
     ),
     TScene(
         TClip("flying.mp4", 150, "Pal V Liberty \"World's first\" commercial fl[...]. Tech World. CC-BY 3.0.", 1, 720/(1280/21*9)*(VIDEO_H-TEXT_BAR_H)),
-        TClip("maglev.mp4", 74, "L0 Series maglev train [FHD 60p]. ula. CC-BY 3.0."),
+        TClip("maglev.mp4", 75, "L0 Series maglev train [FHD 60p]. ula. CC-BY 3.0."),
         "Because some aim at a livable future,\nwhile others prefer dreaming."
     ),
     TScene(
@@ -84,8 +84,8 @@ def createSideClip(clip):
     return vfc
 
 def createCaption(text):
-    clip = text_clip(text=text, fill_color=(255,255,255), font_family=FONT, font_weight="bold", align="center", font_height=20, stroke_width=2)
-    return clip.with_duration(DURATION).fadein(FADE_DURATION).fadeout(FADE_DURATION)
+    clip = text_clip(text=text, fill_color=(255,255,255), font_family=FONT, font_weight="bold", align="center", font_height=48, stroke_width=3)
+    return clip.resize(0.5).with_duration(DURATION).fadein(FADE_DURATION).fadeout(FADE_DURATION)
 
 def createTitle(text):
     clip = text_clip(text=text, fill_color=(255,255,255), bg_color=(0,0,0), font_family=FONT, font_weight="bold", align="center", font_height=50, stroke_width=0)
@@ -109,4 +109,4 @@ for scene in scenes:
 
 #finished_scenes.append(createTextSlide("That is, because..."))
 final_clip = concatenate_videoclips(finished_scenes)
-final_clip.write_videofile(VIDEO_DIR + "out1.mp4", fps=25)
+final_clip.write_videofile(VIDEO_DIR + "out1.mp4", fps=30)
