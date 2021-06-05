@@ -60,7 +60,7 @@ scenes = [
     TScene(
         TClip("f1.mp4", 47, "Wird der Circuit Paul Ricard 2020 u[...]. Maik's F1 Channel. CC-BY 3.0"),
         TClip("gpe.mp4", 217, "Grand Paris Express | Demystified. RMTransit. CC-BY 3.0."),
-        "Because some have things built to talk about it,\nwhile others talk about things that are built."
+        "Because some have things built so that they can talk about it,\nwhile others talk about things that are built."
     ),
     TScene(
         TClip("drift.mp4", 0, "Tesla drift, model s drift, model s[...]. Jürgen Zimmermann. CC-BY 3.0."),

@@ -7,7 +7,7 @@
     stroke-width: 2;
 }
 
-.helper {
+#elements .helper {
     stroke: none;
     fill: none;
     visibility: hidden;
