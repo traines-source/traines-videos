@@ -28,8 +28,8 @@ function setViewBox() {
     const width = x(br[0])-x(tl[0]);
     const height = y(tl[1])-y(br[1]);
     svg.setAttribute('viewBox', x(tl[0]) + ' ' + y(br[1]) + ' ' + width + ' ' + height);
-    svg.setAttribute('width', width);
-    svg.setAttribute('height', height);
+    svg.setAttribute('width', 1920);
+    svg.setAttribute('height', 1080);
 }
 
 function makeGroup(coordinates) {
@@ -46,7 +46,12 @@ function makeD(geometry) {
     }
 }
 
+function getRelId(feature) {
+    return feature.properties['@relations'] != undefined ? feature.properties['@relations'][0].rel : -1;
+}
+
 function render(geojson, setD) {
+    geojson.features.sort((a, b) => (getRelId(a) < getRelId(b)) ? 1 : -1);
     for (let i=0; i<geojson.features.length; i++) {
         const feature = geojson.features[i];
         if (feature.geometry.type == "Point" || feature.properties["route"] != undefined) {
@@ -69,8 +74,10 @@ function drawFeature(feature, setD) {
         path.className.baseVal += ' ' + clazz;
     }
     if (feature.properties['railway'] == 'construction') {
-        path.dataset.line = 'geo';
+        path.dataset.line = getRelId(feature);
+        path.dataset.animOrder = 'nw';
         path.dataset.from = '1 1';
+        path.dataset.speed = 300;
     }
     if (setD) {
         path.setAttribute('d', makeD(feature.geometry));
