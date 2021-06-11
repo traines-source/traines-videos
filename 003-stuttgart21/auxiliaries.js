@@ -28,8 +28,8 @@ function setViewBox() {
     const width = x(br[0])-x(tl[0]);
     const height = y(tl[1])-y(br[1]);
     svg.setAttribute('viewBox', x(tl[0]) + ' ' + y(br[1]) + ' ' + width + ' ' + height);
-    svg.setAttribute('width', 1920);
-    svg.setAttribute('height', 1080);
+    //svg.setAttribute('width', width);
+    //svg.setAttribute('height', height);
 }
 
 function makeGroup(coordinates) {
@@ -46,17 +46,35 @@ function makeD(geometry) {
     }
 }
 
-function getRelId(feature) {
-    return feature.properties['@relations'] != undefined ? feature.properties['@relations'][0].rel : -1;
+function insideRectangle(coords, tl, br) {
+    return coords[0] > tl[0] && coords[0] < br[0] && coords[1] < tl[1] && coords[1] > br[1];
+}
+
+function getLineName(feature) {
+    if (feature.geometry.type == "Point" || feature.properties["route"] != undefined) {
+        return 'undefined';
+    }
+    if (feature.properties['railway'] != 'construction') {
+        if (
+            insideRectangle(feature.geometry.coordinates[0], [9.19397, 48.8035846], [9.21182, 48.78414]) || 
+            insideRectangle(feature.geometry.coordinates[0], [9.1813, 48.7960], [9.21182, 48.78414])
+        ) {
+            return 's21old';
+        }
+        return 'existing';
+    }
+    if (
+        insideRectangle(feature.geometry.coordinates[0], [9.36824, 48.66841], [10.0614, 48.3606])
+    ) {
+        return 'nbs';
+    }
+    return 's21new';
 }
 
 function render(geojson, setD) {
-    geojson.features.sort((a, b) => (getRelId(a) < getRelId(b)) ? 1 : -1);
+    geojson.features.sort((a, b) => (getLineName(a) < getLineName(b)) ? 1 : -1);
     for (let i=0; i<geojson.features.length; i++) {
         const feature = geojson.features[i];
-        if (feature.geometry.type == "Point" || feature.properties["route"] != undefined) {
-            continue;
-        }
         drawFeature(feature, setD);
     }
     if (setD) {
@@ -68,15 +86,23 @@ function render(geojson, setD) {
 }
 
 function drawFeature(feature, setD) {
+    const name = getLineName(feature);
+    if (name == 'undefined') {
+        return;
+    }
     const clazz = 'route-' + feature.properties['route'] + ' railway-' + feature.properties['railway'] + ' tunnel-' + feature.properties['tunnel'] + ' relations-' + (feature.properties['@relations'] != undefined ? 'child' : '');
     const path = getOrCreatePath(feature.id);
     if (!path.className.baseVal.includes(clazz)) {
         path.className.baseVal += ' ' + clazz;
     }
-    if (feature.properties['railway'] == 'construction') {
-        path.dataset.line = getRelId(feature);
+    if (name != 'existing') {
+        path.dataset.line = name;
         path.dataset.animOrder = 'nw';
-        path.dataset.from = '1 1';
+        if (name != 's21old')
+            path.dataset.from = '1 1';
+        if (name == 's21old')
+            path.dataset.to = '1 5';
+        
         path.dataset.speed = 300;
     }
     if (setD) {
