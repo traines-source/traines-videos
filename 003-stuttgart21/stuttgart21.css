@@ -138,6 +138,14 @@ svg {
     dominant-baseline: middle;
 }
 
+text.caption {
+    visibility: hidden;
+    text-anchor: end;
+    dominant-baseline: hanging;
+    fill: white;
+    text-shadow: 1px 1px 2px black;
+}
+
 .for-line {
     overflow: visible;
     white-space: nowrap;

@@ -27,9 +27,10 @@ function setViewBox() {
     const svg = document.getElementsByTagName('svg')[0];
     const width = x(br[0])-x(tl[0]);
     const height = y(tl[1])-y(br[1]);
+    // should be hardcoded, to avoid race conditions
     svg.setAttribute('viewBox', x(tl[0]) + ' ' + y(br[1]) + ' ' + width + ' ' + height);
-    //svg.setAttribute('width', width);
-    //svg.setAttribute('height', height);
+    svg.setAttribute('width', width);
+    svg.setAttribute('height', height);
 }
 
 function makeGroup(coordinates) {
@@ -50,35 +51,45 @@ function insideRectangle(coords, tl, br) {
     return coords[0] > tl[0] && coords[0] < br[0] && coords[1] < tl[1] && coords[1] > br[1];
 }
 
-function getLineName(feature) {
+function getLineProperties(feature) {
     if (feature.geometry.type == "Point" || feature.properties["route"] != undefined) {
-        return 'undefined';
+        return ['undefined', '', '', 0];
     }
     if (feature.properties['railway'] != 'construction') {
         if (
             insideRectangle(feature.geometry.coordinates[0], [9.19397, 48.8035846], [9.21182, 48.78414]) || 
             insideRectangle(feature.geometry.coordinates[0], [9.1813, 48.7960], [9.21182, 48.78414])
         ) {
-            return 's21old';
+            return ['s21old', 's', '1 45 keepzoom', 100];
         }
-        return 'existing';
+        return ['existing', '', '', 0];
     }
-    if (
-        insideRectangle(feature.geometry.coordinates[0], [9.36824, 48.66841], [10.0614, 48.3606])
-    ) {
-        return 'nbs';
+    if (insideRectangle(feature.geometry.coordinates[0], [9.36824, 48.66841], [10.0614, 48.3606])) {
+        return ['nbs', 'nw', '1 25', 1000];
     }
-    return 's21new';
+    if (insideRectangle(feature.geometry.coordinates[0], [9.18156, 48.80132], [9.19767, 48.78500])) {
+        return ['zsbahn', 's', '1 40', 100];
+    }
+    if (insideRectangle(feature.geometry.coordinates[0], [9.1533, 48.8211], [9.2865, 48.7614])) {
+        return ['s21new', 'nw', '1 1', 200];
+    }
+    if (insideRectangle(feature.geometry.coordinates[0], [9.1533, 48.8211], [9.2017, 48.6917])) {
+        return ['s21new', 'nw', '1 1', 200];
+    }
+    if (insideRectangle(feature.geometry.coordinates[0], [9.1533, 48.8211], [9.3789, 48.6488])) {
+        return ['flwl', 'w', '1 20', 500]
+    }
+    return ['undefined', '', '', 0];
 }
 
 function render(geojson, setD) {
-    geojson.features.sort((a, b) => (getLineName(a) < getLineName(b)) ? 1 : -1);
+    geojson.features.sort((a, b) => (getLineProperties(a)[0] > getLineProperties(b)[0]) ? 1 : -1);
     for (let i=0; i<geojson.features.length; i++) {
         const feature = geojson.features[i];
         drawFeature(feature, setD);
     }
     if (setD) {
-        setViewBox();
+        //setViewBox();
         console.log('tl_x', x(tl[0]), 'tl_y', y(tl[1]), 'br_x', x(br[0]), 'br_y', y(br[1]), 'c_x', x((tl[0]+br[0])/2), 'c_y', y((tl[1]+br[1])/2));
     }
     const event = new Event('startTransportNetworkAnimator');
@@ -86,8 +97,8 @@ function render(geojson, setD) {
 }
 
 function drawFeature(feature, setD) {
-    const name = getLineName(feature);
-    if (name == 'undefined') {
+    const props = getLineProperties(feature);
+    if (props[0] == 'undefined') {
         return;
     }
     const clazz = 'route-' + feature.properties['route'] + ' railway-' + feature.properties['railway'] + ' tunnel-' + feature.properties['tunnel'] + ' relations-' + (feature.properties['@relations'] != undefined ? 'child' : '');
@@ -95,15 +106,16 @@ function drawFeature(feature, setD) {
     if (!path.className.baseVal.includes(clazz)) {
         path.className.baseVal += ' ' + clazz;
     }
-    if (name != 'existing') {
-        path.dataset.line = name;
-        path.dataset.animOrder = 'nw';
-        if (name != 's21old')
-            path.dataset.from = '1 1';
-        if (name == 's21old')
-            path.dataset.to = '1 5';
-        
-        path.dataset.speed = 300;
+    if (props[0] != 'existing') {
+        path.dataset.line = props[0];
+        path.dataset.animOrder = props[1];
+        if (props[0] == 's21old') {
+            path.dataset.from = '0 0 noanim';
+            path.dataset.to = props[2];
+        } else {
+            path.dataset.from = props[2];
+        }        
+        path.dataset.speed = props[3];
     }
     if (setD) {
         path.setAttribute('d', makeD(feature.geometry));

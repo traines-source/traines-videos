@@ -1,5 +1,5 @@
 <?xml-stylesheet type="text/css" href="stuttgart21.css" ?>
-<svg viewBox="64287 42000 960 540" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" data-auto-start="false">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" data-auto-start="false" data-zoom-max-scale="100" viewBox="2661352 1746182 66617 37472">
 <defs>
     <g id="regiounit" class="unit">
         <path
@@ -96,14 +96,18 @@
             d="M 130,100 L 200,100" class="panto" style="stroke-width:20px" />
     </marker>
 </defs>
-<g id="zoomafble">
-    <image href="res/high/map_5000.png" x="2670245" y="1751182" width="48830" height="27472"/>
+<g id="zoomable">
+    <image href="res/high/map_10000_circ_small.png" x="2680924" y="1751182" width="27472" height="27472" preserveAspectRatio="none" />
+    <image href="res/high/stgt_750m_small.png" x="2686193" y="1758737" width="9007" height="9097" style="opacity:0.5" preserveAspectRatio="none" />
+
     <g id="elements">
         <g id="geo_intro"></g>
 
-        <g id="gleisplan" transform="translate(2690600, 1763000) scale(5) rotate(0)">
-            <path data-line="sn" data-stops="+0 TSn4            +0 TS8a +0 TS8b +0 TS8c             +0 TSs4" />
-            <path data-line="sn" data-stops="+0 TSn4 +0 TSnh2   +0 TS7a +0 TS7b +0 TS7c +0 TSsh2    +0 TSs4" />
+        <!--<path data-line="test" data-from="1 10 nozoom" />-->
+
+        <g id="gleisplan" transform="translate(2680600, 1763000) scale(1) rotate(0)">
+            <path data-line="sn" data-stops="+0 TSn4            +0 TS8a +0 TS8b +0 TS8c             +0 TSs4" data-from="1 100" />
+            <path data-line="sn" data-stops="+0 TSn4 +0 TSnh2   +0 TS7a +0 TS7b +0 TS7c +0 TSsh2    +0 TSs4" data-from="1 100" />
             <path data-line="sn" data-stops="+0 TSn4            +0 TS6a +0 TS6b +0 TS6c             +0 TSs4" />
             <path data-line="sn" data-stops="+0 TSn4            +0 TS5a +0 TS5b +0 TS5c             +0 TSs4" />
 
@@ -286,7 +290,10 @@
 
         </g>
     </g>
+
 </g>
+    <text x="2727569" y="1783024" data-inset="stgt" data-from="1 0 nozoom" data-to="1 100 nozoom" class="caption" style="font-size: 500px">Orthofoto: Geobasisdaten ©LGL, www.lgl-bw.de. DL-DE-BY 2.0. Relief: maps-for-free.com. CC0. Relief/Pfade: © OpenStreetMap Contributors</text>
+
     <script xlink:href="../../dist/network-animator.js" />
     <script xlink:href="auxiliaries.js" />
 </svg>
