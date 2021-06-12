@@ -14,7 +14,7 @@ rect.station {
     stroke-width: 1;
 }
 
-rect.station.helper {
+#elements rect.helper, #elements path.helper {
     stroke: none;
     fill: none;
 }
@@ -139,11 +139,15 @@ svg {
 }
 
 text.caption {
-    visibility: hidden;
     text-anchor: end;
     dominant-baseline: hanging;
+}
+
+text.shadow {
+    visibility: hidden;
     fill: white;
     text-shadow: 1px 1px 2px black;
+    font-size: 50px;
 }
 
 .for-line {

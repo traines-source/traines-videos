@@ -96,12 +96,25 @@
             d="M 130,100 L 200,100" class="panto" style="stroke-width:20px" />
     </marker>
 </defs>
-<g id="zoomable">
+<g id="zoomfable">
     <image href="res/high/map_10000_circ_small.png" x="2680924" y="1751182" width="27472" height="27472" preserveAspectRatio="none" />
-    <image href="res/high/stgt_750m_small.png" x="2686193" y="1758737" width="9007" height="9097" style="opacity:0.5" preserveAspectRatio="none" />
+    <image href="res/high/stgt_750m_small.png" x="2686193" y="1758737" width="9007" height="9097" style="opacity:0.6" preserveAspectRatio="none" />
 
     <g id="elements">
-        <g id="geo_intro"></g>
+        <g id="geo_intro">
+        </g>
+        <g id="geo_intro_labels">
+            <rect x="2690219" y="1762363" class="helper dummy" width="1000" height="1000" data-from="0 5" data-to="1 100 keepzoom" />
+            <text class="dummy helper" data-from="0 10 keepzoom" data-to="0 10 keepzoom" ></text>
+
+            <text x="2690655" y="1762987" data-from="0 1" data-to="1 100 keepzoom" class="shadow">Stuttgart Hbf</text>
+            <text x="2690439" y="1762363" data-from="1 2 keepzoom" data-to="1 100 keepzoom" class="shadow">Feuerbach</text>
+            <text x="2690971" y="1762567" data-from="1 7 keepzoom" data-to="1 100 keepzoom" class="shadow">Bad Cannstatt</text>
+            <text x="2691779" y="1763090" data-from="1 10 keepzoom" data-to="1 100 keepzoom" class="shadow">Untertürkheim</text>
+            <text x="2690916" y="1765002" data-from="1 17 keepzoom" data-to="1 100 keepzoom" class="shadow">Flughafen/Messe</text>
+            <text x="2693262" y="1765473" data-from="1 23 keepzoom" data-to="1 100 keepzoom" class="shadow">Wendlingen</text>
+            <text x="2702068" y="1771093" class="shadow" style="font-size:80px">Ulm</text>
+        </g>
 
         <!--<path data-line="test" data-from="1 10 nozoom" />-->
 
@@ -283,16 +296,11 @@
 
             <path data-train="sn" class="Regio BWEx9" data-length="2" data-stops="TSU +18+25 TS5a +28+41 TV" data-from="1983 1"/>
             <path data-train="sn" class="Regio BWEx9" data-length="2" data-stops="TSU +78+85 TS5a +88+101 TV" data-from="1983 1"/>
-
-
-
-
-
         </g>
     </g>
 
 </g>
-    <text x="2727569" y="1783024" data-inset="stgt" data-from="1 0 nozoom" data-to="1 100 nozoom" class="caption" style="font-size: 500px">Orthofoto: Geobasisdaten ©LGL, www.lgl-bw.de. DL-DE-BY 2.0. Relief: maps-for-free.com. CC0. Relief/Pfade: © OpenStreetMap Contributors</text>
+    <text x="2727569" y="1783024" data-inset="stgt" data-from="1 0 keepzoom" data-to="1 100 nozoom" class="shadow caption" style="font-size: 500px">Orthofoto: Geobasisdaten ©LGL, www.lgl-bw.de. DL-DE-BY 2.0. Relief: maps-for-free.com. CC0. Relief/Pfade: © OpenStreetMap Contributors</text>
 
     <script xlink:href="../../dist/network-animator.js" />
     <script xlink:href="auxiliaries.js" />
