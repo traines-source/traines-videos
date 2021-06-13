@@ -96,11 +96,120 @@
             d="M 130,100 L 200,100" class="panto" style="stroke-width:20px" />
     </marker>
 </defs>
-<g id="zoomfable">
-    <image href="res/high/map_10000_circ_small.png" x="2680924" y="1751182" width="27472" height="27472" preserveAspectRatio="none" />
+<g id="zoomable">
+    <image href="res/high/map_10000_circ_small_bw.png" x="2680924" y="1751182" width="27472" height="27472" preserveAspectRatio="none" />
     <image href="res/high/stgt_750m_small.png" x="2686193" y="1758737" width="9007" height="9097" style="opacity:0.6" preserveAspectRatio="none" />
 
     <g id="elements">
+        <g id="gravity" transform="translate(2670655 1752987) scale(5)">
+
+            <path data-line="TS_TLU" class="10" data-stops="+0 gTS +0 gTLU" data-weight="10" data-from="20 1 noanim" data-to="20 20 noanim" data-beck-style="false" />
+            <path data-line="TS_TLU" class="13" data-stops="+0 gTS +0 gTLU" data-weight="7" data-from="20 20 noanim" data-to="20 140 noanim" data-beck-style="false" />
+
+            <path data-line="TS_TWN" class="12" data-stops="+0 gTS +0 gTWN" data-weight="11" data-from="20 1 noanim" data-to="20 20 noanim" data-beck-style="false" />
+            <path data-line="TS_TWN" class="12" data-stops="+0 gTS +0 gTWN" data-weight="10" data-from="20 20 noanim" data-to="20 140 noanim" data-beck-style="false" />
+
+            <!--<path data-line="TS_TE" class="8" data-stops="+0 gTS +0 gTE" data-weight="11" data-from="20 1 noanim" data-to="20 20 noanim" data-beck-style="false" />
+            <path data-line="TS_TE" class="9" data-stops="+0 gTS +0 gTE" data-weight="6" data-from="20 20 noanim" data-to="20 140 noanim" data-beck-style="false" />-->
+
+            <path data-line="TS_TFL" class="4" data-stops="+0 gTS +0 gTFL" data-weight="27" data-from="20 1 noanim" data-to="20 20 noanim" data-beck-style="false" />
+            <path data-line="TS_TFL" class="12" data-stops="+0 gTS +0 gTFL" data-weight="6" data-from="20 20 noanim" data-to="20 140 noanim" data-beck-style="false" />
+
+            <path data-line="TS_TBO" class="7" data-stops="+0 gTS +0 gTBO" data-weight="21" data-from="20 1 noanim" data-to="20 20 noanim" data-beck-style="false" />
+            <path data-line="TS_TBO" class="12" data-stops="+0 gTS +0 gTBO" data-weight="15" data-from="20 20 noanim" data-to="20 140 noanim" data-beck-style="false" />
+
+            <!--<path data-line="TS_TKT" class="2" data-stops="+0 gTS +0 gTKT" data-weight="43" data-from="20 1 noanim" data-to="20 20 noanim" data-beck-style="false" />
+            <path data-line="TS_TKT" class="2" data-stops="+0 gTS +0 gTKT" data-weight="45" data-from="20 20 noanim" data-to="20 140 noanim" data-beck-style="false" />-->
+
+            <path data-line="TS_TNU" class="2" data-stops="+0 gTS +0 gTNU" data-weight="31" data-from="20 1 noanim" data-to="20 20 noanim" data-beck-style="false" />
+            <path data-line="TS_TNU" class="4" data-stops="+0 gTS +0 gTNU" data-weight="18" data-from="20 20 noanim" data-to="20 140 noanim" data-beck-style="false" />
+
+            <path data-line="TS_TSC" class="20" data-stops="+0 gTS +0 gTSC" data-weight="3" data-from="20 1 noanim" data-to="20 20 noanim" data-beck-style="false" />
+            <path data-line="TS_TSC" class="20" data-stops="+0 gTS +0 gTSC" data-weight="4" data-from="20 20 noanim" data-to="20 140 noanim" data-beck-style="false" />
+            
+            <!--<path data-line="TS_TGO" class="2" data-stops="+0 gTS +0 gTGO" data-weight="28" data-from="20 1 noanim" data-to="20 20 noanim" data-beck-style="false" />
+            <path data-line="TS_TGO" class="3" data-stops="+0 gTS +0 gTGO" data-weight="26" data-from="20 20 noanim" data-to="20 140 noanim" data-beck-style="false" />-->
+
+            <path data-line="TS_TSFE" class="12" data-stops="+0 gTS +0 gTSFE" data-weight="5" data-from="20 1 noanim" data-to="20 20 noanim" data-beck-style="false" />
+            <path data-line="TS_TSFE" class="12" data-stops="+0 gTS +0 gTSFE" data-weight="7" data-from="20 20 noanim" data-to="20 140 noanim" data-beck-style="false" />
+
+            <!--<path data-line="TS_TSV" class="12" data-stops="+0 gTS +0 gTSV" data-weight="14" data-from="20 1 noanim" data-to="20 20 noanim" data-beck-style="false" />
+            <path data-line="TS_TSV" class="18" data-stops="+0 gTS +0 gTSV" data-weight="14" data-from="20 20 noanim" data-to="20 140 noanim" data-beck-style="false" />-->
+            
+            <path data-line="TS_TP" class="10" data-stops="+0 gTS +0 gTP" data-weight="17" data-from="20 1 noanim" data-to="20 20 noanim" data-beck-style="false" />
+            <path data-line="TS_TP" class="9" data-stops="+0 gTS +0 gTP" data-weight="15" data-from="20 20 noanim" data-to="20 140 noanim" data-beck-style="false" />
+
+            <path data-line="TS_TLE" class="4" data-stops="+0 gTS +0 gTLE" data-weight="25" data-from="20 1 noanim" data-to="20 20 noanim" data-beck-style="false" />
+            <path data-line="TS_TLE" class="6" data-stops="+0 gTS +0 gTLE" data-weight="27" data-from="20 20 noanim" data-to="20 140 noanim" data-beck-style="false" />
+
+            <!--<path data-line="TS_TV" class="3" data-stops="+0 gTS +0 gTV" data-weight="16" data-from="20 1 noanim" data-to="20 20 noanim" data-beck-style="false" />
+            <path data-line="TS_TV" class="5" data-stops="+0 gTS +0 gTV" data-weight="11" data-from="20 20 noanim" data-to="20 140 noanim" data-beck-style="false" />-->
+
+            <path data-line="TBO_TFL" class="4" data-stops="+0 gTBO +0 gTFL" data-weight="22" data-from="20 1 noanim" data-to="20 20 noanim" data-beck-style="false" />
+            <path data-line="TBO_TFL" class="8" data-stops="+0 gTBO +0 gTFL" data-weight="7" data-from="20 20 noanim" data-to="20 140 noanim" data-beck-style="false" />
+
+            <path data-line="TP_TSC" class="7" data-stops="+0 gTP +0 gTSC" data-weight="14" data-from="20 1 noanim" data-to="20 20 noanim" data-beck-style="false" />
+            <path data-line="TP_TSC" class="6" data-stops="+0 gTP +0 gTSC" data-weight="23" data-from="20 20 noanim" data-to="20 140 noanim" data-beck-style="false" />
+
+            
+            <!--<path data-line="TSFE_TSC" class="18" data-stops="+0 gTSFE +0 gTSC" data-weight="13" data-from="20 1 noanim" data-to="20 20 noanim" data-beck-style="false" />
+            <path data-line="TSFE_TSC" class="6" data-stops="+0 gTSFE +0 gTSC" data-weight="9" data-from="20 20 noanim" data-to="20 140 noanim" data-beck-style="false" />-->
+            
+            <path data-line="TBO_TLE" class="2" data-stops="+0 gTBO +0 gTLE" data-weight="28" data-from="20 1 noanim" data-to="20 20 noanim" data-beck-style="false" />
+            <path data-line="TBO_TLE" class="2" data-stops="+0 gTBO +0 gTLE" data-weight="29" data-from="20 20 noanim" data-to="20 140 noanim" data-beck-style="false" />
+
+            <!--<path data-line="TBO_TNU" class="4" data-stops="+0 gTBO +0 gTNU" data-weight="60" data-from="20 1 noanim" data-to="20 20 noanim" data-beck-style="false" />
+            <path data-line="TBO_TNU" class="7" data-stops="+0 gTBO +0 gTNU" data-weight="31" data-from="20 20 noanim" data-to="20 140 noanim" data-beck-style="false" />-->
+
+            <path data-line="TNU_TP" class="2" data-stops="+0 gTNU +0 gTP" data-weight="15" data-from="20 1 noanim" data-to="20 20 noanim" data-beck-style="false" />
+            <path data-line="TNU_TP" class="2" data-stops="+0 gTNU +0 gTP" data-weight="12" data-from="20 20 noanim" data-to="20 140 noanim" data-beck-style="false" />
+
+            <!--<path data-line="TLU_TSFE" class="8" data-stops="+0 gTLU +0 gTSFE" data-weight="10" data-from="20 1 noanim" data-to="20 20 noanim" data-beck-style="false" />
+            <path data-line="TLU_TSFE" class="8" data-stops="+0 gTLU +0 gTSFE" data-weight="9" data-from="20 20 noanim" data-to="20 140 noanim" data-beck-style="false" />-->
+
+
+
+                <rect data-station="gTLU" x="269063" y="176062" data-dir="nw" />
+        <rect data-station="gTWN" x="269228" y="176207" data-dir="nw" />
+        <rect data-station="gTE" x="269229" y="176396" data-dir="nw" />
+        <rect data-station="gTFL" x="269058" y="176500" data-dir="nw" />
+        <rect data-station="gTT" x="268880" y="176876" data-dir="nw" />
+        <rect data-station="gTBO" x="268768" y="176532" data-dir="nw" />
+        <rect data-station="gTKT" x="269431" y="176600" data-dir="nw" />
+        <rect data-station="gTNU" x="269287" y="176635" data-dir="nw" />
+        <rect data-station="gTSC" x="269110" y="176261" data-dir="nw" />
+        <rect data-station="gTGO" x="269728" y="176480" data-dir="nw" />
+        <rect data-station="gTSFE" x="269037" y="176234" data-dir="nw" />
+        <rect data-station="gTS" x="269058" y="176298" data-dir="nw" />
+        <rect data-station="gTSV" x="268961" y="176423" data-dir="nw" />
+        <rect data-station="gTP" x="269384" y="176453" data-dir="nw" />
+        <rect data-station="gTLE" x="268806" y="176266" data-dir="nw" />
+        <rect data-station="gTV" x="268740" y="175947" data-dir="nw" />
+
+
+
+
+            <text data-station="gTLU" >Ludwigsburg</text>
+            <text data-station="gTWN" >Waiblingen</text>
+            <text data-station="gTE"  >Esslingen</text>
+            <text data-station="gTFL" >Flughafen/Messe</text>
+            <text data-station="gTT"  >Tübingen</text>
+            <text data-station="gTBO" >Böblingen</text>
+            <text data-station="gTKT" >Kirchheim(Teck)</text>
+            <text data-station="gTNU" >Nürtingen</text>
+            <text data-station="gTSC" >Bad Cannstatt</text>
+            <text data-station="gTGO" >Göppingen</text>
+            <text data-station="gTSFE">Feuerbach</text>
+            <text data-station="gTSV" >Vaihingen</text>
+            <text data-station="gTP"  >Plochingen</text>
+            <text data-station="gTLE" >Leonberg</text>
+            <text data-station="gTV"  >Vaihingen(Enz)</text>
+            <text data-station="gTS"  >Stuttgart</text>
+
+
+
+
+        </g>
         <g id="geo_intro">
         </g>
         <g id="geo_intro_labels">

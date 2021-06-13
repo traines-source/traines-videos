@@ -10,8 +10,8 @@
 rect.station {
     stroke: black;
     fill: white;
-    rx: 3;
-    stroke-width: 1;
+    rx: 5;
+    stroke-width: 2;
 }
 
 #elements rect.helper, #elements path.helper {
@@ -22,7 +22,7 @@ rect.station {
 path {
     stroke: black;
     fill: none;
-    stroke-linecap: round;
+    /*stroke-linecap: round;*/
     stroke-linejoin: round;
 }
 
@@ -108,20 +108,34 @@ svg {
 }
 
 #geo_intro path {
-    stroke: black;
+    stroke: #263238;
     stroke-width: 10;
 }
 #geo_intro path.railway-construction {
-    stroke: green;
+    stroke: #BF360C;
     visibility: hidden;
 }
 
 #geo_intro path.tunnel-yes {
-    stroke: #aaaaaa;
+    stroke: #546E7A;
 }
 
 #geo_intro path.tunnel-yes.railway-construction {
-    stroke: #aaffaa;
+    stroke: #F4511E;
+}
+
+#gravity path {
+    stroke: black;
+    stroke-width: 10;
+    fill: none;
+    stroke-linejoin: round;
+}
+
+#gravity text {
+    font-size: 16px;
+    visibility: hidden;
+    fill: white;
+    text-shadow: 1px 1px 2px black;
 }
 
 
