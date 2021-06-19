@@ -7,6 +7,14 @@
     stroke-width: 2;
 }*/
 
+image.cover {
+    x: 2661352px;
+    y: 1746182px;
+    width: 66617px;
+    height: 37472px;
+    visibility: hidden;
+}
+
 rect.station {
     stroke: black;
     fill: white;
@@ -155,13 +163,13 @@ svg {
 text.caption {
     text-anchor: end;
     dominant-baseline: hanging;
+    font-size: 600px;
 }
 
 text.shadow {
     visibility: hidden;
     fill: white;
     text-shadow: 1px 1px 2px black;
-    font-size: 50px;
 }
 
 .for-line {
@@ -198,6 +206,20 @@ text.shadow {
 .underthrow {
     stroke: none;
     fill: grey;
+}
+
+#risk path {
+    stroke: #cd1719;
+    stroke-width: 5;
+    visibility: hidden;
+}
+
+#risk text {
+    text-anchor: end;
+}
+
+#geo_intro_labels {
+    font-size: 50px;
 }
 
 /*

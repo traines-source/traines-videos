@@ -96,12 +96,57 @@
             d="M 130,100 L 200,100" class="panto" style="stroke-width:20px" />
     </marker>
 </defs>
+<rect x="2661352" y="1746182" width="100%" height="100%" fill="#f2f2f2"/>
 <g id="zoomable">
     <image href="res/high/map_10000_circ_small_bw.png" x="2680924" y="1751182" width="27472" height="27472" preserveAspectRatio="none" />
     <image href="res/high/stgt_750m_small.png" x="2686193" y="1758737" width="9007" height="9097" style="opacity:0.6" preserveAspectRatio="none" />
 
     <g id="elements">
-        <g id="gravity" transform="translate(2670655 1752987) scale(5)">
+        <g id="risk"  style="dominant-baseline: middle;" transform="scale(5)">
+        <g data-from="30 29 noanim">
+            <g data-from="30 1 noanim" data-to="30 35 noanim">
+                <text x="250" y="-30" data-to="30 40 keepzoom" style="text-anchor: middle;font-size:20px;">Stuttgart 21-Tunnel sind die »gefährlichsten Tunnelneubauten weltweit«</text>
+                <text x="250" y="0" style="text-anchor: middle;font-size:12px;">Kombiniertes Risiko im Brandfall: Freier Tunnelquerschnitt, Gefälle, Rettungswegbreite, Abstand der Querschläge, zu evakuierende Personenzahl</text>
+
+
+                <text x="180" y="50" data-from="30 1">Perthustunnel (FR/ES)</text>
+                <path d="M 200,50 h 7" data-line="risk" data-from="30 1" />
+
+                <text x="180" y="75" data-from="30 1">Lötschberg-Basistunnel (CH)</text>
+                <path d="M 200,75 h 15" data-line="risk" data-from="30 1" />
+
+                <text x="180" y="100" data-from="30 1">Katzenbergtunnel (DE)</text>
+                <path d="M 200,100 h 17" data-line="risk" data-from="30 1" />
+
+                <text x="180" y="125" data-from="30 1">Wienerwaldtunnel (AT)</text>
+                <path d="M 200,125 h 22" data-line="risk" data-from="30 1" />
+
+                <text x="180" y="150" data-from="30 1">Brenner-Basistunnel (AT/IT)</text>
+                <path d="M 200,150 h 28" data-line="risk" data-from="30 1" />
+
+                <text x="180" y="175" data-from="30 1">NBS Wendlingen-Ulm (DE)</text>
+                <path d="M 200,175 h 47" data-line="risk" data-from="30 1" />
+
+                <text x="180" y="200" data-from="30 1" style="font-weight: bold">Stuttgart 21 (DE)</text>
+                <path d="M 200,200 h 143" data-line="risk" data-from="30 1" />
+
+                <text x="180" y="225" data-from="30 10 keepzoom">Schulwaldtunnel, SFS KRM (DE)</text>
+                <path d="M 200,225 h 144" data-line="risk" data-from="30 10 keepzoom" />
+
+                <text x="180" y="250" data-from="30 14 keepzoom">Grand Paris Express (FR)</text>
+                <path d="M 200,250 h 212" data-line="risk" data-from="30 14 keepzoom" />
+
+                <text x="180" y="275" data-from="30 18 keepzoom">Crossrail London (UK)</text>
+                <path d="M 200,275 h 305" data-line="risk" data-from="30 18 keepzoom" />
+
+                <g class="dummy" data-from="30 45 noanim-keepzoom"></g>
+            </g>
+
+            <text x="180" y="300" data-from="30 22 keepzoom" data-to="30 35 nozoom">Gotthard-Scheiteltunnel (CH)</text>
+            <path d="M 200,300 h 2078" data-line="risk" data-from="30 22 keepzoom" data-to="30 35 noanim-nozoom" data-speed="200" />
+        </g>
+        </g>
+        <g id="gravity" transform="scale(5) translate(2450655 1602987)">
 
             <path data-line="TS_TLU" class="10" data-stops="+0 gTS +0 gTLU" data-weight="10" data-from="20 1 noanim" data-to="20 20 noanim" data-beck-style="false" />
             <path data-line="TS_TLU" class="13" data-stops="+0 gTS +0 gTLU" data-weight="7" data-from="20 20 noanim" data-to="20 140 noanim" data-beck-style="false" />
@@ -409,7 +454,11 @@
     </g>
 
 </g>
-    <text x="2727569" y="1783024" data-inset="stgt" data-from="1 0 keepzoom" data-to="1 100 nozoom" class="shadow caption" style="font-size: 500px">Orthofoto: Geobasisdaten ©LGL, www.lgl-bw.de. DL-DE-BY 2.0. Relief: maps-for-free.com. CC0. Relief/Pfade: © OpenStreetMap Contributors</text>
+    <image id="anhydrit" href="res/(2015-12-19)_ANHYDRIT_07_PWA-S.jpg" preserveAspectRatio="xMidYMid slice" class="cover" data-from="40 1 keepzoom" data-to="40 10 keepzoom" data-zoom="55 55" />
+    <text x="2727600" y="1782900" data-inset="anhydrit" data-from="40 1 keepzoom" data-to="40 10 keepzoom" class="shadow caption">Teil einer Anhydritrosette. Hans-Joachim Engelhardt. CC-BY-SA 4.0.</text>
+
+    <text x="2727600" y="1782900" data-inset="stgt" data-from="1 0 keepzoom" data-to="1 100 keepzoom" class="shadow caption">Orthofoto: Geobasisdaten ©LGL, www.lgl-bw.de. DL-DE-BY 2.0. Relief: maps-for-free.com. CC0. Relief/Pfade: © OpenStreetMap Contributors</text>
+    <text x="2727600" y="1782900" data-inset="stgt" data-from="30 0 keepzoom" data-to="30 41 keepzoom" class="shadow caption">Quelle: #3, #4</text>
 
     <script xlink:href="../../dist/network-animator.js" />
     <script xlink:href="auxiliaries.js" />
