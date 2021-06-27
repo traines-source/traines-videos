@@ -454,8 +454,21 @@
     </g>
 
 </g>
+    <g id="neigung">
+        <rect x="2661352" y="1746182" width="100%" height="100%" fill="#f2f2f2" style="visibility:hidden" data-from="50 1 noanim-nozoom" data-to="50 10 noanim-nozoom"/>
+        <path d="M 2661352,1783654 v -18736 l 66617,999.255 L 2727969,1783654 Z" style="fill: #cd1719; stroke: none;visibility:hidden" data-from="50 1 noanim-nozoom" data-to="50 10 noanim-nozoom"/>
+    </g>
+
+     <image id="immobilien" href="res/immobilien.jpg" preserveAspectRatio="xMidYMid slice" class="cover" data-from="2 10 keepzoom" data-to="2 20 keepzoom" data-zoom="45 55" />
+    <text x="2727600" y="1782900" data-inset="immobilien" data-from="50 10 keepzoom" data-to="50 20 keepzoom" class="shadow caption">Stuttgart Hbf von oben. Traines. CC-BY-SA 4.0.</text>
+
+
     <image id="anhydrit" href="res/(2015-12-19)_ANHYDRIT_07_PWA-S.jpg" preserveAspectRatio="xMidYMid slice" class="cover" data-from="40 1 keepzoom" data-to="40 10 keepzoom" data-zoom="55 55" />
     <text x="2727600" y="1782900" data-inset="anhydrit" data-from="40 1 keepzoom" data-to="40 10 keepzoom" class="shadow caption">Teil einer Anhydritrosette. Hans-Joachim Engelhardt. CC-BY-SA 4.0.</text>
+
+    <image id="querneigung" href="res/querneigung.jpg" preserveAspectRatio="xMidYMid slice" class="cover" data-from="50 10 keepzoom" data-to="50 20 keepzoom" data-zoom="45 55" />
+    <text x="2727600" y="1782900" data-inset="querneigung" data-from="50 10 keepzoom" data-to="50 20 keepzoom" class="shadow caption">Bahnsteig Stuttgart Hbf. Traines. CC-BY-SA 4.0.</text>
+
 
     <text x="2727600" y="1782900" data-inset="stgt" data-from="1 0 keepzoom" data-to="1 100 keepzoom" class="shadow caption">Orthofoto: Geobasisdaten ©LGL, www.lgl-bw.de. DL-DE-BY 2.0. Relief: maps-for-free.com. CC0. Relief/Pfade: © OpenStreetMap Contributors</text>
     <text x="2727600" y="1782900" data-inset="stgt" data-from="30 0 keepzoom" data-to="30 41 keepzoom" class="shadow caption">Quelle: #3, #4</text>
