@@ -208,14 +208,19 @@ text.shadow {
     fill: grey;
 }
 
-#risk path {
+#risk path, #tph path {
     stroke: #cd1719;
     stroke-width: 5;
     visibility: hidden;
 }
 
-#risk text {
+#tph path.departure {
+    stroke: #851309;
+}
+
+#risk text, #tph text {
     text-anchor: end;
+    dominant-baseline: middle;
 }
 
 #geo_intro_labels {
