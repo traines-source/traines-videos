@@ -164,3 +164,23 @@ out geom;
 fetch("railways.geojson")
   .then(response => response.json())
   .then(json => render(json, true));
+
+
+
+let intvl;
+document.addEventListener('epoch', function(e) {
+  if (e.detail == '1983') {
+    if (intvl == undefined) {
+      let i = -1;
+      intvl = window.setInterval(function () {
+        i++;      
+        document.getElementById('custom-epoch-label').textContent = ((6+Math.floor(i/60))+'').padStart(2, '0')+':'+((i%60)+'').padStart(2, '0');
+      }, 1000);
+    }
+  } else {
+    if (intvl != undefined) {
+      clearInterval(intvl);
+      intvl = undefined;
+    }
+  } 
+});
