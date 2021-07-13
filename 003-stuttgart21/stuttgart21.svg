@@ -455,6 +455,37 @@
             <path data-train="sn" class="Regio E22BW" data-length="2" data-stops="TSFL +9+16 TS6a +20+24 TSBC" data-from="1983 1"/>
             <path data-train="sn" class="Regio E22BW" data-length="2" data-stops="TSFL +69+76 TS6a +80+84 TSBC" data-from="1983 1"/>
 
+            <path data-train="sn" class="IC FV94" data-length="4" data-stops="TSFL +78+85 TS7a +90+128 RM" data-from="1983 1"/>
+
+            <!-- Nürtingen -->
+            <path data-train="sn" class="ICE FV45" data-length="4" data-stops="TSFL +59+66 TS6a +69+101 RM" data-from="1983 1"/>
+
+            <!-- single -->
+            <path data-train="sn" class="ICE FV6a47a" data-length="4" data-stops="TSFL -8-1 TS5a +6+37 RM" data-from="1983 1"/>
+            <path data-train="sn" class="ICE FV6a47a" data-length="4" data-stops="TSFL +52+59 TS5a +66+97 RM" data-from="1983 1"/>
+            <path data-train="sn" class="ICE FV6a47a" data-length="4" data-stops="TSFL +112+119 TS5a +126+157 RM" data-from="1983 1"/>
+
+            <path data-train="sn" class="IC FR15" data-length="2" data-stops="TSFL +13+19 TS6b +25+31 TSBC" data-from="1983 1"/>
+            <path data-train="sn" class="IC FR15" data-length="2" data-stops="TSFL +73+79 TS6b +85+91 TSBC" data-from="1983 1"/>
+
+            <path data-train="sn" class="Regio E19BW" data-length="2" data-stops="TSFL -5+2 TS7a +4+8 TSBC" data-from="1983 1"/>
+            <path data-train="sn" class="Regio E19BW" data-length="2" data-stops="TSFL +55+62 TS7a +64+68 TSBC" data-from="1983 1"/>
+
+            <path data-train="sn" class="Regio E9BW" data-length="2" data-stops="TSFL +25+31 TS6b +36+40 TSBC" data-from="1983 1"/>
+            <path data-train="sn" class="Regio E9BW" data-length="2" data-stops="TSFL +85+91 TS6b +96+100 TSBC" data-from="1983 1"/>
+
+            <path data-train="sn" class="Regio E5bcBW" data-length="2" data-stops="TSU -9-2 TS8a +0+8 TL" data-from="1983 1"/>
+            <path data-train="sn" class="Regio E5bcBW" data-length="2" data-stops="TSU +51+58 TS8a +60+68 TL" data-from="1983 1"/>
+            <path data-train="sn" class="Regio E5bcBW" data-length="2" data-stops="TSU +111+118 TS8a +120+128 TL" data-from="1983 1"/>
+
+            <path data-train="sn" class="Regio BWEx16" data-length="2" data-stops="TSU +21+28 TS6a +33+45 TV" data-from="1983 1"/>
+            <path data-train="sn" class="Regio BWEx16" data-length="2" data-stops="TSU +81+88 TS6a +93+105 TV" data-from="1983 1"/>
+
+            <!-- Schwäbisch Gmünd-->
+            <path data-train="sn" class="IC FR16" data-length="4" data-stops="TSU -12-5 TS6a +3+14 TV" data-from="1983 1"/>
+            <path data-train="sn" class="IC FR16" data-length="4" data-stops="TSU +48+55 TS6a +63+74 TV" data-from="1983 1"/>
+            <path data-train="sn" class="IC FR16" data-length="4" data-stops="TSU +108+115 TS6a +123+134 TV" data-from="1983 1"/>
+
 
 
 
@@ -485,7 +516,7 @@
             <path data-train="ns" class="ICE FV8" data-length="4" data-stops="RM +62+93 TS4c +97+124 TU" data-from="1983 1"/>
 
             <!-- RK -->
-            <path data-train="ns" class="IC FV22a" data-length="4" data-stops="TV -4+8 TS3c +11+40 TU" data-from="1983 1"/>
+            <path data-train="ns" class=" FV22a" data-length="4" data-stops="TV -4+8 TS3c +11+40 TU" data-from="1983 1"/>
 
             <path data-train="ns" class="ICE FV41" data-length="4" data-stops="TV +60+82 TS4c +85+117 TU" data-from="1983 1"/>
 
@@ -500,6 +531,38 @@
 
             <path data-train="ns" class="Regio E22BW" data-length="2" data-stops="TSBC +36+40 TS3b +44+51 TSFL" data-from="1983 1"/>
             <path data-train="ns" class="Regio E22BW" data-length="2" data-stops="TSBC +96+100 TS3b +104+111 TSFL" data-from="1983 1"/>
+
+            <path data-train="ns" class="IC FV94" data-length="4" data-stops="RM -8+30 TS2c +34+40 TSFL" data-from="1983 1"/>
+
+            <!-- Nürtingen -->
+            <path data-train="ns" class="ICE FV45" data-length="4" data-stops="RM +19+51 TS3c +54+60 TSFL" data-from="1983 1"/>
+
+            <!-- single -->
+            <path data-train="ns" class="ICE FV6a47a" data-length="4" data-stops="RM -37-6 TS4c +1+7 TSFL" data-from="1983 1"/>
+            <path data-train="ns" class="ICE FV6a47a" data-length="4" data-stops="RM +23+54 TS4c +61+67 TSFL" data-from="1983 1"/>
+            <path data-train="ns" class="ICE FV6a47a" data-length="4" data-stops="RM +83+114 TS4c +121+127 TSFL" data-from="1983 1"/>
+
+            <path data-train="ns" class="IC FR15" data-length="2" data-stops="TSBC +31+35 TS3c +41+47 TSFL" data-from="1983 1"/>
+            <path data-train="ns" class="IC FR15" data-length="2" data-stops="TSBC +91+95 TS3c +101+107 TSFL" data-from="1983 1"/>
+
+            <path data-train="ns" class="Regio E19BW" data-length="2" data-stops="TSBC -8-4 TS2b -2+5 TSFL" data-from="1983 1"/>
+            <path data-train="ns" class="Regio E19BW" data-length="2" data-stops="TSBC +52+56 TS2b +58+65 TSFL" data-from="1983 1"/>
+            <path data-train="ns" class="Regio E19BW" data-length="2" data-stops="TSBC +112+116 TS2b +118+125 TSFL" data-from="1983 1"/>
+
+            <path data-train="ns" class="Regio E9BW" data-length="2" data-stops="TSBC +20+24 TS3c +28+34 TSFL" data-from="1983 1"/>
+            <path data-train="ns" class="Regio E9BW" data-length="2" data-stops="TSBC +80+84 TS3c +88+94 TSFL" data-from="1983 1"/>
+
+            <path data-train="ns" class="Regio E5bcBW" data-length="2" data-stops="TL -9+0 TS1b +2+9 TSU" data-from="1983 1"/>
+            <path data-train="ns" class="Regio E5bcBW" data-length="2" data-stops="TL +51+60 TS1b +62+69 TSU" data-from="1983 1"/>
+            <path data-train="ns" class="Regio E5bcBW" data-length="2" data-stops="TL +111+120 TS1b +122+129 TSU" data-from="1983 1"/>
+
+            <path data-train="ns" class="Regio BWEx16" data-length="2" data-stops="TV +15+27 TS3b +31+38 TSU" data-from="1983 1"/>
+            <path data-train="ns" class="Regio BWEx16" data-length="2" data-stops="TV +75+87 TS3b +91+98 TSU" data-from="1983 1"/>
+
+            <path data-train="ns" class="IC FR16" data-length="2" data-stops="TV -13-3 TS3c +5+12 TSU" data-from="1983 1"/>
+            <path data-train="ns" class="IC FR16" data-length="2" data-stops="TV +47+57 TS3c +65+72 TSU" data-from="1983 1"/>
+            <path data-train="ns" class="IC FR16" data-length="2" data-stops="TV +107+117 TS3c +125+132 TSU" data-from="1983 1"/>
+
 
         </g>
     </g>
