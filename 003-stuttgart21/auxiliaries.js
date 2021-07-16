@@ -169,7 +169,7 @@ fetch("railways.geojson")
 
 let intvl;
 document.addEventListener('epoch', function(e) {
-  if (e.detail == '1983') {
+  if (e.detail == '70') {
     if (intvl == undefined) {
       let i = -1;
       intvl = window.setInterval(function () {
