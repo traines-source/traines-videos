@@ -110,23 +110,40 @@
             <text x="180" y="50" data-from="60 1 keepzoom">Kopfbahnhof 2010</text>
             <path d="M 200,50 h 38" data-line="cap" data-from="60 1 keepzoom" />
             <path d="M 238,50 h 18" data-line="cap" class="departure" data-from="60 7 keepzoom" />
+            <text class="path-inset" x="219" y="50" data-from="60 1 keepzoom">38</text>
+            <text class="path-inset" x="247" y="50" data-from="60 7 keepzoom">18</text>
 
             <text x="180" y="75" data-from="60 15 keepzoom">Kopfbahnhof 2020</text>
             <path d="M 200,75 h 33" data-line="cap" data-from="60 15 keepzoom" />
             <path d="M 233,75 h 28" data-line="cap" class="departure" data-from="60 15 keepzoom" />
+            <text class="path-inset" x="216" y="75" data-from="60 15 keepzoom">33</text>
+            <text class="path-inset" x="247" y="75" data-from="60 15 keepzoom">28</text>
 
-            <text x="180" y="100" data-from="60 1 keepzoom">Stuttgart 21</text>
+            <text x="180" y="100" data-from="60 1 keepzoom">S21 ursp. Planung</text>
             <path d="M 200,100 h 32" data-line="cap" data-from="60 1 keepzoom" />
             <path d="M 232,100 h 32" data-line="cap" class="departure" data-from="60 10 keepzoom" />
+            <text class="path-inset" x="216" y="100" data-from="60 1 keepzoom">32</text>
+            <text class="path-inset" x="248" y="100" data-from="60 10 keepzoom">32</text>
 
-            <text x="180" y="125" data-from="60 20 keepzoom">Stuttgart 21 Stresstest</text>
+            <text x="180" y="125" data-from="60 20 keepzoom">S21 Stresstest</text>
             <path d="M 200,125 h 49" data-line="cap" data-from="60 20 keepzoom" />
             <path d="M 249,125 h 33" data-line="cap" class="departure" data-from="60 20 keepzoom" />
+            <text class="path-inset" x="224" y="125" data-from="60 20 keepzoom">49</text>
+            <text class="path-inset" x="265" y="125" data-from="60 20 keepzoom">33</text>
 
-            <text x="180" y="150" data-from="60 30 keepzoom">Stuttgart 21 Deutschlandtakt</text>
-            <path d="M 200,150 h 28" data-line="cap" data-from="60 30 keepzoom" />
+            <text x="180" y="150" data-from="60 25 keepzoom">S21 Deutschlandtakt</text>
+            <path d="M 200,150 h 36.5" data-line="cap" data-from="60 25 keepzoom" />
+            <path d="M 236.5,150 h 36.5" data-line="cap" class="departure" data-from="60 25 keepzoom" />
+            <text class="path-inset" x="218" y="150" data-from="60 25 keepzoom">36.5</text>
+            <text class="path-inset" x="255" y="150" data-from="60 25 keepzoom">36.5</text>
 
-            <g class="dummy" data-from="60 40 keepzoom"></g>
+            <text x="180" y="175" data-from="60 25 keepzoom">S21 Deutschlandtakt Spitzenstunde</text>
+            <path d="M 200,175 h 47.5" data-line="cap" data-from="60 25 keepzoom" />
+            <path d="M 247.5,175 h 46.5" data-line="cap" class="departure" data-from="60 25 keepzoom" />
+            <text class="path-inset" x="223" y="175" data-from="60 25 keepzoom">47.5</text>
+            <text class="path-inset" x="271" y="175" data-from="60 25 keepzoom">46.5</text>
+
+            <g class="dummy" data-from="60 50 keepzoom"></g>
         </g>
 
         <g id="risk" transform="scale(5)">
@@ -413,174 +430,200 @@
 
 
 
-            <path data-train="sn" class="Regio E5aBW" data-length="2" data-stops="TP +4+18 TS8a +29+38 TL" data-from="1983 1"/>
+            2<path data-train="sn" class="Regio E5aBW" data-length="2" data-stops="TP +4+18 TS8a +29+38 TL" data-from="1983 1"/>
             <path data-train="sn" class="Regio E5aBW" data-length="2" data-stops="TP +64+78 TS8a +89+98 TL" data-from="1983 1"/>
-            <path data-train="sn" class="Regio E5aBW Peak" data-length="2" data-stops="TP +80+94 TS5a +96+105 TL" data-from="1983 1"/>
+            2<path data-train="sn" class="Regio E5aBW Peak" data-length="2" data-stops="TP +80+94 TS5a +96+105 TL" data-from="1983 1"/>
 
-            <path data-train="sn" class="Regio E7BW" data-length="2" data-stops="TP +34+48 TS8b +55+59 TSBC" data-from="1983 1"/>
+            2<path data-train="sn" class="Regio E7BW" data-length="2" data-stops="TP +34+48 TS8b +55+59 TSBC" data-from="1983 1"/>
             <path data-train="sn" class="Regio E7BW" data-length="2" data-stops="TP +94+108 TS8a +115+119 TSBC" data-from="1983 1"/>
 
-            <path data-train="sn" class="Regio BWEx9" data-length="2" data-stops="TP -14+2 TS8b +7+11 TSBC" data-from="1983 1"/>
+            2<path data-train="sn" class="Regio BWEx9" data-length="2" data-stops="TP -14+2 TS8b +7+11 TSBC" data-from="1983 1"/>
             <path data-train="sn" class="Regio BWEx9" data-length="2" data-stops="TP +46+62 TS8b +67+71 TSBC" data-from="1983 1"/>
 
             <!-- dep 40 in pair?, arr 44 in pair? -->
             <!--<path data-train="sn" class="Regio E8BW" data-length="2" data-stops="TP +21+35 TS7a +40+48 TL" data-from="1983 1"/>-->
-            <path data-train="sn" class="Regio E8BW" data-length="2" data-stops="TP +81+95 TS7a +107+115 TL" data-from="1983 1"/>
+            2<path data-train="sn" class="Regio E8BW" data-length="2" data-stops="TP +81+95 TS7a +107+115 TL" data-from="1983 1"/>
             <path data-train="sn" class="Regio E8BW" data-length="2" data-stops="TP +30+44 TS8a +47+55 TL" data-from="1983 1"/>
-            <path data-train="sn" class="Regio E8BW Peak" data-length="2" data-stops="TP +59+73 TS8a +75+83 TL" data-from="1983 1"/>
-            <path data-train="sn" class="Regio E8BW Peak" data-length="2" data-stops="TP +84+98 TS8a +100+108 TL" data-from="1983 1"/>
-            <path data-train="sn" class="Regio E8BW Peak" data-length="2" data-stops="TP +89+103 TS6a +106+114 TL" data-from="1983 1"/>
+            2<path data-train="sn" class="Regio E8BW Peak" data-length="2" data-stops="TP +59+73 TS8a +75+83 TL" data-from="1983 1"/>
+            2<path data-train="sn" class="Regio E8BW Peak" data-length="2" data-stops="TP +84+98 TS8a +100+108 TL" data-from="1983 1"/>
+            2<path data-train="sn" class="Regio E8BW Peak" data-length="2" data-stops="TP +89+103 TS6a +106+114 TL" data-from="1983 1"/>
 
-            <path data-train="sn" class="Regio E11BWE12BW" data-length="2" data-stops="TP -9+5 TS7b +16+24 TL" data-from="1983 1"/>
+            2<path data-train="sn" class="Regio E11BWE12BW" data-length="2" data-stops="TP -9+5 TS7b +16+24 TL" data-from="1983 1"/>
             <path data-train="sn" class="Regio E11BWE12BW" data-length="2" data-stops="TP +51+65 TS7b +76+84 TL" data-from="1983 1"/>
 
             <!-- single -->
-            <path data-train="sn" class="ICE FV31" data-length="4" data-stops="TSU +18+25 TS7a +30+41 TV" data-from="1983 1"/>
+            0.5<path data-train="sn" class="ICE FV31" data-length="4" data-stops="TSU +18+25 TS7a +30+41 TV" data-from="1983 1"/>
 
-            <path data-train="sn" class="ICE FV27" data-length="4" data-stops="TU +26+53 TS5a +56+88 RM" data-from="1983 1"/>
+            2<path data-train="sn" class="ICE FV27" data-length="4" data-stops="TU +26+53 TS5a +56+88 RM" data-from="1983 1"/>
             <path data-train="sn" class="ICE FV27" data-length="4" data-stops="TU +86+113 TS5a +116+148 RM" data-from="1983 1"/>
 
-            <path data-train="sn" class="ICE FV8" data-length="4" data-stops="TU -4+22 TS5a +27+58 RM" data-from="1983 1"/>
+            2<path data-train="sn" class="ICE FV8" data-length="4" data-stops="TU -4+22 TS5a +27+58 RM" data-from="1983 1"/>
             <path data-train="sn" class="ICE FV8" data-length="4" data-stops="TU +56+82 TS5a +87+118 RM" data-from="1983 1"/>
 
             <!-- RK -->
-            <path data-train="sn" class="IC FV22a" data-length="4" data-stops="TU +80+109 TS6a +112+124 TV" data-from="1983 1"/>
+            1<path data-train="sn" class="IC FV22a" data-length="4" data-stops="TU +80+109 TS6a +112+124 TV" data-from="1983 1"/>
         
-            <path data-train="sn" class="ICE FV41" data-length="4" data-stops="TU +3+34 TS5a +37+49 TV" data-from="1983 1"/>
+            1<path data-train="sn" class="ICE FV41" data-length="4" data-stops="TU +3+34 TS5a +37+49 TV" data-from="1983 1"/>
 
             <!-- RH -->
-            <path data-train="sn" class="IC FV40" data-length="4" data-stops="TSFL +93+101 TS5a +104+139 RM" data-from="1983 1"/>
+            1<path data-train="sn" class="IC FV40" data-length="4" data-stops="TSFL +93+101 TS5a +104+139 RM" data-from="1983 1"/>
 
-            <path data-train="sn" class="Regio BWEx8" data-length="2" data-stops="TSFL +3+10 TS5a +12+19 TL" data-from="1983 1"/>
+            2<path data-train="sn" class="Regio BWEx8" data-length="2" data-stops="TSFL +3+10 TS5a +12+19 TL" data-from="1983 1"/>
             <path data-train="sn" class="Regio BWEx8" data-length="2" data-stops="TSFL +63+70 TS5a +72+79 TL" data-from="1983 1"/>
 
-            <path data-train="sn" class="Regio E2BW" data-length="2" data-stops="TSFL +39+46 TS7a +50+54 TSBC" data-from="1983 1"/>
+            2<path data-train="sn" class="Regio E2BW" data-length="2" data-stops="TSFL +39+46 TS7a +50+54 TSBC" data-from="1983 1"/>
             <path data-train="sn" class="Regio E2BW" data-length="2" data-stops="TSFL +99+106 TS7b +110+114 TSBC" data-from="1983 1"/>
-            <path data-train="sn" class="Regio E2BW Peak" data-length="2" data-stops="TSFL +75+82 TS8b +92+96 TSBC" data-from="1983 1"/>
+            2<path data-train="sn" class="Regio E2BW Peak" data-length="2" data-stops="TSFL +75+82 TS8b +92+96 TSBC" data-from="1983 1"/>
 
-            <path data-train="sn" class="Regio E22BW" data-length="2" data-stops="TSFL +9+16 TS6a +20+24 TSBC" data-from="1983 1"/>
+            2<path data-train="sn" class="Regio E22BW" data-length="2" data-stops="TSFL +9+16 TS6a +20+24 TSBC" data-from="1983 1"/>
             <path data-train="sn" class="Regio E22BW" data-length="2" data-stops="TSFL +69+76 TS6a +80+84 TSBC" data-from="1983 1"/>
 
-            <path data-train="sn" class="IC FV94" data-length="4" data-stops="TSFL +78+85 TS7a +90+128 RM" data-from="1983 1"/>
+            1<path data-train="sn" class="IC FV94" data-length="4" data-stops="TSFL +78+85 TS7a +90+128 RM" data-from="1983 1"/>
 
             <!-- Nürtingen -->
-            <path data-train="sn" class="ICE FV45" data-length="4" data-stops="TSFL +59+66 TS6a +69+101 RM" data-from="1983 1"/>
+            1<path data-train="sn" class="ICE FV45" data-length="4" data-stops="TSFL +59+66 TS6a +69+101 RM" data-from="1983 1"/>
 
             <!-- single -->
-            <path data-train="sn" class="ICE FV6a47a" data-length="4" data-stops="TSFL -8-1 TS5a +6+37 RM" data-from="1983 1"/>
+            1<path data-train="sn" class="ICE FV6a47a" data-length="4" data-stops="TSFL -8-1 TS5a +6+37 RM" data-from="1983 1"/>
             <path data-train="sn" class="ICE FV6a47a" data-length="4" data-stops="TSFL +52+59 TS5a +66+97 RM" data-from="1983 1"/>
             <path data-train="sn" class="ICE FV6a47a" data-length="4" data-stops="TSFL +112+119 TS5a +126+157 RM" data-from="1983 1"/>
 
-            <path data-train="sn" class="IC FR15" data-length="2" data-stops="TSFL +13+19 TS6b +25+31 TSBC" data-from="1983 1"/>
+            2<path data-train="sn" class="IC FR15" data-length="2" data-stops="TSFL +13+19 TS6b +25+31 TSBC" data-from="1983 1"/>
             <path data-train="sn" class="IC FR15" data-length="2" data-stops="TSFL +73+79 TS6b +85+91 TSBC" data-from="1983 1"/>
 
-            <path data-train="sn" class="Regio E19BW" data-length="2" data-stops="TSFL -5+2 TS7a +4+8 TSBC" data-from="1983 1"/>
+            2<path data-train="sn" class="Regio E19BW" data-length="2" data-stops="TSFL -5+2 TS7a +4+8 TSBC" data-from="1983 1"/>
             <path data-train="sn" class="Regio E19BW" data-length="2" data-stops="TSFL +55+62 TS7a +64+68 TSBC" data-from="1983 1"/>
 
-            <path data-train="sn" class="Regio E9BW" data-length="2" data-stops="TSFL +25+31 TS6b +36+40 TSBC" data-from="1983 1"/>
+            2<path data-train="sn" class="Regio E9BW" data-length="2" data-stops="TSFL +25+31 TS6b +36+40 TSBC" data-from="1983 1"/>
             <path data-train="sn" class="Regio E9BW" data-length="2" data-stops="TSFL +85+91 TS6b +96+100 TSBC" data-from="1983 1"/>
 
             <!-- single -->
-            <path data-train="sn" class="Regio E5bcBW" data-length="2" data-stops="TSU -9-2 TS8a +0+8 TL" data-from="1983 1"/>
+            1<path data-train="sn" class="Regio E5bcBW" data-length="2" data-stops="TSU -9-2 TS8a +0+8 TL" data-from="1983 1"/>
             <path data-train="sn" class="Regio E5bcBW" data-length="2" data-stops="TSU +51+58 TS8a +60+68 TL" data-from="1983 1"/>
             <path data-train="sn" class="Regio E5bcBW" data-length="2" data-stops="TSU +111+118 TS8a +120+128 TL" data-from="1983 1"/>
 
             <!-- single -->
-            <path data-train="sn" class="Regio BWEx16" data-length="2" data-stops="TSU +21+28 TS6a +33+45 TV" data-from="1983 1"/>
+            1<path data-train="sn" class="Regio BWEx16" data-length="2" data-stops="TSU +21+28 TS6a +33+45 TV" data-from="1983 1"/>
             <path data-train="sn" class="Regio BWEx16" data-length="2" data-stops="TSU +81+88 TS6a +93+105 TV" data-from="1983 1"/>
 
             <!-- Schwäbisch Gmünd-->
-            <path data-train="sn" class="IC FR16" data-length="4" data-stops="TSU -12-5 TS6a +3+14 TV" data-from="1983 1"/>
+            2<path data-train="sn" class="IC FR16" data-length="4" data-stops="TSU -12-5 TS6a +3+14 TV" data-from="1983 1"/>
             <path data-train="sn" class="IC FR16" data-length="4" data-stops="TSU +48+55 TS6a +63+74 TV" data-from="1983 1"/>
             <path data-train="sn" class="IC FR16" data-length="4" data-stops="TSU +108+116 TS6a +123+134 TV" data-from="1983 1"/>
 
+            <!--
+            46.5=(49-1-5-3)-3.5+5*2
+            36.5 off peak
+            46.5=2*19+1*8*0.5*1
 
+            1 commented out
+            5 Peak
+            3 triples
+            7 singles, all departures
 
-            <!-- - - -->
+            1
+            5
+            5
+            7 singles, all arrivals
+            1 peak single
 
+            47.5=(52-1-5-1-5)-3.5+5*2+1
+            36.5 off peak
+            47.5=2*20+1*7+0.5*1
 
+            total
+            2*39+1*15+0.5*2=94
+            73 off peak
 
-            <path data-train="ns" class="Regio E5aBW" data-length="2" data-stops="TL +21+31 TS1b +41+55 TP" data-from="1983 1"/>
+            departure
+            36.5 off
+            46.5 peak
+            arrival
+            36.5 on
+            47.5 peak
+            -->
+            
+            2<path data-train="ns" class="Regio E5aBW" data-length="2" data-stops="TL +21+31 TS1b +41+55 TP" data-from="1983 1"/>
             <path data-train="ns" class="Regio E5aBW" data-length="2" data-stops="TL +81+91 TS1b +101+115 TP" data-from="1983 1"/>
-            <path data-train="ns" class="Regio E5aBW Peak" data-length="2" data-stops="TL +101+111 TS3c +113+127 TP" data-from="1983 1"/>
+            2<path data-train="ns" class="Regio E5aBW Peak" data-length="2" data-stops="TL +101+111 TS3c +113+127 TP" data-from="1983 1"/>
 
-            <path data-train="ns" class="Regio E7BW" data-length="2" data-stops="TSBC +1+5 TS1c +11+25 TP" data-from="1983 1"/>
+            2<path data-train="ns" class="Regio E7BW" data-length="2" data-stops="TSBC +1+5 TS1c +11+25 TP" data-from="1983 1"/>
             <path data-train="ns" class="Regio E7BW" data-length="2" data-stops="TSBC +61+65 TS1c +71+85 TP" data-from="1983 1"/>
 
-            <path data-train="ns" class="Regio BWEx9" data-length="2" data-stops="TSBC -11-7 TS1c -2+13 TP" data-from="1983 1"/>
+            2<path data-train="ns" class="Regio BWEx9" data-length="2" data-stops="TSBC -11-7 TS1c -2+13 TP" data-from="1983 1"/>
             <path data-train="ns" class="Regio BWEx9" data-length="2" data-stops="TSBC +49+53 TS1c +58+73 TP" data-from="1983 1"/>
             <path data-train="ns" class="Regio BWEx9" data-length="2" data-stops="TSBC +109+113 TS1c +118+133 TP" data-from="1983 1"/>
 
             <!-- dep 16 pl 1 in impair?, arr 8 pl 3 in impair? -->
-            <path data-train="ns" class="Regio E8BW" data-length="2" data-stops="TL +5+13 TS2b +25+39 TP" data-from="1983 1"/>
+            2<path data-train="ns" class="Regio E8BW" data-length="2" data-stops="TL +5+13 TS2b +25+39 TP" data-from="1983 1"/>
             <path data-train="ns" class="Regio E8BW" data-length="2" data-stops="TL +65+73 TS1b +76+90 TP" data-from="1983 1"/>
             <!--<path data-train="ns" class="Regio E8BW" data-length="2" data-stops="TL +60+68 TS3c +71+85 TP" data-from="1983 1"/>-->
-            <path data-train="ns" class="Regio E8BW Peak" data-length="2" data-stops="TL +72+80 TS1c +82+95 TP" data-from="1983 1"/>
-            <path data-train="ns" class="Regio E8BW Peak" data-length="2" data-stops="TL +96+105 TS1c +107+120 TP" data-from="1983 1"/>
+            2<path data-train="ns" class="Regio E8BW Peak" data-length="2" data-stops="TL +72+80 TS1c +82+95 TP" data-from="1983 1"/>
+            2<path data-train="ns" class="Regio E8BW Peak" data-length="2" data-stops="TL +96+105 TS1c +107+120 TP" data-from="1983 1"/>
 
             <path data-train="ns" class="Regio E11BWE12BW" data-length="2" data-stops="TL +35+44 TS2c +55+65 TP" data-from="1983 1"/>
             <path data-train="ns" class="Regio E11BWE12BW" data-length="2" data-stops="TL +95+104 TS2c +115+125 TP" data-from="1983 1"/>
-            <path data-train="ns" class="Regio E11BWE12BW Peak" data-length="2" data-stops="TL +70+79 TS2c +85+95 TP" data-from="1983 1"/>
+            2<path data-train="ns" class="Regio E11BWE12BW Peak" data-length="2" data-stops="TL +70+79 TS2c +85+95 TP" data-from="1983 1"/>
 
             <!-- single -->
-            <path data-train="ns" class="ICE FV31" data-length="4" data-stops="TV +79+90 TS2c +95+102 TSU" data-from="1983 1"/>
+            0.5<path data-train="ns" class="ICE FV31" data-length="4" data-stops="TV +79+90 TS2c +95+102 TSU" data-from="1983 1"/>
 
-            <path data-train="ns" class="ICE FV27" data-length="4" data-stops="RM -28+4 TS4c +7+34 TU" data-from="1983 1"/>
+            2<path data-train="ns" class="ICE FV27" data-length="4" data-stops="RM -28+4 TS4c +7+34 TU" data-from="1983 1"/>
             <path data-train="ns" class="ICE FV27" data-length="4" data-stops="RM +32+64 TS4c +67+94 TU" data-from="1983 1"/>
 
-            <path data-train="ns" class="ICE FV8" data-length="4" data-stops="RM +2+33 TS4c +37+64 TU" data-from="1983 1"/>
+            2<path data-train="ns" class="ICE FV8" data-length="4" data-stops="RM +2+33 TS4c +37+64 TU" data-from="1983 1"/>
             <path data-train="ns" class="ICE FV8" data-length="4" data-stops="RM +62+93 TS4c +97+124 TU" data-from="1983 1"/>
 
             <!-- RK -->
-            <path data-train="ns" class="IC FV22a" data-length="4" data-stops="TV -4+8 TS3c +11+40 TU" data-from="1983 1"/>
+            1<path data-train="ns" class="IC FV22a" data-length="4" data-stops="TV -4+8 TS3c +11+40 TU" data-from="1983 1"/>
 
-            <path data-train="ns" class="ICE FV41" data-length="4" data-stops="TV +70+82 TS4c +85+117 TU" data-from="1983 1"/>
+            1<path data-train="ns" class="ICE FV41" data-length="4" data-stops="TV +70+82 TS4c +85+117 TU" data-from="1983 1"/>
 
             <!-- RH -->
-            <path data-train="ns" class="IC FV40" data-length="4" data-stops="RM -19+16 TS4c +19+25 TSFL" data-from="1983 1"/>
+            1<path data-train="ns" class="IC FV40" data-length="4" data-stops="RM -19+16 TS4c +19+25 TSFL" data-from="1983 1"/>
 
-            <path data-train="ns" class="Regio BWEx8" data-length="2" data-stops="TL +40+48 TS4c +50+57 TSFL" data-from="1983 1"/>
+            2<path data-train="ns" class="Regio BWEx8" data-length="2" data-stops="TL +40+48 TS4c +50+57 TSFL" data-from="1983 1"/>
             <path data-train="ns" class="Regio BWEx8" data-length="2" data-stops="TL +100+108 TS4c +110+117 TSFL" data-from="1983 1"/>
             
-            <path data-train="ns" class="Regio E2BW" data-length="2" data-stops="TSBC +6+10 TS2c +14+21 TSFL" data-from="1983 1"/>
+            2<path data-train="ns" class="Regio E2BW" data-length="2" data-stops="TSBC +6+10 TS2c +14+21 TSFL" data-from="1983 1"/>
             <path data-train="ns" class="Regio E2BW" data-length="2" data-stops="TSBC +66+70 TS2c +74+81 TSFL" data-from="1983 1"/>
-            <path data-train="ns" class="Regio E2BW Peak" data-length="2" data-stops="TSBC +84+88 TS1c +98+105 TSFL" data-from="1983 1"/>
+            2<path data-train="ns" class="Regio E2BW Peak" data-length="2" data-stops="TSBC +84+88 TS1c +98+105 TSFL" data-from="1983 1"/>
 
-            <path data-train="ns" class="Regio E22BW" data-length="2" data-stops="TSBC +36+40 TS3b +44+51 TSFL" data-from="1983 1"/>
+            2<path data-train="ns" class="Regio E22BW" data-length="2" data-stops="TSBC +36+40 TS3b +44+51 TSFL" data-from="1983 1"/>
             <path data-train="ns" class="Regio E22BW" data-length="2" data-stops="TSBC +96+100 TS3b +104+111 TSFL" data-from="1983 1"/>
 
-            <path data-train="ns" class="IC FV94" data-length="4" data-stops="RM -8+30 TS2c +34+40 TSFL" data-from="1983 1"/>
+            2<path data-train="ns" class="IC FV94" data-length="4" data-stops="RM -8+30 TS2c +34+40 TSFL" data-from="1983 1"/>
 
             <!-- Nürtingen -->
-            <path data-train="ns" class="ICE FV45" data-length="4" data-stops="RM +19+51 TS3c +54+60 TSFL" data-from="1983 1"/>
+            2<path data-train="ns" class="ICE FV45" data-length="4" data-stops="RM +19+51 TS3c +54+60 TSFL" data-from="1983 1"/>
 
             <!-- single -->
-            <path data-train="ns" class="ICE FV6a47a" data-length="4" data-stops="RM -37-6 TS4c +1+7 TSFL" data-from="1983 1"/>
+            1<path data-train="ns" class="ICE FV6a47a" data-length="4" data-stops="RM -37-6 TS4c +1+7 TSFL" data-from="1983 1"/>
             <path data-train="ns" class="ICE FV6a47a" data-length="4" data-stops="RM +23+54 TS4c +61+67 TSFL" data-from="1983 1"/>
             <path data-train="ns" class="ICE FV6a47a" data-length="4" data-stops="RM +83+114 TS4c +121+127 TSFL" data-from="1983 1"/>
 
-            <path data-train="ns" class="IC FR15" data-length="2" data-stops="TSBC +31+35 TS3c +41+47 TSFL" data-from="1983 1"/>
+            2<path data-train="ns" class="IC FR15" data-length="2" data-stops="TSBC +31+35 TS3c +41+47 TSFL" data-from="1983 1"/>
             <path data-train="ns" class="IC FR15" data-length="2" data-stops="TSBC +91+96 TS3c +101+107 TSFL" data-from="1983 1"/>
 
-            <path data-train="ns" class="Regio E19BW" data-length="2" data-stops="TSBC -8-4 TS2b -2+5 TSFL" data-from="1983 1"/>
+            2<path data-train="ns" class="Regio E19BW" data-length="2" data-stops="TSBC -8-4 TS2b -2+5 TSFL" data-from="1983 1"/>
             <path data-train="ns" class="Regio E19BW" data-length="2" data-stops="TSBC +52+56 TS2b +58+65 TSFL" data-from="1983 1"/>
             <path data-train="ns" class="Regio E19BW" data-length="2" data-stops="TSBC +112+116 TS2b +118+125 TSFL" data-from="1983 1"/>
 
-            <path data-train="ns" class="Regio E9BW" data-length="2" data-stops="TSBC +20+24 TS3c +28+34 TSFL" data-from="1983 1"/>
+            2<path data-train="ns" class="Regio E9BW" data-length="2" data-stops="TSBC +20+24 TS3c +28+34 TSFL" data-from="1983 1"/>
             <path data-train="ns" class="Regio E9BW" data-length="2" data-stops="TSBC +80+84 TS3c +88+94 TSFL" data-from="1983 1"/>
 
             <!-- single -->
-            <path data-train="ns" class="Regio E5bcBW" data-length="2" data-stops="TL -9+0 TS1b +2+9 TSU" data-from="1983 1"/>
+            1<path data-train="ns" class="Regio E5bcBW" data-length="2" data-stops="TL -9+0 TS1b +2+9 TSU" data-from="1983 1"/>
             <path data-train="ns" class="Regio E5bcBW" data-length="2" data-stops="TL +51+60 TS1b +62+69 TSU" data-from="1983 1"/>
             <path data-train="ns" class="Regio E5bcBW" data-length="2" data-stops="TL +111+120 TS1b +122+129 TSU" data-from="1983 1"/>
-            <path data-train="ns" class="Regio E5bcBW Peak" data-length="2" data-stops="TL +67+76 TS4c +79+86 TSU" data-from="1983 1"/>
+            1<path data-train="ns" class="Regio E5bcBW Peak" data-length="2" data-stops="TL +67+76 TS4c +79+86 TSU" data-from="1983 1"/>
 
             <!-- single -->
-            <path data-train="ns" class="Regio BWEx16" data-length="2" data-stops="TV +15+27 TS3b +31+38 TSU" data-from="1983 1"/>
+            1<path data-train="ns" class="Regio BWEx16" data-length="2" data-stops="TV +15+27 TS3b +31+38 TSU" data-from="1983 1"/>
             <path data-train="ns" class="Regio BWEx16" data-length="2" data-stops="TV +75+87 TS3b +91+98 TSU" data-from="1983 1"/>
 
             <!-- Schwäbisch Gmünd-->
-            <path data-train="ns" class="IC FR16" data-length="4" data-stops="TV -13-3 TS3c +5+12 TSU" data-from="1983 1"/>
+            2<path data-train="ns" class="IC FR16" data-length="4" data-stops="TV -13-3 TS3c +5+12 TSU" data-from="1983 1"/>
             <path data-train="ns" class="IC FR16" data-length="4" data-stops="TV +47+57 TS3c +65+72 TSU" data-from="1983 1"/>
             <path data-train="ns" class="IC FR16" data-length="4" data-stops="TV +107+117 TS3c +125+132 TSU" data-from="1983 1"/>
 

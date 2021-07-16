@@ -218,6 +218,11 @@ text.shadow {
     stroke: #cd1719;
     stroke-width: 5;
     visibility: hidden;
+    transform: translate(0, -1px);
+}
+
+#tph path {
+    stroke-width: 15;
 }
 
 #tph path.departure {
@@ -227,6 +232,13 @@ text.shadow {
 #risk text, #tph text {
     text-anchor: end;
     dominant-baseline: middle;
+}
+
+#tph text.path-inset {
+    text-anchor: middle;
+    fill:white;
+    font-size: 10px;
+    font-weight: bold;
 }
 
 #geo_intro_labels {
