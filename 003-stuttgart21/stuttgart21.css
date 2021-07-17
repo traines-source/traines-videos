@@ -245,6 +245,34 @@ text.shadow {
     font-size: 50px;
 }
 
+#tunnels text {
+    text-anchor: middle;
+    dominant-baseline: middle;
+}
+
+#tunnels .outer {
+    fill:none;stroke:#607D8B;
+}
+
+#tunnels .inner {
+    fill:none;stroke:#263238;
+}
+
+#tunnels .inner-bg {
+    fill:#f2f2f2;stroke:#263238;
+}
+
+#tunnels .floor {
+    fill:#455A64;stroke:#455A64;
+}
+
+#tunnels .gabarit path {
+    fill:none;stroke:#263238;
+}
+
+#tunnels .gabarit path.gabarit-fill {
+    fill:#263238;
+}
 /*
 #epoch-label, #epoch-label-bg, text, foreignObject {
     display: none !important;
