@@ -273,6 +273,10 @@ text.shadow {
 #tunnels .gabarit path.gabarit-fill {
     fill:#263238;
 }
+
+.toplevel {
+    opacity: 0;
+}
 /*
 #epoch-label, #epoch-label-bg, text, foreignObject {
     display: none !important;
