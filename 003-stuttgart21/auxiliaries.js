@@ -83,6 +83,12 @@ function getLineProperties(feature) {
 }
 
 function render(geojson, setD) {
+    renderRailways(geojson, setD);
+    const event = new Event('startTransportNetworkAnimator');
+    document.dispatchEvent(event);
+}
+
+function renderRailways(geojson, setD) {
     geojson.features.sort((a, b) => (getLineProperties(a)[0] > getLineProperties(b)[0]) ? 1 : -1);
     for (let i=0; i<geojson.features.length; i++) {
         const feature = geojson.features[i];
@@ -92,8 +98,6 @@ function render(geojson, setD) {
         //setViewBox();
         console.log('tl_x', x(tl[0]), 'tl_y', y(tl[1]), 'br_x', x(br[0]), 'br_y', y(br[1]), 'c_x', x((tl[0]+br[0])/2), 'c_y', y((tl[1]+br[1])/2));
     }
-    const event = new Event('startTransportNetworkAnimator');
-    document.dispatchEvent(event);
 }
 
 function drawFeature(feature, setD) {
@@ -184,3 +188,30 @@ document.addEventListener('epoch', function(e) {
     }
   } 
 });
+
+
+function resolveTl(element, relativeToElementId='zoomable') {
+    if (document.getElementById(relativeToElementId) != undefined) {
+        const zoomable = document.getElementById(relativeToElementId);
+        const zRect = zoomable.getBoundingClientRect();
+        const zBox = zoomable.getBBox();
+        const lRect = element.getBoundingClientRect();
+        const zScale = zBox.width/zRect.width;
+        const x = (lRect.x-zRect.x)*zScale+zBox.x;
+        const y = (lRect.y-zRect.y)*zScale+zBox.y;
+        return [x, y];
+    }
+    return 'please set relativeToElementId';    
+}
+
+function pinpointMouse(relativeTo=[0, 0]) {
+    const svg = document.querySelector('svg');
+    const pt = svg.createSVGPoint();
+    svg.addEventListener('mousedown',function(evt){
+        pt.x = evt.clientX; pt.y = evt.clientY;
+        const pos = pt.matrixTransform(svg.getScreenCTM().inverse())
+        console.log(pos.x-relativeTo[0], pos.y-relativeTo[1]);
+    }, false);
+}
+
+//pinpointMouse(resolveTlBr($0))

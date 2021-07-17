@@ -98,371 +98,8 @@
 </defs>
 <rect x="2661352" y="1746182" width="100%" height="100%" fill="#f2f2f2"/>
 <g id="zoomable">
-    <image href="res/high/map_10000_circ_small_bw.png" x="2680924" y="1751182" width="27472" height="27472" preserveAspectRatio="none" />
-    <image href="res/high/stgt_750m_small.png" x="2686193" y="1758737" width="9007" height="9097" style="opacity:0.6" preserveAspectRatio="none" />
-
     <g id="elements">
-        <g id="tunnels" transform="translate(-3000 0) scale(5)" data-from="65 1 noanim">
-            <text x="915" y="600">Stuttgart 21 Verengter Tunnelquerschnitt</text>
-            <text x="1240" y="600">Beispiel Normaler Tunnelquerschnitt</text>
-            <text x="1240" y="625">(Albabstiegstunnel)</text>
-            <g class="dummy" data-from="65 300 noanim"></g>
-            <g transform="scale(8)">
-            <circle
-                r="12.038542"
-                cx="114.45618"
-                cy="54.922619"
-                id="21_outer"
-                class="outer"
-                style="stroke-width:4.23333311;" />
-            <circle
-                r="12.038542"
-                cx="114.45618"
-                cy="54.922619"
-                id="21_inner_bg"
-                class="inner-bg"
-                style="stroke-width:2.9104166;" />
-            <path
-                style="stroke-width:0.26458332px;"
-                d="M 103.80171,61.237349 H 124.73214 L 118.54278,66.245535 108.76265,65.962053 Z"
-                id="21_floor"
-                class="floor" />
-            <circle
-                style="stroke-width:2.9104166;"
-                id="21_inner"
-                class="inner"
-                cy="54.922619"
-                cx="114.45618"
-                r="12.038542"/>
-
-            <g
-                transform="translate(32.786252,-62.363437)"
-                id="21_gabarit" class="gabarit">
-                <path    
-                    id="path923-1"
-                    d="M 82.737296,113.50926 C 81.036404,113.46201 79.111089,113.50926 79.111086,118.09222 79.111083,123.38409 80.563933,122.53344 82.784542,122.53344"
-                    style="stroke-width:0.26458332px;" />
-                <path
-                    d="M 80.832327,122.65674 V 123.47526"
-                    style="stroke-width:0.5291667;"
-                    id="path1283-9" />
-                <path
-                    d="M 82.728864,114.5877 C 81.591006,114.5877 80.281083,115.03655 80.281083,115.64127 80.281083,116.91935 80.143249,118.01294 82.728864,118.01294"
-                    style="stroke-width:0.26458332px;"
-                    id="path1285-6"  class="gabarit-fill" />
-                <path
-                    d="M 80.638856,118.79604 80.816034,119.74098 81.229445,119.63467 C 81.229445,119.63467 81.205822,119.17401 81.087704,118.94958 80.969586,118.72516 80.638856,118.79604 80.638856,118.79604 Z"
-                    style="stroke:none;"
-                    id="path1287-2" class="gabarit-fill" />
-                <path
-                    id="path1305-1"
-                    style="stroke-width:0.26458332px;"
-                    d="M 82.669134,113.50926 C 84.370026,113.46201 86.295341,113.50926 86.295344,118.09222 86.295347,123.38409 84.842497,122.53344 82.621888,122.53344"
-                    />
-                <path
-                    id="path1307-7"
-                    style="stroke-width:0.5291667;"
-                    d="M 84.574103,122.65674 V 123.47526" />
-                <path
-                    id="path1309-8" class="gabarit-fill"
-                    style="stroke-width:0.26458332px;"
-                    d="M 82.677566,114.5877 C 83.815424,114.5877 85.125347,115.03655 85.125347,115.64127 85.125347,116.91935 85.263181,118.01294 82.677566,118.01294"
-                />
-                <path
-                    id="path1311-5"  class="gabarit-fill"
-                    style="stroke:none;stroke-width:0.26458332px;"
-                    d="M 84.767574,118.79604 84.590396,119.74098 84.176985,119.63467 C 84.176985,119.63467 84.200608,119.17401 84.318726,118.94958 84.436844,118.72516 84.767574,118.79604 84.767574,118.79604 Z"
-                />
-            </g>
-
-            <path
-                id="outer"
-                class="outer"
-                d="M 167.98156,55.121178 C 167.98156,63.215268 163.86438,68.501148 155.51418,68.501148 146.975,68.501148 143.04681,63.215268 143.04681,55.121178 143.04681,47.027088 148.62864,40.465528 155.51418,40.465528 162.39973,40.465528 167.98156,47.027088 167.98156,55.121178"
-                style="stroke-width:2.11666656;"
-                />
-            <path
-                style="stroke-width:1.05833328;"
-                d="M 167.98156,55.121178 C 167.98156,63.215268 163.86438,68.501148 155.51418,68.501148 146.975,68.501148 143.04681,63.215268 143.04681,55.121178 143.04681,47.027088 148.62864,40.465528 155.51418,40.465528 162.39973,40.465528 167.98156,47.027088 167.98156,55.121178"
-                id="inner_bg"
-                class="inner-bg"
-                />
-            <path
-                style="stroke-width:0.26458332px;"
-                d="M 144.58632,62.376748 H 166.73628 L 162.89429,66.820108 156.84731,68.490538 152.06987,68.323498 147.45947,66.151928 Z"
-                id="floor"
-                class="floor"
-                />
-            <path
-                style="stroke-width:1.05833328;"
-                d="M 167.98156,55.121178 C 167.98156,63.215268 163.86438,68.501148 155.51418,68.501148 146.975,68.501148 143.04681,63.215268 143.04681,55.121178 143.04681,47.027088 148.62864,40.465528 155.51418,40.465528 162.39973,40.465528 167.98156,47.027088 167.98156,55.121178"
-                id="inner"
-                class="inner"
-                />
-        
-
-            <g
-                id="gabarit" class="gabarit" >
-                <path
-                    id="path923"
-                    d="M 153.89132,52.277118 C 152.19043,52.229868 150.26511,52.277118 150.26511,56.860078 150.2651,62.151948 151.71795,61.301298 153.93856,61.301298"
-                    style="stroke-width:0.26458332px;" />
-                <path
-                    id="path931"
-                    d="M 151.98635,61.424598 V 62.243118"
-                    style="stroke-width:0.5291667;" />
-                <path
-                    d="M 153.88289,53.355558 C 152.74503,53.355558 151.4351,53.804408 151.4351,54.409128 151.4351,55.687208 151.29727,56.780798 153.88289,56.780798"
-                    style="stroke-width:0.26458332px;"
-                    class="gabarit-fill"
-                    id="path1285" />
-                <path
-                    d="M 151.79288,57.563898 151.97006,58.508838 152.38347,58.402528 C 152.38347,58.402528 152.35984,57.941868 152.24173,57.717438 152.12361,57.493018 151.79288,57.563898 151.79288,57.563898 Z"
-                    style="stroke:none;"
-                    class="gabarit-fill"
-                    id="path1287" />
-                <path
-                    id="path1305"
-                    style="stroke-width:0.26458332px;"
-                    d="M 153.82316,52.277118 C 155.52405,52.229868 157.44936,52.277118 157.44937,56.860078 157.44937,62.151948 155.99652,61.301298 153.77591,61.301298"
-                    />
-                <path
-                    id="path1307"
-                    style="stroke-width:0.5291667;"
-                    d="M 155.72812,61.424598 V 62.243118"
-                    />
-                <path
-                    id="path1309" class="gabarit-fill"
-                    style="stroke-width:0.26458332px;"
-                    d="M 153.83159,53.355558 C 154.96945,53.355558 156.27937,53.804408 156.27937,54.409128 156.27937,55.687208 156.4172,56.780798 153.83159,56.780798"
-                    />
-                <path
-                    id="path1311" class="gabarit-fill"
-                    style=";stroke:none;"
-                    d="M 155.9216,57.563898 155.74442,58.508838 155.33101,58.402528 C 155.33101,58.402528 155.35463,57.941868 155.47275,57.717438 155.59087,57.493018 155.9216,57.563898 155.9216,57.563898 Z"
-                />
-            </g>
-            </g>
-        </g>
-
-        <g id="tph" transform="translate(-2000 0) scale(5)" data-from="60 1 noanim">
-            <text x="250" y="-30" style="text-anchor: middle;font-size:20px;">Die Leistungsfähigkeit von Stuttgart 21</text>
-            <text x="250" y="20" style="text-anchor: middle;font-size:12px;" data-from="60 7 keepzoom">
-                <tspan fill="#cd1719" style="font-weight:bold">Ankünfte</tspan>
-                <tspan fill="#851309" style="font-weight:bold">Abfahrten</tspan> pro Stunde
-            </text>
-
-
-            <text x="180" y="50" data-from="60 1 keepzoom">Kopfbahnhof 2010</text>
-            <path d="M 200,50 h 38" data-line="cap" data-from="60 1 keepzoom" />
-            <path d="M 238,50 h 18" data-line="cap" class="departure" data-from="60 7 keepzoom" />
-            <text class="path-inset" x="219" y="50" data-from="60 1 keepzoom">38</text>
-            <text class="path-inset" x="247" y="50" data-from="60 7 keepzoom">18</text>
-
-            <text x="180" y="75" data-from="60 15 keepzoom">Kopfbahnhof 2020</text>
-            <path d="M 200,75 h 33" data-line="cap" data-from="60 15 keepzoom" />
-            <path d="M 233,75 h 28" data-line="cap" class="departure" data-from="60 15 keepzoom" />
-            <text class="path-inset" x="216" y="75" data-from="60 15 keepzoom">33</text>
-            <text class="path-inset" x="247" y="75" data-from="60 15 keepzoom">28</text>
-
-            <text x="180" y="100" data-from="60 1 keepzoom">S21 ursp. Planung</text>
-            <path d="M 200,100 h 32" data-line="cap" data-from="60 1 keepzoom" />
-            <path d="M 232,100 h 32" data-line="cap" class="departure" data-from="60 10 keepzoom" />
-            <text class="path-inset" x="216" y="100" data-from="60 1 keepzoom">32</text>
-            <text class="path-inset" x="248" y="100" data-from="60 10 keepzoom">32</text>
-
-            <text x="180" y="125" data-from="60 20 keepzoom">S21 Stresstest</text>
-            <path d="M 200,125 h 49" data-line="cap" data-from="60 20 keepzoom" />
-            <path d="M 249,125 h 33" data-line="cap" class="departure" data-from="60 20 keepzoom" />
-            <text class="path-inset" x="224" y="125" data-from="60 20 keepzoom">49</text>
-            <text class="path-inset" x="265" y="125" data-from="60 20 keepzoom">33</text>
-
-            <text x="180" y="150" data-from="60 25 keepzoom">S21 Deutschlandtakt</text>
-            <path d="M 200,150 h 36.5" data-line="cap" data-from="60 25 keepzoom" />
-            <path d="M 236.5,150 h 36.5" data-line="cap" class="departure" data-from="60 25 keepzoom" />
-            <text class="path-inset" x="218" y="150" data-from="60 25 keepzoom">36.5</text>
-            <text class="path-inset" x="255" y="150" data-from="60 25 keepzoom">36.5</text>
-
-            <text x="180" y="175" data-from="60 25 keepzoom">S21 Deutschlandtakt Spitzenstunde</text>
-            <path d="M 200,175 h 47.5" data-line="cap" data-from="60 25 keepzoom" />
-            <path d="M 247.5,175 h 46.5" data-line="cap" class="departure" data-from="60 25 keepzoom" />
-            <text class="path-inset" x="223" y="175" data-from="60 25 keepzoom">47.5</text>
-            <text class="path-inset" x="271" y="175" data-from="60 25 keepzoom">46.5</text>
-
-            <g class="dummy" data-from="60 50 keepzoom"></g>
-        </g>
-
-        <g id="risk" transform="scale(5)">
-        <g data-from="30 29 noanim">
-            <g data-from="30 1 noanim" data-to="30 35 noanim">
-                <text x="250" y="-30" data-to="30 40 keepzoom" style="text-anchor: middle;font-size:20px;">Stuttgart 21-Tunnel sind die »gefährlichsten Tunnelneubauten weltweit«</text>
-                <text x="250" y="0" style="text-anchor: middle;font-size:12px;">Kombiniertes Risiko im Brandfall: Freier Tunnelquerschnitt, Gefälle, Rettungswegbreite, Abstand der Querschläge, zu evakuierende Personenzahl</text>
-
-
-                <text x="180" y="50" data-from="30 1">Perthustunnel (FR/ES)</text>
-                <path d="M 200,50 h 7" data-line="risk" data-from="30 1" />
-
-                <text x="180" y="75" data-from="30 1">Lötschberg-Basistunnel (CH)</text>
-                <path d="M 200,75 h 15" data-line="risk" data-from="30 1" />
-
-                <text x="180" y="100" data-from="30 1">Katzenbergtunnel (DE)</text>
-                <path d="M 200,100 h 17" data-line="risk" data-from="30 1" />
-
-                <text x="180" y="125" data-from="30 1">Wienerwaldtunnel (AT)</text>
-                <path d="M 200,125 h 22" data-line="risk" data-from="30 1" />
-
-                <text x="180" y="150" data-from="30 1">Brenner-Basistunnel (AT/IT)</text>
-                <path d="M 200,150 h 28" data-line="risk" data-from="30 1" />
-
-                <text x="180" y="175" data-from="30 1">NBS Wendlingen-Ulm (DE)</text>
-                <path d="M 200,175 h 47" data-line="risk" data-from="30 1" />
-
-                <text x="180" y="200" data-from="30 1" style="font-weight: bold">Stuttgart 21 (DE)</text>
-                <path d="M 200,200 h 143" data-line="risk" data-from="30 1" />
-
-                <text x="180" y="225" data-from="30 10 keepzoom">Schulwaldtunnel, SFS KRM (DE)</text>
-                <path d="M 200,225 h 144" data-line="risk" data-from="30 10 keepzoom" />
-
-                <text x="180" y="250" data-from="30 14 keepzoom">Grand Paris Express (FR)</text>
-                <path d="M 200,250 h 212" data-line="risk" data-from="30 14 keepzoom" />
-
-                <text x="180" y="275" data-from="30 18 keepzoom">Crossrail London (UK)</text>
-                <path d="M 200,275 h 305" data-line="risk" data-from="30 18 keepzoom" />
-
-                <g class="dummy" data-from="30 45 noanim-keepzoom"></g>
-            </g>
-
-            <text x="180" y="300" data-from="30 22 keepzoom" data-to="30 35 nozoom">Gotthard-Scheiteltunnel (CH)</text>
-            <path d="M 200,300 h 2078" data-line="risk" data-from="30 22 keepzoom" data-to="30 35 noanim-nozoom" data-speed="200" />
-        </g>
-        </g>
-        <g id="gravity" transform="scale(5) translate(2450655 1602987)">
-
-            <path data-line="TS_TLU" class="10" data-stops="+0 gTS +0 gTLU" data-weight="10" data-from="20 1 noanim" data-to="20 20 noanim" data-beck-style="false" />
-            <path data-line="TS_TLU" class="13" data-stops="+0 gTS +0 gTLU" data-weight="7" data-from="20 20 noanim" data-to="20 140 noanim" data-beck-style="false" />
-
-            <path data-line="TS_TWN" class="12" data-stops="+0 gTS +0 gTWN" data-weight="11" data-from="20 1 noanim" data-to="20 20 noanim" data-beck-style="false" />
-            <path data-line="TS_TWN" class="12" data-stops="+0 gTS +0 gTWN" data-weight="10" data-from="20 20 noanim" data-to="20 140 noanim" data-beck-style="false" />
-
-            <!--<path data-line="TS_TE" class="8" data-stops="+0 gTS +0 gTE" data-weight="11" data-from="20 1 noanim" data-to="20 20 noanim" data-beck-style="false" />
-            <path data-line="TS_TE" class="9" data-stops="+0 gTS +0 gTE" data-weight="6" data-from="20 20 noanim" data-to="20 140 noanim" data-beck-style="false" />-->
-
-            <path data-line="TS_TFL" class="4" data-stops="+0 gTS +0 gTFL" data-weight="27" data-from="20 1 noanim" data-to="20 20 noanim" data-beck-style="false" />
-            <path data-line="TS_TFL" class="12" data-stops="+0 gTS +0 gTFL" data-weight="6" data-from="20 20 noanim" data-to="20 140 noanim" data-beck-style="false" />
-
-            <path data-line="TS_TBO" class="7" data-stops="+0 gTS +0 gTBO" data-weight="21" data-from="20 1 noanim" data-to="20 20 noanim" data-beck-style="false" />
-            <path data-line="TS_TBO" class="12" data-stops="+0 gTS +0 gTBO" data-weight="15" data-from="20 20 noanim" data-to="20 140 noanim" data-beck-style="false" />
-
-            <!--<path data-line="TS_TKT" class="2" data-stops="+0 gTS +0 gTKT" data-weight="43" data-from="20 1 noanim" data-to="20 20 noanim" data-beck-style="false" />
-            <path data-line="TS_TKT" class="2" data-stops="+0 gTS +0 gTKT" data-weight="45" data-from="20 20 noanim" data-to="20 140 noanim" data-beck-style="false" />-->
-
-            <path data-line="TS_TNU" class="2" data-stops="+0 gTS +0 gTNU" data-weight="31" data-from="20 1 noanim" data-to="20 20 noanim" data-beck-style="false" />
-            <path data-line="TS_TNU" class="4" data-stops="+0 gTS +0 gTNU" data-weight="18" data-from="20 20 noanim" data-to="20 140 noanim" data-beck-style="false" />
-
-            <path data-line="TS_TSC" class="20" data-stops="+0 gTS +0 gTSC" data-weight="3" data-from="20 1 noanim" data-to="20 20 noanim" data-beck-style="false" />
-            <path data-line="TS_TSC" class="20" data-stops="+0 gTS +0 gTSC" data-weight="4" data-from="20 20 noanim" data-to="20 140 noanim" data-beck-style="false" />
-            
-            <!--<path data-line="TS_TGO" class="2" data-stops="+0 gTS +0 gTGO" data-weight="28" data-from="20 1 noanim" data-to="20 20 noanim" data-beck-style="false" />
-            <path data-line="TS_TGO" class="3" data-stops="+0 gTS +0 gTGO" data-weight="26" data-from="20 20 noanim" data-to="20 140 noanim" data-beck-style="false" />-->
-
-            <path data-line="TS_TSFE" class="12" data-stops="+0 gTS +0 gTSFE" data-weight="5" data-from="20 1 noanim" data-to="20 20 noanim" data-beck-style="false" />
-            <path data-line="TS_TSFE" class="12" data-stops="+0 gTS +0 gTSFE" data-weight="7" data-from="20 20 noanim" data-to="20 140 noanim" data-beck-style="false" />
-
-            <!--<path data-line="TS_TSV" class="12" data-stops="+0 gTS +0 gTSV" data-weight="14" data-from="20 1 noanim" data-to="20 20 noanim" data-beck-style="false" />
-            <path data-line="TS_TSV" class="18" data-stops="+0 gTS +0 gTSV" data-weight="14" data-from="20 20 noanim" data-to="20 140 noanim" data-beck-style="false" />-->
-            
-            <path data-line="TS_TP" class="10" data-stops="+0 gTS +0 gTP" data-weight="17" data-from="20 1 noanim" data-to="20 20 noanim" data-beck-style="false" />
-            <path data-line="TS_TP" class="9" data-stops="+0 gTS +0 gTP" data-weight="15" data-from="20 20 noanim" data-to="20 140 noanim" data-beck-style="false" />
-
-            <path data-line="TS_TLE" class="4" data-stops="+0 gTS +0 gTLE" data-weight="25" data-from="20 1 noanim" data-to="20 20 noanim" data-beck-style="false" />
-            <path data-line="TS_TLE" class="6" data-stops="+0 gTS +0 gTLE" data-weight="27" data-from="20 20 noanim" data-to="20 140 noanim" data-beck-style="false" />
-
-            <!--<path data-line="TS_TV" class="3" data-stops="+0 gTS +0 gTV" data-weight="16" data-from="20 1 noanim" data-to="20 20 noanim" data-beck-style="false" />
-            <path data-line="TS_TV" class="5" data-stops="+0 gTS +0 gTV" data-weight="11" data-from="20 20 noanim" data-to="20 140 noanim" data-beck-style="false" />-->
-
-            <path data-line="TBO_TFL" class="4" data-stops="+0 gTBO +0 gTFL" data-weight="22" data-from="20 1 noanim" data-to="20 20 noanim" data-beck-style="false" />
-            <path data-line="TBO_TFL" class="8" data-stops="+0 gTBO +0 gTFL" data-weight="7" data-from="20 20 noanim" data-to="20 140 noanim" data-beck-style="false" />
-
-            <path data-line="TP_TSC" class="7" data-stops="+0 gTP +0 gTSC" data-weight="14" data-from="20 1 noanim" data-to="20 20 noanim" data-beck-style="false" />
-            <path data-line="TP_TSC" class="6" data-stops="+0 gTP +0 gTSC" data-weight="23" data-from="20 20 noanim" data-to="20 140 noanim" data-beck-style="false" />
-
-            
-            <!--<path data-line="TSFE_TSC" class="18" data-stops="+0 gTSFE +0 gTSC" data-weight="13" data-from="20 1 noanim" data-to="20 20 noanim" data-beck-style="false" />
-            <path data-line="TSFE_TSC" class="6" data-stops="+0 gTSFE +0 gTSC" data-weight="9" data-from="20 20 noanim" data-to="20 140 noanim" data-beck-style="false" />-->
-            
-            <path data-line="TBO_TLE" class="2" data-stops="+0 gTBO +0 gTLE" data-weight="28" data-from="20 1 noanim" data-to="20 20 noanim" data-beck-style="false" />
-            <path data-line="TBO_TLE" class="2" data-stops="+0 gTBO +0 gTLE" data-weight="29" data-from="20 20 noanim" data-to="20 140 noanim" data-beck-style="false" />
-
-            <!--<path data-line="TBO_TNU" class="4" data-stops="+0 gTBO +0 gTNU" data-weight="60" data-from="20 1 noanim" data-to="20 20 noanim" data-beck-style="false" />
-            <path data-line="TBO_TNU" class="7" data-stops="+0 gTBO +0 gTNU" data-weight="31" data-from="20 20 noanim" data-to="20 140 noanim" data-beck-style="false" />-->
-
-            <path data-line="TNU_TP" class="2" data-stops="+0 gTNU +0 gTP" data-weight="15" data-from="20 1 noanim" data-to="20 20 noanim" data-beck-style="false" />
-            <path data-line="TNU_TP" class="2" data-stops="+0 gTNU +0 gTP" data-weight="12" data-from="20 20 noanim" data-to="20 140 noanim" data-beck-style="false" />
-
-            <!--<path data-line="TLU_TSFE" class="8" data-stops="+0 gTLU +0 gTSFE" data-weight="10" data-from="20 1 noanim" data-to="20 20 noanim" data-beck-style="false" />
-            <path data-line="TLU_TSFE" class="8" data-stops="+0 gTLU +0 gTSFE" data-weight="9" data-from="20 20 noanim" data-to="20 140 noanim" data-beck-style="false" />-->
-
-
-
-                <rect data-station="gTLU" x="269063" y="176062" data-dir="nw" />
-        <rect data-station="gTWN" x="269228" y="176207" data-dir="nw" />
-        <rect data-station="gTE" x="269229" y="176396" data-dir="nw" />
-        <rect data-station="gTFL" x="269058" y="176500" data-dir="nw" />
-        <rect data-station="gTT" x="268880" y="176876" data-dir="nw" />
-        <rect data-station="gTBO" x="268768" y="176532" data-dir="nw" />
-        <rect data-station="gTKT" x="269431" y="176600" data-dir="nw" />
-        <rect data-station="gTNU" x="269287" y="176635" data-dir="nw" />
-        <rect data-station="gTSC" x="269110" y="176261" data-dir="nw" />
-        <rect data-station="gTGO" x="269728" y="176480" data-dir="nw" />
-        <rect data-station="gTSFE" x="269037" y="176234" data-dir="nw" />
-        <rect data-station="gTS" x="269058" y="176298" data-dir="nw" />
-        <rect data-station="gTSV" x="268961" y="176423" data-dir="nw" />
-        <rect data-station="gTP" x="269384" y="176453" data-dir="nw" />
-        <rect data-station="gTLE" x="268806" y="176266" data-dir="nw" />
-        <rect data-station="gTV" x="268740" y="175947" data-dir="nw" />
-
-
-
-
-            <text data-station="gTLU" >Ludwigsburg</text>
-            <text data-station="gTWN" >Waiblingen</text>
-            <text data-station="gTE"  >Esslingen</text>
-            <text data-station="gTFL" >Flughafen/Messe</text>
-            <text data-station="gTT"  >Tübingen</text>
-            <text data-station="gTBO" >Böblingen</text>
-            <text data-station="gTKT" >Kirchheim(Teck)</text>
-            <text data-station="gTNU" >Nürtingen</text>
-            <text data-station="gTSC" >Bad Cannstatt</text>
-            <text data-station="gTGO" >Göppingen</text>
-            <text data-station="gTSFE">Feuerbach</text>
-            <text data-station="gTSV" >Vaihingen</text>
-            <text data-station="gTP"  >Plochingen</text>
-            <text data-station="gTLE" >Leonberg</text>
-            <text data-station="gTV"  >Vaihingen(Enz)</text>
-            <text data-station="gTS"  >Stuttgart</text>
-
-
-
-
-        </g>
-        <g id="geo_intro">
-        </g>
-        <g id="geo_intro_labels">
-            <rect x="2690219" y="1762363" class="helper dummy" width="1000" height="1000" data-from="0 5" data-to="1 100 keepzoom" />
-            <text class="dummy helper" data-from="0 10 keepzoom" data-to="0 10 keepzoom" ></text>
-
-            <text x="2690655" y="1762987" data-from="0 1" data-to="1 100 keepzoom" class="shadow">Stuttgart Hbf</text>
-            <text x="2690439" y="1762363" data-from="1 2 keepzoom" data-to="1 100 keepzoom" class="shadow">Feuerbach</text>
-            <text x="2690971" y="1762567" data-from="1 7 keepzoom" data-to="1 100 keepzoom" class="shadow">Bad Cannstatt</text>
-            <text x="2691779" y="1763090" data-from="1 10 keepzoom" data-to="1 100 keepzoom" class="shadow">Untertürkheim</text>
-            <text x="2690916" y="1765002" data-from="1 17 keepzoom" data-to="1 100 keepzoom" class="shadow">Flughafen/Messe</text>
-            <text x="2693262" y="1765473" data-from="1 23 keepzoom" data-to="1 100 keepzoom" class="shadow">Wendlingen</text>
-            <text x="2702068" y="1771093" class="shadow" style="font-size:80px">Ulm</text>
-        </g>
-
-        <!--<path data-line="test" data-from="1 10 nozoom" />-->
-
-        <g id="gleisplan" transform="translate(2680600, 1763000) scale(2) rotate(0)">
+        <g id="gleisplan" transform="translate(2679000, 1752000) scale(20)" data-from="70 0 noanim">
             <path data-line="sn" data-stops="+0 TSn4            +0 TS8a +0 TS8b +0 TS8c             +0 TSs4" data-from="70 0 noanim" />
             <path data-line="sn" data-stops="+0 TSn4 +0 TSnh2   +0 TS7a +0 TS7b +0 TS7c +0 TSsh2    +0 TSs4" data-from="70 0 noanim" />
             <path data-line="sn" data-stops="+0 TSn4            +0 TS6a +0 TS6b +0 TS6c             +0 TSs4" data-from="70 0 noanim" />
@@ -775,6 +412,367 @@
 
 
 
+        </g>
+        <rect x="2694660.5" y="1746182" width="50%" height="100%" fill="#f2f2f2"/>
+
+        <g id="tunnels" transform="translate(2670000, 1773000) scale(10)" data-from="65 1 noanim">
+            <text x="915" y="600">Stuttgart 21 Verengter Tunnelquerschnitt</text>
+            <text x="1240" y="600">Beispiel Normaler Tunnelquerschnitt</text>
+            <text x="1240" y="625">(Albabstiegstunnel)</text>
+            <g class="dummy" data-from="65 300 noanim"></g>
+            <g transform="scale(8)">
+            <circle
+                r="12.038542"
+                cx="114.45618"
+                cy="54.922619"
+                id="21_outer"
+                class="outer"
+                style="stroke-width:4.23333311;" />
+            <circle
+                r="12.038542"
+                cx="114.45618"
+                cy="54.922619"
+                id="21_inner_bg"
+                class="inner-bg"
+                style="stroke-width:2.9104166;" />
+            <path
+                style="stroke-width:0.26458332px;"
+                d="M 103.80171,61.237349 H 124.73214 L 118.54278,66.245535 108.76265,65.962053 Z"
+                id="21_floor"
+                class="floor" />
+            <circle
+                style="stroke-width:2.9104166;"
+                id="21_inner"
+                class="inner"
+                cy="54.922619"
+                cx="114.45618"
+                r="12.038542"/>
+
+            <g
+                transform="translate(32.786252,-62.363437)"
+                id="21_gabarit" class="gabarit">
+                <path    
+                    id="path923-1"
+                    d="M 82.737296,113.50926 C 81.036404,113.46201 79.111089,113.50926 79.111086,118.09222 79.111083,123.38409 80.563933,122.53344 82.784542,122.53344"
+                    style="stroke-width:0.26458332px;" />
+                <path
+                    d="M 80.832327,122.65674 V 123.47526"
+                    style="stroke-width:0.5291667;"
+                    id="path1283-9" />
+                <path
+                    d="M 82.728864,114.5877 C 81.591006,114.5877 80.281083,115.03655 80.281083,115.64127 80.281083,116.91935 80.143249,118.01294 82.728864,118.01294"
+                    style="stroke-width:0.26458332px;"
+                    id="path1285-6"  class="gabarit-fill" />
+                <path
+                    d="M 80.638856,118.79604 80.816034,119.74098 81.229445,119.63467 C 81.229445,119.63467 81.205822,119.17401 81.087704,118.94958 80.969586,118.72516 80.638856,118.79604 80.638856,118.79604 Z"
+                    style="stroke:none;"
+                    id="path1287-2" class="gabarit-fill" />
+                <path
+                    id="path1305-1"
+                    style="stroke-width:0.26458332px;"
+                    d="M 82.669134,113.50926 C 84.370026,113.46201 86.295341,113.50926 86.295344,118.09222 86.295347,123.38409 84.842497,122.53344 82.621888,122.53344"
+                    />
+                <path
+                    id="path1307-7"
+                    style="stroke-width:0.5291667;"
+                    d="M 84.574103,122.65674 V 123.47526" />
+                <path
+                    id="path1309-8" class="gabarit-fill"
+                    style="stroke-width:0.26458332px;"
+                    d="M 82.677566,114.5877 C 83.815424,114.5877 85.125347,115.03655 85.125347,115.64127 85.125347,116.91935 85.263181,118.01294 82.677566,118.01294"
+                />
+                <path
+                    id="path1311-5"  class="gabarit-fill"
+                    style="stroke:none;stroke-width:0.26458332px;"
+                    d="M 84.767574,118.79604 84.590396,119.74098 84.176985,119.63467 C 84.176985,119.63467 84.200608,119.17401 84.318726,118.94958 84.436844,118.72516 84.767574,118.79604 84.767574,118.79604 Z"
+                />
+            </g>
+
+            <path
+                id="outer"
+                class="outer"
+                d="M 167.98156,55.121178 C 167.98156,63.215268 163.86438,68.501148 155.51418,68.501148 146.975,68.501148 143.04681,63.215268 143.04681,55.121178 143.04681,47.027088 148.62864,40.465528 155.51418,40.465528 162.39973,40.465528 167.98156,47.027088 167.98156,55.121178"
+                style="stroke-width:2.11666656;"
+                />
+            <path
+                style="stroke-width:1.05833328;"
+                d="M 167.98156,55.121178 C 167.98156,63.215268 163.86438,68.501148 155.51418,68.501148 146.975,68.501148 143.04681,63.215268 143.04681,55.121178 143.04681,47.027088 148.62864,40.465528 155.51418,40.465528 162.39973,40.465528 167.98156,47.027088 167.98156,55.121178"
+                id="inner_bg"
+                class="inner-bg"
+                />
+            <path
+                style="stroke-width:0.26458332px;"
+                d="M 144.58632,62.376748 H 166.73628 L 162.89429,66.820108 156.84731,68.490538 152.06987,68.323498 147.45947,66.151928 Z"
+                id="floor"
+                class="floor"
+                />
+            <path
+                style="stroke-width:1.05833328;"
+                d="M 167.98156,55.121178 C 167.98156,63.215268 163.86438,68.501148 155.51418,68.501148 146.975,68.501148 143.04681,63.215268 143.04681,55.121178 143.04681,47.027088 148.62864,40.465528 155.51418,40.465528 162.39973,40.465528 167.98156,47.027088 167.98156,55.121178"
+                id="inner"
+                class="inner"
+                />
+        
+
+            <g
+                id="gabarit" class="gabarit" >
+                <path
+                    id="path923"
+                    d="M 153.89132,52.277118 C 152.19043,52.229868 150.26511,52.277118 150.26511,56.860078 150.2651,62.151948 151.71795,61.301298 153.93856,61.301298"
+                    style="stroke-width:0.26458332px;" />
+                <path
+                    id="path931"
+                    d="M 151.98635,61.424598 V 62.243118"
+                    style="stroke-width:0.5291667;" />
+                <path
+                    d="M 153.88289,53.355558 C 152.74503,53.355558 151.4351,53.804408 151.4351,54.409128 151.4351,55.687208 151.29727,56.780798 153.88289,56.780798"
+                    style="stroke-width:0.26458332px;"
+                    class="gabarit-fill"
+                    id="path1285" />
+                <path
+                    d="M 151.79288,57.563898 151.97006,58.508838 152.38347,58.402528 C 152.38347,58.402528 152.35984,57.941868 152.24173,57.717438 152.12361,57.493018 151.79288,57.563898 151.79288,57.563898 Z"
+                    style="stroke:none;"
+                    class="gabarit-fill"
+                    id="path1287" />
+                <path
+                    id="path1305"
+                    style="stroke-width:0.26458332px;"
+                    d="M 153.82316,52.277118 C 155.52405,52.229868 157.44936,52.277118 157.44937,56.860078 157.44937,62.151948 155.99652,61.301298 153.77591,61.301298"
+                    />
+                <path
+                    id="path1307"
+                    style="stroke-width:0.5291667;"
+                    d="M 155.72812,61.424598 V 62.243118"
+                    />
+                <path
+                    id="path1309" class="gabarit-fill"
+                    style="stroke-width:0.26458332px;"
+                    d="M 153.83159,53.355558 C 154.96945,53.355558 156.27937,53.804408 156.27937,54.409128 156.27937,55.687208 156.4172,56.780798 153.83159,56.780798"
+                    />
+                <path
+                    id="path1311" class="gabarit-fill"
+                    style=";stroke:none;"
+                    d="M 155.9216,57.563898 155.74442,58.508838 155.33101,58.402528 C 155.33101,58.402528 155.35463,57.941868 155.47275,57.717438 155.59087,57.493018 155.9216,57.563898 155.9216,57.563898 Z"
+                />
+            </g>
+            </g>
+        </g>
+
+        <g id="tph" transform="translate(2670000, 1764000) scale(20)" data-from="60 1 noanim">
+            <text x="190" y="-30" style="text-anchor: middle;font-size:20px;">Die Leistungsfähigkeit von Stuttgart 21</text>
+            <text x="270" y="20" style="text-anchor: middle;font-size:12px;" data-from="60 7 keepzoom">
+                <tspan fill="#cd1719" style="font-weight:bold">Ankünfte</tspan>
+                <tspan fill="#851309" style="font-weight:bold">Abfahrten</tspan> pro Stunde
+            </text>
+
+
+            <text x="180" y="50" data-from="60 1 keepzoom">Kopfbahnhof 2010 Spitzenstunde</text>
+            <path d="M 200,50 h 38" data-line="cap" data-from="60 1 keepzoom" />
+            <path d="M 238,50 h 18" data-line="cap" class="departure" data-from="60 7 keepzoom" />
+            <text class="path-inset" x="219" y="50" data-from="60 1 keepzoom">38</text>
+            <text class="path-inset" x="247" y="50" data-from="60 7 keepzoom">18</text>
+
+            <text x="180" y="75" data-from="60 15 keepzoom">Kopfbahnhof 2020 Spitzenstunde</text>
+            <path d="M 200,75 h 33" data-line="cap" data-from="60 15 keepzoom" />
+            <path d="M 233,75 h 28" data-line="cap" class="departure" data-from="60 15 keepzoom" />
+            <text class="path-inset" x="216" y="75" data-from="60 15 keepzoom">33</text>
+            <text class="path-inset" x="247" y="75" data-from="60 15 keepzoom">28</text>
+
+            <text x="180" y="100" data-from="60 1 keepzoom">S21 ursp. Planung</text>
+            <path d="M 200,100 h 32" data-line="cap" data-from="60 1 keepzoom" />
+            <path d="M 232,100 h 32" data-line="cap" class="departure" data-from="60 10 keepzoom" />
+            <text class="path-inset" x="216" y="100" data-from="60 1 keepzoom">32</text>
+            <text class="path-inset" x="248" y="100" data-from="60 10 keepzoom">32</text>
+
+            <text x="180" y="125" data-from="60 25 keepzoom">S21 Deutschlandtakt</text>
+            <path d="M 200,125 h 36.5" data-line="cap" data-from="60 25 keepzoom" />
+            <path d="M 236.5,125 h 36.5" data-line="cap" class="departure" data-from="60 25 keepzoom" />
+            <text class="path-inset" x="218" y="125" data-from="60 25 keepzoom">36.5</text>
+            <text class="path-inset" x="255" y="125" data-from="60 25 keepzoom">36.5</text>
+
+            <text x="180" y="150" data-from="60 20 keepzoom">S21 Stresstest Spitzenstunde</text>
+            <path d="M 200,150 h 49" data-line="cap" data-from="60 20 keepzoom" />
+            <path d="M 249,150 h 33" data-line="cap" class="departure" data-from="60 20 keepzoom" />
+            <text class="path-inset" x="224" y="150" data-from="60 20 keepzoom">49</text>
+            <text class="path-inset" x="265" y="150" data-from="60 20 keepzoom">33</text>
+
+            <text x="180" y="175" data-from="60 25 keepzoom">S21 Deutschlandtakt Spitzenstunde</text>
+            <path d="M 200,175 h 47.5" data-line="cap" data-from="60 25 keepzoom" />
+            <path d="M 247.5,175 h 46.5" data-line="cap" class="departure" data-from="60 25 keepzoom" />
+            <text class="path-inset" x="223" y="175" data-from="60 25 keepzoom">47.5</text>
+            <text class="path-inset" x="271" y="175" data-from="60 25 keepzoom">46.5</text>
+
+            <g class="dummy" data-from="60 50 keepzoom"></g>
+        </g>
+
+        <g id="risk" transform="translate(2710000, 1773000) scale(20)">
+            <g data-from="30 29 noanim">
+            <g data-from="30 1 noanim" data-to="30 35 noanim">
+                <text x="250" y="-30" data-to="30 40 keepzoom" style="text-anchor: middle;font-size:20px;">Stuttgart 21-Tunnel sind die »gefährlichsten Tunnelneubauten weltweit«</text>
+                <text x="250" y="0" style="text-anchor: middle;font-size:12px;">Kombiniertes Risiko im Brandfall: Freier Tunnelquerschnitt, Gefälle, Rettungswegbreite, Abstand der Querschläge, zu evakuierende Personenzahl</text>
+
+
+                <text x="180" y="50" data-from="30 1">Perthustunnel (FR/ES)</text>
+                <path d="M 200,50 h 7" data-line="risk" data-from="30 1" />
+
+                <text x="180" y="75" data-from="30 1">Lötschberg-Basistunnel (CH)</text>
+                <path d="M 200,75 h 15" data-line="risk" data-from="30 1" />
+
+                <text x="180" y="100" data-from="30 1">Katzenbergtunnel (DE)</text>
+                <path d="M 200,100 h 17" data-line="risk" data-from="30 1" />
+
+                <text x="180" y="125" data-from="30 1">Wienerwaldtunnel (AT)</text>
+                <path d="M 200,125 h 22" data-line="risk" data-from="30 1" />
+
+                <text x="180" y="150" data-from="30 1">Brenner-Basistunnel (AT/IT)</text>
+                <path d="M 200,150 h 28" data-line="risk" data-from="30 1" />
+
+                <text x="180" y="175" data-from="30 1">NBS Wendlingen-Ulm (DE)</text>
+                <path d="M 200,175 h 47" data-line="risk" data-from="30 1" />
+
+                <text x="180" y="200" data-from="30 1" style="font-weight: bold">Stuttgart 21 (DE)</text>
+                <path d="M 200,200 h 143" data-line="risk" data-from="30 1" />
+
+                <text x="180" y="225" data-from="30 10 keepzoom">Schulwaldtunnel, SFS KRM (DE)</text>
+                <path d="M 200,225 h 144" data-line="risk" data-from="30 10 keepzoom" />
+
+                <text x="180" y="250" data-from="30 14 keepzoom">Grand Paris Express (FR)</text>
+                <path d="M 200,250 h 212" data-line="risk" data-from="30 14 keepzoom" />
+
+                <text x="180" y="275" data-from="30 18 keepzoom">Crossrail London (UK)</text>
+                <path d="M 200,275 h 305" data-line="risk" data-from="30 18 keepzoom" />
+
+                <g class="dummy" data-from="30 45 noanim-keepzoom"></g>
+            </g>
+
+            <text x="180" y="300" data-from="30 22 keepzoom" data-to="30 35 nozoom">Gotthard-Scheiteltunnel (CH)</text>
+            <path d="M 200,300 h 2078" data-line="risk" data-from="30 22 keepzoom" data-to="30 35 noanim-nozoom" data-speed="200" />
+            </g>
+        </g>
+        <g id="gravity" transform="translate(-2665433.5070036715 -1775162.4563828395) scale(20)">
+
+            <path data-line="TS_TLU" class="10" data-stops="+0 gTS +0 gTLU" data-weight="10" data-from="20 1 noanim" data-to="20 20 noanim" data-beck-style="false" />
+            <path data-line="TS_TLU" class="13" data-stops="+0 gTS +0 gTLU" data-weight="7" data-from="20 20 noanim" data-beck-style="false" />
+
+            <path data-line="TS_TWN" class="12" data-stops="+0 gTS +0 gTWN" data-weight="11" data-from="20 1 noanim" data-to="20 20 noanim" data-beck-style="false" />
+            <path data-line="TS_TWN" class="12" data-stops="+0 gTS +0 gTWN" data-weight="10" data-from="20 20 noanim" data-beck-style="false" />
+
+            <!--<path data-line="TS_TE" class="8" data-stops="+0 gTS +0 gTE" data-weight="11" data-from="20 1 noanim" data-to="20 20 noanim" data-beck-style="false" />
+            <path data-line="TS_TE" class="9" data-stops="+0 gTS +0 gTE" data-weight="6" data-from="20 20 noanim" data-beck-style="false" />-->
+
+            <path data-line="TS_TFL" class="4" data-stops="+0 gTS +0 gTFL" data-weight="27" data-from="20 1 noanim" data-to="20 20 noanim" data-beck-style="false" />
+            <path data-line="TS_TFL" class="12" data-stops="+0 gTS +0 gTFL" data-weight="6" data-from="20 20 noanim" data-beck-style="false" />
+
+            <path data-line="TS_TBO" class="7" data-stops="+0 gTS +0 gTBO" data-weight="21" data-from="20 1 noanim" data-to="20 20 noanim" data-beck-style="false" />
+            <path data-line="TS_TBO" class="12" data-stops="+0 gTS +0 gTBO" data-weight="15" data-from="20 20 noanim" data-beck-style="false" />
+
+            <!--<path data-line="TS_TKT" class="2" data-stops="+0 gTS +0 gTKT" data-weight="43" data-from="20 1 noanim" data-to="20 20 noanim" data-beck-style="false" />
+            <path data-line="TS_TKT" class="2" data-stops="+0 gTS +0 gTKT" data-weight="45" data-from="20 20 noanim" data-beck-style="false" />-->
+
+            <path data-line="TS_TNU" class="2" data-stops="+0 gTS +0 gTNU" data-weight="31" data-from="20 1 noanim" data-to="20 20 noanim" data-beck-style="false" />
+            <path data-line="TS_TNU" class="4" data-stops="+0 gTS +0 gTNU" data-weight="18" data-from="20 20 noanim" data-beck-style="false" />
+
+            <path data-line="TS_TSC" class="20" data-stops="+0 gTS +0 gTSC" data-weight="3" data-from="20 1 noanim" data-to="20 20 noanim" data-beck-style="false" />
+            <path data-line="TS_TSC" class="20" data-stops="+0 gTS +0 gTSC" data-weight="4" data-from="20 20 noanim" data-beck-style="false" />
+            
+            <!--<path data-line="TS_TGO" class="2" data-stops="+0 gTS +0 gTGO" data-weight="28" data-from="20 1 noanim" data-to="20 20 noanim" data-beck-style="false" />
+            <path data-line="TS_TGO" class="3" data-stops="+0 gTS +0 gTGO" data-weight="26" data-from="20 20 noanim" data-beck-style="false" />-->
+
+            <path data-line="TS_TSFE" class="12" data-stops="+0 gTS +0 gTSFE" data-weight="5" data-from="20 1 noanim" data-to="20 20 noanim" data-beck-style="false" />
+            <path data-line="TS_TSFE" class="12" data-stops="+0 gTS +0 gTSFE" data-weight="7" data-from="20 20 noanim" data-beck-style="false" />
+
+            <!--<path data-line="TS_TSV" class="12" data-stops="+0 gTS +0 gTSV" data-weight="14" data-from="20 1 noanim" data-to="20 20 noanim" data-beck-style="false" />
+            <path data-line="TS_TSV" class="18" data-stops="+0 gTS +0 gTSV" data-weight="14" data-from="20 20 noanim" data-beck-style="false" />-->
+            
+            <path data-line="TS_TP" class="10" data-stops="+0 gTS +0 gTP" data-weight="17" data-from="20 1 noanim" data-to="20 20 noanim" data-beck-style="false" />
+            <path data-line="TS_TP" class="9" data-stops="+0 gTS +0 gTP" data-weight="15" data-from="20 20 noanim" data-beck-style="false" />
+
+            <path data-line="TS_TLE" class="4" data-stops="+0 gTS +0 gTLE" data-weight="25" data-from="20 1 noanim" data-to="20 20 noanim" data-beck-style="false" />
+            <path data-line="TS_TLE" class="6" data-stops="+0 gTS +0 gTLE" data-weight="27" data-from="20 20 noanim" data-beck-style="false" />
+
+            <!--<path data-line="TS_TV" class="3" data-stops="+0 gTS +0 gTV" data-weight="16" data-from="20 1 noanim" data-to="20 20 noanim" data-beck-style="false" />
+            <path data-line="TS_TV" class="5" data-stops="+0 gTS +0 gTV" data-weight="11" data-from="20 20 noanim" data-beck-style="false" />-->
+
+            <path data-line="TBO_TFL" class="4" data-stops="+0 gTBO +0 gTFL" data-weight="22" data-from="20 1 noanim" data-to="20 20 noanim" data-beck-style="false" />
+            <path data-line="TBO_TFL" class="8" data-stops="+0 gTBO +0 gTFL" data-weight="7" data-from="20 20 noanim" data-beck-style="false" />
+
+            <path data-line="TP_TSC" class="7" data-stops="+0 gTP +0 gTSC" data-weight="14" data-from="20 1 noanim" data-to="20 20 noanim" data-beck-style="false" />
+            <path data-line="TP_TSC" class="6" data-stops="+0 gTP +0 gTSC" data-weight="23" data-from="20 20 noanim" data-beck-style="false" />
+
+            
+            <!--<path data-line="TSFE_TSC" class="18" data-stops="+0 gTSFE +0 gTSC" data-weight="13" data-from="20 1 noanim" data-to="20 20 noanim" data-beck-style="false" />
+            <path data-line="TSFE_TSC" class="6" data-stops="+0 gTSFE +0 gTSC" data-weight="9" data-from="20 20 noanim" data-beck-style="false" />-->
+            
+            <path data-line="TBO_TLE" class="2" data-stops="+0 gTBO +0 gTLE" data-weight="28" data-from="20 1 noanim" data-to="20 20 noanim" data-beck-style="false" />
+            <path data-line="TBO_TLE" class="2" data-stops="+0 gTBO +0 gTLE" data-weight="29" data-from="20 20 noanim" data-beck-style="false" />
+
+            <!--<path data-line="TBO_TNU" class="4" data-stops="+0 gTBO +0 gTNU" data-weight="60" data-from="20 1 noanim" data-to="20 20 noanim" data-beck-style="false" />
+            <path data-line="TBO_TNU" class="7" data-stops="+0 gTBO +0 gTNU" data-weight="31" data-from="20 20 noanim" data-beck-style="false" />-->
+
+            <path data-line="TNU_TP" class="2" data-stops="+0 gTNU +0 gTP" data-weight="15" data-from="20 1 noanim" data-to="20 20 noanim" data-beck-style="false" />
+            <path data-line="TNU_TP" class="2" data-stops="+0 gTNU +0 gTP" data-weight="12" data-from="20 20 noanim" data-beck-style="false" />
+
+            <!--<path data-line="TLU_TSFE" class="8" data-stops="+0 gTLU +0 gTSFE" data-weight="10" data-from="20 1 noanim" data-to="20 20 noanim" data-beck-style="false" />
+            <path data-line="TLU_TSFE" class="8" data-stops="+0 gTLU +0 gTSFE" data-weight="9" data-from="20 20 noanim" data-beck-style="false" />-->
+
+
+
+                <rect data-station="gTLU" x="269063" y="176062" data-dir="nw" />
+        <rect data-station="gTWN" x="269228" y="176207" data-dir="nw" />
+        <rect data-station="gTE" x="269229" y="176396" data-dir="nw" />
+        <rect data-station="gTFL" x="269058" y="176500" data-dir="nw" />
+        <rect data-station="gTT" x="268880" y="176876" data-dir="nw" />
+        <rect data-station="gTBO" x="268768" y="176532" data-dir="nw" />
+        <rect data-station="gTKT" x="269431" y="176600" data-dir="nw" />
+        <rect data-station="gTNU" x="269287" y="176635" data-dir="nw" />
+        <rect data-station="gTSC" x="269110" y="176261" data-dir="nw" />
+        <rect data-station="gTGO" x="269728" y="176480" data-dir="nw" />
+        <rect data-station="gTSFE" x="269037" y="176234" data-dir="nw" />
+        <rect data-station="gTS" x="269058" y="176298" data-dir="nw" />
+        <rect data-station="gTSV" x="268961" y="176423" data-dir="nw" />
+        <rect data-station="gTP" x="269384" y="176453" data-dir="nw" />
+        <rect data-station="gTLE" x="268806" y="176266" data-dir="nw" />
+        <rect data-station="gTV" x="268740" y="175947" data-dir="nw" />
+
+
+
+
+            <text data-station="gTLU" >Ludwigsburg</text>
+            <text data-station="gTWN" >Waiblingen</text>
+            <text data-station="gTE"  >Esslingen</text>
+            <text data-station="gTFL" >Flughafen/Messe</text>
+            <text data-station="gTT"  >Tübingen</text>
+            <text data-station="gTBO" >Böblingen</text>
+            <text data-station="gTKT" >Kirchheim(Teck)</text>
+            <text data-station="gTNU" >Nürtingen</text>
+            <text data-station="gTSC" >Bad Cannstatt</text>
+            <text data-station="gTGO" >Göppingen</text>
+            <text data-station="gTSFE">Feuerbach</text>
+            <text data-station="gTSV" >Vaihingen</text>
+            <text data-station="gTP"  >Plochingen</text>
+            <text data-station="gTLE" >Leonberg</text>
+            <text data-station="gTV"  >Vaihingen(Enz)</text>
+            <text data-station="gTS"  >Stuttgart</text>
+
+            <g class="dummy" data-from="20 50"></g>
+
+
+        </g>
+        <image href="res/high/map_10000_circ_small_bw.png" x="2680924" y="1751182" width="27472" height="27472" preserveAspectRatio="none" />
+        <image href="res/high/stgt_750m_small.png" x="2686193" y="1758737" width="9007" height="9097" style="opacity:0.6" preserveAspectRatio="none" />
+        <g id="geo_intro">
+        </g>
+        <g id="geo_intro_labels">
+            <rect x="2690219" y="1762363" class="helper dummy" width="1000" height="1000" data-from="0 5" data-to="1 100 keepzoom" />
+            <text class="dummy helper" data-from="0 10 keepzoom" data-to="0 10 keepzoom" ></text>
+
+            <text x="2690655" y="1762987" data-from="0 1" data-to="1 100 keepzoom" class="shadow">Stuttgart Hbf</text>
+            <text x="2690439" y="1762363" data-from="1 2 keepzoom" data-to="1 100 keepzoom" class="shadow">Feuerbach</text>
+            <text x="2690971" y="1762567" data-from="1 7 keepzoom" data-to="1 100 keepzoom" class="shadow">Bad Cannstatt</text>
+            <text x="2691779" y="1763090" data-from="1 10 keepzoom" data-to="1 100 keepzoom" class="shadow">Untertürkheim</text>
+            <text x="2690916" y="1765002" data-from="1 17 keepzoom" data-to="1 100 keepzoom" class="shadow">Flughafen/Messe</text>
+            <text x="2693262" y="1765473" data-from="1 23 keepzoom" data-to="1 100 keepzoom" class="shadow">Wendlingen</text>
+            <text x="2702068" y="1771093" class="shadow" style="font-size:80px">Ulm</text>
         </g>
     </g>
 

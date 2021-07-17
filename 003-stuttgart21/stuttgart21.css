@@ -251,7 +251,7 @@ text.shadow {
 }
 
 #tunnels .outer {
-    fill:none;stroke:#607D8B;
+    fill:none;stroke:#90A4AE;
 }
 
 #tunnels .inner {
@@ -263,7 +263,7 @@ text.shadow {
 }
 
 #tunnels .floor {
-    fill:#455A64;stroke:#455A64;
+    fill:#546E7A;stroke:#546E7A;
 }
 
 #tunnels .gabarit path {
