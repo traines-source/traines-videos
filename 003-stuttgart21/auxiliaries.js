@@ -60,7 +60,7 @@ function getLineProperties(feature) {
             insideRectangle(feature.geometry.coordinates[0], [9.19397, 48.8035846], [9.21182, 48.78414]) || 
             insideRectangle(feature.geometry.coordinates[0], [9.1813, 48.7960], [9.21182, 48.78414])
         ) {
-            return ['s21old', 's', '1 45 keepzoom', 100];
+            return ['s21old', 's', '1 65 keepzoom', 100];
         }
         return ['existing', '', '', 0];
     }
@@ -83,7 +83,7 @@ function getLineProperties(feature) {
         return ['nbs', 'nw', '1 25', 1000];
     }
     if (insideRectangle(feature.geometry.coordinates[0], [9.18156, 48.80132], [9.19767, 48.78500])) {
-        return ['zsbahn', 's', '1 40', 100];
+        return ['zsbahn', 's', '1 58', 100];
     }
     if (insideRectangle(feature.geometry.coordinates[0], [9.1533, 48.8211], [9.2865, 48.7614])) {
         return ['s21new', 'nw', '1 1', 200];
@@ -232,6 +232,11 @@ function pinpointMouse(relativeTo=[0, 0]) {
         const pos = pt.matrixTransform(svg.getScreenCTM().inverse())
         console.log(pos.x-relativeTo[0], pos.y-relativeTo[1]);
     }, false);
+}
+
+function padding(element, padding) {
+    const box = element.getBBox();
+    return '<rect x="'+(box.x-padding)+'" y="'+(box.y-padding)+'" width="'+(box.width+padding*2)+'" height="'+(box.height+padding*2)+'" class="dummy helper" data-from="0 0 noanim" />';
 }
 
 //pinpointMouse(resolveTlBr($0))

@@ -138,7 +138,7 @@ svg {
 }
 
 #gravity path {
-    stroke: #263238;
+    stroke: #263238 !important;
     stroke-width: 10;
     fill: none;
     stroke-linejoin: round;
