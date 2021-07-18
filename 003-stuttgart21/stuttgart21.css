@@ -55,7 +55,7 @@ path.train.IC {
 }
 
 path.train.Regio {
-    stroke: #bb1e10;
+    stroke: #B71C1C;
     stroke-width: 6;
     marker-end: url(#regio-end);
     marker-start: url(#regio-start);
@@ -80,7 +80,7 @@ path.train.Regio {
     fill:#2e3032;
 }
 .trafficred {
-    fill:#bb1e10;
+    fill:#B71C1C;
 }
 .windowgrey, .windscreen {
     fill:#9da3a6;
@@ -120,7 +120,7 @@ svg {
     stroke-width: 10;
 }
 #geo_intro path.railway-construction {
-    stroke: #BF360C;
+    stroke: #B71C1C;
     visibility: hidden;
 }
 
@@ -129,7 +129,7 @@ svg {
 }
 
 #geo_intro path.tunnel-yes.railway-construction {
-    stroke: #F4511E;
+    stroke: #E53935;
 }
 
 #gravity path {
@@ -199,47 +199,62 @@ text.shadow {
 }
 
 .IC1, .IC {
-    stroke:#ee1d23;
-    background-color: #ee1d23;
+    stroke:#E53935;
+    background-color: #E53935;
     color: white;
 }
 .IR {
-    stroke:#0095d9;
-    background-color: #0095d9;
+    stroke:#546E7A;
+    background-color: #546E7A;
     color: white;
 }
 
 .underthrow {
     stroke: none;
-    fill: grey;
+    fill: #90A4AE;
 }
 
-#risk path, #tph path {
-    stroke: #cd1719;
+#risk path, #tph path, #tt path {
+    stroke: #B71C1C;
     stroke-width: 5;
     visibility: hidden;
     transform: translate(0, -1px);
 }
 
-#tph path {
+#tph path, #tt path {
     stroke-width: 15;
 }
 
 #tph path.departure {
-    stroke: #851309;
+    stroke: #E53935;
 }
 
-#risk text, #tph text {
+#tt path.decrease {
+    stroke: #546E7A;
+}
+
+#risk text, #tph text, #tt text {
     text-anchor: end;
     dominant-baseline: middle;
 }
 
-#tph text.path-inset {
+#tph text.path-inset{
     text-anchor: middle;
     fill:white;
     font-size: 10px;
     font-weight: bold;
 }
+
+#tt text.path-inset {
+    text-anchor: start;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+#tt text.path-inset.left {
+    text-anchor: end;
+}
+
 
 #geo_intro_labels {
     font-size: 50px;

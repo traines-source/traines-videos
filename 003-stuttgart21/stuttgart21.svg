@@ -654,6 +654,54 @@
             </g>
         </g>
 
+        <g id="tt" transform="translate(2710000, 1773000) scale(20)" data-from="25 1 noanim-nozoom" class="toplevel">
+            <g data-from="25 1 noanim" data-to="25 35 noanim">
+                <text x="200" y="-30" style="text-anchor: middle;font-size:20px;">Reisezeitverkürzungen durch Stuttgart 21</text>
+                <text x="200" y="0" data-to="25 20 keepzoom" style="text-anchor: middle;font-size:12px;">Veränderung in Minuten</text>
+                <text x="200" y="0" data-from="25 20 keepzoom" style="text-anchor: middle;font-size:12px;visibility:hidden">Veränderung der kumulierten Reisezeit aller Fahrgäste auf der Relation</text>
+
+
+                <text x="90" y="50" data-from="25 1 keepzoom">Stuttgart Hbf – Ulm Hbf</text>
+                <path d="M 200,50 h -16" data-line="tt" data-from="25 1 keepzoom" class="decrease" />
+                <path d="M 184,50 h -80" data-line="tt" data-from="25 1 keepzoom" data-to="25 10 keepzoom" class="decrease" />
+                <text class="path-inset" x="210" y="50" data-from="25 1 keepzoom" data-to="25 10 keepzoom">-24</text>
+                <text class="path-inset" x="210" y="50" data-from="25 10 keepzoom" data-to="25 20 keepzoom">-4</text>
+
+                <text x="90" y="75" data-from="25 1 keepzoom">Stuttgart Hbf – Flughafen</text>
+                <path d="M 200,75 h -71" data-line="tt" data-from="25 1 keepzoom" class="decrease" />
+                <path d="M 129,75 h -5" data-line="tt" data-from="25 1 keepzoom" data-to="25 20 keepzoom" class="decrease" />
+                <text class="path-inset" x="210" y="75" data-from="25 1 keepzoom" data-to="25 20 keepzoom">-19</text>
+
+                <text x="90" y="100" data-from="25 1 keepzoom">Stuttgart Hbf – Nürtingen Hbf</text>
+                <path d="M 200,100 h -47" data-line="tt" data-from="25 1 keepzoom" class="decrease" />
+                <path d="M 153,100 h -13" data-line="tt" data-from="25 1 keepzoom" data-to="25 20 keepzoom" class="decrease" />
+                <text class="path-inset" x="210" y="100" data-from="25 1 keepzoom" data-to="25 20 keepzoom">-15</text>
+
+                <text x="90" y="125" data-from="25 1 keepzoom">Tübingen – Schorndorf</text>
+                <path d="M 200,125 h -1" data-line="tt" data-from="25 1 keepzoom" class="decrease" />
+                <path d="M 201,125 h -59" data-line="tt" data-from="25 1 keepzoom" data-to="25 20 keepzoom" class="decrease" />
+                <text class="path-inset" x="210" y="125" data-from="25 1 keepzoom" data-to="25 20 keepzoom">-15</text>
+
+                <text x="90" y="150" data-from="25 5 keepzoom">Stuttgart Hbf – Bad Cannstatt</text>
+                <path d="M 200,150 h 4" data-line="tt" data-from="25 5 keepzoom" />
+                <path d="M 204,150 h 11" data-line="tt" data-from="25 20 keepzoom"/>
+                <text class="path-inset left" x="190" y="150" data-from="25 5 keepzoom" data-to="25 20 keepzoom">+1</text>
+
+                <text x="90" y="175" data-from="25 5 keepzoom">Stuttgart Hbf – Feuerbach</text>
+                <path d="M 200,175 h 8" data-line="tt" data-from="25 5 keepzoom" />
+                <path d="M 208,175 h 22" data-line="tt" data-from="25 20 keepzoom"/>
+                <text class="path-inset left" x="190" y="175" data-from="25 5 keepzoom" data-to="25 20 keepzoom">+2</text>
+
+                <text x="90" y="200" data-from="25 5 keepzoom">Plochingen – Bad Cannstatt</text>
+                <path d="M 200,200 h 1" data-line="tt" data-from="25 5 keepzoom" />
+                <path d="M 201,200 h 35" data-line="tt" data-from="25 5 keepzoom" data-to="25 20 keepzoom"/>
+                <text class="path-inset left" x="190" y="200" data-from="25 5 keepzoom" data-to="25 20 keepzoom">+9</text>
+
+                <g class="dummy" data-from="25 45 noanim-keepzoom"></g>
+            </g>
+            
+        </g>
+
         <g id="gravity" transform="translate(-2665433.5070036715 -1775162.4563828395) scale(20)" data-from="20 1 noanim-nozoom" class="toplevel">
 
             <path data-line="TS_TLU" class="10" data-stops="+0 gTS +0 gTLU" data-weight="10" data-from="20 1 noanim" data-to="20 20 noanim" data-beck-style="false" />
