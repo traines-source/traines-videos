@@ -55,7 +55,7 @@ function getLineProperties(feature) {
     if (feature.geometry.type == "Point" || feature.properties["route"] != undefined) {
         return ['undefined', '', '', 0];
     }
-    if (feature.properties['railway'] != 'construction') {
+    if (feature.properties['railway'] != 'construction' && feature.properties['railway'] != 'proposed') {
         if (
             insideRectangle(feature.geometry.coordinates[0], [9.19397, 48.8035846], [9.21182, 48.78414]) || 
             insideRectangle(feature.geometry.coordinates[0], [9.1813, 48.7960], [9.21182, 48.78414])
@@ -63,6 +63,21 @@ function getLineProperties(feature) {
             return ['s21old', 's', '1 45 keepzoom', 100];
         }
         return ['existing', '', '', 0];
+    }
+    if (feature.properties['name'] != undefined && feature.properties['name'].includes('erg-')) {
+        return ['erg custom-proposed', 'n', '80 30', 100];
+    }
+    if (feature.properties['name'] != undefined && feature.properties['name'].includes('nordzulauf-')) {
+        return ['nordzulauf custom-proposed', 'n', '80 5', 200];
+    }
+    if (feature.properties['name'] != undefined && feature.properties['name'].includes('gautunnel-')) {
+        return ['gautunnel custom-proposed', 'w', '80 20', 200];
+    }
+    if (feature.properties['name'] != undefined && feature.properties['name'].includes('poption-')) {
+        return ['poption custom-proposed', 'n', '80 1', 100];
+    }
+    if (insideRectangle(feature.geometry.coordinates[0], [9.101692, 48.714558], [9.129658,  48.705414])) {
+        return ['rohrerkurve custom-proposed', 'w', '80 15', 100];
     }
     if (insideRectangle(feature.geometry.coordinates[0], [9.36824, 48.66841], [10.0614, 48.3606])) {
         return ['nbs', 'nw', '1 25', 1000];
@@ -82,8 +97,9 @@ function getLineProperties(feature) {
     return ['undefined', '', '', 0];
 }
 
-function render(geojson, setD) {
-    renderRailways(geojson, setD);
+function render(railways, railwaysExtensions, setD) {
+    renderRailways(railways, setD);
+    renderRailways(railwaysExtensions, setD);
     const event = new Event('startTransportNetworkAnimator');
     document.dispatchEvent(event);
 }
@@ -105,7 +121,7 @@ function drawFeature(feature, setD) {
     if (props[0] == 'undefined') {
         return;
     }
-    const clazz = 'route-' + feature.properties['route'] + ' railway-' + feature.properties['railway'] + ' tunnel-' + feature.properties['tunnel'] + ' relations-' + (feature.properties['@relations'] != undefined ? 'child' : '');
+    const clazz = props[0] + ' route-' + feature.properties['route'] + ' railway-' + feature.properties['railway'] + ' tunnel-' + feature.properties['tunnel'] + ' relations-' + (feature.properties['@relations'] != undefined ? 'child' : '');
     const path = getOrCreatePath(feature.id);
     if (!path.className.baseVal.includes(clazz)) {
         path.className.baseVal += ' ' + clazz;
@@ -166,8 +182,12 @@ out geom;
 out geom;
 */
 fetch("railways.geojson")
-  .then(response => response.json())
-  .then(json => render(json, true));
+    .then(response => response.json())
+    .then(railways => 
+        fetch("railways-extensions.geojson")
+        .then(response => response.json())
+        .then(railwaysExtensions => render(railways, railwaysExtensions, true))
+    );
 
 
 

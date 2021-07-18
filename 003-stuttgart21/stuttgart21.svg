@@ -565,8 +565,8 @@
         <g id="tph" transform="translate(2670000, 1764000) scale(20)" data-from="60 1 noanim" class="toplevel">
             <text x="190" y="-30" style="text-anchor: middle;font-size:20px;">Die Leistungsfähigkeit von Stuttgart 21</text>
             <text x="270" y="20" style="text-anchor: middle;font-size:12px;" data-from="60 7 keepzoom">
-                <tspan fill="#cd1719" style="font-weight:bold">Ankünfte</tspan>
-                <tspan fill="#851309" style="font-weight:bold">Abfahrten</tspan> pro Stunde
+                <tspan fill="#B71C1C" style="font-weight:bold">Ankünfte</tspan>
+                <tspan fill="#E53935" style="font-weight:bold">Abfahrten</tspan> pro Stunde
             </text>
 
 
@@ -661,7 +661,7 @@
                 <text x="200" y="0" data-from="25 20 keepzoom" style="text-anchor: middle;font-size:12px;visibility:hidden">Veränderung der kumulierten Reisezeit aller Fahrgäste auf der Relation</text>
 
 
-                <text x="90" y="50" data-from="25 1 keepzoom">Stuttgart Hbf – Ulm Hbf</text>
+                <text x="90" y="50" data-from="25 1 keepzoom">Stuttgart Hbf – Ulm</text>
                 <path d="M 200,50 h -16" data-line="tt" data-from="25 1 keepzoom" class="decrease" />
                 <path d="M 184,50 h -80" data-line="tt" data-from="25 1 keepzoom" data-to="25 10 keepzoom" class="decrease" />
                 <text class="path-inset" x="210" y="50" data-from="25 1 keepzoom" data-to="25 10 keepzoom">-24</text>
@@ -672,15 +672,15 @@
                 <path d="M 129,75 h -5" data-line="tt" data-from="25 1 keepzoom" data-to="25 20 keepzoom" class="decrease" />
                 <text class="path-inset" x="210" y="75" data-from="25 1 keepzoom" data-to="25 20 keepzoom">-19</text>
 
-                <text x="90" y="100" data-from="25 1 keepzoom">Stuttgart Hbf – Nürtingen Hbf</text>
+                <text x="90" y="100" data-from="25 1 keepzoom">Stuttgart Hbf – Nürtingen</text>
                 <path d="M 200,100 h -47" data-line="tt" data-from="25 1 keepzoom" class="decrease" />
                 <path d="M 153,100 h -13" data-line="tt" data-from="25 1 keepzoom" data-to="25 20 keepzoom" class="decrease" />
                 <text class="path-inset" x="210" y="100" data-from="25 1 keepzoom" data-to="25 20 keepzoom">-15</text>
 
-                <text x="90" y="125" data-from="25 1 keepzoom">Tübingen – Schorndorf</text>
-                <path d="M 200,125 h -1" data-line="tt" data-from="25 1 keepzoom" class="decrease" />
-                <path d="M 201,125 h -59" data-line="tt" data-from="25 1 keepzoom" data-to="25 20 keepzoom" class="decrease" />
-                <text class="path-inset" x="210" y="125" data-from="25 1 keepzoom" data-to="25 20 keepzoom">-15</text>
+                <text x="90" y="125" data-from="25 1 keepzoom">Ludwigsburg – Esslingen</text>
+                <path d="M 200,125 h -7" data-line="tt" data-from="25 1 keepzoom" class="decrease" />
+                <path d="M 193,125 h -41" data-line="tt" data-from="25 1 keepzoom" data-to="25 20 keepzoom" class="decrease" />
+                <text class="path-inset" x="210" y="125" data-from="25 1 keepzoom" data-to="25 20 keepzoom">-12</text>
 
                 <text x="90" y="150" data-from="25 5 keepzoom">Stuttgart Hbf – Bad Cannstatt</text>
                 <path d="M 200,150 h 4" data-line="tt" data-from="25 5 keepzoom" />
@@ -820,13 +820,19 @@
             <rect x="2690219" y="1762363" class="helper dummy" width="1000" height="1000" data-from="0 5" data-to="1 100 keepzoom" />
             <text class="dummy helper" data-from="0 10 keepzoom" data-to="0 10 keepzoom" ></text>
 
+       
+
             <text x="2690655" y="1762987" data-from="0 1" data-to="1 100 keepzoom" class="shadow">Stuttgart Hbf</text>
+            <text x="2690655" y="1762987" data-from="80 1" data-to="80 100 keepzoom" class="shadow">Stuttgart Hbf</text>
             <text x="2690439" y="1762363" data-from="1 2 keepzoom" data-to="1 100 keepzoom" class="shadow">Feuerbach</text>
+            <text x="2690439" y="1762363" data-from="80 1 keepzoom" data-to="80 100 keepzoom" class="shadow">Feuerbach</text>
+            <text x="2690439" y="1762063" data-from="80 1 keepzoom" data-to="80 100 keepzoom" class="shadow">Zuffenhausen</text>
             <text x="2690971" y="1762567" data-from="1 7 keepzoom" data-to="1 100 keepzoom" class="shadow">Bad Cannstatt</text>
             <text x="2691579" y="1763090" data-from="1 10 keepzoom" data-to="1 100 keepzoom" class="shadow">Untertürkheim</text>
             <text x="2690916" y="1765002" data-from="1 17 keepzoom" data-to="1 100 keepzoom" class="shadow">Flughafen/Messe</text>
+            <text x="2690916" y="1765002" data-from="80 1 keepzoom" data-to="80 100 keepzoom" class="shadow">Flughafen/Messe</text>
             <text x="2693262" y="1765473" data-from="1 23 keepzoom" data-to="1 100 keepzoom" class="shadow">Wendlingen</text>
-            <text x="2702068" y="1771093" class="shadow" style="font-size:80px">Ulm</text>
+            <text x="2702068" y="1771093" class="shadow" style="font-size:160px">Ulm</text>
         </g>
     </g>
 
@@ -849,6 +855,10 @@
 
     <text x="2727600" y="1782900" data-inset="stgt" data-from="1 0 keepzoom" data-to="1 100 keepzoom" class="shadow caption">Orthofoto: Geobasisdaten ©LGL, www.lgl-bw.de. DL-DE-BY 2.0. Relief: maps-for-free.com. CC0. Relief/Pfade: © OpenStreetMap Contributors</text>
     <text x="2727600" y="1782900" data-inset="stgt" data-from="30 0 keepzoom" data-to="30 41 keepzoom" class="shadow caption">Quelle: #3, #4</text>
+
+    <text x="2662352" y="1747282" data-from="0 1 keepzoom" data-to="1 100 keepzoom" class="shadow" transform="rotate(45 2662352 1747282)" style="font-size:1000px;">⇦ Mannheim</text>
+    <text x="2662352" y="1782654" data-from="0 1 keepzoom" data-to="1 100 keepzoom" class="shadow" transform="rotate(-45 2662352 1782654)" style="font-size:1000px;">⇦ Zürich</text>
+          
 
     <rect id="epoch-label-bg" x="2719989" y="1747917" width="6245" height="3123" data-from="70 0 nozoom" data-to="70 120" />
     <text id="custom-epoch-label" x="2723112" y="1749652" data-from="70 0 nozoom" data-to="70 120"></text>

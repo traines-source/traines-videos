@@ -132,6 +132,11 @@ svg {
     stroke: #E53935;
 }
 
+#geo_intro path.custom-proposed {
+    stroke: #E57373;
+    visibility: hidden;
+}
+
 #gravity path {
     stroke: black;
     stroke-width: 10;
