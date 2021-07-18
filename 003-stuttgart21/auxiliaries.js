@@ -65,19 +65,19 @@ function getLineProperties(feature) {
         return ['existing', '', '', 0];
     }
     if (feature.properties['name'] != undefined && feature.properties['name'].includes('erg-')) {
-        return ['erg custom-proposed', 'n', '80 30', 100];
+        return ['erg custom-proposed', 'n', '80 45', 100];
     }
     if (feature.properties['name'] != undefined && feature.properties['name'].includes('nordzulauf-')) {
-        return ['nordzulauf custom-proposed', 'n', '80 5', 200];
+        return ['nordzulauf custom-proposed', 'n', '80 8', 200];
     }
     if (feature.properties['name'] != undefined && feature.properties['name'].includes('gautunnel-')) {
-        return ['gautunnel custom-proposed', 'w', '80 20', 200];
+        return ['gautunnel custom-proposed', 'w', '80 28', 200];
     }
     if (feature.properties['name'] != undefined && feature.properties['name'].includes('poption-')) {
         return ['poption custom-proposed', 'n', '80 1', 100];
     }
     if (insideRectangle(feature.geometry.coordinates[0], [9.101692, 48.714558], [9.129658,  48.705414])) {
-        return ['rohrerkurve custom-proposed', 'w', '80 15', 100];
+        return ['rohrerkurve custom-proposed', 'w', '80 25', 100];
     }
     if (insideRectangle(feature.geometry.coordinates[0], [9.36824, 48.66841], [10.0614, 48.3606])) {
         return ['nbs', 'nw', '1 25', 1000];

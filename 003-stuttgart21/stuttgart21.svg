@@ -99,7 +99,7 @@
 <rect x="2661352" y="1746182" width="100%" height="100%" fill="#f2f2f2"/>
 <g id="zoomable">
     <g id="elements">
-        <g id="gleisplan" transform="translate(2679000, 1752000) scale(20)" data-from="70 0 noanim" class="toplevel">
+        <g id="gleisplan" transform="translate(2678000, 1752000) scale(20)" data-from="70 0 noanim" class="toplevel">
             <path data-line="sn" data-stops="+0 TSn4            +0 TS8a +0 TS8b +0 TS8c             +0 TSs4" data-from="70 0 noanim" />
             <path data-line="sn" data-stops="+0 TSn4 +0 TSnh2   +0 TS7a +0 TS7b +0 TS7c +0 TSsh2    +0 TSs4" data-from="70 0 noanim" />
             <path data-line="sn" data-stops="+0 TSn4            +0 TS6a +0 TS6b +0 TS6c             +0 TSs4" data-from="70 0 noanim" />
@@ -419,7 +419,7 @@
         </g>
         <rect x="2694660.5" y="1746182" width="50%" height="100%" fill="#f2f2f2"/>
 
-        <g id="tunnels" transform="translate(2670000, 1773000) scale(10)" data-from="40 1 noanim" class="toplevel">
+        <g id="tunnels" transform="translate(2662000, 1771000) scale(15)" data-from="40 1 noanim" class="toplevel">
             <text x="915" y="600">Stuttgart 21 Verengter Tunnelquerschnitt</text>
             <text x="1240" y="600">Beispiel Normaler Tunnelquerschnitt</text>
             <text x="1240" y="625">(Albabstiegstunnel)</text>
@@ -566,7 +566,7 @@
             <text x="190" y="-30" style="text-anchor: middle;font-size:20px;">Die Leistungsfähigkeit von Stuttgart 21</text>
             <text x="270" y="20" style="text-anchor: middle;font-size:12px;" data-from="60 7 keepzoom">
                 <tspan fill="#B71C1C" style="font-weight:bold">Ankünfte</tspan>
-                <tspan fill="#E53935" style="font-weight:bold">Abfahrten</tspan> pro Stunde
+                <tspan fill="#546E7A" style="font-weight:bold">Abfahrten</tspan> pro Stunde
             </text>
 
 
@@ -611,7 +611,7 @@
 
         <g id="risk" transform="translate(2710000, 1773000) scale(20)" data-from="30 1 noanim-nozoom" class="toplevel">
             <g data-from="30 29 noanim">
-            <g data-from="30 1 noanim" data-to="30 35 noanim">
+            <g data-from="30 1 noanim">
                 <text x="250" y="-30" data-to="30 40 keepzoom" style="text-anchor: middle;font-size:20px;">Stuttgart 21-Tunnel sind die »gefährlichsten Tunnelneubauten weltweit«</text>
                 <text x="250" y="0" style="text-anchor: middle;font-size:12px;">Kombiniertes Risiko im Brandfall: Freier Tunnelquerschnitt, Gefälle, Rettungswegbreite, Abstand der Querschläge, zu evakuierende Personenzahl</text>
 
@@ -654,8 +654,8 @@
             </g>
         </g>
 
-        <g id="tt" transform="translate(2710000, 1773000) scale(20)" data-from="25 1 noanim-nozoom" class="toplevel">
-            <g data-from="25 1 noanim" data-to="25 35 noanim">
+        <g id="tt" transform="translate(2714531, 1762241) scale(20)" data-from="25 1 noanim-nozoom" class="toplevel">
+            <g data-from="25 1 noanim">
                 <text x="200" y="-30" style="text-anchor: middle;font-size:20px;">Reisezeitverkürzungen durch Stuttgart 21</text>
                 <text x="200" y="0" data-to="25 20 keepzoom" style="text-anchor: middle;font-size:12px;">Veränderung in Minuten</text>
                 <text x="200" y="0" data-from="25 20 keepzoom" style="text-anchor: middle;font-size:12px;visibility:hidden">Veränderung der kumulierten Reisezeit aller Fahrgäste auf der Relation</text>
@@ -823,14 +823,16 @@
        
 
             <text x="2690655" y="1762987" data-from="0 1" data-to="1 100 keepzoom" class="shadow">Stuttgart Hbf</text>
-            <text x="2690655" y="1762987" data-from="80 1" data-to="80 100 keepzoom" class="shadow">Stuttgart Hbf</text>
+            <text x="2690655" y="1762987" data-from="80 1" data-to="80 60 keepzoom" class="shadow">Stuttgart Hbf</text>
             <text x="2690439" y="1762363" data-from="1 2 keepzoom" data-to="1 100 keepzoom" class="shadow">Feuerbach</text>
-            <text x="2690439" y="1762363" data-from="80 1 keepzoom" data-to="80 100 keepzoom" class="shadow">Feuerbach</text>
-            <text x="2690439" y="1762063" data-from="80 1 keepzoom" data-to="80 100 keepzoom" class="shadow">Zuffenhausen</text>
+            <text x="2690439" y="1762363" data-from="80 1 keepzoom" data-to="80 60 keepzoom" class="shadow">Feuerbach</text>
+            <text x="2690439" y="1762063" data-from="80 1 keepzoom" data-to="80 60 keepzoom" class="shadow">Zuffenhausen</text>
             <text x="2690971" y="1762567" data-from="1 7 keepzoom" data-to="1 100 keepzoom" class="shadow">Bad Cannstatt</text>
+            <text x="2690971" y="1762567" data-from="80 1 keepzoom" data-to="80 60 keepzoom" class="shadow">Bad Cannstatt</text>
             <text x="2691579" y="1763090" data-from="1 10 keepzoom" data-to="1 100 keepzoom" class="shadow">Untertürkheim</text>
             <text x="2690916" y="1765002" data-from="1 17 keepzoom" data-to="1 100 keepzoom" class="shadow">Flughafen/Messe</text>
-            <text x="2690916" y="1765002" data-from="80 1 keepzoom" data-to="80 100 keepzoom" class="shadow">Flughafen/Messe</text>
+            <text x="2690916" y="1765002" data-from="80 1 keepzoom" data-to="80 60 keepzoom" class="shadow">Flughafen/Messe</text>
+            <text x="2688516" y="1765002" data-from="80 1 keepzoom" data-to="80 60 keepzoom" class="shadow">Böblingen</text>
             <text x="2693262" y="1765473" data-from="1 23 keepzoom" data-to="1 100 keepzoom" class="shadow">Wendlingen</text>
             <text x="2702068" y="1771093" class="shadow" style="font-size:160px">Ulm</text>
         </g>
@@ -853,12 +855,16 @@
     <text x="2727600" y="1782900" data-inset="querneigung" data-from="50 10 keepzoom" data-to="50 20 keepzoom" class="shadow caption">Bahnsteig Stuttgart Hbf. Traines. CC-BY-SA 4.0.</text>
 
 
-    <text x="2727600" y="1782900" data-inset="stgt" data-from="1 0 keepzoom" data-to="1 100 keepzoom" class="shadow caption">Orthofoto: Geobasisdaten ©LGL, www.lgl-bw.de. DL-DE-BY 2.0. Relief: maps-for-free.com. CC0. Relief/Pfade: © OpenStreetMap Contributors</text>
+    <text x="2727600" y="1782900" data-inset="stgt" data-from="0 1 keepzoom" data-to="1 100 keepzoom" class="shadow caption">Orthofoto: Geobasisdaten ©LGL, www.lgl-bw.de. DL-DE-BY 2.0. Relief: maps-for-free.com. CC0. Relief/Pfade: © OpenStreetMap Contributors</text>
     <text x="2727600" y="1782900" data-inset="stgt" data-from="30 0 keepzoom" data-to="30 41 keepzoom" class="shadow caption">Quelle: #3, #4</text>
 
-    <text x="2662352" y="1747282" data-from="0 1 keepzoom" data-to="1 100 keepzoom" class="shadow" transform="rotate(45 2662352 1747282)" style="font-size:1000px;">⇦ Mannheim</text>
-    <text x="2662352" y="1782654" data-from="0 1 keepzoom" data-to="1 100 keepzoom" class="shadow" transform="rotate(-45 2662352 1782654)" style="font-size:1000px;">⇦ Zürich</text>
-          
+    <text x="2662352" y="1747282" data-from="0 5 keepzoom" data-to="1 20 keepzoom" class="shadow corner-text" transform="rotate(45 2662352 1747282)">⇦ Mannheim</text>
+    <text x="2662352" y="1747282" data-from="80 1 keepzoom" data-to="80 60 keepzoom" class="shadow corner-text" transform="rotate(45 2662352 1747282)">⇦ Mannheim</text>
+    <text x="2662352" y="1782654" data-from="0 5 keepzoom" data-to="1 20 keepzoom" class="shadow corner-text" transform="rotate(-45 2662352 1782654)">⇦ Zürich</text>
+    <text x="2662352" y="1782654" data-from="80 1 keepzoom" data-to="80 60 keepzoom" class="shadow corner-text" transform="rotate(-45 2662352 1782654)">⇦ Zürich</text>
+
+    <g class="dummy" data-from="80 61 noanim-nozoom"></g>
+
 
     <rect id="epoch-label-bg" x="2719989" y="1747917" width="6245" height="3123" data-from="70 0 nozoom" data-to="70 120" />
     <text id="custom-epoch-label" x="2723112" y="1749652" data-from="70 0 nozoom" data-to="70 120"></text>

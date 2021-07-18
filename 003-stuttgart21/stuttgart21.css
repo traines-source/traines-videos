@@ -16,7 +16,7 @@ image.cover {
 }
 
 rect.station {
-    stroke: black;
+    stroke: #263238;
     fill: white;
     rx: 5;
     stroke-width: 2;
@@ -28,7 +28,7 @@ rect.station {
 }
 
 path {
-    stroke: black;
+    stroke: #263238;
     fill: none;
     /*stroke-linecap: round;*/
     stroke-linejoin: round;
@@ -138,7 +138,7 @@ svg {
 }
 
 #gravity path {
-    stroke: black;
+    stroke: #263238;
     stroke-width: 10;
     fill: none;
     stroke-linejoin: round;
@@ -181,6 +181,10 @@ text.shadow {
     visibility: hidden;
     fill: white;
     text-shadow: 1px 1px 2px black;
+}
+text.corner-text {
+    font-size: 1000px;
+    dominant-baseline: middle;
 }
 
 .for-line {
@@ -231,7 +235,7 @@ text.shadow {
 }
 
 #tph path.departure {
-    stroke: #E53935;
+    stroke: #546E7A;
 }
 
 #tt path.decrease {
