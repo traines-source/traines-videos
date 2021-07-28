@@ -301,6 +301,10 @@ text.corner-text {
 .toplevel {
     opacity: 0;
 }
+
+text.heading {
+    text-anchor: middle !important;font-size:20px;font-weight: bold;
+}
 /*
 #epoch-label, #epoch-label-bg, text, foreignObject {
     display: none !important;

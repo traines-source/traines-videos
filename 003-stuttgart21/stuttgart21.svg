@@ -100,6 +100,8 @@
 <g id="zoomable">
     <g id="elements">
         <g id="gleisplan" transform="translate(2678000, 1752000) scale(20)" data-from="70 0 noanim" class="toplevel">
+            <rect x="-200" y="-200" width="400" height="400" data-from="70 1 noanim" data-to="70 120 noanim" class="helper" />
+
             <path data-line="sn" data-stops="+0 TSn4            +0 TS8a +0 TS8b +0 TS8c             +0 TSs4" data-from="70 0 noanim" />
             <path data-line="sn" data-stops="+0 TSn4 +0 TSnh2   +0 TS7a +0 TS7b +0 TS7c +0 TSsh2    +0 TSs4" data-from="70 0 noanim" />
             <path data-line="sn" data-stops="+0 TSn4            +0 TS6a +0 TS6b +0 TS6c             +0 TSs4" data-from="70 0 noanim" />
@@ -419,11 +421,11 @@
         </g>
         <rect x="2694660.5" y="1746182" width="50%" height="100%" fill="#f2f2f2"/>
 
-        <g id="tunnels" transform="translate(2662000, 1771000) scale(15)" data-from="40 1 noanim" class="toplevel">
+        <g id="tunnels" transform="translate(2662000, 1771000) scale(15)" data-from="40 10 noanim-nozoom" class="toplevel">
+            <rect x="590" y="300" width="975" height="300" data-from="40 21 noanim" data-to="40 31 noanim" class="helper" />
             <text x="915" y="600">Stuttgart 21 Verengter Tunnelquerschnitt</text>
             <text x="1240" y="600">Beispiel Normaler Tunnelquerschnitt</text>
             <text x="1240" y="625">(Albabstiegstunnel)</text>
-            <g class="dummy" data-from="40 10 noanim-nozoom"></g>
             <g transform="scale(8)">
             <circle
                 r="12.038542"
@@ -563,7 +565,7 @@
         </g>
 
         <g id="tph" transform="translate(2670000, 1764000) scale(20)" data-from="60 1 noanim" class="toplevel">
-            <text x="190" y="-30" style="text-anchor: middle;font-size:20px;">Die Leistungsfähigkeit von Stuttgart 21</text>
+            <text x="190" y="-30" class="heading">Die Leistungsfähigkeit von Stuttgart 21</text>
             <text x="270" y="20" style="text-anchor: middle;font-size:12px;" data-from="60 7 keepzoom">
                 <tspan fill="#B71C1C" style="font-weight:bold">Ankünfte</tspan>
                 <tspan fill="#546E7A" style="font-weight:bold">Abfahrten</tspan> pro Stunde
@@ -582,7 +584,7 @@
             <text class="path-inset" x="216" y="75" data-from="60 15 keepzoom">33</text>
             <text class="path-inset" x="247" y="75" data-from="60 15 keepzoom">28</text>
 
-            <text x="180" y="100" data-from="60 1 keepzoom">S21 ursp. Planung</text>
+            <text x="180" y="100" data-from="60 1 keepzoom">S21 ursprüngliche Planung</text>
             <path d="M 200,100 h 32" data-line="cap" data-from="60 1 keepzoom" />
             <path d="M 232,100 h 32" data-line="cap" class="departure" data-from="60 10 keepzoom" />
             <text class="path-inset" x="216" y="100" data-from="60 1 keepzoom">32</text>
@@ -609,102 +611,103 @@
             <g class="dummy" data-from="60 50 keepzoom"></g>
         </g>
 
-        <g id="risk" transform="translate(2710000, 1773000) scale(20)" data-from="30 1 noanim-nozoom" class="toplevel">
-            <g data-from="30 29 noanim">
-            <g data-from="30 1 noanim">
-                <text x="250" y="-30" data-to="30 40 keepzoom" style="text-anchor: middle;font-size:20px;">Stuttgart 21-Tunnel sind die »gefährlichsten Tunnelneubauten weltweit«</text>
+        <g id="risk" transform="translate(2710000, 1773000) scale(20)" data-from="30 0 noanim-keepzoom" class="toplevel">
+            <g data-from="30 50 noanim">
+            <g data-from="30 1 noanim-nozoom">
+                <rect x="0" y="-100" width="500" height="500" data-from="30 1 noanim" data-to="30 56 noanim" class="helper" />
+
+                <text x="250" y="-30" data-to="30 60 keepzoom" class="heading">Stuttgart 21-Tunnel sind die »gefährlichsten Tunnelneubauten weltweit«</text>
                 <text x="250" y="0" style="text-anchor: middle;font-size:12px;">Kombiniertes Risiko im Brandfall: Freier Tunnelquerschnitt, Gefälle, Rettungswegbreite, Abstand der Querschläge, zu evakuierende Personenzahl</text>
 
 
-                <text x="180" y="50" data-from="30 1">Perthustunnel (FR/ES)</text>
-                <path d="M 200,50 h 7" data-line="risk" data-from="30 1" />
+                <text x="180" y="50" data-from="30 1 keepzoom">Perthustunnel (FR/ES)</text>
+                <path d="M 200,50 h 7" data-line="risk" data-from="30 1 keepzoom" />
 
-                <text x="180" y="75" data-from="30 1">Lötschberg-Basistunnel (CH)</text>
-                <path d="M 200,75 h 15" data-line="risk" data-from="30 1" />
+                <text x="180" y="75" data-from="30 1 keepzoom">Lötschberg-Basistunnel (CH)</text>
+                <path d="M 200,75 h 15" data-line="risk" data-from="30 1 keepzoom" />
 
-                <text x="180" y="100" data-from="30 1">Katzenbergtunnel (DE)</text>
-                <path d="M 200,100 h 17" data-line="risk" data-from="30 1" />
+                <text x="180" y="100" data-from="30 1 keepzoom">Katzenbergtunnel (DE)</text>
+                <path d="M 200,100 h 17" data-line="risk" data-from="30 1 keepzoom" />
 
-                <text x="180" y="125" data-from="30 1">Wienerwaldtunnel (AT)</text>
-                <path d="M 200,125 h 22" data-line="risk" data-from="30 1" />
+                <text x="180" y="125" data-from="30 1 keepzoom">Wienerwaldtunnel (AT)</text>
+                <path d="M 200,125 h 22" data-line="risk" data-from="30 1 keepzoom" />
 
-                <text x="180" y="150" data-from="30 1">Brenner-Basistunnel (AT/IT)</text>
-                <path d="M 200,150 h 28" data-line="risk" data-from="30 1" />
+                <text x="180" y="150" data-from="30 1 keepzoom">Brenner-Basistunnel (AT/IT)</text>
+                <path d="M 200,150 h 28" data-line="risk" data-from="30 1 keepzoom" />
 
-                <text x="180" y="175" data-from="30 1">NBS Wendlingen-Ulm (DE)</text>
-                <path d="M 200,175 h 47" data-line="risk" data-from="30 1" />
+                <text x="180" y="175" data-from="30 1 keepzoom">NBS Wendlingen-Ulm (DE)</text>
+                <path d="M 200,175 h 47" data-line="risk" data-from="30 1 keepzoom" />
 
-                <text x="180" y="200" data-from="30 1" style="font-weight: bold">Stuttgart 21 (DE)</text>
-                <path d="M 200,200 h 143" data-line="risk" data-from="30 1" />
+                <text x="180" y="200" data-from="30 1 keepzoom" style="font-weight: bold">Stuttgart 21 (DE)</text>
+                <path d="M 200,200 h 143" data-line="risk" data-from="30 1 keepzoom" />
 
-                <text x="180" y="225" data-from="30 10 keepzoom">Schulwaldtunnel, SFS KRM (DE)</text>
-                <path d="M 200,225 h 144" data-line="risk" data-from="30 10 keepzoom" />
+                <text x="180" y="225" data-from="30 25 keepzoom">Schulwaldtunnel, SFS KRM (DE)</text>
+                <path d="M 200,225 h 144" data-line="risk" data-from="30 25 keepzoom" />
 
-                <text x="180" y="250" data-from="30 14 keepzoom">Grand Paris Express (FR)</text>
-                <path d="M 200,250 h 212" data-line="risk" data-from="30 14 keepzoom" />
+                <text x="180" y="250" data-from="30 31 keepzoom">Grand Paris Express (FR)</text>
+                <path d="M 200,250 h 212" data-line="risk" data-from="30 31 keepzoom" />
 
-                <text x="180" y="275" data-from="30 18 keepzoom">Crossrail London (UK)</text>
-                <path d="M 200,275 h 305" data-line="risk" data-from="30 18 keepzoom" />
+                <text x="180" y="275" data-from="30 37 keepzoom">Crossrail London (UK)</text>
+                <path d="M 200,275 h 305" data-line="risk" data-from="30 37 keepzoom" />
 
-                <g class="dummy" data-from="30 45 noanim-keepzoom"></g>
+                <g class="dummy" data-from="30 75 noanim-keepzoom"></g>
             </g>
 
-            <text x="180" y="300" data-from="30 22 keepzoom" data-to="30 35 nozoom">Gotthard-Scheiteltunnel (CH)</text>
-            <path d="M 200,300 h 2078" data-line="risk" data-from="30 22 keepzoom" data-to="30 35 noanim-nozoom" data-speed="200" />
+            <text x="180" y="300" data-from="30 43 keepzoom" data-to="30 56 nozoom">Gotthard-Scheiteltunnel (CH)</text>
+            <path d="M 200,300 h 2078" data-line="risk" data-from="30 43 keepzoom" data-to="30 56 noanim-nozoom" data-speed="200" />
             </g>
         </g>
 
-        <g id="tt" transform="translate(2714531, 1762241) scale(20)" data-from="25 1 noanim-nozoom" class="toplevel">
-            <g data-from="25 1 noanim">
-                <text x="200" y="-30" style="text-anchor: middle;font-size:20px;">Reisezeitverkürzungen durch Stuttgart 21</text>
-                <text x="200" y="0" data-to="25 20 keepzoom" style="text-anchor: middle;font-size:12px;">Veränderung in Minuten</text>
-                <text x="200" y="0" data-from="25 20 keepzoom" style="text-anchor: middle;font-size:12px;visibility:hidden">Veränderung der kumulierten Reisezeit aller Fahrgäste auf der Relation</text>
+        <g id="tt" transform="translate(2714531, 1762241) scale(20)" data-from="25 0 noanim-keepzoom" class="toplevel">
+            <g data-from="25 1 noanim-keepzoom">
+                <rect x="-50" y="-100" width="500" height="400" data-from="25 1 noanim" data-to="25 40 noanim" class="helper" />
+                <text x="200" y="-30" class="heading">Reisezeitverkürzungen durch Stuttgart 21</text>
+                <text x="200" y="0" data-to="25 30 keepzoom" style="text-anchor: middle;font-size:12px;">Veränderung in Minuten</text>
+                <text x="200" y="0" data-from="25 30 keepzoom" style="text-anchor: middle;font-size:12px;visibility:hidden">Veränderung der kumulierten Reisezeit aller Fahrgäste auf der Relation</text>
 
 
                 <text x="90" y="50" data-from="25 1 keepzoom">Stuttgart Hbf – Ulm</text>
                 <path d="M 200,50 h -16" data-line="tt" data-from="25 1 keepzoom" class="decrease" />
-                <path d="M 184,50 h -80" data-line="tt" data-from="25 1 keepzoom" data-to="25 10 keepzoom" class="decrease" />
-                <text class="path-inset" x="210" y="50" data-from="25 1 keepzoom" data-to="25 10 keepzoom">-24</text>
-                <text class="path-inset" x="210" y="50" data-from="25 10 keepzoom" data-to="25 20 keepzoom">-4</text>
+                <path d="M 184,50 h -80" data-line="tt" data-from="25 1 keepzoom" data-to="25 15 keepzoom" class="decrease" />
+                <text class="path-inset" x="210" y="50" data-from="25 1 keepzoom" data-to="25 15 keepzoom">-24</text>
+                <text class="path-inset" x="210" y="50" data-from="25 15 keepzoom" data-to="25 30 keepzoom">-4</text>
 
                 <text x="90" y="75" data-from="25 1 keepzoom">Stuttgart Hbf – Flughafen</text>
                 <path d="M 200,75 h -71" data-line="tt" data-from="25 1 keepzoom" class="decrease" />
-                <path d="M 129,75 h -5" data-line="tt" data-from="25 1 keepzoom" data-to="25 20 keepzoom" class="decrease" />
-                <text class="path-inset" x="210" y="75" data-from="25 1 keepzoom" data-to="25 20 keepzoom">-19</text>
+                <path d="M 129,75 h -5" data-line="tt" data-from="25 1 keepzoom" data-to="25 30 keepzoom" class="decrease" />
+                <text class="path-inset" x="210" y="75" data-from="25 1 keepzoom" data-to="25 30 keepzoom">-19</text>
 
                 <text x="90" y="100" data-from="25 1 keepzoom">Stuttgart Hbf – Nürtingen</text>
                 <path d="M 200,100 h -47" data-line="tt" data-from="25 1 keepzoom" class="decrease" />
-                <path d="M 153,100 h -13" data-line="tt" data-from="25 1 keepzoom" data-to="25 20 keepzoom" class="decrease" />
-                <text class="path-inset" x="210" y="100" data-from="25 1 keepzoom" data-to="25 20 keepzoom">-15</text>
+                <path d="M 153,100 h -13" data-line="tt" data-from="25 1 keepzoom" data-to="25 30 keepzoom" class="decrease" />
+                <text class="path-inset" x="210" y="100" data-from="25 1 keepzoom" data-to="25 30 keepzoom">-15</text>
 
                 <text x="90" y="125" data-from="25 1 keepzoom">Ludwigsburg – Esslingen</text>
                 <path d="M 200,125 h -7" data-line="tt" data-from="25 1 keepzoom" class="decrease" />
-                <path d="M 193,125 h -41" data-line="tt" data-from="25 1 keepzoom" data-to="25 20 keepzoom" class="decrease" />
-                <text class="path-inset" x="210" y="125" data-from="25 1 keepzoom" data-to="25 20 keepzoom">-12</text>
+                <path d="M 193,125 h -41" data-line="tt" data-from="25 1 keepzoom" data-to="25 30 keepzoom" class="decrease" />
+                <text class="path-inset" x="210" y="125" data-from="25 1 keepzoom" data-to="25 30 keepzoom">-12</text>
 
-                <text x="90" y="150" data-from="25 5 keepzoom">Stuttgart Hbf – Bad Cannstatt</text>
-                <path d="M 200,150 h 4" data-line="tt" data-from="25 5 keepzoom" />
-                <path d="M 204,150 h 11" data-line="tt" data-from="25 20 keepzoom"/>
-                <text class="path-inset left" x="190" y="150" data-from="25 5 keepzoom" data-to="25 20 keepzoom">+1</text>
+                <text x="90" y="150" data-from="25 22 keepzoom">Stuttgart Hbf – Bad Cannstatt</text>
+                <path d="M 200,150 h 4" data-line="tt" data-from="25 22 keepzoom" />
+                <path d="M 204,150 h 11" data-line="tt" data-from="25 30 keepzoom"/>
+                <text class="path-inset left" x="190" y="150" data-from="25 22 keepzoom" data-to="25 30 keepzoom">+1</text>
 
-                <text x="90" y="175" data-from="25 5 keepzoom">Stuttgart Hbf – Feuerbach</text>
-                <path d="M 200,175 h 8" data-line="tt" data-from="25 5 keepzoom" />
-                <path d="M 208,175 h 22" data-line="tt" data-from="25 20 keepzoom"/>
-                <text class="path-inset left" x="190" y="175" data-from="25 5 keepzoom" data-to="25 20 keepzoom">+2</text>
+                <text x="90" y="175" data-from="25 22 keepzoom">Stuttgart Hbf – Feuerbach</text>
+                <path d="M 200,175 h 8" data-line="tt" data-from="25 22 keepzoom" />
+                <path d="M 208,175 h 22" data-line="tt" data-from="25 30 keepzoom"/>
+                <text class="path-inset left" x="190" y="175" data-from="25 22 keepzoom" data-to="25 30 keepzoom">+2</text>
 
-                <text x="90" y="200" data-from="25 5 keepzoom">Plochingen – Bad Cannstatt</text>
-                <path d="M 200,200 h 1" data-line="tt" data-from="25 5 keepzoom" />
-                <path d="M 201,200 h 35" data-line="tt" data-from="25 5 keepzoom" data-to="25 20 keepzoom"/>
-                <text class="path-inset left" x="190" y="200" data-from="25 5 keepzoom" data-to="25 20 keepzoom">+9</text>
-
-                <g class="dummy" data-from="25 45 noanim-keepzoom"></g>
+                <text x="90" y="200" data-from="25 22 keepzoom">Plochingen – Bad Cannstatt</text>
+                <path d="M 200,200 h 1" data-line="tt" data-from="25 22 keepzoom" />
+                <path d="M 201,200 h 35" data-line="tt" data-from="25 22 keepzoom" data-to="25 30 keepzoom"/>
+                <text class="path-inset left" x="190" y="200" data-from="25 22 keepzoom" data-to="25 30 keepzoom">+9</text>
             </g>
             
         </g>
 
         <g id="gravity" transform="translate(-2665433.5070036715 -1775162.4563828395) scale(20)" data-from="20 0 noanim-nozoom" class="toplevel">
             <!--269384 176635-->
-            <rect x="268718" y="176012" width="716" height="673" class="dummy helper" data-from="20 1 noanim" />
+            <rect x="268718" y="176012" width="716" height="673" class="dummy helper" data-from="20 1 noanim" data-to="20 50 noanim" />
             <path data-line="TS_TLU" class="10" data-stops="+0 gTS +0 gTLU" data-from="20 1 noanim-keepzoom" data-to="20 10 noanim-keepzoom" data-beck-style="false" />
             <path data-line="TS_TLU" class="10" data-stops="+0 gTS +0 gTLU" data-weight="10" data-from="20 10 noanim-keepzoom" data-to="20 30 noanim-keepzoom" data-beck-style="false" />
             <path data-line="TS_TLU" class="13" data-stops="+0 gTS +0 gTLU" data-weight="7" data-from="20 30 noanim-keepzoom" data-beck-style="false" />
@@ -821,8 +824,6 @@
             <text data-station="gTV"  >Vaihingen(Enz)</text>
             <text data-station="gTS"  >Stuttgart</text>
 
-            <g class="dummy" data-from="20 50"></g>
-
 
         </g>
 
@@ -862,8 +863,8 @@
 
 
     <g id="neigung">
-        <rect x="2661352" y="1746182" width="100%" height="100%" fill="#f2f2f2" style="visibility:hidden" data-from="50 1 noanim-nozoom" data-to="50 10 noanim-nozoom"/>
-        <path d="M 2661352,1783654 v -18736 l 66617,999.255 L 2727969,1783654 Z" style="fill: #cd1719; stroke: none;visibility:hidden" data-from="50 1 noanim-nozoom" data-to="50 10 noanim-nozoom"/>
+        <rect x="2661352" y="1746182" width="100%" height="100%" fill="#f2f2f2" style="visibility:hidden" data-from="50 5 noanim-nozoom" data-to="50 25 noanim-nozoom"/>
+        <path d="M 2661352,1783654 v -18736 l 66617,999.255 L 2727969,1783654 Z" style="fill: #cd1719; stroke: none;visibility:hidden" data-from="50 5 noanim-nozoom" data-to="50 25 noanim-nozoom"/>
     </g>
 
 
@@ -877,11 +878,31 @@
     <text x="2727600" y="1782900" data-inset="immobilien" data-from="1 75 keepzoom" data-to="1 85 keepzoom" class="shadow caption">Stuttgart Hbf von oben. Traines. CC-BY-SA 4.0.</text>
 
 
-    <image id="anhydrit" href="res/(2015-12-19)_ANHYDRIT_07_PWA-S.jpg" preserveAspectRatio="xMidYMid slice" class="cover" data-from="40 10 keepzoom" data-to="40 20 keepzoom" data-zoom="55 55" />
-    <text x="2727600" y="1782900" data-inset="anhydrit" data-from="40 10 keepzoom" data-to="40 20 keepzoom" class="shadow caption">Teil einer Anhydritrosette. Hans-Joachim Engelhardt. CC-BY-SA 4.0.</text>
+    <image id="anhydrit" href="res/(2015-12-19)_ANHYDRIT_07_PWA-S.jpg" preserveAspectRatio="xMidYMid slice" class="cover" data-from="40 7 keepzoom" data-to="40 15 keepzoom" data-zoom="55 55" />
+    <text x="2727600" y="1782900" data-inset="anhydrit" data-from="40 6 keepzoom" data-to="40 15 keepzoom" class="shadow caption">Teil einer Anhydritrosette. Hans-Joachim Engelhardt. CC-BY-SA 4.0.</text>
 
-    <image id="querneigung" href="res/querneigung.jpg" preserveAspectRatio="xMidYMid slice" class="cover" data-from="50 10 keepzoom" data-to="50 20 keepzoom" data-zoom="45 55" />
-    <text x="2727600" y="1782900" data-inset="querneigung" data-from="50 10 keepzoom" data-to="50 20 keepzoom" class="shadow caption">Bahnsteig Stuttgart Hbf. Traines. CC-BY-SA 4.0.</text>
+    <image id="engelberg" href="res/Leonberg_Engelbergtunnel_20060608.jpg" preserveAspectRatio="xMidYMid slice" class="cover" data-from="40 45 keepzoom" data-to="40 53 keepzoom" data-zoom="50 45" />
+    <text x="2727600" y="1782900" data-inset="engelberg" data-from="40 45 keepzoom" data-to="40 53 keepzoom" class="shadow caption">Engelbergtunnel. K. Jähne. CC-BY-SA 3.0.</text>
+
+    <image id="freudenstein" href="res/Freudensteintunnel_Ost.jpg" preserveAspectRatio="xMidYMid slice" class="cover" data-from="40 53 nozoom" data-to="40 61 nozoom" data-zoom="50 45" />
+    <text x="2727600" y="1782900" data-inset="freudenstein" data-from="40 53 keepzoom" data-to="40 61 keepzoom" class="shadow caption">Ostportal des Freudensteintunnels. Norbert Hüttisch. CC-BY-SA 3.0.</text>
+
+    <image id="querneigung" href="res/querneigung.jpg" preserveAspectRatio="xMidYMid slice" class="cover" data-from="50 25 keepzoom" data-to="50 40 keepzoom" data-zoom="45 55" />
+    <text x="2727600" y="1782900" data-inset="querneigung" data-from="50 25 keepzoom" data-to="50 40 keepzoom" class="shadow caption">Bahnsteig Stuttgart Hbf. Traines. CC-BY-SA 4.0.</text>
+
+    <image id="feuersee" href="res/S-Bahnhof_Feuersee.jpg" preserveAspectRatio="xMidYMid slice" class="cover" data-from="50 40 keepzoom" data-to="50 50 keepzoom" data-zoom="40 50" />
+    <text x="2727600" y="1782900" data-inset="feuersee" data-from="50 40 keepzoom" data-to="50 50 keepzoom" class="shadow caption">Der unterirdische S-Bahnhof Feuersee in Stuttgart. Silesia711. CC-BY-SA 4.0.</text>
+
+    <image id="br403" href="res/201803_ICE-1539_at_Berlin_Hbf.jpg" preserveAspectRatio="xMidYMid slice" class="cover" data-from="50 50 keepzoom" data-to="50 65 keepzoom" data-zoom="55 50" />
+    <text x="2727600" y="1782900" data-inset="br403" data-from="50 50 keepzoom" data-to="50 65 keepzoom" class="shadow caption">201803 ICE-1539 at Berlin Hbf. MNXANL. CC-BY-SA 4.0.</text>
+
+    <image id="934" href="res/934.jpg" preserveAspectRatio="xMidYMid slice" class="cover" data-from="50 65 keepzoom" data-to="50 75 keepzoom" data-zoom="50 45" />
+    <text x="2727600" y="1782900" data-inset="934" data-from="50 65 keepzoom" data-to="50 75 keepzoom" class="shadow caption">Stuttgart Hbf (tief). Traines. CC-BY-SA 4.0.</text>
+
+    <image id="kelch" href="res/kelch.jpg" preserveAspectRatio="xMidYMid slice" class="cover" data-from="50 75 keepzoom" data-to="50 90 keepzoom" data-zoom="40 50" />
+    <text x="2727600" y="1782900" data-inset="kelch" data-from="50 75 keepzoom" data-to="50 90 keepzoom" class="shadow caption">Kelchstützen des Tiefbahnhofs. Traines. CC-BY-SA 4.0.</text>
+
+    <g class="dummy" data-from="50 100 keepzoom" />
 
 
     <text x="2727600" y="1782900" data-inset="stgt" data-from="30 0 keepzoom" data-to="30 41 keepzoom" class="shadow caption">Quelle: #3, #4</text>
