@@ -616,7 +616,7 @@
         <g id="risk" transform="translate(2710000, 1773000) scale(20)" data-from="30 0 noanim-keepzoom" class="toplevel">
             <g data-from="30 50 noanim">
             <g data-from="30 1 noanim-nozoom">
-                <rect x="0" y="-100" width="500" height="500" data-from="30 1 noanim" data-to="30 53 noanim" class="helper" />
+                <rect x="0" y="-100" width="500" height="500" data-from="30 1 noanim" data-to="30 56 noanim" class="helper" />
 
                 <text x="250" y="-30" data-to="30 60 keepzoom" class="heading">Stuttgart 21-Tunnel sind die »gefährlichsten Tunnelneubauten weltweit«</text>
                 <text x="250" y="0" style="text-anchor: middle;font-size:12px;">Kombiniertes Risiko im Brandfall: Freier Tunnelquerschnitt, Gefälle, Rettungswegbreite, Abstand der Querschläge, zu evakuierende Personenzahl</text>
@@ -652,7 +652,7 @@
                 <text x="180" y="275" data-from="30 37 keepzoom">Crossrail London (UK)</text>
                 <path d="M 200,275 h 305" data-line="risk" data-from="30 37 keepzoom" />
 
-                <g class="dummy" data-from="30 75 noanim-keepzoom"></g>
+                <g class="dummy" data-from="30 70 noanim-keepzoom"></g>
             </g>
 
             <text x="180" y="300" data-from="30 43 keepzoom" data-to="30 56 nozoom">Gotthard-Scheiteltunnel (CH)</text>
@@ -835,21 +835,22 @@
         </g>
         <g id="geo_intro_labels">
             <rect x="2690219" y="1762363" class="helper dummy" width="1000" height="1000" data-from="0 17" data-to="1 110 keepzoom" />
+            <rect x="2690219" y="1762363" class="helper dummy" width="1000" height="1000" data-from="80 45 noanim" data-to="80 55 noanim-keepzoom" />
             <text class="dummy helper" data-from="0 32 keepzoom"></text>
 
        
 
             <text x="2690655" y="1762987" data-from="0 1" data-to="1 110 keepzoom" class="shadow">Stuttgart Hbf</text>
-            <text x="2690655" y="1762987" data-from="80 1" data-to="80 60 keepzoom" class="shadow">Stuttgart Hbf</text>
+            <text x="2690655" y="1762987" data-from="80 1" data-to="80 95 keepzoom" class="shadow">Stuttgart Hbf</text>
             <text x="2690439" y="1762363" data-from="1 2 keepzoom" data-to="1 110 keepzoom" class="shadow">Feuerbach</text>
-            <text x="2690439" y="1762363" data-from="80 1 keepzoom" data-to="80 60 keepzoom" class="shadow">Feuerbach</text>
-            <text x="2690439" y="1762063" data-from="80 1 keepzoom" data-to="80 60 keepzoom" class="shadow">Zuffenhausen</text>
+            <text x="2690439" y="1762363" data-from="80 1 keepzoom" data-to="80 95 keepzoom" class="shadow">Feuerbach</text>
+            <text x="2690439" y="1762063" data-from="80 1 keepzoom" data-to="80 95 keepzoom" class="shadow">Zuffenhausen</text>
             <text x="2690971" y="1762567" data-from="1 7 keepzoom" data-to="1 110 keepzoom" class="shadow">Bad Cannstatt</text>
-            <text x="2690971" y="1762567" data-from="80 1 keepzoom" data-to="80 60 keepzoom" class="shadow">Bad Cannstatt</text>
+            <text x="2690971" y="1762567" data-from="80 1 keepzoom" data-to="80 95 keepzoom" class="shadow">Bad Cannstatt</text>
             <text x="2691579" y="1763090" data-from="1 10 keepzoom" data-to="1 110 keepzoom" class="shadow">Untertürkheim</text>
             <text x="2690916" y="1765002" data-from="1 17 keepzoom" data-to="1 110 keepzoom" class="shadow">Flughafen/Messe</text>
-            <text x="2690916" y="1765002" data-from="80 1 keepzoom" data-to="80 60 keepzoom" class="shadow">Flughafen/Messe</text>
-            <text x="2688516" y="1765002" data-from="80 1 keepzoom" data-to="80 60 keepzoom" class="shadow">Böblingen</text>
+            <text x="2690916" y="1765002" data-from="80 1 keepzoom" data-to="80 95 keepzoom" class="shadow">Flughafen/Messe</text>
+            <text x="2688516" y="1765002" data-from="80 1 keepzoom" data-to="80 95 keepzoom" class="shadow">Böblingen</text>
             <text x="2693262" y="1765473" data-from="1 21 keepzoom" data-to="1 110 keepzoom" class="shadow">Wendlingen</text>
             <text x="2702068" y="1771093" class="shadow" style="font-size:160px">Ulm</text>
         </g>
@@ -857,11 +858,12 @@
 
 </g>
     <text x="2662352" y="1747282" data-from="0 17 keepzoom" data-to="1 20 keepzoom" class="shadow corner-text" transform="rotate(45 2662352 1747282)">⇦ Mannheim</text>
-    <text x="2662352" y="1747282" data-from="80 1 keepzoom" data-to="80 60 keepzoom" class="shadow corner-text" transform="rotate(45 2662352 1747282)">⇦ Mannheim</text>
+    <text x="2662352" y="1747282" data-from="80 1 keepzoom" data-to="80 95 keepzoom" class="shadow corner-text" transform="rotate(45 2662352 1747282)">⇦ Mannheim</text>
     <text x="2662352" y="1782654" data-from="0 17 keepzoom" data-to="1 20 keepzoom" class="shadow corner-text" transform="rotate(-45 2662352 1782654)">⇦ Zürich</text>
-    <text x="2662352" y="1782654" data-from="80 1 keepzoom" data-to="80 60 keepzoom" class="shadow corner-text" transform="rotate(-45 2662352 1782654)">⇦ Zürich</text>
+    <text x="2662352" y="1782654" data-from="80 1 keepzoom" data-to="80 95 keepzoom" class="shadow corner-text" transform="rotate(-45 2662352 1782654)">⇦ Zürich</text>
 
     <text x="2727600" y="1782900" data-inset="stgt" data-from="0 1 keepzoom" data-to="1 110 keepzoom" class="shadow caption">Orthofoto: Geobasisdaten ©LGL, www.lgl-bw.de. DL-DE-BY 2.0. Relief: maps-for-free.com. CC0. Relief/Pfade: © OpenStreetMap Contributors</text>
+    <text x="2727600" y="1782900" data-inset="stgt" data-from="80 1 keepzoom" data-to="80 195 keepzoom" class="shadow caption">Orthofoto: Geobasisdaten ©LGL, www.lgl-bw.de. DL-DE-BY 2.0. Relief: maps-for-free.com. CC0. Relief/Pfade: © OpenStreetMap Contributors</text>
 
 
     <g id="neigung">
@@ -895,8 +897,8 @@
     <image id="feuersee" href="res/S-Bahnhof_Feuersee.jpg" preserveAspectRatio="xMidYMid slice" class="cover" data-from="50 40 keepzoom" data-to="50 50 keepzoom" data-zoom="40 50" />
     <text x="2727600" y="1782900" data-inset="feuersee" data-from="50 40 keepzoom" data-to="50 50 keepzoom" class="shadow caption">Der unterirdische S-Bahnhof Feuersee in Stuttgart. Silesia711. CC-BY-SA 4.0.</text>
 
-    <image id="br403" href="res/201803_ICE-1539_at_Berlin_Hbf.jpg" preserveAspectRatio="xMidYMid slice" class="cover" data-from="50 50 keepzoom" data-to="50 65 keepzoom" data-zoom="55 50" />
-    <text x="2727600" y="1782900" data-inset="br403" data-from="50 50 keepzoom" data-to="50 65 keepzoom" class="shadow caption">201803 ICE-1539 at Berlin Hbf. MNXANL. CC-BY-SA 4.0.</text>
+    <image id="br403" href="res/201803_ICE-1539_at_Berlin_Hbf.jpg" preserveAspectRatio="xMidYMid slice" class="cover" data-from="50 50 nozoom" data-to="50 65 nozoom" data-zoom="55 50" />
+    <text x="2727600" y="1782900" data-inset="br403" data-from="50 50 nozoom" data-to="50 65 nozoom" class="shadow caption">201803 ICE-1539 at Berlin Hbf. MNXANL. CC-BY-SA 4.0.</text>
 
     <image id="934" href="res/934.jpg" preserveAspectRatio="xMidYMid slice" class="cover" data-from="50 65 keepzoom" data-to="50 75 keepzoom" data-zoom="50 45" />
     <text x="2727600" y="1782900" data-inset="934" data-from="50 65 keepzoom" data-to="50 75 keepzoom" class="shadow caption">Stuttgart Hbf (tief). Traines. CC-BY-SA 4.0.</text>
@@ -910,7 +912,7 @@
     <text x="2727600" y="1782900" data-inset="stgt" data-from="30 0 keepzoom" data-to="30 41 keepzoom" class="shadow caption">Quelle: #3, #4</text>
 
    
-    <g class="dummy" data-from="80 61 noanim-nozoom"></g>
+    <g class="dummy" data-from="80 96 noanim-nozoom"></g>
 
 
     <rect id="epoch-label-bg" x="2719989" y="1747917" width="6245" height="3123" data-from="70 0 nozoom" data-to="70 120" />
