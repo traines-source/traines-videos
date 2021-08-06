@@ -95,6 +95,48 @@
         <path 
             d="M 130,100 L 200,100" class="panto" style="stroke-width:20px" />
     </marker>
+    <marker id="profile-start" viewBox="149.67 93.60 36.35,37.62" refX="153.69" refY="103.06" markerHeight="2">
+        <g class="profileunit">
+            <circle r="2.0475183" cy="112.27797" cx="155.81813" />
+            <circle cx="168.48003" cy="112.27797" r="2.0475183" />
+            <path
+                d="M 153.69457,93.60156 C 162.6481,93.60156 174.1649,98.111121 179.37126,102.16052 183.58075,105.43457 186.01959,107.17182 186.01959,108.70862 186.01959,110.72984 181.42589,111.38131 180.87465,111.38131 180.40676,111.38131 181.24215,112.24994 181.24215,112.24994 L 149.67857,112.31138 V 93.60156 H 153.69457"
+                />
+        </g>
+    </marker>
+    <marker id="profile-end" viewBox="120 93.60 50,37.62" refX="153.69" refY="103.06" markerHeight="2">
+        <g class="profileunit">
+            <g transform="scale(-1,1)" transform-origin="153.69457 93.60156">
+                <circle r="2.0475183" cy="112.27797" cx="155.81813" />
+                <circle cx="168.48003" cy="112.27797" r="2.0475183" />
+                <path
+                    d="M 153.69457,93.60156 C 162.6481,93.60156 174.1649,98.111121 179.37126,102.16052 183.58075,105.43457 186.01959,107.17182 186.01959,108.70862 186.01959,110.72984 181.42589,111.38131 180.87465,111.38131 180.40676,111.38131 181.24215,112.24994 181.24215,112.24994 L 149.67857,112.31138 V 93.60156 H 153.69457"
+                    />            
+            </g>
+        </g>
+    </marker>
+    <marker id="profile-hinge" viewBox="25.61 93.60 60,37.62" refX="54.97" refY="103.06" markerHeight="2" markerWidth="4">
+        <g class="profileunit" >
+            <path
+                style="fill:#f2f2f2;stroke:#f2f2f2;stroke-width:0.26458332px;"
+                d="M 25.612651,93.60156 H 84.331169 V 112.31138 H 25.612651 Z"
+                id="hingebg"
+                />
+            <circle cx="67.518959" cy="112.27797" r="2.0475183" />
+            <circle r="2.0475183" cy="112.27797" cx="80.180855" />
+            <circle r="2.0475183" cy="112.27797" cx="29.610632" />
+            <circle cx="42.27253" cy="112.27797" r="2.0475183" />
+            
+            <path
+                d="M 84.331169,93.60156 H 56.606828 C 56.205576,93.60156 56.193417,93.601044 56.193417,95.411958 H 54.971912 V 109.17634 H 56.293644 C 56.293644,109.92132 56.267902,110.01156 56.565314,110.01156 H 57.362722 C 57.362722,112.25582 57.255574,112.29516 57.587145,112.29516 L 84.331169,112.31138 Z"
+                />
+            <g transform="matrix(-1,0,0,1,109.94382,0)">
+                <path
+                    d="M 84.331169,93.60156 H 56.606828 C 56.205576,93.60156 56.193417,93.601044 56.193417,95.411958 H 54.971912 V 109.17634 H 56.293644 C 56.293644,109.92132 56.267902,110.01156 56.565314,110.01156 H 57.362722 C 57.362722,112.25582 57.255574,112.29516 57.587145,112.29516 L 84.331169,112.31138 Z"
+                    />
+            </g>
+        </g>
+    </marker>
 </defs>
 <rect x="2661352" y="1746182" width="100%" height="100%" fill="#f2f2f2"/>
 <g id="zoomable">
@@ -564,7 +606,7 @@
             </g>
         </g>
 
-        <g id="tph" transform="translate(2670000, 1764000) scale(20)" data-from="60 1 noanim" class="toplevel">
+        <g id="tph" transform="translate(2670000, 1759500) scale(20)" data-from="60 1 noanim-nozoom" class="toplevel">
             <rect x="0" y="-70" width="380" height="300" data-from="60 1 noanim" class="helper" />
 
             <text x="190" y="-30" class="heading">Die Leistungsfähigkeit von Stuttgart 21</text>
@@ -854,6 +896,14 @@
             <text x="2693262" y="1765473" data-from="1 21 keepzoom" data-to="1 110 keepzoom" class="shadow">Wendlingen</text>
             <text x="2702068" y="1771093" class="shadow" style="font-size:160px">Ulm</text>
         </g>
+        <g id="neigung" transform="translate(2670126 1769503) scale(200)">
+            <rect class="hidden helper" x="5" y="-1" width="1" height="2" data-from="49 5 noanim"/>
+            <path class="train Profile" data-train="neigung-line" data-length="5" data-stops="neigung1 +10+20 neigung2" data-from="49 10 keepzoom" data-to="49 20 keepzoom" />
+            <rect data-station="neigung1" class="hidden helper" x="-32" y="-1.68" />
+            <rect data-station="neigung2" class="hidden helper" x="128" y="0.72" />
+            <path data-line="neigung-line" data-stops="neigung1 neigung2" class="dummy helper" data-beck-style="false" />
+            <path d="M 0,8 v -8 l 32,0.48 L 32,8 Z" style="fill: #B71C1C; stroke: none;visibility:hidden" data-from="49 4 noanim-keepzoom" />
+        </g>
     </g>
 
 </g>
@@ -866,17 +916,11 @@
     <text x="2727600" y="1782900" data-inset="stgt" data-from="80 1 keepzoom" data-to="80 195 keepzoom" class="shadow caption">Orthofoto: Geobasisdaten ©LGL, www.lgl-bw.de. DL-DE-BY 2.0. Relief: maps-for-free.com. CC0. Relief/Pfade: © OpenStreetMap Contributors</text>
 
 
-    <g id="neigung">
-        <rect x="2661352" y="1746182" width="100%" height="100%" fill="#f2f2f2" style="visibility:hidden" data-from="50 5 noanim-keepzoom" data-to="50 25 noanim-keepzoom"/>
-        <path d="M 2661352,1783654 v -18736 l 66617,999.255 L 2727969,1783654 Z" style="fill: #cd1719; stroke: none;visibility:hidden" data-from="50 5 noanim-keepzoom" data-to="50 25 noanim-keepzoom"/>
-    </g>
-
-
     <image id="anab" href="res/anab.jpg" preserveAspectRatio="xMidYMid slice" class="cover" data-from="0 5 keepzoom" data-to="0 15 keepzoom" data-zoom="50 55" />
     <text x="2727600" y="1782900" data-inset="immobilien" data-from="0 5 keepzoom" data-to="0 15 keepzoom" class="shadow caption">Ankunft. Abfahrt. Traines. CC-BY-SA 4.0.</text>
 
-    <image id="voute" href="res/voute.jpg" preserveAspectRatio="xMidYMid slice" class="cover" data-from="1 43 keepzoom" data-to="1 53 keepzoom" data-zoom="50 65" />
-    <text x="2727600" y="1782900" data-inset="voute" data-from="1 43 keepzoom" data-to="1 53 keepzoom" class="shadow caption">Schließfach. Traines. CC-BY-SA 4.0.</text>
+    <image id="voute" href="res/voute.jpg" preserveAspectRatio="xMidYMid slice" class="cover" data-from="1 43 keepzoom" data-to="1 53 keepzoom" data-zoom="55 50" />
+    <text x="2727600" y="1782900" data-inset="voute" data-from="1 43 keepzoom" data-to="1 53 keepzoom" class="shadow caption">Bonatzgewölbe. Traines. CC-BY-SA 4.0.</text>
 
     <image id="immobilien" href="res/immobilien.jpg" preserveAspectRatio="xMidYMid slice" class="cover" data-from="1 75 keepzoom" data-to="1 95 keepzoom" data-zoom="45 55" />
     <text x="2727600" y="1782900" data-inset="immobilien" data-from="1 75 keepzoom" data-to="1 95 keepzoom" class="shadow caption">Stuttgart Hbf von oben. Traines. CC-BY-SA 4.0.</text>
@@ -889,24 +933,24 @@
     <text x="2727600" y="1782900" data-inset="engelberg" data-from="40 45 keepzoom" data-to="40 53 keepzoom" class="shadow caption">Engelbergtunnel. K. Jähne. CC-BY-SA 3.0.</text>
 
     <image id="freudenstein" href="res/Freudensteintunnel_Ost.jpg" preserveAspectRatio="xMidYMid slice" class="cover" data-from="40 53 nozoom" data-to="40 61 nozoom" data-zoom="50 45" />
-    <text x="2727600" y="1782900" data-inset="freudenstein" data-from="40 53 keepzoom" data-to="40 61 keepzoom" class="shadow caption">Ostportal des Freudensteintunnels. Norbert Hüttisch. CC-BY-SA 3.0.</text>
+    <text x="2727600" y="1782900" data-inset="freudenstein" data-from="40 53 nozoom" data-to="40 61 nozoom" class="shadow caption">Ostportal des Freudensteintunnels. Norbert Hüttisch. CC-BY-SA 3.0.</text>
 
-    <image id="querneigung" href="res/querneigung.jpg" preserveAspectRatio="xMidYMid slice" class="cover" data-from="50 25 keepzoom" data-to="50 40 keepzoom" data-zoom="45 55" />
-    <text x="2727600" y="1782900" data-inset="querneigung" data-from="50 25 keepzoom" data-to="50 40 keepzoom" class="shadow caption">Bahnsteig Stuttgart Hbf. Traines. CC-BY-SA 4.0.</text>
+    <image id="querneigung" href="res/querneigung.jpg" preserveAspectRatio="xMidYMid slice" class="cover" data-from="50 1 keepzoom" data-to="50 15 keepzoom" data-zoom="45 55" />
+    <text x="2727600" y="1782900" data-inset="querneigung" data-from="50 1 keepzoom" data-to="50 15 keepzoom" class="shadow caption">Bahnsteig Stuttgart Hbf. Traines. CC-BY-SA 4.0.</text>
 
-    <image id="feuersee" href="res/S-Bahnhof_Feuersee.jpg" preserveAspectRatio="xMidYMid slice" class="cover" data-from="50 40 keepzoom" data-to="50 50 keepzoom" data-zoom="40 50" />
-    <text x="2727600" y="1782900" data-inset="feuersee" data-from="50 40 keepzoom" data-to="50 50 keepzoom" class="shadow caption">Der unterirdische S-Bahnhof Feuersee in Stuttgart. Silesia711. CC-BY-SA 4.0.</text>
+    <image id="feuersee" href="res/S-Bahnhof_Feuersee.jpg" preserveAspectRatio="xMidYMid slice" class="cover" data-from="50 15 keepzoom" data-to="50 25 keepzoom" data-zoom="40 50" />
+    <text x="2727600" y="1782900" data-inset="feuersee" data-from="50 15 keepzoom" data-to="50 25 keepzoom" class="shadow caption">Der unterirdische S-Bahnhof Feuersee in Stuttgart. Silesia711. CC-BY-SA 4.0.</text>
 
-    <image id="br403" href="res/201803_ICE-1539_at_Berlin_Hbf.jpg" preserveAspectRatio="xMidYMid slice" class="cover" data-from="50 50 nozoom" data-to="50 65 nozoom" data-zoom="55 50" />
-    <text x="2727600" y="1782900" data-inset="br403" data-from="50 50 nozoom" data-to="50 65 nozoom" class="shadow caption">201803 ICE-1539 at Berlin Hbf. MNXANL. CC-BY-SA 4.0.</text>
+    <image id="br403" href="res/201803_ICE-1539_at_Berlin_Hbf.jpg" preserveAspectRatio="xMidYMid slice" class="cover" data-from="50 25 nozoom" data-to="50 40 nozoom" data-zoom="55 50" />
+    <text x="2727600" y="1782900" data-inset="br403" data-from="50 25 nozoom" data-to="50 40 nozoom" class="shadow caption">201803 ICE-1539 at Berlin Hbf. MNXANL. CC-BY-SA 4.0.</text>
 
-    <image id="934" href="res/934.jpg" preserveAspectRatio="xMidYMid slice" class="cover" data-from="50 65 keepzoom" data-to="50 75 keepzoom" data-zoom="50 45" />
-    <text x="2727600" y="1782900" data-inset="934" data-from="50 65 keepzoom" data-to="50 75 keepzoom" class="shadow caption">Stuttgart Hbf (tief). Traines. CC-BY-SA 4.0.</text>
+    <image id="934" href="res/934.jpg" preserveAspectRatio="xMidYMid slice" class="cover" data-from="50 40 keepzoom" data-to="50 50 keepzoom" data-zoom="50 45" />
+    <text x="2727600" y="1782900" data-inset="934" data-from="50 40 keepzoom" data-to="50 50 keepzoom" class="shadow caption">Stuttgart Hbf (tief). Traines. CC-BY-SA 4.0.</text>
 
-    <image id="kelch" href="res/kelch.jpg" preserveAspectRatio="xMidYMid slice" class="cover" data-from="50 75 nozoom" data-to="50 90 nozoom" data-zoom="40 50" />
-    <text x="2727600" y="1782900" data-inset="kelch" data-from="50 75 nozoom" data-to="50 90 nozoom" class="shadow caption">Kelchstützen des Tiefbahnhofs. Traines. CC-BY-SA 4.0.</text>
+    <image id="kelch" href="res/kelch.jpg" preserveAspectRatio="xMidYMid slice" class="cover" data-from="50 50 nozoom" data-to="50 65 nozoom" data-zoom="40 50" />
+    <text x="2727600" y="1782900" data-inset="kelch" data-from="50 50 nozoom" data-to="50 65 nozoom" class="shadow caption">Kelchstützen des Tiefbahnhofs. Traines. CC-BY-SA 4.0.</text>
 
-    <g class="dummy" data-from="50 100 keepzoom" />
+    <g class="dummy" data-from="50 75 keepzoom" />
 
 
     <text x="2727600" y="1782900" data-inset="stgt" data-from="30 0 keepzoom" data-to="30 41 keepzoom" class="shadow caption">Quelle: #3, #4</text>
