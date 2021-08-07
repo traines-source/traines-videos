@@ -879,7 +879,7 @@
             <rect data-station="neigung1" class="hidden helper" x="-32" y="-1.68" />
             <rect data-station="neigung2" class="hidden helper" x="128" y="0.72" />
             <path data-line="neigung-line" data-stops="neigung1 neigung2" class="dummy helper" data-beck-style="false" />
-            <path d="M 0,8 v -8 l 32,0.48 L 32,8 Z" style="fill: #B71C1C; stroke: none;visibility:hidden" data-from="40 60 noanim-keepzoom" />
+            <path d="M 0,8 v -8 l 32,0.48 L 32,8 Z" style="fill: #B71C1C; stroke: none;visibility:hidden" data-from="40 59 noanim-nozoom" />
         </g>
 
         <image href="res/high/map_10000_circ_small_bw.png" x="2680924" y="1751182" width="27472" height="27472" preserveAspectRatio="none" />
@@ -959,7 +959,80 @@
     <g class="dummy" data-from="50 87 keepzoom" />
 
 
-    <text x="2727600" y="1782900" data-inset="stgt" data-from="30 0 keepzoom" data-to="30 41 keepzoom" class="shadow caption">Quelle: #3, #4</text>
+    <text x="2727600" y="1746551" data-from="1 37 noanim-keepzoom" data-to="1 47 noanim-keepzoom" class="shadow source">Quelle [1]</text>
+    <text x="2727600" y="1746551" data-from="1 85 noanim-keepzoom" data-to="1 95 noanim-keepzoom" class="shadow source">Quelle [2]</text>
+    <text x="2727600" y="1746551" data-from="20 14 noanim-keepzoom" data-to="20 43 noanim-keepzoom" class="shadow source">Quelle [3], [4]</text>
+    <text x="2727600" y="1746551" data-from="20 43 noanim-keepzoom" data-to="20 50 noanim-keepzoom" class="shadow source">Quelle [5]</text>
+    <text x="2727600" y="1746551" data-from="25 0 noanim-keepzoom" data-to="25 10 noanim-keepzoom" class="shadow source">Quelle [3]</text>
+    <text x="2727600" y="1746551" data-from="25 10 noanim-keepzoom" data-to="25 22 noanim-keepzoom" class="shadow source">Quelle [6]</text>
+    <text x="2727600" y="1746551" data-from="25 22 noanim-keepzoom" data-to="30 0 noanim-keepzoom" class="shadow source">Quelle [5]</text>
+    <text x="2727600" y="1746551" data-from="30 0 noanim-keepzoom" data-to="30 27 noanim-keepzoom" class="shadow source">Quelle [7]</text>
+    <text x="2727600" y="1746551" data-from="30 27 noanim-keepzoom" data-to="30 70 noanim-keepzoom" class="shadow source">Quelle [8]</text>
+    <text x="2727600" y="1746551" data-from="40 21 noanim-keepzoom" data-to="40 33 noanim-keepzoom" class="shadow source">Quelle [9], [10]</text>
+    <text x="2727600" y="1746551" data-from="40 33 noanim-keepzoom" data-to="40 60 noanim-keepzoom" class="shadow source">Quelle [11]</text>
+    <text x="2727600" y="1746551" data-from="49 15 noanim-keepzoom" data-to="50 10 noanim-keepzoom" class="shadow source">Quelle [12]</text>
+    <text x="2727600" y="1746551" data-from="50 10 noanim-keepzoom" data-to="50 19 noanim-keepzoom" class="shadow source">Quelle [13]</text>
+    <text x="2727600" y="1746551" data-from="50 19 noanim-keepzoom" data-to="50 30 noanim-keepzoom" class="shadow source">Quelle [14]</text>
+    <text x="2727600" y="1746551" data-from="50 40 noanim-keepzoom" data-to="50 44 noanim-keepzoom" class="shadow source">Quelle [15]</text>
+    <text x="2727600" y="1746551" data-from="50 44 noanim-keepzoom" data-to="50 48 noanim-keepzoom" class="shadow source">Quelle [16]</text>
+    <text x="2727600" y="1746551" data-from="50 48 noanim-keepzoom" data-to="50 50 noanim-keepzoom" class="shadow source">Quelle [17]</text>
+    <text x="2727600" y="1746551" data-from="50 50 noanim-keepzoom" data-to="50 54 noanim-keepzoom" class="shadow source">Quelle [18]</text>
+    <text x="2727600" y="1746551" data-from="50 54 noanim-keepzoom" data-to="50 60 noanim-keepzoom" class="shadow source">Quelle [19]</text>
+    <text x="2727600" y="1746551" data-from="60 1 noanim-keepzoom" data-to="60 10 noanim-keepzoom" class="shadow source">Quelle [17]</text>
+    <text x="2727600" y="1746551" data-from="60 22 noanim-keepzoom" data-to="60 30 noanim-keepzoom" class="shadow source">Quelle [20]</text>
+    <text x="2727600" y="1746551" data-from="60 40 noanim-keepzoom" data-to="60 47 noanim-keepzoom" class="shadow source">Quelle [21]</text>
+    <text x="2727600" y="1746551" data-from="60 60 noanim-keepzoom" data-to="60 70 noanim-keepzoom" class="shadow source">Quelle [22]</text>
+    <text x="2727600" y="1746551" data-from="60 70 noanim-keepzoom" data-to="60 73 noanim-keepzoom" class="shadow source">Quelle [23]</text>
+    <text x="2727600" y="1746551" data-from="60 73 noanim-keepzoom" data-to="60 83 noanim-keepzoom" class="shadow source">Quelle [24]</text>
+    <text x="2727600" y="1746551" data-from="60 83 noanim-keepzoom" data-to="60 90 noanim-keepzoom" class="shadow source">Quelle [25]</text>
+    <text x="2727600" y="1746551" data-from="70 1 noanim-keepzoom" data-to="70 50 noanim-keepzoom" class="shadow source">Quelle [23], [24]</text>
+    <text x="2727600" y="1746551" data-from="70 50 noanim-keepzoom" data-to="70 60 noanim-keepzoom" class="shadow source">Quelle [25]</text>
+    <text x="2727600" y="1746551" data-from="70 60 noanim-keepzoom" data-to="70 93 noanim-keepzoom" class="shadow source">Quelle [23], [24]</text>
+    <text x="2727600" y="1746551" data-from="70 93 noanim-keepzoom" data-to="70 103 noanim-keepzoom" class="shadow source">Quelle [26]</text>
+    <text x="2727600" y="1746551" data-from="70 103 noanim-keepzoom" data-to="70 110 noanim-keepzoom" class="shadow source">Quelle [25]</text>
+    <text x="2727600" y="1746551" data-from="70 110 noanim-keepzoom" data-to="70 114 noanim-keepzoom" class="shadow source">Quelle [27]</text>
+    <text x="2727600" y="1746551" data-from="80 16 noanim-keepzoom" data-to="80 24 noanim-keepzoom" class="shadow source">Quelle [28]</text>
+    <text x="2727600" y="1746551" data-from="80 24 noanim-keepzoom" data-to="80 37 noanim-keepzoom" class="shadow source">Quelle [29]</text>
+    <text x="2727600" y="1746551" data-from="80 42 noanim-keepzoom" data-to="80 60 noanim-keepzoom" class="shadow source">Quelle [30]</text>
+    <text x="2727600" y="1746551" data-from="80 61 noanim-keepzoom" data-to="80 65 noanim-keepzoom" class="shadow source">Quelle [31]</text>
+    <text x="2727600" y="1746551" data-from="80 81 noanim-keepzoom" data-to="80 90 noanim-keepzoom" class="shadow source">Quelle [32]</text>
+    <text x="2727600" y="1746551" data-from="80 90 noanim-keepzoom" data-to="80 110 noanim-keepzoom" class="shadow source">Quelle [33]</text>
+
+    <!--
+        [1] https://www.swp.de/suedwesten/bonatzbau_-nur-die-huelle-bleibt-stehen-28437604.html
+        [2] Prakasa, Yoga. "The Prospect of Implementing Rail-plus-Property Model in the Washington Metropolitan Area." (2019). https://www.researchgate.net/publication/335158399_The_Prospect_of_Implementing_Rail-plus-Property_Model_in_the_Washington_Metropolitan_Area
+        [3] https://www.bahnprojekt-stuttgart-ulm.de/projekt/vorteile-und-nutzen/verkehrlicher-nutzen/
+        [4] https://www.fernbahn.de/datenbank/suche/
+        [5] eigene Recherchen u. Schätzungen, siehe https://github.com/traines-source/traines-videos/blob/master/003-stuttgart21/research/scaling_fahrtzeiten.ods
+        [6] https://www.umstieg-21.de/assets/files/Broschuere-Umstieg21-web.pdf
+        [7] http://wikireal.info/wiki/Stuttgart_21/Brandschutz_Tunnel
+        [8] eigene Recherchen, siehe https://github.com/traines-source/traines-videos/blob/master/003-stuttgart21/research/risiko_tunnel.ods
+        [9] Stuttgart 21 PFA 1.5, Los 3, Fern- und S-Bahn Zuführung Bad Cannstatt, Übersichtslageplan
+        [10] https://www.bahnprojekt-stuttgart-ulm.de/mediathek/detail/media/informationsveranstaltung-unterfahrung-michelsberg-pfa-24-albabstieg/mediaParameter/show/Medium/
+        [11] https://www.deutschlandfunk.de/stuttgart-21-tunnelbau-in-gefaehrlichem-gestein-anhydrit.740.de.html?dram:article_id=476735
+        [12] http://wikireal.info/wiki/Stuttgart_21/Gleisneigung
+        [13] eigene Messungen
+        [14] https://www.youtube.com/watch?v=YNYAmjlNTSg
+        [15] https://dserver.bundestag.de/btd/19/204/1920455.pdf
+        [16] https://www.s21erleben.de/panorama/
+        [17] https://www.ingenieure22.de/cms/index.php/s21-fakten-statt-fake-news
+        [18] http://wikireal.info/wiki/Stuttgart_21/Personenzug%C3%A4nge
+        [19] https://www.s-bahn-stuttgart.de/s-stuttgart/aktuelles/Deutsche-Bahn-modernisiert-S-Bahn-Stammstrecke-\-6050372
+        [20] https://docplayer.org/33861645-Ist-gleisbelegung-stuttgart-hbf-in-der-spitzenstunde-mo-fr-7-8-uhr.html
+        [21] Stuttgart Hbf Ankunft/Abfahrt, https://www.bahn.de/p/view/service/fahrplaene/fahrplaene_download.shtml
+        [22] https://www.bahnprojekt-stuttgart-ulm.de/en/media-library/detail/download/07-leistungsfaehigkeit-des-neuen-bahnknotens-pressegespraech/mediaParameter/download/Medium/
+        [23] https://www.deutschlandtakt.de/news-und-downloads/downloads/#articlefilter=netzgrafiken
+        [24] https://www.matthias-gastel.de/wp-content/uploads/2021/04/tiefbahnhof-dtakt.png
+        [25] http://wikireal.info/wiki/Stuttgart_21/Leistung
+        [26] Zürich Hb Ankunft/Abfahrt, https://www.sbb.ch/de/fahrplan/online-fahrplan/pdf-fahrplaene/abfahrtsplakate.html?search=z%C3%BCrich+hb
+        [27] https://www.dkriesel.com/blog/2019/1229_video_und_folien_meines_36c3-vortrags_bahnmining
+        [28] https://www.bahnprojekt-stuttgart-ulm.de/projekt/stuttgart-filder-s21/erweiterungsoptionen/
+        [29] https://www.pressreader.com/germany/bietigheimer-zeitung/20200603/281728386739367
+        [30] https://www.gea.de/land_artikel,-t%C3%BCr-f%C3%BCr-g%C3%A4ubahntunnel-offen-_arid,6407320.html
+        [31] https://www.bahnprojekt-stuttgart-ulm.de/mediathek/detail/media/ringverkehr/mediaParameter/show/Medium/
+        [32] https://vm.baden-wuerttemberg.de/de/mobilitaet-verkehr/schiene/stuttgart-21/ergaenzende-infrastruktur/
+        [33] https://vm.baden-wuerttemberg.de/fileadmin/redaktion/m-mvi/intern/Dateien/PDF/PM_Anhang/210615_Pr%C3%A4sentation_Ergebnisse_Machbarkeitsstudie_Erg%C3%A4nzungsstation.pdf
+    -->
 
    
     <g class="dummy" data-from="80 111 noanim-nozoom"></g>

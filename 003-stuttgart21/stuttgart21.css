@@ -192,6 +192,12 @@ text.caption {
     font-size: 600px;
 }
 
+text.source {
+    text-anchor: end;
+    dominant-baseline: hanging;
+    font-size: 600px;
+}
+
 text.shadow {
     visibility: hidden;
     fill: white;

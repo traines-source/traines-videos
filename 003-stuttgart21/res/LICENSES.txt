@@ -1,8 +1,11 @@
-(2015-12-19)_ANHYDRIT_07_PWA-S.jpg https://upload.wikimedia.org/wikipedia/commons/9/9f/%282015-12-19%29_ANHYDRIT_07_PWA-S.jpg Teil einer Anhydritrosette. Hans-Joachim Engelhardt. CC-BY-SA 4.0. https://creativecommons.org/licenses/by-sa/4.0/deed.en
-Leonberg_Engelbergtunnel_20060608.jpg https://upload.wikimedia.org/wikipedia/commons/a/ac/Leonberg_Engelbergtunnel_20060608.jpg Engelbergtunnel. K. Jähne. CC-BY-SA 3.0. https://creativecommons.org/licenses/by-sa/3.0/deed.en
-Freudensteintunnel_Ost.jpg https://upload.wikimedia.org/wikipedia/commons/d/dd/Freudensteintunnel_Ost.jpg Ostportal des Freudensteintunnels. Norbert Hüttisch. CC-BY-SA 3.0. https://creativecommons.org/licenses/by-sa/3.0/deed.en
-S-Bahnhof_Feuersee.jpg https://upload.wikimedia.org/wikipedia/commons/9/90/S-Bahnhof_Feuersee.jpg Der unterirdische S-Bahnhof Feuersee in Stuttgart. Silesia711. CC-BY-SA 4.0. https://creativecommons.org/licenses/by-sa/4.0/deed.en
-201803_ICE-1539_at_Berlin_Hbf.jpg https://upload.wikimedia.org/wikipedia/commons/3/35/201803_ICE-1539_at_Berlin_Hbf.jpg 201803 ICE-1539 at Berlin Hbf. MNXANL. CC-BY-SA 4.0. https://creativecommons.org/licenses/by-sa/4.0/deed.en
+Orthofoto: Geobasisdaten ©LGL, https://www.lgl-bw.de. DL-DE-BY 2.0. https://www.govdata.de/dl-de/by-2-0
+Relief: maps-for-free.com. CC0. https://creativecommons.org/publicdomain/zero/1.0/deed.en
+Relief/Pfade: © OpenStreetMap Contributors. ODbL. https://www.openstreetmap.org/copyright
+(2015-12-19)_ANHYDRIT_07_PWA-S.jpg https://commons.wikimedia.org/wiki/File:(2015-12-19)_ANHYDRIT_07_PWA-S.jpg Teil einer Anhydritrosette. Hans-Joachim Engelhardt. CC-BY-SA 4.0. https://creativecommons.org/licenses/by-sa/4.0/deed.en
+Leonberg_Engelbergtunnel_20060608.jpg https://commons.wikimedia.org/wiki/File:Leonberg_Engelbergtunnel_20060608.jpg Engelbergtunnel. K. Jähne. CC-BY-SA 3.0. https://creativecommons.org/licenses/by-sa/3.0/deed.en
+Freudensteintunnel_Ost.jpg https://commons.wikimedia.org/wiki/File:Freudensteintunnel_Ost.jpg Ostportal des Freudensteintunnels. Norbert Hüttisch. CC-BY-SA 3.0. https://creativecommons.org/licenses/by-sa/3.0/deed.en
+S-Bahnhof_Feuersee.jpg https://commons.wikimedia.org/wiki/File:S-Bahnhof_Feuersee.jpg Der unterirdische S-Bahnhof Feuersee in Stuttgart. Silesia711. CC-BY-SA 4.0. https://creativecommons.org/licenses/by-sa/4.0/deed.en
+201803_ICE-1539_at_Berlin_Hbf.jpg https://commons.wikimedia.org/wiki/File:201803_ICE-1539_at_Berlin_Hbf.jpg 201803 ICE-1539 at Berlin Hbf. MNXANL. CC-BY-SA 4.0. https://creativecommons.org/licenses/by-sa/4.0/deed.en
 querneigung.jpg Bahnsteig Stuttgart Hbf. Traines. CC-BY-SA 4.0. https://creativecommons.org/licenses/by-sa/4.0/deed.en
 immobilien.jpg Stuttgart Hbf von oben. Traines. CC-BY-SA 4.0. https://creativecommons.org/licenses/by-sa/4.0/deed.en
 934.jpg Stuttgart Hbf (tief). Traines. CC-BY-SA 4.0. https://creativecommons.org/licenses/by-sa/4.0/deed.en
