@@ -60,30 +60,30 @@ function getLineProperties(feature) {
             insideRectangle(feature.geometry.coordinates[0], [9.19397, 48.8035846], [9.21182, 48.78414]) || 
             insideRectangle(feature.geometry.coordinates[0], [9.1813, 48.7960], [9.21182, 48.78414])
         ) {
-            return ['s21old', 's', '1 65 keepzoom', 100];
+            return ['s21old', 's', '1 67 keepzoom', 100];
         }
         return ['existing', '', '', 0];
     }
     if (feature.properties['name'] != undefined && feature.properties['name'].includes('erg-')) {
-        return ['erg custom-proposed', 'n', '80 65', 100];
+        return ['erg custom-proposed', 'n', '80 80', 100];
     }
     if (feature.properties['name'] != undefined && feature.properties['name'].includes('nordzulauf-')) {
-        return ['nordzulauf custom-proposed', 'n', '80 8', 200];
+        return ['nordzulauf custom-proposed', 'n', '80 23', 200];
     }
     if (feature.properties['name'] != undefined && feature.properties['name'].includes('gautunnel-')) {
-        return ['gautunnel custom-proposed', 'w', '80 28', 200];
+        return ['gautunnel custom-proposed', 'w', '80 41', 200];
     }
     if (feature.properties['name'] != undefined && feature.properties['name'].includes('poption-')) {
-        return ['poption custom-proposed', 'n', '80 1', 100];
+        return ['poption custom-proposed', 'n', '80 15', 100];
     }
     if (insideRectangle(feature.geometry.coordinates[0], [9.101692, 48.714558], [9.129658,  48.705414])) {
-        return ['rohrerkurve railway-construction', 'w', '80 25', 100];
+        return ['rohrerkurve railway-construction', 'w', '80 37', 100];
     }
     if (insideRectangle(feature.geometry.coordinates[0], [9.36824, 48.66841], [10.0614, 48.3606])) {
         return ['nbs', 'nw', '1 25', 1000];
     }
     if (insideRectangle(feature.geometry.coordinates[0], [9.18156, 48.80132], [9.19767, 48.78500])) {
-        return ['zsbahn', 's', '1 58', 100];
+        return ['zsbahn', 's', '1 60', 100];
     }
     if (insideRectangle(feature.geometry.coordinates[0], [9.1533, 48.8211], [9.2865, 48.7614])) {
         return ['s21new', 'nw', '1 1', 200];

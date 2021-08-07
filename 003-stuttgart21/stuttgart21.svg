@@ -464,7 +464,7 @@
         <rect x="2694660.5" y="1746182" width="50%" height="100%" fill="#f2f2f2"/>
 
         <g id="tunnels" transform="translate(2662000, 1771000) scale(15)" data-from="40 10 noanim-nozoom" class="toplevel">
-            <rect x="590" y="300" width="975" height="300" data-from="40 21 noanim" data-to="40 31 noanim" class="helper" />
+            <rect x="590" y="300" width="975" height="300" data-from="40 21 noanim" data-to="40 33 noanim" class="helper" />
             <text x="915" y="600">Stuttgart 21 Verengter Tunnelquerschnitt</text>
             <text x="1240" y="600">Beispiel Normaler Tunnelquerschnitt</text>
             <text x="1240" y="625">(Albabstiegstunnel)</text>
@@ -656,11 +656,12 @@
         </g>
 
         <g id="risk" transform="translate(2710000, 1773000) scale(20)" data-from="30 0 noanim-keepzoom" class="toplevel">
-            <g data-from="30 50 noanim">
+            <g data-from="30 52 noanim">
             <g data-from="30 1 noanim-nozoom">
-                <rect x="0" y="-100" width="500" height="500" data-from="30 1 noanim" data-to="30 56 noanim" class="helper" />
+                <rect x="0" y="-100" width="500" height="500" data-from="30 1 noanim" data-to="30 58 noanim" class="helper" />
 
                 <text x="250" y="-30" data-to="30 60 keepzoom" class="heading">Stuttgart 21-Tunnel sind die »gefährlichsten Tunnelneubauten weltweit«</text>
+                <text x="250" y="-30" data-from="30 60 keepzoom" class="heading">Stuttgart 21-Tunnel: Risiko im Brandfall</text>
                 <text x="250" y="0" style="text-anchor: middle;font-size:12px;">Kombiniertes Risiko im Brandfall: Freier Tunnelquerschnitt, Gefälle, Rettungswegbreite, Abstand der Querschläge, zu evakuierende Personenzahl</text>
 
 
@@ -685,27 +686,28 @@
                 <text x="180" y="200" data-from="30 1 keepzoom" style="font-weight: bold">Stuttgart 21 (DE)</text>
                 <path d="M 200,200 h 143" data-line="risk" data-from="30 1 keepzoom" />
 
-                <text x="180" y="225" data-from="30 25 keepzoom">Schulwaldtunnel, SFS KRM (DE)</text>
-                <path d="M 200,225 h 144" data-line="risk" data-from="30 25 keepzoom" />
+                <text x="180" y="225" data-from="30 27 keepzoom">Schulwaldtunnel, SFS KRM (DE)</text>
+                <path d="M 200,225 h 144" data-line="risk" data-from="30 27 keepzoom" />
 
-                <text x="180" y="250" data-from="30 31 keepzoom">Grand Paris Express (FR)</text>
-                <path d="M 200,250 h 212" data-line="risk" data-from="30 31 keepzoom" />
+                <text x="180" y="250" data-from="30 33 keepzoom">Grand Paris Express (FR)</text>
+                <path d="M 200,250 h 212" data-line="risk" data-from="30 33 keepzoom" />
 
-                <text x="180" y="275" data-from="30 37 keepzoom">Crossrail London (UK)</text>
-                <path d="M 200,275 h 305" data-line="risk" data-from="30 37 keepzoom" />
+                <text x="180" y="275" data-from="30 39 keepzoom">Crossrail London (UK)</text>
+                <path d="M 200,275 h 305" data-line="risk" data-from="30 39 keepzoom" />
 
                 <g class="dummy" data-from="30 70 noanim-keepzoom"></g>
             </g>
 
-            <text x="180" y="300" data-from="30 43 keepzoom" data-to="30 56 nozoom">Gotthard-Scheiteltunnel (CH)</text>
-            <path d="M 200,300 h 2078" data-line="risk" data-from="30 43 keepzoom" data-to="30 56 noanim-nozoom" data-speed="200" />
+            <text x="180" y="300" data-from="30 45 keepzoom" data-to="30 58 nozoom">Gotthard-Scheiteltunnel (CH)</text>
+            <path d="M 200,300 h 2078" data-line="risk" data-from="30 45 keepzoom" data-to="30 58 noanim-nozoom" data-speed="200" />
             </g>
         </g>
 
         <g id="tt" transform="translate(2714531, 1762241) scale(20)" data-from="25 0 noanim-keepzoom" class="toplevel">
             <g data-from="25 0 noanim-keepzoom">
                 <rect x="-50" y="-100" width="500" height="400" data-from="25 1 noanim" data-to="25 40 noanim" class="helper" />
-                <text x="200" y="-30" class="heading">Reisezeitverkürzungen durch Stuttgart 21</text>
+                <text x="200" y="-30" class="heading" data-to="25 22 keepzoom">Reisezeitverkürzungen dank Stuttgart 21</text>
+                <text x="200" y="-30" class="heading" data-from="25 22 keepzoom">Reisezeitveränderungen durch Stuttgart 21</text>
                 <text x="200" y="0" data-to="25 30 keepzoom" style="text-anchor: middle;font-size:12px;">Veränderung in Minuten</text>
                 <text x="200" y="0" data-from="25 30 keepzoom" style="text-anchor: middle;font-size:12px;visibility:hidden">Veränderung der kumulierten Reisezeit aller Fahrgäste auf der Relation</text>
 
@@ -751,83 +753,83 @@
 
         <g id="gravity" transform="translate(-2665433.5070036715 -1775162.4563828395) scale(20)" data-from="20 0 noanim-keepzoom" class="toplevel">
             <!--269384 176635-->
-            <rect x="268718" y="176012" width="716" height="673" class="dummy helper" data-from="20 1 noanim" data-to="20 45 noanim" />
-            <path data-line="TS_TLU" class="10" data-stops="+0 gTS +0 gTLU" data-from="20 1 noanim-keepzoom" data-to="20 10 noanim-keepzoom" data-beck-style="false" />
-            <path data-line="TS_TLU" class="10" data-stops="+0 gTS +0 gTLU" data-weight="10" data-from="20 10 noanim-keepzoom" data-to="20 30 noanim-keepzoom" data-beck-style="false" />
-            <path data-line="TS_TLU" class="13" data-stops="+0 gTS +0 gTLU" data-weight="7" data-from="20 30 noanim-keepzoom" data-beck-style="false" />
+            <rect x="268718" y="176012" width="716" height="673" class="dummy helper" data-from="20 1 noanim" data-to="20 50 noanim" />
+            <path data-line="TS_TLU" class="10" data-stops="+0 gTS +0 gTLU" data-from="20 1 noanim-keepzoom" data-to="20 14 noanim-keepzoom" data-beck-style="false" />
+            <path data-line="TS_TLU" class="10" data-stops="+0 gTS +0 gTLU" data-weight="10" data-from="20 14 noanim-keepzoom" data-to="20 38 noanim-keepzoom" data-beck-style="false" />
+            <path data-line="TS_TLU" class="13" data-stops="+0 gTS +0 gTLU" data-weight="7" data-from="20 38 noanim-keepzoom" data-beck-style="false" />
 
-            <path data-line="TS_TWN" class="12" data-stops="+0 gTS +0 gTWN" data-from="20 1 noanim-keepzoom" data-to="20 10 noanim-keepzoom" data-beck-style="false" />
-            <path data-line="TS_TWN" class="12" data-stops="+0 gTS +0 gTWN" data-weight="11" data-from="20 10 noanim-keepzoom" data-to="20 30 noanim-keepzoom" data-beck-style="false" />
-            <path data-line="TS_TWN" class="12" data-stops="+0 gTS +0 gTWN" data-weight="10" data-from="20 30 noanim-keepzoom" data-beck-style="false" />
+            <path data-line="TS_TWN" class="12" data-stops="+0 gTS +0 gTWN" data-from="20 1 noanim-keepzoom" data-to="20 14 noanim-keepzoom" data-beck-style="false" />
+            <path data-line="TS_TWN" class="12" data-stops="+0 gTS +0 gTWN" data-weight="11" data-from="20 14 noanim-keepzoom" data-to="20 38 noanim-keepzoom" data-beck-style="false" />
+            <path data-line="TS_TWN" class="12" data-stops="+0 gTS +0 gTWN" data-weight="10" data-from="20 38 noanim-keepzoom" data-beck-style="false" />
 
-            <!--<path data-line="TS_TE" class="8" data-stops="+0 gTS +0 gTE" data-weight="11" data-from="20 10 noanim-keepzoom" data-to="20 30 noanim-keepzoom" data-beck-style="false" />
-            <path data-line="TS_TE" class="9" data-stops="+0 gTS +0 gTE" data-weight="6" data-from="20 30 noanim-keepzoom" data-beck-style="false" />-->
+            <!--<path data-line="TS_TE" class="8" data-stops="+0 gTS +0 gTE" data-weight="11" data-from="20 14 noanim-keepzoom" data-to="20 38 noanim-keepzoom" data-beck-style="false" />
+            <path data-line="TS_TE" class="9" data-stops="+0 gTS +0 gTE" data-weight="6" data-from="20 38 noanim-keepzoom" data-beck-style="false" />-->
 
-            <path data-line="TS_TFL" class="4" data-stops="+0 gTS +0 gTFL" data-from="20 1 noanim-keepzoom" data-to="20 10 noanim-keepzoom" data-beck-style="false" />
-            <path data-line="TS_TFL" class="4" data-stops="+0 gTS +0 gTFL" data-weight="27" data-from="20 10 noanim-keepzoom" data-to="20 30 noanim-keepzoom" data-beck-style="false" />
-            <path data-line="TS_TFL" class="12" data-stops="+0 gTS +0 gTFL" data-weight="6" data-from="20 30 noanim-keepzoom" data-beck-style="false" />
+            <path data-line="TS_TFL" class="4" data-stops="+0 gTS +0 gTFL" data-from="20 1 noanim-keepzoom" data-to="20 14 noanim-keepzoom" data-beck-style="false" />
+            <path data-line="TS_TFL" class="4" data-stops="+0 gTS +0 gTFL" data-weight="27" data-from="20 14 noanim-keepzoom" data-to="20 38 noanim-keepzoom" data-beck-style="false" />
+            <path data-line="TS_TFL" class="12" data-stops="+0 gTS +0 gTFL" data-weight="6" data-from="20 38 noanim-keepzoom" data-beck-style="false" />
 
-            <path data-line="TS_TBO" class="7" data-stops="+0 gTS +0 gTBO" data-from="20 1 noanim-keepzoom" data-to="20 10 noanim-keepzoom" data-beck-style="false" />
-            <path data-line="TS_TBO" class="7" data-stops="+0 gTS +0 gTBO" data-weight="21" data-from="20 10 noanim-keepzoom" data-to="20 30 noanim-keepzoom" data-beck-style="false" />
-            <path data-line="TS_TBO" class="12" data-stops="+0 gTS +0 gTBO" data-weight="15" data-from="20 30 noanim-keepzoom" data-beck-style="false" />
+            <path data-line="TS_TBO" class="7" data-stops="+0 gTS +0 gTBO" data-from="20 1 noanim-keepzoom" data-to="20 14 noanim-keepzoom" data-beck-style="false" />
+            <path data-line="TS_TBO" class="7" data-stops="+0 gTS +0 gTBO" data-weight="21" data-from="20 14 noanim-keepzoom" data-to="20 38 noanim-keepzoom" data-beck-style="false" />
+            <path data-line="TS_TBO" class="12" data-stops="+0 gTS +0 gTBO" data-weight="15" data-from="20 38 noanim-keepzoom" data-beck-style="false" />
 
-            <!--<path data-line="TS_TKT" class="2" data-stops="+0 gTS +0 gTKT" data-weight="43" data-from="20 10 noanim-keepzoom" data-to="20 30 noanim-keepzoom" data-beck-style="false" />
-            <path data-line="TS_TKT" class="2" data-stops="+0 gTS +0 gTKT" data-weight="45" data-from="20 30 noanim-keepzoom" data-beck-style="false" />-->
+            <!--<path data-line="TS_TKT" class="2" data-stops="+0 gTS +0 gTKT" data-weight="43" data-from="20 14 noanim-keepzoom" data-to="20 38 noanim-keepzoom" data-beck-style="false" />
+            <path data-line="TS_TKT" class="2" data-stops="+0 gTS +0 gTKT" data-weight="45" data-from="20 38 noanim-keepzoom" data-beck-style="false" />-->
 
-            <path data-line="TS_TNU" class="2" data-stops="+0 gTS +0 gTNU" data-from="20 1 noanim-keepzoom" data-to="20 10 noanim-keepzoom" data-beck-style="false" />
-            <path data-line="TS_TNU" class="2" data-stops="+0 gTS +0 gTNU" data-weight="31" data-from="20 10 noanim-keepzoom" data-to="20 30 noanim-keepzoom" data-beck-style="false" />
-            <path data-line="TS_TNU" class="4" data-stops="+0 gTS +0 gTNU" data-weight="18" data-from="20 30 noanim-keepzoom" data-beck-style="false" />
+            <path data-line="TS_TNU" class="2" data-stops="+0 gTS +0 gTNU" data-from="20 1 noanim-keepzoom" data-to="20 14 noanim-keepzoom" data-beck-style="false" />
+            <path data-line="TS_TNU" class="2" data-stops="+0 gTS +0 gTNU" data-weight="31" data-from="20 14 noanim-keepzoom" data-to="20 38 noanim-keepzoom" data-beck-style="false" />
+            <path data-line="TS_TNU" class="4" data-stops="+0 gTS +0 gTNU" data-weight="18" data-from="20 38 noanim-keepzoom" data-beck-style="false" />
 
-            <path data-line="TS_TSC" class="20" data-stops="+0 gTS +0 gTSC" data-from="20 1 noanim-keepzoom" data-to="20 10 noanim-keepzoom" data-beck-style="false" />
-            <path data-line="TS_TSC" class="20" data-stops="+0 gTS +0 gTSC" data-weight="3" data-from="20 10 noanim-keepzoom" data-to="20 30 noanim-keepzoom" data-beck-style="false" />
-            <path data-line="TS_TSC" class="20" data-stops="+0 gTS +0 gTSC" data-weight="4" data-from="20 30 noanim-keepzoom" data-beck-style="false" />
+            <path data-line="TS_TSC" class="20" data-stops="+0 gTS +0 gTSC" data-from="20 1 noanim-keepzoom" data-to="20 14 noanim-keepzoom" data-beck-style="false" />
+            <path data-line="TS_TSC" class="20" data-stops="+0 gTS +0 gTSC" data-weight="3" data-from="20 14 noanim-keepzoom" data-to="20 38 noanim-keepzoom" data-beck-style="false" />
+            <path data-line="TS_TSC" class="20" data-stops="+0 gTS +0 gTSC" data-weight="4" data-from="20 38 noanim-keepzoom" data-beck-style="false" />
             
-            <!--<path data-line="TS_TGO" class="2" data-stops="+0 gTS +0 gTGO" data-weight="28" data-from="20 10 noanim-keepzoom" data-to="20 30 noanim-keepzoom" data-beck-style="false" />
-            <path data-line="TS_TGO" class="3" data-stops="+0 gTS +0 gTGO" data-weight="26" data-from="20 30 noanim-keepzoom" data-beck-style="false" />-->
+            <!--<path data-line="TS_TGO" class="2" data-stops="+0 gTS +0 gTGO" data-weight="28" data-from="20 14 noanim-keepzoom" data-to="20 38 noanim-keepzoom" data-beck-style="false" />
+            <path data-line="TS_TGO" class="3" data-stops="+0 gTS +0 gTGO" data-weight="26" data-from="20 38 noanim-keepzoom" data-beck-style="false" />-->
 
-            <path data-line="TS_TSFE" class="12" data-stops="+0 gTS +0 gTSFE" data-from="20 1 noanim-keepzoom" data-to="20 10 noanim-keepzoom" data-beck-style="false" />
-            <path data-line="TS_TSFE" class="12" data-stops="+0 gTS +0 gTSFE" data-weight="5" data-from="20 10 noanim-keepzoom" data-to="20 30 noanim-keepzoom" data-beck-style="false" />
-            <path data-line="TS_TSFE" class="12" data-stops="+0 gTS +0 gTSFE" data-weight="7" data-from="20 30 noanim-keepzoom" data-beck-style="false" />
+            <path data-line="TS_TSFE" class="12" data-stops="+0 gTS +0 gTSFE" data-from="20 1 noanim-keepzoom" data-to="20 14 noanim-keepzoom" data-beck-style="false" />
+            <path data-line="TS_TSFE" class="12" data-stops="+0 gTS +0 gTSFE" data-weight="5" data-from="20 14 noanim-keepzoom" data-to="20 38 noanim-keepzoom" data-beck-style="false" />
+            <path data-line="TS_TSFE" class="12" data-stops="+0 gTS +0 gTSFE" data-weight="7" data-from="20 38 noanim-keepzoom" data-beck-style="false" />
 
-            <!--<path data-line="TS_TSV" class="12" data-stops="+0 gTS +0 gTSV" data-weight="14" data-from="20 10 noanim-keepzoom" data-to="20 30 noanim-keepzoom" data-beck-style="false" />
-            <path data-line="TS_TSV" class="18" data-stops="+0 gTS +0 gTSV" data-weight="14" data-from="20 30 noanim-keepzoom" data-beck-style="false" />-->
+            <!--<path data-line="TS_TSV" class="12" data-stops="+0 gTS +0 gTSV" data-weight="14" data-from="20 14 noanim-keepzoom" data-to="20 38 noanim-keepzoom" data-beck-style="false" />
+            <path data-line="TS_TSV" class="18" data-stops="+0 gTS +0 gTSV" data-weight="14" data-from="20 38 noanim-keepzoom" data-beck-style="false" />-->
             
-            <path data-line="TS_TP" class="10" data-stops="+0 gTS +0 gTP" data-from="20 1 noanim-keepzoom" data-to="20 10 noanim-keepzoom" data-beck-style="false" />
-            <path data-line="TS_TP" class="10" data-stops="+0 gTS +0 gTP" data-weight="17" data-from="20 10 noanim-keepzoom" data-to="20 30 noanim-keepzoom" data-beck-style="false" />
-            <path data-line="TS_TP" class="9" data-stops="+0 gTS +0 gTP" data-weight="15" data-from="20 30 noanim-keepzoom" data-beck-style="false" />
+            <path data-line="TS_TP" class="10" data-stops="+0 gTS +0 gTP" data-from="20 1 noanim-keepzoom" data-to="20 14 noanim-keepzoom" data-beck-style="false" />
+            <path data-line="TS_TP" class="10" data-stops="+0 gTS +0 gTP" data-weight="17" data-from="20 14 noanim-keepzoom" data-to="20 38 noanim-keepzoom" data-beck-style="false" />
+            <path data-line="TS_TP" class="9" data-stops="+0 gTS +0 gTP" data-weight="15" data-from="20 38 noanim-keepzoom" data-beck-style="false" />
 
-            <path data-line="TS_TLE" class="4" data-stops="+0 gTS +0 gTLE" data-from="20 1 noanim-keepzoom" data-to="20 10 noanim-keepzoom" data-beck-style="false" />
-            <path data-line="TS_TLE" class="4" data-stops="+0 gTS +0 gTLE" data-weight="25" data-from="20 10 noanim-keepzoom" data-to="20 30 noanim-keepzoom" data-beck-style="false" />
-            <path data-line="TS_TLE" class="6" data-stops="+0 gTS +0 gTLE" data-weight="27" data-from="20 30 noanim-keepzoom" data-beck-style="false" />
+            <path data-line="TS_TLE" class="4" data-stops="+0 gTS +0 gTLE" data-from="20 1 noanim-keepzoom" data-to="20 14 noanim-keepzoom" data-beck-style="false" />
+            <path data-line="TS_TLE" class="4" data-stops="+0 gTS +0 gTLE" data-weight="25" data-from="20 14 noanim-keepzoom" data-to="20 38 noanim-keepzoom" data-beck-style="false" />
+            <path data-line="TS_TLE" class="6" data-stops="+0 gTS +0 gTLE" data-weight="27" data-from="20 38 noanim-keepzoom" data-beck-style="false" />
 
-            <!--<path data-line="TS_TV" class="3" data-stops="+0 gTS +0 gTV" data-weight="16" data-from="20 10 noanim-keepzoom" data-to="20 30 noanim-keepzoom" data-beck-style="false" />
-            <path data-line="TS_TV" class="5" data-stops="+0 gTS +0 gTV" data-weight="11" data-from="20 30 noanim-keepzoom" data-beck-style="false" />-->
+            <!--<path data-line="TS_TV" class="3" data-stops="+0 gTS +0 gTV" data-weight="16" data-from="20 14 noanim-keepzoom" data-to="20 38 noanim-keepzoom" data-beck-style="false" />
+            <path data-line="TS_TV" class="5" data-stops="+0 gTS +0 gTV" data-weight="11" data-from="20 38 noanim-keepzoom" data-beck-style="false" />-->
 
-            <path data-line="TBO_TFL" class="4" data-stops="+0 gTBO +0 gTFL" data-from="20 1 noanim-keepzoom" data-to="20 10 noanim-keepzoom" data-beck-style="false" />
-            <path data-line="TBO_TFL" class="4" data-stops="+0 gTBO +0 gTFL" data-weight="22" data-from="20 10 noanim-keepzoom" data-to="20 30 noanim-keepzoom" data-beck-style="false" />
-            <path data-line="TBO_TFL" class="8" data-stops="+0 gTBO +0 gTFL" data-weight="7" data-from="20 30 noanim-keepzoom" data-beck-style="false" />
+            <path data-line="TBO_TFL" class="4" data-stops="+0 gTBO +0 gTFL" data-from="20 1 noanim-keepzoom" data-to="20 14 noanim-keepzoom" data-beck-style="false" />
+            <path data-line="TBO_TFL" class="4" data-stops="+0 gTBO +0 gTFL" data-weight="22" data-from="20 14 noanim-keepzoom" data-to="20 38 noanim-keepzoom" data-beck-style="false" />
+            <path data-line="TBO_TFL" class="8" data-stops="+0 gTBO +0 gTFL" data-weight="7" data-from="20 38 noanim-keepzoom" data-beck-style="false" />
 
-            <path data-line="TP_TSC" class="7" data-stops="+0 gTP +0 gTSC" data-from="20 1 noanim-keepzoom" data-to="20 10 noanim-keepzoom" data-beck-style="false" />
-            <path data-line="TP_TSC" class="7" data-stops="+0 gTP +0 gTSC" data-weight="14" data-from="20 10 noanim-keepzoom" data-to="20 30 noanim-keepzoom" data-beck-style="false" />
-            <path data-line="TP_TSC" class="6" data-stops="+0 gTP +0 gTSC" data-weight="23" data-from="20 30 noanim-keepzoom" data-beck-style="false" />
+            <path data-line="TP_TSC" class="7" data-stops="+0 gTP +0 gTSC" data-from="20 1 noanim-keepzoom" data-to="20 14 noanim-keepzoom" data-beck-style="false" />
+            <path data-line="TP_TSC" class="7" data-stops="+0 gTP +0 gTSC" data-weight="14" data-from="20 14 noanim-keepzoom" data-to="20 38 noanim-keepzoom" data-beck-style="false" />
+            <path data-line="TP_TSC" class="6" data-stops="+0 gTP +0 gTSC" data-weight="23" data-from="20 38 noanim-keepzoom" data-beck-style="false" />
 
             
-            <!--<path data-line="TSFE_TSC" class="18" data-stops="+0 gTSFE +0 gTSC" data-weight="13" data-from="20 10 noanim-keepzoom" data-to="20 30 noanim-keepzoom" data-beck-style="false" />
-            <path data-line="TSFE_TSC" class="6" data-stops="+0 gTSFE +0 gTSC" data-weight="9" data-from="20 30 noanim-keepzoom" data-beck-style="false" />-->
+            <!--<path data-line="TSFE_TSC" class="18" data-stops="+0 gTSFE +0 gTSC" data-weight="13" data-from="20 14 noanim-keepzoom" data-to="20 38 noanim-keepzoom" data-beck-style="false" />
+            <path data-line="TSFE_TSC" class="6" data-stops="+0 gTSFE +0 gTSC" data-weight="9" data-from="20 38 noanim-keepzoom" data-beck-style="false" />-->
             
-            <path data-line="TBO_TLE" class="2" data-stops="+0 gTBO +0 gTLE" data-from="20 1 noanim-keepzoom" data-to="20 10 noanim-keepzoom" data-beck-style="false" />
-            <path data-line="TBO_TLE" class="2" data-stops="+0 gTBO +0 gTLE" data-weight="28" data-from="20 10 noanim-keepzoom" data-to="20 30 noanim-keepzoom" data-beck-style="false" />
-            <path data-line="TBO_TLE" class="2" data-stops="+0 gTBO +0 gTLE" data-weight="29" data-from="20 30 noanim-keepzoom" data-beck-style="false" />
+            <path data-line="TBO_TLE" class="2" data-stops="+0 gTBO +0 gTLE" data-from="20 1 noanim-keepzoom" data-to="20 14 noanim-keepzoom" data-beck-style="false" />
+            <path data-line="TBO_TLE" class="2" data-stops="+0 gTBO +0 gTLE" data-weight="28" data-from="20 14 noanim-keepzoom" data-to="20 38 noanim-keepzoom" data-beck-style="false" />
+            <path data-line="TBO_TLE" class="2" data-stops="+0 gTBO +0 gTLE" data-weight="29" data-from="20 38 noanim-keepzoom" data-beck-style="false" />
 
-            <!--<path data-line="TBO_TNU" class="4" data-stops="+0 gTBO +0 gTNU" data-weight="60" data-from="20 10 noanim-keepzoom" data-to="20 30 noanim-keepzoom" data-beck-style="false" />
-            <path data-line="TBO_TNU" class="7" data-stops="+0 gTBO +0 gTNU" data-weight="31" data-from="20 30 noanim-keepzoom" data-beck-style="false" />-->
+            <!--<path data-line="TBO_TNU" class="4" data-stops="+0 gTBO +0 gTNU" data-weight="60" data-from="20 14 noanim-keepzoom" data-to="20 38 noanim-keepzoom" data-beck-style="false" />
+            <path data-line="TBO_TNU" class="7" data-stops="+0 gTBO +0 gTNU" data-weight="31" data-from="20 38 noanim-keepzoom" data-beck-style="false" />-->
 
-            <path data-line="TNU_TP" class="2" data-stops="+0 gTNU +0 gTP" data-from="20 1 noanim-keepzoom" data-to="20 10 noanim-keepzoom" data-beck-style="false" />
-            <path data-line="TNU_TP" class="2" data-stops="+0 gTNU +0 gTP" data-weight="15" data-from="20 10 noanim-keepzoom" data-to="20 30 noanim-keepzoom" data-beck-style="false" />
-            <path data-line="TNU_TP" class="2" data-stops="+0 gTNU +0 gTP" data-weight="12" data-from="20 30 noanim-keepzoom" data-beck-style="false" />
+            <path data-line="TNU_TP" class="2" data-stops="+0 gTNU +0 gTP" data-from="20 1 noanim-keepzoom" data-to="20 14 noanim-keepzoom" data-beck-style="false" />
+            <path data-line="TNU_TP" class="2" data-stops="+0 gTNU +0 gTP" data-weight="15" data-from="20 14 noanim-keepzoom" data-to="20 38 noanim-keepzoom" data-beck-style="false" />
+            <path data-line="TNU_TP" class="2" data-stops="+0 gTNU +0 gTP" data-weight="12" data-from="20 38 noanim-keepzoom" data-beck-style="false" />
 
-            <!--<path data-line="TLU_TSFE" class="8" data-stops="+0 gTLU +0 gTSFE" data-weight="10" data-from="20 10 noanim-keepzoom" data-to="20 30 noanim-keepzoom" data-beck-style="false" />
-            <path data-line="TLU_TSFE" class="8" data-stops="+0 gTLU +0 gTSFE" data-weight="9" data-from="20 30 noanim-keepzoom" data-beck-style="false" />-->
+            <!--<path data-line="TLU_TSFE" class="8" data-stops="+0 gTLU +0 gTSFE" data-weight="10" data-from="20 14 noanim-keepzoom" data-to="20 38 noanim-keepzoom" data-beck-style="false" />
+            <path data-line="TLU_TSFE" class="8" data-stops="+0 gTLU +0 gTSFE" data-weight="9" data-from="20 38 noanim-keepzoom" data-beck-style="false" />-->
 
 
 
@@ -871,96 +873,100 @@
 
         </g>
 
+        <g id="neigung" transform="translate(2670126 1769503) scale(200)">
+            <rect class="hidden helper" x="5" y="-1" width="1" height="2" data-from="49 5 noanim"/>
+            <path class="train Profile" data-train="neigung-line" data-length="5" data-stops="neigung1 +15+22 neigung2" data-from="49 15 keepzoom" data-to="49 22 keepzoom" />
+            <rect data-station="neigung1" class="hidden helper" x="-32" y="-1.68" />
+            <rect data-station="neigung2" class="hidden helper" x="128" y="0.72" />
+            <path data-line="neigung-line" data-stops="neigung1 neigung2" class="dummy helper" data-beck-style="false" />
+            <path d="M 0,8 v -8 l 32,0.48 L 32,8 Z" style="fill: #B71C1C; stroke: none;visibility:hidden" data-from="40 60 noanim-keepzoom" />
+        </g>
+
         <image href="res/high/map_10000_circ_small_bw.png" x="2680924" y="1751182" width="27472" height="27472" preserveAspectRatio="none" />
         <image href="res/high/stgt_750m_small.png" x="2686193" y="1758737" width="9007" height="9097" style="opacity:0.6" preserveAspectRatio="none" />
         <g id="geo_intro">
         </g>
         <g id="geo_intro_labels">
-            <rect x="2690219" y="1762363" class="helper dummy" width="1000" height="1000" data-from="0 17" data-to="1 110 keepzoom" />
-            <rect x="2690219" y="1762363" class="helper dummy" width="1000" height="1000" data-from="80 45 noanim" data-to="80 55 noanim-keepzoom" />
-            <text class="dummy helper" data-from="0 32 keepzoom"></text>
+            <rect x="2690219" y="1762363" class="helper dummy" width="1000" height="1000" data-from="0 17" data-to="1 117 keepzoom" />
+            <text class="dummy helper" data-from="0 37 keepzoom"></text>
+
+            <g class="dummy helper" data-from="70 125 noanim-nozoom" data-to="70 130 noanim-nozoom"></g>
+            <rect x="2690219" y="1762363" class="helper dummy" width="1000" height="1000" data-from="80 1 noanim" data-to="80 60 noanim" />
+
 
        
 
-            <text x="2690655" y="1762987" data-from="0 1" data-to="1 110 keepzoom" class="shadow">Stuttgart Hbf</text>
-            <text x="2690655" y="1762987" data-from="80 1" data-to="80 95 keepzoom" class="shadow">Stuttgart Hbf</text>
-            <text x="2690439" y="1762363" data-from="1 2 keepzoom" data-to="1 110 keepzoom" class="shadow">Feuerbach</text>
-            <text x="2690439" y="1762363" data-from="80 1 keepzoom" data-to="80 95 keepzoom" class="shadow">Feuerbach</text>
-            <text x="2690439" y="1762063" data-from="80 1 keepzoom" data-to="80 95 keepzoom" class="shadow">Zuffenhausen</text>
-            <text x="2690971" y="1762567" data-from="1 7 keepzoom" data-to="1 110 keepzoom" class="shadow">Bad Cannstatt</text>
-            <text x="2690971" y="1762567" data-from="80 1 keepzoom" data-to="80 95 keepzoom" class="shadow">Bad Cannstatt</text>
-            <text x="2691579" y="1763090" data-from="1 10 keepzoom" data-to="1 110 keepzoom" class="shadow">Untertürkheim</text>
-            <text x="2690916" y="1765002" data-from="1 17 keepzoom" data-to="1 110 keepzoom" class="shadow">Flughafen/Messe</text>
-            <text x="2690916" y="1765002" data-from="80 1 keepzoom" data-to="80 95 keepzoom" class="shadow">Flughafen/Messe</text>
-            <text x="2688516" y="1765002" data-from="80 1 keepzoom" data-to="80 95 keepzoom" class="shadow">Böblingen</text>
-            <text x="2693262" y="1765473" data-from="1 21 keepzoom" data-to="1 110 keepzoom" class="shadow">Wendlingen</text>
+            <text x="2690655" y="1762987" data-from="0 1" data-to="1 117 keepzoom" class="shadow">Stuttgart Hbf</text>
+            <text x="2690655" y="1762987" data-from="80 1" data-to="80 110 keepzoom" class="shadow">Stuttgart Hbf</text>
+            <text x="2690439" y="1762363" data-from="1 2 keepzoom" data-to="1 117 keepzoom" class="shadow">Feuerbach</text>
+            <text x="2690439" y="1762363" data-from="80 1 keepzoom" data-to="80 110 keepzoom" class="shadow">Feuerbach</text>
+            <text x="2690439" y="1762000" data-from="80 1 keepzoom" data-to="80 110 keepzoom" class="shadow">Zuffenhausen</text>
+            <text x="2690971" y="1762567" data-from="1 7 keepzoom" data-to="1 117 keepzoom" class="shadow">Bad Cannstatt</text>
+            <text x="2690971" y="1762567" data-from="80 1 keepzoom" data-to="80 110 keepzoom" class="shadow">Bad Cannstatt</text>
+            <text x="2691579" y="1763090" data-from="1 10 keepzoom" data-to="1 117 keepzoom" class="shadow">Untertürkheim</text>
+            <text x="2690916" y="1765002" data-from="1 14 keepzoom" data-to="1 117 keepzoom" class="shadow">Flughafen/Messe</text>
+            <text x="2690916" y="1765002" data-from="80 1 keepzoom" data-to="80 110 keepzoom" class="shadow">Flughafen/Messe</text>
+            <text x="2688516" y="1765002" data-from="80 1 keepzoom" data-to="80 110 keepzoom" class="shadow">Böblingen</text>
+            <text x="2693262" y="1765473" data-from="1 21 keepzoom" data-to="1 117 keepzoom" class="shadow">Wendlingen</text>
             <text x="2702068" y="1771093" class="shadow" style="font-size:160px">Ulm</text>
-        </g>
-        <g id="neigung" transform="translate(2670126 1769503) scale(200)">
-            <rect class="hidden helper" x="5" y="-1" width="1" height="2" data-from="49 5 noanim"/>
-            <path class="train Profile" data-train="neigung-line" data-length="5" data-stops="neigung1 +10+20 neigung2" data-from="49 10 keepzoom" data-to="49 20 keepzoom" />
-            <rect data-station="neigung1" class="hidden helper" x="-32" y="-1.68" />
-            <rect data-station="neigung2" class="hidden helper" x="128" y="0.72" />
-            <path data-line="neigung-line" data-stops="neigung1 neigung2" class="dummy helper" data-beck-style="false" />
-            <path d="M 0,8 v -8 l 32,0.48 L 32,8 Z" style="fill: #B71C1C; stroke: none;visibility:hidden" data-from="49 4 noanim-keepzoom" />
         </g>
     </g>
 
 </g>
     <text x="2662352" y="1747282" data-from="0 17 keepzoom" data-to="1 20 keepzoom" class="shadow corner-text" transform="rotate(45 2662352 1747282)">⇦ Mannheim</text>
-    <text x="2662352" y="1747282" data-from="80 1 keepzoom" data-to="80 95 keepzoom" class="shadow corner-text" transform="rotate(45 2662352 1747282)">⇦ Mannheim</text>
+    <text x="2662352" y="1747282" data-from="80 1 keepzoom" data-to="80 110 keepzoom" class="shadow corner-text" transform="rotate(45 2662352 1747282)">⇦ Mannheim</text>
     <text x="2662352" y="1782654" data-from="0 17 keepzoom" data-to="1 20 keepzoom" class="shadow corner-text" transform="rotate(-45 2662352 1782654)">⇦ Zürich</text>
-    <text x="2662352" y="1782654" data-from="80 1 keepzoom" data-to="80 95 keepzoom" class="shadow corner-text" transform="rotate(-45 2662352 1782654)">⇦ Zürich</text>
+    <text x="2662352" y="1782654" data-from="80 1 keepzoom" data-to="80 110 keepzoom" class="shadow corner-text" transform="rotate(-45 2662352 1782654)">⇦ Zürich</text>
 
-    <text x="2727600" y="1782900" data-inset="stgt" data-from="0 1 keepzoom" data-to="1 110 keepzoom" class="shadow caption">Orthofoto: Geobasisdaten ©LGL, www.lgl-bw.de. DL-DE-BY 2.0. Relief: maps-for-free.com. CC0. Relief/Pfade: © OpenStreetMap Contributors</text>
-    <text x="2727600" y="1782900" data-inset="stgt" data-from="80 1 keepzoom" data-to="80 195 keepzoom" class="shadow caption">Orthofoto: Geobasisdaten ©LGL, www.lgl-bw.de. DL-DE-BY 2.0. Relief: maps-for-free.com. CC0. Relief/Pfade: © OpenStreetMap Contributors</text>
+    <text x="2727600" y="1782900" data-inset="stgt" data-from="0 1 keepzoom" data-to="1 117 keepzoom" class="shadow caption">Orthofoto: Geobasisdaten ©LGL, www.lgl-bw.de. DL-DE-BY 2.0. Relief: maps-for-free.com. CC0. Relief/Pfade: © OpenStreetMap Contributors</text>
+    <text x="2727600" y="1782900" data-inset="stgt" data-from="80 1 keepzoom" data-to="80 300 keepzoom" class="shadow caption">Orthofoto: Geobasisdaten ©LGL, www.lgl-bw.de. DL-DE-BY 2.0. Relief: maps-for-free.com. CC0. Relief/Pfade: © OpenStreetMap Contributors</text>
 
 
     <image id="anab" href="res/anab.jpg" preserveAspectRatio="xMidYMid slice" class="cover" data-from="0 5 keepzoom" data-to="0 15 keepzoom" data-zoom="50 55" />
     <text x="2727600" y="1782900" data-inset="immobilien" data-from="0 5 keepzoom" data-to="0 15 keepzoom" class="shadow caption">Ankunft. Abfahrt. Traines. CC-BY-SA 4.0.</text>
 
-    <image id="voute" href="res/voute.jpg" preserveAspectRatio="xMidYMid slice" class="cover" data-from="1 43 keepzoom" data-to="1 53 keepzoom" data-zoom="55 50" />
-    <text x="2727600" y="1782900" data-inset="voute" data-from="1 43 keepzoom" data-to="1 53 keepzoom" class="shadow caption">Bonatzgewölbe. Traines. CC-BY-SA 4.0.</text>
+    <image id="voute" href="res/voute.jpg" preserveAspectRatio="xMidYMid slice" class="cover" data-from="1 42 keepzoom" data-to="1 53 keepzoom" data-zoom="55 50" />
+    <text x="2727600" y="1782900" data-inset="voute" data-from="1 42 keepzoom" data-to="1 53 keepzoom" class="shadow caption">Bonatzgewölbe. Traines. CC-BY-SA 4.0.</text>
 
-    <image id="immobilien" href="res/immobilien.jpg" preserveAspectRatio="xMidYMid slice" class="cover" data-from="1 75 keepzoom" data-to="1 95 keepzoom" data-zoom="45 55" />
-    <text x="2727600" y="1782900" data-inset="immobilien" data-from="1 75 keepzoom" data-to="1 95 keepzoom" class="shadow caption">Stuttgart Hbf von oben. Traines. CC-BY-SA 4.0.</text>
+    <image id="immobilien" href="res/immobilien.jpg" preserveAspectRatio="xMidYMid slice" class="cover" data-from="1 78 keepzoom" data-to="1 98 keepzoom" data-zoom="45 55" />
+    <text x="2727600" y="1782900" data-inset="immobilien" data-from="1 78 keepzoom" data-to="1 98 keepzoom" class="shadow caption">Stuttgart Hbf von oben. Traines. CC-BY-SA 4.0.</text>
 
 
     <image id="anhydrit" href="res/(2015-12-19)_ANHYDRIT_07_PWA-S.jpg" preserveAspectRatio="xMidYMid slice" class="cover" data-from="40 7 keepzoom" data-to="40 15 keepzoom" data-zoom="55 55" />
     <text x="2727600" y="1782900" data-inset="anhydrit" data-from="40 7 keepzoom" data-to="40 15 keepzoom" class="shadow caption">Teil einer Anhydritrosette. Hans-Joachim Engelhardt. CC-BY-SA 4.0.</text>
 
-    <image id="engelberg" href="res/Leonberg_Engelbergtunnel_20060608.jpg" preserveAspectRatio="xMidYMid slice" class="cover" data-from="40 45 keepzoom" data-to="40 53 keepzoom" data-zoom="50 45" />
-    <text x="2727600" y="1782900" data-inset="engelberg" data-from="40 45 keepzoom" data-to="40 53 keepzoom" class="shadow caption">Engelbergtunnel. K. Jähne. CC-BY-SA 3.0.</text>
+    <image id="engelberg" href="res/Leonberg_Engelbergtunnel_20060608.jpg" preserveAspectRatio="xMidYMid slice" class="cover" data-from="40 43 keepzoom" data-to="40 51 keepzoom" data-zoom="50 45" />
+    <text x="2727600" y="1782900" data-inset="engelberg" data-from="40 43 keepzoom" data-to="40 51 keepzoom" class="shadow caption">Engelbergtunnel. K. Jähne. CC-BY-SA 3.0.</text>
 
-    <image id="freudenstein" href="res/Freudensteintunnel_Ost.jpg" preserveAspectRatio="xMidYMid slice" class="cover" data-from="40 53 nozoom" data-to="40 61 nozoom" data-zoom="50 45" />
-    <text x="2727600" y="1782900" data-inset="freudenstein" data-from="40 53 nozoom" data-to="40 61 nozoom" class="shadow caption">Ostportal des Freudensteintunnels. Norbert Hüttisch. CC-BY-SA 3.0.</text>
+    <image id="freudenstein" href="res/Freudensteintunnel_Ost.jpg" preserveAspectRatio="xMidYMid slice" class="cover" data-from="40 51 nozoom" data-to="40 59 nozoom" data-zoom="50 45" />
+    <text x="2727600" y="1782900" data-inset="freudenstein" data-from="40 51 nozoom" data-to="40 59 nozoom" class="shadow caption">Ostportal des Freudensteintunnels. Norbert Hüttisch. CC-BY-SA 3.0.</text>
 
-    <image id="querneigung" href="res/querneigung.jpg" preserveAspectRatio="xMidYMid slice" class="cover" data-from="50 1 keepzoom" data-to="50 15 keepzoom" data-zoom="45 55" />
-    <text x="2727600" y="1782900" data-inset="querneigung" data-from="50 1 keepzoom" data-to="50 15 keepzoom" class="shadow caption">Bahnsteig Stuttgart Hbf. Traines. CC-BY-SA 4.0.</text>
+    <image id="querneigung" href="res/querneigung.jpg" preserveAspectRatio="xMidYMid slice" class="cover" data-from="50 4 keepzoom" data-to="50 19 keepzoom" data-zoom="45 55" />
+    <text x="2727600" y="1782900" data-inset="querneigung" data-from="50 4 keepzoom" data-to="50 19 keepzoom" class="shadow caption">Bahnsteig Stuttgart Hbf. Traines. CC-BY-SA 4.0.</text>
 
-    <image id="feuersee" href="res/S-Bahnhof_Feuersee.jpg" preserveAspectRatio="xMidYMid slice" class="cover" data-from="50 15 keepzoom" data-to="50 25 keepzoom" data-zoom="40 50" />
-    <text x="2727600" y="1782900" data-inset="feuersee" data-from="50 15 keepzoom" data-to="50 25 keepzoom" class="shadow caption">Der unterirdische S-Bahnhof Feuersee in Stuttgart. Silesia711. CC-BY-SA 4.0.</text>
+    <image id="feuersee" href="res/S-Bahnhof_Feuersee.jpg" preserveAspectRatio="xMidYMid slice" class="cover" data-from="50 19 keepzoom" data-to="50 33 keepzoom" data-zoom="40 50" />
+    <text x="2727600" y="1782900" data-inset="feuersee" data-from="50 19 keepzoom" data-to="50 33 keepzoom" class="shadow caption">Der unterirdische S-Bahnhof Feuersee in Stuttgart. Silesia711. CC-BY-SA 4.0.</text>
 
-    <image id="br403" href="res/201803_ICE-1539_at_Berlin_Hbf.jpg" preserveAspectRatio="xMidYMid slice" class="cover" data-from="50 25 nozoom" data-to="50 40 nozoom" data-zoom="55 50" />
-    <text x="2727600" y="1782900" data-inset="br403" data-from="50 25 nozoom" data-to="50 40 nozoom" class="shadow caption">201803 ICE-1539 at Berlin Hbf. MNXANL. CC-BY-SA 4.0.</text>
+    <image id="br403" href="res/201803_ICE-1539_at_Berlin_Hbf.jpg" preserveAspectRatio="xMidYMid slice" class="cover" data-from="50 33 nozoom" data-to="50 49 nozoom" data-zoom="55 50" />
+    <text x="2727600" y="1782900" data-inset="br403" data-from="50 33 nozoom" data-to="50 49 nozoom" class="shadow caption">201803 ICE-1539 at Berlin Hbf. MNXANL. CC-BY-SA 4.0.</text>
 
-    <image id="934" href="res/934.jpg" preserveAspectRatio="xMidYMid slice" class="cover" data-from="50 40 keepzoom" data-to="50 50 keepzoom" data-zoom="50 45" />
-    <text x="2727600" y="1782900" data-inset="934" data-from="50 40 keepzoom" data-to="50 50 keepzoom" class="shadow caption">Stuttgart Hbf (tief). Traines. CC-BY-SA 4.0.</text>
+    <image id="934" href="res/934.jpg" preserveAspectRatio="xMidYMid slice" class="cover" data-from="50 49 keepzoom" data-to="50 60   keepzoom" data-zoom="50 45" />
+    <text x="2727600" y="1782900" data-inset="934" data-from="50 49 keepzoom" data-to="50 60   keepzoom" class="shadow caption">Stuttgart Hbf (tief). Traines. CC-BY-SA 4.0.</text>
 
-    <image id="kelch" href="res/kelch.jpg" preserveAspectRatio="xMidYMid slice" class="cover" data-from="50 50 nozoom" data-to="50 65 nozoom" data-zoom="40 50" />
-    <text x="2727600" y="1782900" data-inset="kelch" data-from="50 50 nozoom" data-to="50 65 nozoom" class="shadow caption">Kelchstützen des Tiefbahnhofs. Traines. CC-BY-SA 4.0.</text>
+    <image id="kelch" href="res/kelch.jpg" preserveAspectRatio="xMidYMid slice" class="cover" data-from="50 60 nozoom" data-to="50 75 nozoom" data-zoom="40 50" />
+    <text x="2727600" y="1782900" data-inset="kelch" data-from="50 60 nozoom" data-to="50 75 nozoom" class="shadow caption">Kelchstützen des Tiefbahnhofs. Traines. CC-BY-SA 4.0.</text>
 
-    <g class="dummy" data-from="50 75 keepzoom" />
+    <g class="dummy" data-from="50 87 keepzoom" />
 
 
     <text x="2727600" y="1782900" data-inset="stgt" data-from="30 0 keepzoom" data-to="30 41 keepzoom" class="shadow caption">Quelle: #3, #4</text>
 
    
-    <g class="dummy" data-from="80 96 noanim-nozoom"></g>
+    <g class="dummy" data-from="80 111 noanim-nozoom"></g>
 
 
-    <rect id="epoch-label-bg" x="2719989" y="1747917" width="6245" height="3123" data-from="70 0 nozoom" data-to="70 120" />
-    <text id="custom-epoch-label" x="2723112" y="1749652" data-from="70 0 nozoom" data-to="70 120"></text>
+    <rect id="epoch-label-bg" x="2719989" y="1747917" width="6245" height="3123" data-from="70 0 noanim-keepzoom" data-to="70 120 noanim-nozoom" />
+    <text id="custom-epoch-label" x="2723112" y="1749652" data-from="70 0 noanim-keepzoom" data-to="70 120 noanim-nozoom"></text>
 
     <script xlink:href="../../dist/network-animator.js" />
     <script xlink:href="auxiliaries.js" />
