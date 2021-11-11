@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap');
+
+#elements rect {
+    stroke: black;
+    fill: white;
+    rx: 5;
+    stroke-width: 2;
+}
+
+#elements .helper {
+    stroke: none;
+    fill: none;
+    visibility: hidden;
+    opacity: 0;
+}
+
+#elements path {
+    stroke: black;
+    stroke-width: 3;
+    fill: none;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    opacity: 0.5;
+}
+
+#elements text, text.caption {
+    visibility: hidden;
+    fill: white;
+    text-shadow: 1px 1px 2px black;
+    
+}
+
+svg {
+    background-color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 16px;
+    line-height: 16px;
+}
+
+
+#epoch-label-bg {
+    fill:white;
+    stroke: black;
+    stroke-width: 5px;
+}
+
+#epoch-label {
+    font-size: 70px;
+    font-weight: bold;
+    text-anchor: middle;
+    dominant-baseline: middle;
+}
+
+.for-line {
+    overflow: visible;
+    white-space: nowrap;
+    font-weight: bold;
+}
+
+.for-line * {
+    display: inline-block;
+}
+
+.for-line div * {
+    border-radius: 50%;
+    width: 12px;
+    font-size: 12px;
+    line-height: 12px;
+    padding: 2px;
+    margin-right: 2px;
+    text-align: center;
+}
+
+image.cover {
+    x: 15300px;
+    y: 9700px;
+    width: 1920px;
+    height: 1080px;
+    visibility: hidden;
+
+}
+
+.caption {
+    text-anchor: end;
+    dominant-baseline: hanging;
+}
+
+#border {
+    stroke:#808080;
+    stroke-width: 3;
+    fill: none;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+}
+/*
+#epoch-label, #epoch-label-bg, text, foreignObject {
+    display: none !important;
+}
+*/
+
+.bg {
+    fill: #f2f2f2;
+    stroke:none;
+}
+
+.edge {
+    stroke-width:2px;
+    stroke: black;
+}
+
+.edge-toucharea {
+    stroke-width: 20px;
+    stroke: transparent;
+}
+
+.redundant-true {
+    stroke: #dbdbdb;
+}
+
+#dot-redundant-true circle {
+    stroke: none;
+    fill: #dbdbdb;
+}
+
+#dot-redundant-false circle {
+    stroke: none;
+    fill: black;
+}
+
+.station-label {
+    text-anchor: middle;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.arrival, .departure, .label {
+    visibility: hidden;
+}
+
+.arrival.selected, .departure.selected, .label.selected {
+    visibility: visible;
+}
+
+.edge.selected {
+    stroke: #01579B;
+    filter: drop-shadow( 0px 0px 3px rgba(1, 87, 155, .7));
+}
+
+.edge.provider-shortest-path {
+    stroke: #B71C1C;
+}
+
+.edge.provider-shortest-path.selected {
+    stroke: #880E4F;
+    filter: drop-shadow( 0px 0px 3px rgba(136, 14, 79, .7));
+}
+
+.edge.type-Foot {
+    stroke-dasharray: 1 5;
+    stroke-width: 1px;
+}
+
+.type-Foot {
+    display:none;
+}
+
+.edge.type-nationalExpress, .edge.type-national {
+    stroke-width: 3px;
+}
+
+.edge.type-regional, .edge.type-regionalExp, .edge.type-suburban {
+    stroke-width: 2px;
+}
+
+.edge.type-bus, .edge.type-subway, .edge.type-tram {
+    stroke-width: 1px;
+}
+
+.focusable:focus {
+    outline: none;
+}

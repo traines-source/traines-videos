@@ -1,0 +1,594 @@
+<?xml-stylesheet type="text/css" href="tstp.css" ?>
+<svg viewBox="15300 9700 1920 1080" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" data-beck-style="false">
+
+<defs>
+    <marker id="dot-redundant-false" viewBox="0 0 10 10" refX="5" refY="5"
+        markerWidth="4" markerHeight="4" filter="none">
+        <circle cx="5" cy="5" r="3" />
+    </marker>
+        <marker id="dot-redundant-true" viewBox="0 0 10 10" refX="5" refY="5"
+        markerWidth="4" markerHeight="4" filter="none">
+        <circle cx="5" cy="5" r="3" />
+    </marker>
+    <filter id="erode">
+        <feMorphology operator="erode" radius="8"/>
+    </filter>
+</defs>
+<g id="zoomable">
+    <image href="res/map_1920.png" x="15093" y="9598" width="2343" height="1317"/>
+    <path id="border"/>
+    <script xlink:href="borders-epsg3857.js" />
+    <g id="elements">      
+
+        <path data-line="dummy" class="helper" data-stops="+0 WPAU +0 BL +0 WNT" data-from="10 1" />
+        <g class="helper" data-from="10 300" ></g>
+        <path data-line="dummy" class="helper" data-stops="+0 RM +0 FHM" data-from="20 1" />
+
+  
+        <rect data-station="WNT" x="16476" y="9956" data-comment="Neustrelitz" data-dir="nw" />
+        <rect data-station="WPAU" x="16445" y="10053" data-comment="Paulinenaue" data-dir="nw" />
+        <rect data-station="BL" x="16501" y="10074" data-comment="Berlin Hbf" data-dir="n" />
+        <rect data-station="FF" x="16099" y="10404" data-comment="Frankfurt" data-dir="n" />
+        <rect data-station="FFLF" x="16092" y="10412" data-comment="FFM Flughafen" data-dir="ne" />
+        <rect data-station="FMZ" x="16065" y="10418" data-comment="Mainz" data-dir="n" />
+        <rect data-station="FW" x="16063" y="10409" data-comment="Wiesbaden" data-dir="n" />
+        <rect data-station="FHM" x="16072" y="10418" data-comment="Hochheim" data-dir="n" />
+        <rect data-station="RM" x="16083" y="10487" data-comment="Mannheim" data-dir="n" />
+
+
+        <text data-station="WNT">Neustrelitz</text>
+        <text data-station="WPAU">Paulinenaue</text>
+        <text data-station="BL">Berlin</text>
+        <text data-station="FF">Frankfurt</text>
+        <text data-station="FFLF">FFM Flughafen</text>
+        <text data-station="FMZ">Mainz</text>
+        <text data-station="FW">Wiesbaden</text>
+        <text data-station="FHM">Hochheim</text>
+        <text data-station="RM">Mannheim</text>
+
+    </g>
+</g>
+
+<g id="WPAU-WNT" class="tstp focusable" style="opacity:0" data-from="10 5 noanim-nozoom" transform="translate(15510 9700)">
+    <rect x="-210" y="0" width="1920" height="1500" class="bg" />
+
+    <g data-from="10 7 noanim-nozoom" class="focusable" onfocus="
+        selectSingleEdge('1|68413|0|81|20122021_8012614_1640008320', true);
+        selectSingleEdge('1|52732|2|81|20122021_8098160_1640014920', true);
+        "></g>
+    <g data-from="10 10 noanim-nozoom" class="focusable" onfocus="
+        selectEdge('1|68413|0|81|20122021_8012614_1640008320');
+        "></g>
+    
+    <g data-from="10 13 noanim-nozoom" class="focusable" onfocus="
+        selectEdge('1|52557|0|81|20122021_8098160_1640011380');
+        "></g>
+    
+   
+    <text x="750" y="70" class="station-label">Berlin Hbf</text>
+
+    <text x="50" y="50" class="station-label">Paulinenaue</text>
+
+    <text x="750" y="50" class="station-label">Berlin Hbf (tief)</text>
+
+    <text x="1450" y="50" class="station-label">Neustrelitz Hbf</text>
+
+    <g>
+        <path id="8098162441133380_8098160_1640017380" d="M 750,788 L750,797"
+            marker-start="url(#dot-redundant-true)" marker-end="url(#dot-redundant-true)"
+            class="edge type-Foot redundant-true  shortest-path-8098162441133380_8098160_1640017380 "
+            />
+        <path id="8098162441133380_8098160_1640017380-toucharea" d="M 750,788 L750,797"
+            class="edge-toucharea"
+            />
+        <text>
+            <textPath href="#8098162441133380_8098160_1640017380" id="8098162441133380_8098160_1640017380-label" startOffset="50%" text-anchor="middle"
+                class="label type-Foot shortest-path-8098162441133380_8098160_1640017380  shortest-path-8098162441133380_8098160_1640017380">
+                🚶 114m
+            </textPath>
+        </text>
+        <text x="750" y="797" id="8098162441133380_8098160_1640017380-arrival" text-anchor="end"
+            class="arrival type-Foot shortest-path-8098162441133380_8098160_1640017380  shortest-path-8098162441133380_8098160_1640017380">
+            17:25 
+        </text>
+        <text x="750" y="788" id="8098162441133380_8098160_1640017380-departure" text-anchor="start" 
+            class="departure type-Foot shortest-path-8098162441133380_8098160_1640017380  shortest-path-8098162441133380_8098160_1640017380">
+            17:23 
+        </text>
+
+        <path id="8098162441129780_8098160_1640013780" d="M 750,514 L750,524"
+            marker-start="url(#dot-redundant-true)" marker-end="url(#dot-redundant-true)"
+            class="edge type-Foot redundant-true  shortest-path-8098162441129780_8098160_1640013780 "
+            />
+        <path id="8098162441129780_8098160_1640013780-toucharea" d="M 750,514 L750,524"
+            class="edge-toucharea"
+            />
+        <text>
+            <textPath href="#8098162441129780_8098160_1640013780" id="8098162441129780_8098160_1640013780-label" startOffset="50%" text-anchor="middle"
+                class="label type-Foot shortest-path-8098162441129780_8098160_1640013780  shortest-path-8098162441129780_8098160_1640013780">
+                🚶 114m
+            </textPath>
+        </text>
+        <text x="750" y="524" id="8098162441129780_8098160_1640013780-arrival" text-anchor="end"
+            class="arrival type-Foot shortest-path-8098162441129780_8098160_1640013780  shortest-path-8098162441129780_8098160_1640013780">
+            16:25 
+        </text>
+        <text x="750" y="514" id="8098162441129780_8098160_1640013780-departure" text-anchor="start" 
+            class="departure type-Foot shortest-path-8098162441129780_8098160_1640013780  shortest-path-8098162441129780_8098160_1640013780">
+            16:23 
+        </text>
+
+        <path id="1|68407|3|81|20122021_8011160_1640010300" d="M 750,250 L50,446"
+            marker-start="url(#dot-redundant-true)" marker-end="url(#dot-redundant-true)"
+            class="edge type-regional redundant-true  shortest-path-1|68407|3|81|20122021_8011160_1640010300 "
+            />
+        <path id="1|68407|3|81|20122021_8011160_1640010300-toucharea" d="M 750,250 L50,446"
+            class="edge-toucharea"
+            />
+        <text>
+            <textPath href="#1|68407|3|81|20122021_8011160_1640010300" id="1|68407|3|81|20122021_8011160_1640010300-label" startOffset="50%" text-anchor="middle"
+                class="label type-regional shortest-path-1|68407|3|81|20122021_8011160_1640010300  shortest-path-1|68407|3|81|20122021_8011160_1640010300">
+                RE 2
+            </textPath>
+        </text>
+        <text x="50" y="446" id="1|68407|3|81|20122021_8011160_1640010300-arrival" text-anchor="end"
+            class="arrival type-regional shortest-path-1|68407|3|81|20122021_8011160_1640010300  shortest-path-1|68407|3|81|20122021_8011160_1640010300">
+            16:08 
+        </text>
+        <text x="750" y="250" id="1|68407|3|81|20122021_8011160_1640010300-departure" text-anchor="start" 
+            class="departure type-regional shortest-path-1|68407|3|81|20122021_8011160_1640010300  shortest-path-1|68407|3|81|20122021_8011160_1640010300">
+            15:25 13
+        </text>
+
+        <path id="1|68407|4|81|20122021_8011160_1640017500" d="M 750,797 L50,993"
+            marker-start="url(#dot-redundant-true)" marker-end="url(#dot-redundant-true)"
+            class="edge type-regional redundant-true  shortest-path-1|68407|4|81|20122021_8011160_1640017500 "
+            />
+        <path id="1|68407|4|81|20122021_8011160_1640017500-toucharea" d="M 750,797 L50,993"
+            class="edge-toucharea"
+            />
+        <text>
+            <textPath href="#1|68407|4|81|20122021_8011160_1640017500" id="1|68407|4|81|20122021_8011160_1640017500-label" startOffset="50%" text-anchor="middle"
+                class="label type-regional shortest-path-1|68407|4|81|20122021_8011160_1640017500  shortest-path-1|68407|4|81|20122021_8011160_1640017500">
+                RE 2
+            </textPath>
+        </text>
+        <text x="50" y="993" id="1|68407|4|81|20122021_8011160_1640017500-arrival" text-anchor="end"
+            class="arrival type-regional shortest-path-1|68407|4|81|20122021_8011160_1640017500  shortest-path-1|68407|4|81|20122021_8011160_1640017500">
+            18:08 
+        </text>
+        <text x="750" y="797" id="1|68407|4|81|20122021_8011160_1640017500-departure" text-anchor="start" 
+            class="departure type-regional shortest-path-1|68407|4|81|20122021_8011160_1640017500  shortest-path-1|68407|4|81|20122021_8011160_1640017500">
+            17:25 13
+        </text>
+
+        <path id="1|68415|0|81|20122021_8012614_1640019000" d="M 50,911 L750,1112"
+            marker-start="url(#dot-redundant-true)" marker-end="url(#dot-redundant-true)"
+            class="edge type-regional redundant-true  shortest-path-1|68415|0|81|20122021_8012614_1640019000 "
+            />
+        <path id="1|68415|0|81|20122021_8012614_1640019000-toucharea" d="M 50,911 L750,1112"
+            class="edge-toucharea"
+            />
+        <text>
+            <textPath href="#1|68415|0|81|20122021_8012614_1640019000" id="1|68415|0|81|20122021_8012614_1640019000-label" startOffset="50%" text-anchor="middle"
+                class="label type-regional shortest-path-1|68415|0|81|20122021_8012614_1640019000  shortest-path-1|68415|0|81|20122021_8012614_1640019000">
+                RE 2
+            </textPath>
+        </text>
+        <text x="750" y="1112" id="1|68415|0|81|20122021_8012614_1640019000-arrival" text-anchor="end"
+            class="arrival type-regional shortest-path-1|68415|0|81|20122021_8012614_1640019000  shortest-path-1|68415|0|81|20122021_8012614_1640019000">
+            18:34 
+        </text>
+        <text x="50" y="911" id="1|68415|0|81|20122021_8012614_1640019000-departure" text-anchor="start" 
+            class="departure type-regional shortest-path-1|68415|0|81|20122021_8012614_1640019000  shortest-path-1|68415|0|81|20122021_8012614_1640019000">
+            17:50 
+        </text>
+
+        <path id="1|50023|0|81|20122021_8010250_1640017140" d="M 1450,770 L750,1062"
+            marker-start="url(#dot-redundant-true)" marker-end="url(#dot-redundant-true)"
+            class="edge type-national redundant-true  shortest-path-1|50023|0|81|20122021_8010250_1640017140 "
+            />
+        <path id="1|50023|0|81|20122021_8010250_1640017140-toucharea" d="M 1450,770 L750,1062"
+            class="edge-toucharea"
+            />
+        <text>
+            <textPath href="#1|50023|0|81|20122021_8010250_1640017140" id="1|50023|0|81|20122021_8010250_1640017140-label" startOffset="50%" text-anchor="middle"
+                class="label type-national shortest-path-1|50023|0|81|20122021_8010250_1640017140  shortest-path-1|50023|0|81|20122021_8010250_1640017140">
+                IC 2273
+            </textPath>
+        </text>
+        <text x="750" y="1062" id="1|50023|0|81|20122021_8010250_1640017140-arrival" text-anchor="end"
+            class="arrival type-national shortest-path-1|50023|0|81|20122021_8010250_1640017140  shortest-path-1|50023|0|81|20122021_8010250_1640017140">
+            18:23 
+        </text>
+        <text x="1450" y="770" id="1|50023|0|81|20122021_8010250_1640017140-departure" text-anchor="start" 
+            class="departure type-national shortest-path-1|50023|0|81|20122021_8010250_1640017140  shortest-path-1|50023|0|81|20122021_8010250_1640017140">
+            17:19 
+        </text>
+
+        <path id="1|52745|0|81|20122021_8010250_1640012400" d="M 1450,410 L750,756"
+            marker-start="url(#dot-redundant-true)" marker-end="url(#dot-redundant-true)"
+            class="edge type-regional redundant-true  shortest-path-1|52745|0|81|20122021_8010250_1640012400 "
+            />
+        <path id="1|52745|0|81|20122021_8010250_1640012400-toucharea" d="M 1450,410 L750,756"
+            class="edge-toucharea"
+            />
+        <text>
+            <textPath href="#1|52745|0|81|20122021_8010250_1640012400" id="1|52745|0|81|20122021_8010250_1640012400-label" startOffset="50%" text-anchor="middle"
+                class="label type-regional shortest-path-1|52745|0|81|20122021_8010250_1640012400  shortest-path-1|52745|0|81|20122021_8010250_1640012400">
+                RE 5
+            </textPath>
+        </text>
+        <text x="750" y="756" id="1|52745|0|81|20122021_8010250_1640012400-arrival" text-anchor="end"
+            class="arrival type-regional shortest-path-1|52745|0|81|20122021_8010250_1640012400  shortest-path-1|52745|0|81|20122021_8010250_1640012400">
+            17:16 
+        </text>
+        <text x="1450" y="410" id="1|52745|0|81|20122021_8010250_1640012400-departure" text-anchor="start" 
+            class="departure type-regional shortest-path-1|52745|0|81|20122021_8010250_1640012400  shortest-path-1|52745|0|81|20122021_8010250_1640012400">
+            16:00 
+        </text>
+
+        <path id="1|52558|0|81|20122021_8010250_1640016000" d="M 1450,683 L750,1016"
+            marker-start="url(#dot-redundant-true)" marker-end="url(#dot-redundant-true)"
+            class="edge type-regional redundant-true  shortest-path-1|52558|0|81|20122021_8010250_1640016000 "
+            />
+        <path id="1|52558|0|81|20122021_8010250_1640016000-toucharea" d="M 1450,683 L750,1016"
+            class="edge-toucharea"
+            />
+        <text>
+            <textPath href="#1|52558|0|81|20122021_8010250_1640016000" id="1|52558|0|81|20122021_8010250_1640016000-label" startOffset="50%" text-anchor="middle"
+                class="label type-regional shortest-path-1|52558|0|81|20122021_8010250_1640016000  shortest-path-1|52558|0|81|20122021_8010250_1640016000">
+                RE 5
+            </textPath>
+        </text>
+        <text x="750" y="1016" id="1|52558|0|81|20122021_8010250_1640016000-arrival" text-anchor="end"
+            class="arrival type-regional shortest-path-1|52558|0|81|20122021_8010250_1640016000  shortest-path-1|52558|0|81|20122021_8010250_1640016000">
+            18:13 
+        </text>
+        <text x="1450" y="683" id="1|52558|0|81|20122021_8010250_1640016000-departure" text-anchor="start" 
+            class="departure type-regional shortest-path-1|52558|0|81|20122021_8010250_1640016000  shortest-path-1|52558|0|81|20122021_8010250_1640016000">
+            17:00 
+        </text>
+
+        <path id="1|52555|1|81|20122021_8010250_1640008800" d="M 1450,136 L750,483"
+            marker-start="url(#dot-redundant-true)" marker-end="url(#dot-redundant-true)"
+            class="edge type-regional redundant-true  shortest-path-1|52555|1|81|20122021_8010250_1640008800 "
+            />
+        <path id="1|52555|1|81|20122021_8010250_1640008800-toucharea" d="M 1450,136 L750,483"
+            class="edge-toucharea"
+            />
+        <text>
+            <textPath href="#1|52555|1|81|20122021_8010250_1640008800" id="1|52555|1|81|20122021_8010250_1640008800-label" startOffset="50%" text-anchor="middle"
+                class="label type-regional shortest-path-1|52555|1|81|20122021_8010250_1640008800  shortest-path-1|52555|1|81|20122021_8010250_1640008800">
+                RE 5
+            </textPath>
+        </text>
+        <text x="750" y="483" id="1|52555|1|81|20122021_8010250_1640008800-arrival" text-anchor="end"
+            class="arrival type-regional shortest-path-1|52555|1|81|20122021_8010250_1640008800  shortest-path-1|52555|1|81|20122021_8010250_1640008800">
+            16:16 
+        </text>
+        <text x="1450" y="136" id="1|52555|1|81|20122021_8010250_1640008800-departure" text-anchor="start" 
+            class="departure type-regional shortest-path-1|52555|1|81|20122021_8010250_1640008800  shortest-path-1|52555|1|81|20122021_8010250_1640008800">
+            15:00 
+        </text>
+
+        <path id="1|68408|2|81|20122021_8012614_1640015520" d="M 50,647 L750,843"
+            marker-start="url(#dot-redundant-true)" marker-end="url(#dot-redundant-true)"
+            class="edge type-regional redundant-true  shortest-path-1|68408|2|81|20122021_8012614_1640015520 provider-shortest-path"
+            />
+        <path id="1|68408|2|81|20122021_8012614_1640015520-toucharea" d="M 50,647 L750,843"
+            class="edge-toucharea"
+            />
+        <text>
+            <textPath href="#1|68408|2|81|20122021_8012614_1640015520" id="1|68408|2|81|20122021_8012614_1640015520-label" startOffset="50%" text-anchor="middle"
+                class="label type-regional shortest-path-1|68408|2|81|20122021_8012614_1640015520  shortest-path-1|68408|2|81|20122021_8012614_1640015520">
+                RE 2
+            </textPath>
+        </text>
+        <text x="750" y="843" id="1|68408|2|81|20122021_8012614_1640015520-arrival" text-anchor="end"
+            class="arrival type-regional shortest-path-1|68408|2|81|20122021_8012614_1640015520  shortest-path-1|68408|2|81|20122021_8012614_1640015520">
+            17:35 
+        </text>
+        <text x="50" y="647" id="1|68408|2|81|20122021_8012614_1640015520-departure" text-anchor="start" 
+            class="departure type-regional shortest-path-1|68408|2|81|20122021_8012614_1640015520  shortest-path-1|68408|2|81|20122021_8012614_1640015520">
+            16:52 
+        </text>
+
+        <path id="1|68405|4|81|20122021_8011160_1640013900" d="M 750,524 L50,720"
+            marker-start="url(#dot-redundant-true)" marker-end="url(#dot-redundant-true)"
+            class="edge type-regional redundant-true  shortest-path-1|68405|4|81|20122021_8011160_1640013900 "
+            />
+        <path id="1|68405|4|81|20122021_8011160_1640013900-toucharea" d="M 750,524 L50,720"
+            class="edge-toucharea"
+            />
+        <text>
+            <textPath href="#1|68405|4|81|20122021_8011160_1640013900" id="1|68405|4|81|20122021_8011160_1640013900-label" startOffset="50%" text-anchor="middle"
+                class="label type-regional shortest-path-1|68405|4|81|20122021_8011160_1640013900  shortest-path-1|68405|4|81|20122021_8011160_1640013900">
+                RE 2
+            </textPath>
+        </text>
+        <text x="50" y="720" id="1|68405|4|81|20122021_8011160_1640013900-arrival" text-anchor="end"
+            class="arrival type-regional shortest-path-1|68405|4|81|20122021_8011160_1640013900  shortest-path-1|68405|4|81|20122021_8011160_1640013900">
+            17:08 
+        </text>
+        <text x="750" y="524" id="1|68405|4|81|20122021_8011160_1640013900-departure" text-anchor="start" 
+            class="departure type-regional shortest-path-1|68405|4|81|20122021_8011160_1640013900  shortest-path-1|68405|4|81|20122021_8011160_1640013900">
+            16:25 14
+        </text>
+
+        <path id="1|50018|0|81|20122021_8010250_1640009940" d="M 1450,223 L750,514"
+            marker-start="url(#dot-redundant-true)" marker-end="url(#dot-redundant-true)"
+            class="edge type-national redundant-true  shortest-path-1|50018|0|81|20122021_8010250_1640009940 "
+            />
+        <path id="1|50018|0|81|20122021_8010250_1640009940-toucharea" d="M 1450,223 L750,514"
+            class="edge-toucharea"
+            />
+        <text>
+            <textPath href="#1|50018|0|81|20122021_8010250_1640009940" id="1|50018|0|81|20122021_8010250_1640009940-label" startOffset="50%" text-anchor="middle"
+                class="label type-national shortest-path-1|50018|0|81|20122021_8010250_1640009940  shortest-path-1|50018|0|81|20122021_8010250_1640009940">
+                IC 2271
+            </textPath>
+        </text>
+        <text x="750" y="514" id="1|50018|0|81|20122021_8010250_1640009940-arrival" text-anchor="end"
+            class="arrival type-national shortest-path-1|50018|0|81|20122021_8010250_1640009940  shortest-path-1|50018|0|81|20122021_8010250_1640009940">
+            16:23 
+        </text>
+        <text x="1450" y="223" id="1|50018|0|81|20122021_8010250_1640009940-departure" text-anchor="start" 
+            class="departure type-national shortest-path-1|50018|0|81|20122021_8010250_1640009940  shortest-path-1|50018|0|81|20122021_8010250_1640009940">
+            15:19 
+        </text>
+
+        <path id="8011162449830800_8011160_1640014800" d="M 750,592 L750,601"
+            marker-start="url(#dot-redundant-false)" marker-end="url(#dot-redundant-false)"
+            class="edge type-Foot redundant-false  shortest-path-8011162449830800_8011160_1640014800 shortest-path-1|68414|0|81|20122021_8012614_1640011800 shortest-path-8098162441129780_8098160_1640013780 "
+            />
+        <path id="8011162449830800_8011160_1640014800-toucharea" d="M 750,592 L750,601"
+            class="edge-toucharea"
+            />
+        <text>
+            <textPath href="#8011162449830800_8011160_1640014800" id="8011162449830800_8011160_1640014800-label" startOffset="50%" text-anchor="middle"
+                class="label type-Foot shortest-path-8011162449830800_8011160_1640014800  shortest-path-8011162449830800_8011160_1640014800 shortest-path-1|68414|0|81|20122021_8012614_1640011800 shortest-path-8098162441129780_8098160_1640013780">
+                🚶 114m
+            </textPath>
+        </text>
+        <text x="750" y="601" id="8011162449830800_8011160_1640014800-arrival" text-anchor="end"
+            class="arrival type-Foot shortest-path-8011162449830800_8011160_1640014800  shortest-path-8011162449830800_8011160_1640014800 shortest-path-1|68414|0|81|20122021_8012614_1640011800 shortest-path-8098162441129780_8098160_1640013780">
+            16:42 
+        </text>
+        <text x="750" y="592" id="8011162449830800_8011160_1640014800-departure" text-anchor="start" 
+            class="departure type-Foot shortest-path-8011162449830800_8011160_1640014800  shortest-path-8011162449830800_8011160_1640014800 shortest-path-1|68414|0|81|20122021_8012614_1640011800 shortest-path-8098162441129780_8098160_1640013780">
+            16:40 
+        </text>
+
+        <path id="8011162449827260_8011160_1640011260" d="M 750,323 L750,332"
+            marker-start="url(#dot-redundant-false)" marker-end="url(#dot-redundant-false)"
+            class="edge type-Foot redundant-false  shortest-path-8011162449827260_8011160_1640011260 "
+            />
+        <path id="8011162449827260_8011160_1640011260-toucharea" d="M 750,323 L750,332"
+            class="edge-toucharea"
+            />
+        <text>
+            <textPath href="#8011162449827260_8011160_1640011260" id="8011162449827260_8011160_1640011260-label" startOffset="50%" text-anchor="middle"
+                class="label type-Foot shortest-path-8011162449827260_8011160_1640011260  shortest-path-8011162449827260_8011160_1640011260">
+                🚶 114m
+            </textPath>
+        </text>
+        <text x="750" y="332" id="8011162449827260_8011160_1640011260-arrival" text-anchor="end"
+            class="arrival type-Foot shortest-path-8011162449827260_8011160_1640011260  shortest-path-8011162449827260_8011160_1640011260">
+            15:43 
+        </text>
+        <text x="750" y="323" id="8011162449827260_8011160_1640011260-departure" text-anchor="start" 
+            class="departure type-Foot shortest-path-8011162449827260_8011160_1640011260  shortest-path-8011162449827260_8011160_1640011260">
+            15:41 
+        </text>
+
+        <path id="8011162449833980_8011160_1640017980" d="M 750,834 L750,843"
+            marker-start="url(#dot-redundant-false)" marker-end="url(#dot-redundant-false)"
+            class="edge type-Foot redundant-false  shortest-path-8011162449833980_8011160_1640017980 shortest-path-8098162441133380_8098160_1640017380 "
+            />
+        <path id="8011162449833980_8011160_1640017980-toucharea" d="M 750,834 L750,843"
+            class="edge-toucharea"
+            />
+        <text>
+            <textPath href="#8011162449833980_8011160_1640017980" id="8011162449833980_8011160_1640017980-label" startOffset="50%" text-anchor="middle"
+                class="label type-Foot shortest-path-8011162449833980_8011160_1640017980  shortest-path-8011162449833980_8011160_1640017980 shortest-path-8098162441133380_8098160_1640017380">
+                🚶 114m
+            </textPath>
+        </text>
+        <text x="750" y="843" id="8011162449833980_8011160_1640017980-arrival" text-anchor="end"
+            class="arrival type-Foot shortest-path-8011162449833980_8011160_1640017980  shortest-path-8011162449833980_8011160_1640017980 shortest-path-8098162441133380_8098160_1640017380">
+            17:35 
+        </text>
+        <text x="750" y="834" id="8011162449833980_8011160_1640017980-departure" text-anchor="start" 
+            class="departure type-Foot shortest-path-8011162449833980_8011160_1640017980  shortest-path-8011162449833980_8011160_1640017980 shortest-path-8098162441133380_8098160_1640017380">
+            17:33 
+        </text>
+
+        <path id="8011162449826900_8011160_1640010900" d="M 750,296 L750,305"
+            marker-start="url(#dot-redundant-false)" marker-end="url(#dot-redundant-false)"
+            class="edge type-Foot redundant-false  shortest-path-1|68413|0|81|20122021_8012614_1640008320 shortest-path-8011162449826900_8011160_1640010900 "
+            />
+        <path id="8011162449826900_8011160_1640010900-toucharea" d="M 750,296 L750,305"
+            class="edge-toucharea"
+            />
+        <text>
+            <textPath href="#8011162449826900_8011160_1640010900" id="8011162449826900_8011160_1640010900-label" startOffset="50%" text-anchor="middle"
+                class="label type-Foot shortest-path-8011162449826900_8011160_1640010900  shortest-path-1|68413|0|81|20122021_8012614_1640008320 shortest-path-8011162449826900_8011160_1640010900">
+                🚶 114m
+            </textPath>
+        </text>
+        <text x="750" y="305" id="8011162449826900_8011160_1640010900-arrival" text-anchor="end"
+            class="arrival type-Foot shortest-path-8011162449826900_8011160_1640010900  shortest-path-1|68413|0|81|20122021_8012614_1640008320 shortest-path-8011162449826900_8011160_1640010900">
+            15:37 
+        </text>
+        <text x="750" y="296" id="8011162449826900_8011160_1640010900-departure" text-anchor="start" 
+            class="departure type-Foot shortest-path-8011162449826900_8011160_1640010900  shortest-path-1|68413|0|81|20122021_8012614_1640008320 shortest-path-8011162449826900_8011160_1640010900">
+            15:35 
+        </text>
+
+        <path id="1|49871|0|81|20122021_8098160_1640011020" d="M 750,305 L1450,597"
+            marker-start="url(#dot-redundant-false)" marker-end="url(#dot-redundant-false)"
+            class="edge type-national redundant-false  shortest-path-1|68413|0|81|20122021_8012614_1640008320 shortest-path-8011162449826900_8011160_1640010900 shortest-path-1|49871|0|81|20122021_8098160_1640011020 "
+            />
+        <path id="1|49871|0|81|20122021_8098160_1640011020-toucharea" d="M 750,305 L1450,597"
+            class="edge-toucharea"
+            />
+        <text>
+            <textPath href="#1|49871|0|81|20122021_8098160_1640011020" id="1|49871|0|81|20122021_8098160_1640011020-label" startOffset="50%" text-anchor="middle"
+                class="label type-national shortest-path-1|49871|0|81|20122021_8098160_1640011020  shortest-path-1|68413|0|81|20122021_8012614_1640008320 shortest-path-8011162449826900_8011160_1640010900 shortest-path-1|49871|0|81|20122021_8098160_1640011020">
+                IC 2176
+            </textPath>
+        </text>
+        <text x="1450" y="597" id="1|49871|0|81|20122021_8098160_1640011020-arrival" text-anchor="end"
+            class="arrival type-national shortest-path-1|49871|0|81|20122021_8098160_1640011020  shortest-path-1|68413|0|81|20122021_8012614_1640008320 shortest-path-8011162449826900_8011160_1640010900 shortest-path-1|49871|0|81|20122021_8098160_1640011020">
+            16:41 
+        </text>
+        <text x="750" y="305" id="1|49871|0|81|20122021_8098160_1640011020-departure" text-anchor="start" 
+            class="departure type-national shortest-path-1|49871|0|81|20122021_8098160_1640011020  shortest-path-1|68413|0|81|20122021_8012614_1640008320 shortest-path-8011162449826900_8011160_1640010900 shortest-path-1|49871|0|81|20122021_8098160_1640011020">
+            15:37 
+        </text>
+
+        <path id="1|52732|2|81|20122021_8098160_1640014920" d="M 750,601 L1450,952"
+            marker-start="url(#dot-redundant-false)" marker-end="url(#dot-redundant-false)"
+            class="edge type-regional redundant-false  shortest-path-1|50018|0|81|20122021_8010250_1640009940 shortest-path-8011162449830800_8011160_1640014800 shortest-path-1|52732|2|81|20122021_8098160_1640014920 shortest-path-1|52555|1|81|20122021_8010250_1640008800 shortest-path-1|68414|0|81|20122021_8012614_1640011800 shortest-path-8098162441129780_8098160_1640013780 provider-shortest-path"
+            />
+        <path id="1|52732|2|81|20122021_8098160_1640014920-toucharea" d="M 750,601 L1450,952"
+            class="edge-toucharea"
+            />
+        <text>
+            <textPath href="#1|52732|2|81|20122021_8098160_1640014920" id="1|52732|2|81|20122021_8098160_1640014920-label" startOffset="50%" text-anchor="middle"
+                class="label type-regional shortest-path-1|52732|2|81|20122021_8098160_1640014920  shortest-path-1|50018|0|81|20122021_8010250_1640009940 shortest-path-8011162449830800_8011160_1640014800 shortest-path-1|52732|2|81|20122021_8098160_1640014920 shortest-path-1|52555|1|81|20122021_8010250_1640008800 shortest-path-1|68414|0|81|20122021_8012614_1640011800 shortest-path-8098162441129780_8098160_1640013780">
+                RE 5
+            </textPath>
+        </text>
+        <text x="1450" y="952" id="1|52732|2|81|20122021_8098160_1640014920-arrival" text-anchor="end"
+            class="arrival type-regional shortest-path-1|52732|2|81|20122021_8098160_1640014920  shortest-path-1|50018|0|81|20122021_8010250_1640009940 shortest-path-8011162449830800_8011160_1640014800 shortest-path-1|52732|2|81|20122021_8098160_1640014920 shortest-path-1|52555|1|81|20122021_8010250_1640008800 shortest-path-1|68414|0|81|20122021_8012614_1640011800 shortest-path-8098162441129780_8098160_1640013780">
+            17:59 
+        </text>
+        <text x="750" y="601" id="1|52732|2|81|20122021_8098160_1640014920-departure" text-anchor="start" 
+            class="departure type-regional shortest-path-1|52732|2|81|20122021_8098160_1640014920  shortest-path-1|50018|0|81|20122021_8010250_1640009940 shortest-path-8011162449830800_8011160_1640014800 shortest-path-1|52732|2|81|20122021_8098160_1640014920 shortest-path-1|52555|1|81|20122021_8010250_1640008800 shortest-path-1|68414|0|81|20122021_8012614_1640011800 shortest-path-8098162441129780_8098160_1640013780">
+            16:42 
+        </text>
+
+        <path id="1|49867|0|81|20122021_8098160_1640018100" d="M 750,843 L1450,1144"
+            marker-start="url(#dot-redundant-false)" marker-end="url(#dot-redundant-false)"
+            class="edge type-national redundant-false  shortest-path-8011162449833980_8011160_1640017980 shortest-path-8098162441133380_8098160_1640017380 shortest-path-1|52745|0|81|20122021_8010250_1640012400 shortest-path-1|49867|0|81|20122021_8098160_1640018100 provider-shortest-path"
+            />
+        <path id="1|49867|0|81|20122021_8098160_1640018100-toucharea" d="M 750,843 L1450,1144"
+            class="edge-toucharea"
+            />
+        <text>
+            <textPath href="#1|49867|0|81|20122021_8098160_1640018100" id="1|49867|0|81|20122021_8098160_1640018100-label" startOffset="50%" text-anchor="middle"
+                class="label type-national shortest-path-1|49867|0|81|20122021_8098160_1640018100  shortest-path-8011162449833980_8011160_1640017980 shortest-path-8098162441133380_8098160_1640017380 shortest-path-1|52745|0|81|20122021_8010250_1640012400 shortest-path-1|49867|0|81|20122021_8098160_1640018100">
+                IC 2174
+            </textPath>
+        </text>
+        <text x="1450" y="1144" id="1|49867|0|81|20122021_8098160_1640018100-arrival" text-anchor="end"
+            class="arrival type-national shortest-path-1|49867|0|81|20122021_8098160_1640018100  shortest-path-8011162449833980_8011160_1640017980 shortest-path-8098162441133380_8098160_1640017380 shortest-path-1|52745|0|81|20122021_8010250_1640012400 shortest-path-1|49867|0|81|20122021_8098160_1640018100">
+            18:41 
+        </text>
+        <text x="750" y="843" id="1|49867|0|81|20122021_8098160_1640018100-departure" text-anchor="start" 
+            class="departure type-national shortest-path-1|49867|0|81|20122021_8098160_1640018100  shortest-path-8011162449833980_8011160_1640017980 shortest-path-8098162441133380_8098160_1640017380 shortest-path-1|52745|0|81|20122021_8010250_1640012400 shortest-path-1|49867|0|81|20122021_8098160_1640018100">
+            17:35 
+        </text>
+
+        <path id="1|52557|0|81|20122021_8098160_1640011380" d="M 750,332 L1450,679"
+            marker-start="url(#dot-redundant-false)" marker-end="url(#dot-redundant-false)"
+            class="edge type-regional redundant-false  shortest-path-8011162449827260_8011160_1640011260 shortest-path-1|52557|0|81|20122021_8098160_1640011380 "
+            />
+        <path id="1|52557|0|81|20122021_8098160_1640011380-toucharea" d="M 750,332 L1450,679"
+            class="edge-toucharea"
+            />
+        <text>
+            <textPath href="#1|52557|0|81|20122021_8098160_1640011380" id="1|52557|0|81|20122021_8098160_1640011380-label" startOffset="50%" text-anchor="middle"
+                class="label type-regional shortest-path-1|52557|0|81|20122021_8098160_1640011380  shortest-path-8011162449827260_8011160_1640011260 shortest-path-1|52557|0|81|20122021_8098160_1640011380">
+                RE 5
+            </textPath>
+        </text>
+        <text x="1450" y="679" id="1|52557|0|81|20122021_8098160_1640011380-arrival" text-anchor="end"
+            class="arrival type-regional shortest-path-1|52557|0|81|20122021_8098160_1640011380  shortest-path-8011162449827260_8011160_1640011260 shortest-path-1|52557|0|81|20122021_8098160_1640011380">
+            16:59 
+        </text>
+        <text x="750" y="332" id="1|52557|0|81|20122021_8098160_1640011380-departure" text-anchor="start" 
+            class="departure type-regional shortest-path-1|52557|0|81|20122021_8098160_1640011380  shortest-path-8011162449827260_8011160_1640011260 shortest-path-1|52557|0|81|20122021_8098160_1640011380">
+            15:43 
+        </text>
+
+        <path id="1|52747|0|81|20122021_8098160_1640022120" d="M 750,1148 L1450,1500"
+            marker-start="url(#dot-redundant-false)" marker-end="url(#dot-redundant-false)"
+            class="edge type-regional redundant-false  shortest-path-1|52747|0|81|20122021_8098160_1640022120 provider-shortest-path"
+            />
+        <path id="1|52747|0|81|20122021_8098160_1640022120-toucharea" d="M 750,1148 L1450,1500"
+            class="edge-toucharea"
+            />
+        <text>
+            <textPath href="#1|52747|0|81|20122021_8098160_1640022120" id="1|52747|0|81|20122021_8098160_1640022120-label" startOffset="50%" text-anchor="middle"
+                class="label type-regional shortest-path-1|52747|0|81|20122021_8098160_1640022120  shortest-path-1|52747|0|81|20122021_8098160_1640022120">
+                RE 5
+            </textPath>
+        </text>
+        <text x="1450" y="1500" id="1|52747|0|81|20122021_8098160_1640022120-arrival" text-anchor="end"
+            class="arrival type-regional shortest-path-1|52747|0|81|20122021_8098160_1640022120  shortest-path-1|52747|0|81|20122021_8098160_1640022120">
+            19:59 
+        </text>
+        <text x="750" y="1148" id="1|52747|0|81|20122021_8098160_1640022120-departure" text-anchor="start" 
+            class="departure type-regional shortest-path-1|52747|0|81|20122021_8098160_1640022120  shortest-path-1|52747|0|81|20122021_8098160_1640022120">
+            18:42 
+        </text>
+
+        <path id="1|68413|0|81|20122021_8012614_1640008320" d="M 50,100 L750,296"
+            marker-start="url(#dot-redundant-false)" marker-end="url(#dot-redundant-false)"
+            class="edge type-regional redundant-false  shortest-path-1|68413|0|81|20122021_8012614_1640008320 provider-shortest-path"
+            />
+        <path id="1|68413|0|81|20122021_8012614_1640008320-toucharea" d="M 50,100 L750,296"
+            class="edge-toucharea"
+            />
+        <text>
+            <textPath href="#1|68413|0|81|20122021_8012614_1640008320" id="1|68413|0|81|20122021_8012614_1640008320-label" startOffset="50%" text-anchor="middle"
+                class="label type-regional shortest-path-1|68413|0|81|20122021_8012614_1640008320  shortest-path-1|68413|0|81|20122021_8012614_1640008320">
+                RE 2
+            </textPath>
+        </text>
+        <text x="750" y="296" id="1|68413|0|81|20122021_8012614_1640008320-arrival" text-anchor="end"
+            class="arrival type-regional shortest-path-1|68413|0|81|20122021_8012614_1640008320  shortest-path-1|68413|0|81|20122021_8012614_1640008320">
+            15:35 
+        </text>
+        <text x="50" y="100" id="1|68413|0|81|20122021_8012614_1640008320-departure" text-anchor="start" 
+            class="departure type-regional shortest-path-1|68413|0|81|20122021_8012614_1640008320  shortest-path-1|68413|0|81|20122021_8012614_1640008320">
+            14:52 
+        </text>
+
+        <path id="1|68414|0|81|20122021_8012614_1640011800" d="M 50,364 L750,565"
+            marker-start="url(#dot-redundant-false)" marker-end="url(#dot-redundant-false)"
+            class="edge type-regional redundant-false  shortest-path-1|68414|0|81|20122021_8012614_1640011800 provider-shortest-path"
+            />
+        <path id="1|68414|0|81|20122021_8012614_1640011800-toucharea" d="M 50,364 L750,565"
+            class="edge-toucharea"
+            />
+        <text>
+            <textPath href="#1|68414|0|81|20122021_8012614_1640011800" id="1|68414|0|81|20122021_8012614_1640011800-label" startOffset="50%" text-anchor="middle"
+                class="label type-regional shortest-path-1|68414|0|81|20122021_8012614_1640011800  shortest-path-1|68414|0|81|20122021_8012614_1640011800">
+                RE 2
+            </textPath>
+        </text>
+        <text x="750" y="565" id="1|68414|0|81|20122021_8012614_1640011800-arrival" text-anchor="end"
+            class="arrival type-regional shortest-path-1|68414|0|81|20122021_8012614_1640011800  shortest-path-1|68414|0|81|20122021_8012614_1640011800">
+            16:34 
+        </text>
+        <text x="50" y="364" id="1|68414|0|81|20122021_8012614_1640011800-departure" text-anchor="start" 
+            class="departure type-regional shortest-path-1|68414|0|81|20122021_8012614_1640011800  shortest-path-1|68414|0|81|20122021_8012614_1640011800">
+            15:50 
+        </text>
+
+    </g>
+</g>
+<g id="RM-FHM" style="opacity:0">
+</g>
+
+<image id="ic" href="res/ic_interior.jpg" preserveAspectRatio="xMidYMid slice" class="cover" data-from="1987 25 nozoom" data-to="1987 32 nozoom" data-zoom="50 45" />
+<text x="17200" y="10740" data-inset="ic" data-from="1987 25 nozoom" data-to="1987 32 nozoom" class="caption" >Ehemalige erste Klasse. Traines. CC-BY-SA 4.0.</text>
+
+<script xlink:href="../../dist/network-animator.js" />
+<script xlink:href="tstp.js" />
+</svg>
+
