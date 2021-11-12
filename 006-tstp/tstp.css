@@ -188,3 +188,78 @@ image.cover {
 .red {
     fill: #B71C1C;
 }
+
+
+.tstp rect.station, .tstp path.line {
+    display: none;
+}
+
+.unit path {
+    stroke: none;
+}
+
+path.train {
+    visibility: hidden;
+}
+
+path.train.train-nationalExpress {
+    stroke: #cbd0cc;
+    stroke-width: 6;
+    marker-end: url(#ice-end);
+    marker-start: url(#ice-start);
+    marker-mid: url(#panto);
+}
+
+path.train.train-national {
+    stroke: #9da3a6;
+    stroke-width: 6;
+    marker-end: url(#ic-end);
+    marker-start: url(#ic-start);
+    marker-mid: url(#panto);
+}
+
+path.train.train-regional, path.train.train-regionalExp, path.train.train-suburban, path.train  {
+    stroke: #B71C1C;
+    stroke-width: 6;
+    marker-end: url(#regio-end);
+    marker-start: url(#regio-start);
+    marker-mid: url(#panto);
+}
+
+path.train.Profile {
+    stroke: #cbd0cc;
+    stroke-width: 2;
+    marker-start: url(#profile-start);
+    marker-end: url(#profile-end);
+    marker-mid: url(#profile-hinge);
+}
+
+.panto { 
+    stroke: #2e3032;
+    stroke-width: 10;
+}
+
+.train-start {
+    fill:#f7b500;
+}
+.train-end {
+    fill: #ff2d21;
+}
+.lamp {
+    fill: inherit;
+}
+.bumper, .black-windscreen {
+    fill:#2e3032;
+}
+.trafficred {
+    fill:#B71C1C;
+}
+.windowgrey, .windscreen {
+    fill:#9da3a6;
+}
+.lightgrey, .icebody {
+    fill:#cbd0cc;
+}
+.bluegrey, .cap {
+    fill: #5b686d;
+}

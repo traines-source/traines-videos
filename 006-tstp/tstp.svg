@@ -1,5 +1,5 @@
 <?xml-stylesheet type="text/css" href="tstp.css" ?>
-<svg viewBox="15300 9700 1920 1080" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" data-beck-style="false">
+<svg viewBox="15300 9700 1920 1080" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" data-beck-style="false" data-auto-start="false">
 
 <defs>
     <marker id="dot-redundant-false" viewBox="0 0 10 10" refX="5" refY="5"
@@ -13,16 +13,155 @@
     <filter id="erode">
         <feMorphology operator="erode" radius="8"/>
     </filter>
+    <g id="regiounit" class="unit">
+        <path
+            class="bumper"
+            d="M 100,13 H 102 V 12 H 105 V 17 H 102 V 16 H 99 L 100,13 M 100,37 H 102 V 38 H 105 V 33 H 102 V 34 H 99 L 100,37" />
+        <path
+            class="trafficred"
+            d="M 65,0 C 65,0 72,1 74,1  76,1 89,4 89,5  89,6 100,5 100,12  100,19 99,13 99,25  99,37 100,31 100,38  100,45 89,44 89,45  89,46 76,49 74,49  72,49 65,50 65,50 Z" />
+        <path
+            class="windowgrey"
+            d="M 65,15 C 65,11 72,6 75,6  80,6 98,8 98,14  98,19 98,25 98,25  98,25 98,31 98,36  98,42 80,44 75,44  72,44 65,39 65,35 Z" />
+        <path
+            class="black-windscreen"
+            d="M 98,25 C 98,25 98,22 98,18  98,14 88,10 88,10  87,10 80,12 80,13  80,14 81,25 81,25  81,25 80,36 80,37  80,38 87,40 88,40  88,40 98,36 98,32  98,28 98,25 98,25" />
+        <path
+            class="lamp"
+            d="M 82,25 83,23 86,22 85,25 86,28 83,27 82,25" />
+    </g>
+    <g id="icunit" class="unit">
+        <path
+            class="bumper"
+            d="M 100,13 H 102 V 12 H 105 V 17 H 102 V 16 H 99 L 100,13 M 100,37 H 102 V 38 H 105 V 33 H 102 V 34 H 99 L 100,37" />
+        <path
+            class="lightgrey"
+            d="M 63,0 C 63,0 72,1 74,1  76,1 89,4 89,5  89,6 100,5 100,12  100,19 99,13 99,25  99,37 100,31 100,38  100,45 89,44 89,45  89,46 76,49 74,49  72,49 63,50 63,50 Z"
+            />
+        <path
+            class="windowgrey"
+            d="M 63,0 L 63,0 C 65,0 98,8 98,14  98,19 98,25 98,25  98,25 98,31 98,36  98,42 65,50 63,50 L 63,50" />
+        <path
+            class="black-windscreen"
+            d="M 98,25 C 98,25 98,22 98,18  98,14 88,10 88,10  87,10 80,12 80,13  80,14 81,25 81,25  81,25 80,36 80,37  80,38 87,40 88,40  88,40 98,36 98,32  98,28 98,25 98,25" />
+        <path
+            class="lamp"
+            d="M 82,25 83,23 86,22 85,25 86,28 83,27 82,25" />
+    </g>
+    <g id="iceunit" class="unit">
+        <path
+            class="icebody"
+            d="M 150,0 C 250,0 426,35 426,100 426,165 250,200 150,200 Z" />
+        <path
+            class="lamp"
+            d="M 410,86 387,76 384,60 407,72 Z" />
+        <path
+            class="lamp"
+            d="M 410,114 387,124 384,140 407,128 Z" />
+        <path
+            class="windscreen"
+            d="M 290,37 C 301,37 360,55 360,100 360,145 301,163 290,163 291,163 296,120 296,100 296,80 291,37 290,37 Z" />
+        <path
+            class="cap"
+            d="M 290,163 C 291,163 296,120 296,100 296,80 291,37 290,37 290,36 256,31 246,31 206,31 214,65 214,100 214,135 206,169 246,169 256,169 290,164 290,163 Z" />
+    </g>
+    <marker id="ice-start" viewBox="150 0 426,200" refX="150" refY="100" markerHeight="1" orient="auto-start-reverse">
+        <!--<path d="M 0,426 C 0,78 55,0 100,0 C 145,0 200,78 200,426 Z" fill="white" />
+        <path d="M 86,16 L 76,39 L 60,42 L 72,19 Z" fill="grey" />
+        <path d="M 114,16 L 124,39 L 140,42 L 128,19 Z" fill="grey" />
+        <path d="M 37,136 C 37,125 55,66 100,66 C 145,66 163,125 163,136 C 163,135 120,130 100,130 C 80,130 37,135 37,136 Z" fill="lightgrey" />
+        <path d="M 163,136 C 163,135 120,130 100,130 C 80,130 37,135 37,136 C 36,136 31,170 31,180 C 31,220 65,212 100,212 C 135,212 169,220 169,180 C 169,170 164,136 163,136 Z" fill="grey" />
+        -->
+        <g class="train-start">
+            <use href="#iceunit" />
+        </g>
+    </marker>
+    <marker id="ice-end" viewBox="150 0 426,200" refX="150" refY="100" markerHeight="1" orient="auto-start-reverse">
+        <g class="train-end">
+            <use href="#iceunit" />
+        </g>    
+    </marker>
+    <marker id="ic-start" viewBox="63 0 105,50" refX="63" refY="25" markerHeight="1" orient="auto-start-reverse">
+        <g class="train-start">
+            <use href="#icunit" />
+        </g>
+    </marker>
+    <marker id="ic-end" viewBox="63 0 105,50" refX="63" refY="25" markerHeight="1" orient="auto-start-reverse">
+        <g class="train-end">
+            <use href="#icunit"/>
+        </g>
+    </marker>
+    <marker id="regio-start" viewBox="65 0 40,50" refX="65" refY="25" markerHeight="1" orient="auto-start-reverse">
+        <g class="train-start">
+            <use href="#regiounit" />
+        </g>
+    </marker>
+    <marker id="regio-end" viewBox="65 0 40,50" refX="65" refY="25" markerHeight="1" orient="auto-start-reverse">
+        <g class="train-end">
+            <use href="#regiounit"/>
+        </g>
+    </marker>
+    <marker id="panto" viewBox="0 0 200,200" refX="130" refY="100" markerHeight="1" orient="auto-start-reverse">
+        <path
+            d="M 200,100 L 200,90 L 90,70 M 200,100 L 200,110 L 90,130 M 113,30 L 110,35 L 110,165 L 113,170 M 83,30 80,35 L 80,165 L 83,170" class="panto" />
+        <path 
+            d="M 130,100 L 200,100" class="panto" style="stroke-width:20px" />
+    </marker>
+    <marker id="profile-start" viewBox="149.67 93.60 36.35,37.62" refX="153.69" refY="103.06" markerHeight="2">
+        <g class="profileunit">
+            <circle r="2.0475183" cy="112.27797" cx="155.81813" />
+            <circle cx="168.48003" cy="112.27797" r="2.0475183" />
+            <path
+                d="M 153.69457,93.60156 C 162.6481,93.60156 174.1649,98.111121 179.37126,102.16052 183.58075,105.43457 186.01959,107.17182 186.01959,108.70862 186.01959,110.72984 181.42589,111.38131 180.87465,111.38131 180.40676,111.38131 181.24215,112.24994 181.24215,112.24994 L 149.67857,112.31138 V 93.60156 H 153.69457"
+                />
+        </g>
+    </marker>
+    <marker id="profile-end" viewBox="120 93.60 50,37.62" refX="153.69" refY="103.06" markerHeight="2">
+        <g class="profileunit">
+            <g transform="scale(-1,1)" transform-origin="153.69457 93.60156">
+                <circle r="2.0475183" cy="112.27797" cx="155.81813" />
+                <circle cx="168.48003" cy="112.27797" r="2.0475183" />
+                <path
+                    d="M 153.69457,93.60156 C 162.6481,93.60156 174.1649,98.111121 179.37126,102.16052 183.58075,105.43457 186.01959,107.17182 186.01959,108.70862 186.01959,110.72984 181.42589,111.38131 180.87465,111.38131 180.40676,111.38131 181.24215,112.24994 181.24215,112.24994 L 149.67857,112.31138 V 93.60156 H 153.69457"
+                    />            
+            </g>
+        </g>
+    </marker>
+    <marker id="profile-hinge" viewBox="25.61 93.60 60,37.62" refX="54.97" refY="103.06" markerHeight="2" markerWidth="4">
+        <g class="profileunit" >
+            <path
+                style="fill:#f2f2f2;stroke:#f2f2f2;stroke-width:0.26458332px;"
+                d="M 25.612651,93.60156 H 84.331169 V 112.31138 H 25.612651 Z"
+                id="hingebg"
+                />
+            <circle cx="67.518959" cy="112.27797" r="2.0475183" />
+            <circle r="2.0475183" cy="112.27797" cx="80.180855" />
+            <circle r="2.0475183" cy="112.27797" cx="29.610632" />
+            <circle cx="42.27253" cy="112.27797" r="2.0475183" />
+            
+            <path
+                d="M 84.331169,93.60156 H 56.606828 C 56.205576,93.60156 56.193417,93.601044 56.193417,95.411958 H 54.971912 V 109.17634 H 56.293644 C 56.293644,109.92132 56.267902,110.01156 56.565314,110.01156 H 57.362722 C 57.362722,112.25582 57.255574,112.29516 57.587145,112.29516 L 84.331169,112.31138 Z"
+                />
+            <g transform="matrix(-1,0,0,1,109.94382,0)">
+                <path
+                    d="M 84.331169,93.60156 H 56.606828 C 56.205576,93.60156 56.193417,93.601044 56.193417,95.411958 H 54.971912 V 109.17634 H 56.293644 C 56.293644,109.92132 56.267902,110.01156 56.565314,110.01156 H 57.362722 C 57.362722,112.25582 57.255574,112.29516 57.587145,112.29516 L 84.331169,112.31138 Z"
+                    />
+            </g>
+        </g>
+    </marker>
 </defs>
 <g id="zoomable">
     <image href="res/map_1920.png" x="15093" y="9598" width="2343" height="1317"/>
     <path id="border"/>
     <script xlink:href="borders-epsg3857.js" />
-    <g id="elements">      
-
+    <g id="elements">
+        <g class="helper" data-from="9 20 noanim-keepzoom" ></g>
         <path data-line="dummy" class="helper" data-stops="+0 WPAU +0 BL +0 WNT" data-from="9 1" data-to="15 5 noanim-nozoom" />
-        <g class="helper" data-from="15 140" ></g>
-        <path data-line="dummy" class="helper" data-stops="+0 RM +0 FHM +0 FF" data-from="20 1" />
+        <g class="helper" data-from="15 60 noanim-keepzoom" ></g>
+        <g class="helper" data-from="16 60 noanim-keepzoom" ></g>
+        <path data-line="dummy" class="helper" data-stops="+0 RM +0 FF +0 FHM" data-from="20 1" />
+        <g class="helper" data-from="20 110 noanim-keepzoom" ></g>
+        <g class="helper" data-from="21 100 noanim-keepzoom" ></g>
 
   
         <rect data-station="WNT" x="16476" y="9956" data-comment="Neustrelitz" data-dir="nw" />
@@ -32,7 +171,7 @@
         <rect data-station="FFLF" x="16092" y="10412" data-comment="FFM Flughafen" data-dir="ne" />
         <rect data-station="FMZ" x="16065" y="10418" data-comment="Mainz" data-dir="n" />
         <rect data-station="FW" x="16063" y="10409" data-comment="Wiesbaden" data-dir="n" />
-        <rect data-station="FHM" x="16072" y="10418" data-comment="Hochheim" data-dir="n" data-label-dir="nw" />
+        <rect data-station="FHM" x="16072" y="10418" data-comment="Hochheim" data-dir="n" data-label-dir="w" />
         <rect data-station="RM" x="16083" y="10487" data-comment="Mannheim" data-dir="n" />
 
 
@@ -49,7 +188,7 @@
     </g>
 </g>
 
-<g class="tstp focusable" style="opacity:0" data-from="10 5 noanim-keepzoom" data-to="15 140 noanim-nozoom" transform="translate(15510 9700)">
+<g class="tstp focusable" style="opacity:0" data-from="10 5 noanim-keepzoom" data-to="16 140 noanim-nozoom" transform="translate(15510 9700)">
     <rect x="-210" y="0" width="1920" height="1500" class="bg" />
 
     <g data-from="10 27 noanim-keepzoom" class="focusable" onfocus="
@@ -79,9 +218,10 @@
 
     <text x="1450" y="50" class="station-label">Neustrelitz Hbf</text>
 
+    <!-- /tstp?from=8012614&to=8010250&vias=8011160&vias=8011160&vias=0&vias=0&vias=0&vias=0&vias=0&vias=0&vias=0&vias=0&datetime=2021-12-20T14%3A50 -->
     <g id="WPAU-WNT-simple"></g>
 </g>
-<g class="tstp focusable" style="opacity:0" data-from="15 5 noanim-keepzoom" data-to="15 140 noanim-nozoom" transform="translate(15510 9700)">
+<g class="tstp focusable" style="opacity:0" data-from="15 5 noanim-keepzoom" data-to="16 140 noanim-nozoom" transform="translate(15510 9700)">
     <rect x="-210" y="0" width="1920" height="1500" class="bg" />
 
     <g data-from="15 5 noanim-keepzoom" class="focusable" onfocus="
@@ -127,6 +267,7 @@
 
     <text x="330" y="50" class="station-label">Berlin-Spandau (S)</text>
 
+    <!-- /tstp?from=8012614&to=8010250&vias=8010404&vias=8089100&vias=8011160&vias=8011102&vias=0&vias=0&vias=0&vias=0&vias=0&vias=0&datetime=2021-12-20T14%3A50 -->
     <g id="WPAU-WNT"></g>
 </g>
 
@@ -183,13 +324,16 @@
 
     <g data-from="20 85 noanim-keepzoom" class="focusable" onfocus="
         selectEdge('1|80772|0|81|20122021_8000244_1640007540');
+        document.getElementById('8000242440071500_8000240_1640010000-label').style.display = 'inline';
         "></g>
 
     <g data-from="20 101 noanim-keepzoom" class="focusable" onfocus="
+        document.getElementById('8000242440071500_8000240_1640010000-label').style.display = 'none';
         selectEdge('1|58452|0|81|20122021_8000244_1640007900');
         selectSingleEdge('1|58452|0|81|20122021_8000244_1640007900', true, true);
         selectSingleEdge('1|58838|0|81|20122021_8000257_1640010000', true, true);
         selectSingleEdge('1|58838|0|81|20122021_8000240_1640011740', true, true);
+        selectSingleEdge('1|58838|0|81|20122021_8000240_1640011620_station', true, true);        
         "></g>
 
     <text x="650" y="50" class="station-label">Frankfurt(Main)Hbf</text>
@@ -211,13 +355,17 @@
     <text x="50" y="50" class="station-label">Mannheim Hbf</text>
 
     <text x="1250" y="50" class="station-label">Mainz-Kastel</text>
+
+    <!-- /tstp?from=8000244&to=8002872&vias=8000257&vias=8000240&vias=8000615&vias=8070003&vias=8006404&vias=8000105&vias=0&vias=0&vias=0&vias=0&datetime=2021-12-20T14%3A00 -->
     <g id="RM-FHM"></g>
 </g>
 
 <image id="abstellbhf" href="res/abstellbhf.jpg" preserveAspectRatio="xMidYMid slice" class="cover" data-from="1 0 keepzoom" data-to="1 12 keepzoom" data-zoom="50 45" />
 <image id="timetable_collapsed" href="res/timetable_collapsed.png" preserveAspectRatio="xMidYMid slice" class="cover" data-from="9 7 keepzoom" data-to="9 15 keepzoom" />
-<image id="timetable_expanded" href="res/timetable_expanded.png" preserveAspectRatio="xMidYMid slice" class="cover" data-from="9 15 keepzoom" data-to="9 20 keepzoom" />
+<image id="timetable_expanded" href="res/timetable_expanded.png" preserveAspectRatio="xMidYMid slice" class="cover" data-from="9 15 keepzoom" data-to="10 5 keepzoom" />
 <image id="timetable_RM_FHM" href="res/timetable_RM_FHM.png" preserveAspectRatio="xMidYMid slice" class="cover" data-from="20 6 keepzoom" data-to="20 12 keepzoom" />
+<text x="17200" y="10740" data-from="9 0 keepzoom" data-to="9 7 keepzoom" class="caption" >maps-for-free.com (bearbeitet). – © OpenStreetMap Contributors</text>
+<text x="17200" y="10740" data-from="20 0 keepzoom" data-to="20 6 keepzoom" class="caption" >maps-for-free.com (bearbeitet). – © OpenStreetMap Contributors</text>
 
 <script xlink:href="../../dist/network-animator.js" />
 <script xlink:href="tstp.js" />

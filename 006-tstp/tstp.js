@@ -76,12 +76,18 @@ function simulateDelay() {
     });
 }
 
+var i = 0;
 function lazyLoadSvg(id) {
     fetch('res/'+id+'.svg')
         .then(response => response.text())
-        .then(response => 
-            document.getElementById(id).innerHTML = response
-        );
+        .then(response => {
+            document.getElementById(id).innerHTML = response;
+            i++;
+            if (i == 3) {
+                const event = new Event('startTransportNetworkAnimator');
+                document.dispatchEvent(event);
+            }
+        });
 }
 
 lazyLoadSvg('WPAU-WNT-simple');
