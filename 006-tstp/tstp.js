@@ -49,8 +49,24 @@ for(let i=0;i<edges.length;i++) {
     }
 }
 
-
-const animator = new TNA.SvgAnimator();
-animator.wait(1000, () => {
-    console.log('asdfklh');
-});   
+function simulateDelay() {
+    const line = document.getElementById('simple-1|49871|0|81|20122021_8098160_1640011020');
+    const dep = document.getElementById('simple-1|49871|0|81|20122021_8098160_1640011020-departure');
+    const arr = document.getElementById('simple-1|49871|0|81|20122021_8098160_1640011020-arrival');
+    const toucharea = document.getElementById('simple-1|49871|0|81|20122021_8098160_1640011020-toucharea');
+    const pxPerMin = 4;
+    const animator = new TNA.SvgAnimator();
+    animator.from(0).to(5).animate(2000, (x, isLast) => {
+        const y1 = 305+x*pxPerMin;
+        const y2 = 597+x*pxPerMin;
+        line.setAttribute('d', 'M 750,'+y1+' L1450,'+y2);
+        toucharea.setAttribute('d', 'M 750,'+y1+' L1450,'+y2);
+        dep.setAttribute('y', y1);
+        dep.innerHTML = '15:'+Math.round(37+x);
+        dep.className.baseVal += ' red';
+        arr.setAttribute('y', y2);
+        arr.innerHTML = '16:'+Math.round(41+x);
+        arr.className.baseVal += ' red';
+        return true;
+    });
+}
