@@ -1,0 +1,505 @@
+<path id="simple-8098162441133380_8098160_1640017380" d="M 750,788 L750,797"
+    marker-start="url(#dot-redundant-true)" marker-end="url(#dot-redundant-true)"
+    class="edge type-Foot redundant-true  shortest-path-simple-8098162441133380_8098160_1640017380 "
+    />
+<path id="simple-8098162441133380_8098160_1640017380-toucharea" d="M 750,788 L750,797"
+    class="edge-toucharea"
+    />
+<text>
+    <textPath href="#simple-8098162441133380_8098160_1640017380" id="simple-8098162441133380_8098160_1640017380-label" startOffset="50%" text-anchor="middle"
+        class="label type-Foot shortest-path-simple-8098162441133380_8098160_1640017380  shortest-path-simple-8098162441133380_8098160_1640017380">
+        🚶 114m
+    </textPath>
+</text>
+<text x="750" y="797" id="simple-8098162441133380_8098160_1640017380-arrival" text-anchor="end"
+    class="arrival type-Foot shortest-path-simple-8098162441133380_8098160_1640017380  shortest-path-simple-8098162441133380_8098160_1640017380">
+    17:25 
+</text>
+<text x="750" y="788" id="simple-8098162441133380_8098160_1640017380-departure" text-anchor="start" 
+    class="departure type-Foot shortest-path-simple-8098162441133380_8098160_1640017380  shortest-path-simple-8098162441133380_8098160_1640017380">
+    17:23 
+</text>
+
+<path id="simple-8098162441129780_8098160_1640013780" d="M 750,514 L750,524"
+    marker-start="url(#dot-redundant-true)" marker-end="url(#dot-redundant-true)"
+    class="edge type-Foot redundant-true  shortest-path-simple-8098162441129780_8098160_1640013780 "
+    />
+<path id="simple-8098162441129780_8098160_1640013780-toucharea" d="M 750,514 L750,524"
+    class="edge-toucharea"
+    />
+<text>
+    <textPath href="#simple-8098162441129780_8098160_1640013780" id="simple-8098162441129780_8098160_1640013780-label" startOffset="50%" text-anchor="middle"
+        class="label type-Foot shortest-path-simple-8098162441129780_8098160_1640013780  shortest-path-simple-8098162441129780_8098160_1640013780">
+        🚶 114m
+    </textPath>
+</text>
+<text x="750" y="524" id="simple-8098162441129780_8098160_1640013780-arrival" text-anchor="end"
+    class="arrival type-Foot shortest-path-simple-8098162441129780_8098160_1640013780  shortest-path-simple-8098162441129780_8098160_1640013780">
+    16:25 
+</text>
+<text x="750" y="514" id="simple-8098162441129780_8098160_1640013780-departure" text-anchor="start" 
+    class="departure type-Foot shortest-path-simple-8098162441129780_8098160_1640013780  shortest-path-simple-8098162441129780_8098160_1640013780">
+    16:23 
+</text>
+
+<path id="simple-1|68407|3|81|20122021_8011160_1640010300" d="M 750,250 L50,446"
+    marker-start="url(#dot-redundant-true)" marker-end="url(#dot-redundant-true)"
+    class="edge type-regional redundant-true  shortest-path-simple-1|68407|3|81|20122021_8011160_1640010300 "
+    />
+<path id="simple-1|68407|3|81|20122021_8011160_1640010300-toucharea" d="M 750,250 L50,446"
+    class="edge-toucharea"
+    />
+<text>
+    <textPath href="#simple-1|68407|3|81|20122021_8011160_1640010300" id="simple-1|68407|3|81|20122021_8011160_1640010300-label" startOffset="50%" text-anchor="middle"
+        class="label type-regional shortest-path-simple-1|68407|3|81|20122021_8011160_1640010300  shortest-path-simple-1|68407|3|81|20122021_8011160_1640010300">
+        RE 2
+    </textPath>
+</text>
+<text x="50" y="446" id="simple-1|68407|3|81|20122021_8011160_1640010300-arrival" text-anchor="end"
+    class="arrival type-regional shortest-path-simple-1|68407|3|81|20122021_8011160_1640010300  shortest-path-simple-1|68407|3|81|20122021_8011160_1640010300">
+    16:08 
+</text>
+<text x="750" y="250" id="simple-1|68407|3|81|20122021_8011160_1640010300-departure" text-anchor="start" 
+    class="departure type-regional shortest-path-simple-1|68407|3|81|20122021_8011160_1640010300  shortest-path-simple-1|68407|3|81|20122021_8011160_1640010300">
+    15:25 13
+</text>
+
+<path id="simple-1|68407|4|81|20122021_8011160_1640017500" d="M 750,797 L50,993"
+    marker-start="url(#dot-redundant-true)" marker-end="url(#dot-redundant-true)"
+    class="edge type-regional redundant-true  shortest-path-simple-1|68407|4|81|20122021_8011160_1640017500 "
+    />
+<path id="simple-1|68407|4|81|20122021_8011160_1640017500-toucharea" d="M 750,797 L50,993"
+    class="edge-toucharea"
+    />
+<text>
+    <textPath href="#simple-1|68407|4|81|20122021_8011160_1640017500" id="simple-1|68407|4|81|20122021_8011160_1640017500-label" startOffset="50%" text-anchor="middle"
+        class="label type-regional shortest-path-simple-1|68407|4|81|20122021_8011160_1640017500  shortest-path-simple-1|68407|4|81|20122021_8011160_1640017500">
+        RE 2
+    </textPath>
+</text>
+<text x="50" y="993" id="simple-1|68407|4|81|20122021_8011160_1640017500-arrival" text-anchor="end"
+    class="arrival type-regional shortest-path-simple-1|68407|4|81|20122021_8011160_1640017500  shortest-path-simple-1|68407|4|81|20122021_8011160_1640017500">
+    18:08 
+</text>
+<text x="750" y="797" id="simple-1|68407|4|81|20122021_8011160_1640017500-departure" text-anchor="start" 
+    class="departure type-regional shortest-path-simple-1|68407|4|81|20122021_8011160_1640017500  shortest-path-simple-1|68407|4|81|20122021_8011160_1640017500">
+    17:25 13
+</text>
+
+<path id="simple-1|68415|0|81|20122021_8012614_1640019000" d="M 50,911 L750,1112"
+    marker-start="url(#dot-redundant-true)" marker-end="url(#dot-redundant-true)"
+    class="edge type-regional redundant-true  shortest-path-simple-1|68415|0|81|20122021_8012614_1640019000 "
+    />
+<path id="simple-1|68415|0|81|20122021_8012614_1640019000-toucharea" d="M 50,911 L750,1112"
+    class="edge-toucharea"
+    />
+<text>
+    <textPath href="#simple-1|68415|0|81|20122021_8012614_1640019000" id="simple-1|68415|0|81|20122021_8012614_1640019000-label" startOffset="50%" text-anchor="middle"
+        class="label type-regional shortest-path-simple-1|68415|0|81|20122021_8012614_1640019000  shortest-path-simple-1|68415|0|81|20122021_8012614_1640019000">
+        RE 2
+    </textPath>
+</text>
+<text x="750" y="1112" id="simple-1|68415|0|81|20122021_8012614_1640019000-arrival" text-anchor="end"
+    class="arrival type-regional shortest-path-simple-1|68415|0|81|20122021_8012614_1640019000  shortest-path-simple-1|68415|0|81|20122021_8012614_1640019000">
+    18:34 
+</text>
+<text x="50" y="911" id="simple-1|68415|0|81|20122021_8012614_1640019000-departure" text-anchor="start" 
+    class="departure type-regional shortest-path-simple-1|68415|0|81|20122021_8012614_1640019000  shortest-path-simple-1|68415|0|81|20122021_8012614_1640019000">
+    17:50 
+</text>
+
+<path id="simple-1|50023|0|81|20122021_8010250_1640017140" d="M 1450,770 L750,1062"
+    marker-start="url(#dot-redundant-true)" marker-end="url(#dot-redundant-true)"
+    class="edge type-national redundant-true  shortest-path-simple-1|50023|0|81|20122021_8010250_1640017140 "
+    />
+<path id="simple-1|50023|0|81|20122021_8010250_1640017140-toucharea" d="M 1450,770 L750,1062"
+    class="edge-toucharea"
+    />
+<text>
+    <textPath href="#simple-1|50023|0|81|20122021_8010250_1640017140" id="simple-1|50023|0|81|20122021_8010250_1640017140-label" startOffset="50%" text-anchor="middle"
+        class="label type-national shortest-path-simple-1|50023|0|81|20122021_8010250_1640017140  shortest-path-simple-1|50023|0|81|20122021_8010250_1640017140">
+        IC 2273
+    </textPath>
+</text>
+<text x="750" y="1062" id="simple-1|50023|0|81|20122021_8010250_1640017140-arrival" text-anchor="end"
+    class="arrival type-national shortest-path-simple-1|50023|0|81|20122021_8010250_1640017140  shortest-path-simple-1|50023|0|81|20122021_8010250_1640017140">
+    18:23 
+</text>
+<text x="1450" y="770" id="simple-1|50023|0|81|20122021_8010250_1640017140-departure" text-anchor="start" 
+    class="departure type-national shortest-path-simple-1|50023|0|81|20122021_8010250_1640017140  shortest-path-simple-1|50023|0|81|20122021_8010250_1640017140">
+    17:19 
+</text>
+
+<path id="simple-1|52745|0|81|20122021_8010250_1640012400" d="M 1450,410 L750,756"
+    marker-start="url(#dot-redundant-true)" marker-end="url(#dot-redundant-true)"
+    class="edge type-regional redundant-true  shortest-path-simple-1|52745|0|81|20122021_8010250_1640012400 "
+    />
+<path id="simple-1|52745|0|81|20122021_8010250_1640012400-toucharea" d="M 1450,410 L750,756"
+    class="edge-toucharea"
+    />
+<text>
+    <textPath href="#simple-1|52745|0|81|20122021_8010250_1640012400" id="simple-1|52745|0|81|20122021_8010250_1640012400-label" startOffset="50%" text-anchor="middle"
+        class="label type-regional shortest-path-simple-1|52745|0|81|20122021_8010250_1640012400  shortest-path-simple-1|52745|0|81|20122021_8010250_1640012400">
+        RE 5
+    </textPath>
+</text>
+<text x="750" y="756" id="simple-1|52745|0|81|20122021_8010250_1640012400-arrival" text-anchor="end"
+    class="arrival type-regional shortest-path-simple-1|52745|0|81|20122021_8010250_1640012400  shortest-path-simple-1|52745|0|81|20122021_8010250_1640012400">
+    17:16 
+</text>
+<text x="1450" y="410" id="simple-1|52745|0|81|20122021_8010250_1640012400-departure" text-anchor="start" 
+    class="departure type-regional shortest-path-simple-1|52745|0|81|20122021_8010250_1640012400  shortest-path-simple-1|52745|0|81|20122021_8010250_1640012400">
+    16:00 
+</text>
+
+<path id="simple-1|52558|0|81|20122021_8010250_1640016000" d="M 1450,683 L750,1016"
+    marker-start="url(#dot-redundant-true)" marker-end="url(#dot-redundant-true)"
+    class="edge type-regional redundant-true  shortest-path-simple-1|52558|0|81|20122021_8010250_1640016000 "
+    />
+<path id="simple-1|52558|0|81|20122021_8010250_1640016000-toucharea" d="M 1450,683 L750,1016"
+    class="edge-toucharea"
+    />
+<text>
+    <textPath href="#simple-1|52558|0|81|20122021_8010250_1640016000" id="simple-1|52558|0|81|20122021_8010250_1640016000-label" startOffset="50%" text-anchor="middle"
+        class="label type-regional shortest-path-simple-1|52558|0|81|20122021_8010250_1640016000  shortest-path-simple-1|52558|0|81|20122021_8010250_1640016000">
+        RE 5
+    </textPath>
+</text>
+<text x="750" y="1016" id="simple-1|52558|0|81|20122021_8010250_1640016000-arrival" text-anchor="end"
+    class="arrival type-regional shortest-path-simple-1|52558|0|81|20122021_8010250_1640016000  shortest-path-simple-1|52558|0|81|20122021_8010250_1640016000">
+    18:13 
+</text>
+<text x="1450" y="683" id="simple-1|52558|0|81|20122021_8010250_1640016000-departure" text-anchor="start" 
+    class="departure type-regional shortest-path-simple-1|52558|0|81|20122021_8010250_1640016000  shortest-path-simple-1|52558|0|81|20122021_8010250_1640016000">
+    17:00 
+</text>
+
+<path id="simple-1|52555|1|81|20122021_8010250_1640008800" d="M 1450,136 L750,483"
+    marker-start="url(#dot-redundant-true)" marker-end="url(#dot-redundant-true)"
+    class="edge type-regional redundant-true  shortest-path-simple-1|52555|1|81|20122021_8010250_1640008800 "
+    />
+<path id="simple-1|52555|1|81|20122021_8010250_1640008800-toucharea" d="M 1450,136 L750,483"
+    class="edge-toucharea"
+    />
+<text>
+    <textPath href="#simple-1|52555|1|81|20122021_8010250_1640008800" id="simple-1|52555|1|81|20122021_8010250_1640008800-label" startOffset="50%" text-anchor="middle"
+        class="label type-regional shortest-path-simple-1|52555|1|81|20122021_8010250_1640008800  shortest-path-simple-1|52555|1|81|20122021_8010250_1640008800">
+        RE 5
+    </textPath>
+</text>
+<text x="750" y="483" id="simple-1|52555|1|81|20122021_8010250_1640008800-arrival" text-anchor="end"
+    class="arrival type-regional shortest-path-simple-1|52555|1|81|20122021_8010250_1640008800  shortest-path-simple-1|52555|1|81|20122021_8010250_1640008800">
+    16:16 
+</text>
+<text x="1450" y="136" id="simple-1|52555|1|81|20122021_8010250_1640008800-departure" text-anchor="start" 
+    class="departure type-regional shortest-path-simple-1|52555|1|81|20122021_8010250_1640008800  shortest-path-simple-1|52555|1|81|20122021_8010250_1640008800">
+    15:00 
+</text>
+
+<path id="simple-1|68408|2|81|20122021_8012614_1640015520" d="M 50,647 L750,843"
+    marker-start="url(#dot-redundant-true)" marker-end="url(#dot-redundant-true)"
+    class="edge type-regional redundant-true  shortest-path-simple-1|68408|2|81|20122021_8012614_1640015520 provider-shortest-path"
+    />
+<path id="simple-1|68408|2|81|20122021_8012614_1640015520-toucharea" d="M 50,647 L750,843"
+    class="edge-toucharea"
+    />
+<text>
+    <textPath href="#simple-1|68408|2|81|20122021_8012614_1640015520" id="simple-1|68408|2|81|20122021_8012614_1640015520-label" startOffset="50%" text-anchor="middle"
+        class="label type-regional shortest-path-simple-1|68408|2|81|20122021_8012614_1640015520  shortest-path-simple-1|68408|2|81|20122021_8012614_1640015520">
+        RE 2
+    </textPath>
+</text>
+<text x="750" y="843" id="simple-1|68408|2|81|20122021_8012614_1640015520-arrival" text-anchor="end"
+    class="arrival type-regional shortest-path-simple-1|68408|2|81|20122021_8012614_1640015520  shortest-path-simple-1|68408|2|81|20122021_8012614_1640015520">
+    17:35 
+</text>
+<text x="50" y="647" id="simple-1|68408|2|81|20122021_8012614_1640015520-departure" text-anchor="start" 
+    class="departure type-regional shortest-path-simple-1|68408|2|81|20122021_8012614_1640015520  shortest-path-simple-1|68408|2|81|20122021_8012614_1640015520">
+    16:52 
+</text>
+
+<path id="simple-1|68405|4|81|20122021_8011160_1640013900" d="M 750,524 L50,720"
+    marker-start="url(#dot-redundant-true)" marker-end="url(#dot-redundant-true)"
+    class="edge type-regional redundant-true  shortest-path-simple-1|68405|4|81|20122021_8011160_1640013900 "
+    />
+<path id="simple-1|68405|4|81|20122021_8011160_1640013900-toucharea" d="M 750,524 L50,720"
+    class="edge-toucharea"
+    />
+<text>
+    <textPath href="#simple-1|68405|4|81|20122021_8011160_1640013900" id="simple-1|68405|4|81|20122021_8011160_1640013900-label" startOffset="50%" text-anchor="middle"
+        class="label type-regional shortest-path-simple-1|68405|4|81|20122021_8011160_1640013900  shortest-path-simple-1|68405|4|81|20122021_8011160_1640013900">
+        RE 2
+    </textPath>
+</text>
+<text x="50" y="720" id="simple-1|68405|4|81|20122021_8011160_1640013900-arrival" text-anchor="end"
+    class="arrival type-regional shortest-path-simple-1|68405|4|81|20122021_8011160_1640013900  shortest-path-simple-1|68405|4|81|20122021_8011160_1640013900">
+    17:08 
+</text>
+<text x="750" y="524" id="simple-1|68405|4|81|20122021_8011160_1640013900-departure" text-anchor="start" 
+    class="departure type-regional shortest-path-simple-1|68405|4|81|20122021_8011160_1640013900  shortest-path-simple-1|68405|4|81|20122021_8011160_1640013900">
+    16:25 14
+</text>
+
+<path id="simple-1|50018|0|81|20122021_8010250_1640009940" d="M 1450,223 L750,514"
+    marker-start="url(#dot-redundant-true)" marker-end="url(#dot-redundant-true)"
+    class="edge type-national redundant-true  shortest-path-simple-1|50018|0|81|20122021_8010250_1640009940 "
+    />
+<path id="simple-1|50018|0|81|20122021_8010250_1640009940-toucharea" d="M 1450,223 L750,514"
+    class="edge-toucharea"
+    />
+<text>
+    <textPath href="#simple-1|50018|0|81|20122021_8010250_1640009940" id="simple-1|50018|0|81|20122021_8010250_1640009940-label" startOffset="50%" text-anchor="middle"
+        class="label type-national shortest-path-simple-1|50018|0|81|20122021_8010250_1640009940  shortest-path-simple-1|50018|0|81|20122021_8010250_1640009940">
+        IC 2271
+    </textPath>
+</text>
+<text x="750" y="514" id="simple-1|50018|0|81|20122021_8010250_1640009940-arrival" text-anchor="end"
+    class="arrival type-national shortest-path-simple-1|50018|0|81|20122021_8010250_1640009940  shortest-path-simple-1|50018|0|81|20122021_8010250_1640009940">
+    16:23 
+</text>
+<text x="1450" y="223" id="simple-1|50018|0|81|20122021_8010250_1640009940-departure" text-anchor="start" 
+    class="departure type-national shortest-path-simple-1|50018|0|81|20122021_8010250_1640009940  shortest-path-simple-1|50018|0|81|20122021_8010250_1640009940">
+    15:19 
+</text>
+
+<path id="simple-8011162449830800_8011160_1640014800" d="M 750,592 L750,601"
+    marker-start="url(#dot-redundant-false)" marker-end="url(#dot-redundant-false)"
+    class="edge type-Foot redundant-false  shortest-path-simple-8011162449830800_8011160_1640014800 shortest-path-simple-1|68414|0|81|20122021_8012614_1640011800 shortest-path-simple-8098162441129780_8098160_1640013780 "
+    />
+<path id="simple-8011162449830800_8011160_1640014800-toucharea" d="M 750,592 L750,601"
+    class="edge-toucharea"
+    />
+<text>
+    <textPath href="#simple-8011162449830800_8011160_1640014800" id="simple-8011162449830800_8011160_1640014800-label" startOffset="50%" text-anchor="middle"
+        class="label type-Foot shortest-path-simple-8011162449830800_8011160_1640014800  shortest-path-simple-8011162449830800_8011160_1640014800 shortest-path-simple-1|68414|0|81|20122021_8012614_1640011800 shortest-path-simple-8098162441129780_8098160_1640013780">
+        🚶 114m
+    </textPath>
+</text>
+<text x="750" y="601" id="simple-8011162449830800_8011160_1640014800-arrival" text-anchor="end"
+    class="arrival type-Foot shortest-path-simple-8011162449830800_8011160_1640014800  shortest-path-simple-8011162449830800_8011160_1640014800 shortest-path-simple-1|68414|0|81|20122021_8012614_1640011800 shortest-path-simple-8098162441129780_8098160_1640013780">
+    16:42 
+</text>
+<text x="750" y="592" id="simple-8011162449830800_8011160_1640014800-departure" text-anchor="start" 
+    class="departure type-Foot shortest-path-simple-8011162449830800_8011160_1640014800  shortest-path-simple-8011162449830800_8011160_1640014800 shortest-path-simple-1|68414|0|81|20122021_8012614_1640011800 shortest-path-simple-8098162441129780_8098160_1640013780">
+    16:40 
+</text>
+
+<path id="simple-8011162449827260_8011160_1640011260" d="M 750,323 L750,332"
+    marker-start="url(#dot-redundant-false)" marker-end="url(#dot-redundant-false)"
+    class="edge type-Foot redundant-false  shortest-path-simple-8011162449827260_8011160_1640011260 "
+    />
+<path id="simple-8011162449827260_8011160_1640011260-toucharea" d="M 750,323 L750,332"
+    class="edge-toucharea"
+    />
+<text>
+    <textPath href="#simple-8011162449827260_8011160_1640011260" id="simple-8011162449827260_8011160_1640011260-label" startOffset="50%" text-anchor="middle"
+        class="label type-Foot shortest-path-simple-8011162449827260_8011160_1640011260  shortest-path-simple-8011162449827260_8011160_1640011260">
+        🚶 114m
+    </textPath>
+</text>
+<text x="750" y="332" id="simple-8011162449827260_8011160_1640011260-arrival" text-anchor="end"
+    class="arrival type-Foot shortest-path-simple-8011162449827260_8011160_1640011260  shortest-path-simple-8011162449827260_8011160_1640011260">
+    15:43 
+</text>
+<text x="750" y="323" id="simple-8011162449827260_8011160_1640011260-departure" text-anchor="start" 
+    class="departure type-Foot shortest-path-simple-8011162449827260_8011160_1640011260  shortest-path-simple-8011162449827260_8011160_1640011260">
+    15:41 
+</text>
+
+<path id="simple-8011162449833980_8011160_1640017980" d="M 750,834 L750,843"
+    marker-start="url(#dot-redundant-false)" marker-end="url(#dot-redundant-false)"
+    class="edge type-Foot redundant-false  shortest-path-simple-8011162449833980_8011160_1640017980 shortest-path-simple-8098162441133380_8098160_1640017380 "
+    />
+<path id="simple-8011162449833980_8011160_1640017980-toucharea" d="M 750,834 L750,843"
+    class="edge-toucharea"
+    />
+<text>
+    <textPath href="#simple-8011162449833980_8011160_1640017980" id="simple-8011162449833980_8011160_1640017980-label" startOffset="50%" text-anchor="middle"
+        class="label type-Foot shortest-path-simple-8011162449833980_8011160_1640017980  shortest-path-simple-8011162449833980_8011160_1640017980 shortest-path-simple-8098162441133380_8098160_1640017380">
+        🚶 114m
+    </textPath>
+</text>
+<text x="750" y="843" id="simple-8011162449833980_8011160_1640017980-arrival" text-anchor="end"
+    class="arrival type-Foot shortest-path-simple-8011162449833980_8011160_1640017980  shortest-path-simple-8011162449833980_8011160_1640017980 shortest-path-simple-8098162441133380_8098160_1640017380">
+    17:35 
+</text>
+<text x="750" y="834" id="simple-8011162449833980_8011160_1640017980-departure" text-anchor="start" 
+    class="departure type-Foot shortest-path-simple-8011162449833980_8011160_1640017980  shortest-path-simple-8011162449833980_8011160_1640017980 shortest-path-simple-8098162441133380_8098160_1640017380">
+    17:33 
+</text>
+
+<path id="simple-8011162449826900_8011160_1640010900" d="M 750,296 L750,305"
+    marker-start="url(#dot-redundant-false)" marker-end="url(#dot-redundant-false)"
+    class="edge type-Foot redundant-false  shortest-path-simple-1|68413|0|81|20122021_8012614_1640008320 shortest-path-simple-8011162449826900_8011160_1640010900 "
+    />
+<path id="simple-8011162449826900_8011160_1640010900-toucharea" d="M 750,296 L750,305"
+    class="edge-toucharea"
+    />
+<text>
+    <textPath href="#simple-8011162449826900_8011160_1640010900" id="simple-8011162449826900_8011160_1640010900-label" startOffset="50%" text-anchor="middle"
+        class="label type-Foot shortest-path-simple-8011162449826900_8011160_1640010900  shortest-path-simple-1|68413|0|81|20122021_8012614_1640008320 shortest-path-simple-8011162449826900_8011160_1640010900">
+        🚶 114m
+    </textPath>
+</text>
+<text x="750" y="305" id="simple-8011162449826900_8011160_1640010900-arrival" text-anchor="end"
+    class="arrival type-Foot shortest-path-simple-8011162449826900_8011160_1640010900  shortest-path-simple-1|68413|0|81|20122021_8012614_1640008320 shortest-path-simple-8011162449826900_8011160_1640010900">
+    15:37 
+</text>
+<text x="750" y="296" id="simple-8011162449826900_8011160_1640010900-departure" text-anchor="start" 
+    class="departure type-Foot shortest-path-simple-8011162449826900_8011160_1640010900  shortest-path-simple-1|68413|0|81|20122021_8012614_1640008320 shortest-path-simple-8011162449826900_8011160_1640010900">
+    15:35 
+</text>
+
+<path id="simple-1|49871|0|81|20122021_8098160_1640011020" d="M 750,305 L1450,597"
+    marker-start="url(#dot-redundant-false)" marker-end="url(#dot-redundant-false)"
+    class="edge type-national redundant-false  shortest-path-simple-1|68413|0|81|20122021_8012614_1640008320 shortest-path-simple-8011162449826900_8011160_1640010900 shortest-path-simple-1|49871|0|81|20122021_8098160_1640011020 "
+    />
+<path id="simple-1|49871|0|81|20122021_8098160_1640011020-toucharea" d="M 750,305 L1450,597"
+    class="edge-toucharea"
+    />
+<text>
+    <textPath href="#simple-1|49871|0|81|20122021_8098160_1640011020" id="simple-1|49871|0|81|20122021_8098160_1640011020-label" startOffset="50%" text-anchor="middle"
+        class="label type-national shortest-path-simple-1|49871|0|81|20122021_8098160_1640011020  shortest-path-simple-1|68413|0|81|20122021_8012614_1640008320 shortest-path-simple-8011162449826900_8011160_1640010900 shortest-path-simple-1|49871|0|81|20122021_8098160_1640011020">
+        IC 2176
+    </textPath>
+</text>
+<text x="1450" y="597" id="simple-1|49871|0|81|20122021_8098160_1640011020-arrival" text-anchor="end"
+    class="arrival type-national shortest-path-simple-1|49871|0|81|20122021_8098160_1640011020  shortest-path-simple-1|68413|0|81|20122021_8012614_1640008320 shortest-path-simple-8011162449826900_8011160_1640010900 shortest-path-simple-1|49871|0|81|20122021_8098160_1640011020">
+    16:41 
+</text>
+<text x="750" y="305" id="simple-1|49871|0|81|20122021_8098160_1640011020-departure" text-anchor="start" 
+    class="departure type-national shortest-path-simple-1|49871|0|81|20122021_8098160_1640011020  shortest-path-simple-1|68413|0|81|20122021_8012614_1640008320 shortest-path-simple-8011162449826900_8011160_1640010900 shortest-path-simple-1|49871|0|81|20122021_8098160_1640011020">
+    15:37 
+</text>
+
+<path id="simple-1|52732|2|81|20122021_8098160_1640014920" d="M 750,601 L1450,952"
+    marker-start="url(#dot-redundant-false)" marker-end="url(#dot-redundant-false)"
+    class="edge type-regional redundant-false  shortest-path-simple-1|50018|0|81|20122021_8010250_1640009940 shortest-path-simple-8011162449830800_8011160_1640014800 shortest-path-simple-1|52732|2|81|20122021_8098160_1640014920 shortest-path-simple-1|52555|1|81|20122021_8010250_1640008800 shortest-path-simple-1|68414|0|81|20122021_8012614_1640011800 shortest-path-simple-8098162441129780_8098160_1640013780 provider-shortest-path"
+    />
+<path id="simple-1|52732|2|81|20122021_8098160_1640014920-toucharea" d="M 750,601 L1450,952"
+    class="edge-toucharea"
+    />
+<text>
+    <textPath href="#simple-1|52732|2|81|20122021_8098160_1640014920" id="simple-1|52732|2|81|20122021_8098160_1640014920-label" startOffset="50%" text-anchor="middle"
+        class="label type-regional shortest-path-simple-1|52732|2|81|20122021_8098160_1640014920  shortest-path-simple-1|50018|0|81|20122021_8010250_1640009940 shortest-path-simple-8011162449830800_8011160_1640014800 shortest-path-simple-1|52732|2|81|20122021_8098160_1640014920 shortest-path-simple-1|52555|1|81|20122021_8010250_1640008800 shortest-path-simple-1|68414|0|81|20122021_8012614_1640011800 shortest-path-simple-8098162441129780_8098160_1640013780">
+        RE 5
+    </textPath>
+</text>
+<text x="1450" y="952" id="simple-1|52732|2|81|20122021_8098160_1640014920-arrival" text-anchor="end"
+    class="arrival type-regional shortest-path-simple-1|52732|2|81|20122021_8098160_1640014920  shortest-path-simple-1|50018|0|81|20122021_8010250_1640009940 shortest-path-simple-8011162449830800_8011160_1640014800 shortest-path-simple-1|52732|2|81|20122021_8098160_1640014920 shortest-path-simple-1|52555|1|81|20122021_8010250_1640008800 shortest-path-simple-1|68414|0|81|20122021_8012614_1640011800 shortest-path-simple-8098162441129780_8098160_1640013780">
+    17:59 
+</text>
+<text x="750" y="601" id="simple-1|52732|2|81|20122021_8098160_1640014920-departure" text-anchor="start" 
+    class="departure type-regional shortest-path-simple-1|52732|2|81|20122021_8098160_1640014920  shortest-path-simple-1|50018|0|81|20122021_8010250_1640009940 shortest-path-simple-8011162449830800_8011160_1640014800 shortest-path-simple-1|52732|2|81|20122021_8098160_1640014920 shortest-path-simple-1|52555|1|81|20122021_8010250_1640008800 shortest-path-simple-1|68414|0|81|20122021_8012614_1640011800 shortest-path-simple-8098162441129780_8098160_1640013780">
+    16:42 
+</text>
+
+<path id="simple-1|49867|0|81|20122021_8098160_1640018100" d="M 750,843 L1450,1144"
+    marker-start="url(#dot-redundant-false)" marker-end="url(#dot-redundant-false)"
+    class="edge type-national redundant-false  shortest-path-simple-8011162449833980_8011160_1640017980 shortest-path-simple-8098162441133380_8098160_1640017380 shortest-path-simple-1|52745|0|81|20122021_8010250_1640012400 shortest-path-simple-1|49867|0|81|20122021_8098160_1640018100 provider-shortest-path"
+    />
+<path id="simple-1|49867|0|81|20122021_8098160_1640018100-toucharea" d="M 750,843 L1450,1144"
+    class="edge-toucharea"
+    />
+<text>
+    <textPath href="#simple-1|49867|0|81|20122021_8098160_1640018100" id="simple-1|49867|0|81|20122021_8098160_1640018100-label" startOffset="50%" text-anchor="middle"
+        class="label type-national shortest-path-simple-1|49867|0|81|20122021_8098160_1640018100  shortest-path-simple-8011162449833980_8011160_1640017980 shortest-path-simple-8098162441133380_8098160_1640017380 shortest-path-simple-1|52745|0|81|20122021_8010250_1640012400 shortest-path-simple-1|49867|0|81|20122021_8098160_1640018100">
+        IC 2174
+    </textPath>
+</text>
+<text x="1450" y="1144" id="simple-1|49867|0|81|20122021_8098160_1640018100-arrival" text-anchor="end"
+    class="arrival type-national shortest-path-simple-1|49867|0|81|20122021_8098160_1640018100  shortest-path-simple-8011162449833980_8011160_1640017980 shortest-path-simple-8098162441133380_8098160_1640017380 shortest-path-simple-1|52745|0|81|20122021_8010250_1640012400 shortest-path-simple-1|49867|0|81|20122021_8098160_1640018100">
+    18:41 
+</text>
+<text x="750" y="843" id="simple-1|49867|0|81|20122021_8098160_1640018100-departure" text-anchor="start" 
+    class="departure type-national shortest-path-simple-1|49867|0|81|20122021_8098160_1640018100  shortest-path-simple-8011162449833980_8011160_1640017980 shortest-path-simple-8098162441133380_8098160_1640017380 shortest-path-simple-1|52745|0|81|20122021_8010250_1640012400 shortest-path-simple-1|49867|0|81|20122021_8098160_1640018100">
+    17:35 
+</text>
+
+<path id="simple-1|52557|0|81|20122021_8098160_1640011380" d="M 750,332 L1450,679"
+    marker-start="url(#dot-redundant-false)" marker-end="url(#dot-redundant-false)"
+    class="edge type-regional redundant-false  shortest-path-simple-8011162449827260_8011160_1640011260 shortest-path-simple-1|52557|0|81|20122021_8098160_1640011380 "
+    />
+<path id="simple-1|52557|0|81|20122021_8098160_1640011380-toucharea" d="M 750,332 L1450,679"
+    class="edge-toucharea"
+    />
+<text>
+    <textPath href="#simple-1|52557|0|81|20122021_8098160_1640011380" id="simple-1|52557|0|81|20122021_8098160_1640011380-label" startOffset="50%" text-anchor="middle"
+        class="label type-regional shortest-path-simple-1|52557|0|81|20122021_8098160_1640011380  shortest-path-simple-8011162449827260_8011160_1640011260 shortest-path-simple-1|52557|0|81|20122021_8098160_1640011380">
+        RE 5
+    </textPath>
+</text>
+<text x="1450" y="679" id="simple-1|52557|0|81|20122021_8098160_1640011380-arrival" text-anchor="end"
+    class="arrival type-regional shortest-path-simple-1|52557|0|81|20122021_8098160_1640011380  shortest-path-simple-8011162449827260_8011160_1640011260 shortest-path-simple-1|52557|0|81|20122021_8098160_1640011380">
+    16:59 
+</text>
+<text x="750" y="332" id="simple-1|52557|0|81|20122021_8098160_1640011380-departure" text-anchor="start" 
+    class="departure type-regional shortest-path-simple-1|52557|0|81|20122021_8098160_1640011380  shortest-path-simple-8011162449827260_8011160_1640011260 shortest-path-simple-1|52557|0|81|20122021_8098160_1640011380">
+    15:43 
+</text>
+
+<path id="simple-1|52747|0|81|20122021_8098160_1640022120" d="M 750,1148 L1450,1500"
+    marker-start="url(#dot-redundant-false)" marker-end="url(#dot-redundant-false)"
+    class="edge type-regional redundant-false  shortest-path-simple-1|52747|0|81|20122021_8098160_1640022120 provider-shortest-path"
+    />
+<path id="simple-1|52747|0|81|20122021_8098160_1640022120-toucharea" d="M 750,1148 L1450,1500"
+    class="edge-toucharea"
+    />
+<text>
+    <textPath href="#simple-1|52747|0|81|20122021_8098160_1640022120" id="simple-1|52747|0|81|20122021_8098160_1640022120-label" startOffset="50%" text-anchor="middle"
+        class="label type-regional shortest-path-simple-1|52747|0|81|20122021_8098160_1640022120  shortest-path-simple-1|52747|0|81|20122021_8098160_1640022120">
+        RE 5
+    </textPath>
+</text>
+<text x="1450" y="1500" id="simple-1|52747|0|81|20122021_8098160_1640022120-arrival" text-anchor="end"
+    class="arrival type-regional shortest-path-simple-1|52747|0|81|20122021_8098160_1640022120  shortest-path-simple-1|52747|0|81|20122021_8098160_1640022120">
+    19:59 
+</text>
+<text x="750" y="1148" id="simple-1|52747|0|81|20122021_8098160_1640022120-departure" text-anchor="start" 
+    class="departure type-regional shortest-path-simple-1|52747|0|81|20122021_8098160_1640022120  shortest-path-simple-1|52747|0|81|20122021_8098160_1640022120">
+    18:42 
+</text>
+
+<path id="simple-1|68413|0|81|20122021_8012614_1640008320" d="M 50,100 L750,296"
+    marker-start="url(#dot-redundant-false)" marker-end="url(#dot-redundant-false)"
+    class="edge type-regional redundant-false  shortest-path-simple-1|68413|0|81|20122021_8012614_1640008320 provider-shortest-path"
+    />
+<path id="simple-1|68413|0|81|20122021_8012614_1640008320-toucharea" d="M 50,100 L750,296"
+    class="edge-toucharea"
+    />
+<text>
+    <textPath href="#simple-1|68413|0|81|20122021_8012614_1640008320" id="simple-1|68413|0|81|20122021_8012614_1640008320-label" startOffset="50%" text-anchor="middle"
+        class="label type-regional shortest-path-simple-1|68413|0|81|20122021_8012614_1640008320  shortest-path-simple-1|68413|0|81|20122021_8012614_1640008320">
+        RE 2
+    </textPath>
+</text>
+<text x="750" y="296" id="simple-1|68413|0|81|20122021_8012614_1640008320-arrival" text-anchor="end"
+    class="arrival type-regional shortest-path-simple-1|68413|0|81|20122021_8012614_1640008320  shortest-path-simple-1|68413|0|81|20122021_8012614_1640008320">
+    15:35 
+</text>
+<text x="50" y="100" id="simple-1|68413|0|81|20122021_8012614_1640008320-departure" text-anchor="start" 
+    class="departure type-regional shortest-path-simple-1|68413|0|81|20122021_8012614_1640008320  shortest-path-simple-1|68413|0|81|20122021_8012614_1640008320">
+    14:52 
+</text>
+
+<path id="simple-1|68414|0|81|20122021_8012614_1640011800" d="M 50,364 L750,565"
+    marker-start="url(#dot-redundant-false)" marker-end="url(#dot-redundant-false)"
+    class="edge type-regional redundant-false  shortest-path-simple-1|68414|0|81|20122021_8012614_1640011800 provider-shortest-path"
+    />
+<path id="simple-1|68414|0|81|20122021_8012614_1640011800-toucharea" d="M 50,364 L750,565"
+    class="edge-toucharea"
+    />
+<text>
+    <textPath href="#simple-1|68414|0|81|20122021_8012614_1640011800" id="simple-1|68414|0|81|20122021_8012614_1640011800-label" startOffset="50%" text-anchor="middle"
+        class="label type-regional shortest-path-simple-1|68414|0|81|20122021_8012614_1640011800  shortest-path-simple-1|68414|0|81|20122021_8012614_1640011800">
+        RE 2
+    </textPath>
+</text>
+<text x="750" y="565" id="simple-1|68414|0|81|20122021_8012614_1640011800-arrival" text-anchor="end"
+    class="arrival type-regional shortest-path-simple-1|68414|0|81|20122021_8012614_1640011800  shortest-path-simple-1|68414|0|81|20122021_8012614_1640011800">
+    16:34 
+</text>
+<text x="50" y="364" id="simple-1|68414|0|81|20122021_8012614_1640011800-departure" text-anchor="start" 
+    class="departure type-regional shortest-path-simple-1|68414|0|81|20122021_8012614_1640011800  shortest-path-simple-1|68414|0|81|20122021_8012614_1640011800">
+    15:50 
+</text>

@@ -20,8 +20,13 @@ function setSelectedForClass(className, selected) {
     }
 }
 
-function selectSingleEdge(elementId, selected) {
+function selectSingleEdge(elementId, selected, providerClass) {
     setSelectedForElementId(elementId, selected);
+    if (providerClass && selected) {
+        document.getElementById(elementId).className.baseVal += ' provider-shortest-path'
+    } else if (providerClass && !selected) {
+        document.getElementById(elementId).className.baseVal = document.getElementById(elementId).className.baseVal.replace(' provider-shortest-path', '');
+    }
     setSelectedForElementId(elementId + '-label', selected);
     setSelectedForElementId(elementId + '-arrival', selected);
     setSelectedForElementId(elementId + '-departure', selected);
@@ -70,3 +75,15 @@ function simulateDelay() {
         return true;
     });
 }
+
+function lazyLoadSvg(id) {
+    fetch('res/'+id+'.svg')
+        .then(response => response.text())
+        .then(response => 
+            document.getElementById(id).innerHTML = response
+        );
+}
+
+lazyLoadSvg('WPAU-WNT-simple');
+lazyLoadSvg('WPAU-WNT');
+lazyLoadSvg('RM-FHM');
