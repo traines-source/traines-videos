@@ -212,11 +212,11 @@
    
     <text x="750" y="70" class="station-label">Berlin Hbf</text>
 
-    <text x="50" y="50" class="station-label">Paulinenaue</text>
+    <text x="50" y="70" class="station-label">Paulinenaue</text>
 
     <text x="750" y="50" class="station-label">Berlin Hbf (tief)</text>
 
-    <text x="1450" y="50" class="station-label">Neustrelitz Hbf</text>
+    <text x="1450" y="70" class="station-label">Neustrelitz Hbf</text>
 
     <!-- /tstp?from=8012614&to=8010250&vias=8011160&vias=8011160&vias=0&vias=0&vias=0&vias=0&vias=0&vias=0&vias=0&vias=0&datetime=2021-12-20T14%3A50 -->
     <g id="WPAU-WNT-simple"></g>
@@ -259,9 +259,9 @@
 
     <text x="1170" y="70" class="station-label">Berlin Gesundbrunnen</text>
 
-    <text x="50" y="50" class="station-label">Paulinenaue</text>
+    <text x="50" y="70" class="station-label">Paulinenaue</text>
 
-    <text x="1450" y="50" class="station-label">Neustrelitz Hbf</text>
+    <text x="1450" y="70" class="station-label">Neustrelitz Hbf</text>
 
     <text x="330" y="70" class="station-label">Berlin-Spandau</text>
 
@@ -344,17 +344,17 @@
 
     <text x="450" y="70" class="station-label">FFM Flughafen Regionalbf</text>
 
-    <text x="850" y="50" class="station-label">Mainz Hbf</text>
+    <text x="850" y="70" class="station-label">Mainz Hbf</text>
 
-    <text x="250" y="50" class="station-label">Worms Hbf</text>
+    <text x="250" y="70" class="station-label">Worms Hbf</text>
 
-    <text x="1050" y="50" class="station-label">Wiesbaden Ost</text>
+    <text x="1050" y="70" class="station-label">Wiesbaden Ost</text>
 
-    <text x="1450" y="50" class="station-label">Hochheim(Main)</text>
+    <text x="1450" y="70" class="station-label">Hochheim(Main)</text>
 
-    <text x="50" y="50" class="station-label">Mannheim Hbf</text>
+    <text x="50" y="70" class="station-label">Mannheim Hbf</text>
 
-    <text x="1250" y="50" class="station-label">Mainz-Kastel</text>
+    <text x="1250" y="70" class="station-label">Mainz-Kastel</text>
 
     <!-- /tstp?from=8000244&to=8002872&vias=8000257&vias=8000240&vias=8000615&vias=8070003&vias=8006404&vias=8000105&vias=0&vias=0&vias=0&vias=0&datetime=2021-12-20T14%3A00 -->
     <g id="RM-FHM"></g>
