@@ -188,7 +188,7 @@
     </g>
 </g>
 
-<g class="tstp focusable" style="opacity:0" data-from="10 5 noanim-keepzoom" data-to="16 140 noanim-nozoom" transform="translate(15510 9700)">
+<g class="tstp focusable" style="opacity:0" data-from="10 5 noanim-keepzoom" data-to="16 80 noanim-nozoom" transform="translate(15510 9700)">
     <rect x="-210" y="0" width="1920" height="1500" class="bg" />
 
     <g data-from="10 27 noanim-keepzoom" class="focusable" onfocus="
@@ -221,7 +221,7 @@
     <!-- /tstp?from=8012614&to=8010250&vias=8011160&vias=8011160&vias=0&vias=0&vias=0&vias=0&vias=0&vias=0&vias=0&vias=0&datetime=2021-12-20T14%3A50 -->
     <g id="WPAU-WNT-simple"></g>
 </g>
-<g class="tstp focusable" style="opacity:0" data-from="15 5 noanim-keepzoom" data-to="16 140 noanim-nozoom" transform="translate(15510 9700)">
+<g class="tstp focusable" style="opacity:0" data-from="15 5 noanim-keepzoom" data-to="16 80 noanim-nozoom" transform="translate(15510 9700)">
     <rect x="-210" y="0" width="1920" height="1500" class="bg" />
 
     <g data-from="15 5 noanim-keepzoom" class="focusable" onfocus="
@@ -233,15 +233,15 @@
         selectSingleEdge('1|52127|1|81|20122021_8010404_1640010060', true);
         "></g>
 
-    <g data-from="15 30 noanim-keepzoom" class="focusable" onfocus="
+    <g data-from="15 32 noanim-keepzoom" class="focusable" onfocus="
         selectSingleEdge('1|180183|25|81|20122021_8089100_1640010600', true);
         "></g>
 
-    <g data-from="15 35 noanim-keepzoom" class="focusable" onfocus="
+    <g data-from="15 37 noanim-keepzoom" class="focusable" onfocus="
         selectEdge('1|52127|1|81|20122021_8010404_1640010060');
         "></g>
 
-    <g data-from="15 38 noanim-keepzoom" class="focusable" onfocus="
+    <g data-from="15 40 noanim-keepzoom" class="focusable" onfocus="
         selectSingleEdge('1|52557|0|81|20122021_8011102_1640011680', true);
         "></g>
 
@@ -334,6 +334,19 @@
         selectSingleEdge('1|58838|0|81|20122021_8000257_1640010000', true, true);
         selectSingleEdge('1|58838|0|81|20122021_8000240_1640011740', true, true);
         selectSingleEdge('1|58838|0|81|20122021_8000240_1640011620_station', true, true);        
+        "></g>
+
+    <g data-from="20 110 noanim-keepzoom" class="focusable" onfocus="
+        selectSingleEdge('1|58452|0|81|20122021_8000244_1640007900', false, true);
+        selectSingleEdge('1|58838|0|81|20122021_8000257_1640010000', false, true);
+        selectSingleEdge('1|58838|0|81|20122021_8000240_1640011740', false, true);
+        selectSingleEdge('1|58838|0|81|20122021_8000240_1640011620_station', false, true);
+        selectSingleEdge('1|49701|0|81|20122021_8000244_1640005680', true, true);
+        selectSingleEdge('1|64793|8|81|20122021_8000240_1640008740', true, true);
+        selectSingleEdge('1|64578|3|81|20122021_8006404_1640011140', true, true);
+        selectSingleEdge('1|64578|3|81|20122021_8000615_1640011380', true, true);
+        selectSingleEdge('1|58861|0|81|20122021_8000240_1640008140', true, false);
+        selectEdge('1|64578|2|81|20122021_8006404_1640009340');
         "></g>
 
     <text x="650" y="50" class="station-label">Frankfurt(Main)Hbf</text>

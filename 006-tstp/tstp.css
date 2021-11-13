@@ -105,7 +105,7 @@ image.cover {
 
 .edge {
     stroke-width:2px;
-    stroke: black;
+    stroke: #212121;
 }
 
 .edge-toucharea {
@@ -124,7 +124,7 @@ image.cover {
 
 #dot-redundant-false circle {
     stroke: none;
-    fill: black;
+    fill: #212121;
 }
 
 .station-label {
@@ -148,7 +148,6 @@ image.cover {
 
 .edge.selected {
     stroke: #01579B;
-    filter: drop-shadow( 0px 0px 3px rgba(1, 87, 155, .7));
 }
 /*
 .edge.provider-shortest-path {
@@ -156,8 +155,7 @@ image.cover {
 }
 */
 .edge.provider-shortest-path.selected {
-    stroke: #880E4F;
-    filter: drop-shadow( 0px 0px 3px rgba(136, 14, 79, .7));
+    stroke: #B71C1C;
 }
 
 .edge.type-Foot {
@@ -179,6 +177,18 @@ image.cover {
 
 .edge.type-bus, .edge.type-subway, .edge.type-tram {
     stroke-width: 1px;
+}
+
+.edge.selected.type-nationalExpress, .edge.selected.type-national {
+    stroke-width: 4px;
+}
+
+.edge.selected.type-regional, .edge.selected.type-regionalExp, .edge.selected.type-suburban {
+    stroke-width: 3px;
+}
+
+.edge.selected.type-Foot, .edge.selected.type-bus, .edge.selected.type-subway, .edge.selected.type-tram {
+    stroke-width: 2px;
 }
 
 .focusable:focus {
