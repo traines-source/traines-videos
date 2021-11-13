@@ -76,9 +76,23 @@ function simulateDelay() {
     });
 }
 
+function fetchLocal(url) {
+    return new Promise(function(resolve, reject) {
+        var xhr = new XMLHttpRequest
+        xhr.onload = function() {
+            resolve(new Response(xhr.responseText, {status: 200}))
+        }
+        xhr.onerror = function() {
+            reject(new TypeError('rrequest failed'))
+        }
+        xhr.open('GET', url)
+        xhr.send(null)
+    })
+}
+
 var i = 0;
 function lazyLoadSvg(id) {
-    fetch('res/'+id+'.svg')
+    fetchLocal('res/'+id+'.svg')
         .then(response => response.text())
         .then(response => {
             document.getElementById(id).innerHTML = response;

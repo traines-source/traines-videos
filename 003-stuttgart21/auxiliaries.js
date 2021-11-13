@@ -181,15 +181,27 @@ out geom;
 );
 out geom;
 */
-fetch("railways.geojson")
+fetchLocal("railways.geojson")
     .then(response => response.json())
     .then(railways => 
-        fetch("railways-extensions.geojson")
+        fetchLocal("railways-extensions.geojson")
         .then(response => response.json())
         .then(railwaysExtensions => render(railways, railwaysExtensions, true))
     );
 
-
+function fetchLocal(url) {
+    return new Promise(function(resolve, reject) {
+        var xhr = new XMLHttpRequest
+        xhr.onload = function() {
+            resolve(new Response(xhr.responseText, {status: 200}))
+        }
+        xhr.onerror = function() {
+            reject(new TypeError('rrequest failed'))
+        }
+        xhr.open('GET', url)
+        xhr.send(null)
+    })
+}
 
 let intvl;
 document.addEventListener('epoch', function(e) {
