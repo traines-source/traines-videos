@@ -2,3 +2,5 @@ high
 working
 lib
 script.md
+*.log
+*.ign.*
