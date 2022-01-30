@@ -1,0 +1,91 @@
+<?xml-stylesheet type="text/css" href="vias.css" ?>
+<svg viewBox="15300 9700 1920 1080" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" data-auto-start="false">
+<g id="zoomable">
+    <image href="relief/out/europe_elev.png" x="846.266" y="-6909.447" width="8390.682" height="5691.267" preserveAspectRatio="none" />
+    <path id="border"/>
+    <g id="elements">
+    <g class="helper" data-from="1 1000 noanim"></g>
+        <path data-line="Athens Chaniá" class="" data-stops="+0 Athens +0 Chaniá" data-from="1 1 noanim" data-to="2 40 noanim" />
+        <path data-line="Athens Istanbul" class="" data-stops="+0 Athens +0 Istanbul" data-from="1 1 noanim" data-to="2 40 noanim" />
+        <path data-line="Athens Shkodër" class="" data-stops="+0 Athens +0 Shkodër" data-from="1 1 noanim" data-to="2 40 noanim" />
+        <path data-line="Lisbon Sevilla" class="" data-stops="+0 Lisbon +0 Sevilla" data-from="1 1 noanim-nozoom" data-to="2 40 noanim-nozoom" />
+        <path data-line="Sofia Istanbul" class="" data-stops="+0 Sofia +0 Istanbul" data-from="1 1 noanim-nozoom" data-to="2 40 noanim-nozoom" />
+        <path data-line="Marseille Milan" class="" data-stops="+0 Marseille +0 Milan" data-from="1 1 noanim-nozoom" data-to="2 40 noanim-nozoom" />
+        <path data-line="Rome Milan" class="" data-stops="+0 Rome +0 Milan" data-from="1 1 noanim-nozoom" data-to="2 40 noanim-nozoom" />
+        <path data-line="Sofia Constanţa" class="" data-stops="+0 Sofia +0 Constanţa" data-from="1 1 noanim-nozoom" data-to="2 40 noanim-nozoom" />
+        <path data-line="Milan Zadar" class="" data-stops="+0 Milan +0 Zadar" data-from="1 1 noanim-nozoom" data-to="2 40 noanim-nozoom" />
+        <path data-line="Marseille Barcelona" class="" data-stops="+0 Marseille +0 Barcelona" data-from="1 1 noanim-nozoom" data-to="2 40 noanim-nozoom" />
+        <path data-line="Shkodër Zadar" class="" data-stops="+0 Shkodër +0 Zadar" data-from="1 1 noanim-nozoom" data-to="2 40 noanim-nozoom" />
+        <path data-line="Barcelona Sevilla" class="" data-stops="+0 Barcelona +0 Sevilla" data-from="1 1 noanim-nozoom" data-to="2 40 noanim-nozoom" />
+        <path data-line="Barcelona Lisbon" class="" data-stops="+0 Barcelona +0 Lisbon" data-from="1 1 noanim-nozoom" data-to="2 40 noanim-nozoom" />
+        <path data-line="Bratislava Zadar" class="" data-stops="+0 Bratislava +0 Zadar" data-from="1 1 noanim-nozoom" data-to="2 40 noanim-nozoom" />
+        <path data-line="Belgrade Shkodër" class="" data-stops="+0 Belgrade +0 Shkodër" data-from="1 1 noanim-nozoom" data-to="2 40 noanim-nozoom" />
+        <path data-line="Marseille Paris" class="" data-stops="+0 Marseille +0 Paris" data-from="1 1 noanim-nozoom" data-to="2 40 noanim-nozoom" />
+        <path data-line="Zürich Paris" class="" data-stops="+0 Zürich +0 Paris" data-from="1 1 noanim-nozoom" data-to="2 40 noanim-nozoom" />
+        <path data-line="Cologne Paris" class="" data-stops="+0 Cologne +0 Paris" data-from="1 1 noanim-nozoom" data-to="2 40 noanim-nozoom" />
+        <path data-line="Messina Rome" class="" data-stops="+0 Messina +0 Rome" data-from="1 1 noanim-nozoom" data-to="2 40 noanim-nozoom" />
+        <path data-line="London Paris" class="" data-stops="+0 London +0 Paris" data-from="1 1 noanim" data-to="2 40 noanim" />
+        <path data-line="Cologne Zürich" class="" data-stops="+0 Cologne +0 Zürich" data-from="1 1 noanim" data-to="2 40 noanim" />
+        <path data-line="Bratislava Zürich" class="" data-stops="+0 Bratislava +0 Zürich" data-from="1 1 noanim" data-to="2 40 noanim" />
+        <path data-line="Milan Zürich" class="" data-stops="+0 Milan +0 Zürich" data-from="1 1 noanim" data-to="2 40 noanim" />
+        <path data-line="Sofia Belgrade" class="" data-stops="+0 Sofia +0 Belgrade" data-from="1 1 noanim" data-to="2 40 noanim" />
+        <path data-line="Belgrade Bratislava" class="" data-stops="+0 Belgrade +0 Bratislava" data-from="1 1 noanim" data-to="2 40 noanim" />
+        <path data-line="Istanbul Constanţa" class="" data-stops="+0 Istanbul +0 Constanţa" data-from="1 1 noanim" data-to="2 40 noanim" />
+     
+<rect data-station="Athens" data-lon-lat="23.7281 37.9842" />
+<rect data-station="Chaniá" data-lon-lat="24.0195 35.5173" />
+<rect data-station="Lisbon" data-lon-lat="-9.1604 38.7452" />
+<rect data-station="Zadar" data-lon-lat="15.2167 44.1167" />
+<rect data-station="Sevilla" data-lon-lat="-5.99 37.39" />
+<rect data-station="Rome" data-lon-lat="12.4828 41.8931" />
+<rect data-station="Istanbul" data-lon-lat="28.9603 41.01" />
+<rect data-station="Sofia" data-lon-lat="23.3217 42.6979" />
+<rect data-station="Marseille" data-lon-lat="5.37 43.2964" />
+<rect data-station="Constanţa" data-lon-lat="28.6383 44.1733" />
+<rect data-station="Milan" data-lon-lat="9.19 45.4669" />
+<rect data-station="Shkodër" data-lon-lat="19.5 42.0667" />
+<rect data-station="Barcelona" data-lon-lat="2.1769 41.3825" />
+<rect data-station="Belgrade" data-lon-lat="20.4667 44.8167" />
+<rect data-station="Bratislava" data-lon-lat="17.1128 48.1447" />
+<rect data-station="Paris" data-lon-lat="2.3522 48.8566" />
+<rect data-station="Zürich" data-lon-lat="8.54 47.3786" />
+<rect data-station="Cologne" data-lon-lat="6.9578 50.9422" />
+<rect data-station="Mainz" data-lon-lat="8.2667 50" />
+<rect data-station="Messina" data-lon-lat="15.5542 38.1936" />
+<rect data-station="London" data-lon-lat="-0.1275 51.5072" />
+
+
+
+
+
+<text data-station="Athens" >Athens</text>
+<text data-station="Chaniá" >Chaniá</text>
+<text data-station="Lisbon" >Lisbon</text>
+<text data-station="Zadar" >Zadar</text>
+<text data-station="Sevilla" >Sevilla</text>
+<text data-station="Rome" >Rome</text>
+<text data-station="Istanbul" >Istanbul</text>
+<text data-station="Sofia" >Sofia</text>
+<text data-station="Marseille" >Marseille</text>
+<text data-station="Constanţa" >Constanţa</text>
+<text data-station="Milan" >Milan</text>
+<text data-station="Shkodër" >Shkodër</text>
+<text data-station="Barcelona" >Barcelona</text>
+<text data-station="Belgrade" >Belgrade</text>
+<text data-station="Bratislava" >Bratislava</text>
+<text data-station="Paris" >Paris</text>
+<text data-station="Zürich" >Zürich</text>
+<text data-station="Cologne" >Cologne</text>
+<text data-station="Mainz" >Mainz</text>
+<text data-station="Messina" >Messina</text>
+<text data-station="London" >London</text>
+
+       
+    </g>
+</g>
+<rect id="epoch-label-bg" x="16990" y="9750" width="180" height="90" />
+<text id="epoch-label" x="17080" y="9800"></text>
+<script xlink:href="../../dist/network-animator.js" />
+<script xlink:href="vias.js" />
+</svg>
+
