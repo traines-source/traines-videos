@@ -4,7 +4,7 @@ SCRIPT_DIR=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
 # Unzipped data from http://www.webgis.com/terr_world.html
 INPUT_DIR=${SCRIPT_DIR}/GTOPO30/
 
-g.region n=85 s=30 w=-30 e=70 nsres=0.008333 ewres=0.008333
+g.region n=82 s=34 w=-29 e=69 nsres=0.008333 ewres=0.008333
 
 echo "Importing europe mask..."
 v.in.ogr --overwrite input=${SCRIPT_DIR}/europe_continent.geojson output=europe_continent

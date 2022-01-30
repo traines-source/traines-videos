@@ -4,6 +4,8 @@ SCRIPT_DIR=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
 
 g.region $(r.proj input=elev_mosaic output=elev_proj location=wgs84 mapset=PERMANENT method=nearest -g)
 
+g.region -p -l -e -b
+
 r.proj input=elev_mosaic output=elev_proj location=wgs84 mapset=PERMANENT method=nearest --overwrite
 
 echo "Coloring..."
