@@ -10,7 +10,7 @@ test -d ${GRASS_DIR}/wgs84/PERMANENT || grass -e -c ${GRASS_DIR}/wgs84/PERMANENT
 test -d ${GRASS_DIR}/europe || grass -e -c epsg:3035 ${GRASS_DIR}/europe
 test -d ${GRASS_DIR}/europe/PERMANENT || grass -e -c ${GRASS_DIR}/europe/PERMANENT
 
-echo "wsg84..."
+echo "wgs84..."
 export GRASS_BATCH_JOB=${SCRIPT_DIR}/grass_0_wgs84.sh
 grass ${GRASS_DIR}/wgs84/PERMANENT
 

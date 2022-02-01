@@ -4,33 +4,164 @@
     <image href="relief/out/europe_elev.png" x="846.266" y="-6909.447" width="8390.682" height="5691.267" preserveAspectRatio="none" />
     <path id="border"/>
     <g id="elements">
-    <g class="helper" data-from="1 1000 noanim"></g>
-        <path data-line="Athens Chaniá" class="" data-stops="+0 Athens +0 Chaniá" data-from="1 1 noanim" data-to="2 40 noanim" />
-        <path data-line="Athens Istanbul" class="" data-stops="+0 Athens +0 Istanbul" data-from="1 1 noanim" data-to="2 40 noanim" />
-        <path data-line="Athens Shkodër" class="" data-stops="+0 Athens +0 Shkodër" data-from="1 1 noanim" data-to="2 40 noanim" />
-        <path data-line="Lisbon Sevilla" class="" data-stops="+0 Lisbon +0 Sevilla" data-from="1 1 noanim-nozoom" data-to="2 40 noanim-nozoom" />
-        <path data-line="Sofia Istanbul" class="" data-stops="+0 Sofia +0 Istanbul" data-from="1 1 noanim-nozoom" data-to="2 40 noanim-nozoom" />
-        <path data-line="Marseille Milan" class="" data-stops="+0 Marseille +0 Milan" data-from="1 1 noanim-nozoom" data-to="2 40 noanim-nozoom" />
-        <path data-line="Rome Milan" class="" data-stops="+0 Rome +0 Milan" data-from="1 1 noanim-nozoom" data-to="2 40 noanim-nozoom" />
-        <path data-line="Sofia Constanţa" class="" data-stops="+0 Sofia +0 Constanţa" data-from="1 1 noanim-nozoom" data-to="2 40 noanim-nozoom" />
-        <path data-line="Milan Zadar" class="" data-stops="+0 Milan +0 Zadar" data-from="1 1 noanim-nozoom" data-to="2 40 noanim-nozoom" />
-        <path data-line="Marseille Barcelona" class="" data-stops="+0 Marseille +0 Barcelona" data-from="1 1 noanim-nozoom" data-to="2 40 noanim-nozoom" />
-        <path data-line="Shkodër Zadar" class="" data-stops="+0 Shkodër +0 Zadar" data-from="1 1 noanim-nozoom" data-to="2 40 noanim-nozoom" />
-        <path data-line="Barcelona Sevilla" class="" data-stops="+0 Barcelona +0 Sevilla" data-from="1 1 noanim-nozoom" data-to="2 40 noanim-nozoom" />
-        <path data-line="Barcelona Lisbon" class="" data-stops="+0 Barcelona +0 Lisbon" data-from="1 1 noanim-nozoom" data-to="2 40 noanim-nozoom" />
-        <path data-line="Bratislava Zadar" class="" data-stops="+0 Bratislava +0 Zadar" data-from="1 1 noanim-nozoom" data-to="2 40 noanim-nozoom" />
-        <path data-line="Belgrade Shkodër" class="" data-stops="+0 Belgrade +0 Shkodër" data-from="1 1 noanim-nozoom" data-to="2 40 noanim-nozoom" />
-        <path data-line="Marseille Paris" class="" data-stops="+0 Marseille +0 Paris" data-from="1 1 noanim-nozoom" data-to="2 40 noanim-nozoom" />
-        <path data-line="Zürich Paris" class="" data-stops="+0 Zürich +0 Paris" data-from="1 1 noanim-nozoom" data-to="2 40 noanim-nozoom" />
-        <path data-line="Cologne Paris" class="" data-stops="+0 Cologne +0 Paris" data-from="1 1 noanim-nozoom" data-to="2 40 noanim-nozoom" />
-        <path data-line="Messina Rome" class="" data-stops="+0 Messina +0 Rome" data-from="1 1 noanim-nozoom" data-to="2 40 noanim-nozoom" />
-        <path data-line="London Paris" class="" data-stops="+0 London +0 Paris" data-from="1 1 noanim" data-to="2 40 noanim" />
-        <path data-line="Cologne Zürich" class="" data-stops="+0 Cologne +0 Zürich" data-from="1 1 noanim" data-to="2 40 noanim" />
-        <path data-line="Bratislava Zürich" class="" data-stops="+0 Bratislava +0 Zürich" data-from="1 1 noanim" data-to="2 40 noanim" />
-        <path data-line="Milan Zürich" class="" data-stops="+0 Milan +0 Zürich" data-from="1 1 noanim" data-to="2 40 noanim" />
-        <path data-line="Sofia Belgrade" class="" data-stops="+0 Sofia +0 Belgrade" data-from="1 1 noanim" data-to="2 40 noanim" />
-        <path data-line="Belgrade Bratislava" class="" data-stops="+0 Belgrade +0 Bratislava" data-from="1 1 noanim" data-to="2 40 noanim" />
-        <path data-line="Istanbul Constanţa" class="" data-stops="+0 Istanbul +0 Constanţa" data-from="1 1 noanim" data-to="2 40 noanim" />
+    <g class="helper" data-from="8000 10 noanim-keepzoom"></g>
+    <g class="helper" data-from="12000 1000 noanim-keepzoom"></g>
+
+<path data-line="Athens Chaniá" class="" data-stops="+0 Athens +0 Chaniá" data-weight="1104" data-from="8000 1 noanim" data-to="12000 1 noanim" />
+<path data-line="Athens Istanbul" class="" data-stops="+0 Athens +0 Istanbul" data-weight="2244" data-from="8000 1 noanim" data-to="12000 1 noanim" />
+<path data-line="Athens Shkodër" class="" data-stops="+0 Athens +0 Shkodër" data-weight="2316" data-from="8000 1 noanim" data-to="12000 1 noanim" />
+<path data-line="Lisbon Sevilla" class="" data-stops="+0 Lisbon +0 Sevilla" data-weight="1264" data-from="8000 1 noanim" data-to="12000 1 noanim" />
+<path data-line="Sofia Istanbul" class="" data-stops="+0 Sofia +0 Istanbul" data-weight="2012" data-from="8000 1 noanim" data-to="12000 1 noanim" />
+<path data-line="Marseille Milan" class="" data-stops="+0 Marseille +0 Milan" data-weight="1552" data-from="8000 1 noanim" data-to="12000 1 noanim" />
+<path data-line="Rome Milan" class="" data-stops="+0 Rome +0 Milan" data-weight="1908" data-from="8000 1 noanim" data-to="12000 1 noanim" />
+<path data-line="Sofia Constanţa" class="" data-stops="+0 Sofia +0 Constanţa" data-weight="1836" data-from="8000 1 noanim" data-to="12000 1 noanim" />
+<path data-line="Milan Zadar" class="" data-stops="+0 Milan +0 Zadar" data-weight="1996" data-from="8000 1 noanim" data-to="12000 1 noanim" />
+<path data-line="Marseille Barcelona" class="" data-stops="+0 Marseille +0 Barcelona" data-weight="1352" data-from="8000 1 noanim" data-to="12000 1 noanim" />
+<path data-line="Shkodër Zadar" class="" data-stops="+0 Shkodër +0 Zadar" data-weight="1664" data-from="8000 1 noanim" data-to="12000 1 noanim" />
+<path data-line="Barcelona Sevilla" class="" data-stops="+0 Barcelona +0 Sevilla" data-weight="3320" data-from="8000 1 noanim" data-to="12000 1 noanim" />
+<path data-line="Barcelona Lisbon" class="" data-stops="+0 Barcelona +0 Lisbon" data-weight="4032" data-from="8000 1 noanim" data-to="12000 1 noanim" />
+<path data-line="Bratislava Zadar" class="" data-stops="+0 Bratislava +0 Zadar" data-weight="1884" data-from="8000 1 noanim" data-to="12000 1 noanim" />
+<path data-line="Belgrade Shkodër" class="" data-stops="+0 Belgrade +0 Shkodër" data-weight="1264" data-from="8000 1 noanim" data-to="12000 1 noanim" />
+<path data-line="Marseille Paris" class="" data-stops="+0 Marseille +0 Paris" data-weight="2640" data-from="8000 1 noanim" data-to="12000 1 noanim" />
+<path data-line="Zürich Paris" class="" data-stops="+0 Zürich +0 Paris" data-weight="1952" data-from="8000 1 noanim" data-to="12000 1 noanim" />
+<path data-line="Cologne Paris" class="" data-stops="+0 Cologne +0 Paris" data-weight="1612" data-from="8000 1 noanim" data-to="12000 1 noanim" />
+<path data-line="Messina Rome" class="" data-stops="+0 Messina +0 Rome" data-weight="1948" data-from="8000 1 noanim" data-to="12000 1 noanim" />
+<path data-line="London Paris" class="" data-stops="+0 London +0 Paris" data-weight="1376" data-from="8000 1 noanim" data-to="12000 1 noanim" />
+<path data-line="Cologne Zürich" class="" data-stops="+0 Cologne +0 Zürich" data-weight="1652" data-from="8000 1 noanim" data-to="12000 1 noanim" />
+<path data-line="Bratislava Zürich" class="" data-stops="+0 Bratislava +0 Zürich" data-weight="2584" data-from="8000 1 noanim" data-to="12000 1 noanim" />
+<path data-line="Milan Zürich" class="" data-stops="+0 Milan +0 Zürich" data-weight="872" data-from="8000 1 noanim" data-to="12000 1 noanim" />
+<path data-line="Sofia Belgrade" class="" data-stops="+0 Sofia +0 Belgrade" data-weight="1316" data-from="8000 1 noanim" data-to="12000 1 noanim" />
+<path data-line="Belgrade Bratislava" class="" data-stops="+0 Belgrade +0 Bratislava" data-weight="1800" data-from="8000 1 noanim" data-to="12000 1 noanim" />
+<path data-line="Istanbul Constanţa" class="" data-stops="+0 Istanbul +0 Constanţa" data-weight="1412" data-from="8000 1 noanim" data-to="12000 1 noanim" />
+<path data-line="Smolensk Vorkuta" class="" data-stops="+0 Smolensk +0 Vorkuta" data-weight="8724" data-from="8000 1 noanim" data-to="12000 1 noanim" />
+<path data-line="Vorkuta Ufa" class="" data-stops="+0 Vorkuta +0 Ufa" data-weight="5924" data-from="8000 1 noanim" data-to="12000 1 noanim" />
+<path data-line="Smolensk Kyiv" class="" data-stops="+0 Smolensk +0 Kyiv" data-weight="1972" data-from="8000 1 noanim" data-to="12000 1 noanim" />
+<path data-line="Kyiv Sevastopol" class="" data-stops="+0 Kyiv +0 Sevastopol" data-weight="2752" data-from="8000 1 noanim" data-to="12000 1 noanim" />
+<path data-line="Sevastopol Derbent" class="" data-stops="+0 Sevastopol +0 Derbent" data-weight="4900" data-from="8000 1 noanim" data-to="12000 1 noanim" />
+<path data-line="Sevastopol Constanţa" class="" data-stops="+0 Sevastopol +0 Constanţa" data-weight="1568" data-from="8000 1 noanim" data-to="12000 1 noanim" />
+<path data-line="Sevastopol Istanbul" class="" data-stops="+0 Sevastopol +0 Istanbul" data-weight="2184" data-from="8000 1 noanim" data-to="12000 1 noanim" />
+<path data-line="Cologne Lübeck" class="" data-stops="+0 Cologne +0 Lübeck" data-weight="1648" data-from="8000 1 noanim" data-to="12000 1 noanim" />
+<path data-line="Lübeck Aarhus" class="" data-stops="+0 Lübeck +0 Aarhus" data-weight="1024" data-from="8000 1 noanim" data-to="12000 1 noanim" />
+<path data-line="Aarhus Oslo" class="" data-stops="+0 Aarhus +0 Oslo" data-weight="1676" data-from="8000 1 noanim" data-to="12000 1 noanim" />
+<path data-line="Aarhus Stockholm" class="" data-stops="+0 Aarhus +0 Stockholm" data-weight="2336" data-from="8000 1 noanim" data-to="12000 1 noanim" />
+<path data-line="Stockholm Oslo" class="" data-stops="+0 Stockholm +0 Oslo" data-weight="1664" data-from="8000 1 noanim" data-to="12000 1 noanim" />
+<path data-line="Oslo Tromsø" class="" data-stops="+0 Oslo +0 Tromsø" data-weight="4596" data-from="8000 1 noanim" data-to="12000 1 noanim" />
+<path data-line="Tromsø Vorkuta" class="" data-stops="+0 Tromsø +0 Vorkuta" data-weight="7212" data-from="8000 1 noanim" data-to="12000 1 noanim" />
+<path data-line="Ufa Derbent" class="" data-stops="+0 Ufa +0 Derbent" data-weight="6064" data-from="8000 1 noanim" data-to="12000 1 noanim" />
+<path data-line="Tromsø Turku" class="" data-stops="+0 Tromsø +0 Turku" data-weight="4140" data-from="8000 1 noanim" data-to="12000 1 noanim" />
+<path data-line="Turku Vilnius" class="" data-stops="+0 Turku +0 Vilnius" data-weight="2664" data-from="8000 1 noanim" data-to="12000 1 noanim" />
+<path data-line="Vilnius Smolensk" class="" data-stops="+0 Vilnius +0 Smolensk" data-weight="1736" data-from="8000 1 noanim" data-to="12000 1 noanim" />
+<path data-line="Vilnius Kraków" class="" data-stops="+0 Vilnius +0 Kraków" data-weight="2516" data-from="8000 1 noanim" data-to="12000 1 noanim" />
+<path data-line="Vilnius Kyiv" class="" data-stops="+0 Vilnius +0 Kyiv" data-weight="2356" data-from="8000 1 noanim" data-to="12000 1 noanim" />
+<path data-line="Kyiv Constanţa" class="" data-stops="+0 Kyiv +0 Constanţa" data-weight="2848" data-from="8000 1 noanim" data-to="12000 1 noanim" />
+<path data-line="Kyiv Kraków" class="" data-stops="+0 Kyiv +0 Kraków" data-weight="3012" data-from="8000 1 noanim" data-to="12000 1 noanim" />
+<path data-line="Kraków Bratislava" class="" data-stops="+0 Kraków +0 Bratislava" data-weight="1184" data-from="8000 1 noanim" data-to="12000 1 noanim" />
+<path data-line="Stockholm Turku" class="" data-stops="+0 Stockholm +0 Turku" data-weight="1060" data-from="8000 1 noanim" data-to="12000 1 noanim" />
+<path data-line="London Dublin" class="" data-stops="+0 London +0 Dublin" data-weight="1852" data-from="8000 1 noanim" data-to="12000 1 noanim" />
+<path data-line="Dublin Reykjavík" class="" data-stops="+0 Dublin +0 Reykjavík" data-weight="5976" data-from="8000 1 noanim" data-to="12000 1 noanim" />
+<path data-line="Tromsø Reykjavík" class="" data-stops="+0 Tromsø +0 Reykjavík" data-weight="7380" data-from="8000 1 noanim" data-to="12000 1 noanim" />
+<path data-line="Longyearbyen Tromsø" class="" data-stops="+0 Longyearbyen +0 Tromsø" data-weight="3828" data-from="8000 1 noanim" data-to="12000 1 noanim" />
+<path data-line="Ufa Smolensk" class="" data-stops="+0 Ufa +0 Smolensk" data-weight="6108" data-from="8000 1 noanim" data-to="12000 1 noanim" />
+<path data-line="Sofia Shkodër" class="" data-stops="+0 Sofia +0 Shkodër" data-weight="1288" data-from="8000 1 noanim" data-to="12000 1 noanim" />
+<path data-line="Kraków Lübeck" class="" data-stops="+0 Kraków +0 Lübeck" data-weight="3044" data-from="8000 1 noanim" data-to="12000 1 noanim" />
+<path data-line="Bordeaux Lisbon" class="" data-stops="+0 Bordeaux +0 Lisbon" data-weight="3924" data-from="8000 1 noanim" data-to="12000 1 noanim" />
+<path data-line="Bordeaux Barcelona" class="" data-stops="+0 Bordeaux +0 Barcelona" data-weight="1780" data-from="8000 1 noanim" data-to="12000 1 noanim" />
+<path data-line="Vilnius Lübeck" class="" data-stops="+0 Vilnius +0 Lübeck" data-weight="3800" data-from="8000 1 noanim" data-to="12000 1 noanim" />
+<path data-line="Cologne Kraków" class="" data-stops="+0 Cologne +0 Kraków" data-weight="3688" data-from="8000 1 noanim" data-to="12000 1 noanim" />
+<path data-line="Marseille Rome" class="" data-stops="+0 Marseille +0 Rome" data-weight="2412" data-from="8000 1 noanim" data-to="12000 1 noanim" />
+<path data-line="Barcelona Messina" class="" data-stops="+0 Barcelona +0 Messina" data-weight="4780" data-from="8000 1 noanim" data-to="12000 1 noanim" />
+<path data-line="Messina Athens" class="" data-stops="+0 Messina +0 Athens" data-weight="2860" data-from="8000 1 noanim" data-to="12000 1 noanim" />
+<path data-line="Messina Lisbon" class="" data-stops="+0 Messina +0 Lisbon" data-weight="8584" data-from="8000 1 noanim" data-to="12000 1 noanim" />
+<path data-line="Bordeaux Paris" class="" data-stops="+0 Bordeaux +0 Paris" data-weight="1996" data-from="8000 1 noanim" data-to="12000 1 noanim" />
+<path data-line="Bordeaux Marseille" class="" data-stops="+0 Bordeaux +0 Marseille" data-weight="2020" data-from="8000 1 noanim" data-to="12000 1 noanim" />
+<path data-line="Cluj-Napoca Constanţa" class="" data-stops="+0 Cluj-Napoca +0 Constanţa" data-weight="1948" data-from="8000 1 noanim" data-to="12000 1 noanim" />
+<path data-line="Cluj-Napoca Belgrade" class="" data-stops="+0 Cluj-Napoca +0 Belgrade" data-weight="1304" data-from="8000 1 noanim" data-to="12000 1 noanim" />
+<path data-line="Cologne Bratislava" class="" data-stops="+0 Cologne +0 Bratislava" data-weight="3180" data-from="8000 1 noanim" data-to="12000 1 noanim" />
+<path data-line="London Oslo" class="" data-stops="+0 London +0 Oslo" data-weight="4616" data-from="8000 1 noanim" data-to="12000 1 noanim" />
+
+<path data-line="Athens Chaniá" class="" data-stops="+0 Athens +0 Chaniá" data-weight="2.76" data-from="12000 1 noanim" data-to="13000 1 noanim" />
+<path data-line="Athens Istanbul" class="" data-stops="+0 Athens +0 Istanbul" data-weight="5.61" data-from="12000 1 noanim" data-to="13000 1 noanim" />
+<path data-line="Athens Shkodër" class="" data-stops="+0 Athens +0 Shkodër" data-weight="5.79" data-from="12000 1 noanim" data-to="13000 1 noanim" />
+<path data-line="Lisbon Sevilla" class="" data-stops="+0 Lisbon +0 Sevilla" data-weight="3.16" data-from="12000 1 noanim" data-to="13000 1 noanim" />
+<path data-line="Sofia Istanbul" class="" data-stops="+0 Sofia +0 Istanbul" data-weight="5.03" data-from="12000 1 noanim" data-to="13000 1 noanim" />
+<path data-line="Marseille Milan" class="" data-stops="+0 Marseille +0 Milan" data-weight="3.88" data-from="12000 1 noanim" data-to="13000 1 noanim" />
+<path data-line="Rome Milan" class="" data-stops="+0 Rome +0 Milan" data-weight="4.77" data-from="12000 1 noanim" data-to="13000 1 noanim" />
+<path data-line="Sofia Constanţa" class="" data-stops="+0 Sofia +0 Constanţa" data-weight="4.59" data-from="12000 1 noanim" data-to="13000 1 noanim" />
+<path data-line="Milan Zadar" class="" data-stops="+0 Milan +0 Zadar" data-weight="4.99" data-from="12000 1 noanim" data-to="13000 1 noanim" />
+<path data-line="Marseille Barcelona" class="" data-stops="+0 Marseille +0 Barcelona" data-weight="3.38" data-from="12000 1 noanim" data-to="13000 1 noanim" />
+<path data-line="Shkodër Zadar" class="" data-stops="+0 Shkodër +0 Zadar" data-weight="4.16" data-from="12000 1 noanim" data-to="13000 1 noanim" />
+<path data-line="Barcelona Sevilla" class="" data-stops="+0 Barcelona +0 Sevilla" data-weight="8.3" data-from="12000 1 noanim" data-to="13000 1 noanim" />
+<path data-line="Barcelona Lisbon" class="" data-stops="+0 Barcelona +0 Lisbon" data-weight="10.08" data-from="12000 1 noanim" data-to="13000 1 noanim" />
+<path data-line="Bratislava Zadar" class="" data-stops="+0 Bratislava +0 Zadar" data-weight="4.71" data-from="12000 1 noanim" data-to="13000 1 noanim" />
+<path data-line="Belgrade Shkodër" class="" data-stops="+0 Belgrade +0 Shkodër" data-weight="3.16" data-from="12000 1 noanim" data-to="13000 1 noanim" />
+<path data-line="Marseille Paris" class="" data-stops="+0 Marseille +0 Paris" data-weight="6.6" data-from="12000 1 noanim" data-to="13000 1 noanim" />
+<path data-line="Zürich Paris" class="" data-stops="+0 Zürich +0 Paris" data-weight="4.88" data-from="12000 1 noanim" data-to="13000 1 noanim" />
+<path data-line="Cologne Paris" class="" data-stops="+0 Cologne +0 Paris" data-weight="4.03" data-from="12000 1 noanim" data-to="13000 1 noanim" />
+<path data-line="Messina Rome" class="" data-stops="+0 Messina +0 Rome" data-weight="4.87" data-from="12000 1 noanim" data-to="13000 1 noanim" />
+<path data-line="London Paris" class="" data-stops="+0 London +0 Paris" data-weight="3.44" data-from="12000 1 noanim" data-to="13000 1 noanim" />
+<path data-line="Cologne Zürich" class="" data-stops="+0 Cologne +0 Zürich" data-weight="4.13" data-from="12000 1 noanim" data-to="13000 1 noanim" />
+<path data-line="Bratislava Zürich" class="" data-stops="+0 Bratislava +0 Zürich" data-weight="6.46" data-from="12000 1 noanim" data-to="13000 1 noanim" />
+<path data-line="Milan Zürich" class="" data-stops="+0 Milan +0 Zürich" data-weight="2.18" data-from="12000 1 noanim" data-to="13000 1 noanim" />
+<path data-line="Sofia Belgrade" class="" data-stops="+0 Sofia +0 Belgrade" data-weight="3.29" data-from="12000 1 noanim" data-to="13000 1 noanim" />
+<path data-line="Belgrade Bratislava" class="" data-stops="+0 Belgrade +0 Bratislava" data-weight="4.5" data-from="12000 1 noanim" data-to="13000 1 noanim" />
+<path data-line="Istanbul Constanţa" class="" data-stops="+0 Istanbul +0 Constanţa" data-weight="3.53" data-from="12000 1 noanim" data-to="13000 1 noanim" />
+<path data-line="Smolensk Vorkuta" class="" data-stops="+0 Smolensk +0 Vorkuta" data-weight="21.81" data-from="12000 1 noanim" data-to="13000 1 noanim" />
+<path data-line="Vorkuta Ufa" class="" data-stops="+0 Vorkuta +0 Ufa" data-weight="14.81" data-from="12000 1 noanim" data-to="13000 1 noanim" />
+<path data-line="Smolensk Kyiv" class="" data-stops="+0 Smolensk +0 Kyiv" data-weight="4.93" data-from="12000 1 noanim" data-to="13000 1 noanim" />
+<path data-line="Kyiv Sevastopol" class="" data-stops="+0 Kyiv +0 Sevastopol" data-weight="6.88" data-from="12000 1 noanim" data-to="13000 1 noanim" />
+<path data-line="Sevastopol Derbent" class="" data-stops="+0 Sevastopol +0 Derbent" data-weight="12.25" data-from="12000 1 noanim" data-to="13000 1 noanim" />
+<path data-line="Sevastopol Constanţa" class="" data-stops="+0 Sevastopol +0 Constanţa" data-weight="3.92" data-from="12000 1 noanim" data-to="13000 1 noanim" />
+<path data-line="Sevastopol Istanbul" class="" data-stops="+0 Sevastopol +0 Istanbul" data-weight="5.46" data-from="12000 1 noanim" data-to="13000 1 noanim" />
+<path data-line="Cologne Lübeck" class="" data-stops="+0 Cologne +0 Lübeck" data-weight="4.12" data-from="12000 1 noanim" data-to="13000 1 noanim" />
+<path data-line="Lübeck Aarhus" class="" data-stops="+0 Lübeck +0 Aarhus" data-weight="2.56" data-from="12000 1 noanim" data-to="13000 1 noanim" />
+<path data-line="Aarhus Oslo" class="" data-stops="+0 Aarhus +0 Oslo" data-weight="4.19" data-from="12000 1 noanim" data-to="13000 1 noanim" />
+<path data-line="Aarhus Stockholm" class="" data-stops="+0 Aarhus +0 Stockholm" data-weight="5.84" data-from="12000 1 noanim" data-to="13000 1 noanim" />
+<path data-line="Stockholm Oslo" class="" data-stops="+0 Stockholm +0 Oslo" data-weight="4.16" data-from="12000 1 noanim" data-to="13000 1 noanim" />
+<path data-line="Oslo Tromsø" class="" data-stops="+0 Oslo +0 Tromsø" data-weight="11.49" data-from="12000 1 noanim" data-to="13000 1 noanim" />
+<path data-line="Tromsø Vorkuta" class="" data-stops="+0 Tromsø +0 Vorkuta" data-weight="18.03" data-from="12000 1 noanim" data-to="13000 1 noanim" />
+<path data-line="Ufa Derbent" class="" data-stops="+0 Ufa +0 Derbent" data-weight="15.16" data-from="12000 1 noanim" data-to="13000 1 noanim" />
+<path data-line="Tromsø Turku" class="" data-stops="+0 Tromsø +0 Turku" data-weight="10.35" data-from="12000 1 noanim" data-to="13000 1 noanim" />
+<path data-line="Turku Vilnius" class="" data-stops="+0 Turku +0 Vilnius" data-weight="6.66" data-from="12000 1 noanim" data-to="13000 1 noanim" />
+<path data-line="Vilnius Smolensk" class="" data-stops="+0 Vilnius +0 Smolensk" data-weight="4.34" data-from="12000 1 noanim" data-to="13000 1 noanim" />
+<path data-line="Vilnius Kraków" class="" data-stops="+0 Vilnius +0 Kraków" data-weight="6.29" data-from="12000 1 noanim" data-to="13000 1 noanim" />
+<path data-line="Vilnius Kyiv" class="" data-stops="+0 Vilnius +0 Kyiv" data-weight="5.89" data-from="12000 1 noanim" data-to="13000 1 noanim" />
+<path data-line="Kyiv Constanţa" class="" data-stops="+0 Kyiv +0 Constanţa" data-weight="7.12" data-from="12000 1 noanim" data-to="13000 1 noanim" />
+<path data-line="Kyiv Kraków" class="" data-stops="+0 Kyiv +0 Kraków" data-weight="7.53" data-from="12000 1 noanim" data-to="13000 1 noanim" />
+<path data-line="Kraków Bratislava" class="" data-stops="+0 Kraków +0 Bratislava" data-weight="2.96" data-from="12000 1 noanim" data-to="13000 1 noanim" />
+<path data-line="Stockholm Turku" class="" data-stops="+0 Stockholm +0 Turku" data-weight="2.65" data-from="12000 1 noanim" data-to="13000 1 noanim" />
+<path data-line="London Dublin" class="" data-stops="+0 London +0 Dublin" data-weight="4.63" data-from="12000 1 noanim" data-to="13000 1 noanim" />
+<path data-line="Dublin Reykjavík" class="" data-stops="+0 Dublin +0 Reykjavík" data-weight="14.94" data-from="12000 1 noanim" data-to="13000 1 noanim" />
+<path data-line="Tromsø Reykjavík" class="" data-stops="+0 Tromsø +0 Reykjavík" data-weight="18.45" data-from="12000 1 noanim" data-to="13000 1 noanim" />
+<path data-line="Longyearbyen Tromsø" class="" data-stops="+0 Longyearbyen +0 Tromsø" data-weight="9.57" data-from="12000 1 noanim" data-to="13000 1 noanim" />
+<path data-line="Ufa Smolensk" class="" data-stops="+0 Ufa +0 Smolensk" data-weight="15.27" data-from="12000 1 noanim" data-to="13000 1 noanim" />
+<path data-line="Sofia Shkodër" class="" data-stops="+0 Sofia +0 Shkodër" data-weight="3.22" data-from="12000 1 noanim" data-to="13000 1 noanim" />
+<path data-line="Kraków Lübeck" class="" data-stops="+0 Kraków +0 Lübeck" data-weight="7.61" data-from="12000 1 noanim" data-to="13000 1 noanim" />
+<path data-line="Bordeaux Lisbon" class="" data-stops="+0 Bordeaux +0 Lisbon" data-weight="9.81" data-from="12000 1 noanim" data-to="13000 1 noanim" />
+<path data-line="Bordeaux Barcelona" class="" data-stops="+0 Bordeaux +0 Barcelona" data-weight="4.45" data-from="12000 1 noanim" data-to="13000 1 noanim" />
+<path data-line="Vilnius Lübeck" class="" data-stops="+0 Vilnius +0 Lübeck" data-weight="9.5" data-from="12000 1 noanim" data-to="13000 1 noanim" />
+<path data-line="Cologne Kraków" class="" data-stops="+0 Cologne +0 Kraków" data-weight="9.22" data-from="12000 1 noanim" data-to="13000 1 noanim" />
+<path data-line="Marseille Rome" class="" data-stops="+0 Marseille +0 Rome" data-weight="6.03" data-from="12000 1 noanim" data-to="13000 1 noanim" />
+<path data-line="Barcelona Messina" class="" data-stops="+0 Barcelona +0 Messina" data-weight="11.95" data-from="12000 1 noanim" data-to="13000 1 noanim" />
+<path data-line="Messina Athens" class="" data-stops="+0 Messina +0 Athens" data-weight="7.15" data-from="12000 1 noanim" data-to="13000 1 noanim" />
+<path data-line="Messina Lisbon" class="" data-stops="+0 Messina +0 Lisbon" data-weight="21.46" data-from="12000 1 noanim" data-to="13000 1 noanim" />
+<path data-line="Bordeaux Paris" class="" data-stops="+0 Bordeaux +0 Paris" data-weight="4.99" data-from="12000 1 noanim" data-to="13000 1 noanim" />
+<path data-line="Bordeaux Marseille" class="" data-stops="+0 Bordeaux +0 Marseille" data-weight="5.05" data-from="12000 1 noanim" data-to="13000 1 noanim" />
+<path data-line="Cluj-Napoca Constanţa" class="" data-stops="+0 Cluj-Napoca +0 Constanţa" data-weight="4.87" data-from="12000 1 noanim" data-to="13000 1 noanim" />
+<path data-line="Cluj-Napoca Belgrade" class="" data-stops="+0 Cluj-Napoca +0 Belgrade" data-weight="3.26" data-from="12000 1 noanim" data-to="13000 1 noanim" />
+<path data-line="Cologne Bratislava" class="" data-stops="+0 Cologne +0 Bratislava" data-weight="7.95" data-from="12000 1 noanim" data-to="13000 1 noanim" />
+<path data-line="London Oslo" class="" data-stops="+0 London +0 Oslo" data-weight="11.54" data-from="12000 1 noanim" data-to="13000 1 noanim" />
+#N/A
+
+
+
+
+
+
+
+
+
+
+
      
 <rect data-station="Athens" data-lon-lat="23.7281 37.9842" />
 <rect data-station="Chaniá" data-lon-lat="24.0195 35.5173" />
@@ -50,9 +181,30 @@
 <rect data-station="Paris" data-lon-lat="2.3522 48.8566" />
 <rect data-station="Zürich" data-lon-lat="8.54 47.3786" />
 <rect data-station="Cologne" data-lon-lat="6.9578 50.9422" />
-<rect data-station="Mainz" data-lon-lat="8.2667 50" />
+<rect data-station="Ufa" data-lon-lat="55.9667 54.7333" />
 <rect data-station="Messina" data-lon-lat="15.5542 38.1936" />
 <rect data-station="London" data-lon-lat="-0.1275 51.5072" />
+<rect data-station="Aarhus" data-lon-lat="10.2107 56.1572" />
+<rect data-station="Dublin" data-lon-lat="-6.2603 53.3497" />
+<rect data-station="Reykjavík" data-lon-lat="-21.935 64.1475" />
+<rect data-station="Oslo" data-lon-lat="10.7528 59.9111" />
+<rect data-station="Stockholm" data-lon-lat="18.0686 59.3294" />
+<rect data-station="Derbent" data-lon-lat="48.2958 42.0692" />
+<rect data-station="Tromsø" data-lon-lat="18.9637 69.6546" />
+<rect data-station="Turku" data-lon-lat="22.27 60.4517" />
+<rect data-station="Longyearbyen" data-lon-lat="15.6333 78.2167" />
+<rect data-station="Kraków" data-lon-lat="19.9372 50.0614" />
+<rect data-station="Sevastopol" data-lon-lat="33.5333 44.6" />
+<rect data-station="Kyiv" data-lon-lat="30.5236 50.45" />
+<rect data-station="Smolensk" data-lon-lat="32.0453 54.7828" />
+<rect data-station="Augsburg" data-lon-lat="10.8983 48.3717" />
+<rect data-station="Lübeck" data-lon-lat="10.6864 53.8697" />
+<rect data-station="Vorkuta" data-lon-lat="64.0333 67.5" />
+<rect data-station="Vilnius" data-lon-lat="25.2833 54.6833" />
+<rect data-station="Bordeaux" data-lon-lat="-0.58 44.84" />
+<rect data-station="Cluj-Napoca" data-lon-lat="23.6 46.7667" />
+
+
 
 
 
@@ -76,9 +228,28 @@
 <text data-station="Paris" >Paris</text>
 <text data-station="Zürich" >Zürich</text>
 <text data-station="Cologne" >Cologne</text>
-<text data-station="Mainz" >Mainz</text>
+<text data-station="Ufa" >Ufa</text>
 <text data-station="Messina" >Messina</text>
 <text data-station="London" >London</text>
+<text data-station="Aarhus" >Aarhus</text>
+<text data-station="Dublin" >Dublin</text>
+<text data-station="Reykjavík" >Reykjavík</text>
+<text data-station="Oslo" >Oslo</text>
+<text data-station="Stockholm" >Stockholm</text>
+<text data-station="Derbent" >Derbent</text>
+<text data-station="Tromsø" >Tromsø</text>
+<text data-station="Turku" >Turku</text>
+<text data-station="Longyearbyen" >Longyearbyen</text>
+<text data-station="Kraków" >Kraków</text>
+<text data-station="Sevastopol" >Sevastopol</text>
+<text data-station="Kyiv" >Kyiv</text>
+<text data-station="Smolensk" >Smolensk</text>
+<text data-station="Augsburg" >Augsburg</text>
+<text data-station="Lübeck" >Lübeck</text>
+<text data-station="Vorkuta" >Vorkuta</text>
+<text data-station="Vilnius" >Vilnius</text>
+<text data-station="Bordeaux" >Bordeaux</text>
+<text data-station="Cluj-Napoca" >Cluj-Napoca</text>
 
        
     </g>

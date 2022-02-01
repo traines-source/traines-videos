@@ -4,8 +4,8 @@ const SVGNS = "http://www.w3.org/2000/svg";
 TNA.Config.default.mapProjection = 'epsg3035';
 TNA.Config.default.mapProjectionScale = 0.001;
 TNA.Config.default.beckStyle = false;
-const event = new Event('startTransportNetworkAnimator');
-document.dispatchEvent(event);
+TNA.Config.default.gravitatorInertness = 0.1;
+document.dispatchEvent(new Event('startTransportNetworkAnimator'));
 
 
 function fetchLocal(url) {
