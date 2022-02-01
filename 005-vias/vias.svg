@@ -257,6 +257,7 @@
 <rect id="epoch-label-bg" x="16990" y="9750" width="180" height="90" />
 <text id="epoch-label" x="17080" y="9800"></text>
 <script xlink:href="../../dist/network-animator.js" />
+<script xlink:href="https://cdnjs.cloudflare.com/ajax/libs/proj4js/2.7.5/proj4.min.js" />
 <script xlink:href="vias.js" />
 </svg>
 

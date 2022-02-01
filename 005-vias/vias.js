@@ -1,10 +1,15 @@
 const SVGNS = "http://www.w3.org/2000/svg";
 
 
-TNA.Config.default.mapProjection = 'epsg3035';
 TNA.Config.default.mapProjectionScale = 0.001;
 TNA.Config.default.beckStyle = false;
 TNA.Config.default.gravitatorInertness = 0.1;
+const proj4_3035 = '+proj=laea +lat_0=52 +lon_0=10 +x_0=4321000 +y_0=3210000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs';
+TNA.Projection.projections['epsg3035'] = lonlat => {
+    const p = proj4(proj4_3035, [lonlat.x, lonlat.y])
+    return new TNA.Vector(p[0], -p[1]);
+}
+TNA.Config.default.mapProjection = 'epsg3035';
 document.dispatchEvent(new Event('startTransportNetworkAnimator'));
 
 
