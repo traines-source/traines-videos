@@ -3,8 +3,10 @@ const SVGNS = "http://www.w3.org/2000/svg";
 
 TNA.Config.default.mapProjectionScale = 0.001;
 TNA.Config.default.beckStyle = false;
-TNA.Config.default.labelHeight = 50;
-TNA.Config.default.gravitatorInertness = 10000;
+TNA.Config.default.labelHeight = 10;
+TNA.Config.default.gravitatorInertness = 1;
+TNA.Config.default.gravitatorUseInclinationInertness = true;
+
 const proj4_3035 = '+proj=laea +lat_0=52 +lon_0=10 +x_0=4321000 +y_0=3210000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs';
 TNA.Projection.projections['epsg3035'] = lonlat => {
     const p = proj4(proj4_3035, [lonlat.x, lonlat.y])
