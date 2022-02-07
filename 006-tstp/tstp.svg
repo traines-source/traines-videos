@@ -377,7 +377,9 @@
 <image id="timetable_collapsed" href="res/timetable_collapsed.png" preserveAspectRatio="xMidYMid slice" class="cover" data-from="9 7 keepzoom" data-to="9 15 keepzoom" />
 <image id="timetable_expanded" href="res/timetable_expanded.png" preserveAspectRatio="xMidYMid slice" class="cover" data-from="9 15 keepzoom" data-to="10 5 keepzoom" />
 <image id="timetable_RM_FHM" href="res/timetable_RM_FHM.png" preserveAspectRatio="xMidYMid slice" class="cover" data-from="20 6 keepzoom" data-to="20 12 keepzoom" />
+<text x="17200" y="10750" data-from="9 0 keepzoom" data-to="9 7 keepzoom" class="caption" >maps-for-free.com (bearbeitet). – © OpenStreetMap Contributors</text>
 <text x="17200" y="10750" data-from="20 0 keepzoom" data-to="20 6 keepzoom" class="caption" >maps-for-free.com (bearbeitet). – © OpenStreetMap Contributors</text>
+
 <script xlink:href="../../dist/network-animator.js" />
 <script xlink:href="tstp.js" />
 </svg>

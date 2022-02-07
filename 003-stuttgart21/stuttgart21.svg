@@ -882,8 +882,8 @@
             <path d="M 0,8 v -8 l 32,0.48 L 32,8 Z" style="fill: #B71C1C; stroke: none;visibility:hidden" data-from="40 59 noanim-nozoom" />
         </g>
 
-        <image href="res/high/map_10000_circ_small_bw.png" x="2680924" y="1751182" width="27472" height="27472" preserveAspectRatio="none" />
-        <image href="res/high/stgt_750m_small.png" x="2686193" y="1758737" width="9007" height="9097" style="opacity:0.6" preserveAspectRatio="none" />
+        <image href="res/map_10000_circ_small_bw.png" x="2680924" y="1751182" width="27472" height="27472" preserveAspectRatio="none" />
+        <image href="res/stgt_750m_small.png" x="2686193" y="1758737" width="9007" height="9097" style="opacity:0.6" preserveAspectRatio="none" />
         <g id="geo_intro">
         </g>
         <g id="geo_intro_labels">
