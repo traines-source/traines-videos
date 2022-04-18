@@ -35,7 +35,7 @@ scenes = [
     TScene(
         TClip("can.mp4", 240, "CAN Bus communication explained in 5 minutes. Saral Tayal. CC-BY 3.0."),
         TClip("moscow.mp4", 30, "How Moscow's metro grew in 82 years. RUSSIA BEYOND. CC-BY 3.0."),
-        "Because some are interested in irrelevant details,\nwhile others care about the important technicalities."
+        "Because some are interested in irrelevant details,\nwhile others care about important technicalities."
     ),
     TScene(
         TClip("car_combustion.mp4", 8, "Honda Civic Type R FK8 x Fi Exhaust - Sound C[...]. FiExhaust. CC-BY 3.0."),
@@ -50,7 +50,7 @@ scenes = [
     TScene(
         TClip("alloy_wheels.mp4", 31, "What Is An Alloy Wheel? SD Wheel. CC-BY 3.0."),
         TClip("bogie.mp4", 64, "Principle of Bogies - Railway Engineering: Tr[...]. TU Delft Online Learning. CC-BY 3.0."),
-        "Because some like steel,\nwhile others prefer aluminium."
+        "Because some like steel,\nwhile others are into aluminium."
     ),
     TScene(
         TClip("flying.mp4", 150, "Pal V Liberty \"World's first\" commercial fl[...]. Tech World. CC-BY 3.0.", 1, 720/(1280/21*9)*(VIDEO_H-TEXT_BAR_H)),
@@ -60,7 +60,7 @@ scenes = [
     TScene(
         TClip("f1.mp4", 47, "Wird der Circuit Paul Ricard 2020 u[...]. Maik's F1 Channel. CC-BY 3.0"),
         TClip("gpe.mp4", 217, "Grand Paris Express | Demystified. RMTransit. CC-BY 3.0."),
-        "Because some have things built so that they can talk about it,\nwhile others talk about things that are built."
+        "Because some have things built so that they can talk about it,\nwhile others talk about things that are being built."
     ),
     TScene(
         TClip("drift.mp4", 0, "Tesla drift, model s drift, model s[...]. Jürgen Zimmermann. CC-BY 3.0."),
