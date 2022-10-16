@@ -156,46 +156,67 @@
 
         </g>
 
-        <g id="geo" style="transform: translate(-2.735e+06px, -1.67406e+06px);"></g>
+        <g id="cite">
+            <rect fill="white" stroke="none" x="14000" y="4900" width="2000" height="2000" />
+            <path class="marker" data-line="marker" data-from="10 2 keepzoom" data-speed="1000" d="M 14950,5405 l 950,-5" />
+            <path class="marker" data-line="marker" data-from="10 2 keepzoom" data-speed="1000" d="M 14050,5505 l 700,-5" />
+            <path class="marker" data-line="marker" data-from="10 2 keepzoom" data-speed="1000" d="M 14970,5885 l 430,-5" />
+            <path class="marker" data-line="marker" data-from="10 2 keepzoom" data-speed="1000" d="M 15250,6430 l 300,-5" />
+            <path class="marker" data-line="marker" data-from="10 2 keepzoom" data-speed="1000" d="M 15100,6540 l 150,-5" />
+            <text x="14040" y="5040" data-from="10 1" style="font-size:50px">[...]</text>
+            <image x="14000" y="5000" width="2000" height="1000" data-from="10 1 noanim" href="res/high/studie_zitat_1.png" />
+            <text x="14040" y="6000" data-from="10 1" style="font-size:50px">[...]</text>
+            <image x="14000" y="6000" width="2000" height="1000" data-from="10 1 noanim" href="res/high/studie_zitat_2.png" />
+            <g data-from="10 1000 noanim-keepzoom"></g>
+        </g>
 
-        <g id="plan" transform="scale(10)">
-            <path data-from="50 1" data-line="U1" data-stops="Uhlandstr Kurfürstendamm Nollendorfplatz Möckernbrücke HalleschesTor KottbusserTor WarschauerStr" />
-            <path data-from="50 1" data-line="U2" data-stops="Ruhleben Kaiserdamm Bismarckstr ZoologischerGarten - Nollendorfplatz + PotsdamerPlatz Stadtmitte Alexanderplatz SchönhauserAllee Pankow" />
-            <path data-from="50 1" data-line="U3" data-stops="KrummeLanke HeidelbergerPlatz FehrbellinerPlatz Spichernstr Nollendorfplatz Möckernbrücke HalleschesTor KottbusserTor WarschauerStr" />
-            <path data-from="50 1" data-line="U4" data-stops="InnsbruckerPlatz BayerischerPlatz Nollendorfplatz" />
-            <path data-from="50 1" data-line="U5" data-stops="Hauptbahnhof UnterDenLinden Alexanderplatz FrankfurterAllee Lichtenberg Wuhletal Hönow" />
-            <path data-from="50 1" data-line="U6" data-stops="AltTegel KurtSchumacherPlatz Leopoldplatz Wedding Friedrichstr UnterDenLinden Stadtmitte HalleschesTor Mehringdamm Tempelhof AltMariendorf" />
-            <path data-from="50 1" data-line="U7" data-stops="RathausSpandau Jungfernheide Bismarckstr WilmersdorferStr FehrbellinerPlatz BerlinerStr BayerischerPlatz Yorckstr +2 h_Möckernbrücke_Yorckstr Möckernbrücke Mehringdamm Hermannplatz Neukölln Rudow" />
-            <path data-from="50 1" data-line="U8" data-stops="Wittenau KarlBonhoefferNervenklinik OsloerStr Gesundbrunnen Alexanderplatz Jannowitzbrücke KottbusserTor Hermannplatz Hermannstr" />
-            <path data-from="50 1" data-line="U9" data-stops="OsloerStr Leopoldplatz Westhafen ZoologischerGarten Kurfürstendamm Spichernstr BerlinerStr Bundesplatz RathausSteglitz" />
+        <g id="geo" transform="translate(-2472500 -1502900)"></g>
+
+        <g id="plan" transform="scale(3) translate(-819900 -503100) ">
+            <path data-from="50 1 noanim-keepzoom" data-line="Ringbahn" data-speed="1000" data-stops="Gesundbrunnen SchönhauserAllee h_FrankfurterAllee_SchönhauserAllee  FrankfurterAllee Ostkreuz Neukölln Hermannstr Tempelhof Südkreuz InnsbruckerPlatz Bundesplatz HeidelbergerPlatz Westkreuz Kaiserdamm Jungfernheide Westhafen Wedding +0 Gesundbrunnen" />
+
+            <path data-from="50 1" data-line="U1" data-speed="1000" data-stops="Uhlandstr Kurfürstendamm Nollendorfplatz Möckernbrücke HalleschesTor KottbusserTor WarschauerStr" />
+            <text data-line="U1" data-from="50 1">U1</text>
+            <path data-from="50 1" data-line="U2" data-speed="1000" data-stops="Ruhleben Kaiserdamm Bismarckstr ZoologischerGarten - Nollendorfplatz + PotsdamerPlatz Stadtmitte Alexanderplatz SchönhauserAllee Pankow" />
+            <text data-line="U2" data-from="50 1">U2</text>
+            <path data-from="50 1" data-line="U3" data-speed="1000" data-stops="KrummeLanke HeidelbergerPlatz FehrbellinerPlatz Spichernstr Nollendorfplatz Möckernbrücke HalleschesTor KottbusserTor WarschauerStr" />
+            <text data-line="U3" data-from="50 1">U3</text>
+            <path data-from="50 1" data-line="U4" data-speed="1000" data-stops="InnsbruckerPlatz BayerischerPlatz Nollendorfplatz" />
+            <text data-line="U4" data-from="50 1">U4</text>
+            <path data-from="50 1" data-line="U5" data-speed="1000" data-stops="Hauptbahnhof UnterDenLinden Alexanderplatz FrankfurterAllee Lichtenberg Wuhletal Hönow" />
+            <text data-line="U5" data-from="50 1">U5</text>
+            <path data-from="50 1" data-line="U6" data-speed="1000" data-stops="AltTegel KurtSchumacherPlatz Leopoldplatz Wedding Friedrichstr UnterDenLinden Stadtmitte HalleschesTor Mehringdamm Tempelhof AltMariendorf" />
+            <text data-line="U6" data-from="50 1">U6</text>
+            <path data-from="50 1" data-line="U7" data-speed="1000" data-stops="RathausSpandau Jungfernheide Bismarckstr WilmersdorferStr FehrbellinerPlatz BerlinerStr BayerischerPlatz Yorckstr +2 h_Möckernbrücke_Yorckstr Möckernbrücke Mehringdamm Hermannplatz Neukölln Rudow" />
+            <text data-line="U7" data-from="50 1">U7</text>
+            <path data-from="50 1" data-line="U8" data-speed="1000" data-stops="Wittenau KarlBonhoefferNervenklinik OsloerStr Gesundbrunnen Alexanderplatz Jannowitzbrücke KottbusserTor Hermannplatz Hermannstr" />
+            <text data-line="U8" data-from="50 1">U8</text>
+            <path data-from="50 1" data-line="U9" data-speed="1000" data-stops="OsloerStr Leopoldplatz Westhafen ZoologischerGarten Kurfürstendamm Spichernstr BerlinerStr Bundesplatz RathausSteglitz" />
+            <text data-line="U9" data-from="50 1">U9</text>
             
+
+            
+            <g data-from="50 10 noanim-keepzoom"></g>
 
             <!-- Extensions -->
             <!--<path data-from="50 1" data-line="U1" data-stops="WarschauerStr Ostkreuz" />
             <path data-from="50 1" data-line="U1" data-stops="Uhlandstraße Westkreuz" />-->
-            <path data-from="50 10" data-line="U3" data-stops="KrummeLanke Mexikoplatz" />
-            <path data-from="50 10" data-line="U6" data-stops="KurtSchumacherPlatz TegelUTR" />
-            <path data-from="50 10" data-line="U7" data-stops="Rudow FlughafenBER" />
-            <path data-from="50 10" data-line="U8" data-stops="Wittenau MärkischesViertel" />
-            <path data-from="50 10" data-line="U9" data-stops="OsloerStr Pankow" />
+            <path data-from="51 3" data-line="U3" data-stops="KrummeLanke Mexikoplatz" />
+            <path data-from="51 6" data-line="U6" data-stops="KurtSchumacherPlatz TegelUTR" />
+            <path data-from="51 11" data-line="U7" data-stops="Rudow FlughafenBER" />
+            <path data-from="51 16" data-line="U8" data-stops="Wittenau MärkischesViertel" />
+            <path data-from="51 19" data-line="U9" data-stops="OsloerStr Pankow" />
 
+
+            <rect data-station="h_FrankfurterAllee_SchönhauserAllee" data-dir="nw" class="helper" data-lon-lat="13.45 52.54" />
+            <rect data-station="Südkreuz" data-lon-lat="13.364444 52.475556" />
             <rect data-station="Ostkreuz" data-lon-lat="13.468889 52.503056" />
             <rect data-station="Westkreuz" data-lon-lat="13.283889 52.501111" />
             <rect data-station="Mexikoplatz" data-lon-lat="13.2317866 52.4371956" />
             <rect data-station="KurtSchumacherPlatz" data-dir="n" data-lon-lat="13.326572 52.563556" />
             <rect data-station="TegelUTR" data-lon-lat="13.2856972 52.5515199" />
             <rect data-station="FlughafenBER" data-lon-lat="13.5097100 52.3645333" />
-            <rect data-station="MärkischesViertel" data-lon-lat="13.3547678 52.5966870" />
-
-            <text data-station="Ostkreuz">Ostkreuz</text>
-            <text data-station="Westkreuz">Westkreuz</text>
-            <text data-station="Mexikoplatz">Mexikoplatz</text>
-            <text data-station="KurtSchumacherPlatz" data-dir="n">Kurt-Schumacher-Platz</text>
-            <text data-station="TegelUTR">Flughafen Tegel</text>
-            <text data-station="FlughafenBER">Flughafen BER</text>
-            <text data-station="MärkischesViertel">Märkisches Viertel</text>
-
-
+            <rect data-station="MärkischesViertel" data-label-dir="s" data-lon-lat="13.3547678 52.5966870" />
             
             <rect data-station="Uhlandstr" data-dir="nw" data-lon-lat="13.325556 52.5025" />
             <rect data-station="Kurfürstendamm" data-lon-lat="13.331389 52.503889" />
@@ -252,8 +273,9 @@
             <rect data-station="KarlBonhoefferNervenklinik" data-dir="ne" data-lon-lat="13.331265 52.578384" />
             
             <rect data-station="h_Möckernbrücke_Yorckstr" class="helper" data-dir="n" data-lon-lat="13.375 52.499621" />
+            
 
-
+            <!--
             <text data-station="Uhlandstr">Uhlandstr</text>
             <text data-station="Kurfürstendamm">Kurfürstendamm</text>
             <text data-station="Nollendorfplatz">Nollendorfplatz</text>
@@ -269,8 +291,6 @@
             <text data-station="Stadtmitte">Stadtmitte</text>
             <text data-station="Alexanderplatz">Alexanderplatz</text>
             <text data-station="SchönhauserAllee">SchönhauserAllee</text>
-            <text data-station="Pankow">Pankow</text>
-            <text data-station="KrummeLanke">KrummeLanke</text>
             <text data-station="HeidelbergerPlatz">HeidelbergerPlatz</text>
             <text data-station="FehrbellinerPlatz">FehrbellinerPlatz</text>
             <text data-station="Spichernstr">Spichernstr</text>
@@ -294,9 +314,6 @@
             <text data-station="Yorckstr">Yorckstr</text>
             <text data-station="Neukölln">Neukölln</text>
             <text data-station="Hermannplatz">Hermannplatz</text>
-            <text data-station="Rudow">Rudow</text>            
-            <text data-station="Wittenau">Wittenau</text>
-            <text data-station="OsloerStr">OsloerStr</text>
             <text data-station="Gesundbrunnen">Gesundbrunnen</text>
             <text data-station="Jannowitzbrücke">Jannowitzbrücke</text>
             <text data-station="Hermannstr">Hermannstr</text>
@@ -306,53 +323,113 @@
             <text data-station="Lichtenberg">Lichtenberg</text>
             <text data-station="Wuhletal">Wuhletal</text>
             <text data-station="KarlBonhoefferNervenklinik">KarlBonhoefferNervenklinik</text>
+            <text data-station="Ostkreuz">Ostkreuz</text>
+            <text data-station="Westkreuz">Westkreuz</text>
+            -->
 
-            <text data-line="U1" data-from="50 1">U1</text>
-            <text data-line="U2" data-from="50 1">U2</text>
-            <text data-line="U3" data-from="50 1">U3</text>
-            <text data-line="U4" data-from="50 1">U4</text>
-            <text data-line="U5" data-from="50 1">U5</text>
-            <text data-line="U6" data-from="50 1">U6</text>
-            <text data-line="U7" data-from="50 1">U7</text>
-            <text data-line="U8" data-from="50 1">U8</text>
-            <text data-line="U9" data-from="50 1">U9</text>
+
+            <text data-from="51 0 keepzoom" data-station="KrummeLanke">Krumme Lanke</text>
+            <text data-from="51 0 keepzoom" data-station="KurtSchumacherPlatz" data-dir="n">Kurt-Schumacher-Platz</text>
+            <text data-from="51 0 keepzoom" data-station="Rudow">Rudow</text>            
+            <text data-from="51 0 keepzoom" data-station="Wittenau">Wittenau</text>
+            <text data-from="51 0 keepzoom" data-station="OsloerStr">Osloer Straße</text>
             
+            <text data-from="51 0 keepzoom" data-station="Mexikoplatz">Mexikoplatz</text>
+            <text data-from="51 0 keepzoom" data-station="TegelUTR">Flughafen Tegel</text>
+            <text data-from="51 0 keepzoom" data-station="FlughafenBER">Flughafen BER</text>
+            <text data-from="51 0 keepzoom" data-station="MärkischesViertel">Märkisches Viertel</text>
+            <text data-from="51 0 keepzoom" data-station="Pankow">Pankow</text>
+
         </g>
 
-        <g id="tt" transform="scale(10)" data-from="25 0 noanim-keepzoom" class="toplevel">
+        <g id="tt" transform="translate(13000, 7000) scale(5)" data-from="25 0 noanim-keepzoom" class="toplevel">
             <g data-from="25 0 noanim-keepzoom">
-                <rect x="-50" y="-100" width="500" height="400" data-from="25 1 noanim" data-to="25 40 noanim" class="helper" />
-                <text x="200" y="-30" class="heading" data-to="25 22 keepzoom">Reisezeitverkürzungen dank Stuttgart 21</text>
-                <text x="200" y="-30" class="heading" data-from="25 22 keepzoom">Reisezeitveränderungen durch Stuttgart 21</text>
-                <text x="200" y="0" data-to="25 30 keepzoom" style="text-anchor: middle;font-size:12px;">Veränderung in Minuten</text>
-                <text x="200" y="0" data-from="25 30 keepzoom" style="text-anchor: middle;font-size:12px;visibility:hidden">Veränderung der kumulierten Reisezeit aller Fahrgäste auf der Relation</text>
+                <rect x="-50" y="-100" width="500" height="700" data-from="25 1 noanim" data-to="25 40 noanim" class="helper" />
+                <text x="200" y="-30" class="heading" data-from="25 0 noanim-keepzoom">Amortisationszeiten</text>
+                <text x="200" y="0" data-from="25 0 noanim-keepzoom" style="text-anchor: middle;font-size:12px;">nach der Studie "Die Klimabilanz Berliner U-Bahn und Straßenbahnplanungen"</text>
 
 
-                <text x="90" y="50" data-from="25 1 keepzoom">Beton kg CO₂ pro m³ Beton</text>
-                <path d="M 200,50 h -16" data-line="tt" data-from="25 1 keepzoom" class="decrease" />
-                <path d="M 184,50 h -80" data-line="tt" data-from="25 1 keepzoom" data-to="25 15 keepzoom" class="decrease" />
-                <text class="path-inset" x="210" y="50" data-from="25 1 keepzoom" data-to="25 15 keepzoom">-24</text>
-                <text class="path-inset" x="210" y="50" data-from="25 15 keepzoom" data-to="25 30 keepzoom">-4</text>
+                <text x="180" y="50" data-from="25 1 keepzoom">Beton: kgCO₂ pro m³ Stahlbeton</text>
+                <line x1="200" y1="50" x2="200" y2="50" id="concrete_kgCO2pm3concrete" class="secondary" />
+                <text class="path-inset" x="210" y="50" id="concrete_kgCO2pm3concrete_label"></text>
 
-                <text x="90" y="75" data-from="25 1 keepzoom">Stahl</text>
-                <path d="M 200,75 h -71" data-line="tt" data-from="25 1 keepzoom" class="decrease" />
-                <path d="M 129,75 h -5" data-line="tt" data-from="25 1 keepzoom" data-to="25 30 keepzoom" class="decrease" />
-                <text class="path-inset" x="210" y="75" data-from="25 1 keepzoom" data-to="25 30 keepzoom">-19</text>
+                <text x="180" y="75" data-from="25 1 keepzoom">Stahl: kgCO₂ pro m³ Stahlbeton</text>
+                <line x1="200" y1="75" x2="200" y2="75" id="rebar_steel_kgCO2pm3concrete" class="secondary" />
+                <text class="path-inset" x="210" y="75" id="rebar_steel_kgCO2pm3concrete_label"></text>
 
-                <text x="90" y="100" data-from="25 1 keepzoom">Holz</text>
-                <path d="M 200,100 h -47" data-line="tt" data-from="25 1 keepzoom" class="decrease" />
-                <path d="M 153,100 h -13" data-line="tt" data-from="25 1 keepzoom" data-to="25 30 keepzoom" class="decrease" />
-                <text class="path-inset" x="210" y="100" data-from="25 1 keepzoom" data-to="25 30 keepzoom">-15</text>
+                <text x="180" y="125" data-from="25 1 keepzoom">tCO₂ pro km U-Bahn-Tunnel</text>
+                <line x1="200" y1="125" x2="200" y2="125" id="total_tCO2pKm" class="secondary" />
+                <text class="path-inset" x="210" y="125" id="total_tCO2pKm_label"></text>
 
-                <text x="90" y="125" data-from="25 1 keepzoom">Verlagerungseffekt</text>
-                <path d="M 200,125 h -7" data-line="tt" data-from="25 1 keepzoom" class="decrease" />
-                <path d="M 193,125 h -41" data-line="tt" data-from="25 1 keepzoom" data-to="25 30 keepzoom" class="decrease" />
-                <text class="path-inset" x="210" y="125" data-from="25 1 keepzoom" data-to="25 30 keepzoom">-12</text>
 
-                <text x="90" y="150" data-from="25 22 keepzoom">Jahre</text>
-                <path d="M 200,150 h 4" data-line="tt" data-from="25 22 keepzoom" />
-                <path d="M 204,150 h 11" data-line="tt" data-from="25 30 keepzoom"/>
-                <text class="path-inset left" x="190" y="150" data-from="25 22 keepzoom" data-to="25 30 keepzoom">+1</text>
+                <g transform="translate(0 150)">
+                    <text x="200" y="0" class="heading" data-from="25 1 keepzoom">U9 Nord nach Pankow</text>
+
+                    <text x="180" y="25" data-from="25 1 keepzoom">Fahrgäste pro Tag</text>
+                    <line x1="200" y1="25" x2="200" y2="25" id="u9north_daily_passengers" class="secondary" />
+                    <text class="path-inset" x="210" y="25" id="u9north_daily_passengers_label"></text>
+
+                    <text x="180" y="50" data-from="25 1 keepzoom">Amortisationszeit</text>
+                    <line x1="200" y1="50" x2="200" y2="50" id="u9north_amortisation" />
+                    <text class="path-inset" x="210" y="50" id="u9north_amortisation_label"></text>
+                </g>
+
+                <g transform="translate(0 250)">
+                    <text x="200" y="0" class="heading" data-from="25 1 keepzoom">U7 Süd zum Flughafen BER</text>
+
+                    <text x="180" y="25" data-from="25 1 keepzoom">Fahrgäste pro Tag</text>
+                    <line x1="200" y1="25" x2="200" y2="25" id="u7south_daily_passengers" class="secondary" />
+                    <text class="path-inset" x="210" y="25" id="u7south_daily_passengers_label"></text>
+
+                    <text x="180" y="50" data-from="25 1 keepzoom">Amortisationszeit</text>
+                    <line x1="200" y1="50" x2="200" y2="50" id="u7south_amortisation" />
+                    <text class="path-inset" x="210" y="50" id="u7south_amortisation_label"></text>
+                </g>
+
+                <g transform="translate(0 350)">
+                    <text x="200" y="0" class="heading" data-from="25 1 keepzoom">U3 Süd zum Mexikoplatz</text>
+
+                    <text x="180" y="25" data-from="25 1 keepzoom">Fahrgäste pro Tag</text>
+                    <line x1="200" y1="25" x2="200" y2="25" id="u3south_daily_passengers" class="secondary" />
+                    <text class="path-inset" x="210" y="25" id="u3south_daily_passengers_label"></text>
+
+                    <text x="180" y="50" data-from="25 1 keepzoom">Amortisationszeit</text>
+                    <line x1="200" y1="50" x2="200" y2="50" id="u3south_amortisation" />
+                    <text class="path-inset" x="210" y="50" id="u3south_amortisation_label"></text>
+                </g>
+
+                <g transform="translate(0 450)">
+                    <text x="200" y="0" class="heading" data-from="25 1 keepzoom">U8 Nord zum Märkischen Viertel</text>
+
+                    <text x="180" y="25" data-from="25 1 keepzoom">Fahrgäste pro Tag</text>
+                    <line x1="200" y1="25" x2="200" y2="25" id="u8north_daily_passengers" class="secondary" />
+                    <text class="path-inset" x="210" y="25" id="u8north_daily_passengers_label"></text>
+
+                    <text x="180" y="50" data-from="25 1 keepzoom">Amortisationszeit</text>
+                    <line x1="200" y1="50" x2="200" y2="50" id="u8north_amortisation" />
+                    <text class="path-inset" x="210" y="50" id="u8north_amortisation_label"></text>
+                </g>
+
+                <g transform="translate(0 550)">
+                    <text x="200" y="0" class="heading" data-from="25 1 keepzoom">U6 Nord zum Flugfeld Tegel</text>
+
+                    <text x="180" y="25" data-from="25 1 keepzoom">Fahrgäste pro Tag</text>
+                    <line x1="200" y1="25" x2="200" y2="25" id="u6north_daily_passengers" class="secondary" />
+                    <text class="path-inset" x="210" y="25" id="u6north_daily_passengers_label"></text>
+
+                    <text x="180" y="50" data-from="25 1 keepzoom">Amortisationszeit</text>
+                    <line x1="200" y1="50" x2="200" y2="50" id="u6north_amortisation" />
+                    <text class="path-inset" x="210" y="50" id="u6north_amortisation_label"></text>
+                </g>
+
+
+
+                <g data-from="25 0 noanim-keepzoom" class="focusable" onfocus="updateBars('original')"></g>
+                <g data-from="25 10 noanim-keepzoom" class="focusable" onfocus="updateBars('corrected')"></g>
+                <g data-from="25 10000"></g>
+
+
+        
 
             </g>
             

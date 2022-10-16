@@ -1,44 +1,156 @@
 const SVGNS = "http://www.w3.org/2000/svg";
-const scale = 10000;
+const scale = 9000;
 
-
-const total_concrete_tCO2pkm = (10954.7+727.6+1000+22875.8)*1.25+28215.9+1036.3;
-const rest_tCO2pkm = (205.4+61.1+15.9+62.5+500+500+1000+428.3+178.5)*1.25+4000+250+535.4+200.8+73.2+1200+800+730.8+428.4+800;
-const variable_rest_tCO2pkm = 8394.1+4000;
-const ratio_concrete = total_concrete_tCO2pkm/(total_concrete_tCO2pkm+rest_tCO2pkm+variable_rest_tCO2pkm);
+// cf. https://klimabilanz-ubahn-tram.de/download/klimabilanz-ubahn-tram.pdf
+const total_concrete_tCO2pKm = (10954.7+727.6+1000+22875.8)*1.25+28215.9+1036.3;
+const original_reinforced_concrete_kgCO2pm3concrete = 1837;
+const rest_tCO2pKm = (205.4+61.1+15.9+62.5+500+500+1000+428.3+178.5)*1.25+4000+250+535.4+200.8+73.2+1200+800+730.8+428.4+800;
+const variable_rest_tCO2pKm = 8394.1+4000;
+const ratio_concrete = total_concrete_tCO2pKm/(total_concrete_tCO2pKm+rest_tCO2pKm+variable_rest_tCO2pKm);
 const modal_split_shift = 0.2;
+const bus_saved_tCO2pKmA = 97.21072*2.5;
+
+const kgCO2pm3concrete_presscale = 0.1;
+const tCO2pKm_presscale = 0.001;
+const daily_passengers_presscale = 0.01;
+const amortisation_presscale = 1;
+
+const new_rebar_steel_volpercent = 0.150/7.85;
+const steel_tpm3 = 7.85;
+const kgCO2ptsteel = 1500;
 
 const scenarios = {
     "original": {
         "concrete_kgCO2pm3concrete": 728,
         "rebar_steel_kgCO2pm3concrete": 942,
-        "variable_rest_tCO2pkm": variable_rest_tCO2pkm,
+        "variable_rest_tCO2pKm": variable_rest_tCO2pKm,
         "projects": {
+            "u9north": {
+                "daily_passengers": 40000,
+                "modal_split_saved_tCO2pPersonA": 0.418/1.25,
+                "additional_tCO2": 25000+17500+13000,
+                "tunnel_length_km": 3.27,
+                "total_length_km": 3.27
+            },
             "u7south": {
                 "daily_passengers": 38000,
-                "modal_split_saved_tCO2pPerson": 0.418/1.25*1.25,
-                "additional_tCO2": 13000+17500+35000 
+                "modal_split_saved_tCO2pPersonA": 0.418/1.25*1.25,
+                "additional_tCO2": 13000+17500+71001,
+                "tunnel_length_km": 5.1,
+                "total_length_km": 5.1+3.7
             },
             "u3south": {
                 "daily_passengers": 7000,
-                "modal_split_saved_tCO2pPerson": 0.418/1.25,
-                "additional_tCO2": 0 
+                "modal_split_saved_tCO2pPersonA": 0.418/1.25,
+                "additional_tCO2": 0,
+                "tunnel_length_km": 0.9,
+                "total_length_km": 0.9
             },
             "u8north": {
                 "daily_passengers": 12000,
-                "modal_split_saved_tCO2pPerson": 0.418/1.25,
-                "additional_tCO2": 13000
+                "modal_split_saved_tCO2pPersonA": 0.418/1.25,
+                "additional_tCO2": 13000,
+                "tunnel_length_km": 2.1,
+                "total_length_km": 2.1
             },
             "u6north": {
                 "daily_passengers": 8000,
-                "modal_split_saved_tCO2pPerson": 0.418/1.25,
-                "additional_tCO2": 26250+13000
+                "modal_split_saved_tCO2pPersonA": 0.418/1.25,
+                "additional_tCO2": 26250+13000,
+                "tunnel_length_km": 1.95,
+                "total_length_km": 1.95
+            },
+        }
+    },
+    "corrected": {
+        "concrete_kgCO2pm3concrete": (1-new_rebar_steel_volpercent)*329.88,
+        "rebar_steel_kgCO2pm3concrete": new_rebar_steel_volpercent*steel_tpm3*kgCO2ptsteel,
+        "variable_rest_tCO2pKm": variable_rest_tCO2pKm,
+        "projects": {
+            "u9north": {
+                "daily_passengers": 40000,
+                "modal_split_saved_tCO2pPersonA": 0.418/1.25,
+                "additional_tCO2": 25000+17500+13000,
+                "tunnel_length_km": 3.27,
+                "total_length_km": 3.27
+            },
+            "u7south": {
+                "daily_passengers": 38000,
+                "modal_split_saved_tCO2pPersonA": 0.418/1.25*1.25,
+                "additional_tCO2": 13000+17500+71001,
+                "tunnel_length_km": 5.1,
+                "total_length_km": 5.1+3.7
+            },
+            "u3south": {
+                "daily_passengers": 7000,
+                "modal_split_saved_tCO2pPersonA": 0.418/1.25,
+                "additional_tCO2": 0,
+                "tunnel_length_km": 0.9,
+                "total_length_km": 0.9
+            },
+            "u8north": {
+                "daily_passengers": 12000,
+                "modal_split_saved_tCO2pPersonA": 0.418/1.25,
+                "additional_tCO2": 13000,
+                "tunnel_length_km": 2.1,
+                "total_length_km": 2.1
+            },
+            "u6north": {
+                "daily_passengers": 8000,
+                "modal_split_saved_tCO2pPersonA": 0.418/1.25,
+                "additional_tCO2": 26250+13000,
+                "tunnel_length_km": 1.95,
+                "total_length_km": 1.95
             },
         }
     }
 }
 
+function updateBars(scenarioId) {
+    calculateBars(scenarioId, scenarios[scenarioId]);
+}
 
+function calculateBars(scenarioId, scenario) {
+    console.log('SCENARIO:', scenarioId);
+    const reinforced_concrete_kgCO2pm3concrete = (scenario.concrete_kgCO2pm3concrete + scenario.rebar_steel_kgCO2pm3concrete) * 1.1;
+    console.log('reinforced_concrete_kgCO2pm3concrete:', reinforced_concrete_kgCO2pm3concrete);
+    const reinforced_concrete_kgCO2pm3concrete_ratio = reinforced_concrete_kgCO2pm3concrete/original_reinforced_concrete_kgCO2pm3concrete;
+    console.log('reinforced_concrete_kgCO2pm3concrete_ratio:', reinforced_concrete_kgCO2pm3concrete_ratio);
+    const actual_total_concrete_tCO2pKm = reinforced_concrete_kgCO2pm3concrete_ratio*total_concrete_tCO2pKm;
+    const total_tCO2pKm = actual_total_concrete_tCO2pKm+rest_tCO2pKm+scenario.variable_rest_tCO2pKm;
+    console.log('total_tCO2pKm:', total_tCO2pKm);
+
+    drawBar('concrete_kgCO2pm3concrete', scenario.concrete_kgCO2pm3concrete, kgCO2pm3concrete_presscale);
+    drawBar('rebar_steel_kgCO2pm3concrete', scenario.rebar_steel_kgCO2pm3concrete, kgCO2pm3concrete_presscale);
+    drawBar('total_tCO2pKm', total_tCO2pKm, tCO2pKm_presscale);
+
+    for (const [key, project] of Object.entries(scenario.projects)) {
+        //if (key == 'u8north') continue;
+        console.log('PROJECT:', key);
+        const project_additional_tCO2 = project.additional_tCO2*ratio_concrete*reinforced_concrete_kgCO2pm3concrete_ratio+project.additional_tCO2*(1-ratio_concrete);
+        console.log('project_additional_tCO2:', project_additional_tCO2);
+        const project_total_tCO2 = total_tCO2pKm*project.tunnel_length_km+project_additional_tCO2;
+        console.log('project_total_tCO2:', project_total_tCO2);    
+        const project_savings_tCO2_pA = project.daily_passengers*modal_split_shift*project.modal_split_saved_tCO2pPersonA+project.total_length_km*bus_saved_tCO2pKmA;
+        console.log('project_savings_tCO2_pA:', project_savings_tCO2_pA);
+        const amortisation_years = project_total_tCO2/project_savings_tCO2_pA;
+
+        drawBar(key+'_daily_passengers', project.daily_passengers, daily_passengers_presscale);
+        drawBar(key+'_amortisation', amortisation_years, amortisation_presscale);
+    }
+}
+
+function drawBar(id, value, presentation_scale) {
+    const e = document.getElementById(id);
+    const x1 = parseInt(e.getAttribute('x1'));
+    const length = value*presentation_scale;
+    e.setAttribute('x2', x1+length);
+
+    const label = document.getElementById(id+'_label');
+    label.setAttribute('x', x1+length/2);
+    label.innerHTML = Math.round(value);
+    label.style.visibility = 'visible';
+}
 
 
 function x(lon) {
@@ -167,7 +279,7 @@ out geom;
 */
 
 TNA.Config.default.mapProjectionScale = 3000;
-TNA.Config.default.animSpeed = 10000;
+//TNA.Config.default.animSpeed = 10000;
 
 fetch("railways.geojson")
     .then(response => response.json())
