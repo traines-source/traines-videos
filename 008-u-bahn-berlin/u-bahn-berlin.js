@@ -10,9 +10,9 @@ const ratio_concrete = total_concrete_tCO2pKm/(total_concrete_tCO2pKm+rest_tCO2p
 const modal_split_shift = 0.2;
 const bus_saved_tCO2pKmA = 97.21072*2.5;
 
-const kgCO2pm3concrete_presscale = 0.1;
-const tCO2pKm_presscale = 0.001;
-const daily_passengers_presscale = 0.01;
+const kgCO2pm3concrete_presscale = 0.3;
+const tCO2pKm_presscale = 0.003;
+const daily_passengers_presscale = 0.005;
 const amortisation_presscale = 1;
 
 const new_rebar_steel_volpercent = 0.150/7.85;
@@ -120,9 +120,9 @@ function calculateBars(scenarioId, scenario) {
     const total_tCO2pKm = actual_total_concrete_tCO2pKm+rest_tCO2pKm+scenario.variable_rest_tCO2pKm;
     console.log('total_tCO2pKm:', total_tCO2pKm);
 
-    drawBar('concrete_kgCO2pm3concrete', scenario.concrete_kgCO2pm3concrete, kgCO2pm3concrete_presscale);
-    drawBar('rebar_steel_kgCO2pm3concrete', scenario.rebar_steel_kgCO2pm3concrete, kgCO2pm3concrete_presscale);
-    drawBar('total_tCO2pKm', total_tCO2pKm, tCO2pKm_presscale);
+    drawBar('concrete_kgCO2pm3concrete', scenario.concrete_kgCO2pm3concrete, kgCO2pm3concrete_presscale, false);
+    drawBar('rebar_steel_kgCO2pm3concrete', scenario.rebar_steel_kgCO2pm3concrete, kgCO2pm3concrete_presscale, false);
+    drawBar('total_tCO2pKm', total_tCO2pKm, tCO2pKm_presscale, false);
 
     for (const [key, project] of Object.entries(scenario.projects)) {
         //if (key == 'u8north') continue;
@@ -135,19 +135,19 @@ function calculateBars(scenarioId, scenario) {
         console.log('project_savings_tCO2_pA:', project_savings_tCO2_pA);
         const amortisation_years = project_total_tCO2/project_savings_tCO2_pA;
 
-        drawBar(key+'_daily_passengers', project.daily_passengers, daily_passengers_presscale);
-        drawBar(key+'_amortisation', amortisation_years, amortisation_presscale);
+        drawBar(key+'_daily_passengers', project.daily_passengers, daily_passengers_presscale, true);
+        drawBar(key+'_amortisation', amortisation_years, amortisation_presscale, true);
     }
 }
 
-function drawBar(id, value, presentation_scale) {
+function drawBar(id, value, presentation_scale, vertical) {
     const e = document.getElementById(id);
-    const x1 = parseInt(e.getAttribute('x1'));
+    const v = parseInt(e.getAttribute(vertical ? 'y1': 'x1'));
     const length = value*presentation_scale;
-    e.setAttribute('x2', x1+length);
+    e.setAttribute(vertical ? 'y2' : 'x2', vertical ? v-length : v+length);
 
     const label = document.getElementById(id+'_label');
-    label.setAttribute('x', x1+length/2);
+    if (!vertical) label.setAttribute('x', v+length/2);
     label.innerHTML = Math.round(value);
     label.style.visibility = 'visible';
 }
@@ -213,8 +213,9 @@ function getLineProperties(feature) {
     return ['undefined', '', '', 0];
 }
 
-function render(railways, setD) {
-    renderRailways(railways, setD);
+function render(ubahn, tram, setD) {
+    renderRailways(ubahn, setD);
+    renderRailways(tram, setD);
     const event = new Event('startTransportNetworkAnimator');
     document.dispatchEvent(event);
 }
@@ -277,15 +278,30 @@ function getOrCreatePath(id) {
 );
 out geom;
 */
+/*
+[out:json][timeout:25];
+(
+  way["railway"="tram"]({{bbox}});
+  way["railway"="construction"]["construction"="tram"]({{bbox}});
+  way["railway"="proposed"]["proposed"="tram"]({{bbox}});
+  relation["route"="tram"]({{bbox}});
+  
+ 
+);
+out geom;
+*/
 
 TNA.Config.default.mapProjectionScale = 3000;
 //TNA.Config.default.animSpeed = 10000;
 
-fetch("railways.geojson")
+
+fetch("ubahn.geojson")
+.then(response => response.json())
+.then(ubahn => 
+    fetch("tram.geojson")
     .then(response => response.json())
-    .then(railways => 
-        render(railways, true)
-    );
+    .then(tram => render(ubahn, tram, true))
+);
     
 
 function fetchLocal(url) {

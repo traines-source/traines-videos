@@ -156,7 +156,7 @@
 
         </g>
 
-        <g id="cite">
+        <g id="cite" transform="translate(500 0)">
             <rect fill="white" stroke="none" x="14000" y="4900" width="2000" height="2000" />
             <path class="marker" data-line="marker" data-from="10 2 keepzoom" data-speed="1000" d="M 14950,5405 l 950,-5" />
             <path class="marker" data-line="marker" data-from="10 2 keepzoom" data-speed="1000" d="M 14050,5505 l 700,-5" />
@@ -201,11 +201,11 @@
             <!-- Extensions -->
             <!--<path data-from="50 1" data-line="U1" data-stops="WarschauerStr Ostkreuz" />
             <path data-from="50 1" data-line="U1" data-stops="Uhlandstraße Westkreuz" />-->
-            <path data-from="51 3" data-line="U3" data-stops="KrummeLanke Mexikoplatz" />
-            <path data-from="51 6" data-line="U6" data-stops="KurtSchumacherPlatz TegelUTR" />
-            <path data-from="51 11" data-line="U7" data-stops="Rudow FlughafenBER" />
-            <path data-from="51 16" data-line="U8" data-stops="Wittenau MärkischesViertel" />
-            <path data-from="51 19" data-line="U9" data-stops="OsloerStr Pankow" />
+            <path data-from="51 1" data-line="U9" data-stops="OsloerStr Pankow" />
+            <path data-from="51 4" data-line="U7" data-stops="Rudow FlughafenBER" />
+            <path data-from="51 9" data-line="U3" data-stops="KrummeLanke Mexikoplatz" />
+            <path data-from="51 12" data-line="U8" data-stops="Wittenau MärkischesViertel" />
+            <path data-from="51 15" data-line="U6" data-stops="KurtSchumacherPlatz TegelUTR" />
 
 
             <rect data-station="h_FrankfurterAllee_SchönhauserAllee" data-dir="nw" class="helper" data-lon-lat="13.45 52.54" />
@@ -256,7 +256,7 @@
             <rect data-station="WilmersdorferStr" data-dir="nw" data-lon-lat="13.306667 52.506667" />
             <rect data-station="BerlinerStr" data-dir="nw" data-lon-lat="13.33092 52.48722" />
             <rect data-station="Yorckstr"  data-dir="nw" data-lon-lat="13.370833 52.493056" />
-            <rect data-station="Neukölln" data-lon-lat="13.442222 52.469444" />
+            <rect data-station="Neukölln" data-dir="nw" data-lon-lat="13.442222 52.469444" />
             <rect data-station="Hermannplatz" data-dir="nw" data-lon-lat="13.424444 52.486389" />
             <rect data-station="Rudow" data-dir="nw" data-lon-lat="13.495278 52.416111" />            
             <rect data-station="Wittenau" data-dir="ne" data-lon-lat="13.336667 52.595833" />
@@ -335,93 +335,95 @@
             <text data-from="51 0 keepzoom" data-station="OsloerStr">Osloer Straße</text>
             
             <text data-from="51 0 keepzoom" data-station="Mexikoplatz">Mexikoplatz</text>
-            <text data-from="51 0 keepzoom" data-station="TegelUTR">Flughafen Tegel</text>
+            <text data-from="51 0 keepzoom" data-station="TegelUTR">Flugfeld Tegel</text>
             <text data-from="51 0 keepzoom" data-station="FlughafenBER">Flughafen BER</text>
             <text data-from="51 0 keepzoom" data-station="MärkischesViertel">Märkisches Viertel</text>
             <text data-from="51 0 keepzoom" data-station="Pankow">Pankow</text>
 
         </g>
 
-        <g id="tt" transform="translate(13000, 7000) scale(5)" data-from="25 0 noanim-keepzoom" class="toplevel">
+        <g id="tt" transform="translate(14000, 8000) scale(5)" data-from="25 0 noanim-keepzoom" class="toplevel">
             <g data-from="25 0 noanim-keepzoom">
                 <rect x="-50" y="-100" width="500" height="700" data-from="25 1 noanim" data-to="25 40 noanim" class="helper" />
-                <text x="200" y="-30" class="heading" data-from="25 0 noanim-keepzoom">Amortisationszeiten</text>
+                <text x="200" y="-30" class="heading" data-from="25 0 noanim-keepzoom">Jahre bis zur Amortisation des CO₂-Ausstoßes</text>
                 <text x="200" y="0" data-from="25 0 noanim-keepzoom" style="text-anchor: middle;font-size:12px;">nach der Studie "Die Klimabilanz Berliner U-Bahn und Straßenbahnplanungen"</text>
 
+                <g transform="translate(0 0)">
+                    <text x="180" y="50" data-from="25 1 keepzoom">Beton: kgCO₂ pro m³ Stahlbeton</text>
+                    <line x1="200" y1="50" x2="200" y2="50" id="concrete_kgCO2pm3concrete" class="secondary" />
+                    <text class="path-inset" x="210" y="50" id="concrete_kgCO2pm3concrete_label"></text>
 
-                <text x="180" y="50" data-from="25 1 keepzoom">Beton: kgCO₂ pro m³ Stahlbeton</text>
-                <line x1="200" y1="50" x2="200" y2="50" id="concrete_kgCO2pm3concrete" class="secondary" />
-                <text class="path-inset" x="210" y="50" id="concrete_kgCO2pm3concrete_label"></text>
+                    <text x="180" y="75" data-from="25 1 keepzoom">Stahl: kgCO₂ pro m³ Stahlbeton</text>
+                    <line x1="200" y1="75" x2="200" y2="75" id="rebar_steel_kgCO2pm3concrete" class="secondary" />
+                    <text class="path-inset" x="210" y="75" id="rebar_steel_kgCO2pm3concrete_label"></text>
 
-                <text x="180" y="75" data-from="25 1 keepzoom">Stahl: kgCO₂ pro m³ Stahlbeton</text>
-                <line x1="200" y1="75" x2="200" y2="75" id="rebar_steel_kgCO2pm3concrete" class="secondary" />
-                <text class="path-inset" x="210" y="75" id="rebar_steel_kgCO2pm3concrete_label"></text>
+                    <text x="180" y="100" data-from="25 1 keepzoom">tCO₂ pro km U-Bahn-Tunnel</text>
+                    <line x1="200" y1="100" x2="200" y2="100" id="total_tCO2pKm" class="secondary" />
+                    <text class="path-inset" x="210" y="100" id="total_tCO2pKm_label"></text>
+                </g>
 
-                <text x="180" y="125" data-from="25 1 keepzoom">tCO₂ pro km U-Bahn-Tunnel</text>
-                <line x1="200" y1="125" x2="200" y2="125" id="total_tCO2pKm" class="secondary" />
-                <text class="path-inset" x="210" y="125" id="total_tCO2pKm_label"></text>
+                <g transform="translate(-412.5 300)">
+                    <text x="212.5" y="50" class="subheading" data-from="25 1 keepzoom">U9 Nord nach Pankow</text>
 
-
-                <g transform="translate(0 150)">
-                    <text x="200" y="0" class="heading" data-from="25 1 keepzoom">U9 Nord nach Pankow</text>
-
-                    <text x="180" y="25" data-from="25 1 keepzoom">Fahrgäste pro Tag</text>
                     <line x1="200" y1="25" x2="200" y2="25" id="u9north_daily_passengers" class="secondary" />
-                    <text class="path-inset" x="210" y="25" id="u9north_daily_passengers_label"></text>
+                    <text x="180" y="0" class="label secondary" id="u9north_daily_passengers_label"></text>
+                    <text x="180" y="15" data-from="25 1 keepzoom">Fahrgäste</text>
 
-                    <text x="180" y="50" data-from="25 1 keepzoom">Amortisationszeit</text>
-                    <line x1="200" y1="50" x2="200" y2="50" id="u9north_amortisation" />
-                    <text class="path-inset" x="210" y="50" id="u9north_amortisation_label"></text>
+                    <line x1="225" y1="25" x2="225" y2="25" id="u9north_amortisation" />
+                    <text x="245" y="0" class="right label" id="u9north_amortisation_label"></text>
+                    <text x="245" y="15" class="right" data-from="25 1 keepzoom">Jahre</text>
                 </g>
 
-                <g transform="translate(0 250)">
-                    <text x="200" y="0" class="heading" data-from="25 1 keepzoom">U7 Süd zum Flughafen BER</text>
+                <g transform="translate(-212.5 300)">
+                    <text x="212.5" y="50" class="subheading" data-from="25 1 keepzoom">U7 Süd zum Flughafen BER</text>
 
-                    <text x="180" y="25" data-from="25 1 keepzoom">Fahrgäste pro Tag</text>
                     <line x1="200" y1="25" x2="200" y2="25" id="u7south_daily_passengers" class="secondary" />
-                    <text class="path-inset" x="210" y="25" id="u7south_daily_passengers_label"></text>
+                    <text x="180" y="0" class="label secondary" id="u7south_daily_passengers_label"></text>
+                    <text x="180" y="15" data-from="25 1 keepzoom">Fahrgäste</text>
 
-                    <text x="180" y="50" data-from="25 1 keepzoom">Amortisationszeit</text>
-                    <line x1="200" y1="50" x2="200" y2="50" id="u7south_amortisation" />
-                    <text class="path-inset" x="210" y="50" id="u7south_amortisation_label"></text>
+                    <line x1="225" y1="25" x2="225" y2="25" id="u7south_amortisation" />
+                    <text x="245" y="0" class="right label" id="u7south_amortisation_label"></text>
+                    <text x="245" y="15" class="right" data-from="25 1 keepzoom">Jahre</text>
                 </g>
 
-                <g transform="translate(0 350)">
-                    <text x="200" y="0" class="heading" data-from="25 1 keepzoom">U3 Süd zum Mexikoplatz</text>
+                <g transform="translate(-12.5 300)">
+                    <text x="212.5" y="50" class="subheading" data-from="25 1 keepzoom">U3 Süd zum Mexikoplatz</text>
 
-                    <text x="180" y="25" data-from="25 1 keepzoom">Fahrgäste pro Tag</text>
                     <line x1="200" y1="25" x2="200" y2="25" id="u3south_daily_passengers" class="secondary" />
-                    <text class="path-inset" x="210" y="25" id="u3south_daily_passengers_label"></text>
+                    <text x="180" y="0" class="label secondary" id="u3south_daily_passengers_label"></text>
+                    <text x="180" y="15" data-from="25 1 keepzoom">Fahrgäste</text>
 
-                    <text x="180" y="50" data-from="25 1 keepzoom">Amortisationszeit</text>
-                    <line x1="200" y1="50" x2="200" y2="50" id="u3south_amortisation" />
-                    <text class="path-inset" x="210" y="50" id="u3south_amortisation_label"></text>
+                    <line x1="225" y1="25" x2="225" y2="25" id="u3south_amortisation" />
+                    <text x="245" y="0" class="right label" id="u3south_amortisation_label"></text>
+                    <text x="245" y="15" class="right" data-from="25 1 keepzoom">Jahre</text>
                 </g>
 
-                <g transform="translate(0 450)">
-                    <text x="200" y="0" class="heading" data-from="25 1 keepzoom">U8 Nord zum Märkischen Viertel</text>
+                <g transform="translate(187.5 300)">
+                    <text x="212.5" y="50" class="subheading" data-from="25 1 keepzoom">U8 Nord zum Märkischen Viertel</text>
 
-                    <text x="180" y="25" data-from="25 1 keepzoom">Fahrgäste pro Tag</text>
                     <line x1="200" y1="25" x2="200" y2="25" id="u8north_daily_passengers" class="secondary" />
-                    <text class="path-inset" x="210" y="25" id="u8north_daily_passengers_label"></text>
+                    <text x="180" y="0" class="label secondary" id="u8north_daily_passengers_label"></text>
+                    <text x="180" y="15" data-from="25 1 keepzoom">Fahrgäste</text>
 
-                    <text x="180" y="50" data-from="25 1 keepzoom">Amortisationszeit</text>
-                    <line x1="200" y1="50" x2="200" y2="50" id="u8north_amortisation" />
-                    <text class="path-inset" x="210" y="50" id="u8north_amortisation_label"></text>
+                    <line x1="225" y1="25" x2="225" y2="25" id="u8north_amortisation" />
+                    <text x="245" y="0" class="right label" id="u8north_amortisation_label"></text>
+                    <text x="245" y="15" class="right" data-from="25 1 keepzoom">Jahre</text>
                 </g>
 
-                <g transform="translate(0 550)">
-                    <text x="200" y="0" class="heading" data-from="25 1 keepzoom">U6 Nord zum Flugfeld Tegel</text>
+                <g transform="translate(387.5 300)">
+                    <text x="212.5" y="50" class="subheading" data-from="25 1 keepzoom">U6 Nord zum Flugfeld Tegel</text>
 
-                    <text x="180" y="25" data-from="25 1 keepzoom">Fahrgäste pro Tag</text>
                     <line x1="200" y1="25" x2="200" y2="25" id="u6north_daily_passengers" class="secondary" />
-                    <text class="path-inset" x="210" y="25" id="u6north_daily_passengers_label"></text>
+                    <text x="180" y="0" class="label secondary" id="u6north_daily_passengers_label"></text>
+                    <text x="180" y="15" data-from="25 1 keepzoom">Fahrgäste</text>
 
-                    <text x="180" y="50" data-from="25 1 keepzoom">Amortisationszeit</text>
-                    <line x1="200" y1="50" x2="200" y2="50" id="u6north_amortisation" />
-                    <text class="path-inset" x="210" y="50" id="u6north_amortisation_label"></text>
+                    <line x1="225" y1="25" x2="225" y2="25" id="u6north_amortisation" />
+                    <text x="245" y="0" class="right label" id="u6north_amortisation_label"></text>
+                    <text x="245" y="15" class="right" data-from="25 1 keepzoom">Jahre</text>
                 </g>
 
+
+             
 
 
                 <g data-from="25 0 noanim-keepzoom" class="focusable" onfocus="updateBars('original')"></g>

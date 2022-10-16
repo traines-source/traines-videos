@@ -114,7 +114,7 @@ svg {
     stroke: #263238;
     stroke-width: 10;
 }
-#geo path.railway-construction {
+#geo path.railway-tram {
     stroke: #B71C1C;
     visibility: hidden;
 }
@@ -123,7 +123,7 @@ svg {
     stroke: #546E7A;
 }
 
-#geo path.tunnel-yes.railway-construction {
+#geo path.tunnel-yes.railway-tram {
     stroke: #E53935;
 }
 
@@ -184,9 +184,22 @@ text.corner-text {
     stroke: #546E7A;
 }
 
+
+
 #risk text, #tph text, #tt text {
     text-anchor: end;
     dominant-baseline: middle;
+}
+#tt text.right{
+    text-anchor: start;
+}
+#tt text.label {
+    font-weight: bold;
+    fill: #B71C1C;
+}
+
+#tt text.label.secondary {
+    fill: #546E7A;   
 }
 
 #tt text.path-inset{
@@ -201,7 +214,13 @@ text.corner-text {
 }
 
 text.heading {
-    text-anchor: middle !important;font-size:20px;font-weight: bold;
+    text-anchor: middle !important;
+    font-size:20px;
+    font-weight: bold;
+}
+text.subheading {
+    text-anchor: middle !important;
+    font-weight: bold;
 }
 /*
 #epoch-label, #epoch-label-bg, text, foreignObject {
@@ -214,7 +233,7 @@ text.heading {
 }
 
 #plan path {
-    stroke-width: 3;
+    stroke-width: 5;
     fill: none;
     stroke-linecap: round;
     stroke-linejoin: round;
@@ -259,7 +278,7 @@ text.heading {
 }
 
 #plan path.Ringbahn {
-    stroke: #808080;
+    stroke: #afafaf;
     stroke-width: 5;
 }
 
