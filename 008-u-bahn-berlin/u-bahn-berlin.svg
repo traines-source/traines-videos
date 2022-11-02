@@ -153,7 +153,7 @@
             <image class="srcarticle" transform="rotate(-5)" x="8700" y="6000" width="1500" height="2000" data-from="1 6 noanim" href="res/high/U-Bahn in Berlin_ Neue Projekte sind Klimakiller - Berliner Morgenpost.svg" />
             <image class="srcarticle" transform="rotate(15)" x="10700" y="4800" width="1500" height="2000" data-from="1 9 noanim" href="res/high/WD-8-002-21-pdf-data.svg" />
             <image class="srcarticle" transform="rotate(10)" x="9700" y="2800" width="1500" height="2000" data-from="1 12 noanim" href="res/high/Studie zur Klimabilanz der U-Bahn_ Mieses Klima im Untergrund - taz.de.svg" />
-
+            <image x="6600" y="2400" width="6000" height="6000" data-from="100 1 noanim" href="res/high/ubahn_circle.png" />
         </g>
 
         <g id="cite" transform="translate(500 0)">
