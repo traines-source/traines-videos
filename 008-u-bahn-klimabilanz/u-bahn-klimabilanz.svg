@@ -345,48 +345,54 @@
 
 
 
-        <g id="hamburg">
+        <g id="hamburg" transform="scale(3) translate(-810900 -495100)" >
         <!-- 
             \{(\n|.)*?"name": "(.*?)"(.|\n)*?"coordinates"(.|\n)*?(\d+\.\d+),\n\s+(\d+\.\d+)(.|\n)*?\n    \} 
             <rect data-station="$2" data-lon-lat="$5 $6" />
         
         -->
-            <path data-from="60 1" data-line="U1" data-speed="1000" data-stops="NorderstedtMitte Ohlsdorf Kellinghusenstraße Jungfernstieg HauptbahnhofSüd LübeckerStraße WandsbekerChaussee Wandsbek-Gartenstadt Volksdorf Ohlstedt" />
-            <path data-from="60 1" data-line="U1" data-speed="1000" data-stops="Volksdorf Großhansdorf" />
-            <path data-from="60 1" data-line="U2" data-speed="1000" data-stops="NiendorfNord Schlump Jungfernstieg HauptbahnhofNord BerlinerTor Billstedt Mümmelmannsberg" />
-            <path data-from="60 1" data-line="U3" data-speed="1000" data-stops="Wandsbek-Gartenstadt Barmbek LübeckerStraße BerlinerTor HauptbahnhofSüd Rathaus Landunsbrücken Sternschanze Schlump Kellinghusenstraße Barmbek" />
-            <path data-from="60 1" data-line="U4" data-speed="1000" data-stops="Billstedt BerlinerTor HauptbahnhofNord Jungfernstieg Überseequartier Elbbrücken" />
+            <path data-from="60 1" data-line="H1" data-speed="1000" data-stops="NorderstedtMitte Sengelmannstraße Kellinghusenstraße Stephansplatz -2 Jungfernstieg -2 HauptbahnhofNord LübeckerStraße WandsbekerChaussee Wandsbek-Gartenstadt Volksdorf Ohlstedt" />
+            <path data-from="60 1" data-line="H1" data-speed="1000" data-stops="* Volksdorf Großhansdorf" />
+            <text data-line="H1" data-from="60 1">U1</text>
+            <path data-from="60 1" data-line="H2" data-speed="1000" data-stops="NiendorfNord HagenbecksTierpark Schlump +0 Jungfernstieg +0 HauptbahnhofNord BerlinerTor Billstedt Mümmelmannsberg" />
+            <text data-line="H2" data-from="60 1">U2</text>
+            <path data-from="60 1" data-line="H3" data-speed="1000" data-stops="Wandsbek-Gartenstadt Barmbek Mundsburg LübeckerStraße BerlinerTor HauptbahnhofNord Landungsbrücken - Schlump Hoheluftbrücke Kellinghusenstraße Borgweg Barmbek" />
+            <text data-line="H3" data-from="60 1">U3</text>
+            <path data-from="60 1" data-line="H4" data-speed="1000" data-stops="- Billstedt BerlinerTor -1 HauptbahnhofNord Jungfernstieg Überseequartier Elbbrücken" />
+            <text data-line="H4" data-from="60 1">U4</text>
+            <path data-from="60 10" data-line="H5" data-stops="ArenenVolkspark HagenbecksTierpark Universitätsklinikum Hoheluftbrücke Stephansplatz - Jungfernstieg HauptbahnhofNord h_HauptbahnhofNord_LübeckerStraße + Uhlenhorst Borgweg CityNord Sengelmannstraße Bramfeld" />
+            <text data-line="H5" data-from="60 10">U5</text>
 
+            <g data-from="60 100 keepzoom"></g>
+            <g data-from="60 1000"></g>
             <rect data-station="Dehnhaide" data-lon-lat="10.0409181 53.5794571" />
             <rect data-station="Mundsburg" data-lon-lat="10.0273189 53.5694003" />
-            <rect data-station="Kellinghusenstraße" data-lon-lat="9.9900852 53.5881316" />
+            <rect data-station="Kellinghusenstraße" data-dir="nw" data-lon-lat="9.9900852 53.5881316" />
             <rect data-station="Rödingsmarkt" data-lon-lat="9.9871836 53.5485103" />
             <rect data-station="NorderstedtMitte" data-lon-lat="9.9921222 53.7090753" />
             <rect data-station="Saarlandstraße" data-lon-lat="10.0324186 53.5888218" />
             <rect data-station="HamburgerStraße" data-lon-lat="10.0372944 53.574486" />
             <rect data-station="Hoisbüttel" data-lon-lat="10.1478672 53.6777026" />
             <rect data-station="Hoheluftbrücke" data-lon-lat="9.976099 53.5774925" />
-            <rect data-station="HauptbahnhofSüd" data-lon-lat="10.0093336 53.5521608" />
             <rect data-station="AlterTeichweg" data-lon-lat="10.0649307 53.5862016" />
             <rect data-station="Mönckebergstraße" data-lon-lat="10.0019001 53.5512809" />
-            <rect data-station="Sengelmannstraße" data-lon-lat="10.02204 53.6093178" />
             <rect data-station="Meßberg" data-lon-lat="10.0008941 53.5476433" />
-            <rect data-station="Überseequartier" data-lon-lat="9.9984314 53.5404236" />
-            <rect data-station="Jungfernstieg" data-lon-lat="9.9940377 53.5520998" />
+            <rect data-station="Überseequartier" data-dir="nw" data-lon-lat="9.9984314 53.5404236" />
+            <rect data-station="Jungfernstieg" data-label-dir="s" data-lon-lat="9.9940377 53.5534288" />
             <rect data-station="Schmalenbeck" data-lon-lat="10.2601856 53.6533879" />
             <rect data-station="Kiekut" data-lon-lat="10.2802566 53.6530231" />
             <rect data-station="Großhansdorf" data-lon-lat="10.2868177 53.6627288" />
             <rect data-station="Buchenkamp" data-lon-lat="10.1850709 53.6529577" />
-            <rect data-station="Landungsbrücken" data-lon-lat="9.9713353 53.5458595" />
+            <rect data-station="Landungsbrücken" data-dir="nw" data-lon-lat="9.9713353 53.5458595" />
             <rect data-station="WandsbekMarkt" data-lon-lat="10.0667414 53.5716636" />
             <rect data-station="Wandsbek-Gartenstadt" data-lon-lat="10.0743469 53.5923256" />
             <rect data-station="Wartenau" data-lon-lat="10.0354076 53.5646508" />
             <rect data-station="Messehallen" data-lon-lat="9.9767239 53.5580721" />
             <rect data-station="Trabrennbahn" data-lon-lat="10.1028727 53.598434" />
-            <rect data-station="Niendorf Markt" data-lon-lat="9.9515185 53.6196987" />
+            <rect data-station="NiendorfMarkt" data-lon-lat="9.9515185 53.6196987" />
             <rect data-station="Schippelsweg" data-lon-lat="9.9525076 53.6352958" />
             <rect data-station="Ohlsdorf" data-lon-lat="10.031328 53.6205796" />
-            <rect data-station="Schlump" data-lon-lat="9.9700757 53.5675879" />
+            <rect data-station="Schlump" data-dir="n" data-lon-lat="9.9700757 53.5675879" />
             <rect data-station="Billstedt" data-lon-lat="10.106876 53.5425937" />
             <rect data-station="Burgstraße" data-lon-lat="10.0420061 53.5557979" />
             <rect data-station="HammerKirche" data-lon-lat="10.0555254 53.5556085" />
@@ -403,14 +409,15 @@
             <rect data-station="Hudtwalckerstraße" data-lon-lat="9.9961041 53.5945497" />
             <rect data-station="Sierichstraße" data-lon-lat="10.0010633 53.5903854" />
             <rect data-station="RauhesHaus" data-lon-lat="10.066125 53.5542084" />
-            <rect data-station="Barmbek" data-lon-lat="10.0445885 53.5871782" />
+            <rect data-station="Barmbek" data-dir="nw" data-lon-lat="10.0445885 53.5871782" />
             <rect data-station="LübeckerStraße" data-lon-lat="10.0286959 53.5598267" />
             <rect data-station="Elbbrücken" data-lon-lat="10.0232352 53.5348122" />
             <rect data-station="Richtweg" data-lon-lat="9.9897878 53.6957725" />
-            <rect data-station="Volksdorf" data-lon-lat="10.1631555 53.650649" />
+            <rect data-station="Volksdorf" data-dir="nw" data-lon-lat="10.1631555 53.650649" />
             <rect data-station="LangenhornNord" data-lon-lat="10.0175721 53.6609764" />
             <rect data-station="HafenCityUniversität" data-lon-lat="10.0079629 53.5405541" />
-            <rect data-station="HauptbahnhofNord" data-lon-lat="10.006127 53.5541197" />
+
+            <rect data-station="HauptbahnhofNord" data-lon-lat="10.008 53.5534288" />
             <rect data-station="Alsterdorf" data-lon-lat="10.0116906 53.6064146" />
             <rect data-station="Lattenkamp" data-lon-lat="9.9946109 53.5998672" />
             <rect data-station="Borgweg" data-lon-lat="10.0147719 53.5907696" />
@@ -419,9 +426,9 @@
             <rect data-station="Lutterothstraße" data-lon-lat="9.9476215 53.5819938" />
             <rect data-station="Osterstraße" data-lon-lat="9.9516599 53.5761625" />
             <rect data-station="FuhlsbüttelNord" data-lon-lat="10.0166781 53.6392522" />
-            <rect data-station="Langenhorn Markt" data-lon-lat="10.0172131 53.6488888" />
+            <rect data-station="LangenhornMarkt" data-lon-lat="10.0172131 53.6488888" />
             <rect data-station="Kiwittsmoor" data-lon-lat="10.0161807 53.6749843" />
-            <rect data-station="BerlinerTor" data-lon-lat="10.0230852 53.5534288" />
+            <rect data-station="BerlinerTor" data-label-dir="s" data-lon-lat="10.0230852 53.5534288" />
             <rect data-station="Garstedt" data-lon-lat="9.9860415 53.6844739" />
             <rect data-station="Klosterstern" data-lon-lat="9.9882157 53.5816736" />
             <rect data-station="Buckhorn" data-lon-lat="10.1557408 53.664363" />
@@ -435,15 +442,15 @@
             <rect data-station="Gänsemarkt" data-lon-lat="9.9860402 53.5556593" />
             <rect data-station="Baumwall" data-lon-lat="9.9816291 53.5442142" />
             <rect data-station="Christuskirche" data-lon-lat="9.962444 53.5695526" />
-            <rect data-station="Sengelmannstraße" data-lon-lat="10.0220004 53.6093953" />
-            <rect data-station="WandsbekerChaussee" data-lon-lat="10.0576225 53.56982" />
+            <rect data-station="Sengelmannstraße" data-dir="nw" data-lon-lat="10.0220004 53.6093953" />
+            <rect data-station="WandsbekerChaussee" data-dir="nw" data-lon-lat="10.0576225 53.56982" />
             <rect data-station="Farmsen" data-lon-lat="10.1177994 53.607222" />
             <rect data-station="StraßburgerStraße" data-lon-lat="10.0678807 53.5820205" />
-            <rect data-station="HagenbecksTierpark" data-lon-lat="9.9440359 53.5925874" />
+            <rect data-station="HagenbecksTierpark" data-dir="nw" data-label-dir="s" data-lon-lat="9.9440359 53.5925874" />
             <rect data-station="MeiendorferWeg" data-lon-lat="10.1559218 53.6386437" />
             <rect data-station="NiendorfNord" data-lon-lat="9.9501122 53.6408535" />
             <rect data-station="AhrensburgWest" data-lon-lat="10.219403 53.6646389" />
-            <rect data-station="Rathaus" data-lon-lat="9.9940526 53.550371" />
+            <rect data-station="Rathaus" data-dir="nw" data-lon-lat="9.9940526 53.550371" />
             <rect data-station="Sternschanze" data-lon-lat="9.9692184 53.5644032" />
             <rect data-station="St.Pauli" data-lon-lat="9.9700752 53.5507957" />
             <rect data-station="Joachim-Mähl-Straße" data-lon-lat="9.9503051 53.628199" />
@@ -452,7 +459,14 @@
             <rect data-station="EppendorferBaum" data-lon-lat="9.9852871 53.583787" />
             <rect data-station="Oldenfelde" data-lon-lat="10.1289772 53.6176802" />
             <rect data-station="Habichtstraße" data-lon-lat="10.0522756 53.5936135" />
+            
+            <rect data-station="ArenenVolkspark" data-lon-lat="9.89775 53.59296" />
+            <rect data-station="Universitätsklinikum" data-lon-lat="9.97376 53.59293" />
+            <rect data-station="Uhlenhorst" data-dir="n" data-label-dir="w" data-lon-lat="10.02124 53.56653" />
+            <rect data-station="Bramfeld" data-lon-lat="10.0776 53.6137" />
+            <rect data-station="CityNord" data-dir="n" data-lon-lat="10.0173 53.6015" />
 
+            <!--
             <text data-station="Dehnhaide">Dehnhaide</text>
             <text data-station="Mundsburg">Mundsburg</text>
             <text data-station="Kellinghusenstraße">Kellinghusenstraße</text>
@@ -461,14 +475,10 @@
             <text data-station="Saarlandstraße">Saarlandstraße</text>
             <text data-station="HamburgerStraße">Hamburger Straße</text>
             <text data-station="Hoisbüttel">Hoisbüttel</text>
-            <text data-station="Hoheluftbrücke">Hoheluftbrücke</text>
-            <text data-station="HauptbahnhofSüd">Hauptbahnhof Süd</text>
             <text data-station="AlterTeichweg">Alter Teichweg</text>
             <text data-station="Mönckebergstraße">Mönckebergstraße</text>
-            <text data-station="Sengelmannstraße">Sengelmannstraße (City Nord)</text>
             <text data-station="Meßberg">Meßberg</text>
             <text data-station="Überseequartier">Überseequartier</text>
-            <text data-station="Jungfernstieg">Jungfernstieg</text>
             <text data-station="Schmalenbeck">Schmalenbeck</text>
             <text data-station="Kiekut">Kiekut</text>
             <text data-station="Großhansdorf">Großhansdorf</text>
@@ -506,10 +516,8 @@
             <text data-station="Volksdorf">Volksdorf</text>
             <text data-station="LangenhornNord">Langenhorn Nord</text>
             <text data-station="HafenCityUniversität">HafenCity Universität</text>
-            <text data-station="HauptbahnhofNord">Hauptbahnhof Nord</text>
             <text data-station="Alsterdorf">Alsterdorf</text>
-            <text data-station="Lattenkamp">Lattenkamp (Sporthalle)</text>
-            <text data-station="Borgweg">Borgweg (Stadtpark)</text>
+            <text data-station="Lattenkamp">Lattenkamp</text>
             <text data-station="Emilienstraße">Emilienstraße</text>
             <text data-station="Hagendeel">Hagendeel</text>
             <text data-station="Lutterothstraße">Lutterothstraße</text>
@@ -524,23 +532,20 @@
             <text data-station="Uhlandstraße">Uhlandstraße</text>
             <text data-station="Ohlstedt">Ohlstedt</text>
             <text data-station="AhrensburgOst">Ahrensburg Ost</text>
-            <text data-station="Stephansplatz">Stephansplatz (Oper/CCH)</text>
-            <text data-station="Feldstraße">Feldstraße (Heiligengeistfeld)</text>
+            <text data-station="Feldstraße">Feldstraße</text>
             <text data-station="Steinstraße">Steinstraße</text>
             <text data-station="Lohmühlenstraße">Lohmühlenstraße</text>
-            <text data-station="Gänsemarkt">Gänsemarkt (Oper)</text>
-            <text data-station="Baumwall">Baumwall (Elbphilharmonie)</text>
+            <text data-station="Gänsemarkt">Gänsemarkt</text>
+            <text data-station="Baumwall">Baumwall</text>
             <text data-station="Christuskirche">Christuskirche</text>
-            <text data-station="Sengelmannstraße">Sengelmannstraße (City Nord)</text>
             <text data-station="WandsbekerChaussee">Wandsbeker Chaussee</text>
             <text data-station="Farmsen">Farmsen</text>
             <text data-station="StraßburgerStraße">Straßburger Straße</text>
-            <text data-station="HagenbecksTierpark">Hagenbecks Tierpark</text>
             <text data-station="MeiendorferWeg">Meiendorfer Weg</text>
             <text data-station="NiendorfNord">Niendorf Nord</text>
             <text data-station="AhrensburgWest">Ahrensburg West</text>
             <text data-station="Rathaus">Rathaus</text>
-            <text data-station="Sternschanze">Sternschanze (Messe)</text>
+            <text data-station="Sternschanze">Sternschanze</text>
             <text data-station="St.Pauli">St. Pauli</text>
             <text data-station="Joachim-Mähl-Straße">Joachim-Mähl-Straße</text>
             <text data-station="HamburgerStraße">Hamburger Straße</text>
@@ -548,6 +553,22 @@
             <text data-station="EppendorferBaum">Eppendorfer Baum</text>
             <text data-station="Oldenfelde">Oldenfelde</text>
             <text data-station="Habichtstraße">Habichtstraße</text>
+            -->
+
+            <text data-station="HauptbahnhofNord">Hauptbahnhof</text>
+            <text data-station="Sengelmannstraße">Sengelmannstraße</text>
+            <text data-station="Stephansplatz">Stephansplatz</text>
+
+            <text data-station="Borgweg">Borgweg</text>
+            <text data-station="Jungfernstieg">Jungfernstieg</text>
+            <text data-station="Hoheluftbrücke">Hoheluftbrücke</text>
+            <text data-station="HagenbecksTierpark">Hagenbecks Tierpark</text>
+
+            <text data-station="ArenenVolkspark">Arenen Volkspark</text>
+            <text data-station="Universitätsklinikum">Universitätsklinikum</text>
+            <text data-station="Uhlenhorst">Uhlenhorst</text>
+            <text data-station="CityNord">City Nord</text>
+            <text data-station="Bramfeld">Bramfeld</text>
 
         </g>
 

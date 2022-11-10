@@ -232,7 +232,8 @@ text.subheading {
     transform-origin: center;
 }
 
-#plan path {
+
+#plan path, #hamburg path {
     stroke-width: 5;
     fill: none;
     stroke-linecap: round;
@@ -275,6 +276,28 @@ text.subheading {
 .U9 {
     stroke:#f68b1f;
     background-color:#f68b1f;
+}
+
+.H1 {
+    stroke:#0069b4;
+    background-color:#0069b4;    
+}
+.H2 {
+    stroke:#e30613;
+    background-color:#e30613;    
+}
+.H3, .for-line div.H3  {
+    stroke:#ffdd00;
+    background-color:#ffdd00;
+    color: black;
+}
+.H4 {
+    stroke:#009ba4;
+    background-color:#009ba4;    
+}
+.H5 {
+    stroke:#C68E17;
+    background-color:#C68E17;    
 }
 
 #plan path.Ringbahn {
