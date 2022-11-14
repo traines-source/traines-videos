@@ -574,7 +574,7 @@
 
         <g id="tt" transform="translate(14000, 8000) scale(5)" data-from="25 0 noanim-keepzoom" class="toplevel">
             <g data-from="25 0 noanim-keepzoom">
-                <rect x="-50" y="-100" width="500" height="700" data-from="25 1 noanim" data-to="25 40 noanim" class="helper" />
+                <rect x="-350" y="-100" width="1100" height="500" data-from="25 1 noanim" data-to="25 40 noanim" class="helper" />
                 <text x="200" y="-30" class="heading" data-from="25 0 noanim-keepzoom">Jahre bis zur Amortisation des CO₂-Ausstoßes</text>
                 <text x="200" y="0" data-from="25 0 noanim-keepzoom" style="text-anchor: middle;font-size:12px;">nach der Studie "Die Klimabilanz Berliner U-Bahn und Straßenbahnplanungen"</text>
 
@@ -587,12 +587,12 @@
                     <line x1="200" y1="75" x2="200" y2="75" id="rebar_steel_kgCO2pm3concrete" class="secondary" />
                     <text class="path-inset" x="210" y="75" id="rebar_steel_kgCO2pm3concrete_label"></text>
 
-                    <text x="180" y="100" data-from="25 1 keepzoom">tCO₂ pro km U-Bahn-Tunnel</text>
+                    <text x="180" y="100" data-from="25 1 keepzoom">tCO₂ pro km U-Bahn</text>
                     <line x1="200" y1="100" x2="200" y2="100" id="total_tCO2pKm" class="secondary" />
                     <text class="path-inset" x="210" y="100" id="total_tCO2pKm_label"></text>
                 </g>
 
-                <g transform="translate(-412.5 300)">
+                <g transform="translate(-512.5 340)">
                     <text x="212.5" y="50" class="subheading" data-from="25 1 keepzoom">U9 Nord nach Pankow</text>
 
                     <line x1="200" y1="25" x2="200" y2="25" id="u9north_daily_passengers" class="secondary" />
@@ -604,7 +604,7 @@
                     <text x="245" y="15" class="right" data-from="25 1 keepzoom">Jahre</text>
                 </g>
 
-                <g transform="translate(-212.5 300)">
+                <g transform="translate(-312.5 340)">
                     <text x="212.5" y="50" class="subheading" data-from="25 1 keepzoom">U7 Süd zum Flughafen BER</text>
 
                     <line x1="200" y1="25" x2="200" y2="25" id="u7south_daily_passengers" class="secondary" />
@@ -616,7 +616,7 @@
                     <text x="245" y="15" class="right" data-from="25 1 keepzoom">Jahre</text>
                 </g>
 
-                <g transform="translate(-12.5 300)">
+                <g transform="translate(-112.5 340)">
                     <text x="212.5" y="50" class="subheading" data-from="25 1 keepzoom">U3 Süd zum Mexikoplatz</text>
 
                     <line x1="200" y1="25" x2="200" y2="25" id="u3south_daily_passengers" class="secondary" />
@@ -628,8 +628,8 @@
                     <text x="245" y="15" class="right" data-from="25 1 keepzoom">Jahre</text>
                 </g>
 
-                <g transform="translate(187.5 300)">
-                    <text x="212.5" y="50" class="subheading" data-from="25 1 keepzoom">U8 Nord zum Märkischen Viertel</text>
+                <g transform="translate(87.5 340)">
+                    <text x="212.5" y="50" class="subheading" data-from="25 1 keepzoom">U8 Nord ins Märkische Viertel</text>
 
                     <line x1="200" y1="25" x2="200" y2="25" id="u8north_daily_passengers" class="secondary" />
                     <text x="180" y="0" class="label secondary" id="u8north_daily_passengers_label"></text>
@@ -640,7 +640,7 @@
                     <text x="245" y="15" class="right" data-from="25 1 keepzoom">Jahre</text>
                 </g>
 
-                <g transform="translate(387.5 300)">
+                <g transform="translate(287.5 340)">
                     <text x="212.5" y="50" class="subheading" data-from="25 1 keepzoom">U6 Nord zum Flugfeld Tegel</text>
 
                     <line x1="200" y1="25" x2="200" y2="25" id="u6north_daily_passengers" class="secondary" />
@@ -652,12 +652,28 @@
                     <text x="245" y="15" class="right" data-from="25 1 keepzoom">Jahre</text>
                 </g>
 
+                <g transform="translate(487.5 340)">
+                    <text x="212.5" y="50" class="subheading" data-from="25 1 keepzoom">U5 Lückenschluss</text>
+
+                    <line x1="200" y1="25" x2="200" y2="25" id="u5_daily_passengers" class="secondary" />
+                    <text x="180" y="0" class="label secondary" id="u5_daily_passengers_label"></text>
+                    <text x="180" y="15" data-from="25 1 keepzoom">Fahrgäste</text>
+
+                    <line x1="225" y1="25" x2="225" y2="25" id="u5_amortisation" />
+                    <text x="245" y="0" class="right label" id="u5_amortisation_label"></text>
+                    <text x="245" y="15" class="right" data-from="25 1 keepzoom">Jahre</text>
+                </g>
 
              
 
 
                 <g data-from="25 0 noanim-keepzoom" class="focusable" onfocus="updateBars('original')"></g>
-                <g data-from="25 10 noanim-keepzoom" class="focusable" onfocus="updateBars('corrected')"></g>
+                <g data-from="25 10 noanim-keepzoom" class="focusable" onfocus="updateBars('corrected-concrete')"></g>
+                <g data-from="25 20 noanim-keepzoom" class="focusable" onfocus="updateBars('corrected-total')"></g>
+                <g data-from="25 25 noanim-keepzoom" class="focusable" onfocus="updateBars('less-passengers')"></g>
+                <g data-from="25 30 noanim-keepzoom" class="focusable" onfocus="updateBars('more-passengers')"></g>
+                <g data-from="25 35 noanim-keepzoom" class="focusable" onfocus="updateBars('lowcarb-steel')"></g>
+                <g data-from="25 40 noanim-keepzoom" class="focusable" onfocus="updateBars('lowcarb-concrete')"></g>
                 <g data-from="25 10000"></g>
 
 
