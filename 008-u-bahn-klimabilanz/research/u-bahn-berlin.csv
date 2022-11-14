@@ -1,81 +1,91 @@
-"Quellen für die einzelnen Werte sind jeweils auf dem Tabellenblatt „Quellen“ zu finden, das die Zellen auf diesem Tabellenblatt referenzieren.",,,,,,,,
-,,,,,,,,
-,,,,,,,,
-Beschreibung,Original-Szenario,Korrigierter Wert für Beton,Korrigierter Wert für Stahl+Beton=Stahlbeton,Niedrigeres Fahrgastaufkommen?,Höheres Fahrgastaufkommen?,Niedrigerer CO2-Ausstoß Stahl,"zus. Niedrigemissionsbeton, Rekarbonatisierung",CO2-Ausstoß pro km ähnlicher zu anderen Quellen
-Bemerkung,,Fehler: tCO2/t statt tCO2/m3!,Fehler: zu hoher Stahlanteil!,Oder weniger Pkw-Umsteiger,Aktuelle Prognosen,,,
-kg Stahl pro Kubikmeter Stahlbeton,628,628,150,150,150,150,150,150
-Für Betonanteil: CO2-Ausstoß pro Kubikmeter Stahlbeton (kgCO2/m3),728,303.4896,323.576560509554,323.576560509554,323.576560509554,323.576560509554,147.133757961783,147.133757961783
-Für Stahlanteil: CO2-Ausstoß pro Kubikmeter Stahlbeton (kgCO2/m3),942,942,225,225,225,100.05,100.05,100.05
-Gesamt CO2-Ausstoß pro Kubikmeter Stahlbeton (kgCO2/m3),1837,1370.03856,603.434216560509,603.434216560509,603.434216560509,465.98921656051,271.902133757962,271.902133757962
-CO2-Ausstoß aufgrund von Stahlbeton pro Kilometer Tunnel,73699.825,54965.4883588743,24209.5787476982,24209.5787476982,24209.5787476982,18695.3313622192,10908.6225776202,10908.6225776202
-CO2-Ausstoß aufgrund von Berliner Verbau und „Abbruch von Leitungen und Neubau an anderer Stelle“,12394.1,12394.1,12394.1,12394.1,12394.1,12394.1,12394.1,2000
-CO2-Ausstoß gesamt pro Kilometer Tunnel,98802.15,80067.8133588742,49311.9037476982,49311.9037476982,49311.9037476982,43797.6563622192,36010.9475776202,25616.8475776202
-,,,,,,,,
-,,,,,,,,
-,,,,,,,,
-,,,,,,,,
-,,,,,,,,
-,,,,,,,,
-,,,,,,,,
-,,,,,,,,
-,,,,,,,,
-,,,,,,,,
-,,,,,,,,
-,,,,,,,,
-U9 Nord,,,,,,,,
-Fahrgäste pro Tag,40000,40000,40000,20000,40000,40000,40000,40000
-Jährlicher eingesparter CO2-Ausstoß dank aller Pkw-Umsteiger,2675.2,2675.2,2675.2,1337.6,2675.2,2675.2,2675.2,2675.2
-Jährlicher eingesparter CO2-Ausstoß gesamt,3469.897636,3469.897636,3469.897636,2132.297636,3469.897636,3469.897636,3469.897636,3469.897636
-"Zusätzlicher CO2-Ausstoß, Annahme: Anteil von Stahlbeton ist prozentual genauso hoch wie bei Standard-Ausstoß pro Kilometer Tunnel, d.h. zusätzlicher CO2-Ausstoß verringert sich um selben Faktor wie CO2-Ausstoß gesamt pro Kilometer Tunnel",55500,44976.3860545294,27699.9099513245,27699.9099513245,27699.9099513245,24602.3991188771,20228.3815742666,20228.3815742666
-CO2-Ausstoß Projekt gesamt,378583.0305,306798.135738048,188949.835206298,188949.835206298,188949.835206298,167820.735423334,137984.180153085,103995.473153085
-Jahre zur Kompensation,109.104956461027,88.4170566171849,54.4540084542995,88.6132554931453,54.4540084542995,48.3647510757098,39.7660665033765,29.9707611181775
-,,,,,,,,
-,,,,,,,,
-,,,,,,,,
-U7 Süd,,,,,,,,
-Fahrgäste pro Tag,38000,38000,38000,20000,35000,35000,35000,35000
-Jährlicher eingesparter CO2-Ausstoß dank aller Pkw-Umsteiger,3176.8,3176.8,3176.8,1672,2926,2926,2926,2926
-Jährlicher eingesparter CO2-Ausstoß gesamt,5315.43584,5315.43584,5315.43584,3810.63584,5064.63584,5064.63584,5064.63584,5064.63584
-"Zusätzlicher CO2-Ausstoß, Annahme: Anteil von Stahlbeton ist prozentual genauso hoch wie bei Standard-Ausstoß pro Kilometer Tunnel, d.h. zusätzlicher CO2-Ausstoß verringert sich um selben Faktor wie CO2-Ausstoß gesamt pro Kilometer Tunnel",101501,82254.9218183926,50658.8929724213,50658.8929724213,50658.8929724213,44994.0200534261,36994.6118589123,36994.6118589123
-CO2-Ausstoß Projekt gesamt,605391.965,490600.769948651,302149.602085682,302149.602085682,302149.602085682,268362.067500744,220650.444504776,167640.534504775
-Jahre zur Kompensation,113.89319393986,92.2973740472524,56.8438056973485,79.2911248338236,59.6587023492063,52.9874360129205,43.5668923641261,33.1002148625903
-,,,,,,,,
-,,,,,,,,
-,,,,,,,,
-U3 Süd,,,,,,,,
-Fahrgäste pro Tag,7000,7000,7000,5000,15000,15000,15000,15000
-Jährlicher eingesparter CO2-Ausstoß dank aller Pkw-Umsteiger,468.16,468.16,468.16,334.4,1003.2,1003.2,1003.2,1003.2
-Jährlicher eingesparter CO2-Ausstoß gesamt,686.88412,686.88412,686.88412,553.12412,1221.92412,1221.92412,1221.92412,1221.92412
-"Zusätzlicher CO2-Ausstoß, Annahme: Anteil von Stahlbeton ist prozentual genauso hoch wie bei Standard-Ausstoß pro Kilometer Tunnel, d.h. zusätzlicher CO2-Ausstoß verringert sich um selben Faktor wie CO2-Ausstoß gesamt pro Kilometer Tunnel",0,0,0,0,0,0,0,0
-CO2-Ausstoß Projekt gesamt,88921.935,72061.0320229868,44380.7133729284,44380.7133729284,44380.7133729284,39417.8907259973,32409.8528198582,23055.1628198582
-Jahre zur Kompensation,129.456967210132,104.910027652098,64.6116456629226,80.2364456153682,36.3203513594023,32.2588695000122,26.5236214666572,18.8679169536798
-,,,,,,,,
-,,,,,,,,
-,,,,,,,,
-U8 Nord,,,,,,,,
-Fahrgäste pro Tag,12000,12000,12000,5000,25000,25000,25000,25000
-Jährlicher eingesparter CO2-Ausstoß dank aller Pkw-Umsteiger,802.56,802.56,802.56,334.4,1672,1672,1672,1672
-Jährlicher eingesparter CO2-Ausstoß gesamt,1312.91628,1312.91628,1312.91628,844.75628,2182.35628,2182.35628,2182.35628,2182.35628
-"Zusätzlicher CO2-Ausstoß, Annahme: Anteil von Stahlbeton ist prozentual genauso hoch wie bei Standard-Ausstoß pro Kilometer Tunnel, d.h. zusätzlicher CO2-Ausstoß verringert sich um selben Faktor wie CO2-Ausstoß gesamt pro Kilometer Tunnel",13000,10535.009346106,6488.26719580573,6488.26719580573,6488.26719580573,5762.72411793518,4738.17946784623,4738.17946784623
-CO2-Ausstoß Projekt gesamt,220484.515,178677.417399742,110043.265065972,110043.265065972,110043.265065972,97737.8024785955,80361.1693808487,58533.5593808487
-Jahre zur Kompensation,167.934938699976,136.092011441691,83.8159041382075,130.266288243483,50.4240604865728,44.7854474424293,36.8231210079267,26.8212664986345
-,,,,,,,,
-,,,,,,,,
-,,,,,,,,
-U6 Nord,,,,,Dafür länger (3.5 km)!,Dafür länger (3.5 km)!,Dafür länger (3.5 km)!,Dafür länger (3.5 km)!
-Fahrgäste pro Tag,8000,8000,8000,5000,15000,15000,15000,15000
-Jährlicher eingesparter CO2-Ausstoß dank aller Pkw-Umsteiger,535.04,535.04,535.04,334.4,1003.2,1003.2,1003.2,1003.2
-Jährlicher eingesparter CO2-Ausstoß gesamt,1008.94226,1008.94226,1008.94226,808.30226,1853.7938,1853.7938,1853.7938,1853.7938
-"Zusätzlicher CO2-Ausstoß, Annahme: Anteil von Stahlbeton ist prozentual genauso hoch wie bei Standard-Ausstoß pro Kilometer Tunnel, d.h. zusätzlicher CO2-Ausstoß verringert sich um selben Faktor wie CO2-Ausstoß gesamt pro Kilometer Tunnel",39250,31807.6243718969,19589.5759565673,19589.5759565673,19589.5759565673,17398.9939714581,14305.6572394588,14305.6572394588
-CO2-Ausstoß Projekt gesamt,231914.1925,187939.860421702,115747.788264579,115747.788264579,192181.239073511,170690.791239225,140343.97376113,103964.62376113
-Jahre zur Kompensation,229.858735920131,186.274148554053,114.721915072304,143.19864485419,103.669156231675,92.0764710936164,75.7063562091586,56.0820862391112
-,,,,,,,,
-,,,,,,,,
-,,,,,,,,
-U5 Lückenschluss,,,,,,,,
-Fahrgäste pro Tag,155000,155000,155000,100000,155000,155000,155000,155000
-Jährlicher eingesparter CO2-Ausstoß dank aller Pkw-Umsteiger,10366.4,10366.4,10366.4,6688,10366.4,10366.4,10366.4,10366.4
-Jährlicher eingesparter CO2-Ausstoß gesamt,10901.05896,10901.05896,10901.05896,7222.65896,10901.05896,10901.05896,10901.05896,10901.05896
-"Zusätzlicher CO2-Ausstoß, Annahme: Anteil von Stahlbeton ist prozentual genauso hoch wie bei Standard-Ausstoß pro Kilometer Tunnel, d.h. zusätzlicher CO2-Ausstoß verringert sich um selben Faktor wie CO2-Ausstoß gesamt pro Kilometer Tunnel",0,0,0,0,0,0,0,0
-CO2-Ausstoß Projekt gesamt,217364.73,176149.189389523,108486.188244936,108486.188244936,108486.188244936,96354.8439968822,79224.0846707645,56357.0646707645
-Jahre zur Kompensation,19.9397811531514,16.1589062159814,9.95189445750288,15.0202562305304,9.95189445750288,8.83903521212422,7.26755858870839,5.16987064078447
+"Quellen für die einzelnen Werte sind jeweils auf dem Tabellenblatt „Quellen“ zu finden, das die Zellen auf diesem Tabellenblatt referenzieren.",,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+Beschreibung,Original-Szenario,Korrigierter Wert für Beton,Korrigierter Wert für Stahl+Beton=Stahlbeton,Niedrigeres Fahrgastaufkommen?,Höheres Fahrgastaufkommen?,Niedrigerer CO2-Ausstoß Stahl,"zus. Niedrigemissionsbeton, Rekarbonatisierung",CO2-Ausstoß pro km ähnlicher zu anderen Quellen,Hamburg laut Privatstudie,"Hamburg laut Privatstudie, Berliner Fehler korrigiert","Hamburg laut Privatstudie, Beton+Stahl laut Stuva",Hamburg laut offizieller LPI-Studie,"Hamburg laut offizieller LPI-Studie, Reduktionsszenario","Hamburg laut offizieller LPI-Studie, Reduktionsszenario und höhere MIV-Verlagerung"
+Bemerkung,,Fehler: tCO2/t statt tCO2/m3!,Fehler: zu hoher Stahlanteil!,Oder weniger Pkw-Umsteiger,Aktuelle Prognosen,,,,,,,,,
+kg Stahl pro Kubikmeter Stahlbeton,628,628,150,150,150,150,150,150,,150,,,,
+Für Betonanteil: CO2-Ausstoß pro Kubikmeter Stahlbeton (kgCO2/m3),728,303.4896,323.576560509554,323.576560509554,323.576560509554,323.576560509554,147.133757961783,147.133757961783,,323.576560509554,,,,
+Für Stahlanteil: CO2-Ausstoß pro Kubikmeter Stahlbeton (kgCO2/m3),942,942,225,225,225,100.05,100.05,100.05,,,,,,
+Gesamt CO2-Ausstoß pro Kubikmeter Stahlbeton (kgCO2/m3),1837,1370.03856,603.43421656051,603.43421656051,603.43421656051,465.98921656051,271.902133757962,271.902133757962,,,,,,
+CO2-Ausstoß aufgrund von Stahlbeton pro Kilometer Tunnel (tCO2/km),73699.825,54965.4883588743,24209.5787476982,24209.5787476982,24209.5787476982,18695.3313622192,10908.6225776202,10908.6225776202,185019.363793103,42495.6909169778,,,,
+CO2-Ausstoß t aufgrund von Berliner Verbau und „Abbruch von Leitungen und Neubau an anderer Stelle“  (tCO2/km),12394.1,12394.1,12394.1,12394.1,12394.1,12394.1,12394.1,2000,,,,,,
+CO2-Ausstoß gesamt pro Kilometer Tunnel  (tCO2/km),98802.15,80067.8133588742,49311.9037476982,49311.9037476982,49311.9037476982,43797.6563622192,36010.9475776202,25616.8475776202,407725.689655172,265202.016779047,241346.206896552,109317.4,33892.68,33892.68
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+U9 Nord,,,,,,,,,,,,,,
+Fahrgäste pro Tag,40000,40000,40000,20000,40000,40000,40000,40000,,,,,,
+Jährlicher eingesparter CO2-Ausstoß dank aller Pkw-Umsteiger,2675.2,2675.2,2675.2,1337.6,2675.2,2675.2,2675.2,2675.2,,,,,,
+Jährlicher eingesparter CO2-Ausstoß gesamt,3469.897636,3469.897636,3469.897636,2132.297636,3469.897636,3469.897636,3469.897636,3469.897636,,,,,,
+"Zusätzlicher CO2-Ausstoß, Annahme: Anteil von Stahlbeton ist prozentual genauso hoch wie bei Standard-Ausstoß pro Kilometer Tunnel, d.h. zusätzlicher CO2-Ausstoß verringert sich um selben Faktor wie CO2-Ausstoß gesamt pro Kilometer Tunnel",55500,44976.3860545294,27699.9099513245,27699.9099513245,27699.9099513245,24602.3991188771,20228.3815742666,20228.3815742666,,,,,,
+CO2-Ausstoß Projekt gesamt,378583.0305,306798.135738048,188949.835206298,188949.835206298,188949.835206298,167820.735423334,137984.180153085,103995.473153085,,,,,,
+Jahre zur Kompensation,109.104956461027,88.4170566171849,54.4540084542995,88.6132554931453,54.4540084542995,48.3647510757098,39.7660665033765,29.9707611181775,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+U7 Süd,,,,,,,,,,,,,,
+Fahrgäste pro Tag,38000,38000,38000,20000,35000,35000,35000,35000,,,,,,
+Jährlicher eingesparter CO2-Ausstoß dank aller Pkw-Umsteiger,3176.8,3176.8,3176.8,1672,2926,2926,2926,2926,,,,,,
+Jährlicher eingesparter CO2-Ausstoß gesamt,5315.43584,5315.43584,5315.43584,3810.63584,5064.63584,5064.63584,5064.63584,5064.63584,,,,,,
+"Zusätzlicher CO2-Ausstoß, Annahme: Anteil von Stahlbeton ist prozentual genauso hoch wie bei Standard-Ausstoß pro Kilometer Tunnel, d.h. zusätzlicher CO2-Ausstoß verringert sich um selben Faktor wie CO2-Ausstoß gesamt pro Kilometer Tunnel",101501,82254.9218183926,50658.8929724213,50658.8929724213,50658.8929724213,44994.0200534261,36994.6118589123,36994.6118589123,,,,,,
+CO2-Ausstoß Projekt gesamt,605391.965,490600.769948651,302149.602085682,302149.602085682,302149.602085682,268362.067500744,220650.444504776,167640.534504775,,,,,,
+Jahre zur Kompensation,113.89319393986,92.2973740472524,56.8438056973485,79.2911248338236,59.6587023492063,52.9874360129205,43.5668923641261,33.1002148625903,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+U3 Süd,,,,,,,,,,,,,,
+Fahrgäste pro Tag,7000,7000,7000,5000,15000,15000,15000,15000,,,,,,
+Jährlicher eingesparter CO2-Ausstoß dank aller Pkw-Umsteiger,468.16,468.16,468.16,334.4,1003.2,1003.2,1003.2,1003.2,,,,,,
+Jährlicher eingesparter CO2-Ausstoß gesamt,686.88412,686.88412,686.88412,553.12412,1221.92412,1221.92412,1221.92412,1221.92412,,,,,,
+"Zusätzlicher CO2-Ausstoß, Annahme: Anteil von Stahlbeton ist prozentual genauso hoch wie bei Standard-Ausstoß pro Kilometer Tunnel, d.h. zusätzlicher CO2-Ausstoß verringert sich um selben Faktor wie CO2-Ausstoß gesamt pro Kilometer Tunnel",0,0,0,0,0,0,0,0,,,,,,
+CO2-Ausstoß Projekt gesamt,88921.935,72061.0320229868,44380.7133729284,44380.7133729284,44380.7133729284,39417.8907259973,32409.8528198582,23055.1628198582,,,,,,
+Jahre zur Kompensation,129.456967210132,104.910027652098,64.6116456629226,80.2364456153682,36.3203513594023,32.2588695000122,26.5236214666572,18.8679169536798,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+U8 Nord,,,,,,,,,,,,,,
+Fahrgäste pro Tag,12000,12000,12000,5000,25000,25000,25000,25000,,,,,,
+Jährlicher eingesparter CO2-Ausstoß dank aller Pkw-Umsteiger,802.56,802.56,802.56,334.4,1672,1672,1672,1672,,,,,,
+Jährlicher eingesparter CO2-Ausstoß gesamt,1312.91628,1312.91628,1312.91628,844.75628,2182.35628,2182.35628,2182.35628,2182.35628,,,,,,
+"Zusätzlicher CO2-Ausstoß, Annahme: Anteil von Stahlbeton ist prozentual genauso hoch wie bei Standard-Ausstoß pro Kilometer Tunnel, d.h. zusätzlicher CO2-Ausstoß verringert sich um selben Faktor wie CO2-Ausstoß gesamt pro Kilometer Tunnel",13000,10535.009346106,6488.26719580573,6488.26719580573,6488.26719580573,5762.72411793518,4738.17946784623,4738.17946784623,,,,,,
+CO2-Ausstoß Projekt gesamt,220484.515,178677.417399742,110043.265065972,110043.265065972,110043.265065972,97737.8024785955,80361.1693808487,58533.5593808487,,,,,,
+Jahre zur Kompensation,167.934938699976,136.092011441691,83.8159041382075,130.266288243483,50.4240604865728,44.7854474424293,36.8231210079267,26.8212664986345,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+U6 Nord,,,,,Dafür länger (3.5 km)!,Dafür länger (3.5 km)!,Dafür länger (3.5 km)!,Dafür länger (3.5 km)!,,,,,,
+Fahrgäste pro Tag,8000,8000,8000,5000,15000,15000,15000,15000,,,,,,
+Jährlicher eingesparter CO2-Ausstoß dank aller Pkw-Umsteiger,535.04,535.04,535.04,334.4,1003.2,1003.2,1003.2,1003.2,,,,,,
+Jährlicher eingesparter CO2-Ausstoß gesamt,1008.94226,1008.94226,1008.94226,808.30226,1853.7938,1853.7938,1853.7938,1853.7938,,,,,,
+"Zusätzlicher CO2-Ausstoß, Annahme: Anteil von Stahlbeton ist prozentual genauso hoch wie bei Standard-Ausstoß pro Kilometer Tunnel, d.h. zusätzlicher CO2-Ausstoß verringert sich um selben Faktor wie CO2-Ausstoß gesamt pro Kilometer Tunnel",39250,31807.6243718969,19589.5759565673,19589.5759565673,19589.5759565673,17398.9939714581,14305.6572394588,14305.6572394588,,,,,,
+CO2-Ausstoß Projekt gesamt,231914.1925,187939.860421702,115747.788264579,115747.788264579,192181.239073511,170690.791239225,140343.97376113,103964.62376113,,,,,,
+Jahre zur Kompensation,229.858735920131,186.274148554053,114.721915072304,143.19864485419,103.669156231675,92.0764710936164,75.7063562091586,56.0820862391112,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+U5 Lückenschluss,,,,,,,,,,,,,,
+Fahrgäste pro Tag,155000,155000,155000,100000,155000,155000,155000,155000,,,,,,
+Jährlicher eingesparter CO2-Ausstoß dank aller Pkw-Umsteiger,10366.4,10366.4,10366.4,6688,10366.4,10366.4,10366.4,10366.4,,,,,,
+Jährlicher eingesparter CO2-Ausstoß gesamt,10901.05896,10901.05896,10901.05896,7222.65896,10901.05896,10901.05896,10901.05896,10901.05896,,,,,,
+"Zusätzlicher CO2-Ausstoß, Annahme: Anteil von Stahlbeton ist prozentual genauso hoch wie bei Standard-Ausstoß pro Kilometer Tunnel, d.h. zusätzlicher CO2-Ausstoß verringert sich um selben Faktor wie CO2-Ausstoß gesamt pro Kilometer Tunnel",0,0,0,0,0,0,0,0,,,,,,
+CO2-Ausstoß Projekt gesamt,217364.73,176149.189389523,108486.188244936,108486.188244936,108486.188244936,96354.8439968822,79224.0846707645,56357.0646707645,,,,,,
+Jahre zur Kompensation,19.9397811531514,16.1589062159814,9.95189445750288,15.0202562305304,9.95189445750288,8.83903521212422,7.26755858870839,5.16987064078447,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+Hamburg,,,,,,,,,,,,,,
+Fahrgäste pro Tag,,,,,,,,,300000,300000,300000,300000,300000,300000
+Jährlicher eingesparter CO2-Ausstoß dank aller Pkw-Umsteiger,,,,,,,,,,,,,,20064
+Jährlicher eingesparter CO2-Ausstoß gesamt,,,,,,,,,18059,18059,18059,18059,18059,26139.67
+"Zusätzlicher CO2-Ausstoß, Annahme: Anteil von Stahlbeton ist prozentual genauso hoch wie bei Standard-Ausstoß pro Kilometer Tunnel, d.h. zusätzlicher CO2-Ausstoß verringert sich um selben Faktor wie CO2-Ausstoß gesamt pro Kilometer Tunnel",,,,,,,,,0,0,0,0,0,0
+CO2-Ausstoß Projekt gesamt,,,,,,,,,10193142.2413793,6630050.41947617,6033655.17241379,2732935,847317,847317
+Jahre zur Kompensation,,,,,,,,,564.435585656975,367.132754830066,334.107933574051,151.333684035661,46.9193753806966,32.4149845809071

@@ -14,7 +14,13 @@ const columnMapping = {
     'less-passengers': 4,
     'more-passengers': 5,
     'lowcarb-steel': 6,
-    'lowcarb-concrete': 7
+    'lowcarb-concrete': 7,
+    'hh_original': 9,
+    'hh_corrected-concrete': 10,
+    'hh_corrected-total': 11,
+    'hh_official': 12,
+    'hh_official-lowcarb': 13,
+    'hh_official-lowcarb-highmodal': 14
 };
 
 const idx_concrete_kgCO2pm3concrete = 6;
@@ -25,7 +31,7 @@ const idx_amortisation_years = 5;
 const idx_projects_start = 25;
 const project_offset = 10;
 
-const projects = ['u9north', 'u7south', 'u3south', 'u8north', 'u6north', 'u5'];
+const projects = ['u9north', 'u7south', 'u3south', 'u8north', 'u6north', 'u5', 'hh_u5'];
 
 const kgCO2pm3concrete_presscale = 0.3;
 const tCO2pKm_presscale = 0.003;
@@ -40,18 +46,21 @@ function updateBars(scenarioId) {
 function calculateBars(scenarioId, scenario) {
     console.log('SCENARIO:', scenarioId, scenario);
     
-    drawBar('concrete_kgCO2pm3concrete', scenarios[idx_concrete_kgCO2pm3concrete], scenario, kgCO2pm3concrete_presscale, false);
-    drawBar('rebar_steel_kgCO2pm3concrete', scenarios[idx_rebar_steel_kgCO2pm3concrete], scenario, kgCO2pm3concrete_presscale, false);
-    drawBar('total_tCO2pKm', scenarios[idx_total_tCO2pKm], scenario, tCO2pKm_presscale, false);
-
+    if (scenario <= 8) {
+        drawBar('concrete_kgCO2pm3concrete', scenarios[idx_concrete_kgCO2pm3concrete], scenario, kgCO2pm3concrete_presscale, false);
+        drawBar('rebar_steel_kgCO2pm3concrete', scenarios[idx_rebar_steel_kgCO2pm3concrete], scenario, kgCO2pm3concrete_presscale, false);
+        drawBar('total_tCO2pKm', scenarios[idx_total_tCO2pKm], scenario, tCO2pKm_presscale, false);
+    } else {
+        drawBar('hh_total_tCO2pKm', scenarios[idx_total_tCO2pKm], scenario, tCO2pKm_presscale, false);
+    }
     for (let i=0; i < projects.length; i++) {
-        //if (key == 'u8north') continue;
         const key = projects[i];
+        if (scenario > 8 && key != 'hh_u5') continue;
         console.log('PROJECT:', key);
         const idx = idx_projects_start+project_offset*i;
         console.log('idx', idx);
-        drawBar(key+'_daily_passengers', scenarios[idx+idx_daily_passengers], scenario, daily_passengers_presscale, true);
-        drawBar(key+'_amortisation', scenarios[idx+idx_amortisation_years], scenario, amortisation_presscale, true);
+        drawBar(key+'_daily_passengers', scenarios[idx+idx_daily_passengers], scenario, daily_passengers_presscale, key != 'hh_u5');
+        drawBar(key+'_amortisation', scenarios[idx+idx_amortisation_years], scenario, amortisation_presscale, key != 'hh_u5');
     }
 }
 

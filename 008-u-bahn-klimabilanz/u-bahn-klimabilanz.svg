@@ -146,6 +146,8 @@
     <g id="elements">
         <g id="d" data-from="0 0 noanim-nozoom" data-to="0 1000 noanim-nozoom"></g>
 
+        <g id="geo" transform="translate(-2472500 -1508900)"></g>
+
         <g id="articles" transform=" translate(-3068.56 -1726.06) scale(1.31964)">
             <circle cx="9600" cy="5400" r="3000" fill="white"></circle> 
             <image class="srcarticle" transform="rotate(-15)" x="8200" y="2800" width="1500" height="2000" data-from="1 1 noanim" href="res/high/Neue Studie_ Geplanter U-Bahn-Bau in Berlin schadet dem Klima.svg" />
@@ -169,8 +171,6 @@
             <image x="14000" y="6000" width="2000" height="1000" data-from="10 1 noanim" href="res/high/studie_zitat_2.png" />
             <g data-from="10 1000 noanim-keepzoom"></g>
         </g>
-
-        <g id="geo" transform="translate(-2472500 -1502900)"></g>
 
 
         <g id="plan" transform="scale(3) translate(-819900 -503100) ">
@@ -345,7 +345,7 @@
 
 
 
-        <g id="hamburg" transform="scale(3) translate(-810900 -495100)" >
+        <g id="hamburg" transform="scale(3) translate(-808900 -493100)" >
         <!-- 
             \{(\n|.)*?"name": "(.*?)"(.|\n)*?"coordinates"(.|\n)*?(\d+\.\d+),\n\s+(\d+\.\d+)(.|\n)*?\n    \} 
             <rect data-station="$2" data-lon-lat="$5 $6" />
@@ -572,7 +572,7 @@
 
         </g>
 
-        <g id="tt" transform="translate(14000, 8000) scale(5)" data-from="25 0 noanim-keepzoom" class="toplevel">
+        <g id="bars-berlin" transform="translate(14000, 8000) scale(5)" data-from="25 0 noanim-keepzoom" class="tt toplevel">
             <g data-from="25 0 noanim-keepzoom">
                 <rect x="-350" y="-100" width="1100" height="500" data-from="25 1 noanim" data-to="25 40 noanim" class="helper" />
                 <text x="200" y="-30" class="heading" data-from="25 0 noanim-keepzoom">Jahre bis zur Amortisation des CO₂-Ausstoßes</text>
@@ -675,6 +675,44 @@
                 <g data-from="25 35 noanim-keepzoom" class="focusable" onfocus="updateBars('lowcarb-steel')"></g>
                 <g data-from="25 40 noanim-keepzoom" class="focusable" onfocus="updateBars('lowcarb-concrete')"></g>
                 <g data-from="25 10000"></g>
+
+
+        
+
+            </g>
+            
+        </g>
+
+        <g id="bars-hamburg" transform="translate(2000, 6000) scale(5)" data-from="65 0 noanim-keepzoom" class="tt toplevel">
+            <g data-from="65 0 noanim-keepzoom">
+                <rect x="-350" y="-100" width="1100" height="500" data-from="65 1 noanim" data-to="65 40 noanim" class="helper" />
+                <text x="200" y="-30" class="heading" data-from="65 0 noanim-keepzoom">Jahre bis zur Amortisation des CO₂-Ausstoßes der U5 in Hamburg</text>
+                <text x="200" y="0" data-from="65 0 noanim-keepzoom" style="text-anchor: middle;font-size:12px;">nach der Studie "Eine umweltfreundliche U-Bahn für Hamburg ?"</text>
+
+                <g transform="translate(-400 25)">
+                    <text x="180" y="50" data-from="65 1 keepzoom">tCO₂ pro km U-Bahn</text>
+                    <line x1="200" y1="50" x2="200" y2="50" id="hh_total_tCO2pKm" class="secondary" />
+                    <text class="path-inset" x="210" y="50" id="hh_total_tCO2pKm_label"></text>
+                </g>
+
+                <g transform="translate(-400 100)">
+
+                    <text x="180" y="25" data-from="65 1 keepzoom">Fahrgäste</text>
+                    <line x1="200" y1="25" x2="200" y2="25" id="hh_u5_daily_passengers" class="secondary" />
+                    <text x="210" y="25" class="path-inset" id="hh_u5_daily_passengers_label"></text>
+
+                    <text x="180" y="50" data-from="65 1 keepzoom">Jahre</text>
+                    <line x1="200" y1="50" x2="200" y2="50" id="hh_u5_amortisation" />
+                    <text x="210" y="50" class="path-inset" id="hh_u5_amortisation_label"></text>
+                </g>
+
+                <g data-from="65 0 noanim-keepzoom" class="focusable" onfocus="updateBars('hh_original')"></g>
+                <g data-from="65 10 noanim-keepzoom" class="focusable" onfocus="updateBars('hh_corrected-concrete')"></g>
+                <g data-from="65 20 noanim-keepzoom" class="focusable" onfocus="updateBars('hh_corrected-total')"></g>
+                <g data-from="65 25 noanim-keepzoom" class="focusable" onfocus="updateBars('hh_official')"></g>
+                <g data-from="65 30 noanim-keepzoom" class="focusable" onfocus="updateBars('hh_official-lowcarb')"></g>
+                <g data-from="65 35 noanim-keepzoom" class="focusable" onfocus="updateBars('hh_official-lowcarb-highmodal')"></g>
+                <g data-from="65 10000"></g>
 
 
         

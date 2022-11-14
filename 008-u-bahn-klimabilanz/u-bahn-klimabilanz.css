@@ -170,39 +170,39 @@ text.corner-text {
     fill: #90A4AE;
 }
 
-#risk line, #tph line, #tt line {
+.tt line {
     stroke: #B71C1C;
     stroke-width: 5;
     transform: translate(0, -1px);
 }
 
-#tph line, #tt line {
+.tt line {
     stroke-width: 15;
 }
 
-#tt line.secondary {
+.tt line.secondary {
     stroke: #546E7A;
 }
 
 
 
-#risk text, #tph text, #tt text {
+.tt text {
     text-anchor: end;
     dominant-baseline: middle;
 }
-#tt text.right{
+.tt text.right{
     text-anchor: start;
 }
-#tt text.label {
+.tt text.label {
     font-weight: bold;
     fill: #B71C1C;
 }
 
-#tt text.label.secondary {
+.tt text.label.secondary {
     fill: #546E7A;   
 }
 
-#tt text.path-inset{
+.tt text.path-inset{
     text-anchor: middle;
     fill:white;
     font-size: 10px;
