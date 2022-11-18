@@ -148,203 +148,6 @@
 
         <g id="geo" transform="translate(-2472500 -1508900)"></g>
 
-        <g id="articles" transform=" translate(-3068.56 -1726.06) scale(1.31964)">
-            <circle cx="9600" cy="5400" r="3000" fill="white"></circle> 
-            <image class="srcarticle" transform="rotate(-15)" x="8200" y="2800" width="1500" height="2000" data-from="1 1 noanim" href="res/high/Neue Studie_ Geplanter U-Bahn-Bau in Berlin schadet dem Klima.svg" />
-            <image class="srcarticle" transform="rotate(-10)" x="7000" y="5000" width="1500" height="2000" data-from="1 3 noanim" href="res/high/U-Bahn in Berlin als Klimakiller_ Gutachter stellen katastrophale CO2-Bilanz für neue Tunnel auf.svg" />
-            <image class="srcarticle" transform="rotate(-5)" x="8700" y="6000" width="1500" height="2000" data-from="1 6 noanim" href="res/high/U-Bahn in Berlin_ Neue Projekte sind Klimakiller - Berliner Morgenpost.svg" />
-            <image class="srcarticle" transform="rotate(15)" x="10700" y="4800" width="1500" height="2000" data-from="1 9 noanim" href="res/high/WD-8-002-21-pdf-data.svg" />
-            <image class="srcarticle" transform="rotate(10)" x="9700" y="2800" width="1500" height="2000" data-from="1 12 noanim" href="res/high/Studie zur Klimabilanz der U-Bahn_ Mieses Klima im Untergrund - taz.de.svg" />
-            <image x="6600" y="2400" width="6000" height="6000" data-from="100 1 noanim" href="res/ubahn_circle.png" />
-        </g>
-
-        <g id="cite" transform="translate(500 0)">
-            <rect fill="white" stroke="none" x="14000" y="4900" width="2000" height="2000" />
-            <path class="marker" data-line="marker" data-from="10 2 keepzoom" data-speed="1000" d="M 14950,5405 l 950,-5" />
-            <path class="marker" data-line="marker" data-from="10 2 keepzoom" data-speed="1000" d="M 14050,5505 l 700,-5" />
-            <path class="marker" data-line="marker" data-from="10 2 keepzoom" data-speed="1000" d="M 14970,5885 l 430,-5" />
-            <path class="marker" data-line="marker" data-from="10 2 keepzoom" data-speed="1000" d="M 15250,6430 l 300,-5" />
-            <path class="marker" data-line="marker" data-from="10 2 keepzoom" data-speed="1000" d="M 15100,6540 l 150,-5" />
-            <text x="14040" y="5040" data-from="10 1" style="font-size:50px">[...]</text>
-            <image x="14000" y="5000" width="2000" height="1000" data-from="10 1 noanim" href="res/high/studie_zitat_1.png" />
-            <text x="14040" y="6000" data-from="10 1" style="font-size:50px">[...]</text>
-            <image x="14000" y="6000" width="2000" height="1000" data-from="10 1 noanim" href="res/high/studie_zitat_2.png" />
-            <g data-from="10 1000 noanim-keepzoom"></g>
-        </g>
-
-
-        <g id="plan" transform="scale(3) translate(-819900 -503100) ">
-            <path data-from="50 1 noanim-keepzoom" data-line="Ringbahn" data-speed="1000" data-stops="Gesundbrunnen SchönhauserAllee h_FrankfurterAllee_SchönhauserAllee  FrankfurterAllee Ostkreuz Neukölln Hermannstr Tempelhof Südkreuz InnsbruckerPlatz Bundesplatz HeidelbergerPlatz Westkreuz Kaiserdamm Jungfernheide Westhafen Wedding +0 Gesundbrunnen" />
-
-            <path data-from="50 1" data-line="U1" data-speed="1000" data-stops="Uhlandstr Kurfürstendamm Nollendorfplatz Möckernbrücke HalleschesTor KottbusserTor WarschauerStr" />
-            <text data-line="U1" data-from="50 1">U1</text>
-            <path data-from="50 1" data-line="U2" data-speed="1000" data-stops="Ruhleben Kaiserdamm Bismarckstr ZoologischerGarten - Nollendorfplatz + PotsdamerPlatz Stadtmitte Alexanderplatz SchönhauserAllee Pankow" />
-            <text data-line="U2" data-from="50 1">U2</text>
-            <path data-from="50 1" data-line="U3" data-speed="1000" data-stops="KrummeLanke HeidelbergerPlatz FehrbellinerPlatz Spichernstr Nollendorfplatz Möckernbrücke HalleschesTor KottbusserTor WarschauerStr" />
-            <text data-line="U3" data-from="50 1">U3</text>
-            <path data-from="50 1" data-line="U4" data-speed="1000" data-stops="InnsbruckerPlatz BayerischerPlatz Nollendorfplatz" />
-            <text data-line="U4" data-from="50 1">U4</text>
-            <path data-from="50 1" data-line="U5" data-speed="1000" data-stops="Hauptbahnhof UnterDenLinden Alexanderplatz FrankfurterAllee Lichtenberg Wuhletal Hönow" />
-            <text data-line="U5" data-from="50 1">U5</text>
-            <path data-from="50 1" data-line="U6" data-speed="1000" data-stops="AltTegel KurtSchumacherPlatz Leopoldplatz Wedding Friedrichstr UnterDenLinden Stadtmitte HalleschesTor Mehringdamm Tempelhof AltMariendorf" />
-            <text data-line="U6" data-from="50 1">U6</text>
-            <path data-from="50 1" data-line="U7" data-speed="1000" data-stops="RathausSpandau Jungfernheide Bismarckstr WilmersdorferStr FehrbellinerPlatz BerlinerStr BayerischerPlatz Yorckstr +2 h_Möckernbrücke_Yorckstr Möckernbrücke Mehringdamm Hermannplatz Neukölln Rudow" />
-            <text data-line="U7" data-from="50 1">U7</text>
-            <path data-from="50 1" data-line="U8" data-speed="1000" data-stops="Wittenau KarlBonhoefferNervenklinik OsloerStr Gesundbrunnen Alexanderplatz Jannowitzbrücke KottbusserTor Hermannplatz Hermannstr" />
-            <text data-line="U8" data-from="50 1">U8</text>
-            <path data-from="50 1" data-line="U9" data-speed="1000" data-stops="OsloerStr Leopoldplatz Westhafen ZoologischerGarten Kurfürstendamm Spichernstr BerlinerStr Bundesplatz RathausSteglitz" />
-            <text data-line="U9" data-from="50 1">U9</text>
-            
-
-            
-            <g data-from="50 10 noanim-keepzoom"></g>
-
-            <!-- Extensions -->
-            <!--<path data-from="50 1" data-line="U1" data-stops="WarschauerStr Ostkreuz" />
-            <path data-from="50 1" data-line="U1" data-stops="Uhlandstraße Westkreuz" />-->
-            <path data-from="51 1" data-line="U9" data-stops="OsloerStr Pankow" />
-            <path data-from="51 4" data-line="U7" data-stops="Rudow FlughafenBER" />
-            <path data-from="51 9" data-line="U3" data-stops="KrummeLanke Mexikoplatz" />
-            <path data-from="51 12" data-line="U8" data-stops="Wittenau MärkischesViertel" />
-            <path data-from="51 15" data-line="U6" data-stops="KurtSchumacherPlatz TegelUTR" />
-
-
-            <rect data-station="h_FrankfurterAllee_SchönhauserAllee" data-dir="nw" class="helper" data-lon-lat="13.45 52.54" />
-            <rect data-station="Südkreuz" data-lon-lat="13.364444 52.475556" />
-            <rect data-station="Ostkreuz" data-lon-lat="13.468889 52.503056" />
-            <rect data-station="Westkreuz" data-lon-lat="13.283889 52.501111" />
-            <rect data-station="Mexikoplatz" data-lon-lat="13.2317866 52.4371956" />
-            <rect data-station="KurtSchumacherPlatz" data-dir="n" data-lon-lat="13.326572 52.563556" />
-            <rect data-station="TegelUTR" data-lon-lat="13.2856972 52.5515199" />
-            <rect data-station="FlughafenBER" data-lon-lat="13.5097100 52.3645333" />
-            <rect data-station="MärkischesViertel" data-label-dir="s" data-lon-lat="13.3547678 52.5966870" />
-            
-            <rect data-station="Uhlandstr" data-dir="nw" data-lon-lat="13.325556 52.5025" />
-            <rect data-station="Kurfürstendamm" data-lon-lat="13.331389 52.503889" />
-            <rect data-station="Nollendorfplatz" data-lon-lat="13.353903 52.499621" />
-            <rect data-station="Möckernbrücke" data-dir="ne" data-lon-lat="13.382922 52.499087" />
-            <rect data-station="HalleschesTor" data-lon-lat="13.391111 52.497778" />
-            <rect data-station="KottbusserTor" data-dir="nw" data-lon-lat="13.418056 52.499167" />
-            <rect data-station="WarschauerStr" data-lon-lat="13.450305 52.506223" />
-            <rect data-station="Ruhleben" data-lon-lat="13.241389 52.525556" />
-            <rect data-station="Kaiserdamm" data-lon-lat="13.282222 52.51" />
-            <rect data-station="Bismarckstr" data-lon-lat="13.304722 52.511389" />
-            <rect data-station="ZoologischerGarten" data-lon-lat="13.3325 52.507222" />
-            <rect data-station="PotsdamerPlatz" data-lon-lat="13.375833 52.509444" />
-            <rect data-station="Stadtmitte" data-lon-lat="13.389444 52.512222" />
-            <rect data-station="Alexanderplatz" data-lon-lat="13.411944 52.521389" />
-            <rect data-station="SchönhauserAllee" data-lon-lat="13.416111 52.549167" />
-            <rect data-station="Pankow" data-dir="nw" data-lon-lat="13.411111 52.566667" />
-            <rect data-station="KrummeLanke" data-dir="nw" data-lon-lat="13.241369 52.443246" />
-            <rect data-station="HeidelbergerPlatz" data-dir="nw" data-lon-lat="13.311944 52.48" />
-            <rect data-station="FehrbellinerPlatz" data-dir="nw" data-lon-lat="13.314378 52.490352" />
-            <rect data-station="Spichernstr" data-lon-lat="13.330686 52.496434" />
-            <rect data-station="InnsbruckerPlatz" data-lon-lat="13.343889 52.478611" />
-            <rect data-station="BayerischerPlatz" data-dir="nw" data-lon-lat="13.34031 52.488428" />
-            <rect data-station="Hauptbahnhof" data-dir="nw" data-lon-lat="13.369444 52.525" />
-            <rect data-station="UnterDenLinden" data-lon-lat="13.388895 52.516967" />
-            <rect data-station="FrankfurterAllee" data-lon-lat="13.474722 52.515" />
-            <rect data-station="Hönow" data-dir="nw" data-lon-lat="13.633889 52.538333" />
-            <rect data-station="AltTegel" data-dir="ne" data-lon-lat="13.283611 52.589444" />
-            <rect data-station="Wedding" data-dir="n" data-lon-lat="13.366111 52.5425" />
-            <rect data-station="Leopoldplatz" data-dir="n" data-lon-lat="13.359118 52.546452" />
-            <rect data-station="Friedrichstr" data-dir="nw" data-lon-lat="13.386944 52.520278" />
-            <rect data-station="Mehringdamm" data-lon-lat="13.388611 52.494444" />            
-            <rect data-station="Tempelhof" data-lon-lat="13.38535 52.470756" />
-            <rect data-station="AltMariendorf" data-lon-lat="13.3877 52.4391" />
-            <rect data-station="RathausSpandau" data-lon-lat="13.200278 52.535" />            
-            <rect data-station="Jungfernheide" data-dir="nw" data-lon-lat="13.300597 52.530504" />
-            <rect data-station="WilmersdorferStr" data-dir="nw" data-lon-lat="13.306667 52.506667" />
-            <rect data-station="BerlinerStr" data-dir="nw" data-lon-lat="13.33092 52.48722" />
-            <rect data-station="Yorckstr"  data-dir="nw" data-lon-lat="13.370833 52.493056" />
-            <rect data-station="Neukölln" data-dir="nw" data-lon-lat="13.442222 52.469444" />
-            <rect data-station="Hermannplatz" data-dir="nw" data-lon-lat="13.424444 52.486389" />
-            <rect data-station="Rudow" data-dir="nw" data-lon-lat="13.495278 52.416111" />            
-            <rect data-station="Wittenau" data-dir="ne" data-lon-lat="13.336667 52.595833" />
-            <rect data-station="OsloerStr" data-dir="nw" data-lon-lat="13.373253 52.557001" />
-            <rect data-station="Gesundbrunnen" data-lon-lat="13.389444 52.548611" />
-            <rect data-station="Jannowitzbrücke" data-lon-lat="13.418389 52.514638" />
-            <rect data-station="Hermannstr" data-lon-lat="13.431111 52.4675" />
-            <rect data-station="Westhafen" data-dir="nw" data-lon-lat="13.343944 52.536256" />
-            <rect data-station="Bundesplatz" data-lon-lat="13.329167 52.477639" />
-            <rect data-station="RathausSteglitz" data-lon-lat="13.321588 52.456219" />
-
-            <rect data-station="Lichtenberg" data-lon-lat="13.496389 52.510556" />
-            <rect data-station="Wuhletal" data-dir="nw" data-lon-lat="13.575175 52.512591" />
-            <rect data-station="KarlBonhoefferNervenklinik" data-dir="ne" data-lon-lat="13.331265 52.578384" />
-            
-            <rect data-station="h_Möckernbrücke_Yorckstr" class="helper" data-dir="n" data-lon-lat="13.375 52.499621" />
-            
-
-            <!--
-            <text data-station="Uhlandstr">Uhlandstr</text>
-            <text data-station="Kurfürstendamm">Kurfürstendamm</text>
-            <text data-station="Nollendorfplatz">Nollendorfplatz</text>
-            <text data-station="Möckernbrücke">Möckernbrücke</text>
-            <text data-station="HalleschesTor">HalleschesTor</text>
-            <text data-station="KottbusserTor">KottbusserTor</text>
-            <text data-station="WarschauerStr">WarschauerStr</text>
-            <text data-station="Ruhleben">Ruhleben</text>
-            <text data-station="Kaiserdamm">Kaiserdamm</text>
-            <text data-station="Bismarckstr">Bismarckstr</text>
-            <text data-station="ZoologischerGarten">ZoologischerGarten</text>
-            <text data-station="PotsdamerPlatz">PotsdamerPlatz</text>
-            <text data-station="Stadtmitte">Stadtmitte</text>
-            <text data-station="Alexanderplatz">Alexanderplatz</text>
-            <text data-station="SchönhauserAllee">SchönhauserAllee</text>
-            <text data-station="HeidelbergerPlatz">HeidelbergerPlatz</text>
-            <text data-station="FehrbellinerPlatz">FehrbellinerPlatz</text>
-            <text data-station="Spichernstr">Spichernstr</text>
-            <text data-station="InnsbruckerPlatz">InnsbruckerPlatz</text>
-            <text data-station="BayerischerPlatz">BayerischerPlatz</text>
-            <text data-station="Hauptbahnhof">Hauptbahnhof</text>
-            <text data-station="UnterDenLinden">UnterDenLinden</text>
-            <text data-station="FrankfurterAllee">FrankfurterAllee</text>
-            <text data-station="Hönow">Hönow</text>
-            <text data-station="AltTegel">AltTegel</text>
-            <text data-station="Wedding">Wedding</text>
-            <text data-station="Leopoldplatz">Leopoldplatz</text>
-            <text data-station="Friedrichstr">Friedrichstr</text>
-            <text data-station="Mehringdamm">Mehringdamm</text>            
-            <text data-station="Tempelhof">Tempelhof</text>
-            <text data-station="AltMariendorf">AltMariendorf</text>
-            <text data-station="RathausSpandau">RathausSpandau</text>            
-            <text data-station="Jungfernheide">Jungfernheide</text>
-            <text data-station="WilmersdorferStr">WilmersdorferStr</text>
-            <text data-station="BerlinerStr">BerlinerStr</text>
-            <text data-station="Yorckstr">Yorckstr</text>
-            <text data-station="Neukölln">Neukölln</text>
-            <text data-station="Hermannplatz">Hermannplatz</text>
-            <text data-station="Gesundbrunnen">Gesundbrunnen</text>
-            <text data-station="Jannowitzbrücke">Jannowitzbrücke</text>
-            <text data-station="Hermannstr">Hermannstr</text>
-            <text data-station="Westhafen">Westhafen</text>
-            <text data-station="Bundesplatz">Bundesplatz</text>
-            <text data-station="RathausSteglitz">RathausSteglitz</text>
-            <text data-station="Lichtenberg">Lichtenberg</text>
-            <text data-station="Wuhletal">Wuhletal</text>
-            <text data-station="KarlBonhoefferNervenklinik">KarlBonhoefferNervenklinik</text>
-            <text data-station="Ostkreuz">Ostkreuz</text>
-            <text data-station="Westkreuz">Westkreuz</text>
-            -->
-
-
-            <text data-from="51 0 keepzoom" data-station="KrummeLanke">Krumme Lanke</text>
-            <text data-from="51 0 keepzoom" data-station="KurtSchumacherPlatz" data-dir="n">Kurt-Schumacher-Platz</text>
-            <text data-from="51 0 keepzoom" data-station="Rudow">Rudow</text>            
-            <text data-from="51 0 keepzoom" data-station="Wittenau">Wittenau</text>
-            <text data-from="51 0 keepzoom" data-station="OsloerStr">Osloer Straße</text>
-            
-            <text data-from="51 0 keepzoom" data-station="Mexikoplatz">Mexikoplatz</text>
-            <text data-from="51 0 keepzoom" data-station="TegelUTR">Flugfeld Tegel</text>
-            <text data-from="51 0 keepzoom" data-station="FlughafenBER">Flughafen BER</text>
-            <text data-from="51 0 keepzoom" data-station="MärkischesViertel">Märkisches Viertel</text>
-            <text data-from="51 0 keepzoom" data-station="Pankow">Pankow</text>
-
-        </g>
-
-
-
         <g id="hamburg" transform="scale(3) translate(-808900 -493100)" >
         <!-- 
             \{(\n|.)*?"name": "(.*?)"(.|\n)*?"coordinates"(.|\n)*?(\d+\.\d+),\n\s+(\d+\.\d+)(.|\n)*?\n    \} 
@@ -572,6 +375,202 @@
 
         </g>
 
+        <g id="articles" transform=" translate(-3068.56 -1726.06) scale(1.31964)">
+            <circle cx="9600" cy="5400" r="3000" fill="white"></circle> 
+            <image class="srcarticle" transform="rotate(-15)" x="8200" y="2800" width="1500" height="2000" data-from="1 1 noanim" href="res/high/Neue Studie_ Geplanter U-Bahn-Bau in Berlin schadet dem Klima.svg" />
+            <image class="srcarticle" transform="rotate(-10)" x="7000" y="5000" width="1500" height="2000" data-from="1 3 noanim" href="res/high/U-Bahn in Berlin als Klimakiller_ Gutachter stellen katastrophale CO2-Bilanz für neue Tunnel auf.svg" />
+            <image class="srcarticle" transform="rotate(-5)" x="8700" y="6000" width="1500" height="2000" data-from="1 6 noanim" href="res/high/U-Bahn in Berlin_ Neue Projekte sind Klimakiller - Berliner Morgenpost.svg" />
+            <image class="srcarticle" transform="rotate(15)" x="10700" y="4800" width="1500" height="2000" data-from="1 9 noanim" href="res/high/WD-8-002-21-pdf-data.svg" />
+            <image class="srcarticle" transform="rotate(10)" x="9700" y="2800" width="1500" height="2000" data-from="1 12 noanim" href="res/high/Studie zur Klimabilanz der U-Bahn_ Mieses Klima im Untergrund - taz.de.svg" />
+            <image x="6600" y="2400" width="6000" height="6000" data-from="100 1 noanim-nozoom" href="res/ubahn_circle.png" />
+        </g>
+
+        <g id="cite" transform="translate(500 0)">
+            <rect fill="white" stroke="none" x="14000" y="4900" width="2000" height="2000" />
+            <path class="marker" data-line="marker" data-from="10 2 keepzoom" data-speed="1000" d="M 14950,5405 l 950,-5" />
+            <path class="marker" data-line="marker" data-from="10 2 keepzoom" data-speed="1000" d="M 14050,5505 l 700,-5" />
+            <path class="marker" data-line="marker" data-from="10 2 keepzoom" data-speed="1000" d="M 14970,5885 l 430,-5" />
+            <path class="marker" data-line="marker" data-from="10 2 keepzoom" data-speed="1000" d="M 15250,6430 l 300,-5" />
+            <path class="marker" data-line="marker" data-from="10 2 keepzoom" data-speed="1000" d="M 15100,6540 l 150,-5" />
+            <text x="14040" y="5040" data-from="10 1" style="font-size:50px">[...]</text>
+            <image x="14000" y="5000" width="2000" height="1000" data-from="10 1 noanim" href="res/high/studie_zitat_1.png" />
+            <text x="14040" y="6000" data-from="10 1" style="font-size:50px">[...]</text>
+            <image x="14000" y="6000" width="2000" height="1000" data-from="10 1 noanim" href="res/high/studie_zitat_2.png" />
+            <g data-from="10 1000 noanim-keepzoom"></g>
+        </g>
+
+
+        <g id="plan" transform="scale(3) translate(-819900 -503100) ">
+            <path data-from="50 1 noanim-keepzoom" data-line="Ringbahn" data-speed="1000" data-stops="Gesundbrunnen SchönhauserAllee h_FrankfurterAllee_SchönhauserAllee  FrankfurterAllee Ostkreuz Neukölln Hermannstr Tempelhof Südkreuz InnsbruckerPlatz Bundesplatz HeidelbergerPlatz Westkreuz Kaiserdamm Jungfernheide Westhafen Wedding +0 Gesundbrunnen" />
+
+            <path data-from="50 1" data-line="U1" data-speed="1000" data-stops="Uhlandstr Kurfürstendamm Nollendorfplatz Möckernbrücke HalleschesTor KottbusserTor WarschauerStr" />
+            <text data-line="U1" data-from="50 1">U1</text>
+            <path data-from="50 1" data-line="U2" data-speed="1000" data-stops="Ruhleben Kaiserdamm Bismarckstr ZoologischerGarten - Nollendorfplatz + PotsdamerPlatz Stadtmitte Alexanderplatz SchönhauserAllee Pankow" />
+            <text data-line="U2" data-from="50 1">U2</text>
+            <path data-from="50 1" data-line="U3" data-speed="1000" data-stops="KrummeLanke HeidelbergerPlatz FehrbellinerPlatz Spichernstr Nollendorfplatz Möckernbrücke HalleschesTor KottbusserTor WarschauerStr" />
+            <text data-line="U3" data-from="50 1">U3</text>
+            <path data-from="50 1" data-line="U4" data-speed="1000" data-stops="InnsbruckerPlatz BayerischerPlatz Nollendorfplatz" />
+            <text data-line="U4" data-from="50 1">U4</text>
+            <path data-from="50 1" data-line="U5" data-speed="1000" data-stops="Hauptbahnhof UnterDenLinden Alexanderplatz FrankfurterAllee Lichtenberg Wuhletal Hönow" />
+            <text data-line="U5" data-from="50 1">U5</text>
+            <path data-from="50 1" data-line="U6" data-speed="1000" data-stops="AltTegel KurtSchumacherPlatz Leopoldplatz Wedding Friedrichstr UnterDenLinden Stadtmitte HalleschesTor Mehringdamm Tempelhof AltMariendorf" />
+            <text data-line="U6" data-from="50 1">U6</text>
+            <path data-from="50 1" data-line="U7" data-speed="1000" data-stops="RathausSpandau Jungfernheide Bismarckstr WilmersdorferStr FehrbellinerPlatz BerlinerStr BayerischerPlatz Yorckstr +2 h_Möckernbrücke_Yorckstr Möckernbrücke Mehringdamm Hermannplatz Neukölln Rudow" />
+            <text data-line="U7" data-from="50 1">U7</text>
+            <path data-from="50 1" data-line="U8" data-speed="1000" data-stops="Wittenau KarlBonhoefferNervenklinik OsloerStr Gesundbrunnen Alexanderplatz Jannowitzbrücke KottbusserTor Hermannplatz Hermannstr" />
+            <text data-line="U8" data-from="50 1">U8</text>
+            <path data-from="50 1" data-line="U9" data-speed="1000" data-stops="OsloerStr Leopoldplatz Westhafen ZoologischerGarten Kurfürstendamm Spichernstr BerlinerStr Bundesplatz RathausSteglitz" />
+            <text data-line="U9" data-from="50 1">U9</text>
+            
+
+            
+            <g data-from="50 10 noanim-keepzoom"></g>
+
+            <!-- Extensions -->
+            <!--<path data-from="50 1" data-line="U1" data-stops="WarschauerStr Ostkreuz" />
+            <path data-from="50 1" data-line="U1" data-stops="Uhlandstraße Westkreuz" />-->
+            <path data-from="51 1" data-line="U9" data-stops="OsloerStr Pankow" />
+            <path data-from="51 4" data-line="U7" data-stops="Rudow FlughafenBER" />
+            <path data-from="51 9" data-line="U3" data-stops="KrummeLanke Mexikoplatz" />
+            <path data-from="51 12" data-line="U8" data-stops="Wittenau MärkischesViertel" />
+            <path data-from="51 15" data-line="U6" data-stops="KurtSchumacherPlatz TegelUTR" />
+
+
+            <rect data-station="h_FrankfurterAllee_SchönhauserAllee" data-dir="nw" class="helper" data-lon-lat="13.45 52.54" />
+            <rect data-station="Südkreuz" data-lon-lat="13.364444 52.475556" />
+            <rect data-station="Ostkreuz" data-lon-lat="13.468889 52.503056" />
+            <rect data-station="Westkreuz" data-lon-lat="13.283889 52.501111" />
+            <rect data-station="Mexikoplatz" data-lon-lat="13.2317866 52.4371956" />
+            <rect data-station="KurtSchumacherPlatz" data-dir="n" data-lon-lat="13.326572 52.563556" />
+            <rect data-station="TegelUTR" data-lon-lat="13.2856972 52.5515199" />
+            <rect data-station="FlughafenBER" data-lon-lat="13.5097100 52.3645333" />
+            <rect data-station="MärkischesViertel" data-label-dir="s" data-lon-lat="13.3547678 52.5966870" />
+            
+            <rect data-station="Uhlandstr" data-dir="nw" data-lon-lat="13.325556 52.5025" />
+            <rect data-station="Kurfürstendamm" data-lon-lat="13.331389 52.503889" />
+            <rect data-station="Nollendorfplatz" data-lon-lat="13.353903 52.499621" />
+            <rect data-station="Möckernbrücke" data-dir="ne" data-lon-lat="13.382922 52.499087" />
+            <rect data-station="HalleschesTor" data-lon-lat="13.391111 52.497778" />
+            <rect data-station="KottbusserTor" data-dir="nw" data-lon-lat="13.418056 52.499167" />
+            <rect data-station="WarschauerStr" data-lon-lat="13.450305 52.506223" />
+            <rect data-station="Ruhleben" data-lon-lat="13.241389 52.525556" />
+            <rect data-station="Kaiserdamm" data-lon-lat="13.282222 52.51" />
+            <rect data-station="Bismarckstr" data-lon-lat="13.304722 52.511389" />
+            <rect data-station="ZoologischerGarten" data-lon-lat="13.3325 52.507222" />
+            <rect data-station="PotsdamerPlatz" data-lon-lat="13.375833 52.509444" />
+            <rect data-station="Stadtmitte" data-lon-lat="13.389444 52.512222" />
+            <rect data-station="Alexanderplatz" data-lon-lat="13.411944 52.521389" />
+            <rect data-station="SchönhauserAllee" data-lon-lat="13.416111 52.549167" />
+            <rect data-station="Pankow" data-dir="nw" data-lon-lat="13.411111 52.566667" />
+            <rect data-station="KrummeLanke" data-dir="nw" data-lon-lat="13.241369 52.443246" />
+            <rect data-station="HeidelbergerPlatz" data-dir="nw" data-lon-lat="13.311944 52.48" />
+            <rect data-station="FehrbellinerPlatz" data-dir="nw" data-lon-lat="13.314378 52.490352" />
+            <rect data-station="Spichernstr" data-lon-lat="13.330686 52.496434" />
+            <rect data-station="InnsbruckerPlatz" data-lon-lat="13.343889 52.478611" />
+            <rect data-station="BayerischerPlatz" data-dir="nw" data-lon-lat="13.34031 52.488428" />
+            <rect data-station="Hauptbahnhof" data-dir="nw" data-lon-lat="13.369444 52.525" />
+            <rect data-station="UnterDenLinden" data-lon-lat="13.388895 52.516967" />
+            <rect data-station="FrankfurterAllee" data-lon-lat="13.474722 52.515" />
+            <rect data-station="Hönow" data-dir="nw" data-lon-lat="13.633889 52.538333" />
+            <rect data-station="AltTegel" data-dir="ne" data-lon-lat="13.283611 52.589444" />
+            <rect data-station="Wedding" data-dir="n" data-lon-lat="13.366111 52.5425" />
+            <rect data-station="Leopoldplatz" data-dir="n" data-lon-lat="13.359118 52.546452" />
+            <rect data-station="Friedrichstr" data-dir="nw" data-lon-lat="13.386944 52.520278" />
+            <rect data-station="Mehringdamm" data-lon-lat="13.388611 52.494444" />            
+            <rect data-station="Tempelhof" data-lon-lat="13.38535 52.470756" />
+            <rect data-station="AltMariendorf" data-lon-lat="13.3877 52.4391" />
+            <rect data-station="RathausSpandau" data-lon-lat="13.200278 52.535" />            
+            <rect data-station="Jungfernheide" data-dir="nw" data-lon-lat="13.300597 52.530504" />
+            <rect data-station="WilmersdorferStr" data-dir="nw" data-lon-lat="13.306667 52.506667" />
+            <rect data-station="BerlinerStr" data-dir="nw" data-lon-lat="13.33092 52.48722" />
+            <rect data-station="Yorckstr"  data-dir="nw" data-lon-lat="13.370833 52.493056" />
+            <rect data-station="Neukölln" data-dir="nw" data-lon-lat="13.442222 52.469444" />
+            <rect data-station="Hermannplatz" data-dir="nw" data-lon-lat="13.424444 52.486389" />
+            <rect data-station="Rudow" data-dir="nw" data-lon-lat="13.495278 52.416111" />            
+            <rect data-station="Wittenau" data-dir="ne" data-lon-lat="13.336667 52.595833" />
+            <rect data-station="OsloerStr" data-dir="nw" data-lon-lat="13.373253 52.557001" />
+            <rect data-station="Gesundbrunnen" data-lon-lat="13.389444 52.548611" />
+            <rect data-station="Jannowitzbrücke" data-lon-lat="13.418389 52.514638" />
+            <rect data-station="Hermannstr" data-lon-lat="13.431111 52.4675" />
+            <rect data-station="Westhafen" data-dir="nw" data-lon-lat="13.343944 52.536256" />
+            <rect data-station="Bundesplatz" data-lon-lat="13.329167 52.477639" />
+            <rect data-station="RathausSteglitz" data-lon-lat="13.321588 52.456219" />
+
+            <rect data-station="Lichtenberg" data-lon-lat="13.496389 52.510556" />
+            <rect data-station="Wuhletal" data-dir="nw" data-lon-lat="13.575175 52.512591" />
+            <rect data-station="KarlBonhoefferNervenklinik" data-dir="ne" data-lon-lat="13.331265 52.578384" />
+            
+            <rect data-station="h_Möckernbrücke_Yorckstr" class="helper" data-dir="n" data-lon-lat="13.375 52.499621" />
+            
+
+            <!--
+            <text data-station="Uhlandstr">Uhlandstr</text>
+            <text data-station="Kurfürstendamm">Kurfürstendamm</text>
+            <text data-station="Nollendorfplatz">Nollendorfplatz</text>
+            <text data-station="Möckernbrücke">Möckernbrücke</text>
+            <text data-station="HalleschesTor">HalleschesTor</text>
+            <text data-station="KottbusserTor">KottbusserTor</text>
+            <text data-station="WarschauerStr">WarschauerStr</text>
+            <text data-station="Ruhleben">Ruhleben</text>
+            <text data-station="Kaiserdamm">Kaiserdamm</text>
+            <text data-station="Bismarckstr">Bismarckstr</text>
+            <text data-station="ZoologischerGarten">ZoologischerGarten</text>
+            <text data-station="PotsdamerPlatz">PotsdamerPlatz</text>
+            <text data-station="Stadtmitte">Stadtmitte</text>
+            <text data-station="Alexanderplatz">Alexanderplatz</text>
+            <text data-station="SchönhauserAllee">SchönhauserAllee</text>
+            <text data-station="HeidelbergerPlatz">HeidelbergerPlatz</text>
+            <text data-station="FehrbellinerPlatz">FehrbellinerPlatz</text>
+            <text data-station="Spichernstr">Spichernstr</text>
+            <text data-station="InnsbruckerPlatz">InnsbruckerPlatz</text>
+            <text data-station="BayerischerPlatz">BayerischerPlatz</text>
+            <text data-station="Hauptbahnhof">Hauptbahnhof</text>
+            <text data-station="UnterDenLinden">UnterDenLinden</text>
+            <text data-station="FrankfurterAllee">FrankfurterAllee</text>
+            <text data-station="Hönow">Hönow</text>
+            <text data-station="AltTegel">AltTegel</text>
+            <text data-station="Wedding">Wedding</text>
+            <text data-station="Leopoldplatz">Leopoldplatz</text>
+            <text data-station="Friedrichstr">Friedrichstr</text>
+            <text data-station="Mehringdamm">Mehringdamm</text>            
+            <text data-station="Tempelhof">Tempelhof</text>
+            <text data-station="AltMariendorf">AltMariendorf</text>
+            <text data-station="RathausSpandau">RathausSpandau</text>            
+            <text data-station="Jungfernheide">Jungfernheide</text>
+            <text data-station="WilmersdorferStr">WilmersdorferStr</text>
+            <text data-station="BerlinerStr">BerlinerStr</text>
+            <text data-station="Yorckstr">Yorckstr</text>
+            <text data-station="Neukölln">Neukölln</text>
+            <text data-station="Hermannplatz">Hermannplatz</text>
+            <text data-station="Gesundbrunnen">Gesundbrunnen</text>
+            <text data-station="Jannowitzbrücke">Jannowitzbrücke</text>
+            <text data-station="Hermannstr">Hermannstr</text>
+            <text data-station="Westhafen">Westhafen</text>
+            <text data-station="Bundesplatz">Bundesplatz</text>
+            <text data-station="RathausSteglitz">RathausSteglitz</text>
+            <text data-station="Lichtenberg">Lichtenberg</text>
+            <text data-station="Wuhletal">Wuhletal</text>
+            <text data-station="KarlBonhoefferNervenklinik">KarlBonhoefferNervenklinik</text>
+            <text data-station="Ostkreuz">Ostkreuz</text>
+            <text data-station="Westkreuz">Westkreuz</text>
+            -->
+
+
+            <text data-from="51 0 keepzoom" data-station="KrummeLanke">Krumme Lanke</text>
+            <text data-from="51 0 keepzoom" data-station="KurtSchumacherPlatz" data-dir="n">Kurt-Schumacher-Platz</text>
+            <text data-from="51 0 keepzoom" data-station="Rudow">Rudow</text>            
+            <text data-from="51 0 keepzoom" data-station="Wittenau">Wittenau</text>
+            <text data-from="51 0 keepzoom" data-station="OsloerStr">Osloer Straße</text>
+            
+            <text data-from="51 0 keepzoom" data-station="Mexikoplatz">Mexikoplatz</text>
+            <text data-from="51 0 keepzoom" data-station="TegelUTR">Flugfeld Tegel</text>
+            <text data-from="51 0 keepzoom" data-station="FlughafenBER">Flughafen BER</text>
+            <text data-from="51 0 keepzoom" data-station="MärkischesViertel">Märkisches Viertel</text>
+            <text data-from="51 0 keepzoom" data-station="Pankow">Pankow</text>
+
+        </g>
+
+
         <g id="bars-berlin" transform="translate(14000, 8000) scale(5)" data-from="25 0 noanim-keepzoom" class="tt toplevel">
             <g data-from="25 0 noanim-keepzoom">
                 <rect x="-350" y="-100" width="1100" height="500" data-from="25 1 noanim" data-to="25 40 noanim" class="helper" />
@@ -683,7 +682,7 @@
             
         </g>
 
-        <g id="bars-hamburg" transform="translate(2000, 6000) scale(5)" data-from="65 0 noanim-keepzoom" class="tt toplevel">
+        <g id="bars-hamburg" transform="translate(2000, 5500) scale(5)" data-from="65 0 noanim-keepzoom" class="tt toplevel">
             <g data-from="65 0 noanim-keepzoom">
                 <rect x="-350" y="-100" width="1100" height="500" data-from="65 1 noanim" data-to="65 40 noanim" class="helper" />
                 <text x="200" y="-30" class="heading" data-from="65 0 noanim-keepzoom">Jahre bis zur Amortisation des CO₂-Ausstoßes der U5 in Hamburg</text>
