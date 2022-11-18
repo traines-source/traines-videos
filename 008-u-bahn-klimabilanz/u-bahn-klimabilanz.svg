@@ -240,34 +240,34 @@
             <g data-from="0 2 noanim-keepzoom"></g>
             <circle cx="9600" cy="5400" r="3000" fill="white"></circle> 
             <image class="srcarticle" transform="rotate(-15)" x="8200" y="2800" width="1500" height="2000" data-from="1 1 noanim" href="res/high/Neue Studie_ Geplanter U-Bahn-Bau in Berlin schadet dem Klima.svg" />
-            <image class="srcarticle" transform="rotate(-10)" x="7000" y="5000" width="1500" height="2000" data-from="1 3 noanim" href="res/high/U-Bahn in Berlin als Klimakiller_ Gutachter stellen katastrophale CO2-Bilanz für neue Tunnel auf.svg" />
-            <image class="srcarticle" transform="rotate(-5)" x="8700" y="6000" width="1500" height="2000" data-from="1 6 noanim" href="res/high/U-Bahn in Berlin_ Neue Projekte sind Klimakiller - Berliner Morgenpost.svg" />
-            <image class="srcarticle" transform="rotate(15)" x="10700" y="4800" width="1500" height="2000" data-from="1 9 noanim" href="res/high/WD-8-002-21-pdf-data.svg" />
-            <image class="srcarticle" transform="rotate(10)" x="9700" y="2800" width="1500" height="2000" data-from="1 12 noanim" href="res/high/Studie zur Klimabilanz der U-Bahn_ Mieses Klima im Untergrund - taz.de.svg" />
+            <image class="srcarticle" transform="rotate(-10)" x="7000" y="5000" width="1500" height="2000" data-from="1 5 noanim" href="res/high/U-Bahn in Berlin als Klimakiller_ Gutachter stellen katastrophale CO2-Bilanz für neue Tunnel auf.svg" />
+            <image class="srcarticle" transform="rotate(-5)" x="8700" y="6000" width="1500" height="2000" data-from="1 9 noanim" href="res/high/U-Bahn in Berlin_ Neue Projekte sind Klimakiller - Berliner Morgenpost.svg" />
+            <image class="srcarticle" transform="rotate(15)" x="10700" y="4800" width="1500" height="2000" data-from="1 13 noanim" href="res/high/WD-8-002-21-pdf-data.svg" />
+            <image class="srcarticle" transform="rotate(10)" x="9700" y="2800" width="1500" height="2000" data-from="1 17 noanim" href="res/high/Studie zur Klimabilanz der U-Bahn_ Mieses Klima im Untergrund - taz.de.svg" />
             <image x="6600" y="2400" width="6000" height="6000" data-from="51 1 noanim-keepzoom" style="visibility:hidden" href="res/ubahn_circle.png" />
-            <g data-from="1 15 noanim-keepzoom"></g>
+            <g data-from="1 21 noanim-keepzoom"></g>
 
         </g>
 
         <g id="cite" transform="translate(500 0)" data-from="20 1 noanim-keepzoom" class="toplevel">
             <rect fill="white" stroke="none" data-from="20 2 noanim" x="14000" y="4900" width="2000" height="2000" />
-            <path class="marker" data-line="marker" data-from="20 2 keepzoom" data-speed="1000" d="M 14950,5405 l 950,-5" />
-            <path class="marker" data-line="marker" data-from="20 2 keepzoom" data-speed="1000" d="M 14050,5505 l 700,-5" />
-            <path class="marker" data-line="marker" data-from="20 2 keepzoom" data-speed="1000" d="M 14970,5885 l 430,-5" />
-            <path class="marker" data-line="marker" data-from="20 2 keepzoom" data-speed="1000" d="M 15250,6430 l 300,-5" />
-            <path class="marker" data-line="marker" data-from="20 2 keepzoom" data-speed="1000" d="M 15100,6540 l 150,-5" />
+            <path class="marker" data-line="marker" data-from="20 5 keepzoom" data-speed="1000" d="M 14950,5405 l 950,-5" />
+            <path class="marker" data-line="marker" data-from="20 5 keepzoom" data-speed="1000" d="M 14050,5505 l 700,-5" />
+            <path class="marker" data-line="marker" data-from="20 5 keepzoom" data-speed="1000" d="M 14970,5885 l 430,-5" />
+            <path class="marker" data-line="marker" data-from="20 15 keepzoom" data-speed="1000" d="M 15250,6430 l 300,-5" />
+            <path class="marker" data-line="marker" data-from="20 30 keepzoom" data-speed="1000" d="M 15100,6540 l 150,-5" />
             <text x="14040" y="5040" data-from="20 1 noanim-keepzoom" style="font-size:50px">[...]</text>
             <image x="14000" y="5000" width="2000" height="1000" data-from="20 1 noanim-nozoom" href="res/high/studie_zitat_1.png" />
             <text x="14040" y="6000" data-from="20 1 noanim-keepzoom" style="font-size:50px">[...]</text>
             <image x="14000" y="6000" width="2000" height="1000" data-from="20 1 noanim-nozoom" href="res/high/studie_zitat_2.png" />
             <text x="14040" y="7000" data-from="20 1 noanim-keepzoom" style="font-size:50px">aus: Dittmer et al. "Die Klimabilanz Berliner U-Bahn und Straßenbahnplanungen" (2020).</text>
-            <g data-from="20 20 noanim-keepzoom"></g>
+            <g data-from="20 40 noanim-keepzoom"></g>
 
         </g>
 
 
         <g id="plan" transform="scale(3) translate(-819900 -503100) ">
-            <path data-from="1 3 noanim-nozoom" data-line="Ringbahn" data-speed="1000" data-stops="Gesundbrunnen SchönhauserAllee h_FrankfurterAllee_SchönhauserAllee  FrankfurterAllee Ostkreuz Neukölln Hermannstr Tempelhof Südkreuz InnsbruckerPlatz Bundesplatz HeidelbergerPlatz Westkreuz Kaiserdamm Jungfernheide Westhafen Wedding +0 Gesundbrunnen" />
+            <path data-from="1 5 noanim-keepzoom" data-line="Ringbahn" data-speed="1000" data-stops="Gesundbrunnen SchönhauserAllee h_FrankfurterAllee_SchönhauserAllee  FrankfurterAllee Ostkreuz Neukölln Hermannstr Tempelhof Südkreuz InnsbruckerPlatz Bundesplatz HeidelbergerPlatz Westkreuz Kaiserdamm Jungfernheide Westhafen Wedding +0 Gesundbrunnen" />
 
             <path data-from="15 1" data-line="U1" data-speed="1000" data-stops="Uhlandstr Kurfürstendamm Nollendorfplatz Möckernbrücke HalleschesTor KottbusserTor WarschauerStr" />
             <text data-line="U1" data-from="15 1">U1</text>
@@ -278,9 +278,9 @@
             <path data-from="15 1" data-line="U4" data-speed="1000" data-stops="InnsbruckerPlatz BayerischerPlatz Nollendorfplatz" />
             <text data-line="U4" data-from="15 1">U4</text>
             <path data-from="15 1" data-line="U5" data-speed="1000" data-stops="Hauptbahnhof BrandenburgerTor" />
-            <path data-from="15 1" data-to="16 20 noanim-nozoom" data-line="U5" data-speed="1000" data-stops="BrandenburgerTor UnterDenLinden Alexanderplatz" />
+            <path data-from="15 1" data-to="16 25 noanim-nozoom" data-line="U5" data-speed="1000" data-stops="BrandenburgerTor UnterDenLinden Alexanderplatz" />
             <path data-from="15 1 nozoom" data-line="U5" data-speed="1000" data-stops="Alexanderplatz FrankfurterAllee Lichtenberg Wuhletal Hönow" />
-            <path data-from="16 20" data-line="U5" data-stops="BrandenburgerTor UnterDenLinden Alexanderplatz" />
+            <path data-from="16 25" data-line="U5" data-stops="BrandenburgerTor UnterDenLinden Alexanderplatz" />
             <text data-line="U5" data-from="15 1 nozoom">U5</text>
             <path data-from="15 1" data-line="U6" data-speed="1000" data-stops="AltTegel KurtSchumacherPlatz Leopoldplatz Wedding Friedrichstr UnterDenLinden Stadtmitte HalleschesTor Mehringdamm Tempelhof AltMariendorf" />
             <text data-line="U6" data-from="15 1">U6</text>
@@ -441,7 +441,7 @@
             <text data-from="16 0 keepzoom" data-station="BrandenburgerTor">Brandenburger Tor</text>
             <text data-from="16 0 keepzoom" data-station="Alexanderplatz">Alexanderplatz</text>
             
-            <g data-from="16 25 noanim-keepzoom"></g>
+            <g data-from="16 33 noanim-keepzoom"></g>
 
         </g>
 
@@ -557,7 +557,7 @@
             
         </g>
 
-        <g id="bars-hamburg" transform="translate(2500, 7010) scale(5)" data-from="65 0 noanim-keepzoom" class="tt toplevel">
+        <g id="bars-hamburg" transform="translate(2400, 7010) scale(5)" data-from="65 0 noanim-keepzoom" class="tt toplevel">
             <g data-from="65 0 noanim-keepzoom">
                 <rect x="-375" y="-100" width="1150" height="500" data-from="65 1 noanim" data-to="65 40 noanim" class="helper" />
                 <text x="200" y="-30" class="heading" data-from="65 0 noanim-keepzoom">Jahre bis zur Amortisation des CO₂-Ausstoßes der U5 in Hamburg</text>
