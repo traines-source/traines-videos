@@ -113,10 +113,10 @@ svg {
 #geo path {
     stroke: #263238;
     stroke-width: 10;
+    visibility: hidden;
 }
 #geo path.railway-tram {
     stroke: #B71C1C;
-    visibility: hidden;
 }
 
 #geo path.tunnel-yes {

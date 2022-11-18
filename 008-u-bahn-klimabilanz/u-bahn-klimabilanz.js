@@ -146,8 +146,11 @@ function getLineProperties(feature) {
     if (feature.geometry.type == "Point" || feature.properties["route"] != undefined) {
         return ['undefined', '', '', 0];
     }
-    if (feature.properties['railway'] != 'construction' && feature.properties['railway'] != 'proposed') {
-        return ['existing', '', '0 1', 0];
+    if (feature.properties['railway'] == 'subway') {
+        return ['existing', 'ne', '70 1', 0];
+    }
+    if (feature.properties['railway'] == 'tram') {
+        return ['existing', 'w', '70 1 nozoom', 0];
     }
     return ['undefined', '', '', 0];
 }
@@ -181,15 +184,11 @@ function drawFeature(feature, setD) {
     if (!path.className.baseVal.includes(clazz)) {
         path.className.baseVal += ' ' + clazz;
     }
-    if (props[0] != 'existing') {
-        path.dataset.line = props[0];
-        path.dataset.animOrder = props[1];
-        path.dataset.from = props[2];
-        path.dataset.speed = props[3];
-    } else {
-        path.dataset.from = props[2];
-        //path.dataset.to = props[2];
-    }
+    path.dataset.line = props[0];
+    path.dataset.animOrder = props[1];
+    path.dataset.from = props[2];
+    path.dataset.speed = 1000;
+
     if (setD) {
         path.setAttribute('d', makeD(feature.geometry));
     }
@@ -259,25 +258,6 @@ function fetchLocal(url) {
         xhr.send(null)
     })
 }
-
-let intvl;
-document.addEventListener('epoch', function(e) {
-  if (e.detail == '70') {
-    if (intvl == undefined) {
-      let i = -1;
-      intvl = window.setInterval(function () {
-        i++;      
-        document.getElementById('custom-epoch-label').textContent = ((6+Math.floor(i/60))+'').padStart(2, '0')+':'+((i%60)+'').padStart(2, '0');
-      }, 1000);
-    }
-  } else {
-    if (intvl != undefined) {
-      clearInterval(intvl);
-      intvl = undefined;
-    }
-  } 
-});
-
 
 function resolveTl(element, relativeToElementId='zoomable') {
     if (document.getElementById(relativeToElementId) != undefined) {

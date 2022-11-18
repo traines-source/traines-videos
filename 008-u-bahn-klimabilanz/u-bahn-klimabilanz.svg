@@ -1,152 +1,13 @@
 <?xml-stylesheet type="text/css" href="u-bahn-klimabilanz.css" ?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" data-auto-start="false" data-zoom-max-scale="100" viewBox="0 0 19200 10800">
-<defs>
-    <g id="regiounit" class="unit">
-        <path
-            class="bumper"
-            d="M 100,13 H 102 V 12 H 105 V 17 H 102 V 16 H 99 L 100,13 M 100,37 H 102 V 38 H 105 V 33 H 102 V 34 H 99 L 100,37" />
-        <path
-            class="trafficred"
-            d="M 65,0 C 65,0 72,1 74,1  76,1 89,4 89,5  89,6 100,5 100,12  100,19 99,13 99,25  99,37 100,31 100,38  100,45 89,44 89,45  89,46 76,49 74,49  72,49 65,50 65,50 Z" />
-        <path
-            class="windowgrey"
-            d="M 65,15 C 65,11 72,6 75,6  80,6 98,8 98,14  98,19 98,25 98,25  98,25 98,31 98,36  98,42 80,44 75,44  72,44 65,39 65,35 Z" />
-        <path
-            class="black-windscreen"
-            d="M 98,25 C 98,25 98,22 98,18  98,14 88,10 88,10  87,10 80,12 80,13  80,14 81,25 81,25  81,25 80,36 80,37  80,38 87,40 88,40  88,40 98,36 98,32  98,28 98,25 98,25" />
-        <path
-            class="lamp"
-            d="M 82,25 83,23 86,22 85,25 86,28 83,27 82,25" />
-    </g>
-    <g id="icunit" class="unit">
-        <path
-            class="bumper"
-            d="M 100,13 H 102 V 12 H 105 V 17 H 102 V 16 H 99 L 100,13 M 100,37 H 102 V 38 H 105 V 33 H 102 V 34 H 99 L 100,37" />
-        <path
-            class="lightgrey"
-            d="M 63,0 C 63,0 72,1 74,1  76,1 89,4 89,5  89,6 100,5 100,12  100,19 99,13 99,25  99,37 100,31 100,38  100,45 89,44 89,45  89,46 76,49 74,49  72,49 63,50 63,50 Z"
-            />
-        <path
-            class="windowgrey"
-            d="M 63,0 L 63,0 C 65,0 98,8 98,14  98,19 98,25 98,25  98,25 98,31 98,36  98,42 65,50 63,50 L 63,50" />
-        <path
-            class="black-windscreen"
-            d="M 98,25 C 98,25 98,22 98,18  98,14 88,10 88,10  87,10 80,12 80,13  80,14 81,25 81,25  81,25 80,36 80,37  80,38 87,40 88,40  88,40 98,36 98,32  98,28 98,25 98,25" />
-        <path
-            class="lamp"
-            d="M 82,25 83,23 86,22 85,25 86,28 83,27 82,25" />
-    </g>
-    <g id="iceunit" class="unit">
-        <path
-            class="icebody"
-            d="M 150,0 C 250,0 426,35 426,100 426,165 250,200 150,200 Z" />
-        <path
-            class="lamp"
-            d="M 410,86 387,76 384,60 407,72 Z" />
-        <path
-            class="lamp"
-            d="M 410,114 387,124 384,140 407,128 Z" />
-        <path
-            class="windscreen"
-            d="M 290,37 C 301,37 360,55 360,100 360,145 301,163 290,163 291,163 296,120 296,100 296,80 291,37 290,37 Z" />
-        <path
-            class="cap"
-            d="M 290,163 C 291,163 296,120 296,100 296,80 291,37 290,37 290,36 256,31 246,31 206,31 214,65 214,100 214,135 206,169 246,169 256,169 290,164 290,163 Z" />
-    </g>
-    <marker id="ice-start" viewBox="150 0 426,200" refX="150" refY="100" markerHeight="1" orient="auto-start-reverse">
-        <!--<path d="M 0,426 C 0,78 55,0 100,0 C 145,0 200,78 200,426 Z" fill="white" />
-        <path d="M 86,16 L 76,39 L 60,42 L 72,19 Z" fill="grey" />
-        <path d="M 114,16 L 124,39 L 140,42 L 128,19 Z" fill="grey" />
-        <path d="M 37,136 C 37,125 55,66 100,66 C 145,66 163,125 163,136 C 163,135 120,130 100,130 C 80,130 37,135 37,136 Z" fill="lightgrey" />
-        <path d="M 163,136 C 163,135 120,130 100,130 C 80,130 37,135 37,136 C 36,136 31,170 31,180 C 31,220 65,212 100,212 C 135,212 169,220 169,180 C 169,170 164,136 163,136 Z" fill="grey" />
-        -->
-        <g class="train-start">
-            <use href="#iceunit" />
-        </g>
-    </marker>
-    <marker id="ice-end" viewBox="150 0 426,200" refX="150" refY="100" markerHeight="1" orient="auto-start-reverse">
-        <g class="train-end">
-            <use href="#iceunit" />
-        </g>    
-    </marker>
-    <marker id="ic-start" viewBox="63 0 105,50" refX="63" refY="25" markerHeight="1" orient="auto-start-reverse">
-        <g class="train-start">
-            <use href="#icunit" />
-        </g>
-    </marker>
-    <marker id="ic-end" viewBox="63 0 105,50" refX="63" refY="25" markerHeight="1" orient="auto-start-reverse">
-        <g class="train-end">
-            <use href="#icunit"/>
-        </g>
-    </marker>
-    <marker id="regio-start" viewBox="65 0 40,50" refX="65" refY="25" markerHeight="1" orient="auto-start-reverse">
-        <g class="train-start">
-            <use href="#regiounit" />
-        </g>
-    </marker>
-    <marker id="regio-end" viewBox="65 0 40,50" refX="65" refY="25" markerHeight="1" orient="auto-start-reverse">
-        <g class="train-end">
-            <use href="#regiounit"/>
-        </g>
-    </marker>
-    <marker id="panto" viewBox="0 0 200,200" refX="130" refY="100" markerHeight="1" orient="auto-start-reverse">
-        <path
-            d="M 200,100 L 200,90 L 90,70 M 200,100 L 200,110 L 90,130 M 113,30 L 110,35 L 110,165 L 113,170 M 83,30 80,35 L 80,165 L 83,170" class="panto" />
-        <path 
-            d="M 130,100 L 200,100" class="panto" style="stroke-width:20px" />
-    </marker>
-    <marker id="profile-start" viewBox="149.67 93.60 36.35,37.62" refX="153.69" refY="103.06" markerHeight="2">
-        <g class="profileunit">
-            <circle r="2.0475183" cy="112.27797" cx="155.81813" />
-            <circle cx="168.48003" cy="112.27797" r="2.0475183" />
-            <path
-                d="M 153.69457,93.60156 C 162.6481,93.60156 174.1649,98.111121 179.37126,102.16052 183.58075,105.43457 186.01959,107.17182 186.01959,108.70862 186.01959,110.72984 181.42589,111.38131 180.87465,111.38131 180.40676,111.38131 181.24215,112.24994 181.24215,112.24994 L 149.67857,112.31138 V 93.60156 H 153.69457"
-                />
-        </g>
-    </marker>
-    <marker id="profile-end" viewBox="120 93.60 50,37.62" refX="153.69" refY="103.06" markerHeight="2">
-        <g class="profileunit">
-            <g transform="scale(-1,1)" transform-origin="153.69457 93.60156">
-                <circle r="2.0475183" cy="112.27797" cx="155.81813" />
-                <circle cx="168.48003" cy="112.27797" r="2.0475183" />
-                <path
-                    d="M 153.69457,93.60156 C 162.6481,93.60156 174.1649,98.111121 179.37126,102.16052 183.58075,105.43457 186.01959,107.17182 186.01959,108.70862 186.01959,110.72984 181.42589,111.38131 180.87465,111.38131 180.40676,111.38131 181.24215,112.24994 181.24215,112.24994 L 149.67857,112.31138 V 93.60156 H 153.69457"
-                    />            
-            </g>
-        </g>
-    </marker>
-    <marker id="profile-hinge" viewBox="25.61 93.60 60,37.62" refX="54.97" refY="103.06" markerHeight="2" markerWidth="4">
-        <g class="profileunit" >
-            <path
-                style="fill:#f2f2f2;stroke:#f2f2f2;stroke-width:0.26458332px;"
-                d="M 25.612651,93.60156 H 84.331169 V 112.31138 H 25.612651 Z"
-                id="hingebg"
-                />
-            <circle cx="67.518959" cy="112.27797" r="2.0475183" />
-            <circle r="2.0475183" cy="112.27797" cx="80.180855" />
-            <circle r="2.0475183" cy="112.27797" cx="29.610632" />
-            <circle cx="42.27253" cy="112.27797" r="2.0475183" />
-            
-            <path
-                d="M 84.331169,93.60156 H 56.606828 C 56.205576,93.60156 56.193417,93.601044 56.193417,95.411958 H 54.971912 V 109.17634 H 56.293644 C 56.293644,109.92132 56.267902,110.01156 56.565314,110.01156 H 57.362722 C 57.362722,112.25582 57.255574,112.29516 57.587145,112.29516 L 84.331169,112.31138 Z"
-                />
-            <g transform="matrix(-1,0,0,1,109.94382,0)">
-                <path
-                    d="M 84.331169,93.60156 H 56.606828 C 56.205576,93.60156 56.193417,93.601044 56.193417,95.411958 H 54.971912 V 109.17634 H 56.293644 C 56.293644,109.92132 56.267902,110.01156 56.565314,110.01156 H 57.362722 C 57.362722,112.25582 57.255574,112.29516 57.587145,112.29516 L 84.331169,112.31138 Z"
-                    />
-            </g>
-        </g>
-    </marker>
-</defs>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" data-auto-start="false" data-zoom-max-scale="5" viewBox="0 0 19200 10800">
+
 <rect x="0" y="0" width="100%" height="100%" fill="#f2f2f2"/>
 
 <g id="zoomable">
-    <image href="res/concrete_bw.jpg" preserveAspectRatio="xMidYMid slice"  x="0" y="0" width="100%" height="100%" />
+    <image href="res/concrete_bw.jpg" preserveAspectRatio="xMidYMid slice"  x="0" y="-1800" width="19200" height="14400" />
 
     <g id="elements">
-        <g id="d" data-from="0 0 noanim-nozoom" data-to="0 1000 noanim-nozoom"></g>
-
-        <g id="geo" transform="translate(-2472500 -1508900)"></g>
+        <g id="geo" transform="translate(-2471950 -1507800)"></g>
 
         <g id="hamburg" transform="scale(3) translate(-808900 -493100)" >
         <!-- 
@@ -155,7 +16,7 @@
         
         -->
             <path data-from="60 1" data-line="H1" data-speed="1000" data-stops="NorderstedtMitte Sengelmannstraße Kellinghusenstraße Stephansplatz -2 Jungfernstieg -2 HauptbahnhofNord LübeckerStraße WandsbekerChaussee Wandsbek-Gartenstadt Volksdorf Ohlstedt" />
-            <path data-from="60 1" data-line="H1" data-speed="1000" data-stops="* Volksdorf Großhansdorf" />
+            <path data-from="60 1 nozoom" data-line="H1" data-speed="1000" data-stops="* Volksdorf Großhansdorf" />
             <text data-line="H1" data-from="60 1">U1</text>
             <path data-from="60 1" data-line="H2" data-speed="1000" data-stops="NiendorfNord HagenbecksTierpark Schlump +0 Jungfernstieg +0 HauptbahnhofNord BerlinerTor Billstedt Mümmelmannsberg" />
             <text data-line="H2" data-from="60 1">U2</text>
@@ -165,9 +26,8 @@
             <text data-line="H4" data-from="60 1">U4</text>
             <path data-from="60 10" data-line="H5" data-stops="ArenenVolkspark HagenbecksTierpark Universitätsklinikum Hoheluftbrücke Stephansplatz - Jungfernstieg HauptbahnhofNord h_HauptbahnhofNord_LübeckerStraße + Uhlenhorst Borgweg CityNord Sengelmannstraße Bramfeld" />
             <text data-line="H5" data-from="60 10">U5</text>
+            <g data-from="60 20 noanim-keepzoom"></g>
 
-            <g data-from="60 100 keepzoom"></g>
-            <g data-from="60 1000"></g>
             <rect data-station="Dehnhaide" data-lon-lat="10.0409181 53.5794571" />
             <rect data-station="Mundsburg" data-lon-lat="10.0273189 53.5694003" />
             <rect data-station="Kellinghusenstraße" data-dir="nw" data-lon-lat="9.9900852 53.5881316" />
@@ -376,64 +236,74 @@
         </g>
 
         <g id="articles" transform=" translate(-3068.56 -1726.06) scale(1.31964)">
+            <g data-from="0 0 noanim-keepzoom"></g>
+            <g data-from="0 2 noanim-keepzoom"></g>
             <circle cx="9600" cy="5400" r="3000" fill="white"></circle> 
             <image class="srcarticle" transform="rotate(-15)" x="8200" y="2800" width="1500" height="2000" data-from="1 1 noanim" href="res/high/Neue Studie_ Geplanter U-Bahn-Bau in Berlin schadet dem Klima.svg" />
             <image class="srcarticle" transform="rotate(-10)" x="7000" y="5000" width="1500" height="2000" data-from="1 3 noanim" href="res/high/U-Bahn in Berlin als Klimakiller_ Gutachter stellen katastrophale CO2-Bilanz für neue Tunnel auf.svg" />
             <image class="srcarticle" transform="rotate(-5)" x="8700" y="6000" width="1500" height="2000" data-from="1 6 noanim" href="res/high/U-Bahn in Berlin_ Neue Projekte sind Klimakiller - Berliner Morgenpost.svg" />
             <image class="srcarticle" transform="rotate(15)" x="10700" y="4800" width="1500" height="2000" data-from="1 9 noanim" href="res/high/WD-8-002-21-pdf-data.svg" />
             <image class="srcarticle" transform="rotate(10)" x="9700" y="2800" width="1500" height="2000" data-from="1 12 noanim" href="res/high/Studie zur Klimabilanz der U-Bahn_ Mieses Klima im Untergrund - taz.de.svg" />
-            <image x="6600" y="2400" width="6000" height="6000" data-from="100 1 noanim-nozoom" href="res/ubahn_circle.png" />
+            <image x="6600" y="2400" width="6000" height="6000" data-from="51 1 noanim-keepzoom" style="visibility:hidden" href="res/ubahn_circle.png" />
+            <g data-from="1 15 noanim-keepzoom"></g>
+
         </g>
 
-        <g id="cite" transform="translate(500 0)">
-            <rect fill="white" stroke="none" x="14000" y="4900" width="2000" height="2000" />
-            <path class="marker" data-line="marker" data-from="10 2 keepzoom" data-speed="1000" d="M 14950,5405 l 950,-5" />
-            <path class="marker" data-line="marker" data-from="10 2 keepzoom" data-speed="1000" d="M 14050,5505 l 700,-5" />
-            <path class="marker" data-line="marker" data-from="10 2 keepzoom" data-speed="1000" d="M 14970,5885 l 430,-5" />
-            <path class="marker" data-line="marker" data-from="10 2 keepzoom" data-speed="1000" d="M 15250,6430 l 300,-5" />
-            <path class="marker" data-line="marker" data-from="10 2 keepzoom" data-speed="1000" d="M 15100,6540 l 150,-5" />
-            <text x="14040" y="5040" data-from="10 1" style="font-size:50px">[...]</text>
-            <image x="14000" y="5000" width="2000" height="1000" data-from="10 1 noanim" href="res/high/studie_zitat_1.png" />
-            <text x="14040" y="6000" data-from="10 1" style="font-size:50px">[...]</text>
-            <image x="14000" y="6000" width="2000" height="1000" data-from="10 1 noanim" href="res/high/studie_zitat_2.png" />
-            <g data-from="10 1000 noanim-keepzoom"></g>
+        <g id="cite" transform="translate(500 0)" data-from="20 1 noanim-keepzoom" class="toplevel">
+            <rect fill="white" stroke="none" data-from="20 2 noanim" x="14000" y="4900" width="2000" height="2000" />
+            <path class="marker" data-line="marker" data-from="20 2 keepzoom" data-speed="1000" d="M 14950,5405 l 950,-5" />
+            <path class="marker" data-line="marker" data-from="20 2 keepzoom" data-speed="1000" d="M 14050,5505 l 700,-5" />
+            <path class="marker" data-line="marker" data-from="20 2 keepzoom" data-speed="1000" d="M 14970,5885 l 430,-5" />
+            <path class="marker" data-line="marker" data-from="20 2 keepzoom" data-speed="1000" d="M 15250,6430 l 300,-5" />
+            <path class="marker" data-line="marker" data-from="20 2 keepzoom" data-speed="1000" d="M 15100,6540 l 150,-5" />
+            <text x="14040" y="5040" data-from="20 1 noanim-keepzoom" style="font-size:50px">[...]</text>
+            <image x="14000" y="5000" width="2000" height="1000" data-from="20 1 noanim-nozoom" href="res/high/studie_zitat_1.png" />
+            <text x="14040" y="6000" data-from="20 1 noanim-keepzoom" style="font-size:50px">[...]</text>
+            <image x="14000" y="6000" width="2000" height="1000" data-from="20 1 noanim-nozoom" href="res/high/studie_zitat_2.png" />
+            <text x="14040" y="7000" data-from="20 1 noanim-keepzoom" style="font-size:50px">aus: Dittmer et al. "Die Klimabilanz Berliner U-Bahn und Straßenbahnplanungen" (2020).</text>
+            <g data-from="20 20 noanim-keepzoom"></g>
+
         </g>
 
 
         <g id="plan" transform="scale(3) translate(-819900 -503100) ">
-            <path data-from="50 1 noanim-keepzoom" data-line="Ringbahn" data-speed="1000" data-stops="Gesundbrunnen SchönhauserAllee h_FrankfurterAllee_SchönhauserAllee  FrankfurterAllee Ostkreuz Neukölln Hermannstr Tempelhof Südkreuz InnsbruckerPlatz Bundesplatz HeidelbergerPlatz Westkreuz Kaiserdamm Jungfernheide Westhafen Wedding +0 Gesundbrunnen" />
+            <path data-from="1 3 noanim-nozoom" data-line="Ringbahn" data-speed="1000" data-stops="Gesundbrunnen SchönhauserAllee h_FrankfurterAllee_SchönhauserAllee  FrankfurterAllee Ostkreuz Neukölln Hermannstr Tempelhof Südkreuz InnsbruckerPlatz Bundesplatz HeidelbergerPlatz Westkreuz Kaiserdamm Jungfernheide Westhafen Wedding +0 Gesundbrunnen" />
 
-            <path data-from="50 1" data-line="U1" data-speed="1000" data-stops="Uhlandstr Kurfürstendamm Nollendorfplatz Möckernbrücke HalleschesTor KottbusserTor WarschauerStr" />
-            <text data-line="U1" data-from="50 1">U1</text>
-            <path data-from="50 1" data-line="U2" data-speed="1000" data-stops="Ruhleben Kaiserdamm Bismarckstr ZoologischerGarten - Nollendorfplatz + PotsdamerPlatz Stadtmitte Alexanderplatz SchönhauserAllee Pankow" />
-            <text data-line="U2" data-from="50 1">U2</text>
-            <path data-from="50 1" data-line="U3" data-speed="1000" data-stops="KrummeLanke HeidelbergerPlatz FehrbellinerPlatz Spichernstr Nollendorfplatz Möckernbrücke HalleschesTor KottbusserTor WarschauerStr" />
-            <text data-line="U3" data-from="50 1">U3</text>
-            <path data-from="50 1" data-line="U4" data-speed="1000" data-stops="InnsbruckerPlatz BayerischerPlatz Nollendorfplatz" />
-            <text data-line="U4" data-from="50 1">U4</text>
-            <path data-from="50 1" data-line="U5" data-speed="1000" data-stops="Hauptbahnhof UnterDenLinden Alexanderplatz FrankfurterAllee Lichtenberg Wuhletal Hönow" />
-            <text data-line="U5" data-from="50 1">U5</text>
-            <path data-from="50 1" data-line="U6" data-speed="1000" data-stops="AltTegel KurtSchumacherPlatz Leopoldplatz Wedding Friedrichstr UnterDenLinden Stadtmitte HalleschesTor Mehringdamm Tempelhof AltMariendorf" />
-            <text data-line="U6" data-from="50 1">U6</text>
-            <path data-from="50 1" data-line="U7" data-speed="1000" data-stops="RathausSpandau Jungfernheide Bismarckstr WilmersdorferStr FehrbellinerPlatz BerlinerStr BayerischerPlatz Yorckstr +2 h_Möckernbrücke_Yorckstr Möckernbrücke Mehringdamm Hermannplatz Neukölln Rudow" />
-            <text data-line="U7" data-from="50 1">U7</text>
-            <path data-from="50 1" data-line="U8" data-speed="1000" data-stops="Wittenau KarlBonhoefferNervenklinik OsloerStr Gesundbrunnen Alexanderplatz Jannowitzbrücke KottbusserTor Hermannplatz Hermannstr" />
-            <text data-line="U8" data-from="50 1">U8</text>
-            <path data-from="50 1" data-line="U9" data-speed="1000" data-stops="OsloerStr Leopoldplatz Westhafen ZoologischerGarten Kurfürstendamm Spichernstr BerlinerStr Bundesplatz RathausSteglitz" />
-            <text data-line="U9" data-from="50 1">U9</text>
+            <path data-from="15 1" data-line="U1" data-speed="1000" data-stops="Uhlandstr Kurfürstendamm Nollendorfplatz Möckernbrücke HalleschesTor KottbusserTor WarschauerStr" />
+            <text data-line="U1" data-from="15 1">U1</text>
+            <path data-from="15 1" data-line="U2" data-speed="1000" data-stops="Ruhleben Kaiserdamm Bismarckstr ZoologischerGarten - Nollendorfplatz + PotsdamerPlatz Stadtmitte Alexanderplatz SchönhauserAllee Pankow" />
+            <text data-line="U2" data-from="15 1">U2</text>
+            <path data-from="15 1" data-line="U3" data-speed="1000" data-stops="KrummeLanke HeidelbergerPlatz FehrbellinerPlatz Spichernstr Nollendorfplatz Möckernbrücke HalleschesTor KottbusserTor WarschauerStr" />
+            <text data-line="U3" data-from="15 1">U3</text>
+            <path data-from="15 1" data-line="U4" data-speed="1000" data-stops="InnsbruckerPlatz BayerischerPlatz Nollendorfplatz" />
+            <text data-line="U4" data-from="15 1">U4</text>
+            <path data-from="15 1" data-line="U5" data-speed="1000" data-stops="Hauptbahnhof BrandenburgerTor" />
+            <path data-from="15 1" data-to="16 20 noanim-nozoom" data-line="U5" data-speed="1000" data-stops="BrandenburgerTor UnterDenLinden Alexanderplatz" />
+            <path data-from="15 1 nozoom" data-line="U5" data-speed="1000" data-stops="Alexanderplatz FrankfurterAllee Lichtenberg Wuhletal Hönow" />
+            <path data-from="16 20" data-line="U5" data-stops="BrandenburgerTor UnterDenLinden Alexanderplatz" />
+            <text data-line="U5" data-from="15 1 nozoom">U5</text>
+            <path data-from="15 1" data-line="U6" data-speed="1000" data-stops="AltTegel KurtSchumacherPlatz Leopoldplatz Wedding Friedrichstr UnterDenLinden Stadtmitte HalleschesTor Mehringdamm Tempelhof AltMariendorf" />
+            <text data-line="U6" data-from="15 1">U6</text>
+            <path data-from="15 1 nozoom" data-line="U7" data-speed="1000" data-stops="RathausSpandau Jungfernheide Bismarckstr" />
+            <path data-from="15 1" data-line="U7" data-speed="1000" data-stops="Bismarckstr WilmersdorferStr FehrbellinerPlatz BerlinerStr BayerischerPlatz Yorckstr +2 h_Möckernbrücke_Yorckstr Möckernbrücke Mehringdamm Hermannplatz Neukölln Rudow" />
+            <text data-line="U7" data-from="15 1">U7</text>
+            <path data-from="15 1" data-line="U8" data-speed="1000" data-stops="Wittenau KarlBonhoefferNervenklinik OsloerStr Gesundbrunnen Alexanderplatz Jannowitzbrücke KottbusserTor Hermannplatz Hermannstr" />
+            <text data-line="U8" data-from="15 1">U8</text>
+            <path data-from="15 1" data-line="U9" data-speed="1000" data-stops="OsloerStr Leopoldplatz Westhafen ZoologischerGarten Kurfürstendamm Spichernstr BerlinerStr Bundesplatz RathausSteglitz" />
+            <text data-line="U9" data-from="15 1">U9</text>
             
 
             
-            <g data-from="50 10 noanim-keepzoom"></g>
+            <g data-from="15 10 noanim-keepzoom"></g>
 
             <!-- Extensions -->
-            <!--<path data-from="50 1" data-line="U1" data-stops="WarschauerStr Ostkreuz" />
-            <path data-from="50 1" data-line="U1" data-stops="Uhlandstraße Westkreuz" />-->
-            <path data-from="51 1" data-line="U9" data-stops="OsloerStr Pankow" />
-            <path data-from="51 4" data-line="U7" data-stops="Rudow FlughafenBER" />
-            <path data-from="51 9" data-line="U3" data-stops="KrummeLanke Mexikoplatz" />
-            <path data-from="51 12" data-line="U8" data-stops="Wittenau MärkischesViertel" />
-            <path data-from="51 15" data-line="U6" data-stops="KurtSchumacherPlatz TegelUTR" />
+            <!--<path data-from="15 1" data-line="U1" data-stops="WarschauerStr Ostkreuz" />
+            <path data-from="15 1" data-line="U1" data-stops="Uhlandstraße Westkreuz" />-->
+            <path data-from="16 1" data-line="U9" data-stops="OsloerStr Pankow" />
+            <path data-from="16 4" data-line="U7" data-stops="Rudow FlughafenBER" />
+            <path data-from="16 9" data-line="U3" data-stops="KrummeLanke Mexikoplatz" />
+            <path data-from="16 12" data-line="U8" data-stops="Wittenau MärkischesViertel" />
+            <path data-from="16 15" data-line="U6" data-stops="KurtSchumacherPlatz TegelUTR" />
 
 
             <rect data-station="h_FrankfurterAllee_SchönhauserAllee" data-dir="nw" class="helper" data-lon-lat="13.45 52.54" />
@@ -469,6 +339,7 @@
             <rect data-station="InnsbruckerPlatz" data-lon-lat="13.343889 52.478611" />
             <rect data-station="BayerischerPlatz" data-dir="nw" data-lon-lat="13.34031 52.488428" />
             <rect data-station="Hauptbahnhof" data-dir="nw" data-lon-lat="13.369444 52.525" />
+            <rect data-station="BrandenburgerTor" data-dir="nw" data-label-dir="w" data-lon-lat="13.380833 52.516389" />
             <rect data-station="UnterDenLinden" data-lon-lat="13.388895 52.516967" />
             <rect data-station="FrankfurterAllee" data-lon-lat="13.474722 52.515" />
             <rect data-station="Hönow" data-dir="nw" data-lon-lat="13.633889 52.538333" />
@@ -556,24 +427,28 @@
             -->
 
 
-            <text data-from="51 0 keepzoom" data-station="KrummeLanke">Krumme Lanke</text>
-            <text data-from="51 0 keepzoom" data-station="KurtSchumacherPlatz" data-dir="n">Kurt-Schumacher-Platz</text>
-            <text data-from="51 0 keepzoom" data-station="Rudow">Rudow</text>            
-            <text data-from="51 0 keepzoom" data-station="Wittenau">Wittenau</text>
-            <text data-from="51 0 keepzoom" data-station="OsloerStr">Osloer Straße</text>
+            <text data-from="16 0 keepzoom" data-station="KrummeLanke">Krumme Lanke</text>
+            <text data-from="16 0 keepzoom" data-station="KurtSchumacherPlatz" data-dir="n">Kurt-Schumacher-Platz</text>
+            <text data-from="16 0 keepzoom" data-station="Rudow">Rudow</text>            
+            <text data-from="16 0 keepzoom" data-station="Wittenau">Wittenau</text>
+            <text data-from="16 0 keepzoom" data-station="OsloerStr">Osloer Straße</text>
             
-            <text data-from="51 0 keepzoom" data-station="Mexikoplatz">Mexikoplatz</text>
-            <text data-from="51 0 keepzoom" data-station="TegelUTR">Flugfeld Tegel</text>
-            <text data-from="51 0 keepzoom" data-station="FlughafenBER">Flughafen BER</text>
-            <text data-from="51 0 keepzoom" data-station="MärkischesViertel">Märkisches Viertel</text>
-            <text data-from="51 0 keepzoom" data-station="Pankow">Pankow</text>
+            <text data-from="16 0 keepzoom" data-station="Mexikoplatz">Mexikoplatz</text>
+            <text data-from="16 0 keepzoom" data-station="TegelUTR">Flugfeld Tegel</text>
+            <text data-from="16 0 keepzoom" data-station="FlughafenBER">Flughafen BER</text>
+            <text data-from="16 0 keepzoom" data-station="MärkischesViertel">Märkisches Viertel</text>
+            <text data-from="16 0 keepzoom" data-station="Pankow">Pankow</text>
+            <text data-from="16 0 keepzoom" data-station="BrandenburgerTor">Brandenburger Tor</text>
+            <text data-from="16 0 keepzoom" data-station="Alexanderplatz">Alexanderplatz</text>
+            
+            <g data-from="16 25 noanim-keepzoom"></g>
 
         </g>
 
 
         <g id="bars-berlin" transform="translate(14000, 8000) scale(5)" data-from="25 0 noanim-keepzoom" class="tt toplevel">
             <g data-from="25 0 noanim-keepzoom">
-                <rect x="-350" y="-100" width="1100" height="500" data-from="25 1 noanim" data-to="25 40 noanim" class="helper" />
+                <rect x="-375" y="-100" width="1150" height="500" data-from="25 1 noanim" data-to="25 40 noanim" class="helper" />
                 <text x="200" y="-30" class="heading" data-from="25 0 noanim-keepzoom">Jahre bis zur Amortisation des CO₂-Ausstoßes</text>
                 <text x="200" y="0" data-from="25 0 noanim-keepzoom" style="text-anchor: middle;font-size:12px;">nach der Studie "Die Klimabilanz Berliner U-Bahn und Straßenbahnplanungen"</text>
 
@@ -673,7 +548,7 @@
                 <g data-from="25 30 noanim-keepzoom" class="focusable" onfocus="updateBars('more-passengers')"></g>
                 <g data-from="25 35 noanim-keepzoom" class="focusable" onfocus="updateBars('lowcarb-steel')"></g>
                 <g data-from="25 40 noanim-keepzoom" class="focusable" onfocus="updateBars('lowcarb-concrete')"></g>
-                <g data-from="25 10000"></g>
+                <g data-from="25 50 noanim-keepzoom"></g>
 
 
         
@@ -682,19 +557,19 @@
             
         </g>
 
-        <g id="bars-hamburg" transform="translate(2000, 5500) scale(5)" data-from="65 0 noanim-keepzoom" class="tt toplevel">
+        <g id="bars-hamburg" transform="translate(2500, 7010) scale(5)" data-from="65 0 noanim-keepzoom" class="tt toplevel">
             <g data-from="65 0 noanim-keepzoom">
-                <rect x="-350" y="-100" width="1100" height="500" data-from="65 1 noanim" data-to="65 40 noanim" class="helper" />
+                <rect x="-375" y="-100" width="1150" height="500" data-from="65 1 noanim" data-to="65 40 noanim" class="helper" />
                 <text x="200" y="-30" class="heading" data-from="65 0 noanim-keepzoom">Jahre bis zur Amortisation des CO₂-Ausstoßes der U5 in Hamburg</text>
                 <text x="200" y="0" data-from="65 0 noanim-keepzoom" style="text-anchor: middle;font-size:12px;">nach der Studie "Eine umweltfreundliche U-Bahn für Hamburg ?"</text>
 
-                <g transform="translate(-400 25)">
+                <g transform="translate(-420 25)">
                     <text x="180" y="50" data-from="65 1 keepzoom">tCO₂ pro km U-Bahn</text>
                     <line x1="200" y1="50" x2="200" y2="50" id="hh_total_tCO2pKm" class="secondary" />
                     <text class="path-inset" x="210" y="50" id="hh_total_tCO2pKm_label"></text>
                 </g>
 
-                <g transform="translate(-400 100)">
+                <g transform="translate(-420 75)">
 
                     <text x="180" y="25" data-from="65 1 keepzoom">Fahrgäste</text>
                     <line x1="200" y1="25" x2="200" y2="25" id="hh_u5_daily_passengers" class="secondary" />
@@ -711,7 +586,7 @@
                 <g data-from="65 25 noanim-keepzoom" class="focusable" onfocus="updateBars('hh_official')"></g>
                 <g data-from="65 30 noanim-keepzoom" class="focusable" onfocus="updateBars('hh_official-lowcarb')"></g>
                 <g data-from="65 35 noanim-keepzoom" class="focusable" onfocus="updateBars('hh_official-lowcarb-highmodal')"></g>
-                <g data-from="65 10000"></g>
+                <g data-from="65 40"></g>
 
 
         
