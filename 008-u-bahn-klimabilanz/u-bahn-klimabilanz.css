@@ -19,7 +19,7 @@ rect.station {
     fill: none;
 }
 
-path {
+path.default {
     stroke: #263238;
     fill: none;
     /*stroke-linecap: round;*/
@@ -110,24 +110,46 @@ svg {
     line-height: 16px;
 }
 
-#geo path {
+image.cover {
+    width: 19200px;
+    height: 10800px;
+    visibility: hidden;
+}
+
+.geo text {
+    dominant-baseline: middle;
+    font-size: 70px;
+}
+.geo path {
     stroke: #263238;
     stroke-width: 10;
     visibility: hidden;
+    fill: none;
+    stroke-linejoin: round;
 }
-#geo path.railway-tram {
+.geo path.railway-tram {
     stroke: #B71C1C;
 }
 
-#geo path.tunnel-yes {
+.geo path.highway-proposed, .geo path.highway-proposed.tunnel-yes {
+    stroke: #707070;
+    stroke-width: 20;    
+}
+
+.geo path.highway, .geo path.highway.tunnel-yes {
+    stroke: #505050;
+    stroke-width: 20;    
+}
+
+.geo path.tunnel-yes {
     stroke: #546E7A;
 }
 
-#geo path.tunnel-yes.railway-tram {
+.geo path.tunnel-yes.railway-tram {
     stroke: #E53935;
 }
 
-#geo path.custom-proposed {
+.geo path.custom-proposed {
     stroke: #E57373;
     visibility: hidden;
 }
@@ -135,19 +157,19 @@ svg {
 text.caption {
     text-anchor: end;
     dominant-baseline: hanging;
-    font-size: 600px;
+    font-size: 200px;
 }
 
 text.source {
     text-anchor: end;
     dominant-baseline: hanging;
-    font-size: 600px;
+    font-size: 200px;
 }
 
 text.shadow {
     visibility: hidden;
     fill: white;
-    text-shadow: 1px 1px 2px black;
+    text-shadow: 2px 2px 4px black;
 }
 text.corner-text {
     font-size: 1000px;
@@ -336,4 +358,12 @@ text.subheading {
     visibility: hidden;
     transform: skew(-10deg);
     transform-origin: center;
+}
+
+#amort path {
+    visibility: hidden;
+}
+#amort text {
+    font-size: 8px;
+    dominant-baseline: middle;
 }

@@ -1,13 +1,80 @@
 <?xml-stylesheet type="text/css" href="u-bahn-klimabilanz.css" ?>
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" data-auto-start="false" data-zoom-max-scale="5" viewBox="0 0 19200 10800">
 
+<defs>
+    <marker
+      id="arrow"
+      viewBox="0 0 10 10"
+      refX="5"
+      refY="5"
+      markerWidth="6"
+      markerHeight="6"
+      orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" />
+    </marker>
+</defs>
+
 <rect x="0" y="0" width="100%" height="100%" fill="#f2f2f2"/>
 
 <g id="zoomable">
     <image href="res/concrete_bw.jpg" preserveAspectRatio="xMidYMid slice"  x="0" y="-1800" width="19200" height="14400" />
 
     <g id="elements">
-        <g id="geo" transform="translate(-2471950 -1507800)"></g>
+        <g id="geo-legend" class="geo" data-from="70 1 nozoom" transform="translate(1000 5500)">
+            <path d="M 0,0 l 125,0" data-from="70 1 keepzoom" />
+            <path d="M 125,0 l 125,0" class="tunnel-yes" data-from="70 1 keepzoom" />
+            <text x="270" y="0" data-from="70 1 keepzoom">U-Bahn</text>
+
+            <path d="M 600,0 l 250,0" class="railway-tram" data-from="70 1 keepzoom"/>
+            <text x="870" y="0" data-from="70 1 keepzoom">Tram</text>
+
+            <path d="M 1200,0 l 250,0" class="highway" data-from="70 15 keepzoom" data-to="70 35 keepzoom" />
+            <text x="1470" y="0" data-from="70 15 keepzoom" data-to="70 35 keepzoom">A 100</text>
+
+            <path d="M 1800,0 l 250,0" class="highway-proposed" data-from="70 15 keepzoom" data-to="70 35 keepzoom" />
+            <text x="2070" y="0" data-from="70 15 keepzoom" data-to="70 35 keepzoom">A 100 Verlängerung</text>
+
+            <g data-from="70 70 noanim-keepzoom"></g>
+
+
+        </g>
+        <g id="geo" class="geo" transform="translate(-2471950 -1507500)"></g>
+
+
+        <g id="amort" class="toplevel" data-from="80 0 noanim-keepzoom" transform="translate(4700 500) scale(10)">
+           
+
+            <polyline
+                points="0,0 0,100 200,100"
+                fill="none"
+                stroke="black"
+                data-from="80 1 noanim" 
+                marker-start="url(#arrow)"
+                marker-end="url(#arrow)" />
+
+    
+            <path d="M 0,100 L 30,20 L 180,140"
+                fill="none"
+                stroke="#263238"
+                data-from="80 1 keepzoom"
+                data-line="graph"
+               />
+            <text x="185" y="140" data-from="80 1 keepzoom">U-Bahn</text>
+
+            <path d="M 0,100 L 10,90 L 180,120"
+                fill="none"
+                stroke="#B71C1C"
+                data-from="80 16 keepzoom"
+                data-line="graph"
+               />
+            <text x="185" y="120" data-from="80 16 keepzoom">Tram</text>
+            
+
+            <text x="5" y="0" data-from="80 0 noanim-nozoom">CO₂-Bilanz</text>
+            <text x="205" y="100" data-from="80 0 noanim-nozoom">Zeit</text>
+            <g data-from="80 40 noanim-nozoom"></g>
+        </g>
+        
 
         <g id="hamburg" transform="scale(3) translate(-808900 -493100)" >
         <!-- 
@@ -24,9 +91,9 @@
             <text data-line="H3" data-from="60 1">U3</text>
             <path data-from="60 1" data-line="H4" data-speed="1000" data-stops="- Billstedt BerlinerTor -1 HauptbahnhofNord Jungfernstieg Überseequartier Elbbrücken" />
             <text data-line="H4" data-from="60 1">U4</text>
-            <path data-from="60 10" data-line="H5" data-stops="ArenenVolkspark HagenbecksTierpark Universitätsklinikum Hoheluftbrücke Stephansplatz - Jungfernstieg HauptbahnhofNord h_HauptbahnhofNord_LübeckerStraße + Uhlenhorst Borgweg CityNord Sengelmannstraße Bramfeld" />
+            <path data-from="60 10" data-line="H5" data-speed="200" data-stops="ArenenVolkspark HagenbecksTierpark Universitätsklinikum Hoheluftbrücke Stephansplatz - Jungfernstieg HauptbahnhofNord h_HauptbahnhofNord_LübeckerStraße + Uhlenhorst Borgweg CityNord Sengelmannstraße Bramfeld" />
             <text data-line="H5" data-from="60 10">U5</text>
-            <g data-from="60 20 noanim-keepzoom"></g>
+            <g data-from="60 23 noanim-keepzoom"></g>
 
             <rect data-station="Dehnhaide" data-lon-lat="10.0409181 53.5794571" />
             <rect data-station="Mundsburg" data-lon-lat="10.0273189 53.5694003" />
@@ -240,12 +307,12 @@
             <g data-from="0 2 noanim-keepzoom"></g>
             <circle cx="9600" cy="5400" r="3000" fill="white"></circle> 
             <image class="srcarticle" transform="rotate(-15)" x="8200" y="2800" width="1500" height="2000" data-from="1 1 noanim" href="res/high/Neue Studie_ Geplanter U-Bahn-Bau in Berlin schadet dem Klima.svg" />
-            <image class="srcarticle" transform="rotate(-10)" x="7000" y="5000" width="1500" height="2000" data-from="1 5 noanim" href="res/high/U-Bahn in Berlin als Klimakiller_ Gutachter stellen katastrophale CO2-Bilanz für neue Tunnel auf.svg" />
-            <image class="srcarticle" transform="rotate(-5)" x="8700" y="6000" width="1500" height="2000" data-from="1 9 noanim" href="res/high/U-Bahn in Berlin_ Neue Projekte sind Klimakiller - Berliner Morgenpost.svg" />
-            <image class="srcarticle" transform="rotate(15)" x="10700" y="4800" width="1500" height="2000" data-from="1 13 noanim" href="res/high/WD-8-002-21-pdf-data.svg" />
-            <image class="srcarticle" transform="rotate(10)" x="9700" y="2800" width="1500" height="2000" data-from="1 17 noanim" href="res/high/Studie zur Klimabilanz der U-Bahn_ Mieses Klima im Untergrund - taz.de.svg" />
-            <image x="6600" y="2400" width="6000" height="6000" data-from="51 1 noanim-keepzoom" style="visibility:hidden" href="res/ubahn_circle.png" />
-            <g data-from="1 21 noanim-keepzoom"></g>
+            <image class="srcarticle" transform="rotate(-10)" x="7000" y="5000" width="1500" height="2000" data-from="1 6 noanim" href="res/high/U-Bahn in Berlin als Klimakiller_ Gutachter stellen katastrophale CO2-Bilanz für neue Tunnel auf.svg" />
+            <image class="srcarticle" transform="rotate(-5)" x="8700" y="6000" width="1500" height="2000" data-from="1 11 noanim" href="res/high/U-Bahn in Berlin_ Neue Projekte sind Klimakiller - Berliner Morgenpost.svg" />
+            <image class="srcarticle" transform="rotate(15)" x="10700" y="4800" width="1500" height="2000" data-from="1 16 noanim" href="res/high/WD-8-002-21-pdf-data.svg" />
+            <image class="srcarticle" transform="rotate(10)" x="9700" y="2800" width="1500" height="2000" data-from="1 21 noanim" href="res/high/Studie zur Klimabilanz der U-Bahn_ Mieses Klima im Untergrund - taz.de.svg" />
+            <image x="6600" y="2400" width="6000" height="6000" data-from="16 4 noanim-nozoom" style="visibility:hidden" href="res/ubahn_circle.png" />
+            <g data-from="1 26 noanim-keepzoom"></g>
 
         </g>
 
@@ -260,8 +327,8 @@
             <image x="14000" y="5000" width="2000" height="1000" data-from="20 1 noanim-nozoom" href="res/high/studie_zitat_1.png" />
             <text x="14040" y="6000" data-from="20 1 noanim-keepzoom" style="font-size:50px">[...]</text>
             <image x="14000" y="6000" width="2000" height="1000" data-from="20 1 noanim-nozoom" href="res/high/studie_zitat_2.png" />
-            <text x="14040" y="7000" data-from="20 1 noanim-keepzoom" style="font-size:50px">aus: Dittmer et al. "Die Klimabilanz Berliner U-Bahn und Straßenbahnplanungen" (2020).</text>
-            <g data-from="20 40 noanim-keepzoom"></g>
+            <text x="14040" y="7000" data-from="20 1 noanim-keepzoom" style="font-size:50px">aus: Dittmer et al. "Die Klimabilanz Berliner U-Bahn und Straßenbahnplanungen" (2020) [6]</text>
+            <g data-from="20 45 noanim-keepzoom"></g>
 
         </g>
 
@@ -278,9 +345,10 @@
             <path data-from="15 1" data-line="U4" data-speed="1000" data-stops="InnsbruckerPlatz BayerischerPlatz Nollendorfplatz" />
             <text data-line="U4" data-from="15 1">U4</text>
             <path data-from="15 1" data-line="U5" data-speed="1000" data-stops="Hauptbahnhof BrandenburgerTor" />
-            <path data-from="15 1" data-to="16 25 noanim-nozoom" data-line="U5" data-speed="1000" data-stops="BrandenburgerTor UnterDenLinden Alexanderplatz" />
+            <path data-from="15 1" data-to="16 20 noanim-nozoom" data-line="U5" data-speed="1000" data-stops="BrandenburgerTor UnterDenLinden Alexanderplatz" />
             <path data-from="15 1 nozoom" data-line="U5" data-speed="1000" data-stops="Alexanderplatz FrankfurterAllee Lichtenberg Wuhletal Hönow" />
-            <path data-from="16 25" data-line="U5" data-stops="BrandenburgerTor UnterDenLinden Alexanderplatz" />
+            <path data-from="16 20 noanim" data-to="16 34 noanim-keepzoom" data-line="U5" data-stops="BrandenburgerTor UnterDenLinden Alexanderplatz" />
+            <path data-from="16 34 keepzoom" data-line="U5" data-stops="BrandenburgerTor UnterDenLinden Alexanderplatz" />
             <text data-line="U5" data-from="15 1 nozoom">U5</text>
             <path data-from="15 1" data-line="U6" data-speed="1000" data-stops="AltTegel KurtSchumacherPlatz Leopoldplatz Wedding Friedrichstr UnterDenLinden Stadtmitte HalleschesTor Mehringdamm Tempelhof AltMariendorf" />
             <text data-line="U6" data-from="15 1">U6</text>
@@ -441,16 +509,16 @@
             <text data-from="16 0 keepzoom" data-station="BrandenburgerTor">Brandenburger Tor</text>
             <text data-from="16 0 keepzoom" data-station="Alexanderplatz">Alexanderplatz</text>
             
-            <g data-from="16 33 noanim-keepzoom"></g>
+            <g data-from="16 48 noanim-keepzoom"></g>
 
         </g>
 
 
-        <g id="bars-berlin" transform="translate(14000, 8000) scale(5)" data-from="25 0 noanim-keepzoom" class="tt toplevel">
+        <g id="bars-berlin" transform="translate(14000, 8050) scale(5)" data-from="25 0 noanim-keepzoom" class="tt toplevel">
             <g data-from="25 0 noanim-keepzoom">
-                <rect x="-375" y="-100" width="1150" height="500" data-from="25 1 noanim" data-to="25 40 noanim" class="helper" />
+                <rect x="-375" y="-100" width="1150" height="500" data-from="25 1 noanim" data-to="25 60 noanim" class="helper" />
                 <text x="200" y="-30" class="heading" data-from="25 0 noanim-keepzoom">Jahre bis zur Amortisation des CO₂-Ausstoßes</text>
-                <text x="200" y="0" data-from="25 0 noanim-keepzoom" style="text-anchor: middle;font-size:12px;">nach der Studie "Die Klimabilanz Berliner U-Bahn und Straßenbahnplanungen"</text>
+                <text x="200" y="0" data-from="25 0 noanim-keepzoom" style="text-anchor: middle;font-size:12px;">nach: Dittmer; Geraets; Schwipps. "Die Klimabilanz Berliner U-Bahn und Straßenbahnplanungen" (2020) [6]</text>
 
                 <g transform="translate(0 0)">
                     <text x="180" y="50" data-from="25 1 keepzoom">Beton: kgCO₂ pro m³ Stahlbeton</text>
@@ -542,13 +610,16 @@
 
 
                 <g data-from="25 0 noanim-keepzoom" class="focusable" onfocus="updateBars('original')"></g>
-                <g data-from="25 10 noanim-keepzoom" class="focusable" onfocus="updateBars('corrected-concrete')"></g>
+                <g data-from="25 15 noanim-keepzoom" class="focusable" onfocus="updateBars('corrected-concrete')"></g>
                 <g data-from="25 20 noanim-keepzoom" class="focusable" onfocus="updateBars('corrected-total')"></g>
-                <g data-from="25 25 noanim-keepzoom" class="focusable" onfocus="updateBars('less-passengers')"></g>
-                <g data-from="25 30 noanim-keepzoom" class="focusable" onfocus="updateBars('more-passengers')"></g>
-                <g data-from="25 35 noanim-keepzoom" class="focusable" onfocus="updateBars('lowcarb-steel')"></g>
-                <g data-from="25 40 noanim-keepzoom" class="focusable" onfocus="updateBars('lowcarb-concrete')"></g>
-                <g data-from="25 50 noanim-keepzoom"></g>
+                <g data-from="25 40 noanim-nozoom"></g>
+                <g data-from="25 65 noanim-keepzoom" class="focusable" onfocus="updateBars('less-passengers')"></g>
+                <g data-from="25 80 noanim-keepzoom" class="focusable" onfocus="updateBars('more-passengers')"></g>
+                <g data-from="25 85 noanim-keepzoom" class="focusable" onfocus="updateBars('lowcarb-steel')"></g>
+                <g data-from="25 100 noanim-keepzoom" class="focusable" onfocus="updateBars('lowcarb-concrete')"></g>
+                <g data-from="25 115 noanim-keepzoom" class="focusable" onfocus="updateBars('lowcarb-concrete-recarb')"></g>
+                <g data-from="25 150 noanim-nozoom"></g>
+                <g data-from="25 160 noanim-nozoom"></g>
 
 
         
@@ -561,7 +632,7 @@
             <g data-from="65 0 noanim-keepzoom">
                 <rect x="-375" y="-100" width="1150" height="500" data-from="65 1 noanim" data-to="65 40 noanim" class="helper" />
                 <text x="200" y="-30" class="heading" data-from="65 0 noanim-keepzoom">Jahre bis zur Amortisation des CO₂-Ausstoßes der U5 in Hamburg</text>
-                <text x="200" y="0" data-from="65 0 noanim-keepzoom" style="text-anchor: middle;font-size:12px;">nach der Studie "Eine umweltfreundliche U-Bahn für Hamburg ?"</text>
+                <text x="200" y="0" data-from="65 0 noanim-keepzoom" style="text-anchor: middle;font-size:12px;">nach: Betz; Philipp; Knittel. "Eine umweltfreundliche U-Bahn für Hamburg ?" (2021) [19]</text>
 
                 <g transform="translate(-420 25)">
                     <text x="180" y="50" data-from="65 1 keepzoom">tCO₂ pro km U-Bahn</text>
@@ -581,12 +652,12 @@
                 </g>
 
                 <g data-from="65 0 noanim-keepzoom" class="focusable" onfocus="updateBars('hh_original')"></g>
-                <g data-from="65 10 noanim-keepzoom" class="focusable" onfocus="updateBars('hh_corrected-concrete')"></g>
-                <g data-from="65 20 noanim-keepzoom" class="focusable" onfocus="updateBars('hh_corrected-total')"></g>
-                <g data-from="65 25 noanim-keepzoom" class="focusable" onfocus="updateBars('hh_official')"></g>
-                <g data-from="65 30 noanim-keepzoom" class="focusable" onfocus="updateBars('hh_official-lowcarb')"></g>
-                <g data-from="65 35 noanim-keepzoom" class="focusable" onfocus="updateBars('hh_official-lowcarb-highmodal')"></g>
-                <g data-from="65 40"></g>
+                <g data-from="65 25 noanim-keepzoom" class="focusable" onfocus="updateBars('hh_corrected-concrete')"></g>
+                <g data-from="65 30 noanim-keepzoom" class="focusable" onfocus="updateBars('hh_corrected-total')"></g>
+                <g data-from="65 47 noanim-keepzoom" class="focusable" onfocus="updateBars('hh_official')"></g>
+                <g data-from="65 85 noanim-keepzoom" class="focusable" onfocus="updateBars('hh_official-lowcarb')"></g>
+                <g data-from="65 95 noanim-keepzoom" class="focusable" onfocus="updateBars('hh_official-lowcarb-highmodal')"></g>
+                <g data-from="65 100 noanim-keepzoom"></g>
 
 
         
@@ -599,6 +670,71 @@
 
 </g>
 
-    <script xlink:href="../../dist/network-animator.js" />
-    <script xlink:href="u-bahn-klimabilanz.js" />
+<image id="stahlbeton" href="res/stahlbeton.jpg" preserveAspectRatio="xMidYMax slice" class="cover" data-from="25 145 keepzoom" data-to="25 155 keepzoom" data-zoom="50 55" />
+<text x="19100" y="10550" data-inset="stahlbeton" data-from="25 145 keepzoom" data-to="25 155 keepzoom" class="shadow caption">Stahlbeton. Traines. CC-BY-SA 4.0.</text>
+
+<text x="19100" y="10550" data-inset="osm" data-from="70 0 keepzoom" data-to="70 50 keepzoom" class="shadow caption">Pfade: © OpenStreetMap Contributors.</text>
+<text x="19100" y="10550" data-inset="osm" data-from="70 60 keepzoom" data-to="80 0 keepzoom" class="shadow caption">Pfade: © OpenStreetMap Contributors.</text>
+
+<image id="alex" href="res/alex.jpg" preserveAspectRatio="xMidYMid slice" class="cover" data-from="70 50 keepzoom" data-to="70 60 keepzoom" data-zoom="55 45" />
+<text x="19100" y="10550" data-inset="alex" data-from="70 50 keepzoom" data-to="70 60 keepzoom" class="shadow caption">U-Bahn. Traines. CC-BY-SA 4.0.</text>
+
+<image id="tram" href="res/Tramway-line-T3B-in-Paris-near-porte-de-Chaumont--DSC_0157.jpg" preserveAspectRatio="xMidYMax slice" class="cover" data-from="80 25 keepzoom" data-to="80 35 keepzoom" data-zoom="50 55" />
+<text x="19100" y="10550" data-inset="tram" data-from="80 25 keepzoom" data-to="80 35 keepzoom" class="shadow caption">Straßenbahn T3b, Paris. Pline. CC-BY-SA 3.0.</text>
+
+
+<text x="19100" y="100" data-from="1 1 noanim-keepzoom" data-to="1 6 noanim-keepzoom" class="shadow source">Quelle [1]</text>
+<text x="19100" y="100" data-from="1 6 noanim-keepzoom" data-to="1 11 noanim-keepzoom" class="shadow source">Quelle [2]</text>
+<text x="19100" y="100" data-from="1 11 noanim-keepzoom" data-to="1 16 noanim-keepzoom" class="shadow source">Quelle [3]</text>
+<text x="19100" y="100" data-from="1 16 noanim-keepzoom" data-to="1 21 noanim-keepzoom" class="shadow source">Quelle [4]</text>
+<text x="19100" y="100" data-from="1 21 noanim-keepzoom" data-to="1 26 noanim-keepzoom" class="shadow source">Quelle [5]</text>
+<text x="19100" y="100" data-from="1 26 noanim-keepzoom" data-to="16 34 noanim-keepzoom" class="shadow source">Quelle [6]</text>
+<text x="19100" y="100" data-from="16 34 noanim-keepzoom" data-to="20 1 noanim-keepzoom" class="shadow source">Quelle [7], [8]</text>
+<text x="19100" y="100" data-from="20 1 noanim-keepzoom" data-to="20 10 noanim-keepzoom" class="shadow source">Quelle [6]</text>
+<text x="19100" y="100" data-from="20 10 noanim-keepzoom" data-to="20 15 noanim-keepzoom" class="shadow source">Quelle [9], [10]</text>
+<text x="19100" y="100" data-from="20 15 noanim-keepzoom" data-to="20 35 noanim-keepzoom" class="shadow source">Quelle [6]</text>
+<text x="19100" y="100" data-from="20 35 noanim-keepzoom" data-to="20 45 noanim-keepzoom" class="shadow source">Quelle [11], [12], [13], [14], [15]</text>
+<text x="19100" y="100" data-from="20 45 noanim-keepzoom" data-to="25 15 noanim-keepzoom" class="shadow source">Quelle [7], [13], [15], [16]</text>
+<text x="19100" y="100" data-from="25 15 noanim-keepzoom" data-to="25 40 noanim-keepzoom" class="shadow source">Quelle [7], [6]</text>
+<text x="19100" y="100" data-from="25 40 noanim-keepzoom" data-to="25 65 noanim-keepzoom" class="shadow source">Quelle [16], [15]</text>
+<text x="19100" y="100" data-from="25 65 noanim-keepzoom" data-to="25 80 noanim-keepzoom" class="shadow source">Quelle [7], [6]</text>
+<text x="19100" y="100" data-from="25 80 noanim-keepzoom" data-to="25 90 noanim-keepzoom" class="shadow source">Quelle [14], [15], [7]</text>
+<text x="19100" y="100" data-from="25 90 noanim-keepzoom" data-to="25 115 noanim-keepzoom" class="shadow source">Quelle [17], [7]</text>
+<text x="19100" y="100" data-from="25 115 noanim-keepzoom" data-to="25 120 noanim-keepzoom" class="shadow source">Quelle [18], [7]</text>
+<text x="19100" y="100" data-from="25 120 noanim-keepzoom" data-to="25 145 noanim-keepzoom" class="shadow source">Quelle [7], [6]</text>
+<text x="19100" y="100" data-from="25 145 noanim-keepzoom" data-to="60 0 noanim-keepzoom" class="shadow source">Quelle [6]</text>
+<text x="19100" y="100" data-from="60 0 noanim-keepzoom" data-to="65 25 noanim-keepzoom" class="shadow source">Quelle [19]</text>
+<text x="19100" y="100" data-from="65 25 noanim-keepzoom" data-to="65 100 noanim-keepzoom" class="shadow source">Quelle [7], [15], [20], [21], [19]</text>
+<text x="19100" y="100" data-from="70 20 noanim-keepzoom" data-to="70 30 noanim-keepzoom" class="shadow source">Quelle [22]</text>
+<text x="19100" y="100" data-from="70 40 noanim-keepzoom" data-to="80 0 noanim-keepzoom" class="shadow source">Quelle [6], [19]</text>
+
+
+<!--
+[1] https://www.berliner-zeitung.de/mensch-metropole/neue-studie-geplanter-u-bahn-bau-in-berlin-schadet-dem-klima-li.123177
+[2] https://www.tagesspiegel.de/berlin/gutachter-stellen-katastrophale-co2-bilanz-fur-neue-tunnel-auf-8108782.html
+[3] https://www.morgenpost.de/berlin/article231056908/Studie-Neue-U-Bahnprojekte-in-Berlin-sind-Klimakiller.html
+[4] https://www.bundestag.de/resource/blob/835692/89d1ef927ee7f5f42292b95cf37109eb/WD-8-002-21-pdf-data.pdf
+[5] https://taz.de/Studie-zur-Klimabilanz-der-U-Bahn/!5729091/
+[6] https://klimabilanz-ubahn-tram.de/download/klimabilanz-ubahn-tram.pdf
+[7] https://github.com/traines-source/traines-videos/blob/master/008-u-bahn-klimabilanz/research/u-bahn-berlin.ods
+[8] https://www.projekt-u5.de/de/die-neue-u5/
+[9] https://oekobaudat.de/OEKOBAU.DAT/datasetdetail/process.xhtml?uuid=2b2d1f3f-ab92-449d-8a2e-cd7e85818406&version=00.03.000&stock=OBD_2021_II&lang=de
+[10] https://www.umweltbundesamt.de/sites/default/files/medien/376/publikationen/texte_96_2013_treibhausgasemissionen_durch_infrastruktur_und_fahrzeuge_2015_01_07.pdf
+[11] S. 71, https://diglib.tugraz.at/download.php?id=576a7195cc9f9&location=browse
+[12] https://www.umstieg-21.de/assets/files/thg-endbericht_s21_251017.pdf
+[13] S. 94, http://www.enquetepubliquelignerouge15sud.fr/assets/files/DEP21.pdf
+[14] S. 75 f., https://mediatum.ub.tum.de/doc/1295092/document.pdf
+[15] https://www.hochbahn.de/resource/blob/33778/b42fbde8497ebf87b301bb283a7ce811/gutachten-zur-u5-reduktionsstrategie-stuva-data.pdf
+[16] https://sedl.at/Umweltirrtuemer/U-Bahn-Tunnel_CO2
+[17] https://www.leube.eu/news-detail/die-co2-bilanz-hat-einen-rechenfehler
+[18] https://www.nature.com/articles/ngeo2840
+[19] https://www.abendblatt.de/bin/incoming/article233469503/U5-U-Bahn-Hamburg-Studie-Eine-umweltfreundliche-U-Bahn-f%C3%BCr-Hamburg_15092021_HA.pdf
+[20] https://www.hochbahn.de/resource/blob/33768/067e583a2d2751ec94412caaf785b070/u5-d-klima-summary-data.pdf
+[21] https://www.hochbahn.de/resource/blob/33776/d053053397b889d3de4ab8a37e7f06fc/gutachten-zur-reduktionsstrategie-uni-innsbruck-data.pdf
+[22] https://web.archive.org/web/20130722071655/http://www.bast.de/cln_030/nn_42244/DE/Presse/2007/presse-03-2007.html
+
+-->
+
+<script xlink:href="../../dist/network-animator.js" />
+<script xlink:href="u-bahn-klimabilanz.js" />
 </svg>

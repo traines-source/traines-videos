@@ -15,12 +15,13 @@ const columnMapping = {
     'more-passengers': 5,
     'lowcarb-steel': 6,
     'lowcarb-concrete': 7,
-    'hh_original': 9,
-    'hh_corrected-concrete': 10,
-    'hh_corrected-total': 11,
-    'hh_official': 12,
-    'hh_official-lowcarb': 13,
-    'hh_official-lowcarb-highmodal': 14
+    'lowcarb-concrete-recarb': 8,
+    'hh_original': 10,
+    'hh_corrected-concrete': 11,
+    'hh_corrected-total': 12,
+    'hh_official': 13,
+    'hh_official-lowcarb': 14,
+    'hh_official-lowcarb-highmodal': 15
 };
 
 const idx_concrete_kgCO2pm3concrete = 6;
@@ -152,12 +153,19 @@ function getLineProperties(feature) {
     if (feature.properties['railway'] == 'tram') {
         return ['existing', 'w', '70 1 nozoom', 0];
     }
+    if (feature.properties['highway'] == 'motorway') {
+        return ['highway', 'w', '70 15 nozoom', 0];
+    }
+    if (feature.properties['highway'] == 'construction' || feature.properties['highway'] == 'proposed') {
+        return ['highway-proposed', 'sw', '70 15 nozoom', 0];
+    }
     return ['undefined', '', '', 0];
 }
 
-function render(ubahn, tram, setD) {
+function render(ubahn, tram, a100, setD) {
     renderRailways(ubahn, setD);
     renderRailways(tram, setD);
+    renderRailways(a100, setD);
     const event = new Event('startTransportNetworkAnimator');
     document.dispatchEvent(event);
 }
@@ -188,6 +196,10 @@ function drawFeature(feature, setD) {
     path.dataset.animOrder = props[1];
     path.dataset.from = props[2];
     path.dataset.speed = 1000;
+
+    if (props[2] == '70 15 nozoom') {
+        path.dataset.to = '70 35 nozoom';
+    }
 
     if (setD) {
         path.setAttribute('d', makeD(feature.geometry));
@@ -238,7 +250,13 @@ fetch("ubahn.geojson")
 .then(ubahn => 
     fetch("tram.geojson")
     .then(response => response.json())
-    .then(tram => render(ubahn, tram, true))
+    .then(tram =>
+        fetch("A100.geojson")
+        .then(response => response.json())
+        .then(a100 =>
+            render(ubahn, tram, a100, true)
+        )
+    )
 );
 fetch("research/u-bahn-berlin.csv")
 .then(response => response.text())
