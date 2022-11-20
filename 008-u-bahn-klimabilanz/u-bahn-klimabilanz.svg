@@ -15,9 +15,9 @@
 </defs>
 
 <rect x="0" y="0" width="100%" height="100%" fill="#f2f2f2"/>
+<image href="res/concrete_bw.jpg" preserveAspectRatio="xMidYMid slice"  x="0" y="-1800" width="19200" height="14400" />
 
 <g id="zoomable">
-    <image href="res/concrete_bw.jpg" preserveAspectRatio="xMidYMid slice"  x="0" y="-1800" width="19200" height="14400" />
     
     <g id="elements">
         <g id="geo-legend" class="geo" data-from="70 1 nozoom" transform="translate(1000 5500)">
