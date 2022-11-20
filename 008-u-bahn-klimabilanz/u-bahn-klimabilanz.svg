@@ -18,7 +18,7 @@
 
 <g id="zoomable">
     <image href="res/concrete_bw.jpg" preserveAspectRatio="xMidYMid slice"  x="0" y="-1800" width="19200" height="14400" />
-
+    
     <g id="elements">
         <g id="geo-legend" class="geo" data-from="70 1 nozoom" transform="translate(1000 5500)">
             <path d="M 0,0 l 125,0" data-from="70 1 keepzoom" />
@@ -55,19 +55,19 @@
     
             <path d="M 0,100 L 30,20 L 180,140"
                 fill="none"
-                stroke="#263238"
+                stroke="#546E7A"
                 data-from="80 1 keepzoom"
                 data-line="graph"
                />
             <text x="185" y="140" data-from="80 1 keepzoom">U-Bahn</text>
 
-            <path d="M 0,100 L 10,90 L 180,120"
+            <path d="M 0,100 L 10,90 L 180,130"
                 fill="none"
                 stroke="#B71C1C"
                 data-from="80 16 keepzoom"
                 data-line="graph"
                />
-            <text x="185" y="120" data-from="80 16 keepzoom">Tram</text>
+            <text x="185" y="130" data-from="80 16 keepzoom">Tram</text>
             
 
             <text x="5" y="0" data-from="80 0 noanim-nozoom">CO₂-Bilanz</text>
