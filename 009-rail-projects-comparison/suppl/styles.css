@@ -1,0 +1,64 @@
+body {
+    overflow: hidden;
+}
+
+.focusable:focus {
+    outline: none;
+}
+
+#plot.fill {
+    width: 100%;
+    margin-top: -350px;
+}
+
+#overlay {
+    top: 150px;
+}
+
+.unit {
+    font-size: 22px;
+}
+
+.label {
+    fill: #505050;
+}
+
+select {
+    font-size: 22px;
+}
+
+.select {
+    width: 400px;
+    appearance: none;
+    background-color: transparent;
+    border: none;
+    font-weight: bold;
+}
+
+#br .select {
+    text-align: right;
+}
+
+#tr, #z-axis, #z-unit-min, #z-unit-max {
+    display: none;
+}
+
+.tick text {
+    font-size: 16px;
+}
+
+#meta {
+    display: none;
+}
+
+.for-station {
+    font-size: 500px;
+}
+
+#link {
+    text-anchor: middle;
+    font-weight: bold;
+    font-size: 50px;
+    color: black;
+    text-shadow: 1px 1px 2px white;
+}

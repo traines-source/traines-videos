@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <link rel="alternate" href="https://comparail.traines.eu/en/" hreflang="en" />
+    <link rel="alternate" href="https://comparail.traines.eu/de/" hreflang="de" />
+    <link rel="alternate" href="https://comparail.traines.eu/fr/" hreflang="fr" />
+
+    <title>Comparison of Recent Rail Projects in Europe</title>
+
+    <meta name="viewport" content="initial-scale=1,maximum-scale=3,user-scalable=yes">
+
+    <link href="/favicon.ico" type="image/x-icon" rel="shortcut icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+   
+    <link rel="stylesheet" href="/res/styles.css" />
+    <link rel="stylesheet" href="/suppl/styles.css" />
+    <script src="/vendor/d3.v7.min.js"></script>
+   
+</head>
+<body>
+    <div id="container-plot"><svg id="plot" class="fill" data-width="1700" data-height="780" data-auto-start="false" preserveAspectRatio="xMidYMin">
+        <defs>
+            <linearGradient id="gradient" x1="0" x2="1" y1="0" y2="0">
+            <stop offset="0%" stop-color="rgb(1, 87, 155)"/>
+            <stop offset="100%" stop-color="rgb(183, 28, 28)"/>
+            </linearGradient>
+        </defs>
+        <g id="zoomable">
+        <g id="bgmap"></g>
+        <g id="projects"><g class="project" transform="translate(850,390)"><circle r="10"></circle><g transform="scale(0.01) translate(-111417.9,-13270.9)"><path data-from="1 0 nozoom" data-line="BerlinU5" data-stops="BrandenburgerTor UnterDenLinden Alexanderplatz"></path>
+
+            <rect data-station="Alexanderplatz" data-lon-lat="13.411944 52.521389"></rect>
+            <rect data-station="UnterDenLinden" data-lon-lat="13.388895 52.516967"></rect>
+            <rect data-station="BrandenburgerTor" data-dir="nw" data-lon-lat="13.380833 52.516389"></rect>
+            </g><text class="label">Berlin U5 West</text></g><g class="project" transform="translate(850,390)"><circle r="10"></circle><g transform="scale(0.01) translate(-102880.3,-47885.4)">
+                
+                <path data-from="1 0 nozoom" data-to="23 1 noanim-keepzoom" data-line="WU5" data-stops="BrennerSüdportal BrennerAbzweig BrennerInnsbruck"></path>
+                <path data-from="1 0 nozoom" data-to="23 1 noanim-keepzoom" data-line="WU2" data-stops="BrennerAbzweig InnsbruckOstportal"></path>
+                <path data-from="23 1 keepzoom" data-line="WU5" data-stops="BrennerSüdportal BrennerAbzweig BrennerInnsbruck"></path>
+                <path data-from="23 1 keepzoom" data-line="WU2" data-stops="BrennerAbzweig InnsbruckOstportal"></path>
+            
+            <rect data-station="InnsbruckOstportal" class="helper" data-dir="ne" data-lon-lat="11.5420 47.2827"></rect>
+            <rect data-station="BrennerAbzweig" class="helper" data-lon-lat="11.4289 47.2193"></rect>
+            <rect data-station="BrennerInnsbruck" class="helper" data-dir="ne" data-lon-lat="11.4024 47.2516"></rect>
+            <rect data-station="BrennerSüdportal" class="helper" data-lon-lat="11.6065 46.7914"></rect>
+            </g><text class="label">Brennerbasistunnel</text></g>
+            <g class="project" transform="translate(850,390)"><circle r="10"></circle><g transform="scale(0.01) translate(-72042.5,-24175.6)">
+                
+                <path data-from="1 0 nozoom" data-to="20 1 noanim-keepzoom" data-line="Bruxelles" data-stops="Albert GareduMidi Bourse GareduNord Bordet"></path>
+                <path data-from="20 2" data-line="Bruxelles" data-stops="Albert GareduMidi Bourse GareduNord Bordet"></path>
+            
+            <rect data-station="Albert" data-dir="ne" data-lon-lat="4.34194 50.82139"></rect>            
+            <rect data-station="GareduMidi" data-lon-lat="4.337228 50.836747" class="helper"></rect>            
+            <rect data-station="Bourse" data-dir="ne" data-lon-lat="4.3494166 50.8480338" class="helper"></rect>            
+            <rect data-station="GareduNord" data-lon-lat="4.360278 50.860278"></rect>            
+            <rect data-station="Bordet" data-dir="ne" data-lon-lat="4.409835 50.878683"></rect>
+            </g><text class="label">Bruxelles M3</text></g>
+            
+            <g class="project" transform="translate(850,390)"><circle r="10"></circle><g transform="scale(0.01) translate(-52526.5,-19809.8)">
+                
+                <path data-from="1 0 nozoom" data-to="35 1 noanim-keepzoom" data-line="Crossrail" data-stops="Reading HayesHarlington Paddington BondStreet TottenhamCourtRoad Farringdon LiverpoolStreet Whitechapel Stratford Shenfield"></path>
+                <path data-from="1 0 nozoom" data-to="35 1 noanim-keepzoom" data-line="Crossrail" data-stops="HayesHarlington Heathrow"></path>
+                <path data-from="1 0 nozoom" data-to="35 1 noanim-keepzoom" data-line="Crossrail" data-stops="Whitechapel AbbeyWood"></path>
+                <path data-from="35 2" data-speed="1000" data-line="Crossrail" data-stops="Reading HayesHarlington Paddington BondStreet TottenhamCourtRoad Farringdon LiverpoolStreet Whitechapel Stratford Shenfield"></path>
+                <path data-from="35 2" data-speed="1000" data-line="Crossrail" data-stops="HayesHarlington Heathrow"></path>
+                <path data-from="35 2" data-speed="1000" data-line="Crossrail" data-stops="Whitechapel AbbeyWood"></path>
+            
+            <rect data-station="Paddington" data-lon-lat="-0.17758 51.5163"></rect>            
+            <rect data-station="BondStreet" data-lon-lat="-0.1494 51.51435"></rect>            
+            <rect data-station="TottenhamCourtRoad" data-dir="nw" data-lon-lat="-0.130556 51.516389"></rect>            
+            <rect data-station="Farringdon" data-lon-lat="-0.105278 51.520556"></rect>            
+            <rect data-station="LiverpoolStreet" data-lon-lat="-0.080833 51.518611"></rect>
+            <rect data-station="Whitechapel" data-lon-lat="-0.06032 51.51968"></rect>
+            <rect data-station="AbbeyWood" data-dir="nw" data-lon-lat="0.12125 51.4911"></rect>
+            <rect data-station="Stratford" data-lon-lat="-0.0036 51.54165"></rect>
+            <rect data-station="Reading" data-lon-lat="-0.973056 51.459167"></rect>
+            <rect data-station="Shenfield" data-dir="nw" data-lon-lat="0.32988 51.63094"></rect>
+            <rect data-station="Heathrow" data-dir="nw" data-lon-lat="-0.45484 51.47216"></rect>
+            <rect data-station="HayesHarlington" data-lon-lat="-0.42063911 51.5030326" class="helper"></rect>
+            </g><text class="label">Crossrail</text></g><g class="project" transform="translate(850,390)"><circle r="10"></circle><g transform="scale(0.01) translate(-51972,-66598.4)">
+            
+            <path data-from="1 0 nozoom" data-to="18 1 noanim-keepzoom" data-line="GPSO" data-stops="Bordeaux Triangle Montauban Toulouse"></path>
+            <path data-from="1 0 nozoom" data-to="18 1 noanim-keepzoom" data-line="GPSO" data-stops="Triangle Espagne"></path>
+            <path data-from="18 2" data-line="GPSO" data-stops="Bordeaux Triangle Montauban Toulouse"></path>
+            <path data-from="18 2" data-line="GPSO" data-stops="Triangle Espagne"></path>
+            
+            <rect data-station="Bordeaux" data-dir="n" data-lon-lat="-0.5556 44.8253"></rect>
+            <rect data-station="Triangle" data-dir="nw" data-lon-lat="-0.2582 44.3553" class="helper"></rect>
+            <rect data-station="Montauban" data-dir="nw" data-lon-lat="1.2998 43.9744"></rect>
+            <rect data-station="Toulouse" data-lon-lat="1.4544 43.6113"></rect>
+            <rect data-station="Espagne" data-dir="nw" data-lon-lat="-1.7516 43.3352"></rect></g><text class="label">GPSO (LGV Bordeaux-Toulouse/Espagne)</text></g><g class="project" transform="translate(850,390)"><circle r="10"></circle><g transform="scale(0.01) translate(-63302,-37185.8)">
+                
+                <path data-from="1 0 nozoom" data-to="11 1 noanim-nozoom" data-line="P14" data-stops="StDenisPleyel StLazare GaredeLyon Olympiades Villejuif Orly"></path>
+                <path data-from="1 0 nozoom" data-to="11 1 noanim-nozoom" data-line="P15" data-stops="NoisyChamps Champigny Villejuif IssyRER LaDefense BoisColombes StDenisPleyel RosnyBoisPerrier Champigny"></path>
+                <path data-from="1 0 nozoom" data-to="11 1 noanim-nozoom" data-line="P16" data-stops="- StDenisPleyel LeBourget ClichyMontfermeil NoisyChamps"></path>
+                <path data-from="1 0 nozoom" data-to="11 1 noanim-nozoom" data-line="P17" data-stops="- StDenisPleyel LeBourget LeMesnilAmelot"></path>
+                <path data-from="1 0 nozoom" data-to="11 1 noanim-nozoom" data-line="P18" data-stops="Orly Saclay VersaillesChantiers"></path>
+    
+                <path data-speed="1000" data-from="11 16 keepzoom" data-line="P14" data-stops="StDenisPleyel StLazare GaredeLyon Olympiades Villejuif Orly"></path>
+                <path data-speed="1000" data-from="11 2" data-line="P15" data-stops="NoisyChamps Champigny Villejuif IssyRER LaDefense BoisColombes StDenisPleyel RosnyBoisPerrier Champigny"></path>
+                <path data-speed="1000" data-from="11 8 keepzoom" data-line="P16" data-stops="- StDenisPleyel LeBourget ClichyMontfermeil NoisyChamps"></path>
+                <path data-speed="1000" data-from="11 8 keepzoom" data-line="P17" data-stops="- StDenisPleyel LeBourget LeMesnilAmelot"></path>
+                <path data-speed="1000" data-from="11 8 keepzoom" data-line="P18" data-stops="Orly Saclay VersaillesChantiers"></path>
+
+            <rect data-station="Villejuif" data-lon-lat="2.34936 48.79304"></rect>            
+            <rect data-station="Orly" data-lon-lat="2.36243 48.72976"></rect>            
+            <rect data-station="Saclay" data-lon-lat="2.1971 48.7149"></rect>            
+            <rect data-station="VersaillesChantiers" data-lon-lat="2.13593 48.79456"></rect>            
+            <rect data-station="LaDefense" data-lon-lat="2.23745 48.88950"></rect>            
+            <rect data-station="StDenisPleyel" data-lon-lat="2.3461 48.9176"></rect>            
+            <rect data-station="LeBourget" data-lon-lat="2.42567 48.93111"></rect>            
+            <rect data-station="LeMesnilAmelot" data-lon-lat="2.5899 49.0239"></rect>            
+            <rect data-station="NoisyChamps" data-lon-lat="2.58098 48.84296"></rect>            
+            <rect data-station="Champigny" data-lon-lat="2.49404 48.81806"></rect>    
+            <rect data-station="ClichyMontfermeil" data-dir="nw" data-lon-lat="2.56328 48.89805"></rect>    
+            <rect data-station="Olympiades" data-dir="ne" data-lon-lat="2.3664 48.8270"></rect>    
+            <rect data-station="GaredeLyon" data-dir="nw" data-lon-lat="2.3743 48.8435" class="helper"></rect>    
+            <rect data-station="StLazare" data-dir="ne" data-lon-lat="2.32480 48.87641"></rect>    
+            <rect data-station="IssyRER" data-dir="nw" data-lon-lat="2.26097 48.82105"></rect>    
+            <rect data-station="BoisColombes" data-dir="ne" data-lon-lat="2.2705 48.9139" class="helper"></rect>    
+            <rect data-station="RosnyBoisPerrier" data-dir="nw" data-lon-lat="2.4814 48.8818"></rect>    
+            </g><text class="label">Grand Paris Express</text></g>
+            
+            <g class="project" transform="translate(850,390)"><circle r="10"></circle><g transform="scale(0.01) translate(-96684.1,-6500)">
+                
+                <path data-from="1 0 nozoom" data-line="H1" class="helper" data-stops="NiendorfNord HagenbecksTierpark Schlump Jungfernstieg HauptbahnhofNord LübeckerStraße WandsbekerChaussee"></path>
+                <path data-from="1 0 nozoom" data-to="22 1 noanim-keepzoom" data-line="H5" data-stops="ArenenVolkspark HagenbecksTierpark Universitätsklinikum Hoheluftbrücke Stephansplatz Jungfernstieg HauptbahnhofNord h_HauptbahnhofNord_LübeckerStraße Uhlenhorst Borgweg CityNord Sengelmannstraße Bramfeld"></path>
+                <path data-from="22 2" data-line="H5" data-stops="ArenenVolkspark HagenbecksTierpark Universitätsklinikum Hoheluftbrücke Stephansplatz Jungfernstieg HauptbahnhofNord h_HauptbahnhofNord_LübeckerStraße Uhlenhorst Borgweg CityNord Sengelmannstraße Bramfeld"></path>
+            <rect data-station="Schlump" data-dir="n" data-lon-lat="9.9700757 53.5675879" class="helper"></rect> <rect data-station="WandsbekerChaussee" data-dir="nw" data-lon-lat="10.0576225 53.56982" class="helper"></rect> <rect data-station="HagenbecksTierpark" data-dir="nw" data-label-dir="s" data-lon-lat="9.9440359 53.5925874" class="helper"></rect> <rect data-station="NiendorfNord" data-lon-lat="9.9501122 53.6408535" class="helper"></rect> <rect data-station="LübeckerStraße" data-lon-lat="10.0286959 53.5598267" class="helper"></rect> <rect data-station="Hoheluftbrücke" data-lon-lat="9.976099 53.5774925" class="helper"></rect> <rect data-station="Jungfernstieg" data-label-dir="s" data-lon-lat="9.9940377 53.5534288" class="helper"></rect> <rect data-station="HauptbahnhofNord" data-lon-lat="10.008 53.5534288"></rect> <rect data-station="Borgweg" data-lon-lat="10.0147719 53.5907696" class="helper"></rect> <rect data-station="Stephansplatz" data-lon-lat="9.9893053 53.5587463" class="helper"></rect> <rect data-station="Sengelmannstraße" data-dir="nw" data-lon-lat="10.0220004 53.6093953" class="helper"></rect> <rect data-station="ArenenVolkspark" data-lon-lat="9.89775 53.59296"></rect> <rect data-station="Universitätsklinikum" data-lon-lat="9.97376 53.59293" class="helper"></rect> <rect data-station="Uhlenhorst" data-dir="n" data-label-dir="w" data-lon-lat="10.02124 53.56653" class="helper"></rect> <rect data-station="Bramfeld" data-lon-lat="10.0776 53.6137"></rect> <rect data-station="CityNord" data-dir="n" data-lon-lat="10.0173 53.6015"></rect></g><text class="label">Hamburg U5</text></g>
+            
+            <g class="project" transform="translate(850,390)"><circle r="10"></circle><g transform="scale(0.01) translate(-45660.8,-13692.6)">
+
+            <path data-from="1 0 nozoom" data-to="15 1 noanim-nozoom" data-line="HS2" data-stops="Euston BirminghamInterchange Crewe North"></path>
+            <path data-from="1 0 nozoom" data-to="15 1 noanim-nozoom" data-line="HS2" data-stops="BirminghamInterchange Birmingham"></path>
+            <path data-from="1 0 nozoom" data-to="15 1 noanim-nozoom" data-line="HS2" data-stops="Crewe Manchester"></path>
+            <path data-from="1 0 nozoom" data-to="15 1 noanim-nozoom" data-line="HS2" data-stops="BirminghamInterchange EastMidlands"></path>
+            
+            <path data-from="15 2" data-line="HS2" data-stops="Euston BirminghamInterchange Crewe North"></path>
+            <path data-from="15 2" data-line="HS2" data-stops="BirminghamInterchange Birmingham"></path>
+            <path data-from="15 2" data-line="HS2" data-stops="Crewe Manchester"></path>
+            <path data-from="15 2" data-line="HS2" data-stops="BirminghamInterchange EastMidlands"></path>
+
+            <rect data-station="Euston" data-lon-lat="-0.134722 51.528889" data-label-dir="s"></rect>            
+            <rect data-station="BirminghamInterchange" data-dir="nw" data-lon-lat="-1.7070035127805767 52.46125171446682" class="helper"></rect>            
+            <rect data-station="Birmingham" data-lon-lat="-1.8838086010610813 52.48152575162555" data-label-dir="w"></rect>            
+            <rect data-station="Manchester" data-dir="nw" data-lon-lat="-2.23 53.476944"></rect>            
+            <rect data-station="EastMidlands" data-lon-lat="-1.2630541199254108 52.862608092032104" class="helper"></rect>            
+            <rect data-station="Crewe" data-lon-lat="-2.432882180782153 53.08849481313845"></rect>
+            <rect data-station="North" data-lon-lat="-2.597879264886238 53.49314745721405" class="helper"></rect>
+            <text data-station="Euston" data-from="15 2 noanim" data-to="15 10">London</text>
+            <text data-station="Birmingham" data-from="15 2 noanim" data-to="15 10">Birmingham</text>
+            <text data-station="Manchester" data-from="15 2 noanim" data-to="15 10">Manchester</text>
+            </g><text class="label">High Speed 2</text>
+            </g>
+            <g class="project" transform="translate(850,390)"><circle r="10"></circle><g transform="scale(0.01) translate(-79048,-47300.5)"><path data-from="1 0 nozoom" data-line="RhinRhone" data-stops="Dijon Besancon BelfortMontbeliard Mulhouse"></path>
+            <rect data-station="Dijon" data-dir="nw" data-lon-lat="5.027222 47.323333"></rect>
+            <rect data-station="Besancon" data-lon-lat="5.957673 47.30881"></rect>
+            <rect data-station="BelfortMontbeliard" data-dir="nw" data-lon-lat="6.897901 47.586042"></rect>
+            <rect data-station="Mulhouse" data-dir="nw" data-lon-lat="7.34273 47.742238"></rect></g><text class="label">LGV Rhin-Rhône</text></g>
+            
+            <g class="project" transform="translate(850,390)"><circle r="10"></circle><g transform="scale(0.01) translate(-103441.4,-41866.7)">
+                
+                <path data-from="1 0 nozoom" data-to="36 1 noanim-keepzoom" data-line="M2St" data-stops="Laim MünchenHbf Marienhof MünchenOstbhf Leuchtenbergring"></path>
+                <path data-from="36 1" data-speed="1000" data-line="M2St" data-stops="Laim MünchenHbf Marienhof MünchenOstbhf Leuchtenbergring"></path>
+            <rect data-station="Marienhof" data-dir="nw" data-lon-lat="11.576321 48.138737"></rect>            
+            <rect data-station="Laim" data-lon-lat="11.503333 48.144444"></rect>            
+            <rect data-station="MünchenHbf" data-lon-lat="11.557723 48.140442"></rect>            
+            <rect data-station="MünchenOstbhf" data-lon-lat="11.604722 48.126944"></rect>            
+            <rect data-station="Leuchtenbergring" data-dir="nw" data-lon-lat="11.61599 48.134180"></rect></g><text class="label">München 2. Stammstrecke</text></g>
+            
+            <g class="project" transform="translate(850,390)"><circle r="10"></circle><g transform="scale(0.01) translate(-109993.4,-44131.9)">
+                
+                <path data-from="1 0 nozoom" data-to="21 1 noanim-keepzoom" data-line="Sb1" data-stops="SalzburgHbf Akademiestraße SalzburgSüd Hallein"></path>
+                <path data-from="21 2" data-line="Sb1" data-stops="SalzburgHbf Akademiestraße SalzburgSüd Hallein"></path>
+            
+            <rect data-station="SalzburgHbf" data-dir="n" data-lon-lat="13.0456 47.8124"></rect>            
+            <rect data-station="Akademiestraße" data-dir="nw" data-lon-lat="13.05919 47.79401"></rect>            
+            <rect data-station="SalzburgSüd" data-dir="n" data-lon-lat="13.0692 47.7746"></rect>            
+            <rect data-station="Hallein" data-dir="nw" data-lon-lat="13.0998 47.6849"></rect>           </g><text class="label">Salzburg S-LINK</text></g><g class="project" transform="translate(850,390)"><circle r="10"></circle><g transform="scale(0.01) translate(-95532.7,-39382.8)"><path data-from="1 0 nozoom" data-line="SFSWU" data-stops="Wendlingen Merklingen Ulm"></path>
+            <rect data-station="Wendlingen" data-dir="n" data-lon-lat="9.365003 48.666294"></rect>
+            <rect data-station="Merklingen" data-dir="nw" data-lon-lat="9.7421 48.5206"></rect> 
+            <rect data-station="Ulm" data-dir="n" data-lon-lat="9.983333 48.4"></rect>   
+            </g><text class="label">SFS Wendlingen-Ulm</text></g><g class="project" transform="translate(850,390)"><circle r="10"></circle><g transform="scale(0.01) translate(-93093.3,-37659.3)">
+                <path data-from="1 0 nozoom" data-to="45 1 noanim-keepzoom" data-line="S1" data-stops="Wendlingen StuttgartFlughafen StuttgartHbf h_BadCannstatt Feuerbach"></path>
+                <path data-from="1 0 nozoom" data-to="45 1 noanim-keepzoom" data-line="S1" data-stops="Untertürkheim h_Untertürkheim StuttgartHbf h_BadCannstatt h2_BadCannstatt BadCannstatt"></path>
+                <path data-from="45 1" data-speed="1000" data-line="S1" data-stops="Wendlingen StuttgartFlughafen StuttgartHbf h_BadCannstatt Feuerbach"></path>
+                <path data-from="45 1" data-speed="1000" data-line="S1" data-stops="Untertürkheim h_Untertürkheim StuttgartHbf h_BadCannstatt h2_BadCannstatt BadCannstatt"></path>
+            
+            <rect data-station="Feuerbach" data-dir="nw" data-lon-lat="9.16983 48.81340" class="helper"></rect>            
+            <rect data-station="StuttgartHbf" data-dir="ne" data-lon-lat="9.1831 48.7824"></rect>            
+            <rect data-station="StuttgartFlughafen" data-dir="nw" data-lon-lat="9.1931 48.6924"></rect>            
+            <rect data-station="Wendlingen" data-lon-lat="9.3672 48.6653" class="helper"></rect>            
+            <rect data-station="BadCannstatt" data-lon-lat="9.2170 48.8014" class="helper"></rect>            
+            <rect data-station="h_BadCannstatt" data-dir="n" data-lon-lat="9.1752 48.7940" class="helper"></rect>            
+            <rect data-station="h2_BadCannstatt" data-dir="ne" data-lon-lat="9.1834 48.7992" class="helper"></rect>            
+            <rect data-station="h_Untertürkheim" data-lon-lat="9.2300 48.7775" class="helper"></rect>            
+            <rect data-station="Untertürkheim" data-dir="ne" data-lon-lat="9.2502 48.7795" class="helper"></rect>
+            </g><text class="label">Stuttgart 21</text></g><g class="project" transform="translate(850,390)"><circle r="10"></circle><g transform="scale(0.01) translate(-59390.5,-71500)"><path data-from="1 0 nozoom" data-line="Toulouse" data-stops="ColomiersGare Blagnac LaVache MarengoMatabiau François-Verdier MontaudranGare INPT LabègeLaCadène"></path>
+            
+            <rect data-station="ColomiersGare" data-dir="ne" data-lon-lat="1.33540833 43.6044111"></rect>            
+            <rect data-station="Blagnac" data-lon-lat="1.39593889 43.6215028" class="helper"></rect>            
+            <rect data-station="LaVache" data-dir="ne" data-lon-lat="1.435608333 43.63363333" class="helper"></rect>            
+            <rect data-station="MarengoMatabiau" data-lon-lat="1.45505 43.610925"></rect>            
+            <rect data-station="François-Verdier" data-dir="ne" data-lon-lat="1.452013889 43.60059167" class="helper"></rect>            
+            <rect data-station="MontaudranGare" data-dir="ne" data-lon-lat="1.479953 43.57314"></rect>            
+            <rect data-station="INPT" data-dir="ne" data-lon-lat="1.504065 43.551039" class="helper"></rect>            
+            <rect data-station="LabègeLaCadène" data-lon-lat="1.52038889 43.5387111"></rect>
+            </g><text class="label">Toulouse Ligne C</text></g><g class="project" transform="translate(850,390)"><circle r="10"></circle><g transform="scale(0.01) translate(-101175.8,-23365.6)">
+                
+                <path data-from="1 0 nozoom" data-to="17 1 noanim-nozoom" data-line="VDE8" data-stops="Nürnberg Erfurt Halle Wittenberg Berlin"></path>
+                <path data-from="1 0 nozoom" data-to="17 1 noanim-nozoom" data-line="VDE8" data-stops="Erfurt Leipzig Wittenberg"></path>
+                <path data-from="17 2" data-line="VDE8" data-stops="Nürnberg Erfurt Halle Wittenberg Berlin"></path>
+                <path data-from="17 2" data-line="VDE8" data-stops="Erfurt Leipzig Wittenberg"></path>
+            
+            <rect data-station="Nürnberg" data-lon-lat="10.9779 49.4716"></rect>
+            <rect data-station="Erfurt" data-dir="nw" data-lon-lat="11.0376 50.9720"></rect>
+            <rect data-station="Leipzig" data-dir="nw" data-lon-lat="12.3814 51.3449"></rect>
+            <rect data-station="Halle" data-dir="n" data-lon-lat="11.9870 51.4777"></rect>
+            <rect data-station="Wittenberg" data-dir="nw" data-lon-lat="12.3167 51.6227"></rect>
+            <rect data-station="Berlin" data-lon-lat="13.3698 52.5246"></rect></g><text class="label">VDE 8 (Berlin-Nürnberg)</text></g>
+            
+            <g class="project" transform="translate(850,390)"><circle r="10"></circle><g transform="scale(0.01) translate(-124339.2,-41410.4)">
+                
+                <path data-from="1 0 nozoom" data-to="37 1 noanim-keepzoom" data-line="WU5" data-stops="Hernals Elterleinplatz Michelbeuern ArneKarlssonPark Frankhplatz WienRathaus"></path>
+                <path data-from="1 0 nozoom" data-to="37 1 noanim-keepzoom" data-line="WU2" data-stops="WienRathaus Neubaugasse Pilgramgasse ReinprechtsdorferStraße MatzleinsdorferPlatz Gussriegelstr Wienerberg"></path>
+                <path data-from="37 2" data-line="WU5" data-stops="Hernals Elterleinplatz Michelbeuern ArneKarlssonPark Frankhplatz WienRathaus"></path>
+                <path data-from="37 2" data-line="WU2" data-stops="WienRathaus Neubaugasse Pilgramgasse ReinprechtsdorferStraße MatzleinsdorferPlatz Gussriegelstr Wienerberg"></path>
+            
+            <rect data-station="WienRathaus" data-dir="ne" data-lon-lat="16.355278 48.210278"></rect>            
+            <rect data-station="Neubaugasse" data-lon-lat="16.350833 48.198611" class="helper"></rect>            
+            <rect data-station="Pilgramgasse" data-dir="ne" data-lon-lat="16.354497 48.192608" class="helper"></rect>            
+            <rect data-station="ReinprechtsdorferStraße" data-lon-lat="16.355444 48.187855" class="helper"></rect>            
+            <rect data-station="MatzleinsdorferPlatz" data-dir="ne" data-lon-lat="16.358722 48.180203" class="helper"></rect>            
+            <rect data-station="Gussriegelstr" data-dir="ne" data-lon-lat="16.357306 48.171739" class="helper"></rect>            
+            <rect data-station="Wienerberg" data-dir="ne" data-lon-lat="16.345339 48.168061"></rect>            
+            <rect data-station="Hernals" data-lon-lat="16.314889 48.223211"></rect>            
+            <rect data-station="Elterleinplatz" data-dir="ne" data-lon-lat="16.331288 48.218308" class="helper"></rect>
+            <rect data-station="Michelbeuern" data-lon-lat="16.343944 48.220944" class="helper"></rect>
+            <rect data-station="ArneKarlssonPark" data-dir="ne" data-lon-lat="16.353666 48.221425" class="helper"></rect>
+            <rect data-station="Frankhplatz" data-lon-lat="16.356314 48.214622" class="helper"></rect>
+            </g><text class="label">Wien U2xU5</text></g></g>
+
+
+        
+        <g id="elements">
+            <g class="focusable" data-from="1 1 noanim-keepzoom" onfocus="d3.selectAll('.label').style('opacity', 1);"></g>
+            <g class="focusable" data-from="10 1 noanim-nozoom"></g>
+            <g class="focusable" data-from="10 10 noanim-nozoom" onfocus="presetSelects('trains_per_hour_direction-undefined-passengers_per_day-undefined-trains_per_hour_direction-undefined')"></g>
+            <g class="focusable" data-from="10 30 noanim-nozoom"></g>
+            <g class="focusable" data-from="11 17 noanim-nozoom"></g>
+            
+            <g class="focusable" data-from="12 1 noanim-nozoom" onfocus="presetSelects('length_double_track-undefined-passengers_per_day-undefined-trains_per_hour_direction-undefined')"></g>
+            <g class="focusable" data-from="12 6 noanim-nozoom" onfocus="presetSelects('length_double_track-undefined-length_tunnel-undefined-trains_per_hour_direction-undefined')"></g>
+            <g class="focusable" data-from="12 11 noanim-nozoom" onfocus="presetSelects('estimated_construction_cost-undefined-length_tunnel-undefined-trains_per_hour_direction-undefined')"></g>
+            <g class="focusable" data-from="12 16 noanim-nozoom"></g>
+            <g class="focusable" data-from="15 10 noanim-nozoom"></g>
+            <g class="focusable" data-from="15 15 noanim-nozoom"></g>
+            
+            <g class="focusable" data-from="16 1 noanim-nozoom" onfocus="presetSelects('estimated_construction_cost-undefined-estimated_construction_cost-passengers_per_day-trains_per_hour_direction-undefined')"></g>
+            <g class="focusable" data-from="16 18 noanim-nozoom"></g>
+            <g class="focusable" data-from="17 4 noanim-keepzoom"></g>
+            <g class="focusable" data-from="18 4 noanim-nozoom"></g>
+            <g class="focusable" data-from="18 12 noanim-nozoom" onfocus="presetSelects('estimated_construction_cost-pkm_per_day-estimated_construction_cost-passengers_per_day-trains_per_hour_direction-undefined')"></g>
+            <g class="focusable" data-from="18 33 noanim-nozoom"></g>
+
+            <g class="focusable" data-from="20 3 noanim-keepzoom"></g>
+            <g class="focusable" data-from="21 3 noanim-keepzoom"></g>
+            <g class="focusable" data-from="22 3 noanim-nozoom"></g>
+            <g class="focusable" data-from="22 15 noanim-nozoom"></g>
+            <g class="focusable" data-from="23 5 noanim-nozoom"></g>
+            
+
+            <g class="focusable" data-from="30 1 noanim-nozoom" onfocus="presetSelects('emissions_construction_reference-undefined-estimated_construction_cost-undefined-trains_per_hour_direction-undefined')"></g>
+            <g class="focusable" data-from="30 7 noanim-nozoom" onfocus="presetSelects('emissions_savings_per_year_reference-undefined-pkm_per_day-undefined-trains_per_hour_direction-undefined')"></g>
+            <g class="focusable" data-from="30 27 noanim-nozoom" onfocus="presetSelects('emissions_construction_low-undefined-emissions_construction_high-undefined-trains_per_hour_direction-undefined')"></g>
+            <g class="focusable" data-from="30 37 noanim-nozoom" onfocus="presetSelects('emissions_savings_per_year_low-undefined-emissions_savings_per_year_high-undefined-trains_per_hour_direction-undefined')"></g>
+            <g class="focusable" data-from="30 47 noanim-nozoom" onfocus="presetSelects('emissions_construction_high-emissions_savings_per_year_low-emissions_construction_low-emissions_savings_per_year_high-emissions_construction_reference-emissions_savings_per_year_reference')"></g>
+            
+            <g class="focusable" data-from="30 80 noanim-nozoom"></g>
+            <g class="focusable" data-from="35 9 noanim-keepzoom"></g>
+            <g class="focusable" data-from="36 9 noanim-nozoom"></g>
+            <g class="focusable" data-from="36 18 noanim-nozoom"></g>
+            <g class="focusable" data-from="37 7 noanim-nozoom"></g>
+            <g class="focusable" data-from="37 10 noanim-nozoom"></g>
+
+            <g class="focusable" data-from="40 1 noanim-nozoom" onfocus="presetSelects('emissions_savings_per_year_reference-undefined-emissions_savings_per_year_low-undefined-trains_per_hour_direction-undefined')"></g>
+            <g class="focusable" data-from="40 5 noanim-nozoom"></g>
+            <g class="focusable" data-from="45 7 noanim-nozoom"></g>
+            <g class="focusable" data-from="45 20 noanim-nozoom"></g>
+            <g class="focusable" data-from="50 1 noanim-nozoom" onfocus="presetSelects('maximum_speed-undefined-commercial_speed-undefined-trains_per_hour_direction-undefined')"></g>
+            <g class="focusable" data-from="50 12 noanim-nozoom" onfocus="presetSelects('maximum_speed-undefined-commercial_speed-maximum_speed-trains_per_hour_direction-undefined')"></g>
+            <g class="focusable" data-from="50 20 noanim-nozoom" onfocus="presetSelects('length_double_track-number_stations-commercial_speed-maximum_speed-trains_per_hour_direction-undefined')"></g>
+            <g class="focusable" data-from="50 35 noanim-nozoom" onfocus="presetSelects('longitude-undefined-latitude-undefined-trains_per_hour_direction-undefined')"></g>
+            <g class="focusable" data-from="50 45 noanim-nozoom" style="opacity: 0;">
+                <text id="link" x="850" y="0">comparail.traines.eu</text>
+            </g>
+
+        </g>
+        </g>
+    </svg></div>
+    <div id="overlay"><div>
+        
+        <div class="axis-select" id="br">
+            <select class="select" id="select-x">
+                
+                    <option value="longitude" data-unit-numerator="degree">Longitude</option>
+                    <option value="latitude" data-unit-numerator="degree">Latitude</option>
+                    <option value="length_double_track" data-unit-numerator="km">Length (double track)</option>
+                    <option value="length_tunnel" data-unit-numerator="km">Tunnel length</option>
+                    <option value="length_tunnel_tube" data-unit-numerator="km">Tunnel length (tubes)</option>
+                    <option value="tunnel_diameter" data-unit-numerator="m">Outer tunnel diameter</option>
+                    <option value="length_bridge" data-unit-numerator="km">Bridge length</option>
+                    <option value="number_stations" data-unit-numerator="station">Number of stations</option>
+                    <option value="passengers_per_day" data-unit-numerator="passenger" data-unit-denominator="day">Passengers/day</option>
+                    <option value="pkm_per_day" data-unit-numerator="pkm" data-unit-denominator="day">Passenger-km/day</option>
+                    <option value="trains_per_hour_direction" data-unit-numerator="train">Trains per hour and direction</option>
+                    <option value="average_passengers_per_train" data-unit-numerator="passenger">Average passengers/train</option>
+                    <option value="estimated_construction_cost" data-unit-numerator="euro">Construction cost</option>
+                    <option value="construction_duration" data-unit-numerator="year">Construction duration</option>
+                    <option value="maximum_speed" data-unit-numerator="km" data-unit-denominator="h">Maximum speed</option>
+                    <option value="commercial_speed" data-unit-numerator="km" data-unit-denominator="h">Commercial speed</option>
+                    <option value="emissions_construction_reference" data-unit-numerator="tco2">Construction emissions (reference)</option>
+                    <option value="emissions_construction_low" data-unit-numerator="tco2">Construction emissions (low estimate)</option>
+                    <option value="emissions_construction_high" data-unit-numerator="tco2">Construction emissions (high estimate)</option>
+                    <option value="emissions_savings_per_year_reference" data-unit-numerator="tco2" data-unit-denominator="year">Emission savings/year (reference)</option>
+                    <option value="emissions_savings_per_year_low" data-unit-numerator="tco2" data-unit-denominator="year">Emission savings/year (low estimate)</option>
+                    <option value="emissions_savings_per_year_high" data-unit-numerator="tco2" data-unit-denominator="year">Emission savings/year (high estimate)</option>
+            </select><br />
+            <select class="select" id="select-x-per">
+                <option value="-1"></option>
+                
+                    <option value="longitude" data-unit-numerator="degree">per Longitude</option>
+                    <option value="latitude" data-unit-numerator="degree">per Latitude</option>
+                    <option value="length_double_track" data-unit-numerator="km">per Length (double track)</option>
+                    <option value="length_tunnel" data-unit-numerator="km">per Tunnel length</option>
+                    <option value="length_tunnel_tube" data-unit-numerator="km">per Tunnel length (tubes)</option>
+                    <option value="tunnel_diameter" data-unit-numerator="m">per Outer tunnel diameter</option>
+                    <option value="length_bridge" data-unit-numerator="km">per Bridge length</option>
+                    <option value="number_stations" data-unit-numerator="station">per Number of stations</option>
+                    <option value="passengers_per_day" data-unit-numerator="passenger" data-unit-denominator="day">per Passengers/day</option>
+                    <option value="pkm_per_day" data-unit-numerator="pkm" data-unit-denominator="day">per Passenger-km/day</option>
+                    <option value="trains_per_hour_direction" data-unit-numerator="train">per Trains per hour and direction</option>
+                    <option value="average_passengers_per_train" data-unit-numerator="passenger">per Average passengers/train</option>
+                    <option value="estimated_construction_cost" data-unit-numerator="euro">per Construction cost</option>
+                    <option value="construction_duration" data-unit-numerator="year">per Construction duration</option>
+                    <option value="maximum_speed" data-unit-numerator="km" data-unit-denominator="h">per Maximum speed</option>
+                    <option value="commercial_speed" data-unit-numerator="km" data-unit-denominator="h">per Commercial speed</option>
+                    <option value="emissions_construction_reference" data-unit-numerator="tco2">per Construction emissions (reference)</option>
+                    <option value="emissions_construction_low" data-unit-numerator="tco2">per Construction emissions (low estimate)</option>
+                    <option value="emissions_construction_high" data-unit-numerator="tco2">per Construction emissions (high estimate)</option>
+                    <option value="emissions_savings_per_year_reference" data-unit-numerator="tco2" data-unit-denominator="year">per Emission savings/year (reference)</option>
+                    <option value="emissions_savings_per_year_low" data-unit-numerator="tco2" data-unit-denominator="year">per Emission savings/year (low estimate)</option>
+                    <option value="emissions_savings_per_year_high" data-unit-numerator="tco2" data-unit-denominator="year">per Emission savings/year (high estimate)</option>
+            </select>
+        </div>
+    
+        <div class="axis-select" id="tl">
+            <select class="select" id="select-y">
+                
+                    <option value="longitude" data-unit-numerator="degree">Longitude</option>
+                    <option value="latitude" data-unit-numerator="degree">Latitude</option>
+                    <option value="length_double_track" data-unit-numerator="km">Length (double track)</option>
+                    <option value="length_tunnel" data-unit-numerator="km">Tunnel length</option>
+                    <option value="length_tunnel_tube" data-unit-numerator="km">Tunnel length (tubes)</option>
+                    <option value="tunnel_diameter" data-unit-numerator="m">Outer tunnel diameter</option>
+                    <option value="length_bridge" data-unit-numerator="km">Bridge length</option>
+                    <option value="number_stations" data-unit-numerator="station">Number of stations</option>
+                    <option value="passengers_per_day" data-unit-numerator="passenger" data-unit-denominator="day">Passengers/day</option>
+                    <option value="pkm_per_day" data-unit-numerator="pkm" data-unit-denominator="day">Passenger-km/day</option>
+                    <option value="trains_per_hour_direction" data-unit-numerator="train">Trains per hour and direction</option>
+                    <option value="average_passengers_per_train" data-unit-numerator="passenger">Average passengers/train</option>
+                    <option value="estimated_construction_cost" data-unit-numerator="euro">Construction cost</option>
+                    <option value="construction_duration" data-unit-numerator="year">Construction duration</option>
+                    <option value="maximum_speed" data-unit-numerator="km" data-unit-denominator="h">Maximum speed</option>
+                    <option value="commercial_speed" data-unit-numerator="km" data-unit-denominator="h">Commercial speed</option>
+                    <option value="emissions_construction_reference" data-unit-numerator="tco2">Construction emissions (reference)</option>
+                    <option value="emissions_construction_low" data-unit-numerator="tco2">Construction emissions (low estimate)</option>
+                    <option value="emissions_construction_high" data-unit-numerator="tco2">Construction emissions (high estimate)</option>
+                    <option value="emissions_savings_per_year_reference" data-unit-numerator="tco2" data-unit-denominator="year">Emission savings/year (reference)</option>
+                    <option value="emissions_savings_per_year_low" data-unit-numerator="tco2" data-unit-denominator="year">Emission savings/year (low estimate)</option>
+                    <option value="emissions_savings_per_year_high" data-unit-numerator="tco2" data-unit-denominator="year">Emission savings/year (high estimate)</option>
+            </select><br />
+            <select class="select" id="select-y-per">
+                <option value="-1"></option>
+                
+                    <option value="longitude" data-unit-numerator="degree">per Longitude</option>
+                    <option value="latitude" data-unit-numerator="degree">per Latitude</option>
+                    <option value="length_double_track" data-unit-numerator="km">per Length (double track)</option>
+                    <option value="length_tunnel" data-unit-numerator="km">per Tunnel length</option>
+                    <option value="length_tunnel_tube" data-unit-numerator="km">per Tunnel length (tubes)</option>
+                    <option value="tunnel_diameter" data-unit-numerator="m">per Outer tunnel diameter</option>
+                    <option value="length_bridge" data-unit-numerator="km">per Bridge length</option>
+                    <option value="number_stations" data-unit-numerator="station">per Number of stations</option>
+                    <option value="passengers_per_day" data-unit-numerator="passenger" data-unit-denominator="day">per Passengers/day</option>
+                    <option value="pkm_per_day" data-unit-numerator="pkm" data-unit-denominator="day">per Passenger-km/day</option>
+                    <option value="trains_per_hour_direction" data-unit-numerator="train">per Trains per hour and direction</option>
+                    <option value="average_passengers_per_train" data-unit-numerator="passenger">per Average passengers/train</option>
+                    <option value="estimated_construction_cost" data-unit-numerator="euro">per Construction cost</option>
+                    <option value="construction_duration" data-unit-numerator="year">per Construction duration</option>
+                    <option value="maximum_speed" data-unit-numerator="km" data-unit-denominator="h">per Maximum speed</option>
+                    <option value="commercial_speed" data-unit-numerator="km" data-unit-denominator="h">per Commercial speed</option>
+                    <option value="emissions_construction_reference" data-unit-numerator="tco2">per Construction emissions (reference)</option>
+                    <option value="emissions_construction_low" data-unit-numerator="tco2">per Construction emissions (low estimate)</option>
+                    <option value="emissions_construction_high" data-unit-numerator="tco2">per Construction emissions (high estimate)</option>
+                    <option value="emissions_savings_per_year_reference" data-unit-numerator="tco2" data-unit-denominator="year">per Emission savings/year (reference)</option>
+                    <option value="emissions_savings_per_year_low" data-unit-numerator="tco2" data-unit-denominator="year">per Emission savings/year (low estimate)</option>
+                    <option value="emissions_savings_per_year_high" data-unit-numerator="tco2" data-unit-denominator="year">per Emission savings/year (high estimate)</option>
+            </select>
+        </div>
+    
+        <div class="axis-select" id="tr">
+            <select class="select" id="select-z">
+                
+                    <option value="longitude" data-unit-numerator="degree">Longitude</option>
+                    <option value="latitude" data-unit-numerator="degree">Latitude</option>
+                    <option value="length_double_track" data-unit-numerator="km">Length (double track)</option>
+                    <option value="length_tunnel" data-unit-numerator="km">Tunnel length</option>
+                    <option value="length_tunnel_tube" data-unit-numerator="km">Tunnel length (tubes)</option>
+                    <option value="tunnel_diameter" data-unit-numerator="m">Outer tunnel diameter</option>
+                    <option value="length_bridge" data-unit-numerator="km">Bridge length</option>
+                    <option value="number_stations" data-unit-numerator="station">Number of stations</option>
+                    <option value="passengers_per_day" data-unit-numerator="passenger" data-unit-denominator="day">Passengers/day</option>
+                    <option value="pkm_per_day" data-unit-numerator="pkm" data-unit-denominator="day">Passenger-km/day</option>
+                    <option value="trains_per_hour_direction" data-unit-numerator="train">Trains per hour and direction</option>
+                    <option value="average_passengers_per_train" data-unit-numerator="passenger">Average passengers/train</option>
+                    <option value="estimated_construction_cost" data-unit-numerator="euro">Construction cost</option>
+                    <option value="construction_duration" data-unit-numerator="year">Construction duration</option>
+                    <option value="maximum_speed" data-unit-numerator="km" data-unit-denominator="h">Maximum speed</option>
+                    <option value="commercial_speed" data-unit-numerator="km" data-unit-denominator="h">Commercial speed</option>
+                    <option value="emissions_construction_reference" data-unit-numerator="tco2">Construction emissions (reference)</option>
+                    <option value="emissions_construction_low" data-unit-numerator="tco2">Construction emissions (low estimate)</option>
+                    <option value="emissions_construction_high" data-unit-numerator="tco2">Construction emissions (high estimate)</option>
+                    <option value="emissions_savings_per_year_reference" data-unit-numerator="tco2" data-unit-denominator="year">Emission savings/year (reference)</option>
+                    <option value="emissions_savings_per_year_low" data-unit-numerator="tco2" data-unit-denominator="year">Emission savings/year (low estimate)</option>
+                    <option value="emissions_savings_per_year_high" data-unit-numerator="tco2" data-unit-denominator="year">Emission savings/year (high estimate)</option>
+            </select><br />
+            <select class="select" id="select-z-per">
+                <option value="-1"></option>
+                
+                    <option value="longitude" data-unit-numerator="degree">per Longitude</option>
+                    <option value="latitude" data-unit-numerator="degree">per Latitude</option>
+                    <option value="length_double_track" data-unit-numerator="km">per Length (double track)</option>
+                    <option value="length_tunnel" data-unit-numerator="km">per Tunnel length</option>
+                    <option value="length_tunnel_tube" data-unit-numerator="km">per Tunnel length (tubes)</option>
+                    <option value="tunnel_diameter" data-unit-numerator="m">per Outer tunnel diameter</option>
+                    <option value="length_bridge" data-unit-numerator="km">per Bridge length</option>
+                    <option value="number_stations" data-unit-numerator="station">per Number of stations</option>
+                    <option value="passengers_per_day" data-unit-numerator="passenger" data-unit-denominator="day">per Passengers/day</option>
+                    <option value="pkm_per_day" data-unit-numerator="pkm" data-unit-denominator="day">per Passenger-km/day</option>
+                    <option value="trains_per_hour_direction" data-unit-numerator="train">per Trains per hour and direction</option>
+                    <option value="average_passengers_per_train" data-unit-numerator="passenger">per Average passengers/train</option>
+                    <option value="estimated_construction_cost" data-unit-numerator="euro">per Construction cost</option>
+                    <option value="construction_duration" data-unit-numerator="year">per Construction duration</option>
+                    <option value="maximum_speed" data-unit-numerator="km" data-unit-denominator="h">per Maximum speed</option>
+                    <option value="commercial_speed" data-unit-numerator="km" data-unit-denominator="h">per Commercial speed</option>
+                    <option value="emissions_construction_reference" data-unit-numerator="tco2">per Construction emissions (reference)</option>
+                    <option value="emissions_construction_low" data-unit-numerator="tco2">per Construction emissions (low estimate)</option>
+                    <option value="emissions_construction_high" data-unit-numerator="tco2">per Construction emissions (high estimate)</option>
+                    <option value="emissions_savings_per_year_reference" data-unit-numerator="tco2" data-unit-denominator="year">per Emission savings/year (reference)</option>
+                    <option value="emissions_savings_per_year_low" data-unit-numerator="tco2" data-unit-denominator="year">per Emission savings/year (low estimate)</option>
+                    <option value="emissions_savings_per_year_high" data-unit-numerator="tco2" data-unit-denominator="year">per Emission savings/year (high estimate)</option>
+            </select>
+        </div>
+        
+    </div></div>
+    <div id="meta"><div>                
+        <div class="hscroll">
+            <table id="datatable">
+                <tr>
+                    <th></th><th colspan="2"></th><th colspan="2"></th><th colspan="2"></th>
+                </tr>
+                
+                    <tr class="row">
+                        <td><a href="https://wikidata.org/wiki/Q99711" target="_blank">Berlin U5 West</a></td><td class="val"></td><td class="src"></td><td class="val"></td><td class="src"></td><td class="val"></td><td class="src"></td>
+                    </tr>
+                    <tr class="row">
+                        <td><a href="https://wikidata.org/wiki/Q697347" target="_blank">Brennerbasistunnel</a></td><td class="val"></td><td class="src"></td><td class="val"></td><td class="src"></td><td class="val"></td><td class="src"></td>
+                    </tr>
+                    <tr class="row">
+                        <td><a href="https://wikidata.org/wiki/Q18432864" target="_blank">Bruxelles M3</a></td><td class="val"></td><td class="src"></td><td class="val"></td><td class="src"></td><td class="val"></td><td class="src"></td>
+                    </tr>
+                    <tr class="row">
+                        <td><a href="https://wikidata.org/wiki/Q732649" target="_blank">Crossrail</a></td><td class="val"></td><td class="src"></td><td class="val"></td><td class="src"></td><td class="val"></td><td class="src"></td>
+                    </tr>
+                    <tr class="row">
+                        <td><a href="https://wikidata.org/wiki/Q18331917" target="_blank">GPSO (LGV Bordeaux-Toulouse/Espagne)</a></td><td class="val"></td><td class="src"></td><td class="val"></td><td class="src"></td><td class="val"></td><td class="src"></td>
+                    </tr>
+                    <tr class="row">
+                        <td><a href="https://wikidata.org/wiki/Q867203" target="_blank">Grand Paris Express</a></td><td class="val"></td><td class="src"></td><td class="val"></td><td class="src"></td><td class="val"></td><td class="src"></td>
+                    </tr>
+                    <tr class="row">
+                        <td><a href="https://wikidata.org/wiki/Q16321051" target="_blank">Hamburg U5</a></td><td class="val"></td><td class="src"></td><td class="val"></td><td class="src"></td><td class="val"></td><td class="src"></td>
+                    </tr>
+                    <tr class="row">
+                        <td><a href="https://wikidata.org/wiki/Q798868" target="_blank">High Speed 2</a></td><td class="val"></td><td class="src"></td><td class="val"></td><td class="src"></td><td class="val"></td><td class="src"></td>
+                    </tr>
+                    <tr class="row">
+                        <td><a href="https://wikidata.org/wiki/Q1087561" target="_blank">LGV Rhin-Rhône</a></td><td class="val"></td><td class="src"></td><td class="val"></td><td class="src"></td><td class="val"></td><td class="src"></td>
+                    </tr>
+                    <tr class="row">
+                        <td><a href="https://wikidata.org/wiki/Q1739470" target="_blank">München 2. Stammstrecke</a></td><td class="val"></td><td class="src"></td><td class="val"></td><td class="src"></td><td class="val"></td><td class="src"></td>
+                    </tr>
+                    <tr class="row">
+                        <td><a href="https://wikidata.org/wiki/Q107586064" target="_blank">Salzburg S-LINK</a></td><td class="val"></td><td class="src"></td><td class="val"></td><td class="src"></td><td class="val"></td><td class="src"></td>
+                    </tr>
+                    <tr class="row">
+                        <td><a href="https://wikidata.org/wiki/Q830539" target="_blank">SFS Wendlingen-Ulm</a></td><td class="val"></td><td class="src"></td><td class="val"></td><td class="src"></td><td class="val"></td><td class="src"></td>
+                    </tr>
+                    <tr class="row">
+                        <td><a href="https://wikidata.org/wiki/Q700996" target="_blank">Stuttgart 21</a></td><td class="val"></td><td class="src"></td><td class="val"></td><td class="src"></td><td class="val"></td><td class="src"></td>
+                    </tr>
+                    <tr class="row">
+                        <td><a href="https://wikidata.org/wiki/Q110876443" target="_blank">Toulouse Ligne C</a></td><td class="val"></td><td class="src"></td><td class="val"></td><td class="src"></td><td class="val"></td><td class="src"></td>
+                    </tr>
+                    <tr class="row">
+                        <td><a href="https://wikidata.org/wiki/Q2516381" target="_blank">VDE 8 (Berlin-Nürnberg)</a></td><td class="val"></td><td class="src"></td><td class="val"></td><td class="src"></td><td class="val"></td><td class="src"></td>
+                    </tr>
+                    <tr class="row">
+                        <td><a href="https://wikidata.org/wiki/Q97126820" target="_blank">Wien U2xU5</a></td><td class="val"></td><td class="src"></td><td class="val"></td><td class="src"></td><td class="val"></td><td class="src"></td>
+                    </tr>
+            </table>
+        </div>
+        <div id="csv"><a href="/dist/rail-projects-comparison.csv">Download entire dataset as CSV</a> | <a href="https://github.com/traines-source/rail-projects-comparison#contribute">Contribute data for another rail project or report an error</a></div>
+        <div id="footer">
+            <a href="/en/" hreflang="en">EN</a> | <a href="/de/" hreflang="de">DE</a> | <a href="/fr/" hreflang="fr">FR</a> | <a href="https://traines.eu/impressum.html">Imprint/Privacy</a>
+        </div>
+    </div></div>
+   
+    <script>var unitTranslations = {"degree": {"sg": "degree", "pl": "degrees"}, "km": {"sg": "km", "pl": "km"}, "m": {"sg": "m", "pl": "m"}, "station": {"sg": "station", "pl": "stations"}, "passenger": {"sg": "passenger", "pl": "passengers"}, "day": {"sg": "day", "pl": "days"}, "pkm": {"sg": "Pkm", "pl": "Pkm"}, "train": {"sg": "train", "pl": "trains"}, "euro": {"sg": "\u20ac", "pl": "\u20ac"}, "year": {"sg": "year", "pl": "years"}, "h": {"sg": "h", "pl": "h"}, "tco2": {"sg": "tCO2", "pl": "tCO2"}, "percent": {"sg": "percent", "pl": "percent"}};</script>
+    <script src="/vendor/network-animator.min.js"></script>
+    <script>
+        TNA.Config.default.zoomMaxScale = 5;
+        TNA.Config.default.labelHeight = 180;
+        TNA.Config.default.labelDistance = 200;
+    </script>
+    <script src="/res/main.js"></script>
+</body>
+</html>
