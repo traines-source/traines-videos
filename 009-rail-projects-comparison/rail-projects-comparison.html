@@ -18,6 +18,20 @@
     <link rel="stylesheet" href="/res/styles.css" />
     <link rel="stylesheet" href="/suppl/styles.css" />
     <script src="/vendor/d3.v7.min.js"></script>
+    <script>
+        var labels = ['select-x', 'select-x-per', 'select-y', 'select-y-per'];
+        function slide(id) {    
+            presetSelects(id);
+            for (var i=0;i<labels.length; i++) {
+                var node = document.getElementById(labels[i]);
+                var target = document.getElementById(labels[i]+'-dimen');
+                if (node.value == -1 || node.selectedIndex == -1)
+                    target.innerHTML = '';
+                else
+                    target.innerHTML = node.options[node.selectedIndex].innerHTML;
+            }
+        }
+    </script>
    
 </head>
 <body>
@@ -50,7 +64,7 @@
             <g class="project" transform="translate(850,390)"><circle r="10"></circle><g transform="scale(0.01) translate(-72042.5,-24175.6)">
                 
                 <path data-from="1 0 nozoom" data-to="20 1 noanim-keepzoom" data-line="Bruxelles" data-stops="Albert GareduMidi Bourse GareduNord Bordet"></path>
-                <path data-from="20 2" data-line="Bruxelles" data-stops="Albert GareduMidi Bourse GareduNord Bordet"></path>
+                <path data-from="20 2" data-speed="1000" data-line="Bruxelles" data-stops="Albert GareduMidi Bourse GareduNord Bordet"></path>
             
             <rect data-station="Albert" data-dir="ne" data-lon-lat="4.34194 50.82139"></rect>            
             <rect data-station="GareduMidi" data-lon-lat="4.337228 50.836747" class="helper"></rect>            
@@ -99,7 +113,7 @@
                 <path data-from="1 0 nozoom" data-to="11 1 noanim-nozoom" data-line="P17" data-stops="- StDenisPleyel LeBourget LeMesnilAmelot"></path>
                 <path data-from="1 0 nozoom" data-to="11 1 noanim-nozoom" data-line="P18" data-stops="Orly Saclay VersaillesChantiers"></path>
     
-                <path data-speed="1000" data-from="11 16 keepzoom" data-line="P14" data-stops="StDenisPleyel StLazare GaredeLyon Olympiades Villejuif Orly"></path>
+                <path data-speed="1000" data-from="11 14 keepzoom" data-line="P14" data-stops="StDenisPleyel StLazare GaredeLyon Olympiades Villejuif Orly"></path>
                 <path data-speed="1000" data-from="11 2" data-line="P15" data-stops="NoisyChamps Champigny Villejuif IssyRER LaDefense BoisColombes StDenisPleyel RosnyBoisPerrier Champigny"></path>
                 <path data-speed="1000" data-from="11 8 keepzoom" data-line="P16" data-stops="- StDenisPleyel LeBourget ClichyMontfermeil NoisyChamps"></path>
                 <path data-speed="1000" data-from="11 8 keepzoom" data-line="P17" data-stops="- StDenisPleyel LeBourget LeMesnilAmelot"></path>
@@ -128,7 +142,7 @@
                 
                 <path data-from="1 0 nozoom" data-line="H1" class="helper" data-stops="NiendorfNord HagenbecksTierpark Schlump Jungfernstieg HauptbahnhofNord LübeckerStraße WandsbekerChaussee"></path>
                 <path data-from="1 0 nozoom" data-to="22 1 noanim-keepzoom" data-line="H5" data-stops="ArenenVolkspark HagenbecksTierpark Universitätsklinikum Hoheluftbrücke Stephansplatz Jungfernstieg HauptbahnhofNord h_HauptbahnhofNord_LübeckerStraße Uhlenhorst Borgweg CityNord Sengelmannstraße Bramfeld"></path>
-                <path data-from="22 2" data-line="H5" data-stops="ArenenVolkspark HagenbecksTierpark Universitätsklinikum Hoheluftbrücke Stephansplatz Jungfernstieg HauptbahnhofNord h_HauptbahnhofNord_LübeckerStraße Uhlenhorst Borgweg CityNord Sengelmannstraße Bramfeld"></path>
+                <path data-from="22 2" data-speed="1000" data-line="H5" data-stops="ArenenVolkspark HagenbecksTierpark Universitätsklinikum Hoheluftbrücke Stephansplatz Jungfernstieg HauptbahnhofNord h_HauptbahnhofNord_LübeckerStraße Uhlenhorst Borgweg CityNord Sengelmannstraße Bramfeld"></path>
             <rect data-station="Schlump" data-dir="n" data-lon-lat="9.9700757 53.5675879" class="helper"></rect> <rect data-station="WandsbekerChaussee" data-dir="nw" data-lon-lat="10.0576225 53.56982" class="helper"></rect> <rect data-station="HagenbecksTierpark" data-dir="nw" data-label-dir="s" data-lon-lat="9.9440359 53.5925874" class="helper"></rect> <rect data-station="NiendorfNord" data-lon-lat="9.9501122 53.6408535" class="helper"></rect> <rect data-station="LübeckerStraße" data-lon-lat="10.0286959 53.5598267" class="helper"></rect> <rect data-station="Hoheluftbrücke" data-lon-lat="9.976099 53.5774925" class="helper"></rect> <rect data-station="Jungfernstieg" data-label-dir="s" data-lon-lat="9.9940377 53.5534288" class="helper"></rect> <rect data-station="HauptbahnhofNord" data-lon-lat="10.008 53.5534288"></rect> <rect data-station="Borgweg" data-lon-lat="10.0147719 53.5907696" class="helper"></rect> <rect data-station="Stephansplatz" data-lon-lat="9.9893053 53.5587463" class="helper"></rect> <rect data-station="Sengelmannstraße" data-dir="nw" data-lon-lat="10.0220004 53.6093953" class="helper"></rect> <rect data-station="ArenenVolkspark" data-lon-lat="9.89775 53.59296"></rect> <rect data-station="Universitätsklinikum" data-lon-lat="9.97376 53.59293" class="helper"></rect> <rect data-station="Uhlenhorst" data-dir="n" data-label-dir="w" data-lon-lat="10.02124 53.56653" class="helper"></rect> <rect data-station="Bramfeld" data-lon-lat="10.0776 53.6137"></rect> <rect data-station="CityNord" data-dir="n" data-lon-lat="10.0173 53.6015"></rect></g><text class="label">Hamburg U5</text></g>
             
             <g class="project" transform="translate(850,390)"><circle r="10"></circle><g transform="scale(0.01) translate(-45660.8,-13692.6)">
@@ -174,7 +188,7 @@
             <g class="project" transform="translate(850,390)"><circle r="10"></circle><g transform="scale(0.01) translate(-109993.4,-44131.9)">
                 
                 <path data-from="1 0 nozoom" data-to="21 1 noanim-keepzoom" data-line="Sb1" data-stops="SalzburgHbf Akademiestraße SalzburgSüd Hallein"></path>
-                <path data-from="21 2" data-line="Sb1" data-stops="SalzburgHbf Akademiestraße SalzburgSüd Hallein"></path>
+                <path data-from="21 2" data-speed="1000" data-line="Sb1" data-stops="SalzburgHbf Akademiestraße SalzburgSüd Hallein"></path>
             
             <rect data-station="SalzburgHbf" data-dir="n" data-lon-lat="13.0456 47.8124"></rect>            
             <rect data-station="Akademiestraße" data-dir="nw" data-lon-lat="13.05919 47.79401"></rect>            
@@ -226,8 +240,8 @@
                 
                 <path data-from="1 0 nozoom" data-to="37 1 noanim-keepzoom" data-line="WU5" data-stops="Hernals Elterleinplatz Michelbeuern ArneKarlssonPark Frankhplatz WienRathaus"></path>
                 <path data-from="1 0 nozoom" data-to="37 1 noanim-keepzoom" data-line="WU2" data-stops="WienRathaus Neubaugasse Pilgramgasse ReinprechtsdorferStraße MatzleinsdorferPlatz Gussriegelstr Wienerberg"></path>
-                <path data-from="37 2" data-line="WU5" data-stops="Hernals Elterleinplatz Michelbeuern ArneKarlssonPark Frankhplatz WienRathaus"></path>
-                <path data-from="37 2" data-line="WU2" data-stops="WienRathaus Neubaugasse Pilgramgasse ReinprechtsdorferStraße MatzleinsdorferPlatz Gussriegelstr Wienerberg"></path>
+                <path data-from="37 2" data-speed="1000" data-line="WU5" data-stops="Hernals Elterleinplatz Michelbeuern ArneKarlssonPark Frankhplatz WienRathaus"></path>
+                <path data-from="37 2" data-speed="1000" data-line="WU2" data-stops="WienRathaus Neubaugasse Pilgramgasse ReinprechtsdorferStraße MatzleinsdorferPlatz Gussriegelstr Wienerberg"></path>
             
             <rect data-station="WienRathaus" data-dir="ne" data-lon-lat="16.355278 48.210278"></rect>            
             <rect data-station="Neubaugasse" data-lon-lat="16.350833 48.198611" class="helper"></rect>            
@@ -248,23 +262,23 @@
         <g id="elements">
             <g class="focusable" data-from="1 1 noanim-keepzoom" onfocus="d3.selectAll('.label').style('opacity', 1);"></g>
             <g class="focusable" data-from="10 1 noanim-nozoom"></g>
-            <g class="focusable" data-from="10 10 noanim-nozoom" onfocus="presetSelects('trains_per_hour_direction-undefined-passengers_per_day-undefined-trains_per_hour_direction-undefined')"></g>
-            <g class="focusable" data-from="10 30 noanim-nozoom"></g>
-            <g class="focusable" data-from="11 17 noanim-nozoom"></g>
+            <g class="focusable" data-from="10 12 noanim-nozoom" onfocus="slide('trains_per_hour_direction-undefined-passengers_per_day-undefined-trains_per_hour_direction-undefined')"></g>
+            <g class="focusable" data-from="10 33 noanim-nozoom"></g>
+            <g class="focusable" data-from="11 18 noanim-nozoom"></g>
             
-            <g class="focusable" data-from="12 1 noanim-nozoom" onfocus="presetSelects('length_double_track-undefined-passengers_per_day-undefined-trains_per_hour_direction-undefined')"></g>
-            <g class="focusable" data-from="12 6 noanim-nozoom" onfocus="presetSelects('length_double_track-undefined-length_tunnel-undefined-trains_per_hour_direction-undefined')"></g>
-            <g class="focusable" data-from="12 11 noanim-nozoom" onfocus="presetSelects('estimated_construction_cost-undefined-length_tunnel-undefined-trains_per_hour_direction-undefined')"></g>
-            <g class="focusable" data-from="12 16 noanim-nozoom"></g>
+            <g class="focusable" data-from="12 1 noanim-nozoom" onfocus="slide('length_double_track-undefined-passengers_per_day-undefined-trains_per_hour_direction-undefined')"></g>
+            <g class="focusable" data-from="12 7 noanim-nozoom" onfocus="slide('length_double_track-undefined-length_tunnel-undefined-trains_per_hour_direction-undefined')"></g>
+            <g class="focusable" data-from="12 17 noanim-nozoom" onfocus="slide('estimated_construction_cost-undefined-length_tunnel-undefined-trains_per_hour_direction-undefined')"></g>
+            <g class="focusable" data-from="12 23 noanim-nozoom"></g>
             <g class="focusable" data-from="15 10 noanim-nozoom"></g>
             <g class="focusable" data-from="15 15 noanim-nozoom"></g>
             
-            <g class="focusable" data-from="16 1 noanim-nozoom" onfocus="presetSelects('estimated_construction_cost-undefined-estimated_construction_cost-passengers_per_day-trains_per_hour_direction-undefined')"></g>
-            <g class="focusable" data-from="16 18 noanim-nozoom"></g>
+            <g class="focusable" data-from="16 1 noanim-nozoom" onfocus="slide('estimated_construction_cost-undefined-estimated_construction_cost-passengers_per_day-trains_per_hour_direction-undefined')"></g>
+            <g class="focusable" data-from="16 24 noanim-nozoom"></g>
             <g class="focusable" data-from="17 4 noanim-keepzoom"></g>
             <g class="focusable" data-from="18 4 noanim-nozoom"></g>
-            <g class="focusable" data-from="18 12 noanim-nozoom" onfocus="presetSelects('estimated_construction_cost-pkm_per_day-estimated_construction_cost-passengers_per_day-trains_per_hour_direction-undefined')"></g>
-            <g class="focusable" data-from="18 33 noanim-nozoom"></g>
+            <g class="focusable" data-from="18 10 noanim-nozoom" onfocus="slide('estimated_construction_cost-pkm_per_day-estimated_construction_cost-passengers_per_day-trains_per_hour_direction-undefined')"></g>
+            <g class="focusable" data-from="18 29 noanim-nozoom"></g>
 
             <g class="focusable" data-from="20 3 noanim-keepzoom"></g>
             <g class="focusable" data-from="21 3 noanim-keepzoom"></g>
@@ -273,30 +287,36 @@
             <g class="focusable" data-from="23 5 noanim-nozoom"></g>
             
 
-            <g class="focusable" data-from="30 1 noanim-nozoom" onfocus="presetSelects('emissions_construction_reference-undefined-estimated_construction_cost-undefined-trains_per_hour_direction-undefined')"></g>
-            <g class="focusable" data-from="30 7 noanim-nozoom" onfocus="presetSelects('emissions_savings_per_year_reference-undefined-pkm_per_day-undefined-trains_per_hour_direction-undefined')"></g>
-            <g class="focusable" data-from="30 27 noanim-nozoom" onfocus="presetSelects('emissions_construction_low-undefined-emissions_construction_high-undefined-trains_per_hour_direction-undefined')"></g>
-            <g class="focusable" data-from="30 37 noanim-nozoom" onfocus="presetSelects('emissions_savings_per_year_low-undefined-emissions_savings_per_year_high-undefined-trains_per_hour_direction-undefined')"></g>
-            <g class="focusable" data-from="30 47 noanim-nozoom" onfocus="presetSelects('emissions_construction_high-emissions_savings_per_year_low-emissions_construction_low-emissions_savings_per_year_high-emissions_construction_reference-emissions_savings_per_year_reference')"></g>
+            <g class="focusable" data-from="30 1 noanim-nozoom" onfocus="slide('emissions_construction_reference-undefined-estimated_construction_cost-undefined-trains_per_hour_direction-undefined')"></g>
+            <g class="focusable" data-from="30 17 noanim-nozoom" onfocus="slide('emissions_savings_per_year_reference-undefined-pkm_per_day-undefined-trains_per_hour_direction-undefined')"></g>
+            <g class="focusable" data-from="30 37 noanim-nozoom" onfocus="slide('emissions_construction_low-undefined-emissions_construction_high-undefined-trains_per_hour_direction-undefined')"></g>
+            <g class="focusable" data-from="30 49 noanim-nozoom" onfocus="slide('emissions_savings_per_year_low-undefined-emissions_savings_per_year_high-undefined-trains_per_hour_direction-undefined')"></g>
+            <g class="focusable" data-from="30 61 noanim-nozoom" onfocus="slide('emissions_construction_high-emissions_savings_per_year_low-emissions_construction_low-emissions_savings_per_year_high-trains_per_hour_direction-undefined')"></g>
             
-            <g class="focusable" data-from="30 80 noanim-nozoom"></g>
+            <g class="focusable" data-from="30 92 noanim-nozoom"></g>
             <g class="focusable" data-from="35 9 noanim-keepzoom"></g>
             <g class="focusable" data-from="36 9 noanim-nozoom"></g>
             <g class="focusable" data-from="36 18 noanim-nozoom"></g>
             <g class="focusable" data-from="37 7 noanim-nozoom"></g>
-            <g class="focusable" data-from="37 10 noanim-nozoom"></g>
+            <g class="focusable" data-from="37 20 noanim-nozoom" onfocus="slide('emissions_construction_high-emissions_savings_per_year_low-emissions_construction_reference-emissions_savings_per_year_reference-trains_per_hour_direction-undefined')"></g>
+            <g class="focusable" data-from="37 35 noanim-nozoom"></g>
 
-            <g class="focusable" data-from="40 1 noanim-nozoom" onfocus="presetSelects('emissions_savings_per_year_reference-undefined-emissions_savings_per_year_low-undefined-trains_per_hour_direction-undefined')"></g>
+            <g class="focusable" data-from="40 1 noanim-nozoom" onfocus="slide('emissions_savings_per_year_reference-undefined-emissions_savings_per_year_low-undefined-trains_per_hour_direction-undefined')"></g>
             <g class="focusable" data-from="40 5 noanim-nozoom"></g>
             <g class="focusable" data-from="45 7 noanim-nozoom"></g>
-            <g class="focusable" data-from="45 20 noanim-nozoom"></g>
-            <g class="focusable" data-from="50 1 noanim-nozoom" onfocus="presetSelects('maximum_speed-undefined-commercial_speed-undefined-trains_per_hour_direction-undefined')"></g>
-            <g class="focusable" data-from="50 12 noanim-nozoom" onfocus="presetSelects('maximum_speed-undefined-commercial_speed-maximum_speed-trains_per_hour_direction-undefined')"></g>
-            <g class="focusable" data-from="50 20 noanim-nozoom" onfocus="presetSelects('length_double_track-number_stations-commercial_speed-maximum_speed-trains_per_hour_direction-undefined')"></g>
-            <g class="focusable" data-from="50 35 noanim-nozoom" onfocus="presetSelects('longitude-undefined-latitude-undefined-trains_per_hour_direction-undefined')"></g>
-            <g class="focusable" data-from="50 45 noanim-nozoom" style="opacity: 0;">
+            <g class="focusable" data-from="45 23 noanim-nozoom"></g>
+            <g class="focusable" data-from="50 1 noanim-nozoom" onfocus="slide('maximum_speed-undefined-commercial_speed-undefined-trains_per_hour_direction-undefined')"></g>
+            <g class="focusable" data-from="50 22 noanim-nozoom" onfocus="slide('maximum_speed-undefined-commercial_speed-maximum_speed-trains_per_hour_direction-undefined')"></g>
+            <g class="focusable" data-from="50 30 noanim-nozoom" onfocus="slide('length_double_track-number_stations-commercial_speed-maximum_speed-trains_per_hour_direction-undefined')"></g>
+            <g class="focusable" data-from="50 65 noanim-nozoom" onfocus="slide('longitude-undefined-latitude-undefined-trains_per_hour_direction-undefined')"></g>
+            <g class="focusable" data-from="50 75 noanim-nozoom" style="opacity: 0;">
                 <text id="link" x="850" y="0">comparail.traines.eu</text>
             </g>
+
+            <text id="select-x-dimen" class="dimen" text-anchor="end" x="1734" y="830">Longitude</text>
+            <text id="select-x-per-dimen" class="dimen" text-anchor="end" x="1734" y="852"></text>
+            <text id="select-y-dimen" class="dimen" text-anchor="start" x="-34" y="-40">Latitude</text>
+            <text id="select-y-per-dimen" class="dimen" text-anchor="start" x="-34" y="-18"></text>
 
         </g>
         </g>

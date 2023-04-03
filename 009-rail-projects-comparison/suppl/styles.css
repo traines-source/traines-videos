@@ -27,16 +27,23 @@ select {
     font-size: 22px;
 }
 
+.dimen {
+    font-weight: bold;
+    font-size: 22px;
+}
+
 .select {
+    display: none;
     width: 400px;
     appearance: none;
+    -webkit-appearance: none;
     background-color: transparent;
     border: none;
     font-weight: bold;
 }
 
 #br .select {
-    text-align: right;
+    text-align: right !important;
 }
 
 #tr, #z-axis, #z-unit-min, #z-unit-max {
