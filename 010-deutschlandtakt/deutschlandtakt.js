@@ -25,11 +25,29 @@ fetch('research/analysis-dtakt-railml.json').then(resp => resp.json()).then(json
     }
 
 
-    TNA.Config.default.gravitatorUseInclinationInertness = false;
-    TNA.Config.default.gravitatorInertness = 0.1;
+    TNA.Config.default.gravitatorUseInclinationInertness = true;
+    TNA.Config.default.gravitatorInertness = 0.25;
     TNA.Config.default.mapProjectionScale = 100;
     TNA.Config.default.trainWagonLength = 10;
     TNA.Config.default.trainTimetableSpeed = 180;
     var event = new Event('startTransportNetworkAnimator');
     document.dispatchEvent(event);
 })
+
+let intvl;
+document.addEventListener('epoch', function(e) {
+  if (e.detail == '2040') {
+    if (intvl == undefined) {
+      let i = -1;
+      intvl = window.setInterval(function () {
+        i++;      
+        document.getElementById('custom-epoch-label').textContent = ((12+Math.floor(i/60))+'').padStart(2, '0')+':'+((i%60)+'').padStart(2, '0');
+      }, 1000/3);
+    }
+  } else {
+    if (intvl != undefined) {
+      clearInterval(intvl);
+      intvl = undefined;
+    }
+  } 
+});
