@@ -1,0 +1,56 @@
+{
+    "nTFL_x0020_N": {
+        "eva": "TFL",
+        "name": "Stuttgart Flughafen NBS",
+        "counter": 336,
+        "missing": true
+    },
+    "nTS_x0020_F": {
+        "eva": "TS",
+        "name": "Stuttgart Hbf",
+        "counter": 960,
+        "missing": true
+    },
+    "nMHBP": {
+        "eva": "MH",
+        "name": "M\u00fcnchen Hbf Bfplatz",
+        "counter": 816,
+        "missing": true
+    },
+    "nMMHO": {
+        "eva": "MMP",
+        "name": "M\u00fcnchen Marienhof",
+        "counter": 816,
+        "missing": true
+    },
+    "nMOPT": {
+        "eva": "MOP",
+        "name": "M\u00fcnchen Ost tief",
+        "counter": 816,
+        "missing": true
+    },
+    "nAAN": {
+        "eva": "AA",
+        "name": "Hamburg-Altona Nord",
+        "counter": 672,
+        "missing": true
+    },
+    "nYFFF": {
+        "eva": "FF",
+        "name": "Frankfurt (Main) Hbf Fernbahn",
+        "counter": 408,
+        "missing": true
+    },
+    "nMLIR": {
+        "eva": "MLI",
+        "name": "Lindau-Reutin",
+        "counter": 288,
+        "missing": true
+    },
+    "nYFFOT": {
+        "eva": "FFO",
+        "name": "Ffm Ost tief",
+        "counter": 288,
+        "missing": true
+    }
+}
