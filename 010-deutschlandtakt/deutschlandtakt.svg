@@ -1,0 +1,735 @@
+<?xml-stylesheet type="text/css" href="deutschlandtakt.css" ?>
+<svg viewBox="15300 9700 1920 1080" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" data-beck-style="true" data-auto-start="false">
+<defs>
+    <g id="regiounit" class="unit">
+        <path
+            class="bumper"
+            d="M 100,13 H 102 V 12 H 105 V 17 H 102 V 16 H 99 L 100,13 M 100,37 H 102 V 38 H 105 V 33 H 102 V 34 H 99 L 100,37" />
+        <path
+            class="trafficred"
+            d="M 65,0 C 65,0 72,1 74,1  76,1 89,4 89,5  89,6 100,5 100,12  100,19 99,13 99,25  99,37 100,31 100,38  100,45 89,44 89,45  89,46 76,49 74,49  72,49 65,50 65,50 Z" />
+        <path
+            class="windowgrey"
+            d="M 65,15 C 65,11 72,6 75,6  80,6 98,8 98,14  98,19 98,25 98,25  98,25 98,31 98,36  98,42 80,44 75,44  72,44 65,39 65,35 Z" />
+        <path
+            class="black-windscreen"
+            d="M 98,25 C 98,25 98,22 98,18  98,14 88,10 88,10  87,10 80,12 80,13  80,14 81,25 81,25  81,25 80,36 80,37  80,38 87,40 88,40  88,40 98,36 98,32  98,28 98,25 98,25" />
+        <path
+            class="lamp"
+            d="M 82,25 83,23 86,22 85,25 86,28 83,27 82,25" />
+    </g>
+    <g id="icunit" class="unit">
+        <path
+            class="bumper"
+            d="M 100,13 H 102 V 12 H 105 V 17 H 102 V 16 H 99 L 100,13 M 100,37 H 102 V 38 H 105 V 33 H 102 V 34 H 99 L 100,37" />
+        <path
+            class="lightgrey"
+            d="M 63,0 C 63,0 72,1 74,1  76,1 89,4 89,5  89,6 100,5 100,12  100,19 99,13 99,25  99,37 100,31 100,38  100,45 89,44 89,45  89,46 76,49 74,49  72,49 63,50 63,50 Z"
+            />
+        <path
+            class="windowgrey"
+            d="M 63,0 L 63,0 C 65,0 98,8 98,14  98,19 98,25 98,25  98,25 98,31 98,36  98,42 65,50 63,50 L 63,50" />
+        <path
+            class="black-windscreen"
+            d="M 98,25 C 98,25 98,22 98,18  98,14 88,10 88,10  87,10 80,12 80,13  80,14 81,25 81,25  81,25 80,36 80,37  80,38 87,40 88,40  88,40 98,36 98,32  98,28 98,25 98,25" />
+        <path
+            class="lamp"
+            d="M 82,25 83,23 86,22 85,25 86,28 83,27 82,25" />
+    </g>
+    <g id="iceunit" class="unit">
+        <path
+            class="icebody"
+            d="M 150,0 C 250,0 426,35 426,100 426,165 250,200 150,200 Z" />
+        <path
+            class="lamp"
+            d="M 410,86 387,76 384,60 407,72 Z" />
+        <path
+            class="lamp"
+            d="M 410,114 387,124 384,140 407,128 Z" />
+        <path
+            class="windscreen"
+            d="M 290,37 C 301,37 360,55 360,100 360,145 301,163 290,163 291,163 296,120 296,100 296,80 291,37 290,37 Z" />
+        <path
+            class="cap"
+            d="M 290,163 C 291,163 296,120 296,100 296,80 291,37 290,37 290,36 256,31 246,31 206,31 214,65 214,100 214,135 206,169 246,169 256,169 290,164 290,163 Z" />
+    </g>
+    <marker id="ice-start" viewBox="150 0 426,200" refX="150" refY="100" markerHeight="1" orient="auto-start-reverse">
+        <!--<path d="M 0,426 C 0,78 55,0 100,0 C 145,0 200,78 200,426 Z" fill="white" />
+        <path d="M 86,16 L 76,39 L 60,42 L 72,19 Z" fill="grey" />
+        <path d="M 114,16 L 124,39 L 140,42 L 128,19 Z" fill="grey" />
+        <path d="M 37,136 C 37,125 55,66 100,66 C 145,66 163,125 163,136 C 163,135 120,130 100,130 C 80,130 37,135 37,136 Z" fill="lightgrey" />
+        <path d="M 163,136 C 163,135 120,130 100,130 C 80,130 37,135 37,136 C 36,136 31,170 31,180 C 31,220 65,212 100,212 C 135,212 169,220 169,180 C 169,170 164,136 163,136 Z" fill="grey" />
+        -->
+        <g class="train-start">
+            <use href="#iceunit" />
+        </g>
+    </marker>
+    <marker id="ice-end" viewBox="150 0 426,200" refX="150" refY="100" markerHeight="1" orient="auto-start-reverse">
+        <g class="train-end">
+            <use href="#iceunit" />
+        </g>    
+    </marker>
+    <marker id="regio-start" viewBox="65 0 40,50" refX="65" refY="25" markerHeight="1" orient="auto-start-reverse">
+        <g class="train-start">
+            <use href="#regiounit" />
+        </g>
+    </marker>
+    <marker id="regio-end" viewBox="65 0 40,50" refX="65" refY="25" markerHeight="1" orient="auto-start-reverse">
+        <g class="train-end">
+            <use href="#regiounit"/>
+        </g>
+    </marker>
+    <marker id="panto" viewBox="0 0 200,200" refX="130" refY="100" markerHeight="1" orient="auto-start-reverse">
+        <path
+            d="M 200,100 L 200,90 L 90,70 M 200,100 L 200,110 L 90,130 M 113,30 L 110,35 L 110,165 L 113,170 M 83,30 80,35 L 80,165 L 83,170" class="panto" />
+        <path 
+            d="M 130,100 L 200,100" class="panto" style="stroke-width:20px" />
+    </marker>
+</defs>
+<g id="zoomable">
+    <image href="res/map_1920.png" x="15093" y="9598" width="2343" height="1317"/>
+    <path id="border"/>
+    <script xlink:href="borders-epsg3857.js" />
+    <g id="elements">
+        <!-- e2h: >=9, e1h: >=18, e12h: >=36 -->
+
+    <g id="fernverkehr">
+       
+        <path data-beck-style="false" data-line="BL_AH" class="e12h 36" data-stops="+0 BL +0 AH" data-from="2019 1 noanim-nozoom" data-to="2020 1 noanim-nozoom" />
+        <path data-beck-style="false" data-line="BL_AH" class="e12h 36" data-stops="+0 BL +0 AH" data-weight="105" data-from="2020 1 noanim-nozoom" />
+
+        <path data-beck-style="false" data-line="AF_AH" class="some 7" data-stops="+0 AF +0 AH" data-from="2019 1 noanim-nozoom" data-to="2020 1 noanim-nozoom" />
+        <path data-beck-style="false" data-line="AF_AH" class="some 7" data-stops="+0 AF +0 AH" data-weight="115" data-from="2020 1 noanim-nozoom" />
+
+        <!--<path data-beck-style="false" data-line="AL_WR" class="e2h 10" data-stops="+0 AL +0 WR" data-weight="120" data-from="1996 1 noanim" data-to="1997 1 nozoom"  />-->
+
+        <!----> speedup -->
+        <path data-beck-style="false" data-line="AH_HH" class="e12h 70" data-stops="+0 AH +0 HH" data-from="2019 1 noanim-nozoom" data-to="2020 1 noanim-nozoom" />
+        <path data-beck-style="false" data-line="AH_HH" class="e12h 70" data-stops="+0 AH +0 HH" data-weight="75" data-from="2020 1 noanim-nozoom" data-to="2030 1 noanim-nozoom" />
+        <path data-beck-style="false" data-line="AH_HH" class="e12h 70" data-stops="+0 AH +0 HH" data-weight="65" data-from="2030 1 noanim-nozoom" />
+
+        <path data-beck-style="false" data-line="FKW_HH" class="e12h 73" data-stops="+0 FKW +0 HH" data-from="2019 1 noanim-nozoom" data-to="2020 1 noanim-nozoom" />
+        <path data-beck-style="false" data-line="FKW_HH" class="e12h 73" data-stops="+0 FKW +0 HH" data-weight="55" data-from="2020 1 noanim-nozoom" />
+
+        <!--<path data-beck-style="false" data-line="WNT_WSR" class="some 4" data-stops="+0 WNT +0 WSR" data-weight="110" data-from="1987 40 noanim-nozoom" data-to="1993 1" />-->
+
+        <!-- speedup -->
+        <path data-beck-style="false" data-line="BL_WP" class="e2h 10" data-stops="+0 BL +0 WP" data-from="2019 1 noanim-nozoom" data-to="2020 1 noanim-nozoom" />
+        <path data-beck-style="false" data-line="BL_WP" class="e2h 10" data-stops="+0 BL +0 WP" data-weight="100" data-from="2020 1 noanim-nozoom" data-to="2030 1 noanim-nozoom" />
+        <path data-beck-style="false" data-line="BL_WP" class="e2h 10" data-stops="+0 BL +0 WP" data-weight="80" data-from="2030 1 noanim-nozoom" />
+
+        <path data-beck-style="false" data-line="WP_WSR" class="e2h 6" data-stops="+0 WP +0 WSR" data-from="2019 1 noanim-nozoom" data-to="2020 1 noanim-nozoom" />
+        <path data-beck-style="false" data-line="WP_WSR" class="e2h 6" data-stops="+0 WP +0 WSR" data-weight="80" data-from="2020 1 noanim-nozoom" data-to="2030 1 noanim-nozoom" />
+        <path data-beck-style="false" data-line="WP_WSR" class="e2h 6" data-stops="+0 WP +0 WSR" data-weight="60" data-from="2030 1 noanim-nozoom" />
+
+        <path data-beck-style="false" data-line="WR_WS" class="e2h 16" data-stops="+0 WR +0 WS" data-from="2019 1 noanim-nozoom" data-to="2020 1 noanim-nozoom"  />
+        <path data-beck-style="false" data-line="WR_WS" class="e2h 16" data-stops="+0 WR +0 WS" data-weight="55" data-from="2020 1 noanim-nozoom" data-to="2030 1 noanim-nozoom" />
+        <path data-beck-style="false" data-line="WR_WS" class="e2h 16" data-stops="+0 WR +0 WS" data-weight="45" data-from="2030 1 noanim-nozoom"  />
+
+        <path data-beck-style="false" data-line="WR_WSR" class="e2h 10" data-stops="+0 WR +0 WSR" data-from="2019 1 noanim-nozoom" data-to="2020 1 noanim-nozoom" />
+        <path data-beck-style="false" data-line="WR_WSR" class="e2h 10" data-stops="+0 WR +0 WSR" data-weight="50" data-from="2020 1 noanim-nozoom" />
+
+        <path data-beck-style="false" data-line="AH_WS" class="e2h 19" data-stops="+0 AH +0 WS" data-from="2019 1 noanim-nozoom" data-to="2020 1 noanim-nozoom"  />
+        <path data-beck-style="false" data-line="AH_WS" class="e2h 19" data-stops="+0 AH +0 WS" data-weight="50" data-from="2020 1 noanim-nozoom" />
+
+        <path data-beck-style="false" data-line="AH_AL" class="some 5" data-stops="+0 AH +0 AL" data-from="2019 1 noanim-nozoom" data-to="2020 1 noanim-nozoom" />
+        <path data-beck-style="false" data-line="AH_AL" class="some 5" data-stops="+0 AH +0 AL" data-weight="40" data-from="2020 1 noanim-nozoom" data-to="2030 1 noanim-nozoom" />
+        <path data-beck-style="false" data-line="AH_AL" class="e2h 10" data-stops="+0 AH +0 AL" data-weight="35" data-from="2030 1 noanim-nozoom" />
+
+        <path data-beck-style="false" data-line="WNT_WR" class="e2h 10" data-stops="+0 WNT +0 WR" data-from="2019 1 noanim-nozoom" data-to="2020 1 noanim-nozoom" />
+        <path data-beck-style="false" data-line="WNT_WR" class="e2h 10" data-stops="+0 WNT +0 WR" data-weight="55" data-from="2020 1 noanim-nozoom" />
+
+        <path data-beck-style="false" data-line="BL_WNT" class="e2h 10" data-stops="+0 BL +0 WNT" data-from="2019 1 noanim-nozoom" data-to="2020 1 noanim-nozoom" />
+        <path data-beck-style="false" data-line="BL_WNT" class="e2h 10" data-stops="+0 BL +0 WNT" data-weight="65" data-from="2020 1 noanim-nozoom" />
+
+        <path data-beck-style="false" data-line="AH_AK" class="e2h 15" data-stops="+0 AH +0 AK" data-from="2019 1 noanim-nozoom" data-to="2020 1 noanim-nozoom" />
+        <path data-beck-style="false" data-line="AH_AK" class="e2h 15" data-stops="+0 AH +0 AK" data-weight="70" data-from="2020 1 noanim-nozoom" />
+
+        <path data-beck-style="false" data-line="AH_AWLA" class="some 6" data-stops="+0 AH +0 AWLA" data-from="2019 1 noanim-nozoom" data-to="2020 1 noanim-nozoom" />
+        <path data-beck-style="false" data-line="AH_AWLA" class="some 6" data-stops="+0 AH +0 AWLA" data-weight="200" data-from="2020 1 noanim-nozoom" data-to="2030 1 noanim-nozoom" />
+        <path data-beck-style="false" data-line="AH_AWLA" class="some 6" data-stops="+0 AH +0 AWLA" data-weight="185" data-from="2030 1 noanim-nozoom" />
+
+        <path data-beck-style="false" data-line="AH_HB" class="e1h 35" data-stops="+0 AH +0 HB" data-from="2019 1 noanim-nozoom" data-to="2020 1 noanim-nozoom"  />        
+        <path data-beck-style="false" data-line="AH_HB" class="e1h 35" data-stops="+0 AH +0 HB" data-weight="55" data-from="2020 1 noanim-nozoom" />        
+
+        <path data-beck-style="false" data-line="HB_HH" class="e1h 21" data-stops="+0 HB +0 HH" data-from="2019 1 noanim-nozoom" data-to="2020 1 noanim-nozoom"  />
+        <path data-beck-style="false" data-line="HB_HH" class="e1h 21" data-stops="+0 HB +0 HH" data-weight="60" data-from="2020 1 noanim-nozoom" />
+
+        <path data-beck-style="false" data-line="HH_BL" class="e12h 60" data-stops="+0 HH +0 BL" data-from="2019 1 noanim-nozoom" data-to="2020 1 noanim-nozoom" />
+        <path data-beck-style="false" data-line="HH_BL" class="e12h 60" data-stops="+0 HH +0 BL" data-weight="100" data-from="2020 1 noanim-nozoom" data-to="2030 1 noanim-nozoom" />
+        <path data-beck-style="false" data-line="HH_BL" class="e12h 65" data-stops="+0 HH +0 BL" data-weight="85" data-from="2030 1 noanim-nozoom" />
+
+        <path data-beck-style="false" data-line="HH_HBS" class="e1h 19" data-stops="+0 HH +0 HBS" data-from="2019 1 noanim-nozoom" data-to="2020 1 noanim-nozoom" />
+        <path data-beck-style="false" data-line="HH_HBS" class="e1h 19" data-stops="+0 HH +0 HBS" data-weight="30" data-from="2020 1 noanim-nozoom" />
+
+        <path data-beck-style="false" data-line="BL_HBS" class="e1h 25" data-stops="+0 BL +0 HBS" data-from="2019 1 noanim-nozoom" data-to="2020 1 noanim-nozoom" />
+        <path data-beck-style="false" data-line="BL_HBS" class="e1h 25" data-stops="+0 BL +0 HBS" data-weight="85" data-from="2020 1 noanim-nozoom" data-to="2030 1 noanim-nozoom" />
+        <path data-beck-style="false" data-line="BL_HBS" class="e1h 25" data-stops="+0 BL +0 HBS" data-weight="90" data-from="2030 1 noanim-nozoom" />
+
+        <path data-beck-style="false" data-line="BL_LM" class="some 3" data-stops="+0 BL +0 LM" data-from="2019 1 noanim-nozoom" data-to="2020 1 noanim-nozoom" />
+        <path data-beck-style="false" data-line="BL_LM" class="some 3" data-stops="+0 BL +0 LM" data-weight="90" data-from="2020 1 noanim-nozoom" />
+
+        <!--<path data-beck-style="false" data-line="HH_LM" class="dummy helper" data-stops="+0 HH +0 LM" data-weight="70" data-from="1998 1 noanim-nozoom" />
+        <path data-beck-style="false" data-line="LL_LM" class="dummy helper" data-stops="+0 LL +0 LM" data-weight="75" data-from="1998 1 noanim-nozoom" />-->
+
+        <path data-beck-style="false" data-line="HBS_LM" class="e1h 20" data-stops="+0 HBS +0 LM" data-from="2019 1 noanim-nozoom" data-to="2020 1 noanim-nozoom" />
+        <path data-beck-style="false" data-line="HBS_LM" class="e1h 20" data-stops="+0 HBS +0 LM" data-weight="45" data-from="2020 1 noanim-nozoom" />
+
+        <!-- ??? -->
+        <!--<path data-beck-style="false" data-line="LM_WS" class="some 1" data-stops="+0 LM +0 WS" data-weight="140" data-from="2003 1 noanim-nozoom" />-->
+
+        <!-- ^done -->
+
+        
+        <path data-beck-style="false" data-line="FKW_HBS" class="e1h 17" data-stops="+0 FKW +0 HBS" data-from="2019 1 noanim-nozoom" data-to="2020 1 noanim-nozoom" />
+        <path data-beck-style="false" data-line="FKW_HBS" class="e1h 17" data-stops="+0 FKW +0 HBS" data-weight="75" data-from="2020 1 noanim-nozoom" />
+
+        <path data-beck-style="false" data-line="FFU_FKW" class="e12h 64" data-stops="+0 FFU +0 FKW" data-from="2019 1 noanim-nozoom" data-to="2020 1 noanim-nozoom" />
+        <path data-beck-style="false" data-line="FFU_FKW" class="e12h 64" data-stops="+0 FFU +0 FKW" data-weight="30" data-from="2020 1 noanim-nozoom" />
+
+        <path data-beck-style="false" data-line="FFU_FF" class="e12h 44" data-stops="+0 FFU +0 FF" data-from="2019 1 noanim-nozoom" data-to="2020 1 noanim-nozoom" />
+        <path data-beck-style="false" data-line="FFU_FF" class="e12h 44" data-stops="+0 FFU +0 FF" data-weight="55" data-from="2020 1 noanim-nozoom" data-to="2030 1 noanim-nozoom" />
+        <path data-beck-style="false" data-line="FFU_FF" class="e12h 45" data-stops="+0 FFU +0 FF" data-weight="35" data-from="2030 1 noanim-nozoom" />
+
+        <path data-beck-style="false" data-line="FFU_NWH" class="e1h 19" data-stops="+0 FFU +0 NWH" data-from="2019 1 noanim-nozoom" data-to="2020 1 noanim-nozoom" />
+        <path data-beck-style="false" data-line="FFU_NWH" class="e1h 35" data-stops="+0 FFU +0 NWH" data-weight="30" data-from="2020 1 noanim-nozoom" />
+
+        <path data-beck-style="false" data-line="FF_RM" class="e12h 67" data-stops="+0 FF +0 RM" data-from="2019 1 noanim-nozoom" data-to="2020 1 noanim-nozoom" />
+        <path data-beck-style="false" data-line="FF_RM" class="e12h 67" data-stops="+0 FF +0 RM" data-weight="40" data-from="2020 1 noanim-nozoom" data-to="2030 1 noanim-nozoom" />
+        <path data-beck-style="false" data-line="FF_RM" class="e12h 81" data-stops="+0 FF +0 RM" data-weight="30" data-from="2030 1 noanim-nozoom" />
+
+        <path data-beck-style="false" data-line="FF_FMZ" class="e1h 23" data-stops="+0 FF +0 FMZ" data-from="2019 1 noanim-nozoom" data-to="2020 1 noanim-nozoom"  />
+        <path data-beck-style="false" data-line="FF_FMZ" class="e1h 23" data-stops="+0 FF +0 FMZ" data-weight="30" data-from="2020 1 noanim-nozoom" />
+
+        <path data-beck-style="false" data-line="FF_NWH" class="e1h 28" data-stops="+0 FF +0 NWH" data-from="2019 1 noanim-nozoom" data-to="2020 1 noanim-nozoom" />
+        <path data-beck-style="false" data-line="FF_NWH" class="e1h 28" data-stops="+0 FF +0 NWH" data-weight="70" data-from="2020 1 noanim-nozoom" data-to="2030 1 noanim-nozoom" />
+        <path data-beck-style="false" data-line="FF_NWH" class="e12h 45" data-stops="+0 FF +0 NWH" data-weight="55" data-from="2030 1 noanim-nozoom" />
+
+        <path data-beck-style="false" data-line="FF_FG" class="e2h 16" data-stops="+0 FF +0 FG" data-from="2019 1 noanim-nozoom" data-to="2020 1 noanim-nozoom" />
+        <path data-beck-style="false" data-line="FF_FG" class="e2h 16" data-stops="+0 FF +0 FG" data-weight="40" data-from="2020 1 noanim-nozoom" />
+
+        <path data-beck-style="false" data-line="FG_FKW" class="e2h 9" data-stops="+0 FG +0 FKW" data-from="2019 1 noanim-nozoom" data-to="2020 1 noanim-nozoom" />
+        <path data-beck-style="false" data-line="FG_FKW" class="e2h 9" data-stops="+0 FG +0 FKW" data-weight="80" data-from="2020 1 noanim-nozoom" />
+
+        <path data-beck-style="false" data-line="FMZ_RM" class="e1h 35" data-stops="+0 FMZ +0 RM" data-from="2019 1 noanim-nozoom" data-to="2020 1 noanim-nozoom" />
+        <path data-beck-style="false" data-line="FMZ_RM" class="e1h 17" data-stops="+0 FMZ +0 RM" data-weight="40" data-from="2020 1 noanim-nozoom" />
+
+        <path data-beck-style="false" data-line="FMZ_KKO" class="e12h 40" data-stops="+0 FMZ +0 KKO" data-from="2019 1 noanim-nozoom" data-to="2020 1 noanim-nozoom" />
+        <path data-beck-style="false" data-line="FMZ_KKO" class="e12h 40" data-stops="+0 FMZ +0 KKO" data-weight="50" data-from="2020 1 noanim-nozoom" data-to="2030 1 noanim-nozoom" />
+        <path data-beck-style="false" data-line="FMZ_KKO" class="e1h 18" data-stops="+0 FMZ +0 KKO" data-weight="50" data-from="2030 1 noanim-nozoom" />
+
+        <path data-beck-style="false" data-line="KKO_KK" class="e12h 47" data-stops="+0 KKO +0 KK" data-from="2019 1 noanim-nozoom" data-to="2020 1 noanim-nozoom" />
+        <path data-beck-style="false" data-line="KKO_KK" class="e12h 35" data-stops="+0 KKO +0 KK" data-weight="55" data-from="2020 1 noanim-nozoom"/>
+
+        <!--<path data-beck-style="false" data-line="KKO_STR" class="some 6" data-stops="+0 KKO +0 STR" data-weight="90" data-from="2005 1 noanim-nozoom" data-to="2015 1 nozoom" />-->
+        <path data-beck-style="false" data-line="KKO_STR" class="some 8" data-stops="+0 KKO +0 STR" data-weight="80" data-from="2030 1 nozoom" />
+
+        <path data-beck-style="false" data-line="FF_KK" class="e12h 50" data-stops="+0 FF +0 KK" data-from="2019 1 noanim-nozoom" data-to="2020 1 noanim-nozoom" />
+        <path data-beck-style="false" data-line="FF_KK" class="e12h 50" data-stops="+0 FF +0 KK" data-weight="65" data-from="2020 1 noanim-nozoom" data-to="2030 1 noanim-nozoom" />
+        <path data-beck-style="false" data-line="FF_KK" class="e12h 50" data-stops="+0 FF +0 KK" data-weight="60" data-from="2030 1 noanim-nozoom" />
+
+        <path data-beck-style="false" data-line="RM_TS" class="e12h 75" data-stops="+0 RM +0 TS" data-from="2019 1 noanim-nozoom" data-to="2020 1 noanim-nozoom" />
+        <path data-beck-style="false" data-line="RM_TS" class="e12h 75" data-stops="+0 RM +0 TS" data-weight="40" data-from="2020 1 noanim-nozoom" data-to="2030 1 noanim-nozoom" />
+        <path data-beck-style="false" data-line="RM_TS" class="e12h 81" data-stops="+0 RM +0 TS" data-weight="30" data-from="2030 1 noanim-nozoom" />
+
+        <path data-beck-style="false" data-line="RK_TS" class="e1h 26" data-stops="+0 RK +0 TS"  data-from="2019 1 noanim-nozoom" data-to="2020 1 noanim-nozoom" />
+        <path data-beck-style="false" data-line="RK_TS" class="e1h 26" data-stops="+0 RK +0 TS" data-weight="40" data-from="2020 1 noanim-nozoom" data-to="2030 1 noanim-nozoom" />
+        <path data-beck-style="false" data-line="RK_TS" class="e1h 36" data-stops="+0 RK +0 TS" data-weight="30" data-from="2030 1 noanim-nozoom" />
+
+        <path data-beck-style="false" data-line="RM_SSH" class="e2h 9" data-stops="+0 RM +0 SSH" data-from="2019 1 noanim-nozoom" data-to="2020 1 noanim-nozoom" />
+        <path data-beck-style="false" data-line="RM_SSH" class="e2h 19" data-stops="+0 RM +0 SSH" data-weight="70" data-from="2020 1 noanim-nozoom" />
+
+        <path data-beck-style="false" data-line="RK_RM" class="e12h 41" data-stops="+0 RK +0 RM" data-from="2019 1 noanim-nozoom" data-to="2020 1 noanim-nozoom" />
+        <path data-beck-style="false" data-line="RK_RM" class="e12h 41" data-stops="+0 RK +0 RM" data-weight="25" data-from="2020 1 noanim-nozoom" data-to="2030 1 noanim-nozoom" />
+        <path data-beck-style="false" data-line="RK_RM" class="e12h 64" data-stops="+0 RK +0 RM" data-weight="20" data-from="2030 1 noanim-nozoom" />
+
+        <!--done--> 
+
+        
+        <path data-beck-style="false" data-line="RK_RB" class="e12h 38" data-stops="+0 RK +0 RB" data-from="2019 1 noanim-nozoom" data-to="2020 1 noanim-nozoom" />
+        <path data-beck-style="false" data-line="RK_RB" class="e12h 38" data-stops="+0 RK +0 RB" data-weight="95" data-from="2020 1 noanim-nozoom" data-to="2030 1 noanim-nozoom" />
+        <path data-beck-style="false" data-line="RK_RB" class="e12h 38" data-stops="+0 RK +0 RB" data-weight="75" data-from="2030 1 noanim-nozoom"  />
+
+        <path data-beck-style="false" data-line="TS_RSI" class="e1h 17" data-stops="+0 TS +0 RSI" data-from="2019 1 noanim-nozoom" data-to="2020 1 noanim-nozoom" />
+        <path data-beck-style="false" data-line="TS_RSI" class="e1h 17" data-stops="+0 TS +0 RSI" data-weight="115" data-from="2020 1 noanim-nozoom" data-to="2030 1 noanim-nozoom" />
+        <path data-beck-style="false" data-line="TS_RSI" class="e1h 18" data-stops="+0 TS +0 RSI" data-weight="105" data-from="2030 1 noanim-nozoom" />
+
+        <path data-beck-style="false" data-line="TS_TU" class="e12h 53" data-stops="+0 TS +0 TU" data-from="2019 1 noanim-nozoom" data-to="2020 1 noanim-nozoom" />
+        <path data-beck-style="false" data-line="TS_TU" class="e12h 53" data-stops="+0 TS +0 TU" data-weight="45" data-from="2020 1 noanim-nozoom" data-to="2030 1 noanim-nozoom" />
+        <path data-beck-style="false" data-line="TS_TU" class="e12h 63" data-stops="+0 TS +0 TU" data-weight="30" data-from="2030 1 noanim-nozoom" />
+
+        <path data-beck-style="false" data-line="MA_TU" class="e12h 62" data-stops="+0 MA +0 TU" data-from="2019 1 noanim-nozoom" data-to="2020 1 noanim-nozoom" />
+        <path data-beck-style="false" data-line="MA_TU" class="e12h 62" data-stops="+0 MA +0 TU" data-weight="40" data-from="2020 1 noanim-nozoom" />
+
+        <path data-beck-style="false" data-line="MLI_TU" class="some 3" data-stops="+0 MLI +0 TU" data-from="2019 1 noanim-nozoom" data-to="2020 1 noanim-nozoom"/>
+        <path data-beck-style="false" data-line="MLI_TU" class="some 0" data-stops="+0 MLI +0 TU" data-weight="100" data-from="2020 1 noanim-nozoom"/>
+
+        <path data-beck-style="false" data-line="MH_MLI" class="some 2" data-stops="+0 MH +0 MLI" data-from="2019 1 noanim-nozoom" data-to="2020 1 noanim-nozoom"/>
+        <path data-beck-style="false" data-line="MH_MLI" class="some 6" data-stops="+0 MH +0 MLI" data-weight="115" data-from="2020 1 noanim-nozoom" />
+
+        <path data-beck-style="false" data-line="MA_MH" class="e12h 60" data-stops="+0 MA +0 MH" data-from="2019 1 noanim-nozoom" data-to="2020 1 noanim-nozoom" />
+        <path data-beck-style="false" data-line="MA_MH" class="e12h 60" data-stops="+0 MA +0 MH" data-weight="30" data-from="2020 1 noanim-nozoom" />
+
+        <path data-beck-style="false" data-line="MGP_MH" class="some 5" data-stops="+0 MGP +0 MH" data-from="2019 1 noanim-nozoom" data-to="2020 1 noanim-nozoom" />
+        <path data-beck-style="false" data-line="MGP_MH" class="some 5" data-stops="+0 MGP +0 MH" data-weight="90" data-from="2020 1 noanim-nozoom" data-to="2030 1 noanim-nozoom" />
+        <path data-beck-style="false" data-line="MGP_MH" class="some 1" data-stops="+0 MGP +0 MH" data-weight="75" data-from="2030 1 noanim-nozoom" />
+
+        <path data-beck-style="false" data-line="MH_MIH" class="e12h 50" data-stops="+0 MH +0 MIH" data-from="2019 1 noanim-nozoom" data-to="2020 1 noanim-nozoom" />
+        <path data-beck-style="false" data-line="MH_MIH" class="e12h 50" data-stops="+0 MH +0 MIH" data-weight="35" data-from="2020 1 noanim-nozoom" />
+
+        <path data-beck-style="false" data-line="MIH_NN" class="e12h 44" data-stops="+0 MIH +0 NN" data-from="2019 1 noanim-nozoom" data-to="2020 1 noanim-nozoom" />
+        <path data-beck-style="false" data-line="MIH_NN" class="e12h 77" data-stops="+0 MIH +0 NN" data-weight="30" data-from="2020 1 noanim-nozoom" />
+
+        <path data-beck-style="false" data-line="MH_NRH" class="e1h 18" data-stops="+0 MH +0 NRH" data-weight="80" data-from="2030 1 nozoom" />
+
+        <path data-beck-style="false" data-line="NHO_NRH" class="e2h 9" data-stops="+0 NHO +0 NRH" data-weight="105" data-from="2030 1 nozoom"  />
+
+        <path data-beck-style="false" data-line="MA_NN" class="e2h 12" data-stops="+0 MA +0 NN" data-from="2019 1 noanim-nozoom" data-to="2020 1 noanim-nozoom" />
+        <path data-beck-style="false" data-line="MA_NN" class="e2h 12" data-stops="+0 MA +0 NN" data-weight="70" data-from="2020 1 noanim-nozoom" data-to="2030 1 noanim-nozoom" />
+        <path data-beck-style="false" data-line="MA_NN" class="e12h 43" data-stops="+0 MA +0 NN" data-weight="70" data-from="2030 1 noanim-nozoom" />
+        
+        <path data-beck-style="false" data-line="NRH_NPA" class="e2h 12" data-stops="+0 NRH +0 NPA" data-from="2019 1 noanim-nozoom" data-to="2020 1 noanim-nozoom" />
+        <path data-beck-style="false" data-line="NRH_NPA" class="e2h 12" data-stops="+0 NRH +0 NPA" data-weight="60" data-from="2020 1 noanim-nozoom" data-to="2030 1 noanim-nozoom" />
+        <path data-beck-style="false" data-line="NRH_NPA" class="e2h 9" data-stops="+0 NRH +0 NPA" data-weight="60" data-from="2030 1 noanim-nozoom" />
+
+        <path data-beck-style="false" data-line="NN_NRH" class="e2h 12" data-stops="+0 NN +0 NRH" data-from="2019 1 noanim-nozoom" data-to="2020 1 noanim-nozoom" />
+        <path data-beck-style="false" data-line="NN_NRH" class="e2h 9" data-stops="+0 NN +0 NRH" data-weight="55" data-from="2020 1 noanim-nozoom" />
+
+        <path data-beck-style="false" data-line="NN_TS" class="e2h 8" data-stops="+0 NN +0 TS" data-from="2019 1 noanim-nozoom" data-to="2020 1 noanim-nozoom" />
+        <path data-beck-style="false" data-line="NN_TS" class="e2h 8" data-stops="+0 NN +0 TS" data-weight="130" data-from="2020 1 noanim-nozoom" data-to="2030 1 noanim-nozoom" />
+        <path data-beck-style="false" data-line="NN_TS" class="e1h 35" data-stops="+0 NN +0 TS" data-weight="140" data-from="2030 1 noanim-nozoom" />
+
+        <path data-beck-style="false" data-line="NN_NWH" class="e12h 70" data-stops="+0 NN +0 NWH" data-from="2019 1 noanim-nozoom" data-to="2020 1 noanim-nozoom" />
+        <path data-beck-style="false" data-line="NN_NWH" class="e12h 70" data-stops="+0 NN +0 NWH" data-weight="50" data-from="2020 1 noanim-nozoom" data-to="2030 1 noanim-nozoom" />
+        <path data-beck-style="false" data-line="NN_NWH" class="e12h 79" data-stops="+0 NN +0 NWH" data-weight="30" data-from="2030 1 noanim-nozoom" />
+
+        <path data-beck-style="false" data-line="NN_UJP" class="some 3" data-stops="+0 NN +0 UJP" data-from="2019 1 noanim-nozoom" data-to="2020 1 noanim-nozoom" />
+        <path data-beck-style="false" data-line="NN_UJP" class="some 3" data-stops="+0 NN +0 UJP" data-weight="160" data-from="2020 1 noanim-nozoom" data-to="2030 1 noanim-nozoom" />
+        <path data-beck-style="false" data-line="NN_UJP" class="e2h 8" data-stops="+0 NN +0 UJP" data-weight="160" data-from="2030 1 noanim-nozoom"/>
+
+        <!-- secret connections via NWH -->
+        <path data-beck-style="false" data-line="NN_UE" class="e1h 24" data-stops="+0 NN +0 UE" data-from="2019 1 noanim-nozoom" data-to="2020 1 noanim-nozoom" />
+        <path data-beck-style="false" data-line="NN_UE" class="e1h 24" data-stops="+0 NN +0 UE" data-weight="70" data-from="2020 1 noanim-nozoom" data-to="2030 1 noanim-nozoom" />
+        <path data-beck-style="false" data-line="NN_UE" class="e12h 45" data-stops="+0 NN +0 UE" data-weight="60" data-from="2030 1 noanim-nozoom" />
+
+        <path data-beck-style="false" data-line="LL_UJP" class="some 3" data-stops="+0 LL +0 UJP" data-from="2019 1 noanim-nozoom" data-to="2020 1 noanim-nozoom"  />
+        <path data-beck-style="false" data-line="LL_UJP" class="some 3" data-stops="+0 LL +0 UJP" data-weight="75" data-from="2020 1 noanim-nozoom" data-to="2030 1 noanim-nozoom" />
+        <path data-beck-style="false" data-line="LL_UJP" class="e2h 8" data-stops="+0 LL +0 UJP" data-weight="70" data-from="2030 1 noanim-nozoom" />
+
+        <path data-beck-style="false" data-line="UE_UJP" class="some 3" data-stops="+0 UE +0 UJP" data-from="2019 1 noanim-nozoom" data-to="2020 1 noanim-nozoom" />
+        <path data-beck-style="false" data-line="UE_UJP" class="some 3" data-stops="+0 UE +0 UJP" data-weight="35" data-from="2020 1 noanim-nozoom" data-to="2030 1 noanim-nozoom" />
+        <path data-beck-style="false" data-line="UE_UJP" class="e2h 8" data-stops="+0 UE +0 UJP" data-weight="35" data-from="2030 1 noanim-nozoom" />
+        <!--<path data-beck-style="false" data-line="UE_UJP" class="some 3" data-stops="+0 UE +0 UJP" data-weight="30" data-from="2019 1 noanim" />-->
+
+        <path data-beck-style="false" data-line="FKW_UE" class="some 4" data-stops="+0 FKW +0 UE" data-from="2019 1 noanim-nozoom" data-to="2020 1 noanim-nozoom" />
+        <path data-beck-style="false" data-line="FKW_UE" class="some 4" data-stops="+0 FKW +0 UE" data-weight="95" data-from="2020 1 noanim-nozoom" data-to="2030 1 noanim-nozoom" />
+        <path data-beck-style="false" data-line="FKW_UE" class="e2h 9" data-stops="+0 FKW +0 UE" data-weight="95" data-from="2030 1 noanim-nozoom" />
+
+        <path data-beck-style="false" data-line="FFU_UE" class="e1h 20" data-stops="+0 FFU +0 UE" data-from="2019 1 noanim-nozoom" data-to="2020 1 noanim-nozoom" />
+        <path data-beck-style="false" data-line="FFU_UE" class="e1h 20" data-stops="+0 FFU +0 UE" data-weight="80" data-from="2020 1 noanim-nozoom" data-to="2030 1 noanim-nozoom" />
+        <path data-beck-style="false" data-line="FFU_UE" class="e12h 45" data-stops="+0 FFU +0 UE" data-weight="60" data-from="2030 1 noanim-nozoom" />
+        
+        <path data-beck-style="false" data-line="LL_UE" class="e1h 33" data-stops="+0 LL +0 UE" data-from="2019 1 noanim-nozoom" data-to="2020 1 noanim-nozoom" />
+        <path data-beck-style="false" data-line="LL_UE" class="e1h 33" data-stops="+0 LL +0 UE" data-weight="40" data-from="2020 1 noanim-nozoom" data-to="2030 1 noanim-nozoom" />
+        <path data-beck-style="false" data-line="LL_UE" class="e12h 46" data-stops="+0 LL +0 UE" data-weight="40" data-from="2030 1 noanim-nozoom" />
+
+        <path data-beck-style="false" data-line="LHA_UE" class="e1h 22" data-stops="+0 LHA +0 UE" data-from="2019 1 noanim-nozoom" data-to="2020 1 noanim-nozoom" />
+        <path data-beck-style="false" data-line="LHA_UE" class="e1h 22" data-stops="+0 LHA +0 UE" data-weight="30" data-from="2020 1 noanim-nozoom" data-to="2030 1 noanim-nozoom" />
+        <path data-beck-style="false" data-line="LHA_UE" class="e12h 44" data-stops="+0 LHA +0 UE" data-weight="30" data-from="2030 1 noanim-nozoom" />
+
+        <path data-beck-style="false" data-line="LHA_LL" class="e1h 21" data-stops="+0 LHA +0 LL" data-from="2019 1 noanim-nozoom" data-to="2020 1 noanim-nozoom" />
+        <path data-beck-style="false" data-line="LHA_LL" class="e1h 21" data-stops="+0 LHA +0 LL" data-weight="25" data-from="2020 1 noanim-nozoom" />
+
+        <path data-beck-style="false" data-line="BL_LHA" class="e1h 31" data-stops="+0 BL +0 LHA" data-from="2019 1 noanim-nozoom" data-to="2020 1 noanim-nozoom" />
+        <path data-beck-style="false" data-line="BL_LHA" class="e1h 31" data-stops="+0 BL +0 LHA" data-weight="70" data-from="2020 1 noanim-nozoom" data-to="2030 1 noanim-nozoom" />
+        <path data-beck-style="false" data-line="BL_LHA" class="e12h 43" data-stops="+0 BL +0 LHA" data-weight="70" data-from="2030 1 noanim-nozoom" />
+
+        <path data-beck-style="false" data-line="BL_LL" class="e1h 31" data-stops="+0 BL +0 LL" data-from="2019 1 noanim-nozoom" data-to="2020 1 noanim-nozoom" />
+        <path data-beck-style="false" data-line="BL_LL" class="e1h 24" data-stops="+0 BL +0 LL" data-weight="70" data-from="2020 1 noanim-nozoom" data-to="2030 1 noanim-nozoom" />
+        <path data-beck-style="false" data-line="BL_LL" class="e12h 47" data-stops="+0 BL +0 LL" data-weight="70" data-from="2030 1 noanim-nozoom" />
+
+        <path data-beck-style="false" data-line="DH_LL" class="e1h 25" data-stops="+0 DH +0 LL" data-from="2019 1 noanim-nozoom" data-to="2020 1 noanim-nozoom" />
+        <path data-beck-style="false" data-line="DH_LL" class="e1h 25" data-stops="+0 DH +0 LL" data-weight="70" data-from="2020 1 noanim-nozoom" data-to="2030 1 noanim-nozoom" />
+        <path data-beck-style="false" data-line="DH_LL" class="e1h 18" data-stops="+0 DH +0 LL" data-weight="65" data-from="2030 1 noanim-nozoom" />
+
+        <path data-beck-style="false" data-line="BL_DH" class="e1h 21" data-stops="+0 BL +0 DH" data-from="2019 1 noanim-nozoom" data-to="2020 1 noanim-nozoom" />
+        <path data-beck-style="false" data-line="BL_DH" class="e1h 21" data-stops="+0 BL +0 DH" data-weight="110" data-from="2020 1 noanim-nozoom" data-to="2030 1 noanim-nozoom" />
+        <path data-beck-style="false" data-line="BL_DH" class="e1h 24" data-stops="+0 BL +0 DH" data-weight="80" data-from="2030 1 noanim-nozoom" />
+
+        <path data-beck-style="false" data-line="BFP_BL" class="e2h 9" data-stops="+0 BFP +0 BL" data-from="2019 1 noanim-nozoom" data-to="2020 1 noanim-nozoom" />
+        <path data-beck-style="false" data-line="BFP_BL" class="e2h 9" data-stops="+0 BFP +0 BL" data-weight="60" data-from="2020 1 noanim-nozoom" data-to="2030 1 noanim-nozoom" />
+        <path data-beck-style="false" data-line="BFP_BL" class="e2h 15" data-stops="+0 BFP +0 BL" data-weight="50" data-from="2030 1 noanim-nozoom" />
+
+        <path data-beck-style="false" data-line="BCS_BL" class="some 1" data-stops="+0 BCS +0 BL" data-from="2019 1 noanim-nozoom" data-to="2020 1 noanim-nozoom" />
+        <path data-beck-style="false" data-line="BCS_BL" class="some 1" data-stops="+0 BCS +0 BL" data-weight="80" data-from="2020 1 noanim-nozoom" data-to="2030 1 noanim-nozoom" />
+        <path data-beck-style="false" data-line="BCS_BL" class="e2h 9" data-stops="+0 BCS +0 BL" data-weight="85" data-from="2030 1 noanim-nozoom" />
+
+        <!--<path data-beck-style="false" data-line="BCS_DG" class="some 6" data-stops="+0 BCS +0 DG" data-weight="80" data-from="1998 1 noanim-nozoom" data-to="2001 1" />-->
+
+        <!--<path data-beck-style="false" data-line="DG_DH" class="some 4" data-stops="+0 DG +0 DH" data-weight="80" data-from="2000 10 noanim-nozoom" data-to="2005 1 reverse-nozoom" />-->
+
+        <path data-beck-style="false" data-line="DC_DH" class="some 2" data-stops="+0 DC +0 DH" data-from="2019 1 noanim-nozoom" data-to="2020 1 noanim-nozoom"  />
+        <path data-beck-style="false" data-line="DC_DH" class="some 2" data-stops="+0 DC +0 DH" data-weight="60" data-from="2020 1 noanim-nozoom" data-to="2030 1 noanim-nozoom" />
+        <path data-beck-style="false" data-line="DC_DH" class="e2h 9" data-stops="+0 DC +0 DH" data-weight="60" data-from="2030 1 noanim-nozoom"  />
+
+        <!--<path data-beck-style="false" data-line="BCS_LL" class="some 8" data-stops="+0 BCS +0 LL" data-weight="110" data-from="1998 1 noanim-nozoom" data-to="2000 10" />-->
+
+        <path data-beck-style="false" data-line="DC_UJP" class="helper 8" data-stops="+0 DC +0 UJP" data-from="2019 1 noanim-nozoom" data-to="2020 1 noanim-nozoom" />
+        <path data-beck-style="false" data-line="DC_UJP" class="helper 8" data-stops="+0 DC +0 UJP" data-weight="115" data-from="2020 1 noanim-nozoom" data-to="2030 1 noanim-nozoom" />
+
+        <path data-beck-style="false" data-line="DC_UJP" class="e2h 8" data-stops="+0 DC +0 UJP" data-weight="115" data-from="2030 1 nozoom" />
+
+        <path data-beck-style="false" data-line="DC_NHO" class="e2h 9" data-stops="+0 DC +0 NHO" data-weight="100" data-from="2030 1 nozoom" />
+
+        <!--<path data-beck-style="false" data-line="NHO_NN" class="some 5" data-stops="+0 NHO +0 NN" data-weight="105" data-from="2005 1 noanim-nozoom" data-to="2007 1 reverse" />-->
+
+        <path data-beck-style="false" data-line="LHA_LM" class="e1h 23" data-stops="+0 LHA +0 LM" data-from="2019 1 noanim-nozoom" data-to="2020 1 noanim-nozoom" />
+        <path data-beck-style="false" data-line="LHA_LM" class="e1h 23" data-stops="+0 LHA +0 LM" data-weight="45" data-from="2020 1 noanim-nozoom" />
+
+        <path data-beck-style="false" data-line="KA_KK" class="e2h 9" data-stops="+0 KA +0 KK" data-from="2019 1 noanim-nozoom" data-to="2020 1 noanim-nozoom" />
+        <path data-beck-style="false" data-line="KA_KK" class="e2h 9" data-stops="+0 KA +0 KK" data-weight="35" data-from="2020 1 noanim-nozoom" data-to="2030 1 noanim-nozoom" />
+        <path data-beck-style="false" data-line="KA_KK" class="e12h 45" data-stops="+0 KA +0 KK" data-weight="35" data-from="2030 1 noanim-nozoom" />
+
+        <path data-beck-style="false" data-line="EDG_KK" class="e12h 67" data-stops="+0 EDG +0 KK" data-from="2019 1 noanim-nozoom" data-to="2020 1 noanim-nozoom" />
+        <path data-beck-style="false" data-line="EDG_KK" class="e12h 67" data-stops="+0 EDG +0 KK" data-weight="40" data-from="2020 1 noanim-nozoom" />
+
+        <path data-beck-style="false" data-line="EDO_KK" class="e12h 97" data-stops="+0 EDO +0 KK" data-from="2019 1 noanim-nozoom" data-to="2020 1 noanim-nozoom" />
+        <path data-beck-style="false" data-line="EDO_KK" class="e12h 97" data-stops="+0 EDO +0 KK" data-weight="70" data-from="2020 1 noanim-nozoom" />
+
+        <path data-beck-style="false" data-line="EDG_EDO" class="e12h 89" data-stops="+0 EDG +0 EDO" data-from="2019 1 noanim-nozoom" data-to="2020 1 noanim-nozoom" />
+        <path data-beck-style="false" data-line="EDG_EDO" class="e12h 89" data-stops="+0 EDG +0 EDO" data-weight="35" data-from="2020 1 noanim-nozoom" />
+
+        <path data-beck-style="false" data-line="EDG_EMST" class="e12h 39" data-stops="+0 EDG +0 EMST" data-from="2019 1 noanim-nozoom" data-to="2020 1 noanim-nozoom" />
+        <path data-beck-style="false" data-line="EDG_EMST" class="e12h 39" data-stops="+0 EDG +0 EMST" data-weight="60" data-from="2020 1 noanim-nozoom" />
+
+        <path data-beck-style="false" data-line="EDO_EMST" class="e2h 14" data-stops="+0 EDO +0 EMST" data-from="2019 1 noanim-nozoom" data-to="2020 1 noanim-nozoom" />
+        <path data-beck-style="false" data-line="EDO_EMST" class="e2h 14" data-stops="+0 EDO +0 EMST" data-weight="30" data-from="2020 1 noanim-nozoom" data-to="2030 1 noanim-nozoom" />
+        <path data-beck-style="false" data-line="EDO_EMST" class="e1h 26" data-stops="+0 EDO +0 EMST" data-weight="25" data-from="2030 1 noanim-nozoom" />
+
+        <path data-beck-style="false" data-line="EDO_HH" class="e12h 38" data-stops="+0 EDO +0 HH" data-from="2019 1 noanim-nozoom" data-to="2020 1 noanim-nozoom" />
+        <path data-beck-style="false" data-line="EDO_HH" class="e12h 38" data-stops="+0 EDO +0 HH" data-weight="100" data-from="2020 1 noanim-nozoom" data-to="2030 1 noanim-nozoom" />
+        <path data-beck-style="false" data-line="EDO_HH" class="e12h 40" data-stops="+0 EDO +0 HH" data-weight="75" data-from="2030 1 noanim-nozoom" />
+
+        <path data-beck-style="false" data-line="EMST_HE" class="e2h 10" data-stops="+0 EMST +0 HE" data-from="2019 1 noanim-nozoom" data-to="2020 1 noanim-nozoom" />
+        <path data-beck-style="false" data-line="EMST_HE" class="e2h 10" data-stops="+0 EMST +0 HE" data-weight="115" data-from="2020 1 noanim-nozoom" />
+
+        <path data-beck-style="false" data-line="HE_HB" class="some 1" data-stops="+0 HE +0 HB" data-from="2019 1 noanim-nozoom" data-to="2020 1 noanim-nozoom"  />
+        <path data-beck-style="false" data-line="HE_HB" class="some 1" data-stops="+0 HE +0 HB" data-weight="105" data-from="2020 1 noanim-nozoom"  />
+
+        <path data-beck-style="false" data-line="EMST_HO" class="e1h 36" data-stops="+0 EMST +0 HO" data-from="2019 1 noanim-nozoom" data-to="2020 1 noanim-nozoom" />
+        <path data-beck-style="false" data-line="EMST_HO" class="e1h 36" data-stops="+0 EMST +0 HO" data-weight="25" data-from="2020 1 noanim-nozoom" />
+
+        <path data-beck-style="false" data-line="HB_HO" class="e1h 37" data-stops="+0 HB +0 HO" data-from="2019 1 noanim-nozoom" data-to="2020 1 noanim-nozoom" />
+        <path data-beck-style="false" data-line="HB_HO" class="e1h 37" data-stops="+0 HB +0 HO" data-weight="50" data-from="2020 1 noanim-nozoom" />
+
+        <path data-beck-style="false" data-line="HH_HO" class="e2h 9" data-stops="+0 HH +0 HO" data-from="2019 1 noanim-nozoom" data-to="2020 1 noanim-nozoom" />
+        <path data-beck-style="false" data-line="HH_HO" class="e2h 9" data-stops="+0 HH +0 HO" data-weight="70" data-from="2020 1 noanim-nozoom" data-to="2030 1 noanim-nozoom" />
+        <path data-beck-style="false" data-line="HH_HO" class="e2h 9" data-stops="+0 HH +0 HO" data-weight="60" data-from="2030 1 noanim-nozoom" />
+
+        <path data-beck-style="false" data-line="EDO_FKW" class="e2h 10" data-stops="+0 EDO +0 FKW" data-from="2019 1 noanim-nozoom" data-to="2020 1 noanim-nozoom" />
+        <path data-beck-style="false" data-line="EDO_FKW" class="e2h 10" data-stops="+0 EDO +0 FKW" data-weight="135" data-from="2020 1 noanim-nozoom" />
+
+        <!-- done-->
+
+        <path data-beck-style="false" data-line="dummy" class="helper" data-stops="+0 h1 +0 h2" data-from="2020 10 noanim-keepzoom" />
+
+
+        
+        <rect data-station="WR" x="16395" y="9852" data-comment="Rostock" data-dir="nw" />
+        <rect data-station="WSR" x="16476" y="9819" data-comment="Stralsund" data-dir="nw" />
+        <rect data-station="WS" x="16333" y="9916" data-comment="Schwerin" data-dir="nw" />
+        <rect data-station="WNT" x="16476" y="9956" data-comment="Neustrelitz" data-dir="nw" />
+        <rect data-station="WP" x="16554" y="9934" data-comment="Pasewalk" data-dir="nw" />
+        <rect data-station="AF" x="16166" y="9750" data-comment="Flensburg" data-dir="nw" />
+        <rect data-station="AK" x="16225" y="9818" data-comment="Kiel" data-dir="nw" />
+        <rect data-station="AH" x="16214" y="9928" data-comment="Hamburg" data-dir="n" />
+        <rect data-station="AL" x="16271" y="9883" data-comment="Lübeck" data-dir="nw" />
+        <rect data-station="AWLA" x="16074" y="9732" data-comment="Westerland" data-dir="n" />
+        <rect data-station="BGS" x="16502" y="10071" data-comment="Gesundbrunnen" data-dir="n" />
+        <rect data-station="BHF" x="16506" y="10076" data-comment="Berlin Ost" data-dir="n" />
+        <rect data-station="BL" x="16501" y="10074" data-comment="Berlin Hbf" data-dir="n" />
+        <rect data-station="BCS" x="16582" y="10182" data-comment="Cottbus" data-dir="n" />
+        <rect data-station="BFP" x="16601" y="10100" data-comment="Frankfurt (O)" data-dir="n" />
+        <rect data-station="HE" x="15974" y="9955" data-comment="Emden" data-dir="n" />
+        <rect data-station="HOLD" x="16062" y="9987" data-comment="Oldenburg" data-dir="n" />
+        <rect data-station="HWOB" x="16281" y="10088" data-comment="Wolfsburg" data-dir="n" />
+        <rect data-station="HBH" x="16094" y="9931" data-comment="Bremerhaven" data-dir="n" />
+        <rect data-station="HB" x="16112" y="9995" data-comment="Bremen" data-dir="nw" />
+        <rect data-station="HO" x="16048" y="10109" data-comment="Osnabrück" data-dir="nw" />
+        <rect data-station="HH" x="16191" y="10095" data-comment="Hannover" data-dir="n" />
+        <rect data-station="HBS" x="16260" y="10112" data-comment="Braunschweig" data-dir="ne" />
+        <rect data-station="HG" x="16207" y="10211" data-comment="Göttingen" data-dir="n" />
+        <rect data-station="EBIL" x="16088" y="10143" data-comment="Bielefeld" data-dir="ne" />
+        <rect data-station="EPD" x="16106" y="10187" data-comment="Paderborn" data-dir="w" />
+        <rect data-station="EMST" x="16011" y="10153" data-comment="Münster Westf" data-dir="ne" />
+        <rect data-station="EHM" x="16026" y="10192" data-comment="Hamm" data-dir="ne" />
+        <rect data-station="EHG" x="15997" y="10235" data-comment="Hagen" data-dir="ne" />
+        <rect data-station="EG" x="15966" y="10215" data-comment="Gelsenkirchen" data-dir="n" />
+        <rect data-station="EDO" x="15997" y="10214" data-comment="Dortmund" data-dir="n" />
+        <rect data-station="EE" x="15959" y="10223" data-comment="Essen" data-dir="n" />
+        <rect data-station="EDG" x="15938" y="10226" data-comment="Duisburg" data-dir="ne" />
+        <rect data-station="EOB" x="15945" y="10220" data-comment="Oberhausen" data-dir="nw" />
+        <rect data-station="KD" x="15940" y="10254" data-comment="Düsseldorf" data-dir="n" />
+        <rect data-station="KK" x="15954" y="10292" data-comment="Köln" data-dir="n" />
+        <rect data-station="KKDZ" x="15955" y="10292" data-comment="Deutz" data-dir="n" />
+        <rect data-station="KA" x="15880" y="10316" data-comment="Aachen" data-dir="nw" />
+        <rect data-station="KB" x="15966" y="10321" data-comment="Bonn" data-dir="nw" />
+        <rect data-station="KKO" x="16008" y="10372" data-comment="Koblenz" data-dir="nw" />
+        <rect data-station="LHA" x="16383" y="10219" data-comment="Halle" data-dir="ne" />
+        <rect data-station="LM" x="16352" y="10129" data-comment="Magdeburg" data-dir="n" />
+        <rect data-station="LL" x="16417" y="10238" data-comment="Leipzig" data-dir="ne" />
+        <rect data-station="UE" x="16302" y="10288" data-comment="Erfurt" data-dir="n" />
+        <rect data-station="UJP" x="16349" y="10295" data-comment="Jena" data-dir="n" />
+        <rect data-station="UWM" x="16327" y="10286" data-comment="Weimar" data-dir="n" />
+        <rect data-station="UWM2" x="16327" y="10286" data-comment="Weimar" data-dir="n" />
+        <rect data-station="DH" x="16532" y="10279" data-comment="Dresden" data-dir="nw" />
+        <rect data-station="DC" x="16463" y="10306" data-comment="Chemnitz" data-dir="ne" />
+        <rect data-station="DG" x="16638" y="10264" data-comment="Görlitz" data-dir="ne" />
+        <rect data-station="FKW" x="16166" y="10242" data-comment="Kassel" data-dir="n" />
+        <rect data-station="FFU" x="16186" y="10345" data-comment="Fulda" data-dir="nw" />
+        <rect data-station="FG" x="16099" y="10341" data-comment="Gießen" data-dir="ne" />
+        <rect data-station="FF" x="16099" y="10404" data-comment="Frankfurt" data-dir="n" />
+        <rect data-station="FFLF" x="16092" y="10412" data-comment="FFM Flughafen" data-dir="ne" />
+        <rect data-station="FMZ" x="16065" y="10418" data-comment="Mainz" data-dir="n" />
+        <rect data-station="FW" x="16063" y="10409" data-comment="Wiesbaden" data-dir="n" />
+        <rect data-station="FD" x="16096" y="10435" data-comment="Darmstadt" data-dir="n" />
+        <rect data-station="SKL" x="16023" y="10493" data-comment="Kaiserslautern" data-dir="n" />
+        <rect data-station="STR" x="15928" y="10451" data-comment="Trier" data-dir="n" />
+        <rect data-station="SSH" x="15956" y="10519" data-comment="Saarbrücken" data-dir="nw" />
+        <rect data-station="RM" x="16083" y="10487" data-comment="Mannheim" data-dir="n" />
+        <rect data-station="RH" x="16100" y="10497" data-comment="Heidelberg" data-dir="nw" />
+        <rect data-station="RK" x="16077" y="10551" data-comment="Karlsruhe" data-dir="ne" />
+        <rect data-station="RO" x="16038" y="10618" data-comment="Offenburg" data-dir="n" />
+        <rect data-station="RF" x="16029" y="10679" data-comment="Freiburg" data-dir="ne" />
+        <rect data-station="RSI" x="16115" y="10709" data-comment="Singen" data-dir="n" />
+        <rect data-station="RB" x="16009" y="10734" data-comment="Basel" data-dir="n" />
+        <rect data-station="NWH" x="16208" y="10445" data-comment="Würzburg"  data-dir="ne" />
+        <rect data-station="NN" x="16306" y="10492" data-comment="Nürnberg" data-dir="n" />
+        <rect data-station="NHO" x="16377" y="10377" data-comment="Hof" data-dir="n" />
+        <rect data-station="NRH" x="16393" y="10548" data-comment="Regensburg" data-dir="w" />
+        <rect data-station="NPA" x="16508" y="10605" data-comment="Passau" data-dir="w" />
+        <rect data-station="TS" x="16143" y="10578" data-comment="Stuttgart" data-dir="nw" />
+        <rect data-station="TU" x="16212" y="10628" data-comment="Ulm" data-dir="n" />
+        <rect data-station="MIH" x="16336" y="10583" data-comment="Ingolstadt" data-dir="nw" />
+        <rect data-station="MA" x="16289" y="10632" data-comment="Augsburg" data-dir="n" />
+        <rect data-station="MP" x="16338" y="10660" data-comment="Pasing" data-dir="nw" />
+        <rect data-station="MH" x="16346" y="10661" data-comment="München" data-dir="n" />
+        <rect data-station="MGP" x="16307" y="10743" data-comment="Garmisch" data-dir="ne" />
+        <rect data-station="MLI" x="16185" y="10734" data-comment="Lindau" data-dir="ne" />
+
+        <rect data-station="h1" x="16654" y="9934" class="helper" data-dir="ne" />
+        <rect data-station="h2" x="860" y="880" class="helper" data-dir="ne" />
+
+        <text data-station="WR">Rostock</text>
+        <text data-station="WSR">Stralsund</text>
+        <text data-station="WS">Schwerin</text>
+        <text data-station="WNT">Neustrelitz</text>
+        <text data-station="WP">Pasewalk</text>
+        <text data-station="AF">Flensburg</text>
+        <text data-station="AK">Kiel</text>
+        <text data-station="AH">Hamburg</text>
+        <text data-station="AL">Lübeck</text>
+        <text data-station="AWLA">Westerland</text>
+        <text data-station="BGS">Gesundbrunnen</text>
+        <text data-station="BHF">Berlin Ost</text>
+        <text data-station="BL">Berlin</text>
+        <text data-station="BCS">Cottbus</text>
+        <text data-station="BFP">Frankfurt (O)</text>
+        <text data-station="HE">Emden</text>
+        <text data-station="HOLD">Oldenburg</text>
+        <text data-station="HWOB">Wolfsburg</text>
+        <text data-station="HBH">Bremerhaven</text>
+        <text data-station="HB">Bremen</text>
+        <text data-station="HO">Osnabrück</text>
+        <text data-station="HH">Hannover</text>
+        <text data-station="HBS">Braunschweig</text>
+        <text data-station="HG">Göttingen</text>
+        <text data-station="EBIL">Bielefeld</text>
+        <text data-station="EPD">Paderborn</text>
+        <text data-station="EMST">Münster</text>
+        <text data-station="EHM">Hamm</text>
+        <text data-station="EHG">Hagen</text>
+        <text data-station="EG">Gelsenkirchen</text>
+        <text data-station="EDO">Dortmund</text>
+        <text data-station="EE">Essen</text>
+        <text data-station="EDG">Duisburg</text>
+        <text data-station="EOB">Oberhausen</text>
+        <text data-station="KD">Düsseldorf</text>
+        <text data-station="KK">Köln</text>
+        <text data-station="KKDZ">Köln Messe/Deutz</text>
+        <text data-station="KA">Aachen</text>
+        <text data-station="KB">Bonn</text>
+        <text data-station="KKO">Koblenz</text>
+        <text data-station="LHA">Halle</text>
+        <text data-station="LM">Magdeburg</text>
+        <text data-station="LL">Leipzig</text>
+        <text data-station="UE">Erfurt</text>
+        <text data-station="UJP">Jena</text>
+        <text data-station="UWM">Weimar</text>
+        <text data-station="UWM2">Weimar</text>
+        <text data-station="DH">Dresden</text>
+        <text data-station="DC">Chemnitz</text>
+        <text data-station="DG">Görlitz</text>
+        <text data-station="FKW">Kassel</text>
+        <text data-station="FFU">Fulda</text>
+        <text data-station="FG">Gießen</text>
+        <text data-station="FF">Frankfurt</text>
+        <text data-station="FFLF">FFM Flughafen</text>
+        <text data-station="FMZ">Mainz</text>
+        <text data-station="FW">Wiesbaden</text>
+        <text data-station="FD">Darmstadt</text>
+        <text data-station="SKL">Kaiserslautern</text>
+        <text data-station="STR">Trier</text>
+        <text data-station="SSH">Saarbrücken</text>
+        <text data-station="RM">Mannheim</text>
+        <text data-station="RH">Heidelberg</text>
+        <text data-station="RK">Karlsruhe</text>
+        <text data-station="RO">Offenburg</text>
+        <text data-station="RF">Freiburg</text>
+        <text data-station="RSI">Singen</text>
+        <text data-station="RB">Basel</text>
+        <text data-station="NWH">Würzburg</text>
+        <text data-station="NN">Nürnberg</text>
+        <text data-station="NHO">Hof</text>
+        <text data-station="NRH">Regensburg</text>
+        <text data-station="NPA">Passau</text>
+        <text data-station="TS">Stuttgart</text>
+        <text data-station="TU">Ulm</text>
+        <text data-station="MIH">Ingolstadt</text>
+        <text data-station="MA">Augsburg</text>
+        <text data-station="MP">Pasing</text>
+        <text data-station="MH">München</text>
+        <text data-station="MGP">Garmisch-Partenkirchen</text>
+        <text data-station="MLI">Lindau</text>
+    </g>
+    <g id="regionalverkehr"></g>
+
+    <g id="itf" data-from="2060 1 noanim">
+        <path data-line="itf" data-stops="+0 AH_NN_i +0 AH_N_i +0 AH_1 +0 HH_1 +0 HH_S_o +0 HH_SS_o" data-from="2060 1 noanim" data-beck-style="true"/>
+        <path data-line="itf" data-stops="+0 AH_NN_o +0 AH_N_o +0 AH_2 +0 HH_2 +0 HH_S_i +0 HH_SS_i" data-from="2060 1 noanim" data-beck-style="true"/>
+        <path data-line="itf" data-stops="+0 AH_NN_i +0 AH_N_i +0 AH_1 +0 HH_3 +0 HH_S_o +0 HH_SS_o" data-from="2060 1 noanim" data-beck-style="true"/>
+        <path data-line="itf" data-stops="+0 AH_NN_o +0 AH_N_o +0 AH_2 +0 HH_4 +0 HH_S_i +0 HH_SS_i" data-from="2060 1 noanim" data-beck-style="true"/>
+        <path data-line="itf" data-stops="+0 AH_NN_i +0 AH_N_i +0 AH_3 +0 WW_1 +0 BL_2 +0 BL_S_o +0 BL_SS_o" data-from="2060 1 noanim" data-beck-style="true"/>
+        <path data-line="itf" data-stops="+0 AH_NN_i +0 AH_N_i +0 AH_4 +0 WW_1 +0 BL_1 +0 BL_E_o +0 BL_EE_o" data-from="2060 1 noanim" data-beck-style="true"/>
+        <path data-line="itf" data-stops="+0 AH_NN_o +0 AH_N_o +0 AH_5 +0 WW_2 +0 BL_4 +0 BL_S_i +0 BL_SS_i" data-from="2060 1 noanim" data-beck-style="true"/>
+        <path data-line="itf" data-stops="+0 AH_NN_o +0 AH_N_o +0 AH_6 +0 WW_2 +0 BL_3 +0 BL_E_i +0 BL_EE_i" data-from="2060 1 noanim" data-beck-style="true"/>
+        <path data-line="itf" data-stops="+0 HH_SS_o +0 HH_S_o +0 HH_3 +0 BL_5 +0 BL_E_i +0 BL_EE_i" data-from="2060 1 noanim" data-beck-style="true"/>
+        <path data-line="itf" data-stops="+0 HH_SS_i +0 HH_S_i +0 HH_4 +0 BL_6 +0 BL_E_o +0 BL_EE_o" data-from="2060 1 noanim" data-beck-style="true"/>
+        <path data-line="itf" data-stops="+0 HH_SS_o +0 HH_S_o +0 HH_1 +0 BL_5 +0 BL_E_i +0 BL_EE_i" data-from="2060 1 noanim" data-beck-style="true"/>
+        <path data-line="itf" data-stops="+0 HH_SS_i +0 HH_S_i +0 HH_2 +0 BL_6 +0 BL_E_o +0 BL_EE_o" data-from="2060 1 noanim" data-beck-style="true"/>
+
+        <path data-train="itf" class="ICE ICE1" data-length="3" data-stops="AH_NN_i -50-2 AH_3 +2+88 BL_2 +92+148 BL_SS_o" data-offset="-120" data-from="2060 1 nozoom" />
+        <path data-train="itf" class="ICE ICE1" data-length="3" data-stops="AH_NN_i -50-2 AH_3 +2+88 BL_2 +92+148 BL_SS_o" data-offset="-60" data-from="2060 1 nozoom" />
+        <path data-train="itf" class="ICE ICE1" data-length="3" data-stops="AH_NN_i -50-2 AH_3 +2+88 BL_2 +92+148 BL_SS_o" data-from="2060 1 nozoom" />
+        <path data-train="itf" class="ICE ICE1" data-length="3" data-stops="AH_NN_i -50-2 AH_3 +2+88 BL_2 +92+148 BL_SS_o" data-offset="60" data-from="2060 1 nozoom" />
+        <path data-train="itf" class="ICE ICE1" data-length="3" data-stops="AH_NN_i -50-2 AH_3 +2+88 BL_2 +92+148 BL_SS_o" data-offset="120" data-from="2060 1 nozoom" />
+        <path data-train="itf" class="ICE ICE1" data-length="3" data-stops="AH_NN_i -50-2 AH_3 +2+88 BL_2 +92+148 BL_SS_o" data-offset="180" data-from="2060 1 nozoom" />
+
+        <path data-train="itf" class="ICE ICE1" data-length="3" data-stops="BL_SS_i -32+28 BL_4 +32+118 AH_5 +120+170 AH_NN_o" data-offset="-180" data-from="2060 1 nozoom" />
+        <path data-train="itf" class="ICE ICE1" data-length="3" data-stops="BL_SS_i -32+28 BL_4 +32+118 AH_5 +120+170 AH_NN_o" data-offset="-120" data-from="2060 1 nozoom" />
+        <path data-train="itf" class="ICE ICE1" data-length="3" data-stops="BL_SS_i -32+28 BL_4 +32+118 AH_5 +120+170 AH_NN_o" data-offset="-60" data-from="2060 1 nozoom" />
+        <path data-train="itf" class="ICE ICE1" data-length="3" data-stops="BL_SS_i -32+28 BL_4 +32+118 AH_5 +120+170 AH_NN_o" data-from="2060 1 nozoom" />
+        <path data-train="itf" class="ICE ICE1" data-length="3" data-stops="BL_SS_i -32+28 BL_4 +32+118 AH_5 +120+170 AH_NN_o" data-offset="60" data-from="2060 1 nozoom" />
+        <path data-train="itf" class="ICE ICE1" data-length="3" data-stops="BL_SS_i -32+28 BL_4 +32+118 AH_5 +120+170 AH_NN_o" data-offset="120" data-from="2060 1 nozoom" />
+
+        <path data-train="itf" class="Regio Regio1" data-stops="AH_NN_i -80-10 AH_4 +10+80 WW_1 +80+140 BL_1 +160+230 BL_EE_o" data-offset="-180" data-from="2060 1 nozoom" />
+        <path data-train="itf" class="Regio Regio1" data-stops="AH_NN_i -80-10 AH_4 +10+80 WW_1 +80+140 BL_1 +160+230 BL_EE_o" data-offset="-120" data-from="2060 1 nozoom" />
+        <path data-train="itf" class="Regio Regio1" data-stops="AH_NN_i -80-10 AH_4 +10+80 WW_1 +80+140 BL_1 +160+230 BL_EE_o" data-offset="-60" data-from="2060 1 nozoom" />
+        <path data-train="itf" class="Regio Regio1" data-stops="AH_NN_i -80-10 AH_4 +10+80 WW_1 +80+140 BL_1 +160+230 BL_EE_o" data-from="2060 1 nozoom" />
+        <path data-train="itf" class="Regio Regio1" data-stops="AH_NN_i -80-10 AH_4 +10+80 WW_1 +80+140 BL_1 +160+230 BL_EE_o" data-offset="60" data-from="2060 1 nozoom" />
+        <path data-train="itf" class="Regio Regio1" data-stops="AH_NN_i -80-10 AH_4 +10+80 WW_1 +80+140 BL_1 +160+230 BL_EE_o" data-offset="120" data-from="2060 1 nozoom" />
+        <path data-train="itf" class="Regio Regio1" data-stops="AH_NN_i -80-10 AH_4 +10+80 WW_1 +80+140 BL_1 +160+230 BL_EE_o" data-offset="180" data-from="2060 1 nozoom" />
+ 
+        <path data-train="itf" class="Regio Regio1" data-stops="BL_EE_i -57+20 BL_3 +40+100 WW_2 +100+170 AH_6 +190+260 AH_NN_o" data-offset="-180" data-from="2060 1 nozoom" />
+        <path data-train="itf" class="Regio Regio1" data-stops="BL_EE_i -57+20 BL_3 +40+100 WW_2 +100+170 AH_6 +190+260 AH_NN_o" data-offset="-120" data-from="2060 1 nozoom" />
+        <path data-train="itf" class="Regio Regio1" data-stops="BL_EE_i -57+20 BL_3 +40+100 WW_2 +100+170 AH_6 +190+260 AH_NN_o" data-offset="-60" data-from="2060 1 nozoom" />
+        <path data-train="itf" class="Regio Regio1" data-stops="BL_EE_i -57+20 BL_3 +40+100 WW_2 +100+170 AH_6 +190+260 AH_NN_o" data-from="2060 1 nozoom" />
+        <path data-train="itf" class="Regio Regio1" data-stops="BL_EE_i -57+20 BL_3 +40+100 WW_2 +100+170 AH_6 +190+260 AH_NN_o" data-offset="60" data-from="2060 1 nozoom" />
+        <path data-train="itf" class="Regio Regio1" data-stops="BL_EE_i -57+20 BL_3 +40+100 WW_2 +100+170 AH_6 +190+260 AH_NN_o" data-offset="120" data-from="2060 1 nozoom" />
+        <path data-train="itf" class="Regio Regio1" data-stops="BL_EE_i -57+20 BL_3 +40+100 WW_2 +100+170 AH_6 +190+260 AH_NN_o" data-offset="180" data-from="2060 1 nozoom" />
+
+
+        <path data-train="itf" class="ICE ICE2" data-length="3" data-stops="AH_NN_i +3+52 AH_1 +63+117 HH_3 +125+185 HH_SS_o" data-offset="-120" data-from="2060 1 nozoom" />
+        <path data-train="itf" class="ICE ICE2" data-length="3" data-stops="AH_NN_i +3+52 AH_1 +63+117 HH_3 +125+185 HH_SS_o" data-from="2060 1 nozoom" />
+        <path data-train="itf" class="ICE ICE2" data-length="3" data-stops="AH_NN_i +3+52 AH_1 +63+117 HH_3 +125+185 HH_SS_o" data-offset="120" data-from="2060 1 nozoom" />
+
+        <path data-train="itf" class="ICE ICE2" data-length="3" data-stops="HH_SS_i -60+0 HH_4 +0+60 AH_2 +60+120 AH_NN_o" data-offset="-120" data-from="2060 1 nozoom" />
+        <path data-train="itf" class="ICE ICE2" data-length="3" data-stops="HH_SS_i -60+0 HH_4 +0+60 AH_2 +60+120 AH_NN_o" data-from="2060 1 nozoom" />
+        <path data-train="itf" class="ICE ICE2" data-length="3" data-stops="HH_SS_i -60+0 HH_4 +0+60 AH_2 +60+120 AH_NN_o" data-offset="120" data-from="2060 1 nozoom" />
+
+
+        <path data-train="itf" class="Regio Regio2" data-stops="AH_NN_i -57-8 AH_1 +3+117 HH_1 +123+207 HH_SS_o" data-offset="-120" data-from="2060 1 nozoom" />
+        <path data-train="itf" class="Regio Regio2" data-stops="AH_NN_i -57-8 AH_1 +3+117 HH_1 +123+207 HH_SS_o" data-from="2060 1 nozoom" />
+        <path data-train="itf" class="Regio Regio2" data-stops="AH_NN_i -57-8 AH_1 +3+117 HH_1 +123+207 HH_SS_o" data-offset="120" data-from="2060 1 nozoom" />
+
+        <path data-train="itf" class="Regio Regio2" data-stops="HH_SS_i -60-10 HH_2 +10+110 AH_2 +125+195 AH_NN_o" data-offset="-120" data-from="2060 1 nozoom" />
+        <path data-train="itf" class="Regio Regio2" data-stops="HH_SS_i -60-10 HH_2 +10+110 AH_2 +125+195 AH_NN_o" data-from="2060 1 nozoom" />
+        <path data-train="itf" class="Regio Regio2" data-stops="HH_SS_i -60-10 HH_2 +10+110 AH_2 +125+195 AH_NN_o" data-offset="120" data-from="2060 1 nozoom" />
+
+
+        <path data-train="itf" class="ICE ICE3" data-length="3" data-stops="BL_EE_i +33+87 BL_5 +93+177 HH_3 +183+237 HH_SS_o" data-offset="-120" data-from="2060 1 nozoom" />
+        <path data-train="itf" class="ICE ICE3" data-length="3" data-stops="BL_EE_i +33+87 BL_5 +93+177 HH_3 +183+237 HH_SS_o" data-from="2060 1 nozoom" />
+        <path data-train="itf" class="ICE ICE3" data-length="3" data-stops="BL_EE_i +33+87 BL_5 +93+177 HH_3 +183+237 HH_SS_o" data-offset="120" data-from="2060 1 nozoom" />
+        
+        <path data-train="itf" class="ICE ICE3" data-length="3" data-stops="HH_SS_i -120-60 HH_4 -60+30 BL_6 +30+90 BL_EE_o" data-offset="-120" data-from="2060 1 nozoom" />
+        <path data-train="itf" class="ICE ICE3" data-length="3" data-stops="HH_SS_i -120-60 HH_4 -60+30 BL_6 +30+90 BL_EE_o" data-from="2060 1 nozoom" />
+        <path data-train="itf" class="ICE ICE3" data-length="3" data-stops="HH_SS_i -120-60 HH_4 -60+30 BL_6 +30+90 BL_EE_o" data-offset="120" data-from="2060 1 nozoom" />
+        <path data-train="itf" class="ICE ICE3" data-length="3" data-stops="HH_SS_i -120-60 HH_4 -60+30 BL_6 +30+90 BL_EE_o" data-offset="240" data-from="2060 1 nozoom" />
+
+        <path data-train="itf" class="Regio Regio3" data-stops="BL_EE_i -50+27 BL_5 +33+177 HH_1 +183+267 HH_SS_o" data-offset="-120" data-from="2060 1 nozoom" />
+        <path data-train="itf" class="Regio Regio3" data-stops="BL_EE_i -50+27 BL_5 +33+177 HH_1 +183+267 HH_SS_o" data-from="2060 1 nozoom" />
+        <path data-train="itf" class="Regio Regio3" data-stops="BL_EE_i -50+27 BL_5 +33+177 HH_1 +183+267 HH_SS_o" data-offset="120" data-from="2060 1 nozoom" />
+        
+        <path data-train="itf" class="Regio Regio3" data-stops="HH_SS_i -150-70 HH_2 -50+80 BL_6 +95+165 BL_EE_o" data-offset="-120" data-from="2060 1 nozoom" />
+        <path data-train="itf" class="Regio Regio3" data-stops="HH_SS_i -150-70 HH_2 -50+80 BL_6 +95+165 BL_EE_o" data-from="2060 1 nozoom" />
+        <path data-train="itf" class="Regio Regio3" data-stops="HH_SS_i -150-70 HH_2 -50+80 BL_6 +95+165 BL_EE_o" data-offset="120" data-from="2060 1 nozoom" />
+        <path data-train="itf" class="Regio Regio3" data-stops="HH_SS_i -150-70 HH_2 -50+80 BL_6 +95+165 BL_EE_o" data-offset="240" data-from="2060 1 nozoom" />
+
+
+        <rect data-station="AH_NN_i" x="20" y="-300" />
+        <rect data-station="AH_NN_o" x="30" y="-300" />
+        <rect data-station="AH_N_i" x="20" y="-150" />
+        <rect data-station="AH_N_o" x="30" y="-150" />
+        <rect data-station="AH_1" x="0" y="50" />
+        <rect data-station="AH_2" x="10" y="50" />
+        <rect data-station="AH_3" x="20" y="50" />
+        <rect data-station="AH_4" x="30" y="50" />
+        <rect data-station="AH_5" x="40" y="50" />
+        <rect data-station="AH_6" x="50" y="50" />
+        <rect data-station="HH_1" x="-90" y="550" data-dir="ne"/>
+        <rect data-station="HH_2" x="-80" y="560" data-dir="ne" />
+        <rect data-station="HH_3" x="-70" y="570" data-dir="ne" />
+        <rect data-station="HH_4" x="-60" y="580" data-dir="ne" />
+        <rect data-station="HH_S_o" x="-200" y="700" data-dir="ne"/>
+        <rect data-station="HH_S_i" x="-190" y="710" data-dir="ne" />
+        <rect data-station="HH_SS_o" x="-300" y="1000" data-dir="n"/>
+        <rect data-station="HH_SS_i" x="-290" y="1000" data-dir="n" />
+        <rect data-station="WW_1" x="230" y="310" data-dir="nw" />
+        <rect data-station="WW_2" x="240" y="300" data-dir="nw" />
+        <rect data-station="BL_1" x="550" y="460" />
+        <rect data-station="BL_2" x="550" y="450" />
+        <rect data-station="BL_3" x="550" y="440" />
+        <rect data-station="BL_4" x="550" y="430" />
+        <rect data-station="BL_5" x="550" y="470" />
+        <rect data-station="BL_6" x="550" y="480" />
+        <rect data-station="BL_S_o" x="740" y="560" data-dir="ne"/>
+        <rect data-station="BL_S_i" x="750" y="550" data-dir="ne" />
+        <rect data-station="BL_SS_o" x="740" y="800" data-dir="n"/>
+        <rect data-station="BL_SS_i" x="750" y="800" data-dir="n" />
+        <rect data-station="BL_E_o" x="700" y="480" data-dir="n"/>
+        <rect data-station="BL_E_i" x="700" y="470" data-dir="n" />
+        <rect data-station="BL_EE_o" x="1000" y="480" data-dir="n"/>
+        <rect data-station="BL_EE_i" x="1000" y="470" data-dir="n" />
+
+
+    </g>
+    </g>
+</g>
+
+<rect id="epoch-label-bg" x="16990" y="9750" width="180" height="90" />
+<text id="epoch-label" x="17080" y="9800"></text>
+
+<script xlink:href="deutschlandtakt.js" />
+<script xlink:href="../../dist/network-animator.js" />
+</svg>
+
