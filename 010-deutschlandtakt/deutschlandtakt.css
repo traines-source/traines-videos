@@ -20,13 +20,21 @@
     fill: none;
     stroke-linecap: round;
     stroke-linejoin: round;
+}
+
+#fernverkehr path {
+    stroke: black !important;
     opacity: 0.5;
+}
+
+#itf path {
+    stroke-width: 2;
 }
 
 #elements text, text.caption {
     visibility: hidden;
-    fill: white;
-    text-shadow: 1px 1px 2px black;
+    fill: black;
+    text-shadow: 1px 1px 2px white;
     
 }
 
@@ -127,24 +135,45 @@ image.cover {
     fill: black;
     rx: 6;
 }
-#regionalverkehr rect.diff-e15m {
-    fill: #ff0000;
+#regionalverkehr.diff rect.diff-e15m {
+    fill: #F44336;
 }
-#regionalverkehr rect.diff-e30m {
-    fill: #bf0000;
+#regionalverkehr.diff rect.diff-e30m {
+    fill: #D32F2F;
 }
-#regionalverkehr rect.diff-e1h {
-    fill: #9f0000;
+#regionalverkehr.diff rect.diff-e1h {
+    fill: #C62828;
 }
-#regionalverkehr rect.diff-e2h {
-    fill: #6f0000;
+#regionalverkehr.diff rect.diff-e2h {
+    fill: #B71C1C;
 }
-#regionalverkehr rect.diff-some {
+#regionalverkehr.diff rect.diff-some {
+    fill: black;
+}
+
+#regionalverkehr.dtakt rect.dtakt-e15m {
+    fill: #F44336;
+}
+#regionalverkehr.dtakt rect.dtakt-e30m {
+    fill: #B71C1C;
+}
+#regionalverkehr.dtakt rect.dtakt-e1h {
+    fill: #3F51B5;
+}
+#regionalverkehr.dtakt rect.dtakt-e2h {
+    fill: #1A237E;
+}
+#regionalverkehr.dtakt rect.dtakt-some {
     fill: black;
 }
 
 #itf path {
     opacity: 1;
+}
+
+#itf .itf-label {
+    font-size: 30px;
+    text-anchor: middle;
 }
 
 #itf path.train.ICE {
@@ -192,4 +221,44 @@ image.cover {
 }
 .bluegrey, .cap {
     fill: #5b686d;
+}
+
+
+
+
+.edge {
+    stroke-width:2px;
+    stroke: #212121;
+}
+
+.edge-toucharea {
+    stroke-width: 20px;
+    stroke: transparent;
+    cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.redundant-true {
+    stroke: #dbdbdb;
+    marker-start: url(#dot-redundant-true);
+    marker-end: url(#dot-redundant-true);
+}
+
+.redundant-false {
+    marker-start: url(#dot-redundant-false);
+    marker-end: url(#dot-redundant-false);
+}
+
+#dot-redundant-true circle {
+    stroke: none;
+    fill: #dbdbdb;
+}
+
+#dot-redundant-false circle {
+    stroke: none;
+    fill: #212121;
+}
+
+.station-label {
+    text-anchor: middle;
 }

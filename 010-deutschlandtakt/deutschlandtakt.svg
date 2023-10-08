@@ -85,9 +85,23 @@
         <path 
             d="M 130,100 L 200,100" class="panto" style="stroke-width:20px" />
     </marker>
+
+    <marker id="dot-redundant-false" viewBox="0 0 10 10" refX="5" refY="5"
+        markerWidth="4" markerHeight="4" filter="none">
+        <circle cx="5" cy="5" r="3" />
+    </marker>
+    <marker id="dot-redundant-true" viewBox="0 0 10 10" refX="5" refY="5"
+        markerWidth="4" markerHeight="4" filter="none">
+        <circle cx="5" cy="5" r="3" />
+    </marker>
+    <filter id="erode">
+        <feMorphology operator="erode" radius="8"/>
+    </filter>
 </defs>
+<rect x="15093" y="9598" width="2343" height="1317" fill="#f2f2f2" />
+
 <g id="zoomable">
-    <image href="res/map_1920.png" x="15093" y="9598" width="2343" height="1317"/>
+    <!--<image href="res/map_1920.png" x="15093" y="9598" width="2343" height="1317"/>-->
     <path id="border"/>
     <script xlink:href="borders-epsg3857.js" />
     <g id="elements">
@@ -443,7 +457,7 @@
 
         <!-- done-->
 
-        <path data-beck-style="false" data-line="dummy" class="helper" data-stops="+0 h1 +0 h2" data-from="2020 8 noanim-keepzoom" />
+        <path data-beck-style="false" data-line="dummy" class="helper" data-stops="+0 h1 +0 h2" data-from="2020 13 noanim-keepzoom" />
         <path data-beck-style="false" data-line="dummy" class="helper" data-stops="+0 h1 +0 h2" data-from="2030 23 noanim-keepzoom" />
         <path data-beck-style="false" data-line="dummy" class="helper" data-stops="+0 h1 +0 h2" data-from="2031 33 noanim-keepzoom" />
 
@@ -616,7 +630,11 @@
         <text data-station="MGP">Garmisch-Partenkirchen</text>
         <text data-station="MLI">Lindau</text>
     </g>
-    <g id="regionalverkehr"></g>
+    <g id="regionalverkehr" class="dtakt" data-from="2050 1 noanim-nozoom" data-to="2050 100 noanim-nozoom" style="opacity:0">
+        <rect data-station="rv_tl" data-lon-lat="6.070715 47.411032" class="helper" data-from="2050 1 noanim" />
+        <rect data-station="rv_br" data-lon-lat="14.97908 54.906839" class="helper" data-from="2050 1 noanim" />
+        <g class="focusable" data-from="2050 10 noanim-keepzoom" onfocus="document.getElementById('regionalverkehr').className.baseVal = 'diff'" ></g>
+    </g>
 
     <g id="itf" data-from="2040 1 noanim-nozoom">
 
@@ -667,6 +685,9 @@
         <rect data-station="BL_E_i" class="helper" x="700" y="470" data-dir="n" />
         <rect data-station="BL_EE_o" class="helper" x="1300" y="480" data-dir="n"/>
         <rect data-station="BL_EE_i" class="helper" x="1300" y="470" data-dir="n" />
+        <text x="550" y="400" class="itf-label" data-from="2040 1 noanim-nozoom" >Stadt A</text>
+        <text x="-190" y="550" class="itf-label" data-from="2040 1 noanim-nozoom" >Stadt B</text>
+        <text x="-100" y="50" class="itf-label" data-from="2040 1 noanim-nozoom" >Stadt C</text>
 
         <path data-train="itf" class="ICE ICE1" data-length="3" data-stops="AH_NN_i -50-2 AH_3 +2+88 BL_2 +92+148 BL_SS_o" data-offset="-120" data-from="2040 1 nozoom" />
         <path data-train="itf" class="ICE ICE1" data-length="3" data-stops="AH_NN_i -50-2 AH_3 +2+88 BL_2 +92+148 BL_SS_o" data-offset="-60" data-from="2040 1 nozoom" />
@@ -740,6 +761,562 @@
 
         <rect class="helper" x="-50" y="-30" width="600" height="600" data-from="2040 1 noanim" />
     </g>
+    <g id="mannheim" transform="translate(0 0)">
+        
+        <text x="50" y="50" class="station-label">
+            Stuttgart Hbf
+            <title>8000096</title>
+        </text>
+
+        <text x="1100" y="50" class="station-label">
+            Frankfurt(Main)Hbf
+            <title>8000105</title>
+        </text>
+
+        <text x="400" y="50" class="station-label">
+            Karlsruhe Hbf
+            <title>8000191</title>
+        </text>
+
+        <text x="750" y="50" class="station-label">
+            Mannheim Hbf
+            <title>8000244</title>
+        </text>
+
+        <text x="1450" y="50" class="station-label">
+            Frankfurt(M) Flughafen Fernbf
+            <title>8070003</title>
+        </text>
+
+
+        <text x="5" y="334" class="time-label">
+            13:00 
+        </text>
+
+        <text x="5" y="803" class="time-label">
+            14:00 
+        </text>
+
+        <text x="5" y="1273" class="time-label">
+            15:00 
+        </text>
+
+
+
+
+        <path id="5be40b7_6bf94c1_station" d="M 1450,475 L1450,522"
+            class="edge type- redundant-true  "
+            />
+        <path id="5be40b7_6bf94c1_station-toucharea" d="M 1450,475 L1450,522"
+            class="edge-toucharea"
+            />
+
+
+
+        <path id="96317bf_fd34c68_station" d="M 1450,1077 L1450,1124"
+            class="edge type- redundant-true  "
+            />
+        <path id="96317bf_fd34c68_station-toucharea" d="M 1450,1077 L1450,1124"
+            class="edge-toucharea"
+            />
+
+
+
+        <path id="391cfa0" d="M 750,584 L1100,866"
+            class="edge type-nationalExpress redundant-false  sp-6222286 sp-391cfa0 sp-391cfa0 "
+            />
+        <path id="391cfa0-toucharea" d="M 750,584 L1100,866"
+            class="edge-toucharea"
+            />
+
+
+
+        <path id="88c9abd_bad6584_station" d="M 750,475 L750,498"
+            class="edge type- redundant-false  sp-88c9abd sp-88c9abd sp-bad6584 sp-0e3d9cb "
+            />
+        <path id="88c9abd_bad6584_station-toucharea" d="M 750,475 L750,498"
+            class="edge-toucharea"
+            />
+
+
+
+        <path id="23418c6_614798c_station" d="M 750,1022 L750,1085"
+            class="edge type- redundant-false  sp-23418c6 sp-23418c6 sp-614798c "
+            />
+        <path id="23418c6_614798c_station-toucharea" d="M 750,1022 L750,1085"
+            class="edge-toucharea"
+            />
+
+
+
+        <path id="614798c" d="M 750,1085 L1450,1320"
+            class="edge type-nationalExpress redundant-false  sp-ea86a32 sp-5cd87bc sp-23418c6 sp-614798c sp-614798c sp-5ebcd71 sp-0e3d9cb sp-afe95e9 "
+            />
+        <path id="614798c-toucharea" d="M 750,1085 L1450,1320"
+            class="edge-toucharea"
+            />
+
+
+
+        <path id="c591695" d="M 400,1273 L750,1460"
+            class="edge type-nationalExpress redundant-false  sp-c591695 sp-c591695 "
+            />
+        <path id="c591695-toucharea" d="M 400,1273 L750,1460"
+            class="edge-toucharea"
+            />
+
+
+
+        <path id="5ebcd71" d="M 1100,725 L750,1015"
+            class="edge type-nationalExpress redundant-false  sp-5ebcd71 sp-5ebcd71 "
+            />
+        <path id="5ebcd71-toucharea" d="M 1100,725 L750,1015"
+            class="edge-toucharea"
+            />
+
+
+
+        <path id="5ebcd71_b40e4c3_station" d="M 750,1015 L750,1038"
+            class="edge type- redundant-false  "
+            />
+        <path id="5ebcd71_b40e4c3_station-toucharea" d="M 750,1015 L750,1038"
+            class="edge-toucharea"
+            />
+
+
+
+        <path id="b40e4c3" d="M 750,1038 L50,1335"
+            class="edge type-nationalExpress redundant-false  sp-b40e4c3 sp-b40e4c3 "
+            />
+        <path id="b40e4c3-toucharea" d="M 750,1038 L50,1335"
+            class="edge-toucharea"
+            />
+
+
+
+        <path id="6681480" d="M 750,201 L50,491"
+            class="edge type-nationalExpress redundant-false  sp-6681480 sp-6681480 "
+            />
+        <path id="6681480-toucharea" d="M 750,201 L50,491"
+            class="edge-toucharea"
+            />
+
+
+
+        <path id="d6d6444" d="M 750,146 L1450,381"
+            class="edge type-nationalExpress redundant-false  sp-d6d6444 sp-d6d6444 "
+            />
+        <path id="d6d6444-toucharea" d="M 750,146 L1450,381"
+            class="edge-toucharea"
+            />
+
+
+
+        <path id="92ad7e3" d="M 50,514 L750,811"
+            class="edge type-nationalExpress redundant-false  sp-548de15 sp-6681480 sp-92ad7e3 sp-92ad7e3 sp-96317bf sp-b987202 provider-shortest-path"
+            />
+        <path id="92ad7e3-toucharea" d="M 50,514 L750,811"
+            class="edge-toucharea"
+            />
+
+
+
+        <path id="92ad7e3_96317bf_station" d="M 750,811 L750,835"
+            class="edge type- redundant-false  sp-548de15 sp-6681480 sp-92ad7e3 sp-92ad7e3 sp-96317bf sp-b987202 "
+            />
+        <path id="92ad7e3_96317bf_station-toucharea" d="M 750,811 L750,835"
+            class="edge-toucharea"
+            />
+
+
+
+        <path id="96317bf" d="M 750,835 L1450,1077"
+            class="edge type-nationalExpress redundant-false  sp-548de15 sp-d29626a sp-6681480 sp-92ad7e3 sp-96317bf sp-96317bf sp-b987202 sp-6bf94c1 provider-shortest-path"
+            />
+        <path id="96317bf-toucharea" d="M 750,835 L1450,1077"
+            class="edge-toucharea"
+            />
+
+
+
+        <path id="73aee44" d="M 750,1163 L400,1343"
+            class="edge type-nationalExpress redundant-false  sp-73aee44 sp-73aee44 "
+            />
+        <path id="73aee44-toucharea" d="M 750,1163 L400,1343"
+            class="edge-toucharea"
+            />
+
+
+
+        <path id="fe4bf04" d="M 750,115 L1100,397"
+            class="edge type-nationalExpress redundant-false  sp-fe4bf04 sp-fe4bf04 "
+            />
+        <path id="fe4bf04-toucharea" d="M 750,115 L1100,397"
+            class="edge-toucharea"
+            />
+
+
+
+        <path id="96fd387" d="M 1450,264 L750,514"
+            class="edge type-nationalExpress redundant-false  sp-96fd387 sp-96fd387 "
+            />
+        <path id="96fd387-toucharea" d="M 1450,264 L750,514"
+            class="edge-toucharea"
+            />
+
+
+
+        <path id="96fd387_d113034_station" d="M 750,514 L750,577"
+            class="edge type- redundant-false  "
+            />
+        <path id="96fd387_d113034_station-toucharea" d="M 750,514 L750,577"
+            class="edge-toucharea"
+            />
+
+
+
+        <path id="d113034" d="M 750,577 L50,874"
+            class="edge type-nationalExpress redundant-false  sp-d113034 sp-d113034 "
+            />
+        <path id="d113034-toucharea" d="M 750,577 L50,874"
+            class="edge-toucharea"
+            />
+
+
+
+        <path id="0e3d9cb" d="M 1450,733 L750,983"
+            class="edge type-nationalExpress redundant-false  sp-0e3d9cb sp-0e3d9cb "
+            />
+        <path id="0e3d9cb-toucharea" d="M 1450,733 L750,983"
+            class="edge-toucharea"
+            />
+
+
+
+        <path id="0e3d9cb_cf7b8a8_station" d="M 750,983 L750,1077"
+            class="edge type- redundant-false  "
+            />
+        <path id="0e3d9cb_cf7b8a8_station-toucharea" d="M 750,983 L750,1077"
+            class="edge-toucharea"
+            />
+
+
+
+        <path id="cf7b8a8" d="M 750,1077 L400,1257"
+            class="edge type-nationalExpress redundant-false  sp-c591695 sp-cf7b8a8 sp-cf7b8a8 "
+            />
+        <path id="cf7b8a8-toucharea" d="M 750,1077 L400,1257"
+            class="edge-toucharea"
+            />
+
+
+
+        <path id="1199632" d="M 1100,772 L750,1093"
+            class="edge type-nationalExpress redundant-false  sp-1199632 sp-1199632 "
+            />
+        <path id="1199632-toucharea" d="M 1100,772 L750,1093"
+            class="edge-toucharea"
+            />
+
+
+
+        <path id="437644e" d="M 1100,850 L750,1148"
+            class="edge type-nationalExpress redundant-false  sp-437644e sp-437644e "
+            />
+        <path id="437644e-toucharea" d="M 1100,850 L750,1148"
+            class="edge-toucharea"
+            />
+
+
+
+        <path id="aa11fc0" d="M 750,1108 L400,1312"
+            class="edge type-nationalExpress redundant-false  sp-aa11fc0 sp-aa11fc0 "
+            />
+        <path id="aa11fc0-toucharea" d="M 750,1108 L400,1312"
+            class="edge-toucharea"
+            />
+
+
+
+        <path id="402f181" d="M 50,264 L750,561"
+            class="edge type-nationalExpress redundant-false  sp-283d673 sp-6222286 sp-ea86a32 sp-d113034 sp-402f181 sp-402f181 sp-391cfa0 sp-e2874d3 provider-shortest-path"
+            />
+        <path id="402f181-toucharea" d="M 50,264 L750,561"
+            class="edge-toucharea"
+            />
+
+
+
+        <path id="402f181_391cfa0_station" d="M 750,561 L750,584"
+            class="edge type- redundant-false  sp-6222286 sp-391cfa0 "
+            />
+        <path id="402f181_391cfa0_station-toucharea" d="M 750,561 L750,584"
+            class="edge-toucharea"
+            />
+
+
+
+        <path id="1199632_aa11fc0_station" d="M 750,1093 L750,1108"
+            class="edge type- redundant-false  "
+            />
+        <path id="1199632_aa11fc0_station-toucharea" d="M 750,1093 L750,1108"
+            class="edge-toucharea"
+            />
+
+
+
+        <path id="23418c6" d="M 50,733 L750,1022"
+            class="edge type-nationalExpress redundant-false  sp-8ebba5b sp-73aee44 sp-23418c6 sp-23418c6 sp-614798c sp-c591695 sp-b40e4c3 sp-cf7b8a8 sp-aa11fc0 "
+            />
+        <path id="23418c6-toucharea" d="M 50,733 L750,1022"
+            class="edge-toucharea"
+            />
+
+
+
+        <path id="8d69c84" d="M 400,334 L750,522"
+            class="edge type-nationalExpress redundant-false  sp-af366bc sp-8d69c84 sp-8d69c84 "
+            />
+        <path id="8d69c84-toucharea" d="M 400,334 L750,522"
+            class="edge-toucharea"
+            />
+
+
+
+        <path id="84e0fc9" d="M 400,1226 L750,1413"
+            class="edge type-nationalExpress redundant-false  sp-84e0fc9 sp-84e0fc9 "
+            />
+        <path id="84e0fc9-toucharea" d="M 400,1226 L750,1413"
+            class="edge-toucharea"
+            />
+
+
+
+        <path id="437644e_73aee44_station" d="M 750,1148 L750,1163"
+            class="edge type- redundant-false  "
+            />
+        <path id="437644e_73aee44_station-toucharea" d="M 750,1148 L750,1163"
+            class="edge-toucharea"
+            />
+
+
+
+        <path id="6bf94c1" d="M 1450,522 L750,772"
+            class="edge type-nationalExpress redundant-false  sp-6bf94c1 sp-6bf94c1 "
+            />
+        <path id="6bf94c1-toucharea" d="M 1450,522 L750,772"
+            class="edge-toucharea"
+            />
+
+
+
+        <path id="6bf94c1_e2874d3_station" d="M 750,772 L750,796"
+            class="edge type- redundant-false  "
+            />
+        <path id="6bf94c1_e2874d3_station-toucharea" d="M 750,772 L750,796"
+            class="edge-toucharea"
+            />
+
+
+
+        <path id="e2874d3" d="M 750,796 L50,1101"
+            class="edge type-nationalExpress redundant-false  sp-e2874d3 sp-e2874d3 "
+            />
+        <path id="e2874d3-toucharea" d="M 750,796 L50,1101"
+            class="edge-toucharea"
+            />
+
+
+
+        <path id="af366bc" d="M 750,139 L400,318"
+            class="edge type-nationalExpress redundant-false  sp-af366bc sp-af366bc "
+            />
+        <path id="af366bc-toucharea" d="M 750,139 L400,318"
+            class="edge-toucharea"
+            />
+
+
+
+        <path id="9e7d1f0" d="M 400,1202 L750,1382"
+            class="edge type-nationalExpress redundant-false  sp-9e7d1f0 sp-9e7d1f0 "
+            />
+        <path id="9e7d1f0-toucharea" d="M 400,1202 L750,1382"
+            class="edge-toucharea"
+            />
+
+
+
+        <path id="9e028c3" d="M 50,1202 L750,1500"
+            class="edge type-nationalExpress redundant-false  sp-9e028c3 sp-9e028c3 "
+            />
+        <path id="9e028c3-toucharea" d="M 50,1202 L750,1500"
+            class="edge-toucharea"
+            />
+
+
+
+        <path id="afe95e9" d="M 750,225 L400,405"
+            class="edge type-nationalExpress redundant-false  sp-afe95e9 sp-afe95e9 "
+            />
+        <path id="afe95e9-toucharea" d="M 750,225 L400,405"
+            class="edge-toucharea"
+            />
+
+
+
+        <path id="8d69c84_283d673_station" d="M 750,522 L750,616"
+            class="edge type- redundant-false  sp-af366bc sp-8d69c84 sp-8d69c84 "
+            />
+        <path id="8d69c84_283d673_station-toucharea" d="M 750,522 L750,616"
+            class="edge-toucharea"
+            />
+
+
+
+        <path id="283d673" d="M 750,616 L1450,850"
+            class="edge type-nationalExpress redundant-false  sp-af366bc sp-8d69c84 sp-283d673 sp-283d673 sp-2c72d79 sp-96fd387 sp-402f181 provider-shortest-path"
+            />
+        <path id="283d673-toucharea" d="M 750,616 L1450,850"
+            class="edge-toucharea"
+            />
+
+
+
+        <path id="6222286" d="M 1100,1194 L750,1484"
+            class="edge type-nationalExpress redundant-false  sp-6222286 sp-6222286 "
+            />
+        <path id="6222286-toucharea" d="M 1100,1194 L750,1484"
+            class="edge-toucharea"
+            />
+
+
+
+        <path id="548de15" d="M 750,100 L50,397"
+            class="edge type-nationalExpress redundant-false  sp-548de15 sp-548de15 "
+            />
+        <path id="548de15-toucharea" d="M 750,100 L50,397"
+            class="edge-toucharea"
+            />
+
+
+
+        <path id="2c72d79" d="M 1100,256 L750,545"
+            class="edge type-nationalExpress redundant-false  sp-2c72d79 sp-2c72d79 "
+            />
+        <path id="2c72d79-toucharea" d="M 1100,256 L750,545"
+            class="edge-toucharea"
+            />
+
+
+
+        <path id="2c72d79_ea86a32_station" d="M 750,545 L750,608"
+            class="edge type- redundant-false  "
+            />
+        <path id="2c72d79_ea86a32_station-toucharea" d="M 750,545 L750,608"
+            class="edge-toucharea"
+            />
+
+
+
+        <path id="ea86a32" d="M 750,608 L400,788"
+            class="edge type-nationalExpress redundant-false  sp-ea86a32 sp-ea86a32 "
+            />
+        <path id="ea86a32-toucharea" d="M 750,608 L400,788"
+            class="edge-toucharea"
+            />
+
+
+
+        <path id="4c0e875" d="M 400,264 L750,444"
+            class="edge type-nationalExpress redundant-false  sp-4c0e875 sp-4c0e875 "
+            />
+        <path id="4c0e875-toucharea" d="M 400,264 L750,444"
+            class="edge-toucharea"
+            />
+
+
+
+        <path id="4c0e875_2322bf4_station" d="M 750,444 L750,459"
+            class="edge type- redundant-false  "
+            />
+        <path id="4c0e875_2322bf4_station-toucharea" d="M 750,444 L750,459"
+            class="edge-toucharea"
+            />
+
+
+
+        <path id="2322bf4" d="M 750,459 L1100,741"
+            class="edge type-nationalExpress redundant-false  sp-2322bf4 sp-2322bf4 "
+            />
+        <path id="2322bf4-toucharea" d="M 750,459 L1100,741"
+            class="edge-toucharea"
+            />
+
+
+
+        <path id="5cd87bc" d="M 400,803 L750,991"
+            class="edge type-nationalExpress redundant-false  sp-ea86a32 sp-5cd87bc sp-5cd87bc "
+            />
+        <path id="5cd87bc-toucharea" d="M 400,803 L750,991"
+            class="edge-toucharea"
+            />
+
+
+
+        <path id="5cd87bc_8ebba5b_station" d="M 750,991 L750,1054"
+            class="edge type- redundant-false  "
+            />
+        <path id="5cd87bc_8ebba5b_station-toucharea" d="M 750,991 L750,1054"
+            class="edge-toucharea"
+            />
+
+
+
+        <path id="8ebba5b" d="M 750,1054 L1100,1335"
+            class="edge type-nationalExpress redundant-false  sp-8ebba5b sp-8ebba5b "
+            />
+        <path id="8ebba5b-toucharea" d="M 750,1054 L1100,1335"
+            class="edge-toucharea"
+            />
+
+
+
+        <path id="88c9abd" d="M 50,162 L750,475"
+            class="edge type-nationalExpress redundant-false  sp-88c9abd sp-88c9abd sp-bad6584 sp-0e3d9cb provider-shortest-path"
+            />
+        <path id="88c9abd-toucharea" d="M 50,162 L750,475"
+            class="edge-toucharea"
+            />
+
+
+
+        <path id="b987202" d="M 1450,1202 L750,1453"
+            class="edge type-nationalExpress redundant-false  sp-b987202 sp-b987202 "
+            />
+        <path id="b987202-toucharea" d="M 1450,1202 L750,1453"
+            class="edge-toucharea"
+            />
+
+
+
+        <path id="bad6584" d="M 750,498 L1450,733"
+            class="edge type-nationalExpress redundant-false  sp-4c0e875 sp-88c9abd sp-bad6584 sp-bad6584 sp-0e3d9cb provider-shortest-path"
+            />
+        <path id="bad6584-toucharea" d="M 750,498 L1450,733"
+            class="edge-toucharea"
+            />
+
+
+
+        <path id="d29626a" d="M 1100,303 L750,631"
+            class="edge type-nationalExpress redundant-false  sp-d29626a sp-d29626a "
+            />
+        <path id="d29626a-toucharea" d="M 1100,303 L750,631"
+            class="edge-toucharea"
+            />
+
+    </g>
+
     </g>
 </g>
 
