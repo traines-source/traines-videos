@@ -117,10 +117,10 @@
 
         <!--<path data-beck-style="false" data-line="AL_WR" class="e2h 10" data-stops="+0 AL +0 WR" data-weight="120" data-from="1996 1 noanim" data-to="1997 1 nozoom"  />-->
 
-        <!----> speedup -->
+        <!-- speedup -->
         <path data-beck-style="false" data-line="AH_HH" class="e12h 70" data-stops="+0 AH +0 HH" data-from="2019 1 noanim-nozoom" data-to="2020 1 noanim-nozoom" />
-        <path data-beck-style="false" data-line="AH_HH" class="e12h 70" data-stops="+0 AH +0 HH" data-weight="75" data-from="2020 1 noanim-nozoom" data-to="2031 25 noanim-nozoom" />
-        <path data-beck-style="false" data-line="AH_HH" class="e12h 70" data-stops="+0 AH +0 HH" data-weight="65" data-from="2031 25 noanim-nozoom" />
+        <path data-beck-style="false" data-line="AH_HH" class="e12h 70" data-stops="+0 AH +0 HH" data-weight="75" data-from="2020 1 noanim-nozoom" data-to="2031 18 noanim-nozoom" />
+        <path data-beck-style="false" data-line="AH_HH" class="e12h 70" data-stops="+0 AH +0 HH" data-weight="65" data-from="2031 18 noanim-nozoom" />
 
         <path data-beck-style="false" data-line="FKW_HH" class="e12h 73" data-stops="+0 FKW +0 HH" data-from="2019 1 noanim-nozoom" data-to="2020 1 noanim-nozoom" />
         <path data-beck-style="false" data-line="FKW_HH" class="e12h 73" data-stops="+0 FKW +0 HH" data-weight="55" data-from="2020 1 noanim-nozoom" />
@@ -129,16 +129,16 @@
 
         <!-- speedup -->
         <path data-beck-style="false" data-line="BL_WP" class="e2h 10" data-stops="+0 BL +0 WP" data-from="2019 1 noanim-nozoom" data-to="2020 1 noanim-nozoom" />
-        <path data-beck-style="false" data-line="BL_WP" class="e2h 10" data-stops="+0 BL +0 WP" data-weight="100" data-from="2020 1 noanim-nozoom" data-to="2031 19 noanim" />
-        <path data-beck-style="false" data-line="BL_WP" class="e2h 10" data-stops="+0 BL +0 WP" data-weight="80" data-from="2031 19 noanim" />
+        <path data-beck-style="false" data-line="BL_WP" class="e2h 10" data-stops="+0 BL +0 WP" data-weight="100" data-from="2020 1 noanim-nozoom" data-to="2031 16 noanim" />
+        <path data-beck-style="false" data-line="BL_WP" class="e2h 10" data-stops="+0 BL +0 WP" data-weight="80" data-from="2031 16 noanim" />
 
         <path data-beck-style="false" data-line="WP_WSR" class="e2h 6" data-stops="+0 WP +0 WSR" data-from="2019 1 noanim-nozoom" data-to="2020 1 noanim-nozoom" />
-        <path data-beck-style="false" data-line="WP_WSR" class="e2h 6" data-stops="+0 WP +0 WSR" data-weight="80" data-from="2020 1 noanim-nozoom" data-to="2031 19 noanim" />
-        <path data-beck-style="false" data-line="WP_WSR" class="e2h 6" data-stops="+0 WP +0 WSR" data-weight="60" data-from="2031 19 noanim" />
+        <path data-beck-style="false" data-line="WP_WSR" class="e2h 6" data-stops="+0 WP +0 WSR" data-weight="80" data-from="2020 1 noanim-nozoom" data-to="2031 16 noanim" />
+        <path data-beck-style="false" data-line="WP_WSR" class="e2h 6" data-stops="+0 WP +0 WSR" data-weight="60" data-from="2031 16 noanim" />
 
         <path data-beck-style="false" data-line="WR_WS" class="e2h 16" data-stops="+0 WR +0 WS" data-from="2019 1 noanim-nozoom" data-to="2020 1 noanim-nozoom"  />
-        <path data-beck-style="false" data-line="WR_WS" class="e2h 16" data-stops="+0 WR +0 WS" data-weight="55" data-from="2020 1 noanim-nozoom" data-to="2031 25 noanim-nozoom" />
-        <path data-beck-style="false" data-line="WR_WS" class="e2h 16" data-stops="+0 WR +0 WS" data-weight="45" data-from="2031 25 noanim-nozoom"  />
+        <path data-beck-style="false" data-line="WR_WS" class="e2h 16" data-stops="+0 WR +0 WS" data-weight="55" data-from="2020 1 noanim-nozoom" data-to="2031 18 noanim-nozoom" />
+        <path data-beck-style="false" data-line="WR_WS" class="e2h 16" data-stops="+0 WR +0 WS" data-weight="45" data-from="2031 18 noanim-nozoom"  />
 
         <path data-beck-style="false" data-line="WR_WSR" class="e2h 10" data-stops="+0 WR +0 WSR" data-from="2019 1 noanim-nozoom" data-to="2020 1 noanim-nozoom" />
         <path data-beck-style="false" data-line="WR_WSR" class="e2h 10" data-stops="+0 WR +0 WSR" data-weight="50" data-from="2020 1 noanim-nozoom" />
@@ -147,8 +147,8 @@
         <path data-beck-style="false" data-line="AH_WS" class="e2h 19" data-stops="+0 AH +0 WS" data-weight="50" data-from="2020 1 noanim-nozoom" />
 
         <path data-beck-style="false" data-line="AH_AL" class="some 5" data-stops="+0 AH +0 AL" data-from="2019 1 noanim-nozoom" data-to="2020 1 noanim-nozoom" />
-        <path data-beck-style="false" data-line="AH_AL" class="some 5" data-stops="+0 AH +0 AL" data-weight="40" data-from="2020 1 noanim-nozoom" data-to="2031 25 noanim-nozoom" />
-        <path data-beck-style="false" data-line="AH_AL" class="e2h 10" data-stops="+0 AH +0 AL" data-weight="35" data-from="2031 25 noanim-nozoom" />
+        <path data-beck-style="false" data-line="AH_AL" class="some 5" data-stops="+0 AH +0 AL" data-weight="40" data-from="2020 1 noanim-nozoom" data-to="2031 18 noanim-nozoom" />
+        <path data-beck-style="false" data-line="AH_AL" class="e2h 10" data-stops="+0 AH +0 AL" data-weight="35" data-from="2031 18 noanim-nozoom" />
 
         <path data-beck-style="false" data-line="WNT_WR" class="e2h 10" data-stops="+0 WNT +0 WR" data-from="2019 1 noanim-nozoom" data-to="2020 1 noanim-nozoom" />
         <path data-beck-style="false" data-line="WNT_WR" class="e2h 10" data-stops="+0 WNT +0 WR" data-weight="55" data-from="2020 1 noanim-nozoom" />
@@ -160,8 +160,8 @@
         <path data-beck-style="false" data-line="AH_AK" class="e2h 15" data-stops="+0 AH +0 AK" data-weight="70" data-from="2020 1 noanim-nozoom" />
 
         <path data-beck-style="false" data-line="AH_AWLA" class="some 6" data-stops="+0 AH +0 AWLA" data-from="2019 1 noanim-nozoom" data-to="2020 1 noanim-nozoom" />
-        <path data-beck-style="false" data-line="AH_AWLA" class="some 6" data-stops="+0 AH +0 AWLA" data-weight="200" data-from="2020 1 noanim-nozoom" data-to="2031 25 noanim-nozoom" />
-        <path data-beck-style="false" data-line="AH_AWLA" class="some 6" data-stops="+0 AH +0 AWLA" data-weight="185" data-from="2031 25 noanim-nozoom" />
+        <path data-beck-style="false" data-line="AH_AWLA" class="some 6" data-stops="+0 AH +0 AWLA" data-weight="200" data-from="2020 1 noanim-nozoom" data-to="2031 18 noanim-nozoom" />
+        <path data-beck-style="false" data-line="AH_AWLA" class="some 6" data-stops="+0 AH +0 AWLA" data-weight="185" data-from="2031 18 noanim-nozoom" />
 
         <path data-beck-style="false" data-line="AH_HB" class="e1h 22" data-stops="+0 AH +0 HB" data-from="2019 1 noanim-nozoom" data-to="2020 1 noanim-nozoom"  />        
         <path data-beck-style="false" data-line="AH_HB" class="e1h 22" data-stops="+0 AH +0 HB" data-weight="55" data-from="2020 1 noanim-nozoom"  data-to="2030 7 noanim" />        
@@ -171,15 +171,15 @@
         <path data-beck-style="false" data-line="HB_HH" class="e1h 21" data-stops="+0 HB +0 HH" data-weight="60" data-from="2020 1 noanim-nozoom" />
 
         <path data-beck-style="false" data-line="HH_BL" class="e12h 60" data-stops="+0 HH +0 BL" data-from="2019 1 noanim-nozoom" data-to="2020 1 noanim-nozoom" />
-        <path data-beck-style="false" data-line="HH_BL" class="e12h 60" data-stops="+0 HH +0 BL" data-weight="100" data-from="2020 1 noanim-nozoom" data-to="2031 25 noanim-nozoom" />
-        <path data-beck-style="false" data-line="HH_BL" class="e12h 65" data-stops="+0 HH +0 BL" data-weight="85" data-from="2031 25 noanim-nozoom" />
+        <path data-beck-style="false" data-line="HH_BL" class="e12h 60" data-stops="+0 HH +0 BL" data-weight="100" data-from="2020 1 noanim-nozoom" data-to="2031 18 noanim-nozoom" />
+        <path data-beck-style="false" data-line="HH_BL" class="e12h 65" data-stops="+0 HH +0 BL" data-weight="85" data-from="2031 18 noanim-nozoom" />
 
         <path data-beck-style="false" data-line="HH_HBS" class="e1h 19" data-stops="+0 HH +0 HBS" data-from="2019 1 noanim-nozoom" data-to="2020 1 noanim-nozoom" />
         <path data-beck-style="false" data-line="HH_HBS" class="e1h 19" data-stops="+0 HH +0 HBS" data-weight="30" data-from="2020 1 noanim-nozoom" />
 
         <path data-beck-style="false" data-line="BL_HBS" class="e1h 25" data-stops="+0 BL +0 HBS" data-from="2019 1 noanim-nozoom" data-to="2020 1 noanim-nozoom" />
-        <path data-beck-style="false" data-line="BL_HBS" class="e1h 25" data-stops="+0 BL +0 HBS" data-weight="85" data-from="2020 1 noanim-nozoom" data-to="2031 25 noanim-nozoom" />
-        <path data-beck-style="false" data-line="BL_HBS" class="e1h 25" data-stops="+0 BL +0 HBS" data-weight="90" data-from="2031 25 noanim-nozoom" />
+        <path data-beck-style="false" data-line="BL_HBS" class="e1h 25" data-stops="+0 BL +0 HBS" data-weight="85" data-from="2020 1 noanim-nozoom" data-to="2031 18 noanim-nozoom" />
+        <path data-beck-style="false" data-line="BL_HBS" class="e1h 25" data-stops="+0 BL +0 HBS" data-weight="90" data-from="2031 18 noanim-nozoom" />
 
         <path data-beck-style="false" data-line="BL_LM" class="some 3" data-stops="+0 BL +0 LM" data-from="2019 1 noanim-nozoom" data-to="2020 1 noanim-nozoom" />
         <path data-beck-style="false" data-line="BL_LM" class="some 3" data-stops="+0 BL +0 LM" data-weight="90" data-from="2020 1 noanim-nozoom" />
@@ -203,23 +203,23 @@
         <path data-beck-style="false" data-line="FFU_FKW" class="e12h 64" data-stops="+0 FFU +0 FKW" data-weight="30" data-from="2020 1 noanim-nozoom" />
 
         <path data-beck-style="false" data-line="FFU_FF" class="e12h 44" data-stops="+0 FFU +0 FF" data-from="2019 1 noanim-nozoom" data-to="2020 1 noanim-nozoom" />
-        <path data-beck-style="false" data-line="FFU_FF" class="e12h 44" data-stops="+0 FFU +0 FF" data-weight="55" data-from="2020 1 noanim-nozoom" data-to="2031 9 noanim" />
-        <path data-beck-style="false" data-line="FFU_FF" class="e12h 45" data-stops="+0 FFU +0 FF" data-weight="35" data-from="2031 9 noanim" />
+        <path data-beck-style="false" data-line="FFU_FF" class="e12h 44" data-stops="+0 FFU +0 FF" data-weight="55" data-from="2020 1 noanim-nozoom" data-to="2031 8 noanim" />
+        <path data-beck-style="false" data-line="FFU_FF" class="e12h 45" data-stops="+0 FFU +0 FF" data-weight="35" data-from="2031 8 noanim" />
 
         <path data-beck-style="false" data-line="FFU_NWH" class="e1h 19" data-stops="+0 FFU +0 NWH" data-from="2019 1 noanim-nozoom" data-to="2020 1 noanim-nozoom" />
         <path data-beck-style="false" data-line="FFU_NWH" class="e1h 35" data-stops="+0 FFU +0 NWH" data-weight="30" data-from="2020 1 noanim-nozoom" />
 
         <path data-beck-style="false" data-line="FF_RM" class="e12h 67" data-stops="+0 FF +0 RM" data-from="2019 1 noanim-nozoom" data-to="2020 1 noanim-nozoom" />
-        <path data-beck-style="false" data-line="FF_RM" class="e12h 67" data-stops="+0 FF +0 RM" data-weight="40" data-from="2020 1 noanim-nozoom" data-to="2031 25 noanim-nozoom" />
-        <path data-beck-style="false" data-line="FF_RM" class="e12h 81" data-stops="+0 FF +0 RM" data-weight="30" data-from="2031 25 noanim-nozoom" />
+        <path data-beck-style="false" data-line="FF_RM" class="e12h 67" data-stops="+0 FF +0 RM" data-weight="40" data-from="2020 1 noanim-nozoom" data-to="2031 18 noanim-nozoom" />
+        <path data-beck-style="false" data-line="FF_RM" class="e12h 81" data-stops="+0 FF +0 RM" data-weight="30" data-from="2031 18 noanim-nozoom" />
 
         <path data-beck-style="false" data-line="FF_FMZ" class="e1h 23" data-stops="+0 FF +0 FMZ" data-from="2019 1 noanim-nozoom" data-to="2020 1 noanim-nozoom"  />
         <path data-beck-style="false" data-line="FF_FMZ" class="e1h 23" data-stops="+0 FF +0 FMZ" data-weight="30" data-from="2020 1 noanim-nozoom" />
 
         <path data-beck-style="false" data-line="FF_NWH" class="e1h 28" data-stops="+0 FF +0 NWH" data-from="2019 1 noanim-nozoom" data-to="2020 1 noanim-nozoom" />
         <path data-beck-style="false" data-line="FF_NWH" class="e1h 28" data-stops="+0 FF +0 NWH" data-weight="70" data-from="2020 1 noanim-nozoom" data-to="2030 3 noanim" />
-        <path data-beck-style="false" data-line="FF_NWH" class="e12h 28" data-stops="+0 FF +0 NWH" data-weight="70" data-from="2030 3 noanim" data-to="2031 9 noanim" />
-        <path data-beck-style="false" data-line="FF_NWH" class="e12h 45" data-stops="+0 FF +0 NWH" data-weight="55" data-from="2031 9 noanim" />
+        <path data-beck-style="false" data-line="FF_NWH" class="e12h 28" data-stops="+0 FF +0 NWH" data-weight="70" data-from="2030 3 noanim" data-to="2031 8 noanim" />
+        <path data-beck-style="false" data-line="FF_NWH" class="e12h 45" data-stops="+0 FF +0 NWH" data-weight="55" data-from="2031 8 noanim" />
 
         <path data-beck-style="false" data-line="FF_FG" class="e2h 16" data-stops="+0 FF +0 FG" data-from="2019 1 noanim-nozoom" data-to="2020 1 noanim-nozoom" />
         <path data-beck-style="false" data-line="FF_FG" class="e2h 16" data-stops="+0 FF +0 FG" data-weight="40" data-from="2020 1 noanim-nozoom" />
@@ -231,8 +231,8 @@
         <path data-beck-style="false" data-line="FMZ_RM" class="e1h 17" data-stops="+0 FMZ +0 RM" data-weight="40" data-from="2020 1 noanim-nozoom" />
 
         <path data-beck-style="false" data-line="FMZ_KKO" class="e12h 40" data-stops="+0 FMZ +0 KKO" data-from="2019 1 noanim-nozoom" data-to="2020 1 noanim-nozoom" />
-        <path data-beck-style="false" data-line="FMZ_KKO" class="e12h 40" data-stops="+0 FMZ +0 KKO" data-weight="50" data-from="2020 1 noanim-nozoom" data-to="2031 25 noanim-nozoom" />
-        <path data-beck-style="false" data-line="FMZ_KKO" class="e1h 18" data-stops="+0 FMZ +0 KKO" data-weight="50" data-from="2031 25 noanim-nozoom" />
+        <path data-beck-style="false" data-line="FMZ_KKO" class="e12h 40" data-stops="+0 FMZ +0 KKO" data-weight="50" data-from="2020 1 noanim-nozoom" data-to="2031 18 noanim-nozoom" />
+        <path data-beck-style="false" data-line="FMZ_KKO" class="e1h 18" data-stops="+0 FMZ +0 KKO" data-weight="50" data-from="2031 18 noanim-nozoom" />
 
         <path data-beck-style="false" data-line="KKO_KK" class="e12h 47" data-stops="+0 KKO +0 KK" data-from="2019 1 noanim-nozoom" data-to="2020 1 noanim-nozoom" />
         <path data-beck-style="false" data-line="KKO_KK" class="e12h 35" data-stops="+0 KKO +0 KK" data-weight="55" data-from="2020 1 noanim-nozoom"/>
@@ -241,38 +241,38 @@
         <path data-beck-style="false" data-line="KKO_STR" class="some 8" data-stops="+0 KKO +0 STR" data-weight="80" data-from="2030 12 nozoom" />
 
         <path data-beck-style="false" data-line="FF_KK" class="e12h 50" data-stops="+0 FF +0 KK" data-from="2019 1 noanim-nozoom" data-to="2020 1 noanim-nozoom" />
-        <path data-beck-style="false" data-line="FF_KK" class="e12h 50" data-stops="+0 FF +0 KK" data-weight="65" data-from="2020 1 noanim-nozoom" data-to="2031 25 noanim-nozoom" />
-        <path data-beck-style="false" data-line="FF_KK" class="e12h 50" data-stops="+0 FF +0 KK" data-weight="60" data-from="2031 25 noanim-nozoom" />
+        <path data-beck-style="false" data-line="FF_KK" class="e12h 50" data-stops="+0 FF +0 KK" data-weight="65" data-from="2020 1 noanim-nozoom" data-to="2031 18 noanim-nozoom" />
+        <path data-beck-style="false" data-line="FF_KK" class="e12h 50" data-stops="+0 FF +0 KK" data-weight="60" data-from="2031 18 noanim-nozoom" />
 
         <path data-beck-style="false" data-line="RM_TS" class="e12h 75" data-stops="+0 RM +0 TS" data-from="2019 1 noanim-nozoom" data-to="2020 1 noanim-nozoom" />
-        <path data-beck-style="false" data-line="RM_TS" class="e12h 75" data-stops="+0 RM +0 TS" data-weight="40" data-from="2020 1 noanim-nozoom" data-to="2031 25 noanim-nozoom" />
-        <path data-beck-style="false" data-line="RM_TS" class="e12h 81" data-stops="+0 RM +0 TS" data-weight="30" data-from="2031 25 noanim-nozoom" />
+        <path data-beck-style="false" data-line="RM_TS" class="e12h 75" data-stops="+0 RM +0 TS" data-weight="40" data-from="2020 1 noanim-nozoom" data-to="2031 18 noanim-nozoom" />
+        <path data-beck-style="false" data-line="RM_TS" class="e12h 81" data-stops="+0 RM +0 TS" data-weight="30" data-from="2031 18 noanim-nozoom" />
 
         <path data-beck-style="false" data-line="RK_TS" class="e1h 26" data-stops="+0 RK +0 TS"  data-from="2019 1 noanim-nozoom" data-to="2020 1 noanim-nozoom" />
-        <path data-beck-style="false" data-line="RK_TS" class="e1h 26" data-stops="+0 RK +0 TS" data-weight="40" data-from="2020 1 noanim-nozoom" data-to="2031 25 noanim-nozoom" />
-        <path data-beck-style="false" data-line="RK_TS" class="e1h 36" data-stops="+0 RK +0 TS" data-weight="30" data-from="2031 25 noanim-nozoom" />
+        <path data-beck-style="false" data-line="RK_TS" class="e1h 26" data-stops="+0 RK +0 TS" data-weight="40" data-from="2020 1 noanim-nozoom" data-to="2031 18 noanim-nozoom" />
+        <path data-beck-style="false" data-line="RK_TS" class="e1h 36" data-stops="+0 RK +0 TS" data-weight="30" data-from="2031 18 noanim-nozoom" />
 
         <path data-beck-style="false" data-line="RM_SSH" class="e2h 9" data-stops="+0 RM +0 SSH" data-from="2019 1 noanim-nozoom" data-to="2020 1 noanim-nozoom" />
         <path data-beck-style="false" data-line="RM_SSH" class="e2h 19" data-stops="+0 RM +0 SSH" data-weight="70" data-from="2020 1 noanim-nozoom" />
 
         <path data-beck-style="false" data-line="RK_RM" class="e12h 41" data-stops="+0 RK +0 RM" data-from="2019 1 noanim-nozoom" data-to="2020 1 noanim-nozoom" />
-        <path data-beck-style="false" data-line="RK_RM" class="e12h 41" data-stops="+0 RK +0 RM" data-weight="25" data-from="2020 1 noanim-nozoom" data-to="2031 25 noanim-nozoom" />
-        <path data-beck-style="false" data-line="RK_RM" class="e12h 64" data-stops="+0 RK +0 RM" data-weight="20" data-from="2031 25 noanim-nozoom" />
+        <path data-beck-style="false" data-line="RK_RM" class="e12h 41" data-stops="+0 RK +0 RM" data-weight="25" data-from="2020 1 noanim-nozoom" data-to="2031 18 noanim-nozoom" />
+        <path data-beck-style="false" data-line="RK_RM" class="e12h 64" data-stops="+0 RK +0 RM" data-weight="20" data-from="2031 18 noanim-nozoom" />
 
         <!--done--> 
 
         
         <path data-beck-style="false" data-line="RK_RB" class="e12h 38" data-stops="+0 RK +0 RB" data-from="2019 1 noanim-nozoom" data-to="2020 1 noanim-nozoom" />
-        <path data-beck-style="false" data-line="RK_RB" class="e12h 38" data-stops="+0 RK +0 RB" data-weight="95" data-from="2020 1 noanim-nozoom" data-to="2031 25 noanim-nozoom" />
-        <path data-beck-style="false" data-line="RK_RB" class="e12h 38" data-stops="+0 RK +0 RB" data-weight="75" data-from="2031 25 noanim-nozoom"  />
+        <path data-beck-style="false" data-line="RK_RB" class="e12h 38" data-stops="+0 RK +0 RB" data-weight="95" data-from="2020 1 noanim-nozoom" data-to="2031 18 noanim-nozoom" />
+        <path data-beck-style="false" data-line="RK_RB" class="e12h 38" data-stops="+0 RK +0 RB" data-weight="75" data-from="2031 18 noanim-nozoom"  />
 
         <path data-beck-style="false" data-line="TS_RSI" class="e1h 17" data-stops="+0 TS +0 RSI" data-from="2019 1 noanim-nozoom" data-to="2020 1 noanim-nozoom" />
         <path data-beck-style="false" data-line="TS_RSI" class="e1h 17" data-stops="+0 TS +0 RSI" data-weight="115" data-from="2020 1 noanim-nozoom" data-to="2031 3 noanim" />
         <path data-beck-style="false" data-line="TS_RSI" class="e1h 18" data-stops="+0 TS +0 RSI" data-weight="105" data-from="2031 3 noanim" />
 
         <path data-beck-style="false" data-line="TS_TU" class="e12h 53" data-stops="+0 TS +0 TU" data-from="2019 1 noanim-nozoom" data-to="2020 1 noanim-nozoom" />
-        <path data-beck-style="false" data-line="TS_TU" class="e12h 53" data-stops="+0 TS +0 TU" data-weight="45" data-from="2020 1 noanim-nozoom" data-to="2031 25 noanim-nozoom" />
-        <path data-beck-style="false" data-line="TS_TU" class="e12h 63" data-stops="+0 TS +0 TU" data-weight="30" data-from="2031 25 noanim-nozoom" />
+        <path data-beck-style="false" data-line="TS_TU" class="e12h 53" data-stops="+0 TS +0 TU" data-weight="45" data-from="2020 1 noanim-nozoom" data-to="2031 18 noanim-nozoom" />
+        <path data-beck-style="false" data-line="TS_TU" class="e12h 63" data-stops="+0 TS +0 TU" data-weight="30" data-from="2031 18 noanim-nozoom" />
 
         <path data-beck-style="false" data-line="MA_TU" class="e12h 62" data-stops="+0 MA +0 TU" data-from="2019 1 noanim-nozoom" data-to="2020 1 noanim-nozoom" />
         <path data-beck-style="false" data-line="MA_TU" class="e12h 62" data-stops="+0 MA +0 TU" data-weight="40" data-from="2020 1 noanim-nozoom" />
@@ -287,8 +287,8 @@
         <path data-beck-style="false" data-line="MA_MH" class="e12h 60" data-stops="+0 MA +0 MH" data-weight="30" data-from="2020 1 noanim-nozoom" />
 
         <path data-beck-style="false" data-line="MGP_MH" class="some 5" data-stops="+0 MGP +0 MH" data-from="2019 1 noanim-nozoom" data-to="2020 1 noanim-nozoom" />
-        <path data-beck-style="false" data-line="MGP_MH" class="some 5" data-stops="+0 MGP +0 MH" data-weight="90" data-from="2020 1 noanim-nozoom" data-to="2031 25 noanim-nozoom" />
-        <path data-beck-style="false" data-line="MGP_MH" class="some 1" data-stops="+0 MGP +0 MH" data-weight="75" data-from="2031 25 noanim-nozoom" />
+        <path data-beck-style="false" data-line="MGP_MH" class="some 5" data-stops="+0 MGP +0 MH" data-weight="90" data-from="2020 1 noanim-nozoom" data-to="2031 18 noanim-nozoom" />
+        <path data-beck-style="false" data-line="MGP_MH" class="some 1" data-stops="+0 MGP +0 MH" data-weight="75" data-from="2031 18 noanim-nozoom" />
 
         <path data-beck-style="false" data-line="MH_MIH" class="e12h 50" data-stops="+0 MH +0 MIH" data-from="2019 1 noanim-nozoom" data-to="2020 1 noanim-nozoom" />
         <path data-beck-style="false" data-line="MH_MIH" class="e12h 50" data-stops="+0 MH +0 MIH" data-weight="35" data-from="2020 1 noanim-nozoom" />
@@ -302,8 +302,8 @@
         <path data-beck-style="false" data-line="NHO_NRH" class="e2h 9" data-stops="+0 NRH +0 NHO" data-weight="105" data-from="2030 12 nozoom"  />
 
         <path data-beck-style="false" data-line="MA_NN" class="e2h 12" data-stops="+0 MA +0 NN" data-from="2019 1 noanim-nozoom" data-to="2020 1 noanim-nozoom" />
-        <path data-beck-style="false" data-line="MA_NN" class="e2h 12" data-stops="+0 MA +0 NN" data-weight="70" data-from="2020 1 noanim-nozoom" data-to="2031 25 noanim-nozoom" />
-        <path data-beck-style="false" data-line="MA_NN" class="e1h 19" data-stops="+0 MA +0 NN" data-weight="70" data-from="2031 25 noanim-nozoom" />
+        <path data-beck-style="false" data-line="MA_NN" class="e2h 12" data-stops="+0 MA +0 NN" data-weight="70" data-from="2020 1 noanim-nozoom" data-to="2031 18 noanim-nozoom" />
+        <path data-beck-style="false" data-line="MA_NN" class="e1h 19" data-stops="+0 MA +0 NN" data-weight="70" data-from="2031 18 noanim-nozoom" />
         
         <path data-beck-style="false" data-line="NRH_NPA" class="e2h 12" data-stops="+0 NRH +0 NPA" data-from="2019 1 noanim-nozoom" data-to="2020 1 noanim-nozoom" />
         <path data-beck-style="false" data-line="NRH_NPA" class="e2h 12" data-stops="+0 NRH +0 NPA" data-weight="60" data-from="2020 1 noanim-nozoom" />
@@ -312,40 +312,40 @@
         <path data-beck-style="false" data-line="NN_NRH" class="e2h 9" data-stops="+0 NN +0 NRH" data-weight="55" data-from="2020 1 noanim-nozoom" />
 
         <path data-beck-style="false" data-line="NN_TS" class="e2h 8" data-stops="+0 NN +0 TS" data-from="2019 1 noanim-nozoom" data-to="2020 1 noanim-nozoom" />
-        <path data-beck-style="false" data-line="NN_TS" class="e2h 8" data-stops="+0 NN +0 TS" data-weight="130" data-from="2020 1 noanim-nozoom" data-to="2031 25 noanim-nozoom" />
-        <path data-beck-style="false" data-line="NN_TS" class="e1h 35" data-stops="+0 NN +0 TS" data-weight="140" data-from="2031 25 noanim-nozoom" />
+        <path data-beck-style="false" data-line="NN_TS" class="e2h 8" data-stops="+0 NN +0 TS" data-weight="130" data-from="2020 1 noanim-nozoom" data-to="2031 18 noanim-nozoom" />
+        <path data-beck-style="false" data-line="NN_TS" class="e1h 35" data-stops="+0 NN +0 TS" data-weight="140" data-from="2031 18 noanim-nozoom" />
 
         <path data-beck-style="false" data-line="NN_NWH" class="e12h 70" data-stops="+0 NN +0 NWH" data-from="2019 1 noanim-nozoom" data-to="2020 1 noanim-nozoom" />
-        <path data-beck-style="false" data-line="NN_NWH" class="e12h 70" data-stops="+0 NN +0 NWH" data-weight="50" data-from="2020 1 noanim-nozoom" data-to="2031 6 noanim" />
-        <path data-beck-style="false" data-line="NN_NWH" class="e12h 79" data-stops="+0 NN +0 NWH" data-weight="30" data-from="2031 6 noanim" />
+        <path data-beck-style="false" data-line="NN_NWH" class="e12h 70" data-stops="+0 NN +0 NWH" data-weight="50" data-from="2020 1 noanim-nozoom" data-to="2031 5 noanim" />
+        <path data-beck-style="false" data-line="NN_NWH" class="e12h 79" data-stops="+0 NN +0 NWH" data-weight="30" data-from="2031 5 noanim" />
 
         <path data-beck-style="false" data-line="NN_UJP" class="some 3" data-stops="+0 NN +0 UJP" data-from="2019 1 noanim-nozoom" data-to="2020 1 noanim-nozoom" />
-        <path data-beck-style="false" data-line="NN_UJP" class="some 3" data-stops="+0 NN +0 UJP" data-weight="160" data-from="2020 1 noanim-nozoom" data-to="2031 25 noanim-nozoom" />
-        <path data-beck-style="false" data-line="NN_UJP" class="e2h 8" data-stops="+0 NN +0 UJP" data-weight="160" data-from="2031 25 noanim-nozoom"/>
+        <path data-beck-style="false" data-line="NN_UJP" class="some 3" data-stops="+0 NN +0 UJP" data-weight="160" data-from="2020 1 noanim-nozoom" data-to="2031 18 noanim-nozoom" />
+        <path data-beck-style="false" data-line="NN_UJP" class="e2h 8" data-stops="+0 NN +0 UJP" data-weight="160" data-from="2031 18 noanim-nozoom"/>
 
         <!-- secret connections via NWH -->
         <path data-beck-style="false" data-line="NN_UE" class="e1h 24" data-stops="+0 NN +0 UE" data-from="2019 1 noanim-nozoom" data-to="2020 1 noanim-nozoom" />
         <path data-beck-style="false" data-line="NN_UE" class="e1h 24" data-stops="+0 NN +0 UE" data-weight="70" data-from="2020 1 noanim-nozoom" data-to="2023 1 noanim" />
-        <path data-beck-style="false" data-line="NN_UE" class="e12h 45" data-stops="+0 NN +0 UE" data-weight="70" data-from="2023 1 noanim" data-to="2031 25 noanim-nozoom" />
-        <path data-beck-style="false" data-line="NN_UE" class="e12h 45" data-stops="+0 NN +0 UE" data-weight="60" data-from="2031 25 noanim-nozoom" />
+        <path data-beck-style="false" data-line="NN_UE" class="e12h 45" data-stops="+0 NN +0 UE" data-weight="70" data-from="2023 1 noanim" data-to="2031 18 noanim-nozoom" />
+        <path data-beck-style="false" data-line="NN_UE" class="e12h 45" data-stops="+0 NN +0 UE" data-weight="60" data-from="2031 18 noanim-nozoom" />
 
         <path data-beck-style="false" data-line="LL_UJP" class="some 3" data-stops="+0 LL +0 UJP" data-from="2019 1 noanim-nozoom" data-to="2020 1 noanim-nozoom"  />
-        <path data-beck-style="false" data-line="LL_UJP" class="some 3" data-stops="+0 LL +0 UJP" data-weight="75" data-from="2020 1 noanim-nozoom" data-to="2031 25 noanim-nozoom" />
-        <path data-beck-style="false" data-line="LL_UJP" class="e2h 8" data-stops="+0 LL +0 UJP" data-weight="70" data-from="2031 25 noanim-nozoom" />
+        <path data-beck-style="false" data-line="LL_UJP" class="some 3" data-stops="+0 LL +0 UJP" data-weight="75" data-from="2020 1 noanim-nozoom" data-to="2031 18 noanim-nozoom" />
+        <path data-beck-style="false" data-line="LL_UJP" class="e2h 8" data-stops="+0 LL +0 UJP" data-weight="70" data-from="2031 18 noanim-nozoom" />
 
         <!--<path data-beck-style="false" data-line="UE_UJP" class="some 3" data-stops="+0 UE +0 UJP" data-from="2019 1 noanim-nozoom" data-to="2020 1 noanim-nozoom" />
-        <path data-beck-style="false" data-line="UE_UJP" class="some 3" data-stops="+0 UE +0 UJP" data-weight="35" data-from="2020 1 noanim-nozoom" data-to="2031 25 noanim-nozoom" />
-        <path data-beck-style="false" data-line="UE_UJP" class="e2h 8" data-stops="+0 UE +0 UJP" data-weight="35" data-from="2031 25 noanim-nozoom" />-->
+        <path data-beck-style="false" data-line="UE_UJP" class="some 3" data-stops="+0 UE +0 UJP" data-weight="35" data-from="2020 1 noanim-nozoom" data-to="2031 18 noanim-nozoom" />
+        <path data-beck-style="false" data-line="UE_UJP" class="e2h 8" data-stops="+0 UE +0 UJP" data-weight="35" data-from="2031 18 noanim-nozoom" />-->
         <!--<path data-beck-style="false" data-line="UE_UJP" class="some 3" data-stops="+0 UE +0 UJP" data-weight="30" data-from="2019 1 noanim" />-->
 
         <path data-beck-style="false" data-line="FKW_UE" class="some 4" data-stops="+0 FKW +0 UE" data-from="2019 1 noanim-nozoom" data-to="2020 1 noanim-nozoom" />
-        <path data-beck-style="false" data-line="FKW_UE" class="some 4" data-stops="+0 FKW +0 UE" data-weight="95" data-from="2020 1 noanim-nozoom" data-to="2031 25 noanim-nozoom" />
-        <path data-beck-style="false" data-line="FKW_UE" class="e2h 9" data-stops="+0 FKW +0 UE" data-weight="95" data-from="2031 25 noanim-nozoom" />
+        <path data-beck-style="false" data-line="FKW_UE" class="some 4" data-stops="+0 FKW +0 UE" data-weight="95" data-from="2020 1 noanim-nozoom" data-to="2031 18 noanim-nozoom" />
+        <path data-beck-style="false" data-line="FKW_UE" class="e2h 9" data-stops="+0 FKW +0 UE" data-weight="95" data-from="2031 18 noanim-nozoom" />
 
         <path data-beck-style="false" data-line="FFU_UE" class="e1h 20" data-stops="+0 FFU +0 UE" data-from="2019 1 noanim-nozoom" data-to="2020 1 noanim-nozoom" />
         <path data-beck-style="false" data-line="FFU_UE" class="e1h 20" data-stops="+0 FFU +0 UE" data-weight="80" data-from="2020 1 noanim-nozoom" data-to="2030 3 noanim" />
-        <path data-beck-style="false" data-line="FFU_UE" class="e12h 45" data-stops="+0 FFU +0 UE" data-weight="80" data-from="2030 3 noanim" data-to="2031 9 noanim" />
-        <path data-beck-style="false" data-line="FFU_UE" class="e12h 45" data-stops="+0 FFU +0 UE" data-weight="60" data-from="2031 9 noanim" />
+        <path data-beck-style="false" data-line="FFU_UE" class="e12h 45" data-stops="+0 FFU +0 UE" data-weight="80" data-from="2030 3 noanim" data-to="2031 8 noanim" />
+        <path data-beck-style="false" data-line="FFU_UE" class="e12h 45" data-stops="+0 FFU +0 UE" data-weight="60" data-from="2031 8 noanim" />
         
         <path data-beck-style="false" data-line="LL_UE" class="e1h 33" data-stops="+0 LL +0 UE" data-from="2019 1 noanim-nozoom" data-to="2020 1 noanim-nozoom" />
         <path data-beck-style="false" data-line="LL_UE" class="e1h 33" data-stops="+0 LL +0 UE" data-weight="40" data-from="2020 1 noanim-nozoom" data-to="2030 3 noanim" />
@@ -367,28 +367,28 @@
         <path data-beck-style="false" data-line="BL_LL" class="e12h 47" data-stops="+0 BL +0 LL" data-weight="70" data-from="2030 3 noanim" />
 
         <path data-beck-style="false" data-line="DH_LL" class="e1h 25" data-stops="+0 DH +0 LL" data-from="2019 1 noanim-nozoom" data-to="2020 1 noanim-nozoom" />
-        <path data-beck-style="false" data-line="DH_LL" class="e1h 25" data-stops="+0 DH +0 LL" data-weight="70" data-from="2020 1 noanim-nozoom" data-to="2031 25 noanim-nozoom" />
-        <path data-beck-style="false" data-line="DH_LL" class="e1h 18" data-stops="+0 DH +0 LL" data-weight="65" data-from="2031 25 noanim-nozoom" />
+        <path data-beck-style="false" data-line="DH_LL" class="e1h 25" data-stops="+0 DH +0 LL" data-weight="70" data-from="2020 1 noanim-nozoom" data-to="2031 18 noanim-nozoom" />
+        <path data-beck-style="false" data-line="DH_LL" class="e1h 18" data-stops="+0 DH +0 LL" data-weight="65" data-from="2031 18 noanim-nozoom" />
 
         <path data-beck-style="false" data-line="BL_DH" class="e1h 21" data-stops="+0 BL +0 DH" data-from="2019 1 noanim-nozoom" data-to="2020 1 noanim-nozoom" />
-        <path data-beck-style="false" data-line="BL_DH" class="e1h 21" data-stops="+0 BL +0 DH" data-weight="110" data-from="2020 1 noanim-nozoom" data-to="2031 16 noanim" />
-        <path data-beck-style="false" data-line="BL_DH" class="e1h 24" data-stops="+0 BL +0 DH" data-weight="80" data-from="2031 16 noanim" />
+        <path data-beck-style="false" data-line="BL_DH" class="e1h 21" data-stops="+0 BL +0 DH" data-weight="110" data-from="2020 1 noanim-nozoom" data-to="2031 14 noanim" />
+        <path data-beck-style="false" data-line="BL_DH" class="e1h 24" data-stops="+0 BL +0 DH" data-weight="80" data-from="2031 14 noanim" />
 
         <path data-beck-style="false" data-line="BFP_BL" class="e2h 9" data-stops="+0 BFP +0 BL" data-from="2019 1 noanim-nozoom" data-to="2020 1 noanim-nozoom" />
-        <path data-beck-style="false" data-line="BFP_BL" class="e2h 9" data-stops="+0 BFP +0 BL" data-weight="60" data-from="2020 1 noanim-nozoom" data-to="2031 25 noanim-nozoom" />
-        <path data-beck-style="false" data-line="BFP_BL" class="e1h 15" data-stops="+0 BFP +0 BL" data-weight="50" data-from="2031 25 noanim-nozoom" />
+        <path data-beck-style="false" data-line="BFP_BL" class="e2h 9" data-stops="+0 BFP +0 BL" data-weight="60" data-from="2020 1 noanim-nozoom" data-to="2031 18 noanim-nozoom" />
+        <path data-beck-style="false" data-line="BFP_BL" class="e1h 15" data-stops="+0 BFP +0 BL" data-weight="50" data-from="2031 18 noanim-nozoom" />
 
         <path data-beck-style="false" data-line="BCS_BL" class="some 1" data-stops="+0 BCS +0 BL" data-from="2019 1 noanim-nozoom" data-to="2020 1 noanim-nozoom" />
-        <path data-beck-style="false" data-line="BCS_BL" class="some 1" data-stops="+0 BCS +0 BL" data-weight="80" data-from="2020 1 noanim-nozoom" data-to="2031 25 noanim-nozoom" />
-        <path data-beck-style="false" data-line="BCS_BL" class="e2h 9" data-stops="+0 BCS +0 BL" data-weight="85" data-from="2031 25 noanim-nozoom" />
+        <path data-beck-style="false" data-line="BCS_BL" class="some 1" data-stops="+0 BCS +0 BL" data-weight="80" data-from="2020 1 noanim-nozoom" data-to="2031 18 noanim-nozoom" />
+        <path data-beck-style="false" data-line="BCS_BL" class="e2h 9" data-stops="+0 BCS +0 BL" data-weight="85" data-from="2031 18 noanim-nozoom" />
 
         <!--<path data-beck-style="false" data-line="BCS_DG" class="some 6" data-stops="+0 BCS +0 DG" data-weight="80" data-from="1998 1 noanim-nozoom" data-to="2001 1" />-->
 
         <!--<path data-beck-style="false" data-line="DG_DH" class="some 4" data-stops="+0 DG +0 DH" data-weight="80" data-from="2000 10 noanim-nozoom" data-to="2005 1 reverse-nozoom" />-->
 
         <path data-beck-style="false" data-line="DC_DH" class="some 2" data-stops="+0 DC +0 DH" data-from="2019 1 noanim-nozoom" data-to="2020 1 noanim-nozoom"  />
-        <path data-beck-style="false" data-line="DC_DH" class="some 2" data-stops="+0 DC +0 DH" data-weight="60" data-from="2020 1 noanim-nozoom" data-to="2031 25 noanim-nozoom" />
-        <path data-beck-style="false" data-line="DC_DH" class="e2h 9" data-stops="+0 DC +0 DH" data-weight="60" data-from="2031 25 noanim-nozoom"  />
+        <path data-beck-style="false" data-line="DC_DH" class="some 2" data-stops="+0 DC +0 DH" data-weight="60" data-from="2020 1 noanim-nozoom" data-to="2031 18 noanim-nozoom" />
+        <path data-beck-style="false" data-line="DC_DH" class="e2h 9" data-stops="+0 DC +0 DH" data-weight="60" data-from="2031 18 noanim-nozoom"  />
 
 
         <!--<path data-beck-style="false" data-line="BCS_LL" class="some 8" data-stops="+0 BCS +0 LL" data-weight="110" data-from="1998 1 noanim-nozoom" data-to="2000 10" />-->
@@ -425,12 +425,12 @@
         <path data-beck-style="false" data-line="EDG_EMST" class="e12h 39" data-stops="+0 EDG +0 EMST" data-weight="60" data-from="2020 1 noanim-nozoom" />
 
         <path data-beck-style="false" data-line="EDO_EMST" class="e2h 14" data-stops="+0 EDO +0 EMST" data-from="2019 1 noanim-nozoom" data-to="2020 1 noanim-nozoom" />
-        <path data-beck-style="false" data-line="EDO_EMST" class="e2h 14" data-stops="+0 EDO +0 EMST" data-weight="30" data-from="2020 1 noanim-nozoom" data-to="2031 25 noanim-nozoom" />
-        <path data-beck-style="false" data-line="EDO_EMST" class="e1h 26" data-stops="+0 EDO +0 EMST" data-weight="25" data-from="2031 25 noanim-nozoom" />
+        <path data-beck-style="false" data-line="EDO_EMST" class="e2h 14" data-stops="+0 EDO +0 EMST" data-weight="30" data-from="2020 1 noanim-nozoom" data-to="2031 18 noanim-nozoom" />
+        <path data-beck-style="false" data-line="EDO_EMST" class="e1h 26" data-stops="+0 EDO +0 EMST" data-weight="25" data-from="2031 18 noanim-nozoom" />
 
         <path data-beck-style="false" data-line="EDO_HH" class="e12h 38" data-stops="+0 EDO +0 HH" data-from="2019 1 noanim-nozoom" data-to="2020 1 noanim-nozoom" />
-        <path data-beck-style="false" data-line="EDO_HH" class="e12h 38" data-stops="+0 EDO +0 HH" data-weight="100" data-from="2020 1 noanim-nozoom" data-to="2031 13 noanim" />
-        <path data-beck-style="false" data-line="EDO_HH" class="e12h 40" data-stops="+0 EDO +0 HH" data-weight="75" data-from="2031 13 noanim" />
+        <path data-beck-style="false" data-line="EDO_HH" class="e12h 38" data-stops="+0 EDO +0 HH" data-weight="100" data-from="2020 1 noanim-nozoom" data-to="2031 12 noanim" />
+        <path data-beck-style="false" data-line="EDO_HH" class="e12h 40" data-stops="+0 EDO +0 HH" data-weight="75" data-from="2031 12 noanim" />
 
         <path data-beck-style="false" data-line="EMST_HE" class="e2h 10" data-stops="+0 EMST +0 HE" data-from="2019 1 noanim-nozoom" data-to="2020 1 noanim-nozoom" />
         <path data-beck-style="false" data-line="EMST_HE" class="e2h 10" data-stops="+0 EMST +0 HE" data-weight="115" data-from="2020 1 noanim-nozoom" />
@@ -447,19 +447,21 @@
         <path data-beck-style="false" data-line="HB_HO" class="e12h 37" data-stops="+0 HB +0 HO" data-weight="50" data-from="2030 7 noanim" />
 
         <path data-beck-style="false" data-line="HH_HO" class="e2h 9" data-stops="+0 HH +0 HO" data-from="2019 1 noanim-nozoom" data-to="2020 1 noanim-nozoom" />
-        <path data-beck-style="false" data-line="HH_HO" class="e2h 9" data-stops="+0 HH +0 HO" data-weight="70" data-from="2020 1 noanim-nozoom" data-to="2031 13 noanim" />
-        <path data-beck-style="false" data-line="HH_HO" class="e2h 9" data-stops="+0 HH +0 HO" data-weight="60" data-from="2031 13 noanim" />
+        <path data-beck-style="false" data-line="HH_HO" class="e2h 9" data-stops="+0 HH +0 HO" data-weight="70" data-from="2020 1 noanim-nozoom" data-to="2031 12 noanim" />
+        <path data-beck-style="false" data-line="HH_HO" class="e2h 9" data-stops="+0 HH +0 HO" data-weight="60" data-from="2031 12 noanim" />
 
         <path data-beck-style="false" data-line="EDO_FKW" class="e2h 10" data-stops="+0 EDO +0 FKW" data-from="2019 1 noanim-nozoom" data-to="2020 1 noanim-nozoom" />
-        <path data-beck-style="false" data-line="EDO_FKW" class="e2h 10" data-stops="+0 EDO +0 FKW" data-weight="135" data-from="2020 1 noanim-nozoom" data-to="2031 25 noanim-nozoom" />
-        <path data-beck-style="false" data-line="EDO_FKW" class="e1h 17" data-stops="+0 EDO +0 FKW" data-weight="135" data-from="2031 25 noanim-nozoom" />
+        <path data-beck-style="false" data-line="EDO_FKW" class="e2h 10" data-stops="+0 EDO +0 FKW" data-weight="135" data-from="2020 1 noanim-nozoom" data-to="2031 18 noanim-nozoom" />
+        <path data-beck-style="false" data-line="EDO_FKW" class="e1h 17" data-stops="+0 EDO +0 FKW" data-weight="135" data-from="2031 18 noanim-nozoom" />
 
 
         <!-- done-->
 
-        <path data-beck-style="false" data-line="dummy" class="helper" data-stops="+0 h1 +0 h2" data-from="2020 13 noanim-keepzoom" />
-        <path data-beck-style="false" data-line="dummy" class="helper" data-stops="+0 h1 +0 h2" data-from="2030 23 noanim-keepzoom" />
-        <path data-beck-style="false" data-line="dummy" class="helper" data-stops="+0 h1 +0 h2" data-from="2031 33 noanim-keepzoom" />
+        <path data-beck-style="false" data-line="dummy" class="helper" data-stops="+0 h1 +0 h2" data-from="2019 15 noanim-keepzoom" />
+        <path data-beck-style="false" data-line="dummy" class="helper" data-stops="+0 h1 +0 h2" data-from="2020 34 noanim-keepzoom" />
+        <path data-beck-style="false" data-line="dummy" class="helper" data-stops="+0 h1 +0 h2" data-from="2023 4 noanim-keepzoom" />
+        <path data-beck-style="false" data-line="dummy" class="helper" data-stops="+0 h1 +0 h2" data-from="2030 20 noanim-keepzoom" />
+        <path data-beck-style="false" data-line="dummy" class="helper" data-stops="+0 h1 +0 h2" data-from="2031 29 noanim-keepzoom" />
 
 
         
@@ -636,7 +638,7 @@
         <g class="focusable" data-from="2050 10 noanim-keepzoom" onfocus="document.getElementById('regionalverkehr').className.baseVal = 'diff'" ></g>
     </g>
 
-    <g id="itf" data-from="2040 1 noanim-nozoom">
+    <g id="itf" data-from="2040 1 noanim-nozoom" transform="translate(20000 10000)">
 
         <path data-line="itf" data-stops="+0 AH_NN_i +0 AH_N_i +0 AH_1 +0 HH_1 +0 HH_S_o +0 HH_SS_o" data-from="2040 1 noanim-nozoom" data-beck-style="true"/>
         <path data-line="itf" data-stops="+0 AH_NN_o +0 AH_N_o +0 AH_2 +0 HH_2 +0 HH_S_i +0 HH_SS_i" data-from="2040 1 noanim-nozoom" data-beck-style="true"/>
@@ -761,7 +763,11 @@
 
         <rect class="helper" x="-50" y="-30" width="600" height="600" data-from="2040 1 noanim" />
     </g>
-    <g id="mannheim" transform="translate(0 0)">
+    <g id="mannheim" transform="translate(24000 10000) scale(0.5) " >
+
+        <rect class="helper" x="0" y="100" width="1500" height="1000" data-from="2041 1 noanim" data-to="2041 200 noanim"/>
+        <g class="focusable" data-from="2041 10 noanim-keepzoom" onfocus="document.getElementById('mannheim').className.baseVal = 'highlight-station-edges'" ></g>
+
         
         <text x="50" y="50" class="station-label">
             Stuttgart Hbf
@@ -823,7 +829,7 @@
 
 
         <path id="391cfa0" d="M 750,584 L1100,866"
-            class="edge type-nationalExpress redundant-false  sp-6222286 sp-391cfa0 sp-391cfa0 "
+            class="selected edge type-nationalExpress redundant-false  sp-6222286 sp-391cfa0 sp-391cfa0 "
             />
         <path id="391cfa0-toucharea" d="M 750,584 L1100,866"
             class="edge-toucharea"
@@ -841,7 +847,7 @@
 
 
         <path id="23418c6_614798c_station" d="M 750,1022 L750,1085"
-            class="edge type- redundant-false  sp-23418c6 sp-23418c6 sp-614798c "
+            class="selected station-edge edge type- redundant-false  sp-23418c6 sp-23418c6 sp-614798c "
             />
         <path id="23418c6_614798c_station-toucharea" d="M 750,1022 L750,1085"
             class="edge-toucharea"
@@ -850,7 +856,7 @@
 
 
         <path id="614798c" d="M 750,1085 L1450,1320"
-            class="edge type-nationalExpress redundant-false  sp-ea86a32 sp-5cd87bc sp-23418c6 sp-614798c sp-614798c sp-5ebcd71 sp-0e3d9cb sp-afe95e9 "
+            class="selected edge type-nationalExpress redundant-false  sp-ea86a32 sp-5cd87bc sp-23418c6 sp-614798c sp-614798c sp-5ebcd71 sp-0e3d9cb sp-afe95e9 "
             />
         <path id="614798c-toucharea" d="M 750,1085 L1450,1320"
             class="edge-toucharea"
@@ -1039,7 +1045,7 @@
 
 
         <path id="402f181" d="M 50,264 L750,561"
-            class="edge type-nationalExpress redundant-false  sp-283d673 sp-6222286 sp-ea86a32 sp-d113034 sp-402f181 sp-402f181 sp-391cfa0 sp-e2874d3 provider-shortest-path"
+            class="selected edge type-nationalExpress redundant-false  sp-283d673 sp-6222286 sp-ea86a32 sp-d113034 sp-402f181 sp-402f181 sp-391cfa0 sp-e2874d3 provider-shortest-path"
             />
         <path id="402f181-toucharea" d="M 50,264 L750,561"
             class="edge-toucharea"
@@ -1048,7 +1054,7 @@
 
 
         <path id="402f181_391cfa0_station" d="M 750,561 L750,584"
-            class="edge type- redundant-false  sp-6222286 sp-391cfa0 "
+            class="selected station-edge edge type- redundant-false  sp-6222286 sp-391cfa0 "
             />
         <path id="402f181_391cfa0_station-toucharea" d="M 750,561 L750,584"
             class="edge-toucharea"
@@ -1066,7 +1072,7 @@
 
 
         <path id="23418c6" d="M 50,733 L750,1022"
-            class="edge type-nationalExpress redundant-false  sp-8ebba5b sp-73aee44 sp-23418c6 sp-23418c6 sp-614798c sp-c591695 sp-b40e4c3 sp-cf7b8a8 sp-aa11fc0 "
+            class="selected edge type-nationalExpress redundant-false  sp-8ebba5b sp-73aee44 sp-23418c6 sp-23418c6 sp-614798c sp-c591695 sp-b40e4c3 sp-cf7b8a8 sp-aa11fc0 "
             />
         <path id="23418c6-toucharea" d="M 50,733 L750,1022"
             class="edge-toucharea"
@@ -1075,7 +1081,7 @@
 
 
         <path id="8d69c84" d="M 400,334 L750,522"
-            class="edge type-nationalExpress redundant-false  sp-af366bc sp-8d69c84 sp-8d69c84 "
+            class="selected edge type-nationalExpress redundant-false  sp-af366bc sp-8d69c84 sp-8d69c84 "
             />
         <path id="8d69c84-toucharea" d="M 400,334 L750,522"
             class="edge-toucharea"
@@ -1165,7 +1171,7 @@
 
 
         <path id="8d69c84_283d673_station" d="M 750,522 L750,616"
-            class="edge type- redundant-false  sp-af366bc sp-8d69c84 sp-8d69c84 "
+            class="selected station-edge edge type- redundant-false  sp-af366bc sp-8d69c84 sp-8d69c84 "
             />
         <path id="8d69c84_283d673_station-toucharea" d="M 750,522 L750,616"
             class="edge-toucharea"
@@ -1174,7 +1180,7 @@
 
 
         <path id="283d673" d="M 750,616 L1450,850"
-            class="edge type-nationalExpress redundant-false  sp-af366bc sp-8d69c84 sp-283d673 sp-283d673 sp-2c72d79 sp-96fd387 sp-402f181 provider-shortest-path"
+            class="selected edge type-nationalExpress redundant-false  sp-af366bc sp-8d69c84 sp-283d673 sp-283d673 sp-2c72d79 sp-96fd387 sp-402f181 provider-shortest-path"
             />
         <path id="283d673-toucharea" d="M 750,616 L1450,850"
             class="edge-toucharea"
@@ -1255,7 +1261,7 @@
 
 
         <path id="5cd87bc" d="M 400,803 L750,991"
-            class="edge type-nationalExpress redundant-false  sp-ea86a32 sp-5cd87bc sp-5cd87bc "
+            class="selected edge type-nationalExpress redundant-false  sp-ea86a32 sp-5cd87bc sp-5cd87bc "
             />
         <path id="5cd87bc-toucharea" d="M 400,803 L750,991"
             class="edge-toucharea"
@@ -1264,7 +1270,7 @@
 
 
         <path id="5cd87bc_8ebba5b_station" d="M 750,991 L750,1054"
-            class="edge type- redundant-false  "
+            class="selected station-edge edge type- redundant-false  "
             />
         <path id="5cd87bc_8ebba5b_station-toucharea" d="M 750,991 L750,1054"
             class="edge-toucharea"
@@ -1273,7 +1279,7 @@
 
 
         <path id="8ebba5b" d="M 750,1054 L1100,1335"
-            class="edge type-nationalExpress redundant-false  sp-8ebba5b sp-8ebba5b "
+            class="selected edge type-nationalExpress redundant-false  sp-8ebba5b sp-8ebba5b "
             />
         <path id="8ebba5b-toucharea" d="M 750,1054 L1100,1335"
             class="edge-toucharea"
@@ -1316,12 +1322,293 @@
             />
 
     </g>
+    <g id="doubling" class="barchart">
+        <rect x="0" y="-70" width="750" height="300" data-from="2045 1 noanim" data-to="2045 30 noanim" class="helper" />
 
+        <text x="375" y="-30" class="heading" data-from="2045 1 noanim">Verdopplung der Fahrgastzahlen auf der Schiene</text>
+        
+        <text x="180" y="50" data-from="2045 1 keepzoom" class="xlabel">Fernverkehr 2019</text>
+        <path d="M 200,50 h 15" data-line="cap" class="secondary" data-from="2045 1 keepzoom" />
+        <text class="path-outset" x="225" y="50" data-from="2045 1 keepzoom">151 Mio.</text>
+
+        <text x="180" y="75" data-from="2045 1 keepzoom" class="xlabel">Fernverkehr 2030</text>
+        <path d="M 200,75 h 30" data-line="cap" class="secondary" data-from="2045 1 keepzoom" />
+        <text class="path-outset" x="240" y="75" data-from="2045 1 keepzoom">300 Mio.</text>
+
+        <text x="180" y="100" data-from="2045 1 keepzoom" class="xlabel">Nahverkehr 2019</text>
+        <path d="M 200,100 h 277" data-line="cap" data-from="2045 1 keepzoom" />
+        <text class="path-inset" x="338" y="100" data-from="2045 1 keepzoom">2,77 Mrd.</text>
+
+        <text x="180" y="125" data-from="2045 1 keepzoom" class="xlabel">Nahverkehr 2030</text>
+        <path d="M 200,125 h 554" data-line="cap" data-from="2045 1 keepzoom" />
+        <text class="path-inset" x="477" y="125" data-from="2045 1 keepzoom">5,54 Mrd.</text>
+    </g>
+
+    <g id="wege" class="barchart">
+        2.22%	6.11%	11.47%	25.54%	21.12%	14.82%	13.13%	3.37%	2.22%
+
+    
+        <rect x="-375" y="-100" width="1150" height="500" data-from="2046 1 noanim" data-to="2046 600 noanim" class="helper" />
+        <text x="200" y="-30" class="heading" data-from="2046 1 noanim-keepzoom">Verteilung der Wegelängen im MIV</text>
+        <text x="200" y="0" data-from="2046 1 noanim-keepzoom" style="text-anchor: middle;font-size:12px;">eigene Darstellung, nach „Mobilität in Deutschland“ (MiD) 2017</text>
+
+
+        <text x="50" y="450" class="label big secondary" data-from="2046 1 noanim-keepzoom">Anteil Fahrten</text>
+        <text x="350" y="450" class="label big" data-from="2046 10 noanim-keepzoom">Anteil Fahrzeugkilometer</text>
+
+        <g transform="translate(-512.5 340)">
+            <text x="212.5" y="50" class="subheading" data-from="2046 1 keepzoom">&lt; 0,5 km</text>
+
+            <path data-line="wege" data-speed="1000" d="M 200,25 v -21.4" data-from="2046 1 keepzoom" class="secondary" />
+            <text x="180" y="15" class="label secondary" data-from="2046 1 keepzoom">2%</text>
+            <text x="180" y="15" data-from="2046 1 keepzoom"></text>
+
+            <path data-line="wege" data-speed="1000" d="M 225,25 v -0.6" data-from="2046 10 keepzoom" />
+            <text x="245" y="15" class="label right" data-from="2046 10 keepzoom">0%</text>
+            <text x="245" y="15" class="right" data-from="2046 10 keepzoom"></text>
+        </g>
+
+        <g transform="translate(-387.5 340)">
+            <text x="212.5" y="50" class="subheading" data-from="2046 1 keepzoom">0,5 - 1 km</text>
+
+            <path data-line="wege" data-speed="1000" d="M 200,25 v -58.9" data-from="2046 1 keepzoom" class="secondary" />
+            <text x="180" y="15" class="label secondary" data-from="2046 1 keepzoom">6%</text>
+            <text x="180" y="15" data-from="2046 1 keepzoom"></text>
+
+            <path data-line="wege" data-speed="1000" d="M 225,25 v -3.5" data-from="2046 10 keepzoom" />
+            <text x="245" y="15" class="label right" data-from="2046 10 keepzoom">0%</text>
+            <text x="245" y="15" class="right" data-from="2046 10 keepzoom"></text>
+        </g>
+
+        <g transform="translate(-262.5 340)">
+            <text x="212.5" y="50" class="subheading" data-from="2046 1 keepzoom">1 - 2 km</text>
+
+            <path data-line="wege" data-speed="1000" d="M 200,25 v -110.6" data-from="2046 1 keepzoom" class="secondary" />
+            <text x="180" y="15" class="label secondary" data-from="2046 1 keepzoom">11%</text>
+            <text x="180" y="15" data-from="2046 1 keepzoom"></text>
+
+            <path data-line="wege" data-speed="1000" d="M 225,25 v -13.3" data-from="2046 10 keepzoom" />
+            <text x="245" y="15" class="label right" data-from="2046 10 keepzoom">1%</text>
+            <text x="245" y="15" class="right" data-from="2046 10 keepzoom"></text>
+        </g>
+
+        <g transform="translate(-137.5 340)">
+            <text x="212.5" y="50" class="subheading" data-from="2046 1 keepzoom">2 - 5 km</text>
+
+            <path data-line="wege" data-speed="1000" d="M 200,25 v -246.2" data-from="2046 1 keepzoom" class="secondary" />
+            <text x="180" y="15" class="label secondary" data-from="2046 1 keepzoom">25%</text>
+            <text x="180" y="15" data-from="2046 1 keepzoom"></text>
+
+            <path data-line="wege" data-speed="1000" d="M 225,25 v -59.8" data-from="2046 10 keepzoom" />
+            <text x="245" y="15" class="label right" data-from="2046 10 keepzoom">6%</text>
+            <text x="245" y="15" class="right" data-from="2046 10 keepzoom"></text>
+        </g>
+
+        <g transform="translate(-12.5 340)">
+            <text x="212.5" y="50" class="subheading" data-from="2046 1 keepzoom">5 - 10 km</text>
+
+            <path data-line="wege" data-speed="1000" d="M 200,25 v -203.6" data-from="2046 1 keepzoom" class="secondary" />
+            <text x="180" y="15" class="label secondary" data-from="2046 1 keepzoom">20%</text>
+            <text x="180" y="15" data-from="2046 1 keepzoom"></text>
+
+            <path data-line="wege" data-speed="1000" d="M 225,25 v -102.2" data-from="2046 10 keepzoom" />
+            <text x="245" y="15" class="label right" data-from="2046 10 keepzoom">10%</text>
+            <text x="245" y="15" class="right" data-from="2046 10 keepzoom"></text>
+        </g>
+
+        <g transform="translate(112.5 340)">
+            <text x="212.5" y="50" class="subheading" data-from="2046 1 keepzoom">10 - 20 km</text>
+
+            <path data-line="wege" data-speed="1000" d="M 200,25 v -178.9" data-from="2046 1 keepzoom" class="secondary" />
+            <text x="180" y="15" class="label secondary" data-from="2046 1 keepzoom">18%</text>
+            <text x="180" y="15" data-from="2046 1 keepzoom"></text>
+
+            <path data-line="wege" data-speed="1000" d="M 225,25 v -186.7" data-from="2046 10 keepzoom" />
+            <text x="245" y="15" class="label right" data-from="2046 10 keepzoom">19%</text>
+            <text x="245" y="15" class="right" data-from="2046 10 keepzoom"></text>
+        </g>
+
+        <g transform="translate(237.5 340)">
+            <text x="212.5" y="50" class="subheading" data-from="2046 1 keepzoom">20 - 50 km</text>
+
+            <path data-line="wege" data-speed="1000" d="M 200,25 v -126.6" data-from="2046 1 keepzoom" class="secondary" />
+            <text x="180" y="15" class="label secondary" data-from="2046 1 keepzoom">13%</text>
+            <text x="180" y="15" data-from="2046 1 keepzoom"></text>
+
+            <path data-line="wege" data-speed="1000" d="M 225,25 v -262.8" data-from="2046 10 keepzoom" />
+            <text x="245" y="15" class="label right" data-from="2046 10 keepzoom">26%</text>
+            <text x="245" y="15" class="right" data-from="2046 10 keepzoom"></text>
+        </g>
+
+        <g transform="translate(362.5 340)">
+            <text x="212.5" y="50" class="subheading" data-from="2046 1 keepzoom">50 - 100 km</text>
+
+            <path data-line="wege" data-speed="1000" d="M 200,25 v -32.5" data-from="2046 1 keepzoom" class="secondary" />
+            <text x="180" y="15" class="label secondary" data-from="2046 1 keepzoom">3%</text>
+            <text x="180" y="15" data-from="2046 1 keepzoom"></text>
+
+            <path data-line="wege" data-speed="1000" d="M 225,25 v -130.3" data-from="2046 10 keepzoom" />
+            <text x="245" y="15" class="label right" data-from="2046 10 keepzoom">13%</text>
+            <text x="245" y="15" class="right" data-from="2046 10 keepzoom"></text>
+        </g>
+
+        <g transform="translate(487.5 340)">
+            <text x="212.5" y="50" class="subheading" data-from="2046 1 keepzoom">&gt; 100 km</text>
+
+            <path data-line="wege" data-speed="1000" d="M 200,25 v -21.4" data-from="2046 1 keepzoom" class="secondary" />
+            <text x="180" y="15" class="label secondary" data-from="2046 1 keepzoom">2%</text>
+            <text x="180" y="15" data-from="2046 1 keepzoom"></text>
+
+            <path data-line="wege" data-speed="1000" d="M 225,25 v -241.7" data-from="2046 10 keepzoom" />
+            <text x="245" y="15" class="label right" data-from="2046 10 keepzoom">24%</text>
+            <text x="245" y="15" class="right" data-from="2046 10 keepzoom"></text>
+        </g>
+    </g>
+
+    <g id="sectors" >
+        <path class="helper" stroke="none" d="M 13549,14188 L -13,14188 -13,-2 27111,-2 27111,14188 13549,14188 Z" data-from="2080 1" />
+        <path stroke-width="10" fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 11495,12829 L 1721,12829 1721,899 21269,899 21269,12829 11495,12829 Z"/>
+        <path stroke-width="10" fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 21269,12828 L 1721,12828"/>
+        <path stroke-width="10" fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 21269,10840 L 1721,10840"/>
+        <path stroke-width="10" fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 21269,8852 L 1721,8852"/>
+        <path stroke-width="10" fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 21269,6862 L 1721,6862"/>
+        <path stroke-width="10" fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 21269,4875 L 1721,4875"/>
+        <path stroke-width="10" fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 21269,2887 L 1721,2887"/>
+        <path stroke-width="10" fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 21269,897 L 1721,897"/>
+        <path stroke-width="10" fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 1721,12978 L 1721,12828"/>
+        <path stroke-width="10" fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 1721,12978 L 1721,12828"/>
+        <path stroke-width="10" fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 2395,12978 L 2395,12828"/>
+        <path stroke-width="10" fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 2395,12978 L 2395,12828"/>
+        <path stroke-width="10" fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 3069,12978 L 3069,12828"/>
+        <path stroke-width="10" fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 3069,12978 L 3069,12828"/>
+        <path stroke-width="10" fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 3743,12978 L 3743,12828"/>
+        <path stroke-width="10" fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 3743,12978 L 3743,12828"/>
+        <path stroke-width="10" fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 4417,12978 L 4417,12828"/>
+        <path stroke-width="10" fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 4417,12978 L 4417,12828"/>
+        <path stroke-width="10" fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 5091,12978 L 5091,12828"/>
+        <path stroke-width="10" fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 5091,12978 L 5091,12828"/>
+        <path stroke-width="10" fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 5765,12978 L 5765,12828"/>
+        <path stroke-width="10" fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 5765,12978 L 5765,12828"/>
+        <path stroke-width="10" fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 6439,12978 L 6439,12828"/>
+        <path stroke-width="10" fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 6439,12978 L 6439,12828"/>
+        <path stroke-width="10" fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 7113,12978 L 7113,12828"/>
+        <path stroke-width="10" fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 7113,12978 L 7113,12828"/>
+        <path stroke-width="10" fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 7787,12978 L 7787,12828"/>
+        <path stroke-width="10" fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 7787,12978 L 7787,12828"/>
+        <path stroke-width="10" fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 8462,12978 L 8462,12828"/>
+        <path stroke-width="10" fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 8462,12978 L 8462,12828"/>
+        <path stroke-width="10" fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 9136,12978 L 9136,12828"/>
+        <path stroke-width="10" fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 9136,12978 L 9136,12828"/>
+        <path stroke-width="10" fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 9810,12978 L 9810,12828"/>
+        <path stroke-width="10" fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 9810,12978 L 9810,12828"/>
+        <path stroke-width="10" fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 10484,12978 L 10484,12828"/>
+        <path stroke-width="10" fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 10484,12978 L 10484,12828"/>
+        <path stroke-width="10" fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 11158,12978 L 11158,12828"/>
+        <path stroke-width="10" fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 11158,12978 L 11158,12828"/>
+        <path stroke-width="10" fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 11832,12978 L 11832,12828"/>
+        <path stroke-width="10" fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 11832,12978 L 11832,12828"/>
+        <path stroke-width="10" fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 12506,12978 L 12506,12828"/>
+        <path stroke-width="10" fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 12506,12978 L 12506,12828"/>
+        <path stroke-width="10" fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 13180,12978 L 13180,12828"/>
+        <path stroke-width="10" fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 13180,12978 L 13180,12828"/>
+        <path stroke-width="10" fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 13853,12978 L 13853,12828"/>
+        <path stroke-width="10" fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 13853,12978 L 13853,12828"/>
+        <path stroke-width="10" fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 14527,12978 L 14527,12828"/>
+        <path stroke-width="10" fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 14527,12978 L 14527,12828"/>
+        <path stroke-width="10" fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 15202,12978 L 15202,12828"/>
+        <path stroke-width="10" fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 15202,12978 L 15202,12828"/>
+        <path stroke-width="10" fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 15876,12978 L 15876,12828"/>
+        <path stroke-width="10" fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 15876,12978 L 15876,12828"/>
+        <path stroke-width="10" fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 16550,12978 L 16550,12828"/>
+        <path stroke-width="10" fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 16550,12978 L 16550,12828"/>
+        <path stroke-width="10" fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 17224,12978 L 17224,12828"/>
+        <path stroke-width="10" fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 17224,12978 L 17224,12828"/>
+        <path stroke-width="10" fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 17898,12978 L 17898,12828"/>
+        <path stroke-width="10" fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 17898,12978 L 17898,12828"/>
+        <path stroke-width="10" fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 18572,12978 L 18572,12828"/>
+        <path stroke-width="10" fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 18572,12978 L 18572,12828"/>
+        <path stroke-width="10" fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 19246,12978 L 19246,12828"/>
+        <path stroke-width="10" fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 19246,12978 L 19246,12828"/>
+        <path stroke-width="10" fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 19920,12978 L 19920,12828"/>
+        <path stroke-width="10" fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 19920,12978 L 19920,12828"/>
+        <path stroke-width="10" fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 20594,12978 L 20594,12828"/>
+        <path stroke-width="10" fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 20594,12978 L 20594,12828"/>
+        <path stroke-width="10" fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 21269,12978 L 21269,12828"/>
+        <path stroke-width="10" fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 21269,12978 L 21269,12828"/>
+        <path stroke-width="10" fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 1721,12828 L 21269,12828"/>
+        <path stroke-width="10" fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 1571,12828 L 1721,12828"/>
+        <path stroke-width="10" fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 1571,12828 L 1721,12828"/>
+        <path stroke-width="10" fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 1571,10840 L 1721,10840"/>
+        <path stroke-width="10" fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 1571,10840 L 1721,10840"/>
+        <path stroke-width="10" fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 1571,8852 L 1721,8852"/>
+        <path stroke-width="10" fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 1571,8852 L 1721,8852"/>
+        <path stroke-width="10" fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 1571,6862 L 1721,6862"/>
+        <path stroke-width="10" fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 1571,6862 L 1721,6862"/>
+        <path stroke-width="10" fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 1571,4874 L 1721,4874"/>
+        <path stroke-width="10" fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 1571,4874 L 1721,4874"/>
+        <path stroke-width="10" fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 1571,2887 L 1721,2887"/>
+        <path stroke-width="10" fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 1571,2887 L 1721,2887"/>
+        <path stroke-width="10" fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 1571,897 L 1721,897"/>
+        <path stroke-width="10" fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 1571,897 L 1721,897"/>
+        <path stroke-width="10" fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 1721,12828 L 1721,898"/>
+        <path fill="none" data-speed="100000" data-line="sectorline" data-from="2080 1 keepzoom" class="sectorline secondary" stroke="rgb(84,110,122)" stroke-width="80" stroke-linejoin="round" d="M 1721,2887 L 2395,3951 3069,4286 3743,4344 4417,4395 5091,4344 5765,4166 6439,4428 7113,4432 7787,4402 8462,4586 9136,4467 9810,4760 10484,4867 11158,4989 11832,5018 12506,5122 13180,5118 13853,5019 14527,5003 15202,4995 15876,4917 16550,4936 17224,4831 17898,4611 18572,4627 19246,4652 19920,4787 20594,5009 21269,5103"/>
+        <path fill="none" data-speed="100000" data-line="sectorline" data-from="2080 2 keepzoom" class="sectorline secondary" stroke="rgb(84,110,122)" stroke-width="80" stroke-linejoin="round" d="M 1721,2887 L 2395,3197 3069,3706 3743,3910 4417,4034 5091,4308 5765,4184 6439,4641 7113,4643 7787,4873 8462,4645 9136,4436 9810,4433 10484,4183 11158,4294 11832,4440 12506,4431 13180,4330 13853,4774 14527,5340 15202,5102 15876,5160 16550,4933 17224,4810 17898,5256 18572,5509 19246,5614 19920,6067 20594,6349 21269,7432"/>
+        <path fill="none" data-speed="100000" data-line="sectorline" data-from="2080 3 keepzoom" class="sectorline secondary" stroke="rgb(84,110,122)" stroke-width="80" stroke-linejoin="round" d="M 1721,2887 L 2395,3784 3069,4163 3743,4509 4417,4374 5091,4311 5765,4709 6439,4545 7113,5152 7787,5509 8462,5524 9136,5905 9810,5986 10484,5959 11158,5929 11832,6144 12506,5964 13180,5654 13853,5777 14527,6670 15202,6190 15876,6295 16550,6490 17224,6471 17898,6465 18572,6201 19246,6057 19920,5859 20594,6140 21269,6341"/>
+        <path fill="none" data-speed="100000" data-line="sectorline" data-from="2080 4 keepzoom" class="sectorline secondary" stroke="rgb(84,110,122)" stroke-width="80" stroke-linejoin="round" d="M 1721,2887 L 2395,2961 3069,3815 3743,3497 4417,4007 5091,3937 5765,2838 6439,3464 7113,3849 7787,4639 8462,4925 9136,3965 9810,4580 10484,4928 11158,5429 11832,5543 12506,5149 13180,6862 13853,5647 14527,6248 15202,5809 15876,6804 16550,6667 17224,6215 17898,7230 18572,6956 19246,6932 19920,7036 20594,7333 21269,7083"/>
+        <path fill="none" data-speed="100000" data-line="sectorline" data-from="2080 5 keepzoom" class="sectorline secondary" stroke="rgb(84,110,122)" stroke-width="80" stroke-linejoin="round" d="M 1721,2887 L 2395,2549 3069,2437 3743,2539 4417,2818 5091,3145 5765,3597 6439,4424 7113,5052 7787,5547 8462,6013 9136,6505 9810,6919 10484,7352 11158,7974 11832,8376 12506,8875 13180,9241 13853,9576 14527,9909 15202,10209 15876,10418 16550,10616 17224,10806 17898,10951 18572,11097 19246,11223 19920,11312 20594,11405 21269,11530"/>
+        <path fill="none" data-speed="100000" data-line="sectorline" data-from="2080 8 keepzoom" class="sectorline" stroke="rgb(183,28,28)" stroke-width="120" stroke-linejoin="round" d="M 1721,2887 L 2395,2706 3069,2349 3743,2085 4417,2330 5091,2107 5765,2132 6439,2107 7113,1907 7787,1597 8462,1837 9136,2072 9810,2225 10484,2611 11158,2636 11832,3123 12506,3364 13180,3539 13853,3561 14527,3598 15202,3531 15876,3404 16550,3494 17224,3242 17898,3170 18572,2992 19246,2804 19920,2633 20594,2973 21269,2863"/>
+
+        <text class="SVGTextShape" transform="rotate(-44.9 1240 13878)"><tspan class="TextParagraph" font-size="353px" font-weight="400"><tspan class="TextPosition" x="1240" y="13878"><tspan fill="rgb(0,0,0)" stroke="none" style="white-space: pre">1990</tspan></tspan></tspan></text>
+        <text class="SVGTextShape" transform="rotate(-44.9 1914 13878)"><tspan class="TextParagraph" font-size="353px" font-weight="400"><tspan class="TextPosition" x="1914" y="13878"><tspan fill="rgb(0,0,0)" stroke="none" style="white-space: pre">1991</tspan></tspan></tspan></text>
+        <text class="SVGTextShape" transform="rotate(-44.9 2587 13878)"><tspan class="TextParagraph" font-size="353px" font-weight="400"><tspan class="TextPosition" x="2587" y="13878"><tspan fill="rgb(0,0,0)" stroke="none" style="white-space: pre">1992</tspan></tspan></tspan></text>
+        <text class="SVGTextShape" transform="rotate(-44.9 3261 13878)"><tspan class="TextParagraph" font-size="353px" font-weight="400"><tspan class="TextPosition" x="3261" y="13878"><tspan fill="rgb(0,0,0)" stroke="none" style="white-space: pre">1993</tspan></tspan></tspan></text>
+        <text class="SVGTextShape" transform="rotate(-44.9 3935 13878)"><tspan class="TextParagraph" font-size="353px" font-weight="400"><tspan class="TextPosition" x="3935" y="13878"><tspan fill="rgb(0,0,0)" stroke="none" style="white-space: pre">1994</tspan></tspan></tspan></text>
+        <text class="SVGTextShape" transform="rotate(-44.9 4609 13878)"><tspan class="TextParagraph" font-size="353px" font-weight="400"><tspan class="TextPosition" x="4609" y="13878"><tspan fill="rgb(0,0,0)" stroke="none" style="white-space: pre">1995</tspan></tspan></tspan></text>
+        <text class="SVGTextShape" transform="rotate(-44.9 5283 13878)"><tspan class="TextParagraph" font-size="353px" font-weight="400"><tspan class="TextPosition" x="5283" y="13878"><tspan fill="rgb(0,0,0)" stroke="none" style="white-space: pre">1996</tspan></tspan></tspan></text>
+        <text class="SVGTextShape" transform="rotate(-44.9 5957 13878)"><tspan class="TextParagraph" font-size="353px" font-weight="400"><tspan class="TextPosition" x="5957" y="13878"><tspan fill="rgb(0,0,0)" stroke="none" style="white-space: pre">1997</tspan></tspan></tspan></text>
+        <text class="SVGTextShape" transform="rotate(-44.9 6631 13878)"><tspan class="TextParagraph" font-size="353px" font-weight="400"><tspan class="TextPosition" x="6631" y="13878"><tspan fill="rgb(0,0,0)" stroke="none" style="white-space: pre">1998</tspan></tspan></tspan></text>
+        <text class="SVGTextShape" transform="rotate(-44.9 7305 13878)"><tspan class="TextParagraph" font-size="353px" font-weight="400"><tspan class="TextPosition" x="7305" y="13878"><tspan fill="rgb(0,0,0)" stroke="none" style="white-space: pre">1999</tspan></tspan></tspan></text>
+        <text class="SVGTextShape" transform="rotate(-44.9 7980 13878)"><tspan class="TextParagraph" font-size="353px" font-weight="400"><tspan class="TextPosition" x="7980" y="13878"><tspan fill="rgb(0,0,0)" stroke="none" style="white-space: pre">2000</tspan></tspan></tspan></text>
+        <text class="SVGTextShape" transform="rotate(-44.9 8654 13878)"><tspan class="TextParagraph" font-size="353px" font-weight="400"><tspan class="TextPosition" x="8654" y="13878"><tspan fill="rgb(0,0,0)" stroke="none" style="white-space: pre">2001</tspan></tspan></tspan></text>
+        <text class="SVGTextShape" transform="rotate(-44.9 9328 13878)"><tspan class="TextParagraph" font-size="353px" font-weight="400"><tspan class="TextPosition" x="9328" y="13878"><tspan fill="rgb(0,0,0)" stroke="none" style="white-space: pre">2002</tspan></tspan></tspan></text>
+        <text class="SVGTextShape" transform="rotate(-44.9 10002 13878)"><tspan class="TextParagraph" font-size="353px" font-weight="400"><tspan class="TextPosition" x="10002" y="13878"><tspan fill="rgb(0,0,0)" stroke="none" style="white-space: pre">2003</tspan></tspan></tspan></text>
+        <text class="SVGTextShape" transform="rotate(-44.9 10676 13878)"><tspan class="TextParagraph" font-size="353px" font-weight="400"><tspan class="TextPosition" x="10676" y="13878"><tspan fill="rgb(0,0,0)" stroke="none" style="white-space: pre">2004</tspan></tspan></tspan></text>
+        <text class="SVGTextShape" transform="rotate(-44.9 11350 13878)"><tspan class="TextParagraph" font-size="353px" font-weight="400"><tspan class="TextPosition" x="11350" y="13878"><tspan fill="rgb(0,0,0)" stroke="none" style="white-space: pre">2005</tspan></tspan></tspan></text>
+        <text class="SVGTextShape" transform="rotate(-44.9 12024 13878)"><tspan class="TextParagraph" font-size="353px" font-weight="400"><tspan class="TextPosition" x="12024" y="13878"><tspan fill="rgb(0,0,0)" stroke="none" style="white-space: pre">2006</tspan></tspan></tspan></text>
+        <text class="SVGTextShape" transform="rotate(-44.9 12698 13878)"><tspan class="TextParagraph" font-size="353px" font-weight="400"><tspan class="TextPosition" x="12698" y="13878"><tspan fill="rgb(0,0,0)" stroke="none" style="white-space: pre">2007</tspan></tspan></tspan></text>
+        <text class="SVGTextShape" transform="rotate(-44.9 13372 13878)"><tspan class="TextParagraph" font-size="353px" font-weight="400"><tspan class="TextPosition" x="13372" y="13878"><tspan fill="rgb(0,0,0)" stroke="none" style="white-space: pre">2008</tspan></tspan></tspan></text>
+        <text class="SVGTextShape" transform="rotate(-44.9 14046 13878)"><tspan class="TextParagraph" font-size="353px" font-weight="400"><tspan class="TextPosition" x="14046" y="13878"><tspan fill="rgb(0,0,0)" stroke="none" style="white-space: pre">2009</tspan></tspan></tspan></text>
+        <text class="SVGTextShape" transform="rotate(-44.9 14721 13878)"><tspan class="TextParagraph" font-size="353px" font-weight="400"><tspan class="TextPosition" x="14721" y="13878"><tspan fill="rgb(0,0,0)" stroke="none" style="white-space: pre">2010</tspan></tspan></tspan></text>
+        <text class="SVGTextShape" transform="rotate(-44.9 15395 13878)"><tspan class="TextParagraph" font-size="353px" font-weight="400"><tspan class="TextPosition" x="15395" y="13878"><tspan fill="rgb(0,0,0)" stroke="none" style="white-space: pre">2011</tspan></tspan></tspan></text>
+        <text class="SVGTextShape" transform="rotate(-44.9 16069 13878)"><tspan class="TextParagraph" font-size="353px" font-weight="400"><tspan class="TextPosition" x="16069" y="13878"><tspan fill="rgb(0,0,0)" stroke="none" style="white-space: pre">2012</tspan></tspan></tspan></text>
+        <text class="SVGTextShape" transform="rotate(-44.9 16743 13878)"><tspan class="TextParagraph" font-size="353px" font-weight="400"><tspan class="TextPosition" x="16743" y="13878"><tspan fill="rgb(0,0,0)" stroke="none" style="white-space: pre">2013</tspan></tspan></tspan></text>
+        <text class="SVGTextShape" transform="rotate(-44.9 17417 13878)"><tspan class="TextParagraph" font-size="353px" font-weight="400"><tspan class="TextPosition" x="17417" y="13878"><tspan fill="rgb(0,0,0)" stroke="none" style="white-space: pre">2014</tspan></tspan></tspan></text>
+        <text class="SVGTextShape" transform="rotate(-44.9 18091 13878)"><tspan class="TextParagraph" font-size="353px" font-weight="400"><tspan class="TextPosition" x="18091" y="13878"><tspan fill="rgb(0,0,0)" stroke="none" style="white-space: pre">2015</tspan></tspan></tspan></text>
+        <text class="SVGTextShape" transform="rotate(-44.9 18765 13878)"><tspan class="TextParagraph" font-size="353px" font-weight="400"><tspan class="TextPosition" x="18765" y="13878"><tspan fill="rgb(0,0,0)" stroke="none" style="white-space: pre">2016</tspan></tspan></tspan></text>
+        <text class="SVGTextShape" transform="rotate(-44.9 19439 13878)"><tspan class="TextParagraph" font-size="353px" font-weight="400"><tspan class="TextPosition" x="19439" y="13878"><tspan fill="rgb(0,0,0)" stroke="none" style="white-space: pre">2017</tspan></tspan></tspan></text>
+        <text class="SVGTextShape" transform="rotate(-44.9 20113 13878)"><tspan class="TextParagraph" font-size="353px" font-weight="400"><tspan class="TextPosition" x="20113" y="13878"><tspan fill="rgb(0,0,0)" stroke="none" style="white-space: pre">2018</tspan></tspan></tspan></text>
+        <text class="SVGTextShape" transform="rotate(-44.9 20788 13878)"><tspan class="TextParagraph" font-size="353px" font-weight="400"><tspan class="TextPosition" x="20788" y="13878"><tspan fill="rgb(0,0,0)" stroke="none" style="white-space: pre">2019</tspan></tspan></tspan></text>
+        <text class="SVGTextShape"><tspan class="TextParagraph" font-size="353px" font-weight="400"><tspan class="TextPosition" x="968" y="12955"><tspan fill="rgb(0,0,0)" stroke="none" style="white-space: pre">0%</tspan></tspan></tspan></text>
+        <text class="SVGTextShape"><tspan class="TextParagraph" font-size="353px" font-weight="400"><tspan class="TextPosition" x="767" y="10966"><tspan fill="rgb(0,0,0)" stroke="none" style="white-space: pre">20%</tspan></tspan></tspan></text>
+        <text class="SVGTextShape"><tspan class="TextParagraph" font-size="353px" font-weight="400"><tspan class="TextPosition" x="767" y="8978"><tspan fill="rgb(0,0,0)" stroke="none" style="white-space: pre">40%</tspan></tspan></tspan></text>
+        <text class="SVGTextShape"><tspan class="TextParagraph" font-size="353px" font-weight="400"><tspan class="TextPosition" x="767" y="6989"><tspan fill="rgb(0,0,0)" stroke="none" style="white-space: pre">60%</tspan></tspan></tspan></text>
+        <text class="SVGTextShape"><tspan class="TextParagraph" font-size="353px" font-weight="400"><tspan class="TextPosition" x="767" y="5000"><tspan fill="rgb(0,0,0)" stroke="none" style="white-space: pre">80%</tspan></tspan></tspan></text>
+        <text class="SVGTextShape"><tspan class="TextParagraph" font-size="353px" font-weight="400"><tspan class="TextPosition" x="566" y="3013"><tspan fill="rgb(0,0,0)" stroke="none" style="white-space: pre">100%</tspan></tspan></tspan></text>
+        <text class="SVGTextShape"><tspan class="TextParagraph" font-size="353px" font-weight="400"><tspan class="TextPosition" x="566" y="1024"><tspan fill="rgb(0,0,0)" stroke="none" style="white-space: pre">120%</tspan></tspan></tspan></text>
+        <text class="SVGTextShape"><tspan class="TextParagraph" font-size="459px" font-weight="700"><tspan class="TextPosition" x="4725" y="553"><tspan fill="rgb(0,0,0)" stroke="none" style="white-space: pre">Entwicklung der Treibhausgas-Emissionen per Sektor seit 1990</tspan></tspan></tspan></text>
+       
+        <text  data-from="2080 8 keepzoom" class="SVGTextShape linechart-label"><tspan class="TextParagraph" font-size="494px" font-weight="700"><tspan class="TextPosition" x="21350" y="2863"><tspan fill="rgb(0,0,0)" stroke="none" style="white-space: pre">Verkehr</tspan></tspan></tspan></text>
+        <text  data-from="2080 1 keepzoom" class="SVGTextShape linechart-label"><tspan class="TextParagraph" font-size="494px" font-weight="700"><tspan class="TextPosition" x="21350" y="5103"><tspan fill="rgb(0,0,0)" stroke="none" style="white-space: pre">Landwirtschaft</tspan></tspan></tspan></text>
+        <text  data-from="2080 2 keepzoom" class="SVGTextShape linechart-label"><tspan class="TextParagraph" font-size="494px" font-weight="700"><tspan class="TextPosition" x="21350" y="7432"><tspan fill="rgb(0,0,0)" stroke="none" style="white-space: pre">Energiewirtschaft</tspan></tspan></tspan></text>
+        <text  data-from="2080 3 keepzoom" class="SVGTextShape linechart-label"><tspan class="TextParagraph" font-size="494px" font-weight="700"><tspan class="TextPosition" x="21350" y="6341"><tspan fill="rgb(0,0,0)" stroke="none" style="white-space: pre">Industrie</tspan></tspan></tspan></text>
+        <text  data-from="2080 4 keepzoom" class="SVGTextShape linechart-label"><tspan class="TextParagraph" font-size="494px" font-weight="700"><tspan class="TextPosition" x="21350" y="7083"><tspan fill="rgb(0,0,0)" stroke="none" style="white-space: pre">Gebäude</tspan></tspan></tspan></text>
+        <text  data-from="2080 5 keepzoom" class="SVGTextShape linechart-label"><tspan class="TextParagraph" font-size="494px" font-weight="700"><tspan class="TextPosition" x="21350" y="11530"><tspan fill="rgb(0,0,0)" stroke="none" style="white-space: pre">Abfallwirtschaft etc.</tspan></tspan></tspan></text>
     </g>
 </g>
+</g>
 
-<rect id="epoch-label-bg" x="16990" y="9750" width="180" height="90" data-from="2040 1 noanim-keepzoom" data-to="2040 200 noanim-nozoom" />
-<text id="custom-epoch-label" x="17080" y="9800" data-from="2040 1 noanim-keepzoom" data-to="2040 200 noanim-nozoom"></text>
+<rect id="epoch-label-bg" x="16990" y="9750" width="180" height="90" data-from="2040 1 noanim-keepzoom" data-to="2040 70 noanim-keepzoom" />
+<text id="custom-epoch-label" x="17080" y="9800" data-from="2040 1 noanim-keepzoom" data-to="2040 70 noanim-keepzoom"></text>
 
 <script xlink:href="deutschlandtakt.js" />
 <script xlink:href="../../dist/network-animator.js" />

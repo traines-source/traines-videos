@@ -14,7 +14,7 @@
     opacity: 0;
 }
 
-#elements path {
+#fernverkehr path, #itf path {
     stroke: black;
     stroke-width: 3;
     fill: none;
@@ -23,7 +23,7 @@
 }
 
 #fernverkehr path {
-    stroke: black !important;
+    stroke: #546E7A !important;
     opacity: 0.5;
 }
 
@@ -31,7 +31,7 @@
     stroke-width: 2;
 }
 
-#elements text, text.caption {
+#fernverkehr text, text.caption {
     visibility: hidden;
     fill: black;
     text-shadow: 1px 1px 2px white;
@@ -231,6 +231,15 @@ image.cover {
     stroke: #212121;
 }
 
+.edge.selected {
+    stroke: #B71C1C;
+    stroke-width: 4px;
+}
+
+.highlight-station-edges .edge.selected.station-edge {
+    stroke-width: 10px;
+}
+
 .edge-toucharea {
     stroke-width: 20px;
     stroke: transparent;
@@ -261,4 +270,88 @@ image.cover {
 
 .station-label {
     text-anchor: middle;
+}
+
+.time-label {
+    text-anchor: end;
+}
+.time-label, .station-label {
+    font-size: 30px;
+}
+
+
+.barchart path {
+    stroke: #B71C1C;
+    stroke-width: 15;
+    visibility: hidden;
+    transform: translate(0, -1px);
+    stroke-linecap: butt;
+    stroke-linejoin: butt;
+}
+
+.barchart path.secondary {
+    stroke: #546E7A;
+}
+
+
+.barchart text {
+    text-anchor: end;
+    dominant-baseline: middle;
+    visibility: hidden;
+}
+
+.barchart text.path-inset{
+    text-anchor: middle;
+    fill:white;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.barchart text.path-outset {
+    text-anchor: start;
+    fill:black;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+text.heading {
+    text-anchor: middle !important;font-size:20px;font-weight: bold;
+}
+
+text.subheading {
+    text-anchor: middle !important;
+    font-weight: bold;
+    font-size:18px;
+}
+.barchart text.label {
+    font-weight: bold;
+    fill: #B71C1C;
+}
+
+.barchart text.label.secondary {
+    fill: #546E7A;   
+}
+
+.barchart text.label.big {
+    font-weight: normal;
+    font-size:20px;
+    text-anchor: middle !important;
+}
+
+.barchart text.right{
+    text-anchor: start;
+}
+
+.linechart-label {
+    visibility: hidden;
+}
+.linechart-label * {
+    font-weight: normal;
+    font-size:400px;
+    text-anchor: start !important; 
+    dominant-baseline: middle;
+}
+
+.sectorline {
+    visibility: hidden;
 }
