@@ -632,26 +632,41 @@
         <text data-station="MGP">Garmisch-Partenkirchen</text>
         <text data-station="MLI">Lindau</text>
     </g>
-    <g id="regionalverkehr" class="dtakt" data-from="2050 1 noanim-nozoom" data-to="2050 100 noanim-nozoom" style="opacity:0">
+    <g id="regionalverkehr" class="dtakt" data-from="2050 1 noanim-nozoom" data-to="2050 80 noanim-keepzoom">
         <rect data-station="rv_tl" data-lon-lat="6.070715 47.411032" class="helper" data-from="2050 1 noanim" />
         <rect data-station="rv_br" data-lon-lat="14.97908 54.906839" class="helper" data-from="2050 1 noanim" />
-        <g class="focusable" data-from="2050 10 noanim-keepzoom" onfocus="document.getElementById('regionalverkehr').className.baseVal = 'diff'" ></g>
+        <g id="legend">
+            <rect data-station="f15" data-label-dir="e" data-lon-lat="15 54" class="dtakt-e15m" data-from="2050 1 noanim-keepzoom" data-to="2050 40 noanim-keepzoom" />
+            <rect data-station="f30" data-label-dir="e" data-lon-lat="15 53.75" class="dtakt-e30m" data-from="2050 1 noanim-keepzoom" data-to="2050 40 noanim-keepzoom" />
+            <rect data-station="f1h" data-label-dir="e" data-lon-lat="15 53.5" class="dtakt-e1h" data-from="2050 1 noanim-keepzoom" data-to="2050 40 noanim-keepzoom" />
+            <rect data-station="f2h" data-label-dir="e" data-lon-lat="15 53.25" class="dtakt-e2h" data-from="2050 1 noanim-keepzoom" data-to="2050 40 noanim-keepzoom" />
+            <rect data-station="fsome" data-label-dir="e" data-lon-lat="15 53" class="dtakt-some" data-from="2050 1 noanim-keepzoom" data-to="2050 40 noanim-keepzoom" />
+            <text data-station="f15">15min-Takt</text>
+            <text data-station="f30">30min-Takt</text>
+            <text data-station="f1h">1h-Takt</text>
+            <text data-station="f2h">2h-Takt</text>
+            <text data-station="fsome">Keine Daten</text>
+            <path data-line="fhelper" class="helper" data-stops="f15 f30 f1h f2h fsome" />
+        </g>
+
+        <g class="focusable" data-from="2050 40 noanim-keepzoom" onfocus="document.getElementById('regionalverkehr').className.baseVal = 'diff'" ></g>
+        <g class="focusable" data-from="2050 60 noanim-keepzoom" onfocus="document.getElementById('regionalverkehr').className.baseVal = 'dtakt'" ></g>
     </g>
 
     <g id="itf" data-from="2040 1 noanim-nozoom" transform="translate(20000 10000)">
 
-        <path data-line="itf" data-stops="+0 AH_NN_i +0 AH_N_i +0 AH_1 +0 HH_1 +0 HH_S_o +0 HH_SS_o" data-from="2040 1 noanim-nozoom" data-beck-style="true"/>
-        <path data-line="itf" data-stops="+0 AH_NN_o +0 AH_N_o +0 AH_2 +0 HH_2 +0 HH_S_i +0 HH_SS_i" data-from="2040 1 noanim-nozoom" data-beck-style="true"/>
-        <path data-line="itf" data-stops="+0 AH_NN_i +0 AH_N_i +0 AH_1 +0 HH_3 +0 HH_S_o +0 HH_SS_o" data-from="2040 1 noanim-nozoom" data-beck-style="true"/>
-        <path data-line="itf" data-stops="+0 AH_NN_o +0 AH_N_o +0 AH_2 +0 HH_4 +0 HH_S_i +0 HH_SS_i" data-from="2040 1 noanim-nozoom" data-beck-style="true"/>
-        <path data-line="itf" data-stops="+0 AH_NN_i +0 AH_N_i +0 AH_3 +0 WW_1 +0 BL_2 +0 BL_S_o +0 BL_SS_o" data-from="2040 1 noanim-nozoom" data-beck-style="true"/>
-        <path data-line="itf" data-stops="+0 AH_NN_i +0 AH_N_i +0 AH_4 +0 WW_1 +0 BL_1 +0 BL_E_o +0 BL_EE_o" data-from="2040 1 noanim-nozoom" data-beck-style="true"/>
-        <path data-line="itf" data-stops="+0 AH_NN_o +0 AH_N_o +0 AH_5 +0 WW_2 +0 BL_4 +0 BL_S_i +0 BL_SS_i" data-from="2040 1 noanim-nozoom" data-beck-style="true"/>
-        <path data-line="itf" data-stops="+0 AH_NN_o +0 AH_N_o +0 AH_6 +0 WW_2 +0 BL_3 +0 BL_E_i +0 BL_EE_i" data-from="2040 1 noanim-nozoom" data-beck-style="true"/>
-        <path data-line="itf" data-stops="+0 HH_SS_o +0 HH_S_o +0 HH_3 +0 BL_5 +0 BL_E_i +0 BL_EE_i" data-from="2040 1 noanim-nozoom" data-beck-style="true"/>
-        <path data-line="itf" data-stops="+0 HH_SS_i +0 HH_S_i +0 HH_4 +0 BL_6 +0 BL_E_o +0 BL_EE_o" data-from="2040 1 noanim-nozoom" data-beck-style="true"/>
-        <path data-line="itf" data-stops="+0 HH_SS_o +0 HH_S_o +0 HH_1 +0 BL_5 +0 BL_E_i +0 BL_EE_i" data-from="2040 1 noanim-nozoom" data-beck-style="true"/>
-        <path data-line="itf" data-stops="+0 HH_SS_i +0 HH_S_i +0 HH_2 +0 BL_6 +0 BL_E_o +0 BL_EE_o" data-from="2040 1 noanim-nozoom" data-beck-style="true"/>
+        <path data-line="itf" data-stops="+0 AH_NN_i +0 AH_N_i +0 AH_1 +0 HH_1 +0 HH_S_o +0 HH_SS_o" data-beck-style="true"/>
+        <path data-line="itf" data-stops="+0 AH_NN_o +0 AH_N_o +0 AH_2 +0 HH_2 +0 HH_S_i +0 HH_SS_i" data-beck-style="true"/>
+        <path data-line="itf" data-stops="+0 AH_NN_i +0 AH_N_i +0 AH_1 +0 HH_3 +0 HH_S_o +0 HH_SS_o" data-beck-style="true"/>
+        <path data-line="itf" data-stops="+0 AH_NN_o +0 AH_N_o +0 AH_2 +0 HH_4 +0 HH_S_i +0 HH_SS_i" data-beck-style="true"/>
+        <path data-line="itf" data-stops="+0 AH_NN_i +0 AH_N_i +0 AH_3 +0 WW_1 +0 BL_2 +0 BL_S_o +0 BL_SS_o" data-beck-style="true"/>
+        <path data-line="itf" data-stops="+0 AH_NN_i +0 AH_N_i +0 AH_4 +0 WW_1 +0 BL_1 +0 BL_E_o +0 BL_EE_o" data-beck-style="true"/>
+        <path data-line="itf" data-stops="+0 AH_NN_o +0 AH_N_o +0 AH_5 +0 WW_2 +0 BL_4 +0 BL_S_i +0 BL_SS_i" data-beck-style="true"/>
+        <path data-line="itf" data-stops="+0 AH_NN_o +0 AH_N_o +0 AH_6 +0 WW_2 +0 BL_3 +0 BL_E_i +0 BL_EE_i" data-beck-style="true"/>
+        <path data-line="itf" data-stops="+0 HH_SS_o +0 HH_S_o +0 HH_3 +0 HWOB_5 +0 BL_5 +0 BL_E_i +0 BL_EE_i" data-beck-style="true"/>
+        <path data-line="itf" data-stops="+0 HH_SS_i +0 HH_S_i +0 HH_4 +0 HWOB_6 +0 BL_6 +0 BL_E_o +0 BL_EE_o" data-beck-style="true"/>
+        <path data-line="itf" data-stops="+0 HH_SS_o +0 HH_S_o +0 HH_1 +0 HWOB_5 +0 BL_5 +0 BL_E_i +0 BL_EE_i" data-beck-style="true"/>
+        <path data-line="itf" data-stops="+0 HH_SS_i +0 HH_S_i +0 HH_2 +0 HWOB_6 +0 BL_6 +0 BL_E_o +0 BL_EE_o" data-beck-style="true"/>
 
         <rect data-station="AH_NN_i" class="helper" x="20" y="-300" />
         <rect data-station="AH_NN_o" class="helper" x="30" y="-300" />
@@ -687,9 +702,11 @@
         <rect data-station="BL_E_i" class="helper" x="700" y="470" data-dir="n" />
         <rect data-station="BL_EE_o" class="helper" x="1300" y="480" data-dir="n"/>
         <rect data-station="BL_EE_i" class="helper" x="1300" y="470" data-dir="n" />
-        <text x="550" y="400" class="itf-label" data-from="2040 1 noanim-nozoom" >Stadt A</text>
-        <text x="-190" y="550" class="itf-label" data-from="2040 1 noanim-nozoom" >Stadt B</text>
-        <text x="-100" y="50" class="itf-label" data-from="2040 1 noanim-nozoom" >Stadt C</text>
+        <rect data-station="HWOB_5" x="90" y="470" />
+        <rect data-station="HWOB_6" x="90" y="480" />
+        <text x="550" y="400" class="itf-label" >Stadt A</text>
+        <text x="-190" y="550" class="itf-label" >Stadt B</text>
+        <text x="-100" y="50" class="itf-label" >Stadt C</text>
 
         <path data-train="itf" class="ICE ICE1" data-length="3" data-stops="AH_NN_i -50-2 AH_3 +2+88 BL_2 +92+148 BL_SS_o" data-offset="-120" data-from="2040 1 nozoom" />
         <path data-train="itf" class="ICE ICE1" data-length="3" data-stops="AH_NN_i -50-2 AH_3 +2+88 BL_2 +92+148 BL_SS_o" data-offset="-60" data-from="2040 1 nozoom" />
@@ -749,14 +766,14 @@
         <path data-train="itf" class="ICE ICE3" data-length="3" data-stops="HH_SS_i -120-60 HH_4 -60+30 BL_6 +30+90 BL_EE_o" data-offset="120" data-from="2040 1 nozoom" />
         <path data-train="itf" class="ICE ICE3" data-length="3" data-stops="HH_SS_i -120-60 HH_4 -60+30 BL_6 +30+90 BL_EE_o" data-offset="240" data-from="2040 1 nozoom" />
 
-        <path data-train="itf" class="Regio Regio3" data-stops="BL_EE_i -50+27 BL_5 +33+177 HH_1 +183+267 HH_SS_o" data-offset="-120" data-from="2040 1 nozoom" />
-        <path data-train="itf" class="Regio Regio3" data-stops="BL_EE_i -50+27 BL_5 +33+177 HH_1 +183+267 HH_SS_o" data-from="2040 1 nozoom" />
-        <path data-train="itf" class="Regio Regio3" data-stops="BL_EE_i -50+27 BL_5 +33+177 HH_1 +183+267 HH_SS_o" data-offset="120" data-from="2040 1 nozoom" />
+        <path data-train="itf" class="Regio Regio3" data-stops="BL_EE_i -50+27 BL_5 +33+120 HWOB_5 +120+177 HH_1 +183+267 HH_SS_o" data-offset="-120" data-from="2040 1 nozoom" />
+        <path data-train="itf" class="Regio Regio3" data-stops="BL_EE_i -50+27 BL_5 +33+120 HWOB_5 +120+177 HH_1 +183+267 HH_SS_o" data-from="2040 1 nozoom" />
+        <path data-train="itf" class="Regio Regio3" data-stops="BL_EE_i -50+27 BL_5 +33+120 HWOB_5 +120+177 HH_1 +183+267 HH_SS_o" data-offset="120" data-from="2040 1 nozoom" />
         
-        <path data-train="itf" class="Regio Regio3" data-stops="HH_SS_i -150-70 HH_2 -50+80 BL_6 +95+165 BL_EE_o" data-offset="-120" data-from="2040 1 nozoom" />
-        <path data-train="itf" class="Regio Regio3" data-stops="HH_SS_i -150-70 HH_2 -50+80 BL_6 +95+165 BL_EE_o" data-from="2040 1 nozoom" />
-        <path data-train="itf" class="Regio Regio3" data-stops="HH_SS_i -150-70 HH_2 -50+80 BL_6 +95+165 BL_EE_o" data-offset="120" data-from="2040 1 nozoom" />
-        <path data-train="itf" class="Regio Regio3" data-stops="HH_SS_i -150-70 HH_2 -50+80 BL_6 +95+165 BL_EE_o" data-offset="240" data-from="2040 1 nozoom" />
+        <path data-train="itf" class="Regio Regio3" data-stops="HH_SS_i -150-70 HH_2 -50+0 HWOB_6 +0+80 BL_6 +95+165 BL_EE_o" data-offset="-120" data-from="2040 1 nozoom" />
+        <path data-train="itf" class="Regio Regio3" data-stops="HH_SS_i -150-70 HH_2 -50+0 HWOB_6 +0+80 BL_6 +95+165 BL_EE_o" data-from="2040 1 nozoom" />
+        <path data-train="itf" class="Regio Regio3" data-stops="HH_SS_i -150-70 HH_2 -50+0 HWOB_6 +0+80 BL_6 +95+165 BL_EE_o" data-offset="120" data-from="2040 1 nozoom" />
+        <path data-train="itf" class="Regio Regio3" data-stops="HH_SS_i -150-70 HH_2 -50+0 HWOB_6 +0+80 BL_6 +95+165 BL_EE_o" data-offset="240" data-from="2040 1 nozoom" />
 
 
         
@@ -765,8 +782,8 @@
     </g>
     <g id="mannheim" transform="translate(24000 10000) scale(0.5) " >
 
-        <rect class="helper" x="0" y="100" width="1500" height="1000" data-from="2041 1 noanim" data-to="2041 200 noanim"/>
-        <g class="focusable" data-from="2041 10 noanim-keepzoom" onfocus="document.getElementById('mannheim').className.baseVal = 'highlight-station-edges'" ></g>
+        <rect class="helper" x="0" y="100" width="1500" height="1000" data-from="2041 1 noanim" data-to="2041 65 noanim-keepzoom"/>
+        <g class="focusable" data-from="2041 16 noanim-keepzoom" onfocus="document.getElementById('mannheim').className.baseVal = 'highlight-station-edges'" ></g>
 
         
         <text x="50" y="50" class="station-label">
@@ -1322,39 +1339,36 @@
             />
 
     </g>
-    <g id="doubling" class="barchart">
-        <rect x="0" y="-70" width="750" height="300" data-from="2045 1 noanim" data-to="2045 30 noanim" class="helper" />
+    <g id="doubling" class="barchart" transform="translate(28000 10000)">
+        <rect x="0" y="-70" width="750" height="300" data-from="2041 66 noanim" data-to="2045 25 noanim" class="helper" />
 
-        <text x="375" y="-30" class="heading" data-from="2045 1 noanim">Verdopplung der Fahrgastzahlen auf der Schiene</text>
+        <text x="375" y="-30" class="heading" data-from="2041 66 noanim">Verdopplung der Fahrgastzahlen auf der Schiene</text>
         
-        <text x="180" y="50" data-from="2045 1 keepzoom" class="xlabel">Fernverkehr 2019</text>
-        <path d="M 200,50 h 15" data-line="cap" class="secondary" data-from="2045 1 keepzoom" />
-        <text class="path-outset" x="225" y="50" data-from="2045 1 keepzoom">151 Mio.</text>
+        <text x="180" y="50" data-from="2045 2 keepzoom" class="xlabel">Fernverkehr 2019</text>
+        <path d="M 200,50 h 15" data-line="cap" class="secondary" data-from="2045 2 keepzoom" />
+        <text class="path-outset" x="225" y="50" data-from="2045 2 keepzoom">151 Mio.</text>
 
-        <text x="180" y="75" data-from="2045 1 keepzoom" class="xlabel">Fernverkehr 2030</text>
-        <path d="M 200,75 h 30" data-line="cap" class="secondary" data-from="2045 1 keepzoom" />
-        <text class="path-outset" x="240" y="75" data-from="2045 1 keepzoom">300 Mio.</text>
+        <text x="180" y="75" data-from="2045 2 keepzoom" class="xlabel">Fernverkehr 2030</text>
+        <path d="M 200,75 h 30" data-line="cap" class="secondary" data-from="2045 2 keepzoom" />
+        <text class="path-outset" x="240" y="75" data-from="2045 2 keepzoom">300 Mio.</text>
 
-        <text x="180" y="100" data-from="2045 1 keepzoom" class="xlabel">Nahverkehr 2019</text>
-        <path d="M 200,100 h 277" data-line="cap" data-from="2045 1 keepzoom" />
-        <text class="path-inset" x="338" y="100" data-from="2045 1 keepzoom">2,77 Mrd.</text>
+        <text x="180" y="100" data-from="2045 2 keepzoom" class="xlabel">Nahverkehr 2019</text>
+        <path d="M 200,100 h 277" data-line="cap" data-from="2045 2 keepzoom" />
+        <text class="path-inset" x="338" y="100" data-from="2045 2 keepzoom">2,77 Mrd.</text>
 
-        <text x="180" y="125" data-from="2045 1 keepzoom" class="xlabel">Nahverkehr 2030</text>
-        <path d="M 200,125 h 554" data-line="cap" data-from="2045 1 keepzoom" />
-        <text class="path-inset" x="477" y="125" data-from="2045 1 keepzoom">5,54 Mrd.</text>
+        <text x="180" y="125" data-from="2045 2 keepzoom" class="xlabel">Nahverkehr 2030</text>
+        <path d="M 200,125 h 554" data-line="cap" data-from="2045 2 keepzoom" />
+        <text class="path-inset" x="477" y="125" data-from="2045 2 keepzoom">5,54 Mrd.</text>
     </g>
 
-    <g id="wege" class="barchart">
-        2.22%	6.11%	11.47%	25.54%	21.12%	14.82%	13.13%	3.37%	2.22%
-
-    
-        <rect x="-375" y="-100" width="1150" height="500" data-from="2046 1 noanim" data-to="2046 600 noanim" class="helper" />
+    <g id="wege" class="barchart" transform="translate(32000 10000)">    
+        <rect x="-375" y="-100" width="1150" height="500" data-from="2046 1 noanim" data-to="2046 33 noanim" class="helper" />
         <text x="200" y="-30" class="heading" data-from="2046 1 noanim-keepzoom">Verteilung der Wegelängen im MIV</text>
         <text x="200" y="0" data-from="2046 1 noanim-keepzoom" style="text-anchor: middle;font-size:12px;">eigene Darstellung, nach „Mobilität in Deutschland“ (MiD) 2017</text>
 
 
         <text x="50" y="450" class="label big secondary" data-from="2046 1 noanim-keepzoom">Anteil Fahrten</text>
-        <text x="350" y="450" class="label big" data-from="2046 10 noanim-keepzoom">Anteil Fahrzeugkilometer</text>
+        <text x="350" y="450" class="label big" data-from="2046 15 noanim-keepzoom">Anteil Fahrzeugkilometer</text>
 
         <g transform="translate(-512.5 340)">
             <text x="212.5" y="50" class="subheading" data-from="2046 1 keepzoom">&lt; 0,5 km</text>
@@ -1363,9 +1377,9 @@
             <text x="180" y="15" class="label secondary" data-from="2046 1 keepzoom">2%</text>
             <text x="180" y="15" data-from="2046 1 keepzoom"></text>
 
-            <path data-line="wege" data-speed="1000" d="M 225,25 v -0.6" data-from="2046 10 keepzoom" />
-            <text x="245" y="15" class="label right" data-from="2046 10 keepzoom">0%</text>
-            <text x="245" y="15" class="right" data-from="2046 10 keepzoom"></text>
+            <path data-line="wege" data-speed="1000" d="M 225,25 v -0.6" data-from="2046 15 keepzoom" />
+            <text x="245" y="15" class="label right" data-from="2046 15 keepzoom">0%</text>
+            <text x="245" y="15" class="right" data-from="2046 15 keepzoom"></text>
         </g>
 
         <g transform="translate(-387.5 340)">
@@ -1375,9 +1389,9 @@
             <text x="180" y="15" class="label secondary" data-from="2046 1 keepzoom">6%</text>
             <text x="180" y="15" data-from="2046 1 keepzoom"></text>
 
-            <path data-line="wege" data-speed="1000" d="M 225,25 v -3.5" data-from="2046 10 keepzoom" />
-            <text x="245" y="15" class="label right" data-from="2046 10 keepzoom">0%</text>
-            <text x="245" y="15" class="right" data-from="2046 10 keepzoom"></text>
+            <path data-line="wege" data-speed="1000" d="M 225,25 v -3.5" data-from="2046 15 keepzoom" />
+            <text x="245" y="15" class="label right" data-from="2046 15 keepzoom">0%</text>
+            <text x="245" y="15" class="right" data-from="2046 15 keepzoom"></text>
         </g>
 
         <g transform="translate(-262.5 340)">
@@ -1387,9 +1401,9 @@
             <text x="180" y="15" class="label secondary" data-from="2046 1 keepzoom">11%</text>
             <text x="180" y="15" data-from="2046 1 keepzoom"></text>
 
-            <path data-line="wege" data-speed="1000" d="M 225,25 v -13.3" data-from="2046 10 keepzoom" />
-            <text x="245" y="15" class="label right" data-from="2046 10 keepzoom">1%</text>
-            <text x="245" y="15" class="right" data-from="2046 10 keepzoom"></text>
+            <path data-line="wege" data-speed="1000" d="M 225,25 v -13.3" data-from="2046 15 keepzoom" />
+            <text x="245" y="15" class="label right" data-from="2046 15 keepzoom">1%</text>
+            <text x="245" y="15" class="right" data-from="2046 15 keepzoom"></text>
         </g>
 
         <g transform="translate(-137.5 340)">
@@ -1399,9 +1413,9 @@
             <text x="180" y="15" class="label secondary" data-from="2046 1 keepzoom">25%</text>
             <text x="180" y="15" data-from="2046 1 keepzoom"></text>
 
-            <path data-line="wege" data-speed="1000" d="M 225,25 v -59.8" data-from="2046 10 keepzoom" />
-            <text x="245" y="15" class="label right" data-from="2046 10 keepzoom">6%</text>
-            <text x="245" y="15" class="right" data-from="2046 10 keepzoom"></text>
+            <path data-line="wege" data-speed="1000" d="M 225,25 v -59.8" data-from="2046 15 keepzoom" />
+            <text x="245" y="15" class="label right" data-from="2046 15 keepzoom">6%</text>
+            <text x="245" y="15" class="right" data-from="2046 15 keepzoom"></text>
         </g>
 
         <g transform="translate(-12.5 340)">
@@ -1411,9 +1425,9 @@
             <text x="180" y="15" class="label secondary" data-from="2046 1 keepzoom">20%</text>
             <text x="180" y="15" data-from="2046 1 keepzoom"></text>
 
-            <path data-line="wege" data-speed="1000" d="M 225,25 v -102.2" data-from="2046 10 keepzoom" />
-            <text x="245" y="15" class="label right" data-from="2046 10 keepzoom">10%</text>
-            <text x="245" y="15" class="right" data-from="2046 10 keepzoom"></text>
+            <path data-line="wege" data-speed="1000" d="M 225,25 v -102.2" data-from="2046 15 keepzoom" />
+            <text x="245" y="15" class="label right" data-from="2046 15 keepzoom">10%</text>
+            <text x="245" y="15" class="right" data-from="2046 15 keepzoom"></text>
         </g>
 
         <g transform="translate(112.5 340)">
@@ -1423,9 +1437,9 @@
             <text x="180" y="15" class="label secondary" data-from="2046 1 keepzoom">18%</text>
             <text x="180" y="15" data-from="2046 1 keepzoom"></text>
 
-            <path data-line="wege" data-speed="1000" d="M 225,25 v -186.7" data-from="2046 10 keepzoom" />
-            <text x="245" y="15" class="label right" data-from="2046 10 keepzoom">19%</text>
-            <text x="245" y="15" class="right" data-from="2046 10 keepzoom"></text>
+            <path data-line="wege" data-speed="1000" d="M 225,25 v -186.7" data-from="2046 15 keepzoom" />
+            <text x="245" y="15" class="label right" data-from="2046 15 keepzoom">19%</text>
+            <text x="245" y="15" class="right" data-from="2046 15 keepzoom"></text>
         </g>
 
         <g transform="translate(237.5 340)">
@@ -1435,9 +1449,9 @@
             <text x="180" y="15" class="label secondary" data-from="2046 1 keepzoom">13%</text>
             <text x="180" y="15" data-from="2046 1 keepzoom"></text>
 
-            <path data-line="wege" data-speed="1000" d="M 225,25 v -262.8" data-from="2046 10 keepzoom" />
-            <text x="245" y="15" class="label right" data-from="2046 10 keepzoom">26%</text>
-            <text x="245" y="15" class="right" data-from="2046 10 keepzoom"></text>
+            <path data-line="wege" data-speed="1000" d="M 225,25 v -262.8" data-from="2046 15 keepzoom" />
+            <text x="245" y="15" class="label right" data-from="2046 15 keepzoom">26%</text>
+            <text x="245" y="15" class="right" data-from="2046 15 keepzoom"></text>
         </g>
 
         <g transform="translate(362.5 340)">
@@ -1447,9 +1461,9 @@
             <text x="180" y="15" class="label secondary" data-from="2046 1 keepzoom">3%</text>
             <text x="180" y="15" data-from="2046 1 keepzoom"></text>
 
-            <path data-line="wege" data-speed="1000" d="M 225,25 v -130.3" data-from="2046 10 keepzoom" />
-            <text x="245" y="15" class="label right" data-from="2046 10 keepzoom">13%</text>
-            <text x="245" y="15" class="right" data-from="2046 10 keepzoom"></text>
+            <path data-line="wege" data-speed="1000" d="M 225,25 v -130.3" data-from="2046 15 keepzoom" />
+            <text x="245" y="15" class="label right" data-from="2046 15 keepzoom">13%</text>
+            <text x="245" y="15" class="right" data-from="2046 15 keepzoom"></text>
         </g>
 
         <g transform="translate(487.5 340)">
@@ -1459,14 +1473,14 @@
             <text x="180" y="15" class="label secondary" data-from="2046 1 keepzoom">2%</text>
             <text x="180" y="15" data-from="2046 1 keepzoom"></text>
 
-            <path data-line="wege" data-speed="1000" d="M 225,25 v -241.7" data-from="2046 10 keepzoom" />
-            <text x="245" y="15" class="label right" data-from="2046 10 keepzoom">24%</text>
-            <text x="245" y="15" class="right" data-from="2046 10 keepzoom"></text>
+            <path data-line="wege" data-speed="1000" d="M 225,25 v -241.7" data-from="2046 15 keepzoom" />
+            <text x="245" y="15" class="label right" data-from="2046 15 keepzoom">24%</text>
+            <text x="245" y="15" class="right" data-from="2046 15 keepzoom"></text>
         </g>
     </g>
 
-    <g id="sectors" >
-        <path class="helper" stroke="none" d="M 13549,14188 L -13,14188 -13,-2 27111,-2 27111,14188 13549,14188 Z" data-from="2080 1" />
+    <g id="sectors" transform="translate(44000 10000) scale(0.1)">
+        <path class="helper" stroke="none" d="M 13549,14188 L -13,14188 -13,-2 27111,-2 27111,14188 13549,14188 Z" data-from="2075 35" />
         <path stroke-width="10" fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 11495,12829 L 1721,12829 1721,899 21269,899 21269,12829 11495,12829 Z"/>
         <path stroke-width="10" fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 21269,12828 L 1721,12828"/>
         <path stroke-width="10" fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 21269,10840 L 1721,10840"/>
@@ -1556,7 +1570,7 @@
         <path fill="none" data-speed="100000" data-line="sectorline" data-from="2080 3 keepzoom" class="sectorline secondary" stroke="rgb(84,110,122)" stroke-width="80" stroke-linejoin="round" d="M 1721,2887 L 2395,3784 3069,4163 3743,4509 4417,4374 5091,4311 5765,4709 6439,4545 7113,5152 7787,5509 8462,5524 9136,5905 9810,5986 10484,5959 11158,5929 11832,6144 12506,5964 13180,5654 13853,5777 14527,6670 15202,6190 15876,6295 16550,6490 17224,6471 17898,6465 18572,6201 19246,6057 19920,5859 20594,6140 21269,6341"/>
         <path fill="none" data-speed="100000" data-line="sectorline" data-from="2080 4 keepzoom" class="sectorline secondary" stroke="rgb(84,110,122)" stroke-width="80" stroke-linejoin="round" d="M 1721,2887 L 2395,2961 3069,3815 3743,3497 4417,4007 5091,3937 5765,2838 6439,3464 7113,3849 7787,4639 8462,4925 9136,3965 9810,4580 10484,4928 11158,5429 11832,5543 12506,5149 13180,6862 13853,5647 14527,6248 15202,5809 15876,6804 16550,6667 17224,6215 17898,7230 18572,6956 19246,6932 19920,7036 20594,7333 21269,7083"/>
         <path fill="none" data-speed="100000" data-line="sectorline" data-from="2080 5 keepzoom" class="sectorline secondary" stroke="rgb(84,110,122)" stroke-width="80" stroke-linejoin="round" d="M 1721,2887 L 2395,2549 3069,2437 3743,2539 4417,2818 5091,3145 5765,3597 6439,4424 7113,5052 7787,5547 8462,6013 9136,6505 9810,6919 10484,7352 11158,7974 11832,8376 12506,8875 13180,9241 13853,9576 14527,9909 15202,10209 15876,10418 16550,10616 17224,10806 17898,10951 18572,11097 19246,11223 19920,11312 20594,11405 21269,11530"/>
-        <path fill="none" data-speed="100000" data-line="sectorline" data-from="2080 8 keepzoom" class="sectorline" stroke="rgb(183,28,28)" stroke-width="120" stroke-linejoin="round" d="M 1721,2887 L 2395,2706 3069,2349 3743,2085 4417,2330 5091,2107 5765,2132 6439,2107 7113,1907 7787,1597 8462,1837 9136,2072 9810,2225 10484,2611 11158,2636 11832,3123 12506,3364 13180,3539 13853,3561 14527,3598 15202,3531 15876,3404 16550,3494 17224,3242 17898,3170 18572,2992 19246,2804 19920,2633 20594,2973 21269,2863"/>
+        <path fill="none" data-speed="100000" data-line="sectorline" data-from="2080 7 keepzoom" class="sectorline" stroke="rgb(183,28,28)" stroke-width="120" stroke-linejoin="round" d="M 1721,2887 L 2395,2706 3069,2349 3743,2085 4417,2330 5091,2107 5765,2132 6439,2107 7113,1907 7787,1597 8462,1837 9136,2072 9810,2225 10484,2611 11158,2636 11832,3123 12506,3364 13180,3539 13853,3561 14527,3598 15202,3531 15876,3404 16550,3494 17224,3242 17898,3170 18572,2992 19246,2804 19920,2633 20594,2973 21269,2863"/>
 
         <text class="SVGTextShape" transform="rotate(-44.9 1240 13878)"><tspan class="TextParagraph" font-size="353px" font-weight="400"><tspan class="TextPosition" x="1240" y="13878"><tspan fill="rgb(0,0,0)" stroke="none" style="white-space: pre">1990</tspan></tspan></tspan></text>
         <text class="SVGTextShape" transform="rotate(-44.9 1914 13878)"><tspan class="TextParagraph" font-size="353px" font-weight="400"><tspan class="TextPosition" x="1914" y="13878"><tspan fill="rgb(0,0,0)" stroke="none" style="white-space: pre">1991</tspan></tspan></tspan></text>
@@ -1597,18 +1611,107 @@
         <text class="SVGTextShape"><tspan class="TextParagraph" font-size="353px" font-weight="400"><tspan class="TextPosition" x="566" y="1024"><tspan fill="rgb(0,0,0)" stroke="none" style="white-space: pre">120%</tspan></tspan></tspan></text>
         <text class="SVGTextShape"><tspan class="TextParagraph" font-size="459px" font-weight="700"><tspan class="TextPosition" x="4725" y="553"><tspan fill="rgb(0,0,0)" stroke="none" style="white-space: pre">Entwicklung der Treibhausgas-Emissionen per Sektor seit 1990</tspan></tspan></tspan></text>
        
-        <text  data-from="2080 8 keepzoom" class="SVGTextShape linechart-label"><tspan class="TextParagraph" font-size="494px" font-weight="700"><tspan class="TextPosition" x="21350" y="2863"><tspan fill="rgb(0,0,0)" stroke="none" style="white-space: pre">Verkehr</tspan></tspan></tspan></text>
+        <text  data-from="2080 7 keepzoom" class="SVGTextShape linechart-label"><tspan class="TextParagraph" font-size="494px" font-weight="700"><tspan class="TextPosition" x="21350" y="2863"><tspan fill="rgb(0,0,0)" stroke="none" style="white-space: pre">Verkehr</tspan></tspan></tspan></text>
         <text  data-from="2080 1 keepzoom" class="SVGTextShape linechart-label"><tspan class="TextParagraph" font-size="494px" font-weight="700"><tspan class="TextPosition" x="21350" y="5103"><tspan fill="rgb(0,0,0)" stroke="none" style="white-space: pre">Landwirtschaft</tspan></tspan></tspan></text>
         <text  data-from="2080 2 keepzoom" class="SVGTextShape linechart-label"><tspan class="TextParagraph" font-size="494px" font-weight="700"><tspan class="TextPosition" x="21350" y="7432"><tspan fill="rgb(0,0,0)" stroke="none" style="white-space: pre">Energiewirtschaft</tspan></tspan></tspan></text>
         <text  data-from="2080 3 keepzoom" class="SVGTextShape linechart-label"><tspan class="TextParagraph" font-size="494px" font-weight="700"><tspan class="TextPosition" x="21350" y="6341"><tspan fill="rgb(0,0,0)" stroke="none" style="white-space: pre">Industrie</tspan></tspan></tspan></text>
         <text  data-from="2080 4 keepzoom" class="SVGTextShape linechart-label"><tspan class="TextParagraph" font-size="494px" font-weight="700"><tspan class="TextPosition" x="21350" y="7083"><tspan fill="rgb(0,0,0)" stroke="none" style="white-space: pre">Gebäude</tspan></tspan></tspan></text>
         <text  data-from="2080 5 keepzoom" class="SVGTextShape linechart-label"><tspan class="TextParagraph" font-size="494px" font-weight="700"><tspan class="TextPosition" x="21350" y="11530"><tspan fill="rgb(0,0,0)" stroke="none" style="white-space: pre">Abfallwirtschaft etc.</tspan></tspan></tspan></text>
     </g>
+
+    <g id="invest" transform="translate(40000 10000) scale(0.1)">
+
+        <path class="helper" stroke="none" d="M 13904,14605 L 698,14605 698,-3 27111,-3 27111,14605 13904,14605 Z" data-from="2075 1" data-to="2075 35 nozoom"/>
+        <path stroke-width="10" fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 11904,13207 L 2386,13207 2386,925 21422,925 21422,13207 11904,13207 Z"/>
+        <path stroke-width="10" fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 21422,13206 L 2386,13206"/>
+        <path stroke-width="10" fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 21422,11159 L 2386,11159"/>
+        <path stroke-width="10" fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 21422,9112 L 2386,9112"/>
+        <path stroke-width="10" fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 21422,7065 L 2386,7065"/>
+        <path stroke-width="10" fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 21422,5018 L 2386,5018"/>
+        <path stroke-width="10" fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 21422,2971 L 2386,2971"/>
+        <path stroke-width="10" fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 21422,924 L 2386,924"/>
+        <path stroke-width="10" fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 2386,13356 L 2386,13206"/>
+        <path stroke-width="10" fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 2386,13356 L 2386,13206"/>
+        <path stroke-width="10" fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 3973,13356 L 3973,13206"/>
+        <path stroke-width="10" fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 3973,13356 L 3973,13206"/>
+        <path stroke-width="10" fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 5559,13356 L 5559,13206"/>
+        <path stroke-width="10" fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 5559,13356 L 5559,13206"/>
+        <path stroke-width="10" fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 7145,13356 L 7145,13206"/>
+        <path stroke-width="10" fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 7145,13356 L 7145,13206"/>
+        <path stroke-width="10" fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 8731,13356 L 8731,13206"/>
+        <path stroke-width="10" fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 8731,13356 L 8731,13206"/>
+        <path stroke-width="10" fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 10318,13356 L 10318,13206"/>
+        <path stroke-width="10" fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 10318,13356 L 10318,13206"/>
+        <path stroke-width="10" fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 11904,13356 L 11904,13206"/>
+        <path stroke-width="10" fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 11904,13356 L 11904,13206"/>
+        <path stroke-width="10" fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 13490,13356 L 13490,13206"/>
+        <path stroke-width="10" fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 13490,13356 L 13490,13206"/>
+        <path stroke-width="10" fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 15076,13356 L 15076,13206"/>
+        <path stroke-width="10" fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 15076,13356 L 15076,13206"/>
+        <path stroke-width="10" fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 16663,13356 L 16663,13206"/>
+        <path stroke-width="10" fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 16663,13356 L 16663,13206"/>
+        <path stroke-width="10" fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 18249,13356 L 18249,13206"/>
+        <path stroke-width="10" fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 18249,13356 L 18249,13206"/>
+        <path stroke-width="10" fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 19835,13356 L 19835,13206"/>
+        <path stroke-width="10" fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 19835,13356 L 19835,13206"/>
+        <path stroke-width="10" fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 21422,13356 L 21422,13206"/>
+        <path stroke-width="10" fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 21422,13356 L 21422,13206"/>
+        <path stroke-width="10" fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 2386,13206 L 21422,13206"/>
+        <path stroke-width="10" fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 2240,13206 L 2386,13206"/>
+        <path stroke-width="10" fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 2240,13206 L 2386,13206"/>
+        <path stroke-width="10" fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 2240,11159 L 2386,11159"/>
+        <path stroke-width="10" fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 2240,11159 L 2386,11159"/>
+        <path stroke-width="10" fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 2240,9112 L 2386,9112"/>
+        <path stroke-width="10" fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 2240,9112 L 2386,9112"/>
+        <path stroke-width="10" fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 2240,7065 L 2386,7065"/>
+        <path stroke-width="10" fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 2240,7065 L 2386,7065"/>
+        <path stroke-width="10" fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 2240,5018 L 2386,5018"/>
+        <path stroke-width="10" fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 2240,5018 L 2386,5018"/>
+        <path stroke-width="10" fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 2240,2971 L 2386,2971"/>
+        <path stroke-width="10" fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 2240,2971 L 2386,2971"/>
+        <path stroke-width="10" fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 2240,924 L 2386,924"/>
+        <path stroke-width="10" fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 2240,924 L 2386,924"/>
+        <path stroke-width="10" fill="none" stroke="rgb(179,179,179)" stroke-linejoin="round" d="M 2386,13206 L 2386,924"/>
+        <path fill="none" stroke="rgb(183,28,28)" stroke-width="78" data-speed="100000" data-line="sectorline" data-from="2075 2 keepzoom" class="sectorline" stroke-linejoin="round" d="M 2386,8757 L 3973,8506 5559,8925 7145,7834 8731,8254 10318,8506 11904,7834 13490,7414 15076,6743 16663,6827 18249,5821 19835,2799 21422,3482"/>
+        <path fill="none" stroke="rgb(84,110,122)" stroke-width="78" data-speed="100000" data-line="sectorline" data-from="2075 1 keepzoom" class="sectorline" stroke-linejoin="round" d="M 2386,7576 L 3973,7883 5559,7781 7145,7679 8731,7576 10318,7986 11904,6963 13490,6553 15076,5530 16663,5263 18249,4710 19835,4353 21422,4500"/>
+        <text class="SVGTextShape"><tspan class="TextParagraph" font-size="353px" font-weight="400"><tspan class="TextPosition" x="1994" y="13783"><tspan fill="rgb(0,0,0)" stroke="none" style="white-space: pre">2010</tspan></tspan></tspan></text>
+        <text class="SVGTextShape"><tspan class="TextParagraph" font-size="353px" font-weight="400"><tspan class="TextPosition" x="3581" y="13783"><tspan fill="rgb(0,0,0)" stroke="none" style="white-space: pre">2011</tspan></tspan></tspan></text>
+        <text class="SVGTextShape"><tspan class="TextParagraph" font-size="353px" font-weight="400"><tspan class="TextPosition" x="5167" y="13783"><tspan fill="rgb(0,0,0)" stroke="none" style="white-space: pre">2012</tspan></tspan></tspan></text>
+        <text class="SVGTextShape"><tspan class="TextParagraph" font-size="353px" font-weight="400"><tspan class="TextPosition" x="6753" y="13783"><tspan fill="rgb(0,0,0)" stroke="none" style="white-space: pre">2013</tspan></tspan></tspan></text>
+        <text class="SVGTextShape"><tspan class="TextParagraph" font-size="353px" font-weight="400"><tspan class="TextPosition" x="8339" y="13783"><tspan fill="rgb(0,0,0)" stroke="none" style="white-space: pre">2014</tspan></tspan></tspan></text>
+        <text class="SVGTextShape"><tspan class="TextParagraph" font-size="353px" font-weight="400"><tspan class="TextPosition" x="9926" y="13783"><tspan fill="rgb(0,0,0)" stroke="none" style="white-space: pre">2015</tspan></tspan></tspan></text>
+        <text class="SVGTextShape"><tspan class="TextParagraph" font-size="353px" font-weight="400"><tspan class="TextPosition" x="11512" y="13783"><tspan fill="rgb(0,0,0)" stroke="none" style="white-space: pre">2016</tspan></tspan></tspan></text>
+        <text class="SVGTextShape"><tspan class="TextParagraph" font-size="353px" font-weight="400"><tspan class="TextPosition" x="13098" y="13783"><tspan fill="rgb(0,0,0)" stroke="none" style="white-space: pre">2017</tspan></tspan></tspan></text>
+        <text class="SVGTextShape"><tspan class="TextParagraph" font-size="353px" font-weight="400"><tspan class="TextPosition" x="14684" y="13783"><tspan fill="rgb(0,0,0)" stroke="none" style="white-space: pre">2018</tspan></tspan></tspan></text>
+        <text class="SVGTextShape"><tspan class="TextParagraph" font-size="353px" font-weight="400"><tspan class="TextPosition" x="16271" y="13783"><tspan fill="rgb(0,0,0)" stroke="none" style="white-space: pre">2019</tspan></tspan></tspan></text>
+        <text class="SVGTextShape"><tspan class="TextParagraph" font-size="353px" font-weight="400"><tspan class="TextPosition" x="17857" y="13783"><tspan fill="rgb(0,0,0)" stroke="none" style="white-space: pre">2020</tspan></tspan></tspan></text>
+        <text class="SVGTextShape"><tspan class="TextParagraph" font-size="353px" font-weight="400"><tspan class="TextPosition" x="19443" y="13783"><tspan fill="rgb(0,0,0)" stroke="none" style="white-space: pre">2021</tspan></tspan></tspan></text>
+        <text class="SVGTextShape"><tspan class="TextParagraph" font-size="353px" font-weight="400"><tspan class="TextPosition" x="21030" y="13783"><tspan fill="rgb(0,0,0)" stroke="none" style="white-space: pre">2022</tspan></tspan></tspan></text>
+        <text class="SVGTextShape"><tspan class="TextParagraph" font-size="353px" font-weight="400"><tspan class="TextPosition" x="1947" style="text-anchor:end" y="13332"><tspan fill="rgb(0,0,0)" stroke="none" style="white-space: pre">0 €</tspan></tspan></tspan></text>
+        <text class="SVGTextShape"><tspan class="TextParagraph" font-size="353px" font-weight="400"><tspan class="TextPosition" x="1947" style="text-anchor:end" y="11285"><tspan fill="rgb(0,0,0)" stroke="none" style="white-space: pre">2 Mrd. €</tspan></tspan></tspan></text>
+        <text class="SVGTextShape"><tspan class="TextParagraph" font-size="353px" font-weight="400"><tspan class="TextPosition" x="1947" style="text-anchor:end" y="9239"><tspan fill="rgb(0,0,0)" stroke="none" style="white-space: pre">4 Mrd. €</tspan></tspan></tspan></text>
+        <text class="SVGTextShape"><tspan class="TextParagraph" font-size="353px" font-weight="400"><tspan class="TextPosition" x="1947" style="text-anchor:end" y="7191"><tspan fill="rgb(0,0,0)" stroke="none" style="white-space: pre">6 Mrd. €</tspan></tspan></tspan></text>
+        <text class="SVGTextShape"><tspan class="TextParagraph" font-size="353px" font-weight="400"><tspan class="TextPosition" x="1947" style="text-anchor:end" y="5145"><tspan fill="rgb(0,0,0)" stroke="none" style="white-space: pre">8 Mrd. €</tspan></tspan></tspan></text>
+        <text class="SVGTextShape"><tspan class="TextParagraph" font-size="353px" font-weight="400"><tspan class="TextPosition" x="1947" style="text-anchor:end" y="3097"><tspan fill="rgb(0,0,0)" stroke="none" style="white-space: pre">10 Mrd. €</tspan></tspan></tspan></text>
+        <text class="SVGTextShape"><tspan class="TextParagraph" font-size="353px" font-weight="400"><tspan class="TextPosition" x="1947" style="text-anchor:end" y="1051"><tspan fill="rgb(0,0,0)" stroke="none" style="white-space: pre">12 Mrd. €</tspan></tspan></tspan></text>
+        <text class="SVGTextShape"><tspan class="TextParagraph" font-size="459px" font-weight="700"><tspan class="TextPosition" x="5313" y="553"><tspan fill="rgb(0,0,0)" stroke="none" style="white-space: pre">Investitionen des Bundes in Bundesfernstraßen und Bundesschienenwege</tspan></tspan></tspan></text>
+        <path fill="none" stroke="rgb(183,28,28)" stroke-width="78" stroke-linejoin="round" d="M 22012,5100 L 22791,5100"/>
+        <path fill="none" stroke="rgb(84,110,122)" stroke-width="78" stroke-linejoin="round" d="M 22012,5700 L 22791,5700"/>
+        <text class="SVGTextShape"><tspan class="TextParagraph" font-size="494px" font-weight="700"><tspan class="TextPosition" x="22897" y="5276"><tspan fill="rgb(0,0,0)" stroke="none" style="white-space: pre">Schiene</tspan></tspan></tspan></text>
+        <text class="SVGTextShape"><tspan class="TextParagraph" font-size="494px" font-weight="700"><tspan class="TextPosition" x="22897" y="5876"><tspan fill="rgb(0,0,0)" stroke="none" style="white-space: pre">Straße</tspan></tspan></tspan></text>
+    </g>
 </g>
 </g>
 
 <rect id="epoch-label-bg" x="16990" y="9750" width="180" height="90" data-from="2040 1 noanim-keepzoom" data-to="2040 70 noanim-keepzoom" />
 <text id="custom-epoch-label" x="17080" y="9800" data-from="2040 1 noanim-keepzoom" data-to="2040 70 noanim-keepzoom"></text>
+
+
+<image id="kursbuch" href="res/Kursbuch_1944_202a,b,c.jpg" preserveAspectRatio="xMidYMid slice" class="cover" data-from="2041 55 keepzoom" data-to="2041 68 keepzoom" data-zoom="55 50" />
+<text x="17200" y="10740" data-inset="kursbuch" data-from="2041 55 keepzoom" data-to="2041 68 keepzoom" class="shadow caption">Deutsches Kursbuch 1944/45. WeicheW. CC-BY-SA 4.0.</text>
+
+<image id="aalen" href="res/aalen.jpg" preserveAspectRatio="xMidYMid slice" class="cover" data-from="2075 25 keepzoom" data-to="2075 36 keepzoom" data-zoom="55 50" />
+
 
 <script xlink:href="deutschlandtakt.js" />
 <script xlink:href="../../dist/network-animator.js" />

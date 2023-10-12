@@ -28,7 +28,7 @@ fetch('research/analysis-dtakt-railml.json').then(resp => resp.json()).then(json
     console.log(bb);
 
     TNA.Config.default.gravitatorUseInclinationInertness = false;
-    TNA.Config.default.gravitatorInertness = 0.25;
+    TNA.Config.default.gravitatorInertness = 0.1;
     TNA.Config.default.mapProjectionScale = 100;
     TNA.Config.default.trainWagonLength = 10;
     TNA.Config.default.trainTimetableSpeed = 180;

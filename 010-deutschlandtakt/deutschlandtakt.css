@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap');
 
-#elements rect {
+#fernverkehr rect {
     stroke: black;
     fill: white;
     rx: 5;
@@ -29,6 +29,12 @@
 
 #itf path {
     stroke-width: 2;
+}
+
+#itf rect {
+    stroke: #546E7A;
+    fill: #546E7A;
+    stroke-width: 5;
 }
 
 #fernverkehr text, text.caption {
@@ -166,6 +172,13 @@ image.cover {
 #regionalverkehr.dtakt rect.dtakt-some {
     fill: black;
 }
+#regionalverkehr text.for-station {
+    font-size: 30px;
+    dominant-baseline: middle;
+}
+#regionalverkehr.diff #legend {
+    opacity: 0;
+} 
 
 #itf path {
     opacity: 1;
