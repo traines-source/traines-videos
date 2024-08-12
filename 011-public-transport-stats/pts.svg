@@ -1,0 +1,115 @@
+<?xml-stylesheet type="text/css" href="pts.css" ?>
+<svg viewBox="-2000 -2000 1920 1080" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" data-beck-style="true" data-auto-start="false">
+
+
+<script xlink:href="d3.v7.min.js" />
+<script xlink:href="pts.js" />
+<rect x="-3000" y="-3000" width="5000" height="5000" fill="#f2f2f2" />
+
+<g id="zoomable">
+<g id="elements">
+
+   <g id="intro" data-from="1 0" transform="translate(-2000 0)">
+         <text x="0" y="0" class="heading"  style="text-anchor:start !important;">»Deutsche Bahn: Jeder dritte Fernzug ist verspätet« <tspan class="source">– Tagesschau.de vom 18. Juli 2024</tspan></text>
+         <text x="0" y="70" class="heading" style="text-anchor:start !important;">»Deutsche Bahn im Juni 2024 so unpünktlich wie nie zuvor« <tspan class="source">– Süddeutsche Zeitung vom 1. Juli 2024</tspan></text>
+         <text x="0" y="140" class="heading"  style="text-anchor:start !important;">»Fernverkehr: Pünktlichkeit der Deutschen Bahn erneut verschlechtert« <tspan class="source">– ZEIT Online vom 15. Juni 2024</tspan></text>
+         <g class="helper" data-from="1 15 keepzoom"></g>
+   </g>
+
+   <g data-from="2 0">
+      <g id="fernverkehr" class="barchart" data-from="6 0">
+         <text x="500" y="-30" class="heading" data-from="2 0 keepzoom" data-to="6 4 keepzoom">Verteilung der absoluten Verspätungen bei ICEs</text>
+         <g class="helper" data-from="2 10 keepzoom"></g>
+      </g>
+   </g>
+   <g id="cancelled-pie" class="piechart" data-from="2 40 keepzoom" data-to="2 60 keepzoom" transform="translate(900 200)" style="visibility:hidden">
+   
+   </g>
+   <g id="fernverkehr-timeseries" class="barchart" data-from="3 0" transform="translate(0 2000)">
+   <g class="helper" data-from="3 16 keepzoom"></g>
+      <text x="500" y="-30" class="heading">Fernverkehr: 5-Minuten-Pünktlichkeit und Ausfälle im Zeitverlauf</text>
+   </g>
+
+
+   <g id="regional" data-from="6 4 keepzoom" onfocus="barchart('fernverkehr', 'regional', true, 500)">
+      <text x="500" y="-30" class="heading" data-from="6 4 keepzoom" data-to="6 19 keepzoom" style="visibility:hidden" >Verteilung der absoluten Verspätungen im Regionalverkehr</text>
+   </g>
+
+   <g id="suburban" data-from="7 0 keepzoom" onfocus="barchart('fernverkehr', 'suburban', true, 500)">
+      <text x="500" y="-30" class="heading" data-from="7 0 keepzoom" style="visibility:hidden">Verteilung der absoluten Verspätungen im S-Bahn-Verkehr</text>
+      <g class="helper" data-from="7 15 keepzoom"></g>
+   </g>
+
+   <g id="bus" class="barchart" data-from="8 0" transform="translate(2000 0)">
+      <text x="500" y="0" class="heading">Verteilung der absoluten Verspätungen bei Bus ...</text>
+   </g>
+   <g id="tram" class="barchart" data-from="8 0" transform="translate(2000 150)">
+      <text x="500" y="0" class="heading">... Tram ...</text>
+
+   </g>
+   <g id="subway" class="barchart" data-from="8 0" transform="translate(2000 300)">
+      <text x="500" y="0" class="heading">... U-Bahn</text>
+      <g class="helper" data-from="8 30 keepzoom"></g>
+
+   </g>
+
+
+   <g id="fernverkehr-relative" class="barchart" data-from="10 0" transform="translate(4000 0)">
+      <g class="helper" data-from="10 55 keepzoom"></g>
+      <text x="500" y="-30" class="heading">Verteilung der relativen endgültigen Verspätungen eines ICE bei einer bekannten Verspätung von 10 Minuten und Abfahrt in 45 Minuten</text>
+   </g>
+
+
+   <g id="fernverkehr-heatmap" class="barchart" data-from="20 0" transform="translate(6000 0)">
+      <g class="helper" data-from="20 20 keepzoom"></g>
+      <text x="500" y="-30" class="heading">Verteilung der relativen endgültigen Verspätungen eines ICE abhängig von der aktuell bekannten Verspätung bei Abfahrt in 45 Minuten</text>
+   </g>
+
+   <g id="fernverkehr-heatmap-ttl" class="barchart" data-from="30 0" transform="translate(8000 0)">
+      <g class="helper" data-from="30 20 keepzoom"></g>
+      <text x="500" y="-30" class="heading">Verteilung der relativen endgültigen Verspätungen eines ICE mit einer bekannten Verspätung von 10 Minuten abhängig von der Zeit bis zur Abfahrt</text>
+   </g>
+
+   <g id="samples-retained" class="barchart" data-from="35 0" transform="translate(10000 0)">
+      <g class="helper" data-from="35 25 keepzoom"></g>
+      <g class="helper" data-from="36 17 keepzoom"></g>
+      <text x="500" y="-30" class="heading">Anzahl erfasster Datenpunkte im Zeitverlauf</text>
+   </g>
+
+   <g id="official" class="barchart" data-from="40 0" transform="translate(12000 0)">
+      <g class="helper" data-from="40 27 keepzoom"></g>
+      <g class="helper" data-from="45 12 keepzoom"></g>
+      <text x="500" y="-30" class="heading">Vergleich 5-Minuten-Pünktlichkeit Fernverkehr laut <tspan class="primary">Deutscher Bahn</tspan> vs. laut <tspan class="secondary">erhobener Daten</tspan></text>
+   </g>
+
+
+
+   <g id="bus-hours" class="barchart" data-from="50 0" transform="translate(14000 0)">
+      <text x="500" y="-30" class="heading" data-to="50 13 keepzoom">5-Minuten-Pünktlichkeit abhängig von der Tageszeit bei Bussen</text>
+   </g>
+
+   <g id="suburban-hours" data-from="50 13 keepzoom" transform="translate(14000 0)" onfocus="hour_barchart('bus-hours', 'suburban-hours', true)">
+      <text x="500" y="-30" class="heading" data-from="50 13 keepzoom" data-to="50 27 keepzoom" style="visibility:hidden" >5-Minuten-Pünktlichkeit abhängig von der Tageszeit bei S-Bahnen</text>
+   </g>
+   <g id="fernverkehr-hours" data-from="50 27 keepzoom" transform="translate(14000 0)" onfocus="hour_barchart('bus-hours', 'fernverkehr-hours', true)">
+      <text x="500" y="-30" class="heading" data-from="50 27 keepzoom" style="visibility:hidden" >5-Minuten-Pünktlichkeit abhängig von der Tageszeit bei ICEs</text>
+   </g>
+</g>
+</g>
+
+
+
+
+<image id="tafel" href="res/tafel.jpg" preserveAspectRatio="xMidYMid slice" class="cover" data-from="36 0 keepzoom" data-to="36 15 keepzoom" data-zoom="50 55" />
+<text x="-100" y="-960" data-inset="tafel" data-from="36 0 keepzoom" data-to="36 15 keepzoom" class="shadow caption">Historisches Schild im DB Museum Nürnberg.</text>
+
+<image id="pforzheim" href="res/pforzheim.jpg" preserveAspectRatio="xMidYMid slice" class="cover" data-from="45 0 keepzoom" data-to="45 10 keepzoom" data-zoom="55 55" />
+<text x="-100" y="-960" data-inset="pforzheim" data-from="45 0 keepzoom" data-to="45 10 keepzoom" class="shadow caption">Busbahnhof Pforzheim.</text>
+
+
+<script xlink:href="../../dist/network-animator.js" />
+<script>
+start();
+</script>
+</svg>
+

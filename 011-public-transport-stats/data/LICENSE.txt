@@ -1,0 +1,2 @@
+Source of raw data: https://gtfs.de/de/realtime/, CC-BY-SA 4.0; https://gtfs.de/de/feeds/de_full/, CC-BY 4.0; DB HAFAS.
+More details at https://github.com/traines-source/public-transport-statistics
